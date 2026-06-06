@@ -1,0 +1,17 @@
+- record_type: attestation
+  id: ATT-0003
+  source: SRC-0003
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-PERS-0001
+  provenance: primary_summary
+  citation: al-Yaʿqūbī, Taʾrīkh (Houtsma ed., vol. II, pp. 581-582)
+  paraphrase: Brief but independent confirmation of the main outlines of the campaign.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0001

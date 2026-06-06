@@ -1,0 +1,12 @@
+- record_type: relationship
+  id: REL-0010
+  type: different_from
+  source_entity: SRC-0003
+  target_entity: SRC-0001
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  notes: al-Yaʿqūbī's account is independent of al-Ṭabarī's rather than derivative.

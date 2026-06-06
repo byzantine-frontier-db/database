@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0012
+  standardised_name: Mt Hisar Tepe (the Upper City of Amorium)
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 39.0227
+    longitude: 31.2854
+    crs: EPSG:4326
+    coordinate_source: Amorium excavation survey
+    coordinate_method: archaeological_survey
+    coordinate_precision: site
+    uncertainty_radius_m: 30
+    coordinate_confidence: 5
+  frontier_role: Inner citadel of Amorium; principal defensive position during the
+    838 siege.
+  overall_confidence: 5
+  analytical_summary: Upper town and citadel of Amorium, archaeologically well-documented.
+    Excavations have identified the ninth-century destruction horizon.
+  linked_attestations:
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

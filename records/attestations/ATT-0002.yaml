@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0002
+  source: SRC-0002
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-EVT-0006
+  - ENT-PLC-0001
+  - ENT-PERS-0002
+  provenance: primary_paraphrase
+  citation: Theophanes Continuatus III.29-34 (Featherstone-Signes Codoñer eds., pp.
+    168-195)
+  paraphrase: Byzantine-perspective narration with moralising treatment of Theophilos's
+    failures and explicit attribution of treachery to a named individual.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0002
+  - OBS-0006

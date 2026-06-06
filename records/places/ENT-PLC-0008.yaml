@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0008
+  standardised_name: Anatolikon theme
+  alternative_names:
+  - form: θέμα Ἀνατολικῶν
+    language: grc
+    script: Grek
+  place_type: theme
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 38.5
+    longitude: 31.0
+    crs: EPSG:4326
+    coordinate_source: Approximate centroid
+    coordinate_method: computed_centroid
+    coordinate_precision: region
+    uncertainty_radius_m: 150000
+    coordinate_confidence: 3
+  political_affiliation_history:
+  - value: ENT-POL-0001
+    valid_from: 669
+    valid_to: 1077
+    confidence: 5
+  frontier_role: Largest and most prestigious Byzantine theme of central Anatolia.
+  overall_confidence: 5
+  analytical_summary: Largest Byzantine theme of central Anatolia, with capital at
+    Amorium. v1 models as flat place; v2 polygon-with-time-slice planned.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

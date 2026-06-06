@@ -1,0 +1,25 @@
+- record_type: person
+  id: ENT-PERS-0007
+  standardised_name: Manuel the Armenian
+  alternative_names:
+  - form: Μανουὴλ ὁ Ἀρμένιος
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: general
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Domestikos of the Scholai
+    valid_to: 838
+    confidence: 3
+  overall_confidence: 3
+  analytical_summary: Byzantine general of Armenian origin. Tradition places him with
+    Theophilos at Anzen, saving the emperor from encirclement.
+  linked_attestations:
+  - ATT-0006
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

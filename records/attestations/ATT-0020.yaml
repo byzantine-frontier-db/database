@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0020
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0002
+  - ENT-PLC-0004
+  - ENT-PLC-0005
+  - ENT-PLC-0011
+  provenance: primary_summary
+  citation: al-Ṭabarī, AH 223
+  paraphrase: Account of the assembly at Tarsus and the route taken by both columns
+    northward.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0012

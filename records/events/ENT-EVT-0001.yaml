@@ -1,0 +1,63 @@
+- record_type: event
+  id: ENT-EVT-0001
+  standardised_name: Abbasid campaign against Byzantium, 838
+  event_type:
+    primary: military
+    sub: campaign
+  start_date:
+    start: 0838-04
+    precision: month
+    confidence: 3
+    primary_dating_system: AH
+    alternative_datings:
+    - system: AH
+      value: AH 223
+      normalised_start: '0837-12-03'
+      normalised_end: '0838-11-22'
+    - system: AM_byzantine
+      value: AM 6346
+      normalised_start: '0837-09-01'
+      normalised_end: '0838-08-31'
+  end_date:
+    start: 0838-09
+    precision: month
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0001
+  - ENT-PLC-0002
+  - ENT-PLC-0004
+  - ENT-PLC-0005
+  - ENT-PLC-0006
+  - ENT-PLC-0007
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0002
+  - ENT-PERS-0003
+  political_entities_involved:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  child_events:
+  - ENT-EVT-0002
+  - ENT-EVT-0003
+  - ENT-EVT-0004
+  - ENT-EVT-0005
+  - ENT-EVT-0006
+  - ENT-EVT-0007
+  description: Major Abbasid retaliatory campaign launched by al-Muʿtaṣim against
+    Byzantium in response to Theophilos's attack on Zibatra/Sozopetra in 837.
+  historical_significance: The most consequential single campaign of the ninth-century
+    Byzantine-Abbasid frontier.
+  overall_confidence: 5
+  analytical_summary: Largest single military operation on the Byzantine-Islamic frontier
+    of the ninth century. Produced the symbolic disaster of the sack of Amorium.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0003
+  linked_interpretations:
+  - INT-0001
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

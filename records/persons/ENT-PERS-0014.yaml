@@ -1,0 +1,14 @@
+- record_type: person
+  id: ENT-PERS-0014
+  standardised_name: Christopher S. Lightfoot
+  person_type: scholar
+  overall_confidence: 5
+  analytical_summary: Modern archaeologist; director of the Amorium excavation project
+    from the 1990s.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

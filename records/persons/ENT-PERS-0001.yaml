@@ -1,0 +1,53 @@
+- record_type: person
+  id: ENT-PERS-0001
+  persistent_identifiers:
+    internal_id: ENT-PERS-0001
+    external_identifiers:
+    - authority: pmbz
+      identifier: '16385'
+      uri: https://www.degruyter.com/database/PMBZ/entry/PMBZ16385/html
+    - authority: wikidata
+      identifier: Q314037
+      uri: https://www.wikidata.org/wiki/Q314037
+  standardised_name: al-Muʿtaṣim biʾllāh
+  alternative_names:
+  - form: Abū Isḥāq Muḥammad ibn Hārūn
+    language: ar
+    script: Arab
+    name_type: kunya_nasab
+  - form: Mōtasém
+    language: grc
+    script: Grek
+    name_type: transliteration
+  person_type: caliph
+  political_affiliation: ENT-POL-0002
+  offices_held:
+  - office: Caliph of the Abbasid Caliphate
+    valid_from: 833
+    valid_to: 842
+    confidence: 5
+  birth:
+    date:
+      start: 796
+      end: 796
+      precision: year
+      confidence: 4
+  death:
+    date:
+      start: 842
+      end: 842
+      precision: year
+      confidence: 5
+    place_id: ENT-PLC-0003
+  overall_confidence: 5
+  analytical_summary: Abbasid caliph (r. 833-842), son of Hārūn al-Rashīd. Led the
+    838 campaign in person, founded Samarra, presided over the detention of the Forty-Two
+    Martyrs.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0003
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

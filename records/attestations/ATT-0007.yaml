@@ -1,0 +1,18 @@
+- record_type: attestation
+  id: ATT-0007
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0003
+  - ENT-PLC-0002
+  - ENT-PERS-0003
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, AH 223
+  paraphrase: Names the location Dāzimūn; credits the victory to al-Afshīn's wing.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0003

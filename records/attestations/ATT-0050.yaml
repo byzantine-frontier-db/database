@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0050
+  source: SRC-0006
+  entities_referenced:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  - ENT-PLC-0008
+  - ENT-PLC-0009
+  - ENT-PLC-0010
+  - ENT-PERS-0010
+  - ENT-PERS-0011
+  - ENT-PERS-0012
+  - ENT-PERS-0013
+  - ENT-PERS-0014
+  - ENT-PERS-0015
+  provenance: modern_synthesis
+  citation: Treadgold, Byzantine Revival 780-842 (1988), passim; with cross-references
+    to PMBZ entries for named persons
+  paraphrase: Broad modern synthesis covering the institutional, geographical, and
+    prosopographical context of the 838 campaign. Used as the principal anchoring
+    attestation for entities whose individual primary-source attestations are dispersed.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

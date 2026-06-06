@@ -1,0 +1,35 @@
+- record_type: place
+  id: ENT-PLC-0007
+  standardised_name: Zibatra / Sozopetra
+  alternative_names:
+  - form: Σωζόπετρα
+    language: grc
+    script: Grek
+  - form: Zibaṭra
+    language: ar
+    script: Arab
+  place_type: fortification
+  identification_status: probably_identified
+  identification_confidence: 3
+  coordinates:
+    latitude: 37.96
+    longitude: 38.2
+    crs: EPSG:4326
+    coordinate_source: Modern scholarly identification (TIB 2)
+    coordinate_method: scholarly_identification
+    coordinate_precision: locality
+    uncertainty_radius_m: 15000
+    coordinate_confidence: 3
+  frontier_role: Abbasid frontier town; casus belli of the 838 campaign.
+  overall_confidence: 3
+  analytical_summary: Upper Euphrates frontier town, sacked by Theophilos in 837.
+    Tradition (probably apocryphal) holds al-Muʿtaṣim's mother was from here. Exact
+    location debated.
+  linked_attestations:
+  - ATT-0040
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

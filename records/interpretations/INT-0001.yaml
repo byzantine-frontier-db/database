@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0001
+  associated_entities:
+  - ENT-EVT-0001
+  - ENT-PLC-0001
+  scholar: Treadgold, W.
+  publication: The Byzantine Revival, 780-842 (Stanford, 1988)
+  date: 1988
+  argument: The 838 campaign was strategically and symbolically devastating but did
+    not produce permanent territorial loss; the siege itself, on Treadgold's reconstruction,
+    was relatively brief (~12 days), and Amorium was reoccupied within years. The
+    deeper damage was to Theophilos's prestige.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0001
+  - ATT-0003
+  - ATT-0008
+  counter_evidence:
+  - ATT-0009

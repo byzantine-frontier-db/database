@@ -1,0 +1,74 @@
+- record_type: place
+  id: ENT-PLC-0001
+  persistent_identifiers:
+    internal_id: ENT-PLC-0001
+    external_identifiers:
+    - authority: pleiades
+      identifier: '609302'
+      uri: https://pleiades.stoa.org/places/609302
+    - authority: wikidata
+      identifier: Q174270
+      uri: https://www.wikidata.org/wiki/Q174270
+    - authority: geonames
+      identifier: '312069'
+      uri: https://sws.geonames.org/312069/
+    - authority: tgn
+      identifier: '6000247'
+      uri: http://vocab.getty.edu/tgn/6000247
+  standardised_name: Amorium
+  alternative_names:
+  - form: Amorion
+    language: grc
+    script: Grek
+  - form: ʿAmmūriya
+    language: ar
+    script: Arab
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 39.0211
+    longitude: 31.2867
+    crs: EPSG:4326
+    coordinate_source: Amorium excavation project survey data
+    coordinate_method: archaeological_survey
+    coordinate_precision: site
+    uncertainty_radius_m: 50
+    coordinate_confidence: 5
+  political_affiliation_history:
+  - value: ENT-POL-0001
+    valid_from: 600
+    valid_to: 838
+    confidence: 5
+  - value: ENT-POL-0002
+    valid_from: 838
+    valid_to: 841
+    confidence: 4
+  - value: ENT-POL-0001
+    valid_from: 841
+    valid_to: 1067
+    confidence: 3
+  administrative_status_history:
+  - value: Capital of the Anatolikon theme
+    valid_from: 669
+    valid_to: 838
+    confidence: 5
+  frontier_role: Principal Byzantine military and administrative centre of central
+    Anatolia; capital of the Anatolikon theme.
+  overall_confidence: 5
+  analytical_summary: Amorium was the principal Byzantine military centre of central
+    Anatolia and ancestral home of the Amorian dynasty. Captured by al-Muʿtaṣim August
+    838; archaeologically attested destruction horizon at Hisarköy.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0008
+  - ATT-0009
+  - ATT-0011
+  linked_interpretations:
+  - INT-0001
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

@@ -1,0 +1,18 @@
+- record_type: interpretation
+  id: INT-0005
+  associated_entities:
+  - ENT-PLC-0001
+  scholar: Lightfoot, C. S.
+  publication: Various Anatolian Studies reports
+  date: 2002
+  argument: The 838 destruction horizon at Amorium is a single coherent destruction
+    event rather than the cumulative effect of multiple raids. This supports the textual
+    tradition of a violent sack.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0011

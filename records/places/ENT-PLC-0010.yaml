@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0010
+  standardised_name: Thughūr
+  alternative_names:
+  - form: الثغور
+    language: ar
+    script: Arab
+  place_type: frontier_zone
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 37.0
+    longitude: 38.0
+    crs: EPSG:4326
+    coordinate_source: Approximate centroid
+    coordinate_method: computed_centroid
+    coordinate_precision: region
+    uncertainty_radius_m: 250000
+    coordinate_confidence: 2
+  political_affiliation_history:
+  - value: ENT-POL-0002
+    valid_from: 700
+    valid_to: 945
+    confidence: 4
+  frontier_role: Abbasid front-line frontier zone facing Byzantine Anatolia.
+  overall_confidence: 4
+  analytical_summary: Abbasid front-line frontier zone facing Byzantium, divided into
+    Syrian and Jaziran thughūr. v2 polygon treatment planned.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

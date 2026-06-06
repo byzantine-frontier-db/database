@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0006
+  proposition: A traitor inside Amorium revealed a structurally weak section of the
+    city wall.
+  associated_entities:
+  - ENT-EVT-0005
+  - ENT-PLC-0001
+  - ENT-PERS-0008
+  supporting_attestations:
+  - ATT-0001
+  - ATT-0002
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

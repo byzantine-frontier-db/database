@@ -1,0 +1,22 @@
+- record_type: person
+  id: ENT-PERS-0008
+  standardised_name: Boiditzes
+  alternative_names:
+  - form: Βοϊδίτζης
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: soldier
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 2
+  analytical_summary: Named in some sources as the defector who revealed Amorium's
+    weak wall section. Identification is uncertain; some accounts leave the defector
+    unnamed.
+  linked_attestations:
+  - ATT-0002
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

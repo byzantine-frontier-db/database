@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0006
+  associated_entities:
+  - ENT-PERS-0008
+  scholar: Multiple; see Treadgold 1988
+  publication: Treadgold 1988, p. 304
+  date: 1988
+  argument: The identification of the defector as 'Boiditzes' in the Greek tradition
+    is not corroborated by the Arabic sources, which name a different individual or
+    leave the defector unnamed. The historicity of the specific name is doubtful even
+    if the broader fact of a defection is well-attested.
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0002

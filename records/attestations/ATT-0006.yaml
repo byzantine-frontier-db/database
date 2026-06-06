@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0006
+  source: SRC-0002
+  entities_referenced:
+  - ENT-EVT-0003
+  - ENT-PLC-0002
+  - ENT-PERS-0002
+  - ENT-PERS-0007
+  provenance: primary_paraphrase
+  citation: Theophanes Continuatus III.30
+  paraphrase: Names the battle site Anzen; narrates Theophilos's near-encirclement
+    and rescue by Manuel the Armenian.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0003

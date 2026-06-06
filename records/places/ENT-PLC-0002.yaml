@@ -1,0 +1,41 @@
+- record_type: place
+  id: ENT-PLC-0002
+  standardised_name: Anzen / Dazimon (battle site of 22 July 838)
+  alternative_names:
+  - form: Anzen
+    language: grc
+    script: Grek
+  - form: Dazimon
+    language: grc
+    script: Grek
+  - form: Dāzimūn
+    language: ar
+    script: Arab
+  place_type: battle_site
+  identification_status: disputed
+  identification_confidence: 2
+  coordinates:
+    latitude: 40.3
+    longitude: 36.5
+    crs: EPSG:4326
+    coordinate_source: Modern scholarly identification (Treadgold 1988)
+    coordinate_method: scholarly_identification
+    coordinate_precision: locality
+    uncertainty_radius_m: 25000
+    coordinate_confidence: 2
+  frontier_role: Site of the decisive Byzantine field defeat preceding the fall of
+    Amorium.
+  overall_confidence: 3
+  analytical_summary: 'Battle in which al-Afshīn defeated Theophilos 22 July 838.
+    Greek ''Anzen'', Arabic ''Dāzimūn''. Most widely accepted modern location: Dazimon
+    plain near modern Tokat; not secure.'
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+  linked_interpretations:
+  - INT-0002
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

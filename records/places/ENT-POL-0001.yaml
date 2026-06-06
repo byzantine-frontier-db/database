@@ -1,0 +1,25 @@
+- record_type: place
+  id: ENT-POL-0001
+  standardised_name: Byzantine Empire
+  alternative_names:
+  - form: Ῥωμανία
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Rūm
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: The Eastern Roman Empire, c. 330-1453. In the period covered
+    by this corpus, ruled by the Amorian dynasty (820-867).
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

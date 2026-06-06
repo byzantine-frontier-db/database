@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0002
+  associated_entities:
+  - ENT-PLC-0002
+  scholar: Multiple; summarised in Treadgold 1988
+  publication: Treadgold 1988 et seq.
+  date: 1988
+  argument: The battle named Anzen (Greek) and Dāzimūn (Arabic) is most plausibly
+    located in the Dazimon plain near modern Tokat. The identification is not universally
+    accepted; alternatives have been proposed.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0006
+  - ATT-0007

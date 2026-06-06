@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0011
+  source: SRC-0005
+  entities_referenced:
+  - ENT-PLC-0001
+  - ENT-PLC-0012
+  - ENT-EVT-0006
+  provenance: archaeological_evidence
+  citation: Lightfoot, annual reports in Anatolian Studies, 1988-2015
+  paraphrase: Mid-ninth-century destruction horizon identified across the excavated
+    site at Hisarköy/Emirdağ, consistent with the sack of 838.
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0002
+  - OBS-0008

@@ -1,0 +1,37 @@
+- record_type: event
+  id: ENT-EVT-0005
+  standardised_name: Siege of Amorium
+  event_type:
+    primary: military
+    sub: siege
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: '0838-08-01'
+    precision: month
+    confidence: 3
+  end_date:
+    start: '0838-08-12'
+    end: '0838-08-15'
+    precision: year_range_narrow
+    confidence: 2
+  associated_places:
+  - ENT-PLC-0001
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0002
+  - ENT-PERS-0004
+  - ENT-PERS-0008
+  overall_confidence: 4
+  analytical_summary: Siege of Amorium by reunited Abbasid army. ~Two weeks. Ended
+    in storming and sack after a defector indicated weak wall.
+  notes: 'Duration disputed: al-Ṭabarī ~12-13 days; Theophanes Continuatus longer.'
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0008
+  - ATT-0009
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

@@ -1,0 +1,51 @@
+- record_type: person
+  id: ENT-PERS-0002
+  persistent_identifiers:
+    internal_id: ENT-PERS-0002
+    external_identifiers:
+    - authority: pmbz
+      identifier: '19429'
+      uri: https://www.degruyter.com/database/PMBZ/entry/PMBZ19429/html
+    - authority: wikidata
+      identifier: Q221356
+      uri: https://www.wikidata.org/wiki/Q221356
+  standardised_name: Theophilos
+  alternative_names:
+  - form: Θεόφιλος
+    language: grc
+    script: Grek
+    name_type: standardised
+  - form: Tawfīl
+    language: ar
+    script: Arab
+    name_type: transliteration
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Emperor of the Romans
+    valid_from: 829
+    valid_to: 842
+    confidence: 5
+  birth:
+    date:
+      start: 813
+      end: 813
+      precision: year
+      confidence: 3
+  death:
+    date:
+      start: 842
+      end: 842
+      precision: year
+      confidence: 5
+  overall_confidence: 5
+  analytical_summary: Byzantine emperor (r. 829-842) of the Amorian dynasty. Defeated
+    at Anzen 22 July 838; unable to relieve Amorium.
+  linked_attestations:
+  - ATT-0002
+  - ATT-0006
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0004
+  standardised_title: Acta of the Forty-Two Martyrs of Amorium (Euodios recension)
+  alternative_titles:
+  - Passion of the Forty-Two Martyrs of Amorion
+  author_id: ENT-PERS-0013
+  date_of_composition:
+    start: 845
+    end: 880
+    precision: year_range_broad
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: hagiography
+  edition_used: Vasil'evskij & Nikitin (eds.), Skazaniia o 42 amoriiskikh muchenikakh,
+    1905
+  reliability_assessment: Hagiographic shaping; reliable for the broad fate of the
+    officers.
+  known_biases: Iconodule agenda.
+  dependencies: []
+  notes: One of several recensions; Euodios attribution itself contested.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

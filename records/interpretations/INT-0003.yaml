@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0003
+  associated_entities:
+  - ENT-EVT-0007
+  - ENT-PERS-0006
+  scholar: Vasil'evskij, V.
+  publication: Skazaniia o 42 amoriiskikh muchenikakh (1905), introduction
+  date: 1905
+  argument: The Euodios recension is the earliest of the surviving hagiographic accounts,
+    with the others derived from or in dialogue with it. This is the basis for treating
+    the Euodios version as the principal evidential source for the martyrs' fate.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0010

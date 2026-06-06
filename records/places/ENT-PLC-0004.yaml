@@ -1,0 +1,39 @@
+- record_type: place
+  id: ENT-PLC-0004
+  standardised_name: Tarsus
+  alternative_names:
+  - form: Ταρσός
+    language: grc
+    script: Grek
+  - form: Ṭarsūs
+    language: ar
+    script: Arab
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.9177
+    longitude: 34.8945
+    crs: EPSG:4326
+    coordinate_source: Modern map
+    coordinate_method: modern_map
+    coordinate_precision: settlement
+    uncertainty_radius_m: 2000
+    coordinate_confidence: 5
+  political_affiliation_history:
+  - value: ENT-POL-0002
+    valid_from: 700
+    valid_to: 965
+    confidence: 4
+  frontier_role: Principal Abbasid frontier fortress in Cilicia; mustering point for
+    the 838 campaign.
+  overall_confidence: 5
+  analytical_summary: Major fortified town on the Cilician plain. Standard mustering
+    point for Abbasid summer campaigns; the 838 campaign was assembled here.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

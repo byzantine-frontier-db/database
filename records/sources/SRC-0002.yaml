@@ -1,0 +1,25 @@
+- record_type: source
+  id: SRC-0002
+  standardised_title: Theophanes Continuatus
+  alternative_titles:
+  - Chronographia (continuation)
+  - Scriptores post Theophanem
+  author_id: ENT-PERS-0011
+  date_of_composition:
+    start: 945
+    end: 959
+    precision: year_range_narrow
+    confidence: 4
+  language: grc
+  script: Grek
+  genre: imperial_chronicle
+  edition_used: Featherstone & Signes Codoñer (eds.), CFHB 53, De Gruyter, 2015
+  reliability_assessment: Politically motivated; hostile to the Amorian dynasty.
+  known_biases: Anti-Amorian.
+  dependencies: []
+  notes: Book III covers Theophilos's reign and the Amorium campaign.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

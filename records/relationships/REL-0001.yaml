@@ -1,0 +1,14 @@
+- record_type: relationship
+  id: REL-0001
+  type: located_at
+  source_entity: ENT-EVT-0005
+  target_entity: ENT-PLC-0001
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002

@@ -1,0 +1,15 @@
+- record_type: person
+  id: ENT-PERS-0011
+  standardised_name: Anonymous (Theophanes Continuatus, Books I-IV)
+  person_type: scholar
+  overall_confidence: 3
+  analytical_summary: Anonymous compiler of Books I-IV of Theophanes Continuatus,
+    working under or for Constantine VII Porphyrogenitos in the mid-tenth century.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

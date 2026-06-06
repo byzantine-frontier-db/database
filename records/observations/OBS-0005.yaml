@@ -1,0 +1,14 @@
+- record_type: observation
+  id: OBS-0005
+  proposition: The siege of Amorium lasted approximately fifty-five days.
+  associated_entities:
+  - ENT-EVT-0005
+  supporting_attestations:
+  - ATT-0009
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  contradicting_attestations:
+  - ATT-0008

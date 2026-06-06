@@ -1,0 +1,21 @@
+- record_type: source
+  id: SRC-0003
+  standardised_title: al-Yaʿqūbī, Taʾrīkh
+  author_id: ENT-PERS-0012
+  date_of_composition:
+    start: 889
+    end: 892
+    precision: year_range_narrow
+    confidence: 4
+  language: ar
+  script: Arab
+  genre: universal_chronicle
+  edition_used: Houtsma (ed.), Leiden, 1883
+  reliability_assessment: Independent of al-Ṭabarī; valuable for cross-corroboration.
+  known_biases: Restrained for ninth-century events.
+  dependencies: []
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

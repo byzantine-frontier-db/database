@@ -1,0 +1,31 @@
+- record_type: event
+  id: ENT-EVT-0008
+  standardised_name: Theophilos's raid on Zibatra/Sozopetra, 837
+  event_type:
+    primary: military
+    sub: raid
+  start_date:
+    start: 0837
+    precision: year
+    confidence: 4
+  end_date:
+    start: 0837
+    precision: year
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0007
+  participants:
+  - ENT-PERS-0002
+  related_events:
+  - ENT-EVT-0001
+  overall_confidence: 4
+  analytical_summary: Byzantine raid on the Abbasid frontier town of Zibatra/Sozopetra
+    in 837, the casus belli for al-Muʿtaṣim's 838 campaign.
+  linked_attestations:
+  - ATT-0040
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

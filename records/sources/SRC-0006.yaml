@@ -1,0 +1,21 @@
+- record_type: source
+  id: SRC-0006
+  standardised_title: Treadgold, The Byzantine Revival, 780-842
+  author_id: ENT-PERS-0015
+  date_of_composition:
+    start: 1988
+    end: 1988
+    precision: year
+    confidence: 5
+  language: en
+  script: Latn
+  genre: modern_monograph
+  edition_used: Stanford University Press, 1988
+  reliability_assessment: Standard modern narrative reconstruction of the period.
+  known_biases: Politico-military emphasis.
+  dependencies: []
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

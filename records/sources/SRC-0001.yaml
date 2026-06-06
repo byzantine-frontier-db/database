@@ -1,0 +1,36 @@
+- record_type: source
+  id: SRC-0001
+  persistent_identifiers:
+    internal_id: SRC-0001
+    external_identifiers:
+    - authority: viaf
+      identifier: '9854001'
+      uri: https://viaf.org/viaf/9854001/
+    - authority: wikidata
+      identifier: Q192124
+      uri: https://www.wikidata.org/wiki/Q192124
+  standardised_title: al-Ṭabarī, Taʾrīkh al-rusul wa-l-mulūk
+  alternative_titles:
+  - Annales
+  - History of the Prophets and Kings
+  author_id: ENT-PERS-0010
+  date_of_composition:
+    start: 870
+    end: 915
+    precision: year_range_broad
+    confidence: 4
+  language: ar
+  script: Arab
+  genre: universal_chronicle
+  edition_used: 'Cairo: Dār al-Maʿārif, ed. M. Abū al-Faḍl Ibrāhīm, 1960–69'
+  translation_used: Bosworth (trans.), History of al-Ṭabarī XXXIII, SUNY Press, 1991
+  reliability_assessment: Annalistic; highly reliable for Abbasid court events; can
+    split campaigns across AH years.
+  known_biases: Court-centred; pro-Abbasid framing.
+  dependencies: []
+  notes: Account of the 838 campaign appears under AH 223.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

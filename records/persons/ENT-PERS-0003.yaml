@@ -1,0 +1,33 @@
+- record_type: person
+  id: ENT-PERS-0003
+  standardised_name: al-Afshīn
+  alternative_names:
+  - form: Khaydhar ibn Kāʾūs
+    language: ar
+    script: Arab
+    name_type: kunya_nasab
+  person_type: general
+  political_affiliation: ENT-POL-0002
+  offices_held:
+  - office: Abbasid general
+    valid_from: 830
+    valid_to: 841
+    confidence: 5
+  death:
+    date:
+      start: 841
+      end: 841
+      precision: year
+      confidence: 4
+  overall_confidence: 5
+  analytical_summary: Sogdian prince and Abbasid general. Commanded the northern column
+    in 838 and defeated Theophilos at Anzen. Later executed by al-Muʿtaṣim (841).
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,32 @@
+- record_type: person
+  id: ENT-PERS-0005
+  standardised_name: Theodore Krateros
+  alternative_names:
+  - form: Θεόδωρος Κρατερός
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: martyr
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Byzantine officer
+    valid_to: 838
+    confidence: 3
+  death:
+    date:
+      start: 845
+      end: 845
+      precision: year
+      confidence: 3
+    place_id: ENT-PLC-0003
+  overall_confidence: 3
+  analytical_summary: One of the named Forty-Two Martyrs of Amorium. Subject of an
+    independent encomium attributed to Michael Synkellos.
+  linked_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0004
+  associated_entities:
+  - ENT-EVT-0008
+  scholar: Treadgold, W.
+  publication: The Byzantine Revival, 780-842 (Stanford, 1988)
+  date: 1988
+  argument: Theophilos's choice of Zibatra/Sozopetra as a target in 837 was deliberately
+    provocative; the tradition that al-Muʿtaṣim's mother was native to the town, while
+    probably apocryphal, was widespread enough that Theophilos may have intended the
+    personal insult.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0040

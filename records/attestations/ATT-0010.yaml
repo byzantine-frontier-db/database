@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0010
+  source: SRC-0004
+  entities_referenced:
+  - ENT-PLC-0003
+  - ENT-EVT-0007
+  - ENT-PERS-0004
+  - ENT-PERS-0005
+  - ENT-PERS-0006
+  provenance: primary_paraphrase
+  citation: Acta of the Forty-Two Martyrs (Euodios recension), §§1-8
+  paraphrase: Hagiographic account of the deportation, detention in Samarra, theological
+    disputation, and execution.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0007
+  - OBS-0011

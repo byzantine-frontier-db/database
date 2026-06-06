@@ -1,0 +1,31 @@
+- record_type: event
+  id: ENT-EVT-0002
+  standardised_name: Mustering of the Abbasid army at Tarsus, spring 838
+  event_type:
+    primary: military
+    sub: mustering
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: 0838-04
+    precision: month
+    confidence: 3
+  end_date:
+    start: 0838-04
+    precision: month
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0004
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0003
+  overall_confidence: 4
+  analytical_summary: Initial muster of the Abbasid expeditionary force at Tarsus
+    before columns split north.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

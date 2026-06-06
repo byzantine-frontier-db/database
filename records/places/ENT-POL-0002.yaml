@@ -1,0 +1,21 @@
+- record_type: place
+  id: ENT-POL-0002
+  standardised_name: Abbasid Caliphate
+  alternative_names:
+  - form: al-Khilāfa al-ʿAbbāsiyya
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Caliphate ruling from 750. From 836 onwards centered on the
+    new capital at Samarra.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

@@ -1,0 +1,33 @@
+- record_type: event
+  id: ENT-EVT-0006
+  standardised_name: Sack of Amorium and deportation of population
+  event_type:
+    primary: military
+    sub: sack_of_city
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: '0838-08-12'
+    end: '0838-08-15'
+    precision: year_range_narrow
+    confidence: 2
+  associated_places:
+  - ENT-PLC-0001
+  - ENT-PLC-0003
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0004
+  - ENT-PERS-0005
+  - ENT-PERS-0006
+  overall_confidence: 5
+  analytical_summary: Storming, sack, and depopulation of Amorium. Surviving population
+    deported; forty-two officers eventually martyred at Samarra 845.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0010
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

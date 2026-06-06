@@ -1,0 +1,22 @@
+- record_type: source
+  id: SRC-0005
+  standardised_title: 'Lightfoot, Amorium: A Byzantine City in Anatolia + annual Anatolian
+    Studies reports'
+  author_id: ENT-PERS-0014
+  date_of_composition:
+    start: 1988
+    end: 2026
+    precision: year_range_broad
+    confidence: 5
+  language: en
+  script: Latn
+  genre: archaeological_publication
+  edition_used: Lightfoot & Lightfoot, Istanbul, 2007; with annual reports 1988-2015
+  reliability_assessment: Standard archaeological reference for the site.
+  known_biases: Interpretive emphasis on the 838 destruction horizon.
+  dependencies: []
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

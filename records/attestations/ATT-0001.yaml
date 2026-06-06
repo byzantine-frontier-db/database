@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0001
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-EVT-0005
+  - ENT-EVT-0006
+  - ENT-PLC-0001
+  - ENT-PERS-0001
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, sub anno AH 223 (Cairo ed., vol. IX, pp. 56-69; Bosworth
+    trans. XXXIII, pp. 95-123)
+  paraphrase: 'Extended account of al-Muʿtaṣim''s campaign: assembly at Tarsus, march
+    through the Cilician Gates, al-Afshīn''s victory, the siege of Amorium, the role
+    of a defector indicating the weak wall, the storming, the fate of the inhabitants.'
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0001
+  - OBS-0002
+  - OBS-0006

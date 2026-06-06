@@ -1,0 +1,33 @@
+- record_type: place
+  id: ENT-PLC-0005
+  standardised_name: Cilician Gates
+  alternative_names:
+  - form: Πύλαι Κιλικίας
+    language: grc
+    script: Grek
+  - form: al-Darb
+    language: ar
+    script: Arab
+  place_type: pass
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 37.2722
+    longitude: 34.7711
+    crs: EPSG:4326
+    coordinate_source: Modern map
+    coordinate_method: modern_map
+    coordinate_precision: locality
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 5
+  frontier_role: Principal pass through the Taurus mountains; standard invasion route.
+  overall_confidence: 5
+  analytical_summary: Principal pass through the Taurus mountains; standard invasion
+    route for Abbasid armies entering Anatolia. Crossed by al-Afshīn in 838.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
