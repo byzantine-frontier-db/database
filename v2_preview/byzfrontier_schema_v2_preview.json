@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byzantine-frontier-db.org/schema/v2.0.0-preview",
+  "title": "Byzantine-Islamic Frontier Database Schema — v2.0.0 Preview",
+  "version": "2.0.0-preview",
+  "description": "Preview of v2 additions: FuzzyRegion polygon-per-time-slice modelling for themes/ajnād/kūras/frontier zones, and WitnessRecord manuscript-witness modelling aligned to LRMoo. This file documents the new types only; v2.0.0 release will integrate them into the full schema. Backwards compatibility: all v1.x records remain valid in v2.",
+
+  "$defs": {
+
+    "TemporalPolygon": {
+      "type": "object",
+      "description": "A polygon valid for a specific time range. Used for fuzzy regions whose boundaries shift over time. Coordinates are GeoJSON Polygon format (RFC 7946) in WGS84.",
+      "properties": {
+        "valid_from": { "type": ["string", "integer"] },
+        "valid_to": { "type": ["string", "integer"] },
+        "geojson": {
+          "type": "object",
+          "description": "A GeoJSON Polygon. The coordinates array is [[[lng, lat], [lng, lat], ...]] for the outer ring.",
+          "properties": {
+            "type": { "const": "Polygon" },
+            "coordinates": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "items": { "type": "number" }
+                },
+                "minItems": 4
+              }
+            }
+          },
+          "required": ["type", "coordinates"]
+        },
+        "boundary_confidence": {
+          "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/ConfidenceLevel"
+        },
+        "boundary_basis": {
+          "type": "string",
+          "enum": [
+            "textual_attestation",
+            "scholarly_reconstruction",
+            "archaeological_distribution",
+            "administrative_decree",
+            "natural_feature",
+            "inference"
+          ]
+        },
+        "uncertainty_buffer_km": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Outward buffer distance (km) representing fuzziness on the polygon boundary. The 'true' boundary is to be understood as lying within this buffer of the recorded polygon."
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier" }
+        },
+        "notes": { "type": "string" }
+      },
+      "required": ["valid_from", "geojson", "boundary_confidence", "boundary_basis"]
+    },
+
+    "FuzzyRegion": {
+      "type": "object",
+      "description": "A region (theme, jund, kūra, frontier zone, etc.) modelled as a time-versioned sequence of polygons with explicit boundary uncertainty. Extends PlaceEntity with polygon support. A FuzzyRegion is still a Place; v2 makes the relationship explicit via record_subtype.",
+      "properties": {
+        "record_type": { "const": "place" },
+        "record_subtype": { "const": "fuzzy_region" },
+        "id": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier" },
+        "persistent_identifiers": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/PersistentIdentifier" },
+        "standardised_name": { "type": "string" },
+        "alternative_names": {
+          "type": "array",
+          "items": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/AlternativeName" }
+        },
+        "place_type": {
+          "type": "string",
+          "enum": ["region", "administrative_unit", "theme", "kura", "jund", "frontier_zone"]
+        },
+        "identification_status": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/IdentificationStatus" },
+        "identification_confidence": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/ConfidenceLevel" },
+        "temporal_polygons": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/TemporalPolygon" },
+          "minItems": 1,
+          "description": "Time-versioned polygon representation. Each entry covers a defined time range; entries should normally be non-overlapping for a single region but may overlap when contested."
+        },
+        "computed_centroid": {
+          "type": "object",
+          "description": "Optional centroid for compatibility with v1 flat-place coordinate consumers.",
+          "properties": {
+            "latitude": { "type": "number" },
+            "longitude": { "type": "number" },
+            "crs": { "const": "EPSG:4326" }
+          }
+        },
+        "frontier_role": { "type": "string" },
+        "political_affiliation_history": {
+          "type": "array",
+          "items": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/TimeBoundedAttribute" }
+        },
+        "administrative_status_history": {
+          "type": "array",
+          "items": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/TimeBoundedAttribute" }
+        },
+        "overall_confidence": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/ConfidenceLevel" },
+        "analytical_summary": { "type": "string" },
+        "linked_attestations": {
+          "type": "array",
+          "items": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier" },
+          "minItems": 1
+        },
+        "linked_interpretations": {
+          "type": "array",
+          "items": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier" }
+        },
+        "notes": { "type": "string" },
+        "metadata": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/RecordMetadata" }
+      },
+      "required": ["record_type", "record_subtype", "id", "standardised_name", "place_type", "temporal_polygons", "overall_confidence", "analytical_summary", "linked_attestations", "metadata"]
+    },
+
+    "WitnessRecord": {
+      "type": "object",
+      "description": "A manuscript witness to a textual source. Aligned to LRMoo F5 Item (the physical object) and F3 Manifestation (the textual transmission level). A single Source (LRMoo F2 Expression) may have many Witnesses.",
+      "properties": {
+        "record_type": { "const": "witness" },
+        "id": {
+          "type": "string",
+          "pattern": "^WIT-[0-9]{4,8}$",
+          "description": "Identifier format WIT-NNNN."
+        },
+        "persistent_identifiers": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/PersistentIdentifier" },
+        "source_id": {
+          "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier",
+          "description": "The SourceRecord (LRMoo F2 Expression) this witness transmits."
+        },
+        "shelf_mark": {
+          "type": "string",
+          "description": "Standard shelf mark, e.g. 'Vat. gr. 167' or 'BL Add. 14620'."
+        },
+        "repository": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "city": { "type": "string" },
+            "country_code": { "type": "string", "pattern": "^[A-Z]{2}$" }
+          },
+          "required": ["name"]
+        },
+        "language": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/LanguageCode" },
+        "script": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/ScriptCode" },
+        "material": {
+          "type": "string",
+          "enum": ["parchment", "paper", "papyrus", "vellum", "mixed", "other"]
+        },
+        "date_of_production": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/TemporalValue" },
+        "place_of_production": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier" },
+        "scribe": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/Identifier" },
+        "extent": {
+          "type": "object",
+          "properties": {
+            "folios": { "type": "integer", "minimum": 1 },
+            "dimensions_mm": { "type": "string", "description": "Format: height x width, e.g. '320 x 240'." }
+          }
+        },
+        "recension": {
+          "type": "string",
+          "description": "Named recension or family this witness belongs to, where applicable. e.g. 'Euodios recension', 'first recension', 'al-Khwārizmī family'."
+        },
+        "stemmatic_position": {
+          "type": "object",
+          "description": "Position of this witness in the stemma codicum, where one has been reconstructed.",
+          "properties": {
+            "stemma_branch": { "type": "string" },
+            "depends_on_witnesses": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/WitnessRef" }
+            },
+            "parent_in_stemma": { "$ref": "#/$defs/WitnessRef" },
+            "confidence": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/ConfidenceLevel" }
+          }
+        },
+        "external_identifiers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "authority": {
+                "type": "string",
+                "enum": ["pinakes", "trismegistos", "ttp", "diktyon", "loc", "wikidata", "vcba", "other"]
+              },
+              "identifier": { "type": "string" },
+              "uri": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/URI" }
+            },
+            "required": ["authority", "identifier"]
+          }
+        },
+        "edition_relationship": {
+          "type": "string",
+          "enum": ["base_witness", "collated", "consulted", "not_used", "unknown"],
+          "description": "Relationship of this witness to the modern critical edition cited in the SourceRecord."
+        },
+        "notes": { "type": "string" },
+        "metadata": { "$ref": "https://byzantine-frontier-db.org/schema/v1.0.0#/$defs/RecordMetadata" }
+      },
+      "required": ["record_type", "id", "source_id", "shelf_mark", "repository", "language", "metadata"]
+    },
+
+    "WitnessRef": {
+      "type": "string",
+      "pattern": "^WIT-[0-9]{4,8}$"
+    }
+  },
+
+  "oneOf": [
+    { "$ref": "#/$defs/FuzzyRegion" },
+    { "$ref": "#/$defs/WitnessRecord" }
+  ]
+}

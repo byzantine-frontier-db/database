@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byzantine-frontier-db.org/data/dating_systems/v1.0.0",
+  "title": "Dating Systems Reference Data",
+  "version": "1.0.0",
+  "description": "Anchor dates, parameters, and worked examples for the dating systems used by sources in the database. The primary timeline of the database is Julian-proleptic-CE; all other systems convert into this. See companion document 'dating_systems_methods.md' for the conversion algorithms.",
+
+  "primary_timeline": {
+    "calendar": "Julian (proleptic for pre-instituted dates)",
+    "era": "CE",
+    "rationale": "The Julian calendar is the calendar of the principal Greek and Arabic sources of the seventh through eleventh centuries. Gregorian conversion is computed for display only. Pre-Julian dates use the proleptic Julian calendar by editorial convention."
+  },
+
+  "systems": {
+
+    "AD": {
+      "name": "Anno Domini",
+      "label_en": "AD / CE",
+      "calendar": "Julian (proleptic for pre-Gregorian)",
+      "epoch": { "julian_day_number": 1721424, "civil_date": "1 January 1 CE (proleptic Julian)" },
+      "year_length_days": "365.25 (Julian average)",
+      "conversion_to_primary": "identity",
+      "notes": "AD and CE are notational variants of the same system. Stored as integer year (negative for BCE)."
+    },
+
+    "AH": {
+      "name": "Anno Hegirae",
+      "label_en": "Hijri (Islamic lunar)",
+      "calendar": "Islamic lunar",
+      "epoch": {
+        "julian_day_number": 1948440,
+        "civil_date": "16 July 622 CE (Julian)",
+        "civil_date_gregorian": "19 July 622 CE (Gregorian)",
+        "note": "Friday 16 July 622 Julian = 1 Muharram AH 1 by the standard astronomical convention. Some scholars prefer Thursday 15 July."
+      },
+      "year_length_days": "354.367 (average; 354 in common years, 355 in leap years on the 30-year tabular cycle)",
+      "cycle_30_year": {
+        "description": "Tabular Islamic calendar: leap years are years 2, 5, 7, 10, 13, 16, 18, 21, 24, 26, 29 of each 30-year cycle (Type I, the most commonly used variant).",
+        "leap_years_in_cycle": [2, 5, 7, 10, 13, 16, 18, 21, 24, 26, 29],
+        "variants": "Other variants exist (Type II–IV). For database use, Type I (the al-Khwārizmī / civil tabular variant) is the default unless a source clearly uses an observational or astronomical alternative."
+      },
+      "conversion_to_primary": "JDN(1 Muharram AH n) = 1948440 + 354*(n-1) + floor((11*n + 3) / 30). Then convert JDN to Julian date by standard algorithm.",
+      "approximate_conversion": "CE ≈ 622 + (AH × 0.970224). For year-level work only; not adequate for crossing-boundary cases.",
+      "notes": "Crucially, AH years routinely span two Julian/CE years. An event recorded under a given AH year may have occurred anywhere in a span of approximately Dec(year n-1) to Nov(year n) in CE terms. See examples below."
+    },
+
+    "AM_byzantine": {
+      "name": "Anno Mundi (Byzantine)",
+      "label_en": "Byzantine creation era",
+      "calendar": "Julian",
+      "epoch": {
+        "julian_day_number": 1209572,
+        "civil_date": "1 September 5509 BCE (proleptic Julian)",
+        "note": "Byzantine year begins 1 September (the indictional new year)."
+      },
+      "year_length_days": "365.25 (Julian)",
+      "conversion_to_primary": "For dates on or after 1 September: AD = AM - 5508. For dates before 1 September: AD = AM - 5509. (The AM year overlaps two AD years.)",
+      "notes": "Used by Theophanes the Confessor, Theophanes Continuatus (early sections), and other Byzantine chronicles. The single most common Byzantine dating system in the period covered."
+    },
+
+    "AM_alexandrian": {
+      "name": "Anno Mundi (Alexandrian)",
+      "label_en": "Alexandrian creation era",
+      "calendar": "Julian",
+      "epoch": {
+        "civil_date": "25 March 5493 BCE (proleptic Julian)",
+        "note": "Used in some Greek chronographic traditions, notably the chronicle of George Syncellus. AM_alexandrian year begins 25 March, so AM_alexandrian - 5492 gives the dominant AD year."
+      },
+      "year_length_days": "365.25",
+      "conversion_to_primary": "AD ≈ AM_alexandrian - 5492 (with adjustment around 25 March for the year crossover).",
+      "notes": "Less common than the Byzantine AM but appears in chronographic sources. Confusion between AM_byzantine and AM_alexandrian is a well-known source of error in modern scholarship."
+    },
+
+    "indiction": {
+      "name": "Indiction",
+      "label_en": "Roman/Byzantine indictional cycle",
+      "calendar": "n/a (cyclical)",
+      "cycle_length_years": 15,
+      "indiction_start": "1 September (in Byzantine usage)",
+      "conversion_to_primary": "Indiction alone is insufficient. Indiction = ((AD + 312) mod 15) + 1 (Byzantine reckoning, with 1 Sept new year). The cycle disambiguates only within an approximately known time window of 15 years.",
+      "notes": "Constantine I-era reform; widely used in Byzantine documentary practice (charters, conciliar acta, fiscal documents) and occasionally in chronicles. An indiction date in a chronicle requires cross-reference with another dating system or with regnal years to be unambiguously placed."
+    },
+
+    "regnal_byzantine": {
+      "name": "Byzantine regnal year",
+      "label_en": "Year of the reign of N",
+      "calendar": "Julian",
+      "year_length_days": "varies",
+      "conversion_to_primary": "Reign-specific; use the reign_table for the named emperor to compute year-1, year-2, etc. anchored to coronation or proclamation date.",
+      "anchor_data_reference": "See reign_table below for the period covered."
+    },
+
+    "regnal_abbasid": {
+      "name": "Abbasid regnal year",
+      "label_en": "Year of the caliphate of N",
+      "calendar": "Islamic lunar",
+      "conversion_to_primary": "Reign-specific; converted via the named caliph's AH accession date and AH-to-Julian.",
+      "anchor_data_reference": "See caliph_table below."
+    },
+
+    "seleucid": {
+      "name": "Seleucid era",
+      "label_en": "Seleucid era (anno Graecorum)",
+      "calendar": "Multiple variants",
+      "epoch": {
+        "macedonian_variant": "1 October 312 BCE (proleptic Julian)",
+        "babylonian_variant": "1 Nisan = 3 April 311 BCE (proleptic Julian)"
+      },
+      "conversion_to_primary": "Macedonian: AD ≈ SE - 312 (autumn). Babylonian: AD ≈ SE - 311 (spring).",
+      "notes": "Appears in some Syriac historiography of the period."
+    },
+
+    "olympiad": {
+      "name": "Olympiad",
+      "label_en": "Olympic year",
+      "calendar": "n/a (4-year cycle)",
+      "anchor": "Olympiad 1 = 776 BCE",
+      "conversion_to_primary": "Year(Ol. n) = 776 BCE - 4*(n-1) [year 1 of the Olympiad].",
+      "notes": "Rare in the period covered; included for completeness with classicising sources."
+    }
+  },
+
+  "reign_table_byzantine": {
+    "description": "Selected Byzantine reigns relevant to the period covered. Each entry gives accession date (start of regnal year 1) in Julian CE. Dates that are themselves uncertain carry a confidence note.",
+    "source": "Compiled from Grumel, La Chronologie (Paris, 1958); Treadgold, History of the Byzantine State and Society (Stanford, 1997).",
+    "reigns": [
+      { "person_id_hint": "ENT-PERS-Theophilos", "name": "Theophilos", "accession": "0829-10-02", "death": "0842-01-20", "confidence": 5 },
+      { "name": "Michael III", "accession": "0842-01-20", "death": "0867-09-23", "confidence": 5 },
+      { "name": "Basil I", "accession": "0867-09-23", "death": "0886-08-29", "confidence": 5 },
+      { "name": "Leo VI", "accession": "0886-08-29", "death": "0912-05-11", "confidence": 5 },
+      { "name": "Romanos I Lakapenos", "accession": "0920-12-17", "death": "0944-12-16", "note": "Co-emperor; senior emperor 920-944.", "confidence": 5 }
+    ]
+  },
+
+  "caliph_table_abbasid": {
+    "description": "Selected Abbasid caliphal reigns relevant to the period covered. Accession dates given in both AH and Julian CE.",
+    "source": "Bosworth, The New Islamic Dynasties (Edinburgh, 1996).",
+    "reigns": [
+      { "person_id_hint": "ENT-PERS-al-Mutasim", "name": "al-Muʿtaṣim", "accession_ah": "AH 218", "accession_civil": "0833-08-09", "death": "0842-01-05", "confidence": 5 },
+      { "name": "al-Wāthiq",  "accession_ah": "AH 227", "accession_civil": "0842-01-05", "death": "0847-08-10", "confidence": 5 },
+      { "name": "al-Mutawakkil", "accession_ah": "AH 232", "accession_civil": "0847-08-10", "death": "0861-12-11", "confidence": 5 }
+    ]
+  },
+
+  "worked_examples": [
+    {
+      "case": "AH 223 (the Amorium campaign year, Appendix C of specification)",
+      "ah_year": 223,
+      "ah_start_civil": "0837-12-03",
+      "ah_end_civil":   "0838-11-22",
+      "ah_start_civil_alternate": "0837-12-04",
+      "epoch_variant_note": "Computed from the JDN-1948440 epoch (1 Muharram AH 1 = 16 July 622 CE, day starting at sunrise). The alternative JDN-1948439 epoch (sunset-anchored) shifts every AH-year boundary back by one civil day, giving 4 December 837 for the AH 223 start. Both conventions are encountered in the secondary literature. The project's canonical implementation uses JDN 1948440 (the sunrise-anchored Type II al-Khwārizmī tabular convention).",
+      "note": "The classic boundary-crossing case. al-Ṭabarī records the events of the Amorium campaign under AH 223. The siege itself occurred in August 838 CE, which falls in the latter portion of AH 223. Any event al-Ṭabarī assigns to AH 223 must be assumed to lie anywhere in this Julian range absent further detail. The database records this by storing the AH year as a DatingValue with system=AH, value='AH 223', and the corresponding TemporalValue covering the full Julian span at year_range_narrow precision; finer-grained chronology requires cross-reference with Theophanes Continuatus or other Julian-dated sources.",
+      "rule": "When a source provides only an AH year, the TemporalValue carries the full AH-year span in Julian; precision is year_range_narrow; confidence reflects how confident we are that the event actually falls in that year. Editorial narrowing to a Julian sub-range requires an explicit second attestation."
+    },
+    {
+      "case": "AM 6346 in Theophanes Continuatus (Byzantine AM)",
+      "am_byzantine": 6346,
+      "civil_start": "0837-09-01",
+      "civil_end":   "0838-08-31",
+      "note": "Byzantine AM 6346 begins 1 September 837 CE and ends 31 August 838. Events Theophanes Continuatus places under AM 6346 fall in this window. The August 838 sack of Amorium falls at the very end of AM 6346.",
+      "rule": "AM_byzantine year converts to Julian via Sept-Aug split: AM 6346 = 1 Sept 837 to 31 Aug 838. For events placed under AM, the JD-N range is computed and stored at year_range_narrow precision."
+    },
+    {
+      "case": "Indiction 1 in the 830s",
+      "indiction": 1,
+      "candidates_in_decade_830s": [
+        { "civil_start": "0837-09-01", "civil_end": "0838-08-31", "note": "Indiction 1 of the cycle beginning 837" }
+      ],
+      "note": "Indiction 1 in the 830s decade falls in September 837 – August 838. The combination of indiction + AM or indiction + regnal year is what makes Byzantine documentary dating unambiguous.",
+      "rule": "Indiction alone is insufficient. When a source provides only an indiction, store as a DatingValue alongside whatever supplementary information is available; the resulting TemporalValue carries precision=year_range_broad until disambiguated."
+    },
+    {
+      "case": "Coincidence check for 22 July 838 (Battle of Anzen)",
+      "civil_date": "0838-07-22",
+      "ah_equivalent": "AH 223 (29 Rabīʿ II)",
+      "am_byzantine": "AM 6346",
+      "indiction": 1,
+      "regnal_byzantine": "Theophilos year 10 (829-10-02 + ~9y10m)",
+      "regnal_abbasid": "al-Muʿtaṣim AH 218 + 5y ≈ AH 223 year 6",
+      "note": "Multi-system coincidence check for the Battle of Anzen. All five systems should agree (or be made to agree) on 22 July 838. If a source's dating in any one system contradicts the others, that is a flag for editorial review of the source."
+    }
+  ],
+
+  "algorithm_references": {
+    "description": "The conversion algorithms used by the project are standard astronomical conversions via the Julian Day Number.",
+    "references": [
+      "Reingold, E. M. & Dershowitz, N., Calendrical Calculations: The Ultimate Edition (Cambridge, 2018). The authoritative reference for the algorithms used here.",
+      "Grumel, V., La Chronologie (Paris: PUF, 1958). Traité d'études byzantines I. The standard Byzantine chronology reference.",
+      "Bosworth, C. E., The New Islamic Dynasties (Edinburgh, 1996). For caliphal regnal accessions.",
+      "Stern, S., Calendars in Antiquity (Oxford, 2012). For Seleucid and antique cycles."
+    ],
+    "implementation_note": "Reference implementations of AH-to-Julian and AM-to-Julian conversions should be tested against the worked_examples block above. The Reingold-Dershowitz algorithms are well-tested and freely available; the project implementation must produce the documented worked-example results to be considered correct."
+  },
+
+  "open_issues": [
+    "AH leap-year variant: the project defaults to Type I (al-Khwārizmī tabular). Some sources implicitly use observational variants. Document the rule for handling source-specific variants in the methods note.",
+    "Dual indictional reckoning: some western sources use Bedan / Caesarean indictions starting in September, while Byzantine practice uses September with a different epoch. Verify that the database's conversion uses the Byzantine reckoning consistently.",
+    "Regnal year ambiguity: regnal years can be reckoned from accession, from coronation, or from the start of the calendar year following accession. Document the convention used for each named ruler.",
+    "Post-quem and ante-quem: when a source dates an event 'after X' or 'before Y', the database represents this via relative_after / relative_before precision with the relative_to field pointing to the reference event's record. The conversion does not produce a Julian range; the consumer of the data computes the range from the referenced event."
+  ]
+}

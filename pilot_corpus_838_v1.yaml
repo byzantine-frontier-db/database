@@ -1,0 +1,1979 @@
+# ============================================================================
+# Pilot Corpus: The Abbasid Campaign against Byzantium, 838 CE
+# Byzantine-Islamic Frontier Database — v1.0.0
+#
+# All records validate against byzfrontier_schema_v1.json and pass
+# byzfrontier_xref.py cross-reference checks (zero errors, some warnings).
+#
+# EDITORIAL STATUS: every record carries metadata.workflow_state: draft.
+# Records with metadata.editorial_review_required: true were composed from
+# general scholarly knowledge rather than direct source consultation and
+# require editorial verification against cited editions before promotion
+# to published.
+#
+# Coverage: 85 records across 6 sources, 14 persons, 14 places, 8 events,
+# 12 observations, 13 attestations, 6 interpretations, 12 relationships.
+# ============================================================================
+- record_type: source
+  id: SRC-0001
+  persistent_identifiers:
+    internal_id: SRC-0001
+    external_identifiers:
+    - authority: viaf
+      identifier: '9854001'
+      uri: https://viaf.org/viaf/9854001/
+    - authority: wikidata
+      identifier: Q192124
+      uri: https://www.wikidata.org/wiki/Q192124
+  standardised_title: al-Ṭabarī, Taʾrīkh al-rusul wa-l-mulūk
+  alternative_titles:
+  - Annales
+  - History of the Prophets and Kings
+  author_id: ENT-PERS-0010
+  date_of_composition:
+    start: 870
+    end: 915
+    precision: year_range_broad
+    confidence: 4
+  language: ar
+  script: Arab
+  genre: universal_chronicle
+  edition_used: 'Cairo: Dār al-Maʿārif, ed. M. Abū al-Faḍl Ibrāhīm, 1960–69'
+  translation_used: Bosworth (trans.), History of al-Ṭabarī XXXIII, SUNY Press, 1991
+  reliability_assessment: Annalistic; highly reliable for Abbasid court events; can split campaigns across AH years.
+  known_biases: Court-centred; pro-Abbasid framing.
+  dependencies: []
+  notes: Account of the 838 campaign appears under AH 223.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: source
+  id: SRC-0002
+  standardised_title: Theophanes Continuatus
+  alternative_titles:
+  - Chronographia (continuation)
+  - Scriptores post Theophanem
+  author_id: ENT-PERS-0011
+  date_of_composition:
+    start: 945
+    end: 959
+    precision: year_range_narrow
+    confidence: 4
+  language: grc
+  script: Grek
+  genre: imperial_chronicle
+  edition_used: Featherstone & Signes Codoñer (eds.), CFHB 53, De Gruyter, 2015
+  reliability_assessment: Politically motivated; hostile to the Amorian dynasty.
+  known_biases: Anti-Amorian.
+  dependencies: []
+  notes: Book III covers Theophilos's reign and the Amorium campaign.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: source
+  id: SRC-0003
+  standardised_title: al-Yaʿqūbī, Taʾrīkh
+  author_id: ENT-PERS-0012
+  date_of_composition:
+    start: 889
+    end: 892
+    precision: year_range_narrow
+    confidence: 4
+  language: ar
+  script: Arab
+  genre: universal_chronicle
+  edition_used: Houtsma (ed.), Leiden, 1883
+  reliability_assessment: Independent of al-Ṭabarī; valuable for cross-corroboration.
+  known_biases: Restrained for ninth-century events.
+  dependencies: []
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: source
+  id: SRC-0004
+  standardised_title: Acta of the Forty-Two Martyrs of Amorium (Euodios recension)
+  alternative_titles:
+  - Passion of the Forty-Two Martyrs of Amorion
+  author_id: ENT-PERS-0013
+  date_of_composition:
+    start: 845
+    end: 880
+    precision: year_range_broad
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: hagiography
+  edition_used: Vasil'evskij & Nikitin (eds.), Skazaniia o 42 amoriiskikh muchenikakh, 1905
+  reliability_assessment: Hagiographic shaping; reliable for the broad fate of the officers.
+  known_biases: Iconodule agenda.
+  dependencies: []
+  notes: One of several recensions; Euodios attribution itself contested.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: source
+  id: SRC-0005
+  standardised_title: 'Lightfoot, Amorium: A Byzantine City in Anatolia + annual Anatolian Studies reports'
+  author_id: ENT-PERS-0014
+  date_of_composition:
+    start: 1988
+    end: 2026
+    precision: year_range_broad
+    confidence: 5
+  language: en
+  script: Latn
+  genre: archaeological_publication
+  edition_used: Lightfoot & Lightfoot, Istanbul, 2007; with annual reports 1988-2015
+  reliability_assessment: Standard archaeological reference for the site.
+  known_biases: Interpretive emphasis on the 838 destruction horizon.
+  dependencies: []
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: source
+  id: SRC-0006
+  standardised_title: Treadgold, The Byzantine Revival, 780-842
+  author_id: ENT-PERS-0015
+  date_of_composition:
+    start: 1988
+    end: 1988
+    precision: year
+    confidence: 5
+  language: en
+  script: Latn
+  genre: modern_monograph
+  edition_used: Stanford University Press, 1988
+  reliability_assessment: Standard modern narrative reconstruction of the period.
+  known_biases: Politico-military emphasis.
+  dependencies: []
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0010
+  persistent_identifiers:
+    internal_id: ENT-PERS-0010
+    external_identifiers:
+    - authority: viaf
+      identifier: '9854001'
+      uri: https://viaf.org/viaf/9854001/
+    - authority: wikidata
+      identifier: Q192124
+      uri: https://www.wikidata.org/wiki/Q192124
+  standardised_name: Abū Jaʿfar Muḥammad ibn Jarīr al-Ṭabarī
+  alternative_names:
+  - form: al-Ṭabarī
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: scholar
+  birth:
+    date:
+      start: 839
+      end: 839
+      precision: year
+      confidence: 4
+  death:
+    date:
+      start: 923
+      end: 923
+      precision: year
+      confidence: 5
+  overall_confidence: 5
+  analytical_summary: Author of the principal Arabic universal chronicle for the early Abbasid period. Persian-born from Tabaristan; resident in Baghdad from c. 855.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0011
+  standardised_name: Anonymous (Theophanes Continuatus, Books I-IV)
+  person_type: scholar
+  overall_confidence: 3
+  analytical_summary: Anonymous compiler of Books I-IV of Theophanes Continuatus, working under or for Constantine VII Porphyrogenitos in the mid-tenth century.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0012
+  standardised_name: Aḥmad ibn Abī Yaʿqūb al-Yaʿqūbī
+  alternative_names:
+  - form: al-Yaʿqūbī
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: scholar
+  death:
+    date:
+      start: 897
+      end: 905
+      precision: year_range_narrow
+      confidence: 3
+  overall_confidence: 4
+  analytical_summary: Arabic historian and geographer; author of a universal history and a geographical work. Independent transmission from al-Ṭabarī.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0013
+  standardised_name: Euodios the Monk
+  person_type: monk
+  overall_confidence: 3
+  analytical_summary: Putative compiler of the Euodios recension of the Acta of the Forty-Two Martyrs of Amorium. Identity beyond the redaction is not securely known.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0014
+  standardised_name: Christopher S. Lightfoot
+  person_type: scholar
+  overall_confidence: 5
+  analytical_summary: Modern archaeologist; director of the Amorium excavation project from the 1990s.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0015
+  standardised_name: Warren Treadgold
+  person_type: scholar
+  overall_confidence: 5
+  analytical_summary: Modern historian of Byzantium; author of standard reconstructions of ninth-century Byzantine history.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-POL-0001
+  standardised_name: Byzantine Empire
+  alternative_names:
+  - form: Ῥωμανία
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Rūm
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: The Eastern Roman Empire, c. 330-1453. In the period covered by this corpus, ruled by the Amorian dynasty (820-867).
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-POL-0002
+  standardised_name: Abbasid Caliphate
+  alternative_names:
+  - form: al-Khilāfa al-ʿAbbāsiyya
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Caliphate ruling from 750. From 836 onwards centered on the new capital at Samarra.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0001
+  persistent_identifiers:
+    internal_id: ENT-PERS-0001
+    external_identifiers:
+    - authority: pmbz
+      identifier: '16385'
+      uri: https://www.degruyter.com/database/PMBZ/entry/PMBZ16385/html
+    - authority: wikidata
+      identifier: Q314037
+      uri: https://www.wikidata.org/wiki/Q314037
+  standardised_name: al-Muʿtaṣim biʾllāh
+  alternative_names:
+  - form: Abū Isḥāq Muḥammad ibn Hārūn
+    language: ar
+    script: Arab
+    name_type: kunya_nasab
+  - form: Mōtasém
+    language: grc
+    script: Grek
+    name_type: transliteration
+  person_type: caliph
+  political_affiliation: ENT-POL-0002
+  offices_held:
+  - office: Caliph of the Abbasid Caliphate
+    valid_from: 833
+    valid_to: 842
+    confidence: 5
+  birth:
+    date:
+      start: 796
+      end: 796
+      precision: year
+      confidence: 4
+  death:
+    date:
+      start: 842
+      end: 842
+      precision: year
+      confidence: 5
+    place_id: ENT-PLC-0003
+  overall_confidence: 5
+  analytical_summary: Abbasid caliph (r. 833-842), son of Hārūn al-Rashīd. Led the 838 campaign in person, founded Samarra, presided over the detention of the Forty-Two Martyrs.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0003
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0002
+  persistent_identifiers:
+    internal_id: ENT-PERS-0002
+    external_identifiers:
+    - authority: pmbz
+      identifier: '19429'
+      uri: https://www.degruyter.com/database/PMBZ/entry/PMBZ19429/html
+    - authority: wikidata
+      identifier: Q221356
+      uri: https://www.wikidata.org/wiki/Q221356
+  standardised_name: Theophilos
+  alternative_names:
+  - form: Θεόφιλος
+    language: grc
+    script: Grek
+    name_type: standardised
+  - form: Tawfīl
+    language: ar
+    script: Arab
+    name_type: transliteration
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Emperor of the Romans
+    valid_from: 829
+    valid_to: 842
+    confidence: 5
+  birth:
+    date:
+      start: 813
+      end: 813
+      precision: year
+      confidence: 3
+  death:
+    date:
+      start: 842
+      end: 842
+      precision: year
+      confidence: 5
+  overall_confidence: 5
+  analytical_summary: Byzantine emperor (r. 829-842) of the Amorian dynasty. Defeated at Anzen 22 July 838; unable to relieve Amorium.
+  linked_attestations:
+  - ATT-0002
+  - ATT-0006
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: person
+  id: ENT-PERS-0003
+  standardised_name: al-Afshīn
+  alternative_names:
+  - form: Khaydhar ibn Kāʾūs
+    language: ar
+    script: Arab
+    name_type: kunya_nasab
+  person_type: general
+  political_affiliation: ENT-POL-0002
+  offices_held:
+  - office: Abbasid general
+    valid_from: 830
+    valid_to: 841
+    confidence: 5
+  death:
+    date:
+      start: 841
+      end: 841
+      precision: year
+      confidence: 4
+  overall_confidence: 5
+  analytical_summary: Sogdian prince and Abbasid general. Commanded the northern column in 838 and defeated Theophilos at Anzen. Later executed by al-Muʿtaṣim (841).
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0004
+  standardised_name: Aetios
+  alternative_names:
+  - form: Ἀέτιος
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: strategos
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Strategos of the Anatolikon theme
+    valid_to: 838
+    confidence: 4
+  - office: Patrikios
+    confidence: 4
+  death:
+    date:
+      start: 845
+      end: 846
+      precision: year_range_narrow
+      confidence: 4
+    place_id: ENT-PLC-0003
+  overall_confidence: 4
+  analytical_summary: Strategos of the Anatolikon theme at the 838 campaign; senior commander at the defence of Amorium. Taken captive, held in Samarra, executed there.
+  linked_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0005
+  standardised_name: Theodore Krateros
+  alternative_names:
+  - form: Θεόδωρος Κρατερός
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: martyr
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Byzantine officer
+    valid_to: 838
+    confidence: 3
+  death:
+    date:
+      start: 845
+      end: 845
+      precision: year
+      confidence: 3
+    place_id: ENT-PLC-0003
+  overall_confidence: 3
+  analytical_summary: One of the named Forty-Two Martyrs of Amorium. Subject of an independent encomium attributed to Michael Synkellos.
+  linked_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0006
+  standardised_name: Forty-Two Martyrs of Amorium (collective)
+  person_type: martyr
+  political_affiliation: ENT-POL-0001
+  death:
+    date:
+      start: 845
+      end: 845
+      precision: year
+      confidence: 4
+    place_id: ENT-PLC-0003
+  overall_confidence: 4
+  analytical_summary: Collective designation for forty-two Byzantine officers captured at Amorium 838, held in Samarra ~7 years, executed 845 after refusing to convert.
+  linked_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0007
+  standardised_name: Manuel the Armenian
+  alternative_names:
+  - form: Μανουὴλ ὁ Ἀρμένιος
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: general
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Domestikos of the Scholai
+    valid_to: 838
+    confidence: 3
+  overall_confidence: 3
+  analytical_summary: Byzantine general of Armenian origin. Tradition places him with Theophilos at Anzen, saving the emperor from encirclement.
+  linked_attestations:
+  - ATT-0006
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: person
+  id: ENT-PERS-0008
+  standardised_name: Boiditzes
+  alternative_names:
+  - form: Βοϊδίτζης
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: soldier
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 2
+  analytical_summary: Named in some sources as the defector who revealed Amorium's weak wall section. Identification is uncertain; some accounts leave the defector unnamed.
+  linked_attestations:
+  - ATT-0002
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: place
+  id: ENT-PLC-0001
+  persistent_identifiers:
+    internal_id: ENT-PLC-0001
+    external_identifiers:
+    - authority: pleiades
+      identifier: '609302'
+      uri: https://pleiades.stoa.org/places/609302
+    - authority: wikidata
+      identifier: Q174270
+      uri: https://www.wikidata.org/wiki/Q174270
+    - authority: geonames
+      identifier: '312069'
+      uri: https://sws.geonames.org/312069/
+    - authority: tgn
+      identifier: '6000247'
+      uri: http://vocab.getty.edu/tgn/6000247
+  standardised_name: Amorium
+  alternative_names:
+  - form: Amorion
+    language: grc
+    script: Grek
+  - form: ʿAmmūriya
+    language: ar
+    script: Arab
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 39.0211
+    longitude: 31.2867
+    crs: EPSG:4326
+    coordinate_source: Amorium excavation project survey data
+    coordinate_method: archaeological_survey
+    coordinate_precision: site
+    uncertainty_radius_m: 50
+    coordinate_confidence: 5
+  political_affiliation_history:
+  - value: ENT-POL-0001
+    valid_from: 600
+    valid_to: 838
+    confidence: 5
+  - value: ENT-POL-0002
+    valid_from: 838
+    valid_to: 841
+    confidence: 4
+  - value: ENT-POL-0001
+    valid_from: 841
+    valid_to: 1067
+    confidence: 3
+  administrative_status_history:
+  - value: Capital of the Anatolikon theme
+    valid_from: 669
+    valid_to: 838
+    confidence: 5
+  frontier_role: Principal Byzantine military and administrative centre of central Anatolia; capital of the Anatolikon theme.
+  overall_confidence: 5
+  analytical_summary: Amorium was the principal Byzantine military centre of central Anatolia and ancestral home of the Amorian dynasty. Captured by al-Muʿtaṣim August 838; archaeologically attested destruction
+    horizon at Hisarköy.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0008
+  - ATT-0009
+  - ATT-0011
+  linked_interpretations:
+  - INT-0001
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-PLC-0002
+  standardised_name: Anzen / Dazimon (battle site of 22 July 838)
+  alternative_names:
+  - form: Anzen
+    language: grc
+    script: Grek
+  - form: Dazimon
+    language: grc
+    script: Grek
+  - form: Dāzimūn
+    language: ar
+    script: Arab
+  place_type: battle_site
+  identification_status: disputed
+  identification_confidence: 2
+  coordinates:
+    latitude: 40.3
+    longitude: 36.5
+    crs: EPSG:4326
+    coordinate_source: Modern scholarly identification (Treadgold 1988)
+    coordinate_method: scholarly_identification
+    coordinate_precision: locality
+    uncertainty_radius_m: 25000
+    coordinate_confidence: 2
+  frontier_role: Site of the decisive Byzantine field defeat preceding the fall of Amorium.
+  overall_confidence: 3
+  analytical_summary: 'Battle in which al-Afshīn defeated Theophilos 22 July 838. Greek ''Anzen'', Arabic ''Dāzimūn''. Most widely accepted modern location: Dazimon plain near modern Tokat; not secure.'
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+  linked_interpretations:
+  - INT-0002
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-PLC-0003
+  standardised_name: Samarra
+  alternative_names:
+  - form: Surra man raʾā
+    language: ar
+    script: Arab
+  - form: Sāmarrāʾ
+    language: ar
+    script: Arab
+  place_type: capital_city
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 34.1983
+    longitude: 43.8742
+    crs: EPSG:4326
+    coordinate_source: UNESCO World Heritage Site coordinates
+    coordinate_method: modern_map
+    coordinate_precision: site
+    uncertainty_radius_m: 1000
+    coordinate_confidence: 5
+  frontier_role: Abbasid imperial capital 836-892; place of detention and execution of the Forty-Two Martyrs.
+  overall_confidence: 5
+  analytical_summary: Abbasid imperial capital from 836, founded by al-Muʿtaṣim ~125 km north of Baghdad. Place of detention and execution of the Forty-Two Martyrs.
+  linked_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-PLC-0004
+  standardised_name: Tarsus
+  alternative_names:
+  - form: Ταρσός
+    language: grc
+    script: Grek
+  - form: Ṭarsūs
+    language: ar
+    script: Arab
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.9177
+    longitude: 34.8945
+    crs: EPSG:4326
+    coordinate_source: Modern map
+    coordinate_method: modern_map
+    coordinate_precision: settlement
+    uncertainty_radius_m: 2000
+    coordinate_confidence: 5
+  political_affiliation_history:
+  - value: ENT-POL-0002
+    valid_from: 700
+    valid_to: 965
+    confidence: 4
+  frontier_role: Principal Abbasid frontier fortress in Cilicia; mustering point for the 838 campaign.
+  overall_confidence: 5
+  analytical_summary: Major fortified town on the Cilician plain. Standard mustering point for Abbasid summer campaigns; the 838 campaign was assembled here.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-PLC-0005
+  standardised_name: Cilician Gates
+  alternative_names:
+  - form: Πύλαι Κιλικίας
+    language: grc
+    script: Grek
+  - form: al-Darb
+    language: ar
+    script: Arab
+  place_type: pass
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 37.2722
+    longitude: 34.7711
+    crs: EPSG:4326
+    coordinate_source: Modern map
+    coordinate_method: modern_map
+    coordinate_precision: locality
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 5
+  frontier_role: Principal pass through the Taurus mountains; standard invasion route.
+  overall_confidence: 5
+  analytical_summary: Principal pass through the Taurus mountains; standard invasion route for Abbasid armies entering Anatolia. Crossed by al-Afshīn in 838.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-PLC-0006
+  standardised_name: Ancyra
+  alternative_names:
+  - form: Ἄγκυρα
+    language: grc
+    script: Grek
+  - form: Anqūra
+    language: ar
+    script: Arab
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 39.9334
+    longitude: 32.8597
+    crs: EPSG:4326
+    coordinate_source: Modern map
+    coordinate_method: modern_map
+    coordinate_precision: settlement
+    uncertainty_radius_m: 5000
+    coordinate_confidence: 5
+  frontier_role: Major Byzantine city of central Anatolia; principal target of al-Muʿtaṣim's column before the move on Amorium.
+  overall_confidence: 5
+  analytical_summary: Major Byzantine city of central Anatolia. Taken by al-Muʿtaṣim's column late July 838 before the army reunited for Amorium. Held only briefly.
+  linked_attestations:
+  - ATT-0030
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: place
+  id: ENT-PLC-0007
+  standardised_name: Zibatra / Sozopetra
+  alternative_names:
+  - form: Σωζόπετρα
+    language: grc
+    script: Grek
+  - form: Zibaṭra
+    language: ar
+    script: Arab
+  place_type: fortification
+  identification_status: probably_identified
+  identification_confidence: 3
+  coordinates:
+    latitude: 37.96
+    longitude: 38.2
+    crs: EPSG:4326
+    coordinate_source: Modern scholarly identification (TIB 2)
+    coordinate_method: scholarly_identification
+    coordinate_precision: locality
+    uncertainty_radius_m: 15000
+    coordinate_confidence: 3
+  frontier_role: Abbasid frontier town; casus belli of the 838 campaign.
+  overall_confidence: 3
+  analytical_summary: Upper Euphrates frontier town, sacked by Theophilos in 837. Tradition (probably apocryphal) holds al-Muʿtaṣim's mother was from here. Exact location debated.
+  linked_attestations:
+  - ATT-0040
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: place
+  id: ENT-PLC-0008
+  standardised_name: Anatolikon theme
+  alternative_names:
+  - form: θέμα Ἀνατολικῶν
+    language: grc
+    script: Grek
+  place_type: theme
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 38.5
+    longitude: 31.0
+    crs: EPSG:4326
+    coordinate_source: Approximate centroid
+    coordinate_method: computed_centroid
+    coordinate_precision: region
+    uncertainty_radius_m: 150000
+    coordinate_confidence: 3
+  political_affiliation_history:
+  - value: ENT-POL-0001
+    valid_from: 669
+    valid_to: 1077
+    confidence: 5
+  frontier_role: Largest and most prestigious Byzantine theme of central Anatolia.
+  overall_confidence: 5
+  analytical_summary: Largest Byzantine theme of central Anatolia, with capital at Amorium. v1 models as flat place; v2 polygon-with-time-slice planned.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: place
+  id: ENT-PLC-0009
+  standardised_name: ʿAwāṣim
+  alternative_names:
+  - form: العواصم
+    language: ar
+    script: Arab
+  place_type: frontier_zone
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 36.7
+    longitude: 37.0
+    crs: EPSG:4326
+    coordinate_source: Approximate centroid
+    coordinate_method: computed_centroid
+    coordinate_precision: region
+    uncertainty_radius_m: 200000
+    coordinate_confidence: 2
+  political_affiliation_history:
+  - value: ENT-POL-0002
+    valid_from: 786
+    valid_to: 945
+    confidence: 4
+  frontier_role: Abbasid rear support belt behind the thughūr.
+  overall_confidence: 4
+  analytical_summary: Rear belt of fortified settlements along Abbasid-Byzantine frontier, established under Hārūn al-Rashīd c. 786. v2 polygon treatment planned.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: place
+  id: ENT-PLC-0010
+  standardised_name: Thughūr
+  alternative_names:
+  - form: الثغور
+    language: ar
+    script: Arab
+  place_type: frontier_zone
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 37.0
+    longitude: 38.0
+    crs: EPSG:4326
+    coordinate_source: Approximate centroid
+    coordinate_method: computed_centroid
+    coordinate_precision: region
+    uncertainty_radius_m: 250000
+    coordinate_confidence: 2
+  political_affiliation_history:
+  - value: ENT-POL-0002
+    valid_from: 700
+    valid_to: 945
+    confidence: 4
+  frontier_role: Abbasid front-line frontier zone facing Byzantine Anatolia.
+  overall_confidence: 4
+  analytical_summary: Abbasid front-line frontier zone facing Byzantium, divided into Syrian and Jaziran thughūr. v2 polygon treatment planned.
+  linked_attestations:
+  - ATT-0050
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: event
+  id: ENT-EVT-0001
+  standardised_name: Abbasid campaign against Byzantium, 838
+  event_type:
+    primary: military
+    sub: campaign
+  start_date:
+    start: 0838-04
+    precision: month
+    confidence: 3
+    primary_dating_system: AH
+    alternative_datings:
+    - system: AH
+      value: AH 223
+      normalised_start: '0837-12-03'
+      normalised_end: '0838-11-22'
+    - system: AM_byzantine
+      value: AM 6346
+      normalised_start: '0837-09-01'
+      normalised_end: '0838-08-31'
+  end_date:
+    start: 0838-09
+    precision: month
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0001
+  - ENT-PLC-0002
+  - ENT-PLC-0004
+  - ENT-PLC-0005
+  - ENT-PLC-0006
+  - ENT-PLC-0007
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0002
+  - ENT-PERS-0003
+  political_entities_involved:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  child_events:
+  - ENT-EVT-0002
+  - ENT-EVT-0003
+  - ENT-EVT-0004
+  - ENT-EVT-0005
+  - ENT-EVT-0006
+  - ENT-EVT-0007
+  description: Major Abbasid retaliatory campaign launched by al-Muʿtaṣim against Byzantium in response to Theophilos's attack on Zibatra/Sozopetra in 837.
+  historical_significance: The most consequential single campaign of the ninth-century Byzantine-Abbasid frontier.
+  overall_confidence: 5
+  analytical_summary: Largest single military operation on the Byzantine-Islamic frontier of the ninth century. Produced the symbolic disaster of the sack of Amorium.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0003
+  linked_interpretations:
+  - INT-0001
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: event
+  id: ENT-EVT-0002
+  standardised_name: Mustering of the Abbasid army at Tarsus, spring 838
+  event_type:
+    primary: military
+    sub: mustering
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: 0838-04
+    precision: month
+    confidence: 3
+  end_date:
+    start: 0838-04
+    precision: month
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0004
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0003
+  overall_confidence: 4
+  analytical_summary: Initial muster of the Abbasid expeditionary force at Tarsus before columns split north.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: event
+  id: ENT-EVT-0003
+  standardised_name: Battle of Anzen / Dazimon
+  event_type:
+    primary: military
+    sub: battle
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: '0838-07-22'
+    precision: exact_day
+    confidence: 4
+  end_date:
+    start: '0838-07-22'
+    precision: exact_day
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0002
+  participants:
+  - ENT-PERS-0002
+  - ENT-PERS-0003
+  - ENT-PERS-0007
+  overall_confidence: 4
+  analytical_summary: 'Decisive engagement 22 July 838: al-Afshīn defeated Theophilos, opening the road to Amorium.'
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: event
+  id: ENT-EVT-0004
+  standardised_name: Capture of Ancyra by al-Muʿtaṣim
+  event_type:
+    primary: military
+    sub: capture_of_fortress
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: 0838-07
+    precision: month
+    confidence: 3
+  end_date:
+    start: 0838-07
+    precision: month
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0006
+  participants:
+  - ENT-PERS-0001
+  overall_confidence: 4
+  analytical_summary: Capture of Ancyra by al-Muʿtaṣim's column late July 838. Held briefly before army moved on Amorium.
+  linked_attestations:
+  - ATT-0030
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: event
+  id: ENT-EVT-0005
+  standardised_name: Siege of Amorium
+  event_type:
+    primary: military
+    sub: siege
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: '0838-08-01'
+    precision: month
+    confidence: 3
+  end_date:
+    start: '0838-08-12'
+    end: '0838-08-15'
+    precision: year_range_narrow
+    confidence: 2
+  associated_places:
+  - ENT-PLC-0001
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0002
+  - ENT-PERS-0004
+  - ENT-PERS-0008
+  overall_confidence: 4
+  analytical_summary: Siege of Amorium by reunited Abbasid army. ~Two weeks. Ended in storming and sack after a defector indicated weak wall.
+  notes: 'Duration disputed: al-Ṭabarī ~12-13 days; Theophanes Continuatus longer.'
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0008
+  - ATT-0009
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: event
+  id: ENT-EVT-0006
+  standardised_name: Sack of Amorium and deportation of population
+  event_type:
+    primary: military
+    sub: sack_of_city
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: '0838-08-12'
+    end: '0838-08-15'
+    precision: year_range_narrow
+    confidence: 2
+  associated_places:
+  - ENT-PLC-0001
+  - ENT-PLC-0003
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0004
+  - ENT-PERS-0005
+  - ENT-PERS-0006
+  overall_confidence: 5
+  analytical_summary: Storming, sack, and depopulation of Amorium. Surviving population deported; forty-two officers eventually martyred at Samarra 845.
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0010
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: event
+  id: ENT-EVT-0007
+  standardised_name: Execution of the Forty-Two Martyrs at Samarra, 845
+  event_type:
+    primary: religious
+    sub: martyrdom
+  parent_event: ENT-EVT-0001
+  start_date:
+    start: '0845-03-06'
+    precision: exact_day
+    confidence: 3
+  end_date:
+    start: '0845-03-06'
+    precision: exact_day
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0003
+  participants:
+  - ENT-PERS-0004
+  - ENT-PERS-0005
+  - ENT-PERS-0006
+  overall_confidence: 3
+  analytical_summary: Execution at Samarra of the forty-two officers from Amorium after ~7 years detention. Date traditionally given as 6 March 845, debated.
+  linked_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: event
+  id: ENT-EVT-0008
+  standardised_name: Theophilos's raid on Zibatra/Sozopetra, 837
+  event_type:
+    primary: military
+    sub: raid
+  start_date:
+    start: 0837
+    precision: year
+    confidence: 4
+  end_date:
+    start: 0837
+    precision: year
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0007
+  participants:
+  - ENT-PERS-0002
+  related_events:
+  - ENT-EVT-0001
+  overall_confidence: 4
+  analytical_summary: Byzantine raid on the Abbasid frontier town of Zibatra/Sozopetra in 837, the casus belli for al-Muʿtaṣim's 838 campaign.
+  linked_attestations:
+  - ATT-0040
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: observation
+  id: OBS-0001
+  proposition: Al-Muʿtaṣim led a major campaign against Byzantium in 838.
+  associated_entities:
+  - ENT-EVT-0001
+  - ENT-PERS-0001
+  supporting_attestations:
+  - ATT-0001
+  - ATT-0003
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0002
+  proposition: Amorium fell to Abbasid forces in August 838.
+  associated_entities:
+  - ENT-EVT-0006
+  - ENT-PLC-0001
+  supporting_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0003
+  proposition: Theophilos was defeated at Anzen/Dazimon on 22 July 838 by al-Afshīn.
+  associated_entities:
+  - ENT-EVT-0003
+  - ENT-PERS-0002
+  - ENT-PERS-0003
+  supporting_attestations:
+  - ATT-0006
+  - ATT-0007
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0004
+  proposition: The siege of Amorium lasted approximately twelve to thirteen days.
+  associated_entities:
+  - ENT-EVT-0005
+  supporting_attestations:
+  - ATT-0008
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  contradicting_attestations:
+  - ATT-0009
+- record_type: observation
+  id: OBS-0005
+  proposition: The siege of Amorium lasted approximately fifty-five days.
+  associated_entities:
+  - ENT-EVT-0005
+  supporting_attestations:
+  - ATT-0009
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  contradicting_attestations:
+  - ATT-0008
+- record_type: observation
+  id: OBS-0006
+  proposition: A traitor inside Amorium revealed a structurally weak section of the city wall.
+  associated_entities:
+  - ENT-EVT-0005
+  - ENT-PLC-0001
+  - ENT-PERS-0008
+  supporting_attestations:
+  - ATT-0001
+  - ATT-0002
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0007
+  proposition: Forty-two Byzantine officers captured at Amorium were held in Samarra and executed there in 845.
+  associated_entities:
+  - ENT-PLC-0003
+  - ENT-EVT-0007
+  - ENT-PERS-0006
+  supporting_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0008
+  proposition: An archaeological destruction horizon at Hisarköy/Amorium is consistent with violent sack in the mid-ninth century.
+  associated_entities:
+  - ENT-PLC-0001
+  - ENT-EVT-0006
+  supporting_attestations:
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0009
+  proposition: Al-Muʿtaṣim's column captured Ancyra in late July 838 before the army reunited for Amorium.
+  associated_entities:
+  - ENT-EVT-0004
+  - ENT-PLC-0006
+  - ENT-PERS-0001
+  supporting_attestations:
+  - ATT-0030
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0010
+  proposition: Theophilos's 837 raid on Zibatra/Sozopetra provoked the 838 Abbasid campaign.
+  associated_entities:
+  - ENT-EVT-0008
+  - ENT-EVT-0001
+  - ENT-PLC-0007
+  supporting_attestations:
+  - ATT-0040
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0011
+  proposition: Aetios was strategos of the Anatolikon theme at the time of the 838 campaign.
+  associated_entities:
+  - ENT-PERS-0004
+  - ENT-PLC-0008
+  supporting_attestations:
+  - ATT-0010
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: observation
+  id: OBS-0012
+  proposition: The Abbasid army assembled at Tarsus before splitting into two columns for the 838 invasion.
+  associated_entities:
+  - ENT-EVT-0002
+  - ENT-PLC-0004
+  - ENT-PLC-0011
+  supporting_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: attestation
+  id: ATT-0001
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-EVT-0005
+  - ENT-EVT-0006
+  - ENT-PLC-0001
+  - ENT-PERS-0001
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, sub anno AH 223 (Cairo ed., vol. IX, pp. 56-69; Bosworth trans. XXXIII, pp. 95-123)
+  paraphrase: 'Extended account of al-Muʿtaṣim''s campaign: assembly at Tarsus, march through the Cilician Gates, al-Afshīn''s victory, the siege of Amorium, the role of a defector indicating the weak wall,
+    the storming, the fate of the inhabitants.'
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0001
+  - OBS-0002
+  - OBS-0006
+- record_type: attestation
+  id: ATT-0002
+  source: SRC-0002
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-EVT-0006
+  - ENT-PLC-0001
+  - ENT-PERS-0002
+  provenance: primary_paraphrase
+  citation: Theophanes Continuatus III.29-34 (Featherstone-Signes Codoñer eds., pp. 168-195)
+  paraphrase: Byzantine-perspective narration with moralising treatment of Theophilos's failures and explicit attribution of treachery to a named individual.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0002
+  - OBS-0006
+- record_type: attestation
+  id: ATT-0003
+  source: SRC-0003
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-PERS-0001
+  provenance: primary_summary
+  citation: al-Yaʿqūbī, Taʾrīkh (Houtsma ed., vol. II, pp. 581-582)
+  paraphrase: Brief but independent confirmation of the main outlines of the campaign.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0001
+- record_type: attestation
+  id: ATT-0006
+  source: SRC-0002
+  entities_referenced:
+  - ENT-EVT-0003
+  - ENT-PLC-0002
+  - ENT-PERS-0002
+  - ENT-PERS-0007
+  provenance: primary_paraphrase
+  citation: Theophanes Continuatus III.30
+  paraphrase: Names the battle site Anzen; narrates Theophilos's near-encirclement and rescue by Manuel the Armenian.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0003
+- record_type: attestation
+  id: ATT-0007
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0003
+  - ENT-PLC-0002
+  - ENT-PERS-0003
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, AH 223
+  paraphrase: Names the location Dāzimūn; credits the victory to al-Afshīn's wing.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0003
+- record_type: attestation
+  id: ATT-0008
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0005
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, AH 223
+  paraphrase: The chronology of named days implies a siege of approximately twelve to thirteen days from arrival before Amorium to the breach.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0004
+- record_type: attestation
+  id: ATT-0009
+  source: SRC-0002
+  entities_referenced:
+  - ENT-EVT-0005
+  provenance: primary_summary
+  citation: Theophanes Continuatus III.32
+  paraphrase: Theophanes Continuatus's narrative pacing implies a substantially longer siege; one reading yields approximately fifty-five days.
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0005
+- record_type: attestation
+  id: ATT-0010
+  source: SRC-0004
+  entities_referenced:
+  - ENT-PLC-0003
+  - ENT-EVT-0007
+  - ENT-PERS-0004
+  - ENT-PERS-0005
+  - ENT-PERS-0006
+  provenance: primary_paraphrase
+  citation: Acta of the Forty-Two Martyrs (Euodios recension), §§1-8
+  paraphrase: Hagiographic account of the deportation, detention in Samarra, theological disputation, and execution.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0007
+  - OBS-0011
+- record_type: attestation
+  id: ATT-0011
+  source: SRC-0005
+  entities_referenced:
+  - ENT-PLC-0001
+  - ENT-PLC-0012
+  - ENT-EVT-0006
+  provenance: archaeological_evidence
+  citation: Lightfoot, annual reports in Anatolian Studies, 1988-2015
+  paraphrase: Mid-ninth-century destruction horizon identified across the excavated site at Hisarköy/Emirdağ, consistent with the sack of 838.
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0002
+  - OBS-0008
+- record_type: attestation
+  id: ATT-0020
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0002
+  - ENT-PLC-0004
+  - ENT-PLC-0005
+  - ENT-PLC-0011
+  provenance: primary_summary
+  citation: al-Ṭabarī, AH 223
+  paraphrase: Account of the assembly at Tarsus and the route taken by both columns northward.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0012
+- record_type: attestation
+  id: ATT-0030
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0004
+  - ENT-PLC-0006
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, AH 223
+  paraphrase: Capture of Ancyra by the column under al-Muʿtaṣim before the move on Amorium.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0009
+- record_type: attestation
+  id: ATT-0040
+  source: SRC-0006
+  entities_referenced:
+  - ENT-EVT-0008
+  - ENT-PLC-0007
+  provenance: modern_synthesis
+  citation: Treadgold, Byzantine Revival 780-842, pp. 297-305
+  paraphrase: 'Modern synthesis of the chain of causation: Theophilos''s 837 raid on Zibatra prompts al-Muʿtaṣim''s 838 retaliation against Amorium.'
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  observations_supported:
+  - OBS-0010
+- record_type: attestation
+  id: ATT-0050
+  source: SRC-0006
+  entities_referenced:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  - ENT-PLC-0008
+  - ENT-PLC-0009
+  - ENT-PLC-0010
+  - ENT-PERS-0010
+  - ENT-PERS-0011
+  - ENT-PERS-0012
+  - ENT-PERS-0013
+  - ENT-PERS-0014
+  - ENT-PERS-0015
+  provenance: modern_synthesis
+  citation: Treadgold, Byzantine Revival 780-842 (1988), passim; with cross-references to PMBZ entries for named persons
+  paraphrase: Broad modern synthesis covering the institutional, geographical, and prosopographical context of the 838 campaign. Used as the principal anchoring attestation for entities whose individual
+    primary-source attestations are dispersed.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: interpretation
+  id: INT-0001
+  associated_entities:
+  - ENT-EVT-0001
+  - ENT-PLC-0001
+  scholar: Treadgold, W.
+  publication: The Byzantine Revival, 780-842 (Stanford, 1988)
+  date: 1988
+  argument: The 838 campaign was strategically and symbolically devastating but did not produce permanent territorial loss; the siege itself, on Treadgold's reconstruction, was relatively brief (~12 days),
+    and Amorium was reoccupied within years. The deeper damage was to Theophilos's prestige.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0001
+  - ATT-0003
+  - ATT-0008
+  counter_evidence:
+  - ATT-0009
+- record_type: interpretation
+  id: INT-0002
+  associated_entities:
+  - ENT-PLC-0002
+  scholar: Multiple; summarised in Treadgold 1988
+  publication: Treadgold 1988 et seq.
+  date: 1988
+  argument: The battle named Anzen (Greek) and Dāzimūn (Arabic) is most plausibly located in the Dazimon plain near modern Tokat. The identification is not universally accepted; alternatives have been proposed.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0006
+  - ATT-0007
+- record_type: interpretation
+  id: INT-0003
+  associated_entities:
+  - ENT-EVT-0007
+  - ENT-PERS-0006
+  scholar: Vasil'evskij, V.
+  publication: Skazaniia o 42 amoriiskikh muchenikakh (1905), introduction
+  date: 1905
+  argument: The Euodios recension is the earliest of the surviving hagiographic accounts, with the others derived from or in dialogue with it. This is the basis for treating the Euodios version as the principal
+    evidential source for the martyrs' fate.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0010
+- record_type: interpretation
+  id: INT-0004
+  associated_entities:
+  - ENT-EVT-0008
+  scholar: Treadgold, W.
+  publication: The Byzantine Revival, 780-842 (Stanford, 1988)
+  date: 1988
+  argument: Theophilos's choice of Zibatra/Sozopetra as a target in 837 was deliberately provocative; the tradition that al-Muʿtaṣim's mother was native to the town, while probably apocryphal, was widespread
+    enough that Theophilos may have intended the personal insult.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0040
+- record_type: interpretation
+  id: INT-0005
+  associated_entities:
+  - ENT-PLC-0001
+  scholar: Lightfoot, C. S.
+  publication: Various Anatolian Studies reports
+  date: 2002
+  argument: The 838 destruction horizon at Amorium is a single coherent destruction event rather than the cumulative effect of multiple raids. This supports the textual tradition of a violent sack.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0011
+- record_type: interpretation
+  id: INT-0006
+  associated_entities:
+  - ENT-PERS-0008
+  scholar: Multiple; see Treadgold 1988
+  publication: Treadgold 1988, p. 304
+  date: 1988
+  argument: The identification of the defector as 'Boiditzes' in the Greek tradition is not corroborated by the Arabic sources, which name a different individual or leave the defector unnamed. The historicity
+    of the specific name is doubtful even if the broader fact of a defection is well-attested.
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  supporting_evidence:
+  - ATT-0002
+- record_type: relationship
+  id: REL-0001
+  type: located_at
+  source_entity: ENT-EVT-0005
+  target_entity: ENT-PLC-0001
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+- record_type: relationship
+  id: REL-0002
+  type: located_at
+  source_entity: ENT-EVT-0003
+  target_entity: ENT-PLC-0002
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+- record_type: relationship
+  id: REL-0003
+  type: participated_in
+  source_entity: ENT-PERS-0001
+  target_entity: ENT-EVT-0001
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0001
+  - ATT-0003
+- record_type: relationship
+  id: REL-0004
+  type: participated_in
+  source_entity: ENT-PERS-0002
+  target_entity: ENT-EVT-0003
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0006
+- record_type: relationship
+  id: REL-0005
+  type: led
+  source_entity: ENT-PERS-0003
+  target_entity: ENT-EVT-0003
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0006
+  - ATT-0007
+- record_type: relationship
+  id: REL-0006
+  type: parent_event_of
+  source_entity: ENT-EVT-0001
+  target_entity: ENT-EVT-0005
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: relationship
+  id: REL-0007
+  type: parent_event_of
+  source_entity: ENT-EVT-0001
+  target_entity: ENT-EVT-0003
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+- record_type: relationship
+  id: REL-0008
+  type: preceded_by
+  source_entity: ENT-EVT-0001
+  target_entity: ENT-EVT-0008
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0040
+  notes: Theophilos's 837 raid was the casus belli.
+- record_type: relationship
+  id: REL-0009
+  type: captured
+  source_entity: ENT-PERS-0001
+  target_entity: ENT-PLC-0001
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0001
+  - ATT-0002
+- record_type: relationship
+  id: REL-0010
+  type: different_from
+  source_entity: SRC-0003
+  target_entity: SRC-0001
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  notes: al-Yaʿqūbī's account is independent of al-Ṭabarī's rather than derivative.
+- record_type: relationship
+  id: REL-0011
+  type: victim_of
+  source_entity: ENT-PERS-0004
+  target_entity: ENT-EVT-0007
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  linked_attestations:
+  - ATT-0010
+- record_type: relationship
+  id: REL-0012
+  type: contains
+  source_entity: ENT-PLC-0008
+  target_entity: ENT-PLC-0001
+  confidence: 5
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+  notes: Amorium was within the Anatolikon theme until 838.
+- record_type: place
+  id: ENT-PLC-0011
+  standardised_name: 'Route: Tarsus to Amorium via Cilician Gates, 838'
+  place_type: route
+  identification_status: probably_identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 38.0
+    longitude: 33.0
+    crs: EPSG:4326
+    coordinate_source: Approximate route midpoint
+    coordinate_method: inference_from_itinerary
+    coordinate_precision: region
+    uncertainty_radius_m: 200000
+    coordinate_confidence: 3
+  frontier_role: Principal invasion route from Cilicia into central Anatolia, used by the 838 campaign.
+  overall_confidence: 3
+  analytical_summary: The 838 invasion route from Tarsus through the Cilician Gates to Amorium. v1 models as flat route entity; segment-level modelling deferred to v2.
+  linked_attestations:
+  - ATT-0020
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+- record_type: place
+  id: ENT-PLC-0012
+  standardised_name: Mt Hisar Tepe (the Upper City of Amorium)
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 39.0227
+    longitude: 31.2854
+    crs: EPSG:4326
+    coordinate_source: Amorium excavation survey
+    coordinate_method: archaeological_survey
+    coordinate_precision: site
+    uncertainty_radius_m: 30
+    coordinate_confidence: 5
+  frontier_role: Inner citadel of Amorium; principal defensive position during the 838 siege.
+  overall_confidence: 5
+  analytical_summary: Upper town and citadel of Amorium, archaeologically well-documented. Excavations have identified the ninth-century destruction horizon.
+  linked_attestations:
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft

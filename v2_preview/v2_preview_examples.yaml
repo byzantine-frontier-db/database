@@ -1,0 +1,226 @@
+# ============================================================================
+# v2.0.0 Preview — Worked Examples
+# Byzantine-Islamic Frontier Database
+#
+# Demonstrates the v2 additions: FuzzyRegion polygon-per-time-slice modelling
+# and WitnessRecord manuscript-witness modelling. Validates against
+# byzfrontier_schema_v2_preview.json.
+#
+# Compatibility note: these records require v2 schema. Existing v1 records
+# remain unchanged and valid.
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# FuzzyRegion example — Anatolikon theme with three time-slices
+# ----------------------------------------------------------------------------
+
+- record_type: place
+  record_subtype: fuzzy_region
+  id: ENT-PLC-0008
+  standardised_name: "Anatolikon theme"
+  alternative_names:
+    - { form: "θέμα Ἀνατολικῶν", language: grc, script: Grek }
+  place_type: theme
+  identification_status: identified
+  identification_confidence: 5
+  temporal_polygons:
+    - valid_from: 669
+      valid_to: 740
+      boundary_confidence: 3
+      boundary_basis: scholarly_reconstruction
+      uncertainty_buffer_km: 50
+      linked_attestations: [ATT-0050]
+      notes: |
+        Initial extent of the Anatolikon theme c. 669-740. Recovered through
+        modern reconstruction (Haldon, Brubaker-Haldon); precise boundaries
+        not directly attested.
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [29.5, 37.0]
+            - [33.0, 36.5]
+            - [35.5, 37.8]
+            - [35.0, 39.5]
+            - [32.5, 40.0]
+            - [29.5, 39.0]
+            - [29.5, 37.0]
+    - valid_from: 740
+      valid_to: 838
+      boundary_confidence: 4
+      boundary_basis: scholarly_reconstruction
+      uncertainty_buffer_km: 40
+      linked_attestations: [ATT-0050]
+      notes: |
+        Mature extent of the Anatolikon theme c. 740-838, after the
+        institutional consolidations of the early eighth century. The
+        capital is Amorium. Substantially the configuration in place at
+        the 838 campaign.
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [29.8, 37.2]
+            - [32.5, 36.5]
+            - [35.0, 37.5]
+            - [35.2, 39.0]
+            - [32.8, 39.8]
+            - [30.0, 39.5]
+            - [29.8, 37.2]
+    - valid_from: 838
+      valid_to: 950
+      boundary_confidence: 3
+      boundary_basis: scholarly_reconstruction
+      uncertainty_buffer_km: 50
+      linked_attestations: [ATT-0050]
+      notes: |
+        Post-838 reconfiguration. After Amorium's fall, the theme's
+        administrative centre shifts; boundaries change as smaller
+        themes are split off through the ninth and tenth centuries.
+        Modelled here as a single time-slice; future refinement will
+        introduce sub-slices for each significant administrative
+        reorganisation.
+      geojson:
+        type: Polygon
+        coordinates:
+          - - [30.0, 37.5]
+            - [32.5, 37.0]
+            - [34.8, 37.8]
+            - [34.5, 39.0]
+            - [32.5, 39.5]
+            - [30.0, 39.0]
+            - [30.0, 37.5]
+  computed_centroid:
+    latitude: 38.5
+    longitude: 31.0
+    crs: EPSG:4326
+  political_affiliation_history:
+    - { value: ENT-POL-0001, valid_from: 669, valid_to: 1077, confidence: 5 }
+  administrative_status_history:
+    - { value: "Byzantine theme; senior in rank among Anatolian themes", valid_from: 669, valid_to: 838, confidence: 5 }
+  frontier_role: "Largest Byzantine theme of central Anatolia."
+  overall_confidence: 5
+  analytical_summary: |
+    The Anatolikon theme, modelled as a fuzzy region with three temporal
+    polygons. Boundaries are scholarly reconstructions with an explicit
+    uncertainty buffer; the polygons should not be read as precise
+    administrative borders but as approximate extents within their
+    documented buffer distances. The 740-838 polygon is the configuration
+    in place at the 838 Abbasid campaign.
+  linked_attestations: [ATT-0050]
+  metadata:
+    schema_version: "2.0.0-preview"
+    record_version: "1.0.0"
+    created_at: "2026-06-01T00:00:00Z"
+    workflow_state: draft
+    editorial_review_required: true
+
+# ----------------------------------------------------------------------------
+# WitnessRecord example — manuscript witnesses for Theophanes Continuatus
+# ----------------------------------------------------------------------------
+
+- record_type: witness
+  id: WIT-0001
+  source_id: SRC-0002        # Theophanes Continuatus
+  shelf_mark: "Vat. gr. 167"
+  repository:
+    name: "Biblioteca Apostolica Vaticana"
+    city: "Vatican City"
+    country_code: "VA"
+  language: grc
+  script: Grek
+  material: parchment
+  date_of_production:
+    start: 1000
+    end: 1050
+    precision: half_century
+    confidence: 3
+  extent:
+    folios: 240
+    dimensions_mm: "330 x 250"
+  recension: "principal witness for Books I-IV"
+  stemmatic_position:
+    stemma_branch: "α (alpha) branch"
+    confidence: 3
+  external_identifiers:
+    - authority: pinakes
+      identifier: "67000"
+      uri: "https://pinakes.irht.cnrs.fr/notices/cote/67000/"
+  edition_relationship: base_witness
+  notes: |
+    The principal manuscript of Theophanes Continuatus Books I-IV.
+    Forms the basis of all modern critical editions; the Featherstone
+    & Signes Codoñer edition (CFHB 53, 2015) uses Vat. gr. 167 as its
+    base witness.
+  metadata:
+    schema_version: "2.0.0-preview"
+    record_version: "1.0.0"
+    created_at: "2026-06-01T00:00:00Z"
+    workflow_state: draft
+    editorial_review_required: true
+
+- record_type: witness
+  id: WIT-0002
+  source_id: SRC-0002
+  shelf_mark: "Mosq. Synod. gr. 270 (Vlad. 169)"
+  repository:
+    name: "State Historical Museum"
+    city: "Moscow"
+    country_code: "RU"
+  language: grc
+  script: Grek
+  material: parchment
+  date_of_production:
+    start: 1100
+    end: 1199
+    precision: century
+    confidence: 3
+  extent:
+    folios: 280
+    dimensions_mm: "300 x 230"
+  recension: "principal witness for Books V-VI (Theophanes Continuatus, Vita Basilii)"
+  stemmatic_position:
+    stemma_branch: "β (beta) branch"
+    parent_in_stemma: "WIT-0001"
+    confidence: 2
+  edition_relationship: collated
+  notes: |
+    Important secondary witness. Contains the continuation that extends
+    beyond Vat. gr. 167; its relationship to Vat. gr. 167 is debated
+    (stemmatic dependence vs. independent transmission of common
+    earlier material).
+  metadata:
+    schema_version: "2.0.0-preview"
+    record_version: "1.0.0"
+    created_at: "2026-06-01T00:00:00Z"
+    workflow_state: draft
+    editorial_review_required: true
+
+- record_type: witness
+  id: WIT-0003
+  source_id: SRC-0001        # al-Ṭabarī
+  shelf_mark: "Köprülü 1041"
+  repository:
+    name: "Köprülü Library"
+    city: "Istanbul"
+    country_code: "TR"
+  language: ar
+  script: Arab
+  material: paper
+  date_of_production:
+    start: 1100
+    end: 1200
+    precision: century
+    confidence: 3
+  recension: "principal early witness for the AH 222-225 entries"
+  edition_relationship: collated
+  notes: |
+    One of the manuscripts collated for the de Goeje edition of
+    al-Ṭabarī (Leiden, 1879-1901) and used in the more recent Cairo
+    edition. The witness tradition of al-Ṭabarī is complex and includes
+    fragmentary witnesses across many libraries; WIT-0003 is illustrative
+    rather than exhaustive of the manuscript base for AH 223.
+  metadata:
+    schema_version: "2.0.0-preview"
+    record_version: "1.0.0"
+    created_at: "2026-06-01T00:00:00Z"
+    workflow_state: draft
+    editorial_review_required: true

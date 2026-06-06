@@ -1,0 +1,41 @@
+name: Validate Records
+
+on:
+  pull_request:
+    paths:
+      - 'records/**'
+      - 'byzfrontier_schema_v1.json'
+      - 'byzfrontier_validate.py'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PyYAML
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Run validation on all records
+        run: |
+          python byzfrontier_validate.py \
+            --schema byzfrontier_schema_v1.json \
+            --verbose \
+            records/
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "Validation complete. See output above for details."
+          echo "Failed validation will block merge."

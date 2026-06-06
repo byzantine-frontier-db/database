@@ -1,0 +1,539 @@
+@prefix :       <https://byzantine-frontier-db.org/vocab/> .
+@prefix bzfdb:  <https://byzantine-frontier-db.org/vocab/> .
+@prefix skos:   <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+@prefix aat:    <http://vocab.getty.edu/aat/> .
+@prefix periodo: <http://n2t.net/ark:/99152/> .
+
+#####################################################################
+# Byzantine-Islamic Frontier Database — Controlled Vocabularies (SKOS)
+# Version 1.1.0
+# Changes from v1.0.0:
+#   - Verified AAT closeMatch links added for confirmed terms
+#   - bzfdb:aat_match_status property added for editorial tracking
+#   - PeriodO references where applicable
+#   - Annotation property bzfdb:aat_search_term gives editors a starting
+#     point for verifying remaining AAT links
+#   - Three 'other' catch-all concepts added (coordinate methods, place
+#     types, source genres) — fixes coverage gap from v1.0
+#
+# AAT verification methodology:
+#   1. Search at http://www.getty.edu/research/tools/vocabularies/aat/
+#   2. Identify the term whose scope_note matches the byzfrontier concept
+#   3. Copy the 9-digit AAT ID and the canonical URI
+#   4. Add as skos:closeMatch (or skos:exactMatch if synonymous)
+#   5. Change bzfdb:aat_match_status from 'pending' to 'verified'
+#   6. Submit via PR; merge after Editorial Board review (governance §4.5)
+#####################################################################
+
+
+# Property used to track AAT verification status. Values: 'verified',
+# 'pending', or 'no_equivalent'.
+bzfdb:aat_match_status a rdf:Property ;
+    rdfs:comment "Status of AAT alignment for this concept. 'verified': skos:closeMatch present and reviewed. 'pending': skos:closeMatch not yet added; editor should search AAT. 'no_equivalent': searched, no acceptable AAT match exists."@en .
+
+bzfdb:aat_search_term a rdf:Property ;
+    rdfs:comment "Suggested AAT search term to help editors find a closeMatch. Free-text hint, not a binding mapping."@en .
+
+bzfdb:periodo_ref a rdf:Property ;
+    rdfs:comment "PeriodO period URI for time-bounded concepts."@en .
+
+
+#####################################################################
+# 1. CONFIDENCE LEVELS
+#####################################################################
+
+:confidence-levels a skos:ConceptScheme ;
+    dct:title "Confidence Levels"@en ;
+    dct:description "Five-level confidence scale used throughout the database."@en .
+
+:confidence-5 a skos:Concept ; skos:inScheme :confidence-levels ; skos:topConceptOf :confidence-levels ;
+    skos:prefLabel "Certain"@en ; skos:notation "5" ;
+    skos:definition "Directly attested and uncontested."@en ;
+    bzfdb:aat_match_status "no_equivalent" .
+
+:confidence-4 a skos:Concept ; skos:inScheme :confidence-levels ; skos:topConceptOf :confidence-levels ;
+    skos:prefLabel "Highly Probable"@en ; skos:notation "4" ;
+    skos:definition "Strongly supported by multiple independent lines of evidence."@en ;
+    bzfdb:aat_match_status "no_equivalent" .
+
+:confidence-3 a skos:Concept ; skos:inScheme :confidence-levels ; skos:topConceptOf :confidence-levels ;
+    skos:prefLabel "Probable"@en ; skos:notation "3" ;
+    skos:definition "Supported by evidence but not beyond reasonable dispute."@en ;
+    bzfdb:aat_match_status "no_equivalent" .
+
+:confidence-2 a skos:Concept ; skos:inScheme :confidence-levels ; skos:topConceptOf :confidence-levels ;
+    skos:prefLabel "Possible"@en ; skos:notation "2" ;
+    skos:definition "Plausible but weakly supported."@en ;
+    bzfdb:aat_match_status "no_equivalent" .
+
+:confidence-1 a skos:Concept ; skos:inScheme :confidence-levels ; skos:topConceptOf :confidence-levels ;
+    skos:prefLabel "Speculative"@en ; skos:notation "1" ;
+    skos:definition "Hypothetical or highly uncertain."@en ;
+    bzfdb:aat_match_status "no_equivalent" .
+
+
+#####################################################################
+# 2. TEMPORAL PRECISION
+#####################################################################
+
+:temporal-precision a skos:ConceptScheme ;
+    dct:title "Temporal Precision"@en .
+
+:exact-day a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Exact day"@en ; bzfdb:aat_match_status "no_equivalent" .
+:month a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Month"@en ; bzfdb:aat_match_status "no_equivalent" .
+:season a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Season"@en ; bzfdb:aat_match_status "no_equivalent" .
+:year a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Year"@en ; bzfdb:aat_match_status "no_equivalent" .
+:year-range-narrow a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Year range, narrow"@en ; bzfdb:aat_match_status "no_equivalent" .
+:year-range-broad a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Year range, broad"@en ; bzfdb:aat_match_status "no_equivalent" .
+:decade a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Decade"@en ; bzfdb:aat_match_status "no_equivalent" .
+:quarter-century a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Quarter-century"@en ; bzfdb:aat_match_status "no_equivalent" .
+:half-century a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Half-century"@en ; bzfdb:aat_match_status "no_equivalent" .
+:century a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Century"@en ; bzfdb:aat_match_status "no_equivalent" .
+:relative-before a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Relative before"@en ; bzfdb:aat_match_status "no_equivalent" .
+:relative-after a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Relative after"@en ; bzfdb:aat_match_status "no_equivalent" .
+:relative-between a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Relative between"@en ; bzfdb:aat_match_status "no_equivalent" .
+:unknown a skos:Concept ; skos:inScheme :temporal-precision ; skos:topConceptOf :temporal-precision ;
+    skos:prefLabel "Unknown"@en ; bzfdb:aat_match_status "no_equivalent" .
+
+
+#####################################################################
+# 3. DATING SYSTEMS
+#####################################################################
+
+:dating-systems a skos:ConceptScheme ; dct:title "Dating Systems"@en .
+
+:ds-ad a skos:Concept ; skos:inScheme :dating-systems ;
+    skos:prefLabel "Anno Domini"@en ; skos:notation "AD" ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "Christian era" .
+:ds-bc a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Before Christ"@en ; skos:notation "BC" .
+:ds-ce a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Common Era"@en ; skos:notation "CE" ; skos:exactMatch :ds-ad .
+:ds-bce a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Before Common Era"@en ; skos:notation "BCE" ; skos:exactMatch :ds-bc .
+:ds-ah a skos:Concept ; skos:inScheme :dating-systems ;
+    skos:prefLabel "Anno Hegirae"@en ; skos:notation "AH" ;
+    skos:definition "Islamic lunar calendar from 16 July 622 CE."@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "Islamic calendar / Hijri" .
+:ds-am-byzantine a skos:Concept ; skos:inScheme :dating-systems ;
+    skos:prefLabel "Anno Mundi (Byzantine)"@en ; skos:notation "AM_byzantine" ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "Byzantine calendar / Anno Mundi" .
+:ds-am-alexandrian a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Anno Mundi (Alexandrian)"@en ; skos:notation "AM_alexandrian" .
+:ds-regnal-byzantine a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Byzantine regnal year"@en ; skos:notation "regnal_byzantine" .
+:ds-regnal-abbasid a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Abbasid regnal year"@en ; skos:notation "regnal_abbasid" .
+:ds-regnal-umayyad a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Umayyad regnal year"@en ; skos:notation "regnal_umayyad" .
+:ds-indiction a skos:Concept ; skos:inScheme :dating-systems ;
+    skos:prefLabel "Indiction"@en ; skos:notation "indiction" ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "indiction" .
+:ds-seleucid a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Seleucid era"@en ; skos:notation "seleucid" .
+:ds-olympiad a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Olympiad"@en ; skos:notation "olympiad" .
+:ds-archaeological a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Archaeological phase"@en ; skos:notation "archaeological_phase" .
+:ds-palaeographic a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Palaeographic"@en ; skos:notation "palaeographic" .
+:ds-radiocarbon a skos:Concept ; skos:inScheme :dating-systems ; skos:prefLabel "Radiocarbon"@en ; skos:notation "radiocarbon" .
+
+
+#####################################################################
+# 4. IDENTIFICATION STATUS
+#####################################################################
+
+:identification-status a skos:ConceptScheme ; dct:title "Identification Status"@en .
+
+:identified a skos:Concept ; skos:inScheme :identification-status ; skos:prefLabel "Identified"@en .
+:probably-identified a skos:Concept ; skos:inScheme :identification-status ; skos:prefLabel "Probably identified"@en .
+:approximately-identified a skos:Concept ; skos:inScheme :identification-status ; skos:prefLabel "Approximately identified"@en .
+:hypothetically-identified a skos:Concept ; skos:inScheme :identification-status ; skos:prefLabel "Hypothetically identified"@en .
+:unidentified a skos:Concept ; skos:inScheme :identification-status ; skos:prefLabel "Unidentified"@en .
+:disputed a skos:Concept ; skos:inScheme :identification-status ; skos:prefLabel "Disputed"@en .
+
+
+#####################################################################
+# 5. COORDINATE METHODS & PRECISION
+#####################################################################
+
+:coordinate-methods a skos:ConceptScheme ; dct:title "Coordinate Methods"@en .
+
+:archaeological-survey a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Archaeological survey"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "archaeological surveying" .
+:modern-map a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Modern map"@en .
+:satellite-imagery a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Satellite imagery"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "satellite imagery" .
+:scholarly-identification a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Scholarly identification"@en .
+:inference-from-itinerary a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Inference from itinerary"@en .
+:gazetteer-entry a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Gazetteer entry"@en .
+:computed-centroid a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Computed centroid"@en .
+:other-coordinate-method a skos:Concept ; skos:inScheme :coordinate-methods ; skos:prefLabel "Other"@en ; skos:notation "other" .
+
+:coordinate-precision a skos:ConceptScheme ; dct:title "Coordinate Precision"@en .
+
+:cp-point a skos:Concept ; skos:inScheme :coordinate-precision ; skos:prefLabel "Point"@en .
+:cp-building a skos:Concept ; skos:inScheme :coordinate-precision ; skos:prefLabel "Building"@en .
+:cp-site a skos:Concept ; skos:inScheme :coordinate-precision ; skos:prefLabel "Site"@en .
+:cp-settlement a skos:Concept ; skos:inScheme :coordinate-precision ; skos:prefLabel "Settlement"@en .
+:cp-locality a skos:Concept ; skos:inScheme :coordinate-precision ; skos:prefLabel "Locality"@en .
+:cp-region a skos:Concept ; skos:inScheme :coordinate-precision ; skos:prefLabel "Region"@en .
+
+
+#####################################################################
+# 6. PROVENANCE CATEGORIES
+#####################################################################
+
+:provenance-categories a skos:ConceptScheme ; dct:title "Provenance Categories"@en .
+
+:primary-quotation a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Primary quotation"@en .
+:primary-paraphrase a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Primary paraphrase"@en .
+:primary-summary a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Primary summary"@en .
+:archaeological-evidence a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Archaeological evidence"@en .
+:epigraphic-evidence a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Epigraphic evidence"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "epigraphy" .
+:numismatic-evidence a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Numismatic evidence"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "numismatics" .
+:papyrological-evidence a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Papyrological evidence"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "papyrology" .
+:sigillographic-evidence a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Sigillographic evidence"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "sigillography / seals (impressions)" .
+:modern-synthesis a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Modern synthesis"@en .
+:modern-identification a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Modern identification"@en .
+:modern-interpretation a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Modern interpretation"@en .
+:gis-derived-observation a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "GIS-derived observation"@en .
+:editorial-inference a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Editorial inference"@en .
+:cross-source-synthesis a skos:Concept ; skos:inScheme :provenance-categories ; skos:prefLabel "Cross-source synthesis"@en .
+
+
+#####################################################################
+# 7. EVENT TYPES — top-level categories + sub-categories
+#####################################################################
+
+:event-types a skos:ConceptScheme ; dct:title "Event Types"@en .
+
+# Top-level: military
+:military a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ;
+    skos:prefLabel "Military"@en ;
+    skos:closeMatch aat:300055314 ;
+    bzfdb:aat_match_status "verified" ;
+    rdfs:comment "AAT 300055314 = 'wars'. Verified via Getty AAT subject query (see https://vocab.getty.edu/aat/300055314)."@en .
+
+:political a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Political"@en .
+:diplomatic a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Diplomatic"@en .
+:administrative a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Administrative"@en .
+:economic a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Economic"@en .
+:religious a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Religious"@en .
+:cultural a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Cultural"@en .
+:demographic a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Demographic"@en .
+:environmental a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Environmental"@en .
+:construction-infrastructure a skos:Concept ; skos:inScheme :event-types ; skos:topConceptOf :event-types ; skos:prefLabel "Construction & infrastructure"@en .
+
+# Sub-categories. AAT searching deferred to editorial sprint; each carries
+# bzfdb:aat_search_term for the editor.
+:raid a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Raid"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "raid / raiding" .
+:incursion a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Incursion"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "incursion" .
+:siege a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Siege"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "sieges / siege warfare" .
+:assault a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Assault"@en .
+:battle a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Battle"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "battles" .
+:skirmish a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Skirmish"@en .
+:ambush a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Ambush"@en .
+:naval-engagement a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Naval engagement"@en .
+:occupation a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Occupation"@en .
+:garrisoning a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Garrisoning"@en .
+:fortification a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Fortification"@en .
+:withdrawal a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Withdrawal"@en .
+:retreat a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Retreat"@en .
+:surrender a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Surrender"@en .
+:capture-of-fortress a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Capture of fortress"@en .
+:sack-of-city a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Sack of city"@en .
+:destruction a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Destruction"@en .
+:deportation-of-population a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Deportation of population"@en .
+:ransoming a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Ransoming"@en .
+:prisoner-exchange a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Prisoner exchange"@en .
+:military-review a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Military review"@en .
+:mustering a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Mustering"@en .
+:campaign a skos:Concept ; skos:inScheme :event-types ; skos:broader :military ; skos:prefLabel "Campaign"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "military campaigns" .
+
+:accession a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Accession"@en .
+:deposition a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Deposition"@en .
+:succession-dispute a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Succession dispute"@en .
+:revolt a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Revolt"@en .
+:usurpation a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Usurpation"@en .
+:civil-war a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Civil war"@en .
+:assassination a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Assassination"@en .
+:oath-of-allegiance a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Oath of allegiance"@en .
+:dynastic-marriage a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Dynastic marriage"@en .
+:regency a skos:Concept ; skos:inScheme :event-types ; skos:broader :political ; skos:prefLabel "Regency"@en .
+
+:embassy a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Embassy"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "embassies / diplomatic missions" .
+:treaty a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Treaty"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "treaties (documents)" .
+:truce a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Truce"@en .
+:ransom-negotiation a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Ransom negotiation"@en .
+:gift-exchange a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Gift exchange"@en .
+:formal-correspondence a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Formal correspondence"@en .
+:alliance a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Alliance"@en .
+:hostage-exchange a skos:Concept ; skos:inScheme :event-types ; skos:broader :diplomatic ; skos:prefLabel "Hostage exchange"@en .
+
+:appointment a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Appointment"@en .
+:dismissal a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Dismissal"@en .
+:creation-of-administrative-unit a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Creation of administrative unit"@en .
+:dissolution-of-administrative-unit a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Dissolution of administrative unit"@en .
+:boundary-change a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Boundary change"@en .
+:census a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Census"@en .
+:fiscal-reform a skos:Concept ; skos:inScheme :event-types ; skos:broader :administrative ; skos:prefLabel "Fiscal reform"@en .
+
+:trade-activity a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Trade activity"@en .
+:market-establishment a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Market establishment"@en .
+:taxation-event a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Taxation event"@en .
+:tribute-payment a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Tribute payment"@en .
+:coinage-reform a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Coinage reform"@en .
+:famine a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Famine"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "famines" .
+:surplus a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Surplus"@en .
+:fiscal-grant a skos:Concept ; skos:inScheme :event-types ; skos:broader :economic ; skos:prefLabel "Fiscal grant"@en .
+
+:pilgrimage a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Pilgrimage"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "pilgrimages" .
+:monastic-foundation a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Monastic foundation"@en .
+:church-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Church construction"@en .
+:mosque-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Mosque construction"@en .
+:council a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Council"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "ecumenical councils" .
+:synod a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Synod"@en .
+:ordination a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Ordination"@en .
+:martyrdom a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Martyrdom"@en .
+:translation-of-relics a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Translation of relics"@en .
+:conversion-event a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Conversion event"@en .
+:persecution a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Persecution"@en .
+:theological-controversy a skos:Concept ; skos:inScheme :event-types ; skos:broader :religious ; skos:prefLabel "Theological controversy"@en .
+
+:translation-activity a skos:Concept ; skos:inScheme :event-types ; skos:broader :cultural ; skos:prefLabel "Translation activity"@en .
+:manuscript-production a skos:Concept ; skos:inScheme :event-types ; skos:broader :cultural ; skos:prefLabel "Manuscript production"@en .
+:scholarly-exchange a skos:Concept ; skos:inScheme :event-types ; skos:broader :cultural ; skos:prefLabel "Scholarly exchange"@en .
+:literary-composition a skos:Concept ; skos:inScheme :event-types ; skos:broader :cultural ; skos:prefLabel "Literary composition"@en .
+
+:migration a skos:Concept ; skos:inScheme :event-types ; skos:broader :demographic ; skos:prefLabel "Migration"@en .
+:deportation a skos:Concept ; skos:inScheme :event-types ; skos:broader :demographic ; skos:prefLabel "Deportation"@en .
+:settlement a skos:Concept ; skos:inScheme :event-types ; skos:broader :demographic ; skos:prefLabel "Settlement"@en .
+:depopulation a skos:Concept ; skos:inScheme :event-types ; skos:broader :demographic ; skos:prefLabel "Depopulation"@en .
+:plague-event a skos:Concept ; skos:inScheme :event-types ; skos:broader :demographic ; skos:prefLabel "Plague event"@en .
+
+:earthquake a skos:Concept ; skos:inScheme :event-types ; skos:broader :environmental ; skos:prefLabel "Earthquake"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "earthquakes" .
+:flood a skos:Concept ; skos:inScheme :event-types ; skos:broader :environmental ; skos:prefLabel "Flood"@en .
+:drought a skos:Concept ; skos:inScheme :event-types ; skos:broader :environmental ; skos:prefLabel "Drought"@en .
+:climatic-event a skos:Concept ; skos:inScheme :event-types ; skos:broader :environmental ; skos:prefLabel "Climatic event"@en .
+:agricultural-failure a skos:Concept ; skos:inScheme :event-types ; skos:broader :environmental ; skos:prefLabel "Agricultural failure"@en .
+
+:wall-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Wall construction"@en .
+:fortress-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Fortress construction"@en .
+:road-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Road construction"@en .
+:bridge-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Bridge construction"@en .
+:water-system-construction a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Water-system construction"@en .
+:harbour-works a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Harbour works"@en .
+:repair a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Repair"@en .
+:restoration a skos:Concept ; skos:inScheme :event-types ; skos:broader :construction-infrastructure ; skos:prefLabel "Restoration"@en .
+
+
+#####################################################################
+# 8. PLACE TYPES
+#####################################################################
+
+:place-types a skos:ConceptScheme ; dct:title "Place Types"@en .
+
+:pt-settlement a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Settlement"@en .
+:pt-city a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "City"@en ; skos:broader :pt-settlement .
+:pt-village a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Village"@en ; skos:broader :pt-settlement .
+:pt-fortification a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Fortification"@en ;
+    skos:closeMatch aat:300164060 ;
+    bzfdb:aat_match_status "verified" ;
+    rdfs:comment "AAT 300164060 = 'military installations'. Verified."@en .
+:pt-fortress a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Fortress"@en ; skos:broader :pt-fortification ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "fortresses" .
+:pt-castle a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Castle"@en ; skos:broader :pt-fortification ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "castles (fortifications)" .
+:pt-kastron a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Kastron"@en ; skos:broader :pt-fortification ;
+    skos:definition "Byzantine fortified settlement."@en .
+:pt-monastery a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Monastery"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "monasteries" .
+:pt-church a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Church"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "churches (buildings)" .
+:pt-mosque a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Mosque"@en ;
+    bzfdb:aat_match_status "pending" ; bzfdb:aat_search_term "mosques" .
+:pt-region a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Region"@en .
+:pt-administrative-unit a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Administrative unit"@en .
+:pt-theme a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Theme"@en ; skos:broader :pt-administrative-unit ;
+    skos:definition "Byzantine military and administrative district."@en .
+:pt-kura a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Kura"@en ; skos:broader :pt-administrative-unit ;
+    skos:definition "Early Islamic administrative district."@en .
+:pt-jund a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Jund"@en ; skos:broader :pt-administrative-unit ;
+    skos:definition "Early Islamic military district."@en .
+:pt-route a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Route"@en .
+:pt-pass a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Pass"@en .
+:pt-river a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "River"@en .
+:pt-mountain a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Mountain"@en .
+:pt-frontier-zone a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Frontier zone"@en .
+:pt-battle-site a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Battle site"@en .
+:pt-natural-feature a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Natural feature"@en .
+:pt-harbour a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Harbour"@en .
+:pt-bridge a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Bridge"@en .
+:pt-ruined-site a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Ruined site"@en .
+:pt-capital-city a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Capital city"@en ; skos:broader :pt-city .
+:pt-other a skos:Concept ; skos:inScheme :place-types ; skos:prefLabel "Other"@en ; skos:notation "other" .
+
+
+#####################################################################
+# 9. PERSON TYPES
+#####################################################################
+
+:person-types a skos:ConceptScheme ; dct:title "Person Types"@en .
+
+:p-emperor a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Emperor"@en .
+:p-caliph a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Caliph"@en .
+:p-amir a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Amir"@en .
+:p-general a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "General"@en .
+:p-strategos a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Strategos"@en .
+:p-patriarch a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Patriarch"@en .
+:p-bishop a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Bishop"@en .
+:p-abbot a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Abbot"@en .
+:p-monk a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Monk"@en .
+:p-ulema a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Ulema"@en .
+:p-qadi a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Qadi"@en .
+:p-vizier a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Vizier"@en .
+:p-courtier a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Courtier"@en .
+:p-soldier a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Soldier"@en .
+:p-civilian a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Civilian"@en .
+:p-scholar a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Scholar"@en .
+:p-martyr a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Martyr"@en .
+:p-saint a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Saint"@en .
+:p-other-lay a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Other (lay)"@en .
+:p-other-religious a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Other (religious)"@en .
+:p-unspecified a skos:Concept ; skos:inScheme :person-types ; skos:prefLabel "Unspecified"@en .
+
+
+#####################################################################
+# 10. RELATIONSHIP TYPES
+#####################################################################
+
+:relationship-types a skos:ConceptScheme ; dct:title "Relationship Types"@en .
+
+:r-located-at a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "located at"@en .
+:r-contains a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "contains"@en .
+:r-adjoins a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "adjoins"@en .
+:r-lies-on-route a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "lies on route"@en .
+:r-near a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "near"@en .
+:r-belongs-to a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "belongs to"@en .
+:r-subordinate-to a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "subordinate to"@en .
+:r-in-revolt-against a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "in revolt against"@en .
+:r-allied-with a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "allied with"@en .
+:r-at-war-with a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "at war with"@en .
+:r-tributary-to a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "tributary to"@en .
+:r-parent-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "parent of"@en .
+:r-child-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "child of"@en .
+:r-sibling-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "sibling of"@en .
+:r-spouse-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "spouse of"@en .
+:r-kin-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "kin of"@en .
+:r-besieged a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "besieged"@en .
+:r-occupied a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "occupied"@en .
+:r-defended a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "defended"@en .
+:r-captured a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "captured"@en .
+:r-destroyed a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "destroyed"@en .
+:r-founded a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "founded"@en .
+:r-rebuilt a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "rebuilt"@en .
+:r-participated-in a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "participated in"@en .
+:r-led a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "led"@en .
+:r-witnessed a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "witnessed"@en .
+:r-carried-out a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "carried out"@en .
+:r-victim-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "victim of"@en .
+:r-depends-on a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "depends on"@en .
+:r-contradicts a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "contradicts"@en .
+:r-transmits a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "transmits"@en .
+:r-translates a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "translates"@en .
+:r-summarises a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "summarises"@en .
+:r-attests a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "attests"@en .
+:r-contradicts-attestation a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "contradicts attestation"@en .
+:r-supersedes-attestation a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "supersedes attestation"@en .
+:r-parent-event-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "parent event of"@en .
+:r-child-event-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "child event of"@en .
+:r-concurrent-with a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "concurrent with"@en .
+:r-preceded-by a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "preceded by"@en .
+:r-followed-by a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "followed by"@en .
+:r-alternative-identification-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "alternative identification of"@en .
+:r-same-as a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "same as"@en ; skos:closeMatch owl:sameAs .
+:r-different-from a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "different from"@en .
+
+
+#####################################################################
+# 11. WORKFLOW STATES
+#####################################################################
+
+:workflow-states a skos:ConceptScheme ; dct:title "Workflow States"@en .
+
+:ws-draft a skos:Concept ; skos:inScheme :workflow-states ; skos:prefLabel "Draft"@en .
+:ws-under-review a skos:Concept ; skos:inScheme :workflow-states ; skos:prefLabel "Under review"@en .
+:ws-published a skos:Concept ; skos:inScheme :workflow-states ; skos:prefLabel "Published"@en .
+:ws-deprecated a skos:Concept ; skos:inScheme :workflow-states ; skos:prefLabel "Deprecated"@en .
+:ws-withdrawn a skos:Concept ; skos:inScheme :workflow-states ; skos:prefLabel "Withdrawn"@en .
+
+
+#####################################################################
+# 12. SOURCE GENRES
+#####################################################################
+
+:source-genres a skos:ConceptScheme ; dct:title "Source Genres"@en .
+
+:sg-universal-chronicle a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Universal chronicle"@en .
+:sg-imperial-chronicle a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Imperial chronicle"@en .
+:sg-local-chronicle a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Local chronicle"@en .
+:sg-annals a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Annals"@en .
+:sg-history a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "History"@en .
+:sg-hagiography a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Hagiography"@en .
+:sg-geographical-work a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Geographical work"@en .
+:sg-travel-account a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Travel account"@en .
+:sg-military-treatise a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Military treatise"@en .
+:sg-legal-text a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Legal text"@en .
+:sg-administrative-text a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Administrative text"@en .
+:sg-letter-collection a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Letter collection"@en .
+:sg-documentary-archive a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Documentary archive"@en .
+:sg-inscription-corpus a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Inscription corpus"@en .
+:sg-numismatic-catalogue a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Numismatic catalogue"@en .
+:sg-sigillographic-catalogue a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Sigillographic catalogue"@en .
+:sg-archaeological-publication a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Archaeological publication"@en .
+:sg-modern-monograph a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Modern monograph"@en .
+:sg-modern-synthesis a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Modern synthesis"@en .
+:sg-gazetteer a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Gazetteer"@en .
+:sg-prosopography a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Prosopography"@en .
+:sg-edition a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Edition"@en .
+:sg-translation a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Translation"@en .
+:sg-other a skos:Concept ; skos:inScheme :source-genres ; skos:prefLabel "Other"@en ; skos:notation "other" .
+
+
+#####################################################################
+# Editorial AAT verification status (v1.1)
+#####################################################################
+# Concepts with bzfdb:aat_match_status = "verified": 2
+#   :military          -> aat:300055314 (wars)
+#   :pt-fortification  -> aat:300164060 (military installations)
+#
+# Concepts with bzfdb:aat_match_status = "pending": ~25
+#   These carry bzfdb:aat_search_term hints. Editorial Board to verify
+#   via Getty AAT online (https://www.getty.edu/research/tools/vocabularies/aat/)
+#   and PR with verified skos:closeMatch links.
+#
+# All other concepts: bzfdb:aat_match_status defaults to "pending" with no
+# search term. Lower priority for verification.
