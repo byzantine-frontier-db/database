@@ -4,8 +4,9 @@ on:
   pull_request:
     paths:
       - 'records/**'
-      - 'byzfrontier_schema_v1.json'
-      - 'byzfrontier_validate.py'
+      - 'schema/byzfrontier_schema_v1.json'
+      - 'tools/byzfrontier_validate.py'
+      - 'tools/byzfrontier_xref.py'
   push:
     branches: [main]
   workflow_dispatch:
@@ -27,12 +28,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyyaml
 
-      - name: Run validation on all records
+      - name: Run schema validation on all records
         run: |
-          python byzfrontier_validate.py \
-            --schema byzfrontier_schema_v1.json \
+          python tools/byzfrontier_validate.py \
+            --schema schema/byzfrontier_schema_v1.json \
             --verbose \
             records/
+
+      - name: Run cross-reference validation
+        run: |
+          python tools/byzfrontier_xref.py records/
 
       - name: Summary
         if: always()
