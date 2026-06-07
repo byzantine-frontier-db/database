@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+title: "Byzantine-Islamic Frontier Database"
+type: dataset
+authors:
+  - given-names: "Curtis"
+    family-names: "Lisle"
+    affiliation: "N/A"
+    orcid: "https://orcid.org/0009-0005-9539-2362"
+abstract: >
+  A provenance-aware historical knowledge graph covering the
+  Byzantine-Islamic frontier between the seventh and eleventh
+  centuries. Records distinguish observation, attestation, and source
+  to preserve evidential structure; controlled vocabularies and
+  CIDOC-CRM alignment support cross-project linking.
+keywords:
+  - Byzantine studies
+  - Islamic history
+  - historical materialism
+  - historical GIS
+  - prosopography
+  - linked open data
+  - CIDOC-CRM
+license: CC-BY-4.0
+repository-code: "https://github.com/byzantine-frontier-db/database"
+url: "https://byzantine-frontier-db.github.io/database/"
+version: 1.0.0
+date-released: 2026-06-01
