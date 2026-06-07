@@ -4,7 +4,7 @@ type: dataset
 authors:
   - given-names: "Curtis"
     family-names: "Lisle"
-    affiliation: "N/A"
+    affiliation: "Archaeology Warwickshire"
     orcid: "https://orcid.org/0009-0005-9539-2362"
 abstract: >
   A provenance-aware historical knowledge graph covering the
