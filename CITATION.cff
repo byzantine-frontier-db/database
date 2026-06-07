@@ -24,4 +24,11 @@ license: CC-BY-4.0
 repository-code: "https://github.com/byzantine-frontier-db/database"
 url: "https://byzantine-frontier-db.github.io/database/"
 version: 1.0.0
-date-released: 2026-06-01
+date-released: 2026-06-07
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20584723"
+    description: "Concept DOI (always resolves to latest version)"
+  - type: doi
+    value: "10.5281/zenodo.20584807"
+    description: "Version DOI for v1.0.0"
