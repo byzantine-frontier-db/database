@@ -19,4 +19,8 @@ The full dataset, schema, and tooling live at [the project repository on GitHub]
 
 ## Citation
 
-[Pending — to be filled in once the Zenodo DOI is assigned, see step 3.5.]
+This project is permanently archived on Zenodo. The concept DOI is [10.5281/zenodo.20584723](https://doi.org/10.5281/zenodo.20584723), which always resolves to the latest version. The version DOI for v1.0.0 specifically is [10.5281/zenodo.20584807](https://doi.org/10.5281/zenodo.20584807).
+
+To cite this database:
+
+> Lisle, Curtis. *Byzantine-Islamic Frontier Database*. Version 1.0.0. Zenodo, 2026. https://doi.org/10.5281/zenodo.20584723.
