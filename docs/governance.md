@@ -11,11 +11,17 @@
 
 The Byzantine-Islamic Frontier Database is a long-running collaborative scholarly project. Its records will outlive any individual contributor; its decisions will be revisited by successors. This charter exists so that those decisions are made consistently, transparently, and reversibly, and so that contributions from many hands produce a coherent dataset rather than a sedimented mass of editorial preferences.
 
-The charter is binding on all contributors and on all records bearing the project's identifiers. It is itself versioned and is itself revisable, under the procedure defined in §10.
+The charter is binding on all contributors and on all records bearing the project's identifiers. It is itself versioned and is itself revisable, under the procedure defined in §11.
 
 ---
 
-## 2. Editorial Structure
+## 2. Production methodology
+
+The initial v1.0.0 pilot corpus of 85 records on the 838 Abbasid campaign against Amorium was produced through an AI-assisted extraction workflow against the primary sources catalogued in `records/sources/`. The workflow, schema, ontology alignment, vocabularies, and theoretical framework are the work of the maintainer. AI assistance was used for the bulk extraction phase against pre-selected sources, applied to a schema and editorial framework defined in advance, and constrained by the hard rules set out in `editorial_workflow.md`. All records produced through AI-assisted extraction carry `editorial_review_required: true` until verified by the maintainer against the printed source; records in this state are explicitly marked in the data and may not progress to `workflow_state: published` without verification. Future contributors, human or otherwise, are bound by the same workflow.
+
+---
+
+## 3. Editorial Structure
 
 ### 2.1 Roles
 
@@ -25,7 +31,7 @@ The charter is binding on all contributors and on all records bearing the projec
 
 **Senior Editors.** Members of the Editorial Board with topical or regional responsibility. Each Senior Editor is the first point of review for records within their remit.
 
-**Contributors.** Anyone — internal or external — submitting records to the database. Contributors are credited per §6.
+**Contributors.** Anyone — internal or external — submitting records to the database. Contributors are credited per §7.
 
 **Reviewers.** Senior Editors or appointed deputies who carry out structured review of submitted records.
 
@@ -41,7 +47,7 @@ A reviewer who is also a contributor of the record under review recuses themselv
 
 ---
 
-## 3. Record Lifecycle
+## 4. Record Lifecycle
 
 Every record passes through documented workflow states. The state is recorded in the record's `metadata.workflow_state` field.
 
@@ -76,7 +82,7 @@ Every modification creates a new version; the prior version is preserved and acc
 
 ---
 
-## 4. Decision Procedures
+## 5. Decision Procedures
 
 ### 4.1 New Entity Creation
 
@@ -148,7 +154,7 @@ Time-sensitive decisions (vandalism response, urgent error correction) may be ha
 
 ---
 
-## 5. Identifier Minting
+## 6. Identifier Minting
 
 The Technical Lead is the sole minting authority for canonical identifiers and URIs (see Ontology Alignment §6). Identifiers are sequential within type and are never reassigned.
 
@@ -156,7 +162,7 @@ Contributors propose entities using provisional identifiers prefixed `PROV-`. Up
 
 ---
 
-## 6. Contribution and Attribution
+## 7. Contribution and Attribution
 
 ### 6.1 External Contribution
 
@@ -181,7 +187,7 @@ A contributor whose submission is declined, or whose published record is later d
 
 ---
 
-## 7. Licensing
+## 8. Licensing
 
 ### 7.1 Data Licence
 
@@ -203,7 +209,7 @@ The code that operates the database (if released) is licensed under the **Apache
 
 ---
 
-## 8. Interoperability Commitments
+## 9. Interoperability Commitments
 
 The project commits to:
 
@@ -220,7 +226,7 @@ These commitments are part of the project's contract with its users.
 
 ---
 
-## 9. Dispute Resolution
+## 10. Dispute Resolution
 
 Disputes between contributors, or between a contributor and the editorial team, are escalated as follows:
 
@@ -232,7 +238,7 @@ Throughout, the project's priority is preservation of the historical record rath
 
 ---
 
-## 10. Amendment of this Charter
+## 11. Amendment of this Charter
 
 This charter is itself versioned. Amendments require:
 
@@ -245,7 +251,7 @@ All previous versions of the charter remain accessible. Records produced under e
 
 ---
 
-## 11. Change Log
+## 12. Change Log
 
 | Version | Date | Change | Approved by |
 |---|---|---|---|
@@ -257,14 +263,14 @@ All previous versions of the charter remain accessible. Records produced under e
 
 | Decision | Decider | Procedure |
 |---|---|---|
-| Accept a new record | Senior Editor (region/topic) | §3.2 |
-| Merge entities | Two Senior Editors | §4.2 |
-| Split an entity | Two Senior Editors | §4.3 |
-| Extend a controlled vocabulary | Editorial Board majority | §4.5 |
-| Schema PATCH change | Technical Lead | §4.6 |
-| Schema MINOR change | Editorial Board majority | §4.6 |
-| Schema MAJOR change | Editorial Board majority + migration plan | §4.6 |
-| Mint canonical identifier | Technical Lead | §5 |
-| Withdraw a published record | Editorial Board majority | §3.2 |
-| Resolve dispute | Senior Editor → Board → external | §9 |
-| Amend this charter | Two-thirds Editorial Board | §10 |
+| Accept a new record | Senior Editor (region/topic) | §4.2 |
+| Merge entities | Two Senior Editors | §5.2 |
+| Split an entity | Two Senior Editors | §5.3 |
+| Extend a controlled vocabulary | Editorial Board majority | §5.5 |
+| Schema PATCH change | Technical Lead | §5.6 |
+| Schema MINOR change | Editorial Board majority | §5.6 |
+| Schema MAJOR change | Editorial Board majority + migration plan | §5.6 |
+| Mint canonical identifier | Technical Lead | §6 |
+| Withdraw a published record | Editorial Board majority | §4.2 |
+| Resolve dispute | Senior Editor → Board → external | §10 |
+| Amend this charter | Two-thirds Editorial Board | §11 |
