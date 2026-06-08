@@ -23,7 +23,7 @@ The initial v1.0.0 pilot corpus of 85 records on the 838 Abbasid campaign agains
 
 ## 3. Editorial Structure
 
-### 2.1 Roles
+### 3.1 Roles
 
 **Editor-in-Chief.** Holds final responsibility for the integrity of the published database. Convenes the Editorial Board. Casts the deciding vote in tied Board decisions. Serves a renewable three-year term.
 
@@ -37,11 +37,11 @@ The initial v1.0.0 pilot corpus of 85 records on the 838 Abbasid campaign agains
 
 **Technical Lead.** Responsible for the schema, vocabularies, identifier minting infrastructure, and the database's technical operation. Reports to the Editor-in-Chief on operational matters; consults the Editorial Board on substantive schema changes.
 
-### 2.2 Appointment
+### 3.2 Appointment
 
 The Editor-in-Chief is selected by consensus of the Editorial Board, with confirmation by the project's institutional host (if any). Senior Editors are appointed by the Editor-in-Chief in consultation with the existing Board. Appointments are documented in the project's change log.
 
-### 2.3 Conflict of Interest
+### 3.3 Conflict of Interest
 
 A reviewer who is also a contributor of the record under review recuses themselves from that review. A Senior Editor with a substantial published scholarly position on a disputed identification refers decisions on that identification to a Board colleague.
 
@@ -51,7 +51,7 @@ A reviewer who is also a contributor of the record under review recuses themselv
 
 Every record passes through documented workflow states. The state is recorded in the record's `metadata.workflow_state` field.
 
-### 3.1 States
+### 4.1 States
 
 - **draft** — Created but not submitted for review. May be modified freely by its creator.
 - **under_review** — Submitted for editorial review. Modifications are tracked; reviewer feedback is appended to `metadata.review_history`.
@@ -59,7 +59,7 @@ Every record passes through documented workflow states. The state is recorded in
 - **deprecated** — Superseded by a successor record (typically through merge or split). The record remains accessible via its URI but is flagged in queries.
 - **withdrawn** — Removed from the active dataset for documented cause (factual error, copyright issue, withdrawal of contributor consent). The URI continues to resolve to a tombstone notice; no successor is implied.
 
-### 3.2 Transitions
+### 4.2 Transitions
 
 - `draft → under_review`: by contributor submission.
 - `under_review → published`: by reviewer acceptance.
@@ -70,7 +70,7 @@ Every record passes through documented workflow states. The state is recorded in
 
 State transitions are immutable in their record: a transition log is appended, never overwritten.
 
-### 3.3 Versioning of Records
+### 4.3 Versioning of Records
 
 Each record carries a SemVer version in `metadata.record_version`. The convention:
 
@@ -84,7 +84,7 @@ Every modification creates a new version; the prior version is preserved and acc
 
 ## 5. Decision Procedures
 
-### 4.1 New Entity Creation
+### 5.1 New Entity Creation
 
 A contributor proposing a new entity must, per specification §4.2:
 
@@ -95,7 +95,7 @@ A contributor proposing a new entity must, per specification §4.2:
 
 The reviewer's role is to confirm or challenge the absence of an existing match. If a match is identified, the proposed entity's content becomes a new attestation against the existing entity. If no match exists, the provisional identifier is replaced with a canonical identifier upon publication.
 
-### 4.2 Merge
+### 5.2 Merge
 
 When two entities are determined to refer to the same historical object:
 
@@ -105,7 +105,7 @@ When two entities are determined to refer to the same historical object:
 4. The merge is logged with full audit trail.
 5. Merges are reversible by Editorial Board decision.
 
-### 4.3 Split
+### 5.3 Split
 
 When a single entity is determined to conflate two distinct historical objects:
 
@@ -114,11 +114,11 @@ When a single entity is determined to conflate two distinct historical objects:
 3. If approved, two new entity records are created with new identifiers, each attestation is reassigned to whichever successor it actually concerns (a third "ambiguous" pool may be maintained for attestations that cannot be assigned with confidence), and the predecessor's URI becomes a disambiguation tombstone listing both successor URIs.
 4. The split is logged with full audit trail and is reversible.
 
-### 4.4 Disputed Identification
+### 5.4 Disputed Identification
 
 Per specification §4.3, scholarly disagreement about whether two designations refer to the same entity is recorded *within* a single entity by setting `identification_status` to `disputed` and creating an Interpretation record articulating the dispute. Splitting a record solely to express disagreement is prohibited. Only when the dispute is resolved in favour of separation does §4.3 apply.
 
-### 4.5 Vocabulary Extension
+### 5.5 Vocabulary Extension
 
 Adding a term to a controlled vocabulary (event sub-categories, place types, relationship types, etc.) requires:
 
@@ -130,7 +130,7 @@ Adding a term to a controlled vocabulary (event sub-categories, place types, rel
 
 Renaming or removing a vocabulary term requires MAJOR version increment of the vocabulary and a documented migration path for affected records.
 
-### 4.6 Schema Change
+### 5.6 Schema Change
 
 Changes to the JSON Schema are categorised:
 
@@ -140,7 +140,7 @@ Changes to the JSON Schema are categorised:
 
 The schema is itself a published artefact; every change is announced in the change log.
 
-### 4.7 Decision-Making Procedure
+### 5.7 Decision-Making Procedure
 
 The default Board procedure is:
 
@@ -164,7 +164,7 @@ Contributors propose entities using provisional identifiers prefixed `PROV-`. Up
 
 ## 7. Contribution and Attribution
 
-### 6.1 External Contribution
+### 7.1 External Contribution
 
 Contributions are welcomed from any scholar. The submission workflow:
 
@@ -173,15 +173,15 @@ Contributions are welcomed from any scholar. The submission workflow:
 3. Reviewer may accept, request revisions, or decline (with reasons).
 4. Accepted records carry the contributor's name in `metadata.created_by`.
 
-### 6.2 Attribution
+### 7.2 Attribution
 
 Every record's `metadata` block carries `created_by` and `modified_by` fields with the contributor's full name and (where available) ORCID iD or other identifier. The project commits to maintaining this attribution permanently; aggregated contributor statistics are published with each release.
 
-### 6.3 Authorship and the Public Database
+### 7.3 Authorship and the Public Database
 
 Inclusion of a record in the published database does not transfer authorship of the underlying scholarship. Contributors retain the right to cite their database contributions in their own publications. The project undertakes to provide stable, citable URIs and recommended citation formats for every published record.
 
-### 6.4 Disagreements with Editorial Decisions
+### 7.4 Disagreements with Editorial Decisions
 
 A contributor whose submission is declined, or whose published record is later deprecated or merged, may file a formal disagreement. The disagreement is logged in the record's notes and is publicly accessible. If the contributor wishes to withdraw their attribution from the affected record, that wish is honoured; the record itself, however, remains in the database where editorial judgement supports it.
 
@@ -189,21 +189,21 @@ A contributor whose submission is declined, or whose published record is later d
 
 ## 8. Licensing
 
-### 7.1 Data Licence
+### 8.1 Data Licence
 
 The structured database contents (records, vocabularies, schema) are released under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. Attribution is fulfilled by citing the project and the canonical URI of the relevant record.
 
-### 7.2 Schema and Vocabulary Licence
+### 8.2 Schema and Vocabulary Licence
 
 Schemas and SKOS vocabularies are released under **Creative Commons Zero (CC0)** to maximise interoperability. Reuse without attribution is permitted, although attribution is appreciated.
 
-### 7.3 Source Quotation Licensing
+### 8.3 Source Quotation Licensing
 
 Direct quotations from primary sources in public-domain editions are unrestricted. Direct quotations from modern critical editions and modern translations are used under fair-use or fair-dealing provisions; the project records the edition cited and the quotation length, and limits quotations to what is necessary for evidential purposes. Where a modern translation is quoted, the translator is credited in the attestation record.
 
 Contributors are responsible for ensuring that quotations they submit comply with applicable copyright law. The Editorial Board may shorten or paraphrase quotations whose length exceeds fair-use norms.
 
-### 7.4 Software Licence
+### 8.4 Software Licence
 
 The code that operates the database (if released) is licensed under the **Apache License 2.0**.
 
