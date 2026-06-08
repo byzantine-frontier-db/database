@@ -3,7 +3,7 @@
 ## Byzantine-Islamic Frontier Database — Production Setup
 
 **Version:** 1.1.0
-**Audience:** the project lead setting up the Claude project, the GitHub repository, and the validator workflow for the first time.
+**Audience:** the project lead setting up the editorial environment, the GitHub repository, and the validator workflow for the first time.
 
 This is the operational manual. It assumes no prior setup. Follow it in order.
 
@@ -17,7 +17,7 @@ Before you begin, you should have downloaded the following 17 files from this de
 1. `byzantine_islamic_frontier_database_specification_v2.md` — conceptual specification
 2. `byzfrontier_ontology_alignment_v1.md` — CIDOC-CRM / Linked Places alignment
 3. `byzfrontier_governance_v1.md` — editorial workflow and policies
-4. `byzfrontier_claude_project_instructions.md` — Claude Project custom instructions
+4. `byzfrontier_editorial_workflow.md` — editorial environment custom instructions
 
 **Schema & vocabularies (3 files):**
 5. `byzfrontier_schema_v1.json` — JSON Schema for record validation
@@ -49,13 +49,13 @@ If any are missing, the order produced them; download the complete set before pr
 
 ---
 
-## Part 1 — Setting up the Claude Project
+## Part 1 — Setting up the editorial environment
 
-This sets up Claude as your editorial assistant for the database. Twenty minutes of work.
+This sets up the editorial environment used to assist with record extraction. Twenty minutes of work.
 
 ### Step 1.1 — Create the project
 
-1. Open Claude (web, desktop, or mobile) and sign in.
+1. Open Claude (web, desktop, or mobile) — or an equivalent LLM environment — and sign in.
 2. In the sidebar, click **Projects** → **+ New Project**.
 3. Name it: **Byzantine-Islamic Frontier Database**.
 4. Add a short description: *"Provenance-aware historical knowledge graph covering the Byzantine-Islamic frontier, 7th–11th centuries."*
@@ -63,16 +63,16 @@ This sets up Claude as your editorial assistant for the database. Twenty minutes
 ### Step 1.2 — Set the custom instructions
 
 1. In your new project, click **Set custom instructions** (top of the project page).
-2. Open `byzfrontier_claude_project_instructions.md` in a text editor.
+2. Open `byzfrontier_editorial_workflow.md` in a text editor.
 3. Copy everything from **"You are an editorial assistant…"** to **"End of custom instructions"** (about two-thirds of the way down the file; not the explanatory sections above it).
-4. Paste into the Claude Project's custom-instructions field.
+4. Paste into the editorial environment's custom-instructions field.
 5. Save.
 
 The custom-instructions field accepts approximately 3,000 words; the section you paste is well within this limit.
 
 ### Step 1.3 — Upload the project knowledge files
 
-In the Claude Project, click **Add content** or **Project knowledge** (depending on the interface) and upload these files:
+In the editorial environment, click **Add content** or **Project knowledge** (depending on the interface) and upload these files:
 
 - `byzantine_islamic_frontier_database_specification_v2.md`
 - `byzfrontier_schema_v1.json`
@@ -83,13 +83,13 @@ In the Claude Project, click **Add content** or **Project knowledge** (depending
 - `dating_systems_methods.md`
 - `pilot_corpus_838_v1.yaml`
 
-These are the files Claude needs visible to give correct answers. Eight files total; well under the project-knowledge size limits.
+These are the files the editorial environment needs visible to give correct answers. Eight files total; well under the project-knowledge size limits.
 
-**Do not upload** the `.py` files, `validate_records.yml`, or the v2 preview files. These belong in your local repository (Part 2), not in the Claude project knowledge — they would distract Claude rather than help it.
+**Do not upload** the `.py` files, `validate_records.yml`, or the v2 preview files. These belong in your local repository (Part 2), not in the editorial environment knowledge — they would distract the extraction rather than help it.
 
 ### Step 1.4 — Verify the setup works
 
-In the Claude project, start a new conversation and ask:
+In the editorial environment, start a new conversation and ask:
 
 > Show me the validation rules for an attestation record. Then walk through how you would extract a new attestation from a passage of al-Ṭabarī.
 
@@ -107,13 +107,13 @@ Use a real source passage. For example:
 
 > I'm working from al-Yaʿqūbī's Taʾrīkh, the entry for the year 223 AH (Houtsma edition, vol. II, p. 581). He writes that al-Muʿtaṣim "moved against ʿAmmūriya, the city of the Romans," took it, and "killed and enslaved a great multitude." Produce the YAML records for this attestation and any new observations.
 
-Claude should produce:
+The extraction should produce:
 - A new attestation record (e.g. `ATT-0003` if not already present)
 - Cross-references to existing SRC-0003 (al-Yaʿqūbī) and ENT-PLC-0001 (Amorium)
 - Appropriate confidence values
-- An honest note about the citation if Claude cannot confirm the exact page
+- An honest note about the citation if the exact page cannot be confirmed
 
-If Claude invents citations or skips the attestation/observation distinction, refer it to the project instructions and try again. The custom instructions explicitly forbid both behaviours.
+If the extraction invents citations or skips the attestation/observation distinction, refer to the editorial workflow rules and try again. The workflow rules explicitly forbid both behaviours.
 
 ---
 
@@ -153,7 +153,7 @@ byzantine-frontier-db/
 │   ├── specification.md             # rename of byzantine_islamic_frontier_database_specification_v2.md
 │   ├── ontology_alignment.md
 │   ├── governance.md
-│   ├── claude_project_instructions.md
+│   ├── editorial_workflow.md
 │   └── deployment_guide.md          # this file
 ├── tools/
 │   ├── byzfrontier_validate.py
@@ -329,11 +329,11 @@ This requires submitting a pull request to a third-party repository and waiting 
 
 Once setup is complete, here's the routine for actually using the system.
 
-### 4.1 — Adding a new record (in Claude)
+### 4.1 — Adding a new record (in the editorial environment)
 
-1. Open the Claude project.
-2. Give Claude the source passage and ask for the appropriate records.
-3. Claude responds with YAML. Verify the output against your reading of the source.
+1. Open the editorial environment.
+2. Give the extraction process the source passage and ask for the appropriate records.
+3. The extraction returns YAML. Verify the output against your reading of the source.
 4. Save the YAML to the appropriate `records/<type>/` subdirectory in your local repository.
 5. Run the validators locally:
    ```bash
@@ -351,7 +351,7 @@ Once setup is complete, here's the routine for actually using the system.
 ### 4.2 — Reviewing an existing record
 
 1. Open the record in any text editor.
-2. Ask Claude in the project: *"Review this record against the schema and the specification. Flag anything inconsistent."*
+2. In the editorial environment, request: *"Review this record against the schema and the specification. Flag anything inconsistent."*
 3. Apply edits.
 4. If the edit is significant (changing identification, changing coordinates beyond uncertainty radius, changing overall_confidence by more than one level), increment the `record_version` field in `metadata` per governance §3.3.
 5. Commit and push.
@@ -380,7 +380,7 @@ Paste the output into your `TemporalValue` record fields.
 
 Per governance §3.2:
 
-1. Use Claude to review each draft record against schema + specification.
+1. Use the editorial environment to review each draft record against schema + specification.
 2. Apply any needed edits.
 3. Change `metadata.workflow_state` from `draft` to `under_review`.
 4. Open a PR on GitHub; a Senior Editor (per governance §2.1) reviews.
@@ -429,9 +429,9 @@ You referenced a record (e.g. `ATT-0099`) that doesn't exist. Either create the 
 
 If event A's `parent_event` is B, then B's `child_events` should include A. Either fix B's record, or A's, depending on the actual relationship.
 
-### "Claude is inventing citations"
+### "The extraction is inventing citations"
 
-Refer Claude to project instructions §"Hard rules" rule 2: never fabricate citations. If Claude doesn't have a confirmed citation, it should use the placeholder `[citation needed: <description>]` and flag the record for review.
+Refer to the editorial workflow's hard rule against fabricated citations. If a confirmed citation is unavailable, use the placeholder `[citation needed: <description>]` and flag the record for review.
 
 ### "I want to migrate to an institutional host"
 
@@ -448,7 +448,7 @@ v2 is currently in preview. The v2 schema is at `v2_preview/byzfrontier_schema_v
 A concrete agenda for the first month of operation. Tick items as you complete them.
 
 **Week 1: setup**
-- [ ] Claude project created and tested (Part 1)
+- [ ] Editorial environment configured and tested (Part 1)
 - [ ] Local repository created with all artefacts (Part 2)
 - [ ] Pilot corpus split into per-record files
 - [ ] Both validators pass on pilot corpus locally
@@ -472,7 +472,7 @@ A concrete agenda for the first month of operation. Tick items as you complete t
 - [ ] Outreach letters sent to two or three institutions (per `institutional_prospectus.md`)
 - [ ] First 10 new records added beyond the pilot corpus
 - [ ] First v1.1.0 patch release tagged
-- [ ] Claude project tested on a brand-new extraction (different source from pilot) to confirm it generalises
+- [ ] Editorial environment tested on a brand-new extraction (different source from pilot) to confirm it generalises
 
 ---
 

@@ -35,7 +35,7 @@ This release moves the project from documentation-complete to operation-ready. A
 
 ### Deployment
 
-- **`DEPLOYMENT_GUIDE.md`.** Step-by-step setup for the Claude project, the local repository, GitHub + CI integration, and day-to-day editorial workflow. Includes a 4-week first-month checklist.
+- **`DEPLOYMENT_GUIDE.md`.** Step-by-step setup for the editorial environment, the local repository, GitHub + CI integration, and day-to-day editorial workflow. Includes a 4-week first-month checklist.
 
 ### Schema fixes
 
@@ -92,7 +92,7 @@ If you have an existing v1.0 setup:
 2. Replace `byzfrontier_vocabularies_v1.ttl` with `byzfrontier_vocabularies_v1_1.ttl`.
 3. Add the new tools: `byzfrontier_xref.py`, `byzfrontier_dating.py`.
 4. Add the pilot corpus and v2 preview to the repository structure per the deployment guide.
-5. Update the Claude project's custom instructions to the v1.1 version.
+5. Update the editorial environment's custom instructions to the v1.1 version.
 
 No v1.0 records become invalid; the schema changes are non-breaking.
 
@@ -102,7 +102,7 @@ No v1.0 records become invalid; the schema changes are non-breaking.
 
 Per the deployment guide §6, the recommended first-month agenda is:
 
-- Week 1: setup (Claude project + local repository + GitHub + CI + Zenodo DOI)
+- Week 1: setup (editorial environment + local repository + GitHub + CI + Zenodo DOI)
 - Week 2: cleanup (typos, README, licences)
 - Week 3: editorial work (first 5 review-flagged records cleared)
 - Week 4: outreach (institutional letters) + extension (first 10 new records)

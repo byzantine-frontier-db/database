@@ -8,7 +8,7 @@ A provenance-aware historical knowledge graph covering the Byzantine-Islamic fro
 - [Ontology Alignment](ontology_alignment.md)
 - [Governance](governance.md)
 - [Deployment Guide](deployment_guide.md)
-- [Claude Project Instructions](claude_project_instructions.md)
+- [Editorial Workflow](editorial_workflow.md)
 - [Release Notes (v1.1)](release_notes_v1_1.md)
 - [Institutional Prospectus](institutional_prospectus.md)
 - [Validation Harness README](validation_harness_README.md)
