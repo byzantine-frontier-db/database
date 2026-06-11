@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0010
+  standardised_title: Ibn Khurradādhbih, Kitāb al-Masālik wa-l-Mamālik
+  author_unnamed: false
+  date_of_composition:
+    start: 846
+    end: 886
+    precision: year_range_broad
+    confidence: 2
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: Kitāb al-Masālik wa-l-Mamālik, pp. 105-8 and pp. 106-7 (edition not
+    specified by Eger; per ch. 8 nn. 23, 29)
+  reliability_assessment: Ninth-century Abbasid administrative geography; enumerates
+    Byzantine provincial fortresses and preserves the Muḥammad ibn Mūsā cave anecdote.
+  dependencies: []
+  notes: 'Author person-entity not yet created. Exact edition/date unspecified by
+    Eger — [citation needed: Ibn Khurradādhbih edition]. English of the cave anecdote
+    given in Zadeh, Mapping Frontiers Across Medieval Islam, pp. 35-7 (per Eger n.
+    29). external_identifiers: [] outstanding.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

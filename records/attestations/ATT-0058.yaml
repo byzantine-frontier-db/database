@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0058
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0001
+  - ENT-PLC-0006
+  - ENT-PERS-0001
+  provenance: primary_paraphrase
+  citation: 'al-Ṭabarī, Taʾrīkh, III.1242 (Arabic); SUNY trans. vol. XXXIII, p. 105;
+    cited with C. Foss, ''Late Antique and Byzantine Ankara'', Dumbarton Oaks Papers
+    31 (1977), p. 78; reached via Eger 2015, p. 259 (chain: primary edition + modern
+    study → Eger).'
+  paraphrase: During al-Muʿtaṣim's 838 expedition, the inhabitants of the Ankara region
+    took refuge in the salt mines (mallāḥa).
+  original_language_quotation:
+    text: mallāḥa
+    language: ar
+    script: Arab
+  location_within_source: Taʾrīkh III.1242
+  confidence: 3
+  notes: Eger p. 259. In-scope detail of ENT-EVT-0001 (838 campaign). Single primary
+    source for the salt-mine-refuge detail; Foss is the secondary route. NB Eger p.
+    259 cites Taʾrīkh III.1242; the pilot SRC-0001 record uses the Cairo ed. — verify
+    volume/page concordance against SUNY vol. XXXIII p. 105.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0020

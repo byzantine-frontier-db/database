@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0061
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0016
+  - ENT-PLC-0014
+  - ENT-POL-0001
+  provenance: primary_quotation
+  citation: 'al-Ṭabarī, Taʾrīkh, I.2102 (Arabic); SUNY trans. vol. XI, p. 102; reached
+    via Eger 2015, p. 248 (chain: primary edition → Eger).'
+  paraphrase: Heraklios advises his people that ceding half of Syria's produce while
+    keeping the mountains of the Romans (jibāl al-rūm) is better than being overpowered
+    in Syria and forced to share the mountains too.
+  original_language_quotation:
+    text: jibāl al-rūm
+    language: ar
+    script: Arab
+  location_within_source: Taʾrīkh I.2102
+  confidence: 4
+  notes: 'Eger p. 248. Attests that al-Ṭabarī reports the speech; the speech is a
+    literary set-piece and its historicity is low (see OBS-0023 notes). SUNY vol.
+    XI translator (Blankinship?) to be confirmed — [citation needed: exact translator
+    credit]. Quotation paraphrased for copyright.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0023

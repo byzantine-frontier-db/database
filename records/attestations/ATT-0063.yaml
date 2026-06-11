@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0063
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0013
+  - ENT-POL-0001
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 250, drawing on the painted cave churches and on J. L. Ball,
+    Byzantine Dress (2005), pp. 57-77 (Eger n. 16).
+  paraphrase: Cappadocian frontier elites are depicted beturbaned, in decorated kaftans
+    (aqbiya) with ṭirāz bands, dining on cushions and rugs in the manner of Muslim
+    elites.
+  location_within_source: Eger 2015, p. 250
+  confidence: 3
+  notes: Reached via Eger. Ball (2005) partly disagrees, arguing borderland populations
+    did not distinguish their dress from neighbouring cultures (Eger n. 16) — disagreement
+    recorded, see INT-0012.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0025

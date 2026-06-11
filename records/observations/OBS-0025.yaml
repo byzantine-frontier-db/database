@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0025
+  proposition: Cappadocian frontier military elites presented themselves in the manner
+    of Muslim elites — beturbaned, in decorated kaftans (aqbiya, sing. qabāʾ) with
+    ṭirāz bands, dining and entertaining on cushions and rugs — as depicted in the
+    painted cave churches.
+  associated_entities:
+  - ENT-PLC-0013
+  - ENT-POL-0001
+  supporting_attestations:
+  - ATT-0063
+  notes: Underlying art-historical evidence is the painted cave churches (Ball 2005,
+    who partly disagrees; Eger n. 16). Reached via Eger; the "acculturation" reading
+    is interpretive (see INT-0012).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

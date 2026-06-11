@@ -1,0 +1,31 @@
+- record_type: event
+  id: ENT-EVT-0009
+  standardised_name: Siege of Tyana (Tuwāna), 707
+  event_type:
+    primary: military
+    sub: siege
+  start_date:
+    start: 707
+    end: 707
+    precision: year
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0015
+  description: A nine-month siege at Tuwāna/Tyana in Cappadocia in 707, in which Islamic
+    forces defeated a Byzantine army led by two generals and including, in Theophanes'
+    account, 'a throng of peasant militia', after an initial defeat.
+  overall_confidence: 3
+  analytical_summary: Reported by Theophanes (via Hoyland's Theophilus-of-Edessa reconstruction)
+    as an exceptional case in which peasant militia fought alongside regular forces.
+    Eger uses it to illustrate the military character of frontier society.
+  linked_attestations:
+  - ATT-0057
+  notes: 'Identity resolution: no existing event entity (corpus events are all 837-845
+    campaign events). No plausible match; recommend new entity. Year firm; nine-month
+    duration per Theophanes.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

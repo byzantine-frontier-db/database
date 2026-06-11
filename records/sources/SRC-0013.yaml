@@ -1,0 +1,28 @@
+- record_type: source
+  id: SRC-0013
+  standardised_title: Life of St Philaretos the Merciful (Bios of Philaretos)
+  author_unnamed: false
+  date_of_composition:
+    start: 821
+    end: 822
+    precision: year_range_narrow
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: hagiography
+  edition_used: Rydén (ed.), The Life of St Philaretos the Merciful Written by his
+    Grandson Niketas (Uppsala, 2002), p. 2 ll. 5-15; p. 62 ll. 45-6 (per Eger ch.
+    8 nn. 32-33)
+  reliability_assessment: Ninth-century Byzantine hagiography by Niketas, grandson
+    of Philaretos; the livestock figures are rhetorical and cannot be taken at face
+    value, but the text reflects a recognisable ninth-century agrarian reality.
+  dependencies: []
+  notes: 'Author Niketas; person-entity not yet created. Estate/livestock numbers
+    are hagiographic (Philaretos cast as Job; cf. Eger n. 32). external_identifiers:
+    [] outstanding.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

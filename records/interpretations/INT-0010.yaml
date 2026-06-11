@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0010
+  associated_entities:
+  - ENT-PLC-0017
+  - ENT-PLC-0014
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 8, pp. 258-259
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The frontier forts Ḥiṣn Hiraqla, Ḥiṣn Luʾluʾa, and Ḥiṣn Ṣafṣaf, frequent
+    objects of raids, served a two-fold function — controlling the route toward Konya
+    and protecting the Bolkardağ mining industry that the Islamic armies also sought
+    — neither of which is explicit in the written accounts.
+  supporting_evidence:
+  - ATT-0053
+  - ATT-0062
+  confidence: 2
+  notes: Eger explicitly flags this as an inference "neither of which is explicit
+    in the written accounts" — interpretive, not directly attested; hence confidence
+    2. The three ḥiṣn forts are not separately minted as entities in this batch (deferred).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,48 @@
+- record_type: place
+  id: ENT-PLC-0013
+  standardised_name: Cappadocia
+  alternative_names:
+  - form: Καππαδοκία
+    language: grc
+    script: Grek
+    name_type: standardised
+  - form: Qabbāḏūq
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  place_type: region
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 38.6
+    longitude: 34.85
+    crs: EPSG:4326
+    coordinate_source: Nominal regional centroid (pending gazetteer alignment)
+    coordinate_method: scholarly_identification
+    coordinate_precision: region
+    uncertainty_radius_m: 120000
+    coordinate_confidence: 3
+  frontier_role: Core upland frontier region of the central Anatolian plateau; principal
+    subject of Eger's chapter; site of rock-cut settlement, refuge granaries, and
+    the Byzantine military-aristocratic families.
+  overall_confidence: 5
+  analytical_summary: The central Anatolian plateau region between the Halys and the
+    Taurus, characterised by rock-cut cave settlement, fortified refuges, and a mixed
+    agro-pastoral economy. Confidently identified as a region; coordinates are a nominal
+    centroid only.
+  linked_attestations:
+  - ATT-0054
+  - ATT-0055
+  - ATT-0063
+  notes: 'Identity resolution: no existing place entity for the region (corpus places
+    are specific sites/themes/zones — Amorium, Ancyra, Anatolikon theme, etc. — not
+    Cappadocia as a region). No plausible match; recommend new entity. Coordinate
+    is a nominal centroid (identification high, location coarse — spec §8: identification
+    status and coordinate confidence are independent). external_identifiers: [] —
+    Pleiades/TGN alignment outstanding.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

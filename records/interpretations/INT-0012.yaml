@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0012
+  associated_entities:
+  - ENT-PLC-0013
+  - ENT-POL-0001
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 8, p. 250
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Cappadocian frontier elites exhibited acculturation with Muslim society,
+    presenting themselves (turbans, kaftans with ṭirāz, dining on cushions and rugs)
+    as authority figures recognisable in Islamic eyes.
+  supporting_evidence:
+  - ATT-0063
+  counter_evidence:
+  - ATT-0063
+  confidence: 3
+  notes: 'Disagreement recorded: J. L. Ball (Byzantine Dress, 2005) argues borderland
+    populations did not distinguish their dress from neighbouring or their own cultures
+    (Eger n. 16). The same attestation (ATT-0063) carries both Eger''s reading and
+    Ball''s dissent; on review this dissent should be split into its own attestation
+    against a Ball 2005 SourceRecord.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

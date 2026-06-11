@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0009
+  associated_entities:
+  - ENT-PLC-0013
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 8, pp. 260-261
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Transhumant pastoralism and the inhabitation of defensive upland settlements
+    were codependent activities, linked together as an easily-mobile form of 'defensive
+    agriculture' that operated before the eleventh century; the Byzantines adapted
+    to the dry mountain/plateau environment and raiding calendar by combining a mixed
+    subsistence regime with defensive mobility.
+  supporting_evidence:
+  - ATT-0056
+  - ATT-0060
+  confidence: 3
+  notes: Concept of 'defensive agriculture' from Decker; Eger applies it to the Cappadocian
+    frontier (Eger n. 59).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

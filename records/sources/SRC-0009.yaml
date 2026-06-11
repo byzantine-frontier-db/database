@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0009
+  standardised_title: Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ
+  author_unnamed: false
+  date_of_composition:
+    start: 977
+    end: 988
+    precision: year_range_broad
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: Kitāb Ṣūrat al-Arḍ, p. 181 (edition not specified by Eger; per ch.
+    8 n. 22)
+  reliability_assessment: Tenth-century Arabic geography; description written c.977
+    and revised c.988.
+  dependencies: []
+  notes: 'Author person-entity not yet created (author_id outstanding). Exact edition
+    unspecified in Eger — [citation needed: Ibn Ḥawqal edition]. external_identifiers:
+    [] outstanding.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

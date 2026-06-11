@@ -1,0 +1,39 @@
+- record_type: place
+  id: ENT-PLC-0017
+  standardised_name: Bolkardağ mining district
+  alternative_names:
+  - form: Bolkardağ
+    language: tr
+    script: Latn
+    name_type: modern_name
+  place_type: region
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 37.4
+    longitude: 34.62
+    crs: EPSG:4326
+    coordinate_source: Modern map (Bolkar massif, Taurus, west of the Cilician Gates)
+    coordinate_method: archaeological_survey
+    coordinate_precision: region
+    uncertainty_radius_m: 30000
+    coordinate_confidence: 3
+  frontier_role: Silver/iron/copper/lead/tin/gold mining region of the Taurus just
+    west of the Cilician Gates, between the Byzantine and Islamic frontiers and proximal
+    to the Taurus expedition routes.
+  overall_confidence: 4
+  analytical_summary: Mining district surveyed 1983-1985, yielding c.800 mines, smelting
+    areas, and 27 settlements active in the eighth-tenth centuries (chronology from
+    glazed pottery and radiocarbon — a shovel handle dated 700-850, a ladder 744 ±55).
+    Site of Gümüşköy/B16 ('Silver Village').
+  linked_attestations:
+  - ATT-0062
+  notes: 'Identity resolution: no existing entity. No plausible match; recommend new
+    entity. Underlying survey: Yener & Toydemir 1986; Cooper & Decker 2012 (Eger nn.
+    47-48). external_identifiers: [] outstanding.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
