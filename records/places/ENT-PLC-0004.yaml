@@ -32,8 +32,13 @@
     point for Abbasid summer campaigns; the 838 campaign was assembled here.
   linked_attestations:
   - ATT-0020
+  - ATT-0059
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
+    review_history:
+    - date: '2026-06-10'
+      action: 'MINOR bump 1.0.0 -> 1.1.0: appended back-references from Eger 2015
+        ch.8 extraction (governance §4.3)'
