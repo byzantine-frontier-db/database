@@ -18,8 +18,17 @@
     by this corpus, ruled by the Amorian dynasty (820-867).
   linked_attestations:
   - ATT-0050
+  - ATT-0051
+  - ATT-0052
+  - ATT-0053
+  - ATT-0060
+  - ATT-0061
+  - ATT-0063
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
+  linked_interpretations:
+  - INT-0011
+  - INT-0012
