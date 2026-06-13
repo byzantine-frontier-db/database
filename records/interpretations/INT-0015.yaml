@@ -1,0 +1,30 @@
+- record_type: interpretation
+  id: INT-0015
+  associated_entities:
+  - ENT-PLC-0004
+  - ENT-PLC-0010
+  scholar: Eger, A. A.
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Excavations at major frontier settlements — Tarsus, Antakiya (Antioch)
+    and Sumaysat — show no dramatic seventh-century destruction, ruin or burning,
+    which Eger takes as support for reading the wilderness / scorched-earth accounts
+    as literary topoi rather than eyewitness testimony. He stresses the verb sha'atha
+    (used of Heraklios) implies unsettling or scattering rather than physical destruction,
+    and that deliberate burning of forts would have left archaeological traces and
+    demanded excessive labour from a retreating power.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0064
+  notes: Eger 2015, Introduction, pp. 2, 8-9. Antakiya and Sumaysāṭ are named in the
+    argument but not minted as place entities this session (deferred). This argument
+    rests partly on absence of evidence; confidence set to Probable. Provisional id
+    to be replaced at publication (governance §5).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

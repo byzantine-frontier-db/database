@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0016
+  associated_entities:
+  - ENT-PLC-0004
+  - ENT-PLC-0010
+  - ENT-POL-0002
+  scholar: Eger, A. A.
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The recurring 'imāra ('rebuild') narratives — e.g. the Caliph al-Mahdī
+    and then Hārūn al-Rashīd ordering Tarsus rebuilt 'from ruins' — function as legitimising
+    devices that construct a mythic wilderness for a rising power and deny earlier
+    Umayyad-era Islamic claims to those settlements. Eger follows Kopytoff's model
+    in which defining the frontier as 'empty' is a political act made from the intruders'
+    perspective.
+  confidence: 3
+  notes: Eger 2015, Introduction, pp. 8-9 (and nn. 22-23). al-Mahdī and Hārūn al-Rashīd
+    are named in the argument but not minted as person entities this session (deferred
+    — pre-838 caliphs outside the current campaign cluster). Provisional id to be
+    replaced at publication (governance §5).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

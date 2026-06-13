@@ -33,8 +33,13 @@
   linked_attestations:
   - ATT-0020
   - ATT-0059
+  - ATT-0065
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
+  linked_interpretations:
+  - INT-0014
+  - INT-0015
+  - INT-0016

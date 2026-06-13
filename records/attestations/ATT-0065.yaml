@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0065
+  source: SRC-0001
+  entities_referenced:
+  - ENT-EVT-0010
+  - ENT-PERS-0016
+  - ENT-PLC-0004
+  - ENT-POL-0001
+  provenance: primary_paraphrase
+  citation: 'al-Ṭabarī, Taʾrīkh, II.2396 (Arabic) = vol. 12, p. 182 (English translation)
+    [citation needed: translator/edition of this locus not specified by Eger]; reached
+    via Eger 2015, p. 3 (citation chain: primary text locus -> Eger).'
+  paraphrase: al-Ṭabarī states that Heraklios took with him the people of the fortresses
+    located between Iskandarūna and Tarsus in the Cilician Plain, paralleling al-Balādhurī's
+    evacuation report.
+  confidence: 4
+  notes: 'Locus is the 630s Heraklios material (al-Ṭabarī II.2396 = English vol. 12,
+    p. 182), distinct from the AH 223 / 838 account that SRC-0001''s other attestations
+    cover; the work is the same source (SRC-0001). Eger (p. 3, n. 4) does not name
+    the translator/edition of this English volume, so that detail is left as [citation
+    needed] rather than inferred. Reached via Eger only; not verified against the
+    printed Ṭabarī, hence editorial_review_required: true.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

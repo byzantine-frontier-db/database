@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0064
+  source: SRC-0016
+  entities_referenced:
+  - ENT-EVT-0010
+  - ENT-PERS-0016
+  - ENT-PLC-0010
+  - ENT-POL-0001
+  provenance: primary_quotation
+  citation: 'al-Balādhurī, Futūḥ al-buldān (Beirut: Dār al-Nashr lil-Jāmiʿiyīn, 1957-8),
+    p. 224; trans. mostly following Hitti, Origins of the Islamic State (Gorgias Press,
+    2002), p. 253; reached via Eger 2015, pp. 2-3 (citation chain: primary edition
+    -> Hitti translation -> Eger).'
+  direct_quotation: Heraclius moved the men from these forts, which he unsettled [sha'athaha]
+  paraphrase: al-Balādhurī reports that, because Heraklios had removed the men from
+    the frontier forts, the Muslims found them vacant when they raided.
+  editorial_interpretation: 'Translation crux flagged for review: Eger (p. 2, n. 3)
+    stresses that sha''atha connotes unsettling/scattering rather than physical destruction,
+    and that Hitti rendered the verb as ''to shatter''. The philological reading is
+    developed in INT-0015, not asserted here.'
+  confidence: 4
+  notes: 'Quotation known only via Eger 2015; not yet verified against the printed
+    Balādhurī edition or the Hitti translation, hence editorial_review_required: true.
+    Direct quotation trimmed to a short clause (fair-use, editorial rule on copyrighted
+    translation length); the remainder paraphrased. Arabic original text not reproduced
+    (not available in this session — no fabricated original_language_quotation).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

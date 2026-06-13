@@ -1,0 +1,30 @@
+- record_type: interpretation
+  id: INT-0017
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0009
+  scholar: Eger, A. A.
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: On Eger's survey-based synthesis, across most of the frontier — with the
+    exception of the region around Halab and most of the Jazira — Early Islamic sites
+    were reduced by roughly half from the Late Roman period; seventh- to eighth-century
+    sites were few though they included new foundations, while eighth- to tenth-century
+    sites were more numerous. He reads this as evidence neither of a 'no man's land'
+    nor of continuously inhabited landscape, but of substantial population reduction
+    followed by a refocusing of settlement and economic development.
+  confidence: 4
+  notes: 'Eger 2015, Introduction, pp. 20-21. This is Eger''s synthesis of regional
+    survey data. No ObservationRecords are created for the underlying surveys this
+    session: the primary survey/excavation reports are not in hand, so fabricating
+    observation-level records would violate the evidential-grounding and distinct-evidential-levels
+    rules. Halab and the Jazira are named but not minted as entities. Provisional
+    id to be replaced at publication (governance §5).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

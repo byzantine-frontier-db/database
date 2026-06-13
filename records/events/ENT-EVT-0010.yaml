@@ -1,0 +1,41 @@
+- record_type: event
+  id: ENT-EVT-0010
+  standardised_name: Heraklios' evacuation and 'unsettling' (sha'atha) of the North
+    Syrian / Cilician frontier forts, late 630s
+  event_type:
+    primary: military
+    sub: withdrawal
+  start_date:
+    start: '0630-01-01'
+    end: '0640-12-31'
+    precision: decade
+    confidence: 2
+  associated_places:
+  - ENT-PLC-0004
+  - ENT-PLC-0010
+  participants:
+  - ENT-PERS-0016
+  political_entities_involved:
+  - ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: During the Byzantine withdrawal from Syria in advance of the
+    Arab conquest, Heraklios is reported (al-Balādhurī; al-Ṭabarī) to have removed
+    the inhabitants of the frontier forts between Iskandarūna and Tarsus in the Cilician
+    Plain, leaving them vacant. Eger 2015 treats the reported evacuation as the seed
+    of the later 'empty frontier' literary topos rather than as confirmed physical
+    destruction.
+  linked_attestations:
+  - ATT-0064
+  - ATT-0065
+  notes: 'Entity search performed against existing events (ENT-EVT-0001 through ENT-EVT-0008):
+    all existing events belong to the 838 campaign cluster; no record for the 630s
+    frontier evacuation exists. Iskandarūna (Alexandretta) is named in the al-Ṭabarī
+    attestation but is NOT minted as a place entity this session (deferred — single
+    passing mention, no further data). Provisional id to be replaced at publication
+    (governance §5).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
