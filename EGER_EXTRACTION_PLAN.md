@@ -11,8 +11,8 @@ Target pace: one session per day
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ch. 8 Byzantine Frontier | 246-263 | EXTRACTED | 49 | fa2b5cd | ATT-0058 only |
 | 2 | Introduction | 1-22 | pending | | | |
-| 3 | Part 1 intro + Ch. 1 part A | 23-50 | pending | | | |
-| 4 | Ch. 1 part B | 51-68 | pending | | | |
+| 3 | Part 1 intro + Ch. 1 (full) | 23-68 | EXTRACTED | 88 | 62a7c35 | pending |
+| 4 | (subsumed into session 3) | - | MERGED | - | - | - |
 | 5 | Ch. 2 part A | 69-85 | pending | | | |
 | 6 | Ch. 2 part B | 86-101 | pending | | | |
 | 7 | Ch. 3 Eastern Thughur (NE Anatolia, dissertation core) | 102-126 | pending | | | |
@@ -54,8 +54,8 @@ Target pace: one session per day
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ch. 8 Byzantine Frontier | 246-263 | EXTRACTED | 49 | fa2b5cd | ATT-0058 only |
 | 2 | Introduction | 1-22 | EXTRACTED | | | |
-| 3 | Part 1 intro + Ch. 1 part A | 23-50 | pending | | | |
-| 4 | Ch. 1 part B | 51-68 | pending | | | |
+| 3 | Part 1 intro + Ch. 1 (full) | 23-68 | EXTRACTED | 88 | 62a7c35 | pending |
+| 4 | (subsumed into session 3) | - | MERGED | - | - | - |
 | 5 | Ch. 2 part A | 69-85 | pending | | | |
 | 6 | Ch. 2 part B | 86-101 | pending | | | |
 | 7 | Ch. 3 Eastern Thughur (NE Anatolia, dissertation core) | 102-126 | pending | | | |
