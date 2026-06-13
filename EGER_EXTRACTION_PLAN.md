@@ -34,6 +34,7 @@ Target pace: one session per day
 - ATT-0061 (Heraklios speech): confirm SUNY al-Tabari vol. XI translator (Blankinship?).
 - Sis-departure dating contradiction (Ibn Shaddad 711-12 vs Baladhuri after al-Waqidi 808-9): create two primary SourceRecords + Interpretation per governance section 5.4.
 - Deferred from ch.8: Hisn Hiraqla, Lu'lu'a, Safsaf forts; c.831 al-Matmura raid; Kibyrrhaiōtōn maritime theme; Michael Maleinos; Pseudo-Jahiz, Ibn al-Faqih, Ibn al-Adim corroborating sources; Selime-Yaprakhisar, Canli Kilise, Acik Saray, Gumuskoy/B16 archaeological sites.
+- **Back-reference deferred**: session 3 added attestations/interpretations referencing ENT-EVT-0010, ENT-PLC-0004, ENT-PLC-0009, ENT-PLC-0010, ENT-PLC-0014, ENT-POL-0001, ENT-POL-0002, SRC-0007, SRC-0009, SRC-0016 — back-references and MINOR version bumps not yet applied. Batch with future sessions' updates per governance §4.3.
 
 ## Project layout notes
 
