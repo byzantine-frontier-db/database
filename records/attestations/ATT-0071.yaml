@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0071
+  source: SRC-0019
+  entities_referenced:
+  - ENT-PLC-0024
+  provenance: primary_paraphrase
+  citation: Abū al-Fidāʾ, Kitāb taqwīm al-buldān (Reinaud & de Slane eds., Paris,
+    1840), pp. 41-2 — as transmitted by Eger 2015, p. 52 and ch. 1 n. 19 (p. 324)
+  paraphrase: Abū al-Fidāʾ (14th c.) described the population of ʿImm as Christian.
+  confidence: 3
+  notes: Reached via Eger 2015 p. 52. Provisional id ATT-0071.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0028

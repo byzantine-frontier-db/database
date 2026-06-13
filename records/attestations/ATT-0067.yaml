@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0067
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-PLC-0018
+  - ENT-PLC-0019
+  provenance: primary_paraphrase
+  citation: 'Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ (Beirut: Dār Maktabat al-Ḥayā, 1964) —
+    as transmitted by Eger 2015, p. 23 and Part 1 n. 1 (p. 320; also citing Iṣṭakhrī)'
+  paraphrase: Geographers including Iṣṭakhrī and Ibn Ḥawqal (but not Muqaddasī) distinguish
+    two frontier divisions, the Syrian west (thughūr al-shāmiya) and the Jaziran east
+    (thughūr al-jazariya).
+  confidence: 3
+  notes: Reached via Eger 2015 p. 23. Eger attributes the two-division usage to Iṣṭakhrī
+    and Ibn Ḥawqal; only Ibn Ḥawqal is in the corpus (SRC-0009), so the attestation
+    is anchored there. Iṣṭakhrī (Kitāb al-Masālik wa-l-Mamālik) deferred as a new
+    source. Provisional id ATT-0067.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0026

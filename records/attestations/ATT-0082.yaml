@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0082
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0023
+  - ENT-PERS-0018
+  - ENT-PERS-0020
+  provenance: modern_synthesis
+  citation: Eger 2015, ch. 1, pp. 66-67
+  paraphrase: Eger reports that Marʿash was rebuilt three times in the Umayyad period
+    (by Muʿāwiya, al-ʿAbbās b. al-Walīd I, and Marwān II) and later by Hārūn al-Rashīd,
+    and had strong double walls, a ditch, congregational mosque, markets, garrison
+    and inner fortress.
+  confidence: 3
+  notes: Eger's synthesis. al-ʿAbbās b. al-Walīd and Marwān II PersonEntities deferred.
+    Provisional id ATT-0082.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

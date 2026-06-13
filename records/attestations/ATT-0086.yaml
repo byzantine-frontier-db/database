@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0086
+  source: SRC-0022
+  entities_referenced:
+  - ENT-EVT-0013
+  - ENT-PLC-0023
+  provenance: primary_paraphrase
+  citation: Michael the Syrian, Chronique, vol. 2, ed./trans. Chabot (Paris, 1901),
+    p. 526 — as transmitted by Eger 2015, p. 55 and ch. 1 nn. 31-32 (p. 325; with
+    Palmer, The Seventh Century in the West-Syrian Chronicles, 1993, p. 71)
+  paraphrase: West-Syrian sources record the Byzantine relocation of Jacobites from
+    the Marʿash area to Thrace in 778 (corroborated by a Syriac inscription at Ehnesh),
+    and separately the Muslim displacement of Jacobites to Ramla.
+  confidence: 3
+  notes: Reached via Eger 2015 p. 55. The 778 Thrace deportation is from Palmer/Syriac
+    chronicles (n. 31); the Ramla displacement is Michael the Syrian (n. 32). Anchored
+    to Michael the Syrian; Palmer's edition deferred. Provisional id ATT-0086.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0035

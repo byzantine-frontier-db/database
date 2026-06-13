@@ -1,0 +1,27 @@
+- record_type: interpretation
+  id: INT-0027
+  associated_entities:
+  - ENT-PLC-0022
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), ch. 1, pp. 64-66; cf. Eger,
+    '(Re)Mapping Medieval Antioch', DOP 67 (2013)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Antioch's reduction should not be read as an Early Islamic phenomenon
+    or a catastrophic collapse; the contraction began by the mid-sixth century (wall
+    already reduced under Justinian), and the city transitioned into the Early Islamic
+    period with little disruption, becoming more self-sufficient as its Amuq hinterland
+    marshified.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0084
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  notes: 'PRESERVED CONFLICT (rule 1): Eger argues against the traditional "litany
+    of disasters" decline narrative (earthquakes, invasions, plagues; e.g. Kennedy
+    1985, ch. 1 n. 52) while acknowledging some archaeological destruction evidence.'

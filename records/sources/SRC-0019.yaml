@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0019
+  standardised_title: Abū al-Fidāʾ, Kitāb taqwīm al-buldān
+  author_unnamed: false
+  date_of_composition:
+    start: 1321
+    end: 1321
+    precision: year
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: 'M. Reinaud & M. le Baron MacGuckin de Slane (eds.), Géographie d''Aboulféda,
+    texte arabe (Paris: Imprimerie Royale, 1840)'
+  reliability_assessment: Fourteenth-century geographical compilation; cited for the
+    (later) confessional character of ʿImm and Yaghra and for descriptions of Baghras
+    and Darbassak.
+  notes: Cited by Eger 2015, ch. 1 nn. 19, 42, 48 (pp. 324, 326). Author PersonEntity
+    deferred. Provisional id SRC-0019.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

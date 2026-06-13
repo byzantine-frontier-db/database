@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0073
+  source: SRC-0019
+  entities_referenced:
+  - ENT-PLC-0025
+  provenance: primary_paraphrase
+  citation: Abū al-Fidāʾ, Kitāb taqwīm al-buldān (Reinaud & de Slane eds., Paris,
+    1840) — as transmitted by Eger 2015, pp. 50-51 and ch. 1 n. 19
+  paraphrase: Abū al-Fidāʾ described the population of Yaghra as Christian in the
+    fourteenth century.
+  confidence: 3
+  notes: 'NOTE: Eger n. 19 attaches to both ʿImm and Yaghra discussions; exact page
+    for the Yaghra statement is [citation needed: exact page]. Reached via Eger 2015
+    pp. 50-51. Provisional id ATT-0073.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0029

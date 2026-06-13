@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0035
+  proposition: In 778 the Byzantines relocated many Jacobites from the Marʿash area
+    to Thrace; Muslims separately displaced Jacobites to Ramla.
+  associated_entities:
+  - ENT-EVT-0013
+  - ENT-PLC-0023
+  supporting_attestations:
+  - ATT-0086
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,43 @@
+- record_type: place
+  id: ENT-PLC-0031
+  standardised_name: Domuztepe (KM 97)
+  alternative_names:
+  - form: Domuztepe
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 37.36
+    longitude: 36.85
+    crs: EPSG:4326
+    coordinate_source: Domuztepe excavation, Kahramanmaraş Plain (Eger / Carter &
+      Campbell)
+    coordinate_method: archaeological_survey
+    coordinate_precision: site
+    uncertainty_radius_m: 1000
+    coordinate_confidence: 4
+  frontier_role: Tell with a small but long-standing Christian village in the marshy
+    lowland Kahramanmaraş Plain; test case for ethno-religious settlement signatures.
+  overall_confidence: 5
+  analytical_summary: 'A Late Neolithic tell (excavated by Manchester/UCLA) whose
+    summit yielded a Late Roman-Middle Islamic Christian rural settlement, excavated
+    2004-6. Features: a fourth-century ashlar enclosure; a buried hoard of 287 Constantinian
+    coins (mainly 313-347); ~48 Christian burials (9th/10th c.); ~14% pig bone in
+    Early Islamic levels; a chancel-screen fragment. Eger reads it as a Jacobite Syriac
+    Christian community showing continuity, not disruption. [Ch. 1, pp. 54-55.]'
+  associated_entities:
+  - ENT-PLC-0021
+  linked_attestations:
+  - ATT-0079
+  linked_interpretations:
+  - INT-0028
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

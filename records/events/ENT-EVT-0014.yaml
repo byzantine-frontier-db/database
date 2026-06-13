@@ -1,0 +1,40 @@
+- record_type: event
+  id: ENT-EVT-0014
+  standardised_name: Muʿāwiya's reoccupation of the vacant Amanus frontier forts
+  event_type:
+    primary: military
+    sub: garrisoning
+  start_date:
+    start: 640
+    end: 680
+    precision: year_range_broad
+    confidence: 2
+  associated_places:
+  - ENT-PLC-0032
+  - ENT-PLC-0004
+  participants:
+  - ENT-PERS-0020
+  political_entities_involved:
+  - ENT-POL-0002
+  related_events:
+  - ENT-EVT-0010
+  overall_confidence: 2
+  analytical_summary: Per al-Balādhurī (via Eger), during the conquest Muʿāwiya found
+    the forts along the eastern Amanus (Anṭākiya to Tarsus) vacant (khāliyatān) and
+    reoccupied them. Eger flags uncertainty as to whether this is a literary trope
+    or reflects genuine abandonment. Plausibly the downstream condition left by the
+    earlier Heraclian evacuation/"unsettling" of the Cilician frontier forts (ENT-EVT-0010).
+    [Ch. 1, pp. 58-59.]
+  linked_attestations:
+  - ATT-0077
+  notes: 'CROSS-CORPUS LINK: related_events -> ENT-EVT-0010 (Heraklios'' evacuation
+    of the North Syrian/Cilician forts, late 630s). The "vacant forts" Muʿāwiya found
+    may be the state ENT-EVT-0010 produced; Eger does not assert this causal link
+    explicitly, so it is recorded as related_events, not as a resolved claim.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

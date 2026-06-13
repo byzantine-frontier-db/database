@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0077
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PERS-0020
+  - ENT-PLC-0032
+  - ENT-PLC-0004
+  - ENT-EVT-0014
+  provenance: primary_quotation
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8), p. 225 — as transmitted by Eger
+    2015, p. 59 and ch. 1 n. 34 (p. 325)
+  direct_quotation: vacant
+  original_language_quotation:
+    text: khāliyatān
+    language: ar
+    script: Arab
+  paraphrase: During the conquest Muʿāwiya found the forts along the eastern Amanus
+    (Anṭākiya to Tarsus) vacant and reoccupied them.
+  confidence: 3
+  notes: Reached via Eger 2015 p. 59. Eger himself flags whether the vacancy is a
+    literary trope or genuine (see ENT-EVT-0014 notes). Single short quotation. Provisional
+    id ATT-0077.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0031

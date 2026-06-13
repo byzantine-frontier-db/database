@@ -1,0 +1,42 @@
+- record_type: place
+  id: ENT-PLC-0035
+  standardised_name: Qinnasrīn
+  alternative_names:
+  - form: Qinnasrīn
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Chalcis
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 35.935
+    longitude: 37.05
+    crs: EPSG:4326
+    coordinate_source: Qinnasrīn / al-ʿĪs (scholarly identification)
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 5000
+    coordinate_confidence: 4
+  frontier_role: Earlier urban node (Greek Chalcis) of which the central-thughūr towns
+    were satellites, on the road network through ʿImm.
+  overall_confidence: 4
+  analytical_summary: Greek Chalcis; the urban node (before Ḥalab) for the central-thughūr
+    towns and a terminus of the road through ʿImm (29 Roman miles distant). [Ch. 1,
+    pp. 52, 64.]
+  associated_entities:
+  - ENT-PLC-0024
+  - ENT-PLC-0034
+  linked_attestations:
+  - ATT-0069
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

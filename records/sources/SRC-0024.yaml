@@ -1,0 +1,25 @@
+- record_type: source
+  id: SRC-0024
+  standardised_title: Procopius, De Aedificiis (On the Buildings of Justinian)
+  author_unnamed: false
+  date_of_composition:
+    start: 554
+    end: 560
+    precision: year_range_broad
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: history
+  translation_used: 'Of the Buildings of Justinian, trans. A. Stewart, Palestine Pilgrims''
+    Text Society 2 (New York: AMS Press, 1971), p. 68'
+  reliability_assessment: Sixth-century panegyrical account of Justinianic building
+    works; cited for the reduction of Antioch's circuit wall under Justinian.
+  notes: Cited by Eger 2015, ch. 1 n. 51 (p. 326). Author PersonEntity deferred. Provisional
+    id SRC-0024.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

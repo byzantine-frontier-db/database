@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0068
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (I.B. Tauris, 2015), ch. 1, pp. 33-36
+  paraphrase: Eger's environmental description of the two al-ʿamq plains (extent,
+    rivers, elevation, rainfall, lake/marsh) drawn from survey, GIS and geomorphology.
+  confidence: 4
+  notes: Eger's own synthesis (secondary). Provisional id ATT-0068.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0066
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0009
+  - ENT-PERS-0018
+  - ENT-EVT-0011
+  - ENT-PLC-0034
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8); and al-Ṭabarī, Taʾrīkh III.604
+    — as transmitted by Eger, The Islamic-Byzantine Frontier (I.B. Tauris, 2015),
+    p. 68 and ch. 2 n. 2 (p. 326)
+  paraphrase: Islamic historians report that in the early Abbasid period Hārūn al-Rashīd
+    set aside the eastern half of the central frontier as a second defensive line
+    of winter garrisons, the ʿawāṣim, around Ḥalab.
+  confidence: 3
+  notes: Reached via Eger 2015 p. 68. Primary editions (al-Balādhurī 1957-8; al-Ṭabarī
+    III.604, SRC-0001 for Ṭabarī) NOT consulted directly. al-Ṭabarī is SRC-0001 in
+    corpus but the Ṭabarī passage falls in Eger ch. 2; attested here primarily to
+    al-Balādhurī. Provisional id ATT-0066.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0027

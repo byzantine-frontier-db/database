@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0026
+  associated_entities:
+  - ENT-PLC-0027
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), ch. 1, pp. 62-63; cf. Eger,
+    The Spaces Between the Teeth (2012)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The well-preserved upland castle traditionally identified as Baghras is
+    the Middle Byzantine/Crusader settlement (from the later tenth century, per Amuq
+    Survey ceramics); the Late Roman and Early Islamic settlement of Baghras should
+    instead be located at the lowland site AS 248 (with AS 246 a secondary candidate).
+  confidence: 3
+  supporting_evidence:
+  - ATT-0080
+  - ATT-0081
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  notes: 'PRESERVED CONFLICT (rule 1): re-identification against the traditional upland-castle
+    view. See ENT-PLC-0027.'

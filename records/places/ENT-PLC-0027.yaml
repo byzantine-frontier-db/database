@@ -1,0 +1,57 @@
+- record_type: place
+  id: ENT-PLC-0027
+  standardised_name: Baghras
+  alternative_names:
+  - form: Baghrās
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Pagaris
+    language: la
+    script: Latn
+    name_type: historical_attestation
+  - form: Pagras
+    language: la
+    script: Latn
+    name_type: historical_attestation
+  place_type: fortress
+  identification_status: disputed
+  identification_confidence: 3
+  coordinates:
+    latitude: 36.4639
+    longitude: 36.1817
+    crs: EPSG:4326
+    coordinate_source: Bakras castle (the upland-castle candidate)
+    coordinate_method: scholarly_identification
+    coordinate_precision: site
+    uncertainty_radius_m: 2000
+    coordinate_confidence: 3
+  frontier_role: Fortified settlement guarding the Belen Pass (Syrian Gates) on the
+    Anṭākiya-Iskandarūna route and the junction with the Anṭākiya-Marʿash road; a
+    way station.
+  overall_confidence: 3
+  analytical_summary: Eger distinguishes the well-preserved upland castle (Middle
+    Byzantine/Crusader, from the later tenth century, per Amuq Survey ceramics) from
+    the Late Roman/Early Islamic lowland settlement, which he proposes to identify
+    with survey site AS 248 (with a second candidate, Çakallı Karakol/AS 246). First
+    fortified as a ḥiṣn by Hishām; Ibn Ḥawqal (10th c.) records Ḥiṣn Baghras with
+    a Friday mosque and large population; Zubayda founded a minbar and guesthouse;
+    Nikephoros Phokas took and rebuilt it during the reconquest. [Ch. 1, pp. 62-63.]
+  associated_entities:
+  - ENT-PLC-0032
+  - ENT-PLC-0033
+  linked_attestations:
+  - ATT-0080
+  - ATT-0081
+  linked_interpretations:
+  - INT-0026
+  notes: 'PRESERVED CONFLICT (rule 1): three-way identification problem (upland castle
+    = Middle Byz/Crusader vs lowland AS 248 vs AS 246) and the chronological split;
+    left unresolved per Eger.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

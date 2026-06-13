@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0023
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), ch. 1, pp. 40-47
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Settlement in both plains roughly halved from the Late Roman to the Early
+    Islamic period (Amuq ~47% to ~23% of sites; Kahramanmaraş ~45% to ~12%, a 2:1
+    ratio), a pattern that supports neither fluid seventh-century continuity nor a
+    "no man's land"; apparent continuity in some projects is attributable to methodological
+    factors (ceramic redating; indeterminate ceramic identification).
+  confidence: 3
+  supporting_evidence:
+  - ATT-0068
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  notes: 'PRESERVED CONFLICT (rule 1): Eger positions against two opposing camps and
+    names the methodological mechanisms (ceramic redating, citing Magness, ch. 1 n.
+    16; indeterminate identification, citing Avni, ch. 1 n. 17). The underlying continuity-vs-decline
+    debate is preserved, not resolved.'

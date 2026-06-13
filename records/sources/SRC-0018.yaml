@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0018
+  standardised_title: Theodoret of Cyrrhus, Historia Religiosa (A History of the Monks
+    of Syria)
+  author_unnamed: false
+  date_of_composition:
+    start: 440
+    end: 449
+    precision: year_range_broad
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: hagiography
+  translation_used: 'A History of the Monks of Syria (Kalamazoo, MI: Cistercian Publications,
+    1985), vol. II'
+  reliability_assessment: Fifth-century hagiography; cited for the Late Antique standing
+    of ʿImm and the Palladius episode.
+  notes: Cited by Eger 2015, ch. 1 n. 21 (p. 324). Theodoret was bishop of Cyrrhus
+    393-457; author PersonEntity deferred. Provisional id SRC-0018.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

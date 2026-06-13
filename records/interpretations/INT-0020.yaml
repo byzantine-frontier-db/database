@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0020
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0018
+  - ENT-PLC-0019
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (I.B. Tauris, 2015), Part 1 intro, p.
+    23
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The shāmiya/jazariya division of the thughūr is military rather than strictly
+    geographical — reflecting soldiers' backgrounds and a two-pronged left/right raiding
+    pattern (al-ṣāʾifa al-yusrā / al-yumnā) — and the frontier is better analysed
+    as several linked micro-regions than as one entity.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0067
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

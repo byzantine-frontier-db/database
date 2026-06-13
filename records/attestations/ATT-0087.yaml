@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0087
+  source: SRC-0017
+  entities_referenced:
+  - ENT-PLC-0020
+  provenance: primary_quotation
+  citation: Nuʿaym b. Ḥammād, Kitāb al-Fitan, MS Brit. Mus. Or. 9449, ff. 119b-120a,
+    trans. W. Madelung, 'Apocalyptic Prophecies in Ḥimṣ in the Umayyad Age', JSS,
+    p. 174 — as transmitted by Eger 2015, p. 33 and ch. 1 n. 1 (p. 321)
+  direct_quotation: a meadow with ruins
+  original_language_quotation:
+    text: marj dhī ṭulūl
+    language: ar
+    script: Arab
+  paraphrase: Early Islamic eschatological tradition frames the Amuq Plain as the
+    meadow-with-ruins where a final apocalyptic war would be fought.
+  confidence: 2
+  notes: Reached via Eger 2015 p. 33 (chapter epigraph). Single short quotation (4
+    words). Provisional id ATT-0087.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

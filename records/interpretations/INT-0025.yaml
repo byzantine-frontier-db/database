@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0025
+  associated_entities:
+  - ENT-PLC-0023
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), ch. 1, pp. 66-67
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The location of Marʿash is unknown and its routine equation with modern
+    Kahramanmaraş is unsupported; the town likely continued from the Late Roman settlement
+    of Marasion (not Germanikeia, as commonly assumed), with KM 5, KM 54 and a southern
+    site as candidates.
+  confidence: 2
+  supporting_evidence:
+  - ATT-0082
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  notes: 'PRESERVED CONFLICT (rule 1): Marasion vs Germanikeia identification, and
+    against the common Kahramanmaraş equation. See ENT-PLC-0023.'

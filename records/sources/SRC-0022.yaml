@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0022
+  standardised_title: Michael the Syrian, Chronique
+  author_unnamed: false
+  date_of_composition:
+    start: 1190
+    end: 1199
+    precision: year_range_broad
+    confidence: 3
+  language: syr
+  script: Syrc
+  genre: universal_chronicle
+  edition_used: 'Chronique de Michel le Syrien, vol. 2, ed. & trans. J.-B. Chabot
+    (Paris: Ernest Leroux, 1901), p. 526'
+  reliability_assessment: Late-twelfth-century Syriac Orthodox chronicle; cited for
+    Muslim-instigated displacements of Jacobites to Ramla and for post-reconquest
+    Jacobite bishoprics around Marʿash.
+  notes: Cited by Eger 2015, ch. 1 n. 32 (p. 325). Michael the Syrian was Syriac Orthodox
+    patriarch 1166-99. Author PersonEntity deferred. Provisional id SRC-0022.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

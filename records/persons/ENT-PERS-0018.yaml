@@ -1,0 +1,29 @@
+- record_type: person
+  id: ENT-PERS-0018
+  standardised_name: Hārūn al-Rashīd
+  alternative_names:
+  - form: Hārūn al-Rashīd
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: caliph
+  political_affiliation: ENT-POL-0002
+  offices_held:
+  - office: Caliph of the Abbasid Caliphate
+    valid_from: 786
+    valid_to: 809
+    confidence: 5
+  overall_confidence: 5
+  analytical_summary: Abbasid caliph (r. 786-809). In Eger's account credited with
+    creating the ʿawāṣim as a second line of frontier defence and with one of the
+    rebuildings of Marʿash.
+  linked_attestations:
+  - ATT-0066
+  - ATT-0082
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

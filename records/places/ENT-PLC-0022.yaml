@@ -1,0 +1,51 @@
+- record_type: place
+  id: ENT-PLC-0022
+  standardised_name: Anṭākiya (Antioch)
+  alternative_names:
+  - form: Anṭākiya
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Ἀντιόχεια
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Antakya
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.2021
+    longitude: 36.1604
+    crs: EPSG:4326
+    coordinate_source: Modern Antakya
+    coordinate_method: modern_map
+    coordinate_precision: settlement
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 5
+  frontier_role: Principal city of the western rift valley; former metropolis whose
+    hinterland was the Amuq Plain; by the Early Islamic period a reduced but functioning
+    frontier town with its port at al-Mina'.
+  overall_confidence: 5
+  analytical_summary: Greatly reduced from its Late Roman extent by the Early Islamic
+    period, but Eger argues the contraction predates Islam (wall reduced already under
+    Justinian) and that the city transitioned with little disruption rather than catastrophic
+    collapse. Population mixed (Syriac, Melkite, Georgian, Armenian Christians; Persian,
+    Zuṭṭ, Syrian-Arab Muslims). Notable ceramic industries (Syrian yellow glaze, turquoise,
+    export-only Champlevé). [Ch. 1, pp. 64-66.]
+  associated_entities:
+  - ENT-PLC-0020
+  linked_attestations:
+  - ATT-0084
+  linked_interpretations:
+  - INT-0027
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

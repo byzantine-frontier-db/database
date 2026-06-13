@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0018
+  type: defended
+  source_entity: ENT-PLC-0027
+  target_entity: ENT-PLC-0033
+  confidence: 4
+  linked_attestations:
+  - ATT-0080
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  notes: Baghras guarded the Belen Pass.

@@ -1,0 +1,28 @@
+- record_type: source
+  id: SRC-0017
+  standardised_title: Nuʿaym ibn Ḥammād, Kitāb al-Fitan
+  author_unnamed: false
+  date_of_composition:
+    start: 800
+    end: 844
+    precision: year_range_broad
+    confidence: 2
+  language: ar
+  script: Arab
+  genre: other
+  edition_used: MS Brit. Mus. Or. 9449, folios 119b-120a
+  translation_used: W. Madelung, 'Apocalyptic Prophecies in Ḥimṣ in the Umayyad Age',
+    Journal of Semitic Studies (page as cited by Eger, p. 174)
+  reliability_assessment: Apocalyptic/eschatological compilation; value here is for
+    the literary framing of the Amuq as an apocalyptic battleground, not for event
+    reconstruction.
+  notes: Cited by Eger 2015, ch. 1 n. 1 (p. 321), as the source of the chapter epigraph
+    on the Amuq. Author PersonEntity deferred. Provisional id SRC-0017 to be preserved
+    on minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0032
+  standardised_name: Amanus Mountains
+  alternative_names:
+  - form: Jabal al-Lukkām
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: mountain
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.5
+    longitude: 36.3
+    crs: EPSG:4326
+    coordinate_source: Amanus range (Nur Dağları)
+    coordinate_method: modern_map
+    coordinate_precision: region
+    uncertainty_radius_m: 30000
+    coordinate_confidence: 4
+  frontier_role: Western boundary of the Amuq and the fulcrum dividing the Syrian
+    and Jaziran thughūr; pierced by the Belen and Çalan passes and the Amanus/Bahçe
+    Gates; source of timber and steatite.
+  overall_confidence: 5
+  analytical_summary: The mountain range (Arabic Jabal al-Lukkām) bounding the central
+    thughūr on the west; its passes structured the frontier road system and its forts
+    were a recurring object of conquest-era texts. [Ch. 1, pp. 34, 38-39, 58-63.]
+  linked_attestations:
+  - ATT-0077
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,33 @@
+- record_type: event
+  id: ENT-EVT-0013
+  standardised_name: Byzantine relocation of Jacobites from the Marʿash area to Thrace,
+    778
+  event_type:
+    primary: demographic
+    sub: deportation
+    secondary:
+    - primary: religious
+      sub: persecution
+  start_date:
+    start: 778
+    end: 778
+    precision: year
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0023
+  political_entities_involved:
+  - ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: Several texts state that in 778 the Byzantines relocated many
+    Jacobites (Syriac Orthodox) from the Marʿash area to Thrace on grounds of religious
+    persecution; Eger notes a corroborating Syriac inscription from the Church of
+    St Sergius at Ehnesh. [Ch. 1, p. 55.]
+  linked_attestations:
+  - ATT-0086
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

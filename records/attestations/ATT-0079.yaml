@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0079
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0031
+  provenance: archaeological_evidence
+  citation: Eger 2015, ch. 1, pp. 54-55, reporting the Domuztepe excavations (Carter
+    & Campbell, KST 27.1, 2005; Campbell, Anatolian Archaeology 2003-5; Grossman,
+    faunal analysis), ch. 1 nn. 27-30 (p. 324)
+  paraphrase: Excavation at the Domuztepe summit (2004-6) revealed a Late Roman-Middle
+    Islamic Christian village, a 4th-c. ashlar enclosure, a hoard of 287 Constantinian
+    coins (mainly 313-347), ~48 Christian burials (9th/10th c.), and ~14% pig bone
+    in Early Islamic levels.
+  confidence: 4
+  notes: Eger reports primary excavation results (Carter, Campbell, Grossman). Recorded
+    as archaeological_evidence via Eger; underlying excavation reports NOT consulted
+    directly. Provisional id ATT-0079.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0032

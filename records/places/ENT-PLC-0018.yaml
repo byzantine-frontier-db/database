@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0018
+  standardised_name: Thughūr al-Shāmiya (Syrian/western frontier division)
+  alternative_names:
+  - form: al-thughūr al-shāmiya
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: frontier_zone
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Western (Syrian) of the two military divisions of the thughūr; lands
+    west of the Amanus, with Marʿash/Amanus as the fulcrum dividing it from the Jaziran
+    east.
+  overall_confidence: 4
+  analytical_summary: One of the two divisions of the frontier recurrently distinguished
+    by Islamic geographers (thughūr al-shāmiya vs thughūr al-jazariya). Per Eger the
+    division is military rather than strictly geographical, reflecting the soldiers'
+    backgrounds and a two-pronged raiding style (al-ṣāʾifa al-yusrā / al-yumnā). [Part
+    1 introduction, p. 23.]
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0032
+  linked_attestations:
+  - ATT-0067
+  linked_interpretations:
+  - INT-0020
+  notes: Sub-division of the thughūr (ENT-PLC-0010); modelled as a distinct frontier_zone
+    place per the Master Record rule (alternative names, not parallel records).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

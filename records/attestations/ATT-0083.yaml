@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0083
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0023
+  - ENT-PERS-0023
+  provenance: modern_synthesis
+  citation: Eger 2015, ch. 1, p. 67
+  paraphrase: Eger notes the tradition that Marʿash was the likely hometown of the
+    Byzantine emperor Leo III (b. 685).
+  confidence: 2
+  notes: Eger's synthesis; recorded with low confidence. Provisional id ATT-0083.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

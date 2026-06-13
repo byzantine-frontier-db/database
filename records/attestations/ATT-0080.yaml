@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0080
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0027
+  - ENT-PERS-0019
+  - ENT-PLC-0033
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ (Beirut, 1964), p. 169 — as transmitted
+    by Eger 2015, p. 62 and ch. 1 n. 47 (p. 326)
+  paraphrase: Ibn Ḥawqal (10th c.) mentions Ḥiṣn Baghras with a Friday mosque (masjid
+    al-jāmiʿ) and a large population; Baghras was first fortified as a ḥiṣn by Hishām.
+  confidence: 3
+  notes: Reached via Eger 2015 p. 62. Hishām's first fortification of Baghras attributed
+    by Eger to other Islamic documents at the same place. Provisional id ATT-0080.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0033

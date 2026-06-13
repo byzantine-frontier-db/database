@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0021
+  associated_entities:
+  - ENT-PLC-0009
+  - ENT-EVT-0011
+  scholar: Bonner, M.
+  publication: 'Aristocratic Violence and Holy War, p. 66; ''The Naming of the Frontier:
+    ʿAwāṣim, Thughūr, and the Arab Geographers'', BSOAS 57 (1994), pp. 17-24'
+  date: 1994
+  argument: The creation of the ʿawāṣim in the first year of Hārūn al-Rashīd's reign
+    was a political move to break up the province of the Umayyad North (Armenia, Azerbaijan,
+    the thughūr) and consolidate the frontier into a separate, unified administrative
+    province under his personal supervision.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0066
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  notes: 'PRESERVED CONFLICT (rule 1): Eger reports countervailing views — Straughn
+    (the frontier was not a clearly defined political enterprise) and Abu Ezzah (al-ʿawāṣim
+    used interchangeably/inconsistently with al-thughūr, perhaps a local term of pride).
+    Recorded here in notes; full Interpretation records for Straughn/Abu Ezzah deferred.
+    Cited Eger Part 1 nn. 47-48 (p. 320).'

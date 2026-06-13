@@ -1,0 +1,47 @@
+- record_type: place
+  id: ENT-PLC-0020
+  standardised_name: Amuq Plain (Plain of Antioch)
+  alternative_names:
+  - form: al-ʿAmq
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Plain of Antioch
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: natural_feature
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.25
+    longitude: 36.4
+    crs: EPSG:4326
+    coordinate_source: Approximate plain centroid (Eger fig. 5)
+    coordinate_method: scholarly_identification
+    coordinate_precision: region
+    uncertainty_radius_m: 25000
+    coordinate_confidence: 4
+  environmental_setting: Triangular lowland depression ~670 km², 90-100 m.a.s.l.,
+    fed by the Orontes (Nahr ʿĀṣī), ʿAfrīn, Kara Su (Nahr al-Aswad) and now-extinct
+    Yaghra rivers; dominated since the Hellenistic period by a large now-drained lake;
+    high rainfall (500-700 mm/annum).
+  overall_confidence: 5
+  analytical_summary: The southern of the two "al-ʿamq" plains of the central thughūr
+    and one of the two micro-regions analysed in Chapter 1. Underwent dramatic landscape
+    change (marshification) between the Late Hellenistic and Early Islamic periods.
+    [Ch. 1, pp. 33-38.]
+  associated_entities:
+  - ENT-PLC-0022
+  - ENT-PLC-0010
+  linked_attestations:
+  - ATT-0068
+  linked_interpretations:
+  - INT-0022
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

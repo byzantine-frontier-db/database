@@ -1,0 +1,58 @@
+- record_type: place
+  id: ENT-PLC-0024
+  standardised_name: ʿImm
+  alternative_names:
+  - form: ʿImm
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Imma
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Ḥiṣn ʿImm
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Yenişehir
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: village
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 36.27
+    longitude: 36.57
+    crs: EPSG:4326
+    coordinate_source: Yenişehir / survey site AS 345 (Eger)
+    coordinate_method: archaeological_survey
+    coordinate_precision: settlement
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 3
+  frontier_role: Self-sufficient irrigated river/canal town on the eastern access
+    to the Amuq at the junction of plain and limestone massif; persistently Christian
+    but Muslim-administered.
+  overall_confidence: 4
+  analytical_summary: Identified with survey site AS 345; a third-century town on
+    the Anṭākiya-Qinnasrīn road (Peutinger Table). Attested in Late Antiquity by Theodoret
+    and a sixth-century Greek inscription (Imminoi); described in 1051 by Ibn Buṭlān
+    (via Yāqūt) as a Christian town with springs, four churches, one mosque and mills;
+    still predominantly Christian and fortified (Ḥiṣn ʿImm) by 1280. One of two Christian/Muslim
+    villages Eger uses as a case study. [Ch. 1, pp. 51-53.]
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0026
+  - ENT-PLC-0035
+  linked_attestations:
+  - ATT-0069
+  - ATT-0070
+  - ATT-0071
+  - ATT-0072
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

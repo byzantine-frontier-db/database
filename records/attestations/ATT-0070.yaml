@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0070
+  source: SRC-0021
+  entities_referenced:
+  - ENT-PLC-0024
+  provenance: primary_paraphrase
+  citation: 'Ibn Buṭlān, letter of 1051, preserved in Yāqūt, Muʿjam al-buldān (Beirut:
+    Dār Ṣādr, 1955-7), 4.157 — as transmitted by Eger 2015, p. 52 and ch. 1 n. 23
+    (p. 324)'
+  paraphrase: Travelling from Ḥalab to Anṭākiya in 1051, Ibn Buṭlān stayed at the
+    wealthy Christian town of ʿImm and noted its springs with fish, four churches,
+    one mosque and mills; Yāqūt adds that the inhabitants were all Christian and of
+    ancient descent.
+  confidence: 3
+  notes: 'Double transmission: Ibn Buṭlān -> Yāqūt (SRC-0020) -> Eger 2015 p. 52.
+    Neither the Yāqūt edition nor any independent Ibn Buṭlān text consulted directly.
+    Provisional id ATT-0070.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0028

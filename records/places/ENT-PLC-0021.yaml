@@ -1,0 +1,43 @@
+- record_type: place
+  id: ENT-PLC-0021
+  standardised_name: Kahramanmaraş Plain
+  alternative_names:
+  - form: al-ʿAmq al-Marʿash
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: natural_feature
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 37.4
+    longitude: 36.8
+    crs: EPSG:4326
+    coordinate_source: Approximate plain centroid (Eger fig. 3)
+    coordinate_method: scholarly_identification
+    coordinate_precision: region
+    uncertainty_radius_m: 30000
+    coordinate_confidence: 4
+  environmental_setting: Actually two plains connected by a narrow corridor and surrounded
+    by the Taurus; northern funnel-shaped plain watered by the Ak Su (Nahr Hurīth);
+    southern wetland plain (Sağlık/Gavur Göl and Mizmilli Marsh); higher rainfall
+    (c. 800-900 mm/annum).
+  overall_confidence: 5
+  analytical_summary: The northern of the two "al-ʿamq" plains and the second micro-region
+    analysed in Chapter 1; connected to the Amuq by the Kara Su corridor. Shows a
+    roughly 2:1 ratio of Late Roman to Early Islamic sites. [Ch. 1, pp. 35, 44-45.]
+  associated_entities:
+  - ENT-PLC-0023
+  - ENT-PLC-0031
+  - ENT-PLC-0010
+  linked_attestations:
+  - ATT-0068
+  linked_interpretations:
+  - INT-0023
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

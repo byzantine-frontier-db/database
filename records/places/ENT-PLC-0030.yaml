@@ -1,0 +1,45 @@
+- record_type: place
+  id: ENT-PLC-0030
+  standardised_name: Jisr al-Hadid
+  alternative_names:
+  - form: Jisr al-Ḥadīd
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Gephyra
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Demirköprü
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: bridge
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 36.27
+    longitude: 36.43
+    crs: EPSG:4326
+    coordinate_source: Demirköprü on the Orontes (Eger)
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 3
+  frontier_role: Bridge-town ("Iron Bridge"/"Bridge") on the main Anṭākiya-Ḥalab route
+    across the Orontes; node on the Peutinger Table road into the ʿAfrīn valley.
+  overall_confidence: 4
+  analytical_summary: Greek Gephyra ("Bridge"), modern Demirköprü; named for its continuously
+    used Roman bridge over the Orontes. In the Early Islamic period, as in the Late
+    Roman, surrounded by satellite sites radiating toward the lake. [Ch. 1, pp. 56-57.]
+  associated_entities:
+  - ENT-PLC-0020
+  linked_attestations:
+  - ATT-0076
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

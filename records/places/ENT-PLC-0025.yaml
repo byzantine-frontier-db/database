@@ -1,0 +1,38 @@
+- record_type: place
+  id: ENT-PLC-0025
+  standardised_name: Yaghra
+  alternative_names:
+  - form: Yaghra
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Muratpaşa
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: village
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: River/canal village on the (now-extinct) Yaghra River near a fishery;
+    mixed Christian/Muslim community.
+  overall_confidence: 3
+  analytical_summary: Known in Middle Islamic texts as a village on the eponymous
+    river near a fish-rich lake; Eger identifies it with survey site AS 25 (Muratpaşa).
+    Abū al-Fidāʾ (14th c.) described its population as Christian; a Qurʾanic inscription
+    names the Mamluk sultan al-Ashraf Īnāl (d. 1461). [Ch. 1, pp. 50-51.]
+  associated_entities:
+  - ENT-PLC-0020
+  linked_attestations:
+  - ATT-0073
+  linked_interpretations:
+  - INT-0024
+  notes: 'PRESERVED CONFLICT (rule 1): Eger flags an earlier, in his view incorrect,
+    association of Yaghra with the classical site of Meleagrum (ch. 1 n. 18, citing
+    de Giorgi 2007). Recorded but not resolved.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

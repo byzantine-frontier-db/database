@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0076
+  source: SRC-0026
+  entities_referenced:
+  - ENT-PLC-0030
+  provenance: primary_paraphrase
+  citation: Tabula Peutingeriana — as transmitted by Eger 2015, p. 56
+  paraphrase: The Peutinger Table places Jisr al-Hadid on an east-west thoroughfare
+    leading into the ʿAfrīn valley.
+  confidence: 3
+  notes: Reached via Eger 2015 p. 56. Peutinger Table edition [citation needed]. Provisional
+    id ATT-0076.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0021
+  standardised_title: Ibn Buṭlān, Letter on the journey from Ḥalab to Anṭākiya (1051)
+  author_unnamed: false
+  date_of_composition:
+    start: 1051
+    end: 1051
+    precision: year
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: letter_collection
+  edition_used: '[citation needed: independent edition] — known only as preserved
+    in Yāqūt, Muʿjam al-buldān (Beirut: Dār Ṣādr, 1955-7), 4.157'
+  transmission_history: Eleventh-century letter not independently transmitted; preserved
+    within Yāqūt's thirteenth-century gazetteer (SRC-0020).
+  reliability_assessment: First-person eyewitness description of ʿImm in 1051; reached
+    only through Yāqūt's quotation.
+  notes: Cited by Eger 2015, ch. 1 n. 23 (p. 324). Double transmission Ibn Buṭlān
+    -> Yāqūt -> Eger. Author PersonEntity deferred. Provisional id SRC-0021.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0028
+  associated_entities:
+  - ENT-PLC-0031
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), ch. 1, pp. 54-55
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Domuztepe is a test case showing that ethno-religious settlement signatures
+    (diet, burial practice, architecture) combined with historical context can identify
+    a long-standing Jacobite Syriac Christian community that continued through the
+    Late Roman-Early Middle Islamic transition without disruption or sudden abandonment.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0079
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction, Claude)
+    workflow_state: draft
+    editorial_review_required: true
