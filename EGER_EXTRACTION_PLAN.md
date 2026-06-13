@@ -53,7 +53,7 @@ Target pace: one session per day
 | # | Material | Pages | Status | Records | Commit | Verified |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ch. 8 Byzantine Frontier | 246-263 | EXTRACTED | 49 | fa2b5cd | ATT-0058 only |
-| 2 | Introduction | 1-22 | pending | | | |
+| 2 | Introduction | 1-22 | EXTRACTED | | | |
 | 3 | Part 1 intro + Ch. 1 part A | 23-50 | pending | | | |
 | 4 | Ch. 1 part B | 51-68 | pending | | | |
 | 5 | Ch. 2 part A | 69-85 | pending | | | |
