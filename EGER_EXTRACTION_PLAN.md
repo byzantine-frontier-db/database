@@ -87,3 +87,36 @@ Target pace: one session per day
 ## Project housekeeping
 
 - Synced Claude Project custom instructions with docs/editorial_workflow.md verbatim. Self-test confirmed the new seven-rule wording.
+
+## Master prompt template (session 3 onwards)
+
+Per-session setup:
+1. `cd ~/Projects/byzantine-frontier-db && git pull`
+2. `python tools/entity_snapshot.py`
+3. `cat current_entities.txt` — copy contents
+4. Open new Claude Project conversation
+5. Paste template below, substituting bracketed values:
+
+---
+
+I'm extracting records from Eger, A. Asa, *The Islamic-Byzantine Frontier* (London: I.B. Tauris, 2015), [SECTION DESCRIPTION], pp. [START-END]. Both the chapter PDF and the footnotes PDF are attached.
+
+Eger 2015 is already in the corpus as SRC-0007 — reference it directly; do not draft a new SourceRecord for Eger himself.
+
+CURRENT CORPUS ENTITIES (auto-generated snapshot — authoritative for entity matching):
+
+[PASTE FULL CONTENTS OF current_entities.txt HERE]
+
+Use the snapshot above to check for entity matches before minting any new entity. If an entity in the chapter matches an existing record by standardised_name or by any alternative_name, reference the existing canonical ID directly; do not mint a new PROV- record for it.
+
+For any new primary source Eger cites which isn't in the snapshot, draft a new PROV-SRC- SourceRecord with what edition information Eger provides; use [citation needed] for missing edition details.
+
+Apply the editorial workflow rules:
+1. Primary-source content reached via Eger → attestation against the primary SourceRecord, citation field records the transmission chain, provenance primary_quotation or primary_paraphrase, Eger page in notes.
+2. Eger's interpretive arguments → InterpretationRecord linked to SRC-0007.
+3. Set editorial_review_required: true on every record.
+4. Use [citation needed: ...] placeholders for any uncertain reference rather than inventing one.
+5. PROV- provisional identifiers for all new records.
+6. Per governance, every record needs a SourceRecord — if Eger cites a new primary not yet in the snapshot, draft a new PROV-SRC- SourceRecord.
+
+Produce all records as a single YAML list. End with a summary noting record counts by type, cross-corpus links to existing entities (by canonical ID from snapshot), items deferred, and any unresolved disagreements.
