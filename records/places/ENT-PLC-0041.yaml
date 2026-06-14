@@ -1,0 +1,22 @@
+- record_type: place
+  id: ENT-PLC-0041
+  standardised_name: Khirbet al-Hamra (SS7)
+  place_type: village
+  identification_status: identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: Early Islamic foundation near Tell Sweyhat (survey designation
+    SS7), c. 5 ha, with two housing blocks of three-to-four linear-unit houses and
+    a smaller peripheral rectilinear enclosure. Estimated population c. 360-563. In
+    use for a short period c. 750-800.
+  linked_attestations:
+  - ATT-0101
+  notes: Site identified by survey (Whitcomb, in Wilkinson 2004). Coordinates deferred
+    (near Tell Sweyhat).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

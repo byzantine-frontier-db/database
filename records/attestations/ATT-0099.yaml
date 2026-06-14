@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0099
+  source: SRC-0029
+  entities_referenced:
+  - ENT-EVT-0017
+  - ENT-PERS-0024
+  - ENT-PERS-0020
+  - ENT-PLC-0038
+  provenance: primary_quotation
+  citation: Theophilus of Edessa, Chronicle, p. 147; reached via Eger 2015 p. 83 n.
+    30.
+  confidence: 3
+  observations_supported:
+  - OBS-0046
+  paraphrase: At the Battle of Ṣiffīn (657) Muʿāwiya's troops captured the water supply,
+    while the caliph ʿAlī's men were reduced to thirst and were deserting.
+  direct_quotation: captured the water [supply]
+  location_within_source: Theophilus of Edessa, Chronicle, p. 147
+  notes: 'DISCREPANCY preserved (rule 1): Eger''s main text attributes this account
+    to ''Theophanes'' (the Confessor, SRC-0012), but his footnote 30 cites ''Theophilus
+    of Edessa, Chronicle, p. 147''. Attested here against the footnoted source (SRC-0029);
+    editor should verify which source Eger intended. Short quotation under fair use.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

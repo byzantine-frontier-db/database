@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0045
+  standardised_name: Nahr Maslama (Balis canal)
+  place_type: other
+  identification_status: probably_identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: Early Islamic canal running parallel to the Euphrates from Balis
+    past Buwaylis ('Little Balis', unidentified), Qasirīn, and ʿAbidīn to Ṣiffīn.
+    A plastered conduit preserved c. 2.3 km from Dibsi Faraj, dated by Early Islamic
+    coins, is identified as this Nahr Maslama. Texts (Balādhurī; Chronicle of Zuqnīn)
+    attribute its construction to Maslama b. ʿAbd al-Malik (Zuqnīn adds Hishām), in
+    the first quarter of the eighth century, with forts and villages built along it.
+  linked_attestations:
+  - ATT-0097
+  - ATT-0098
+  notes: 'place_type ''other'' used: an artificial canal (no ''canal'' value in the
+    PlaceType vocabulary). The equation of the archaeologically preserved conduit
+    with the textual Nahr Maslama is a scholarly identification (hence identification_status
+    probably_identified).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

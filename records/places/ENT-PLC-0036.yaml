@@ -1,0 +1,57 @@
+- record_type: place
+  id: ENT-PLC-0036
+  standardised_name: Dibsi Faraj
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: Excavated Euphrates settlement c. 17 km south-east of Balis,
+    on a plateau overlooking the river, at the southernmost edge of the thughūr/ʿawāṣim
+    territory. Identified with Early Islamic Qasirīn (Greek Athis/Neocaesareia/Kaiserion).
+    Excavations (1971-4) revealed an L-shaped residence built over the citadel basilica
+    in the Early Islamic period and occupation continuing, with interruptions, into
+    the thirteenth century.
+  linked_attestations:
+  - ATT-0095
+  - ATT-0096
+  - ATT-0097
+  - ATT-0100
+  alternative_names:
+  - form: Qaṣirīn
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Ἄθις
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Neocaesareia
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Kaiserion
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  coordinates:
+    latitude: 35.9
+    longitude: 38.3
+    crs: EPSG:4326
+    coordinate_source: Approximate scholarly identification (editorial); to be verified
+      against a gazetteer
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 5000
+    coordinate_confidence: 2
+  frontier_role: Late Roman / Early Islamic Euphrates fortress-settlement at the southern
+    edge of the central thughūr.
+  notes: The identification of the site with Qasirīn and with Greek Athis/Neocaesareia/Kaiserion
+    is Harper's; treated here as a scholarly identification (see ATT-0096). Coordinates
+    approximate -- verify against gazetteer.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

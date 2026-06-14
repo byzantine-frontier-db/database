@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0093
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-PLC-0034
+  - ENT-PLC-0035
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, pp. 71-72 (citing
+    C. Robinson, 'Tribes and Nomads in Early Islamic Northern Mesopotamia', n. 6).
+  confidence: 4
+  observations_supported:
+  - OBS-0041
+  paraphrase: Eger surveys the nomadic and semi-nomadic Arab tribes of the marginal
+    steppe (Ṭayyiʾ, Qays, Tanūkh, Qudāʿa-descended groups) and the settled, partly
+    Christian Arab tribes (Iyād and others), stressing pastoralism as a key subsistence
+    mode east of the Nahr Quwayq.
+  location_within_source: pp. 71-72
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

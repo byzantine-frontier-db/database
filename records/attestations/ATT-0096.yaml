@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0096
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0036
+  - ENT-PERS-0019
+  provenance: modern_identification
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, pp. 80-82, reporting
+    R. P. Harper, 'Athis-Neocaesareia-Qasrin-Dibsi Faraj' (1980) and Harper & Wilkinson,
+    'Excavations at Dibsi Faraj', DOP 29 (1975).
+  confidence: 4
+  observations_supported:
+  - OBS-0044
+  paraphrase: Dibsi Faraj is identified with Early Islamic Qasirīn (Greek Athis/Neocaesareia/Kaiserion).
+    Excavations revealed an L-shaped residence built over the citadel basilica in
+    Area O; a bronze-coin hoard in the earth fill under the floor has a latest published
+    coin of 728, taken as a possible terminus post quem (Harper notes it could instead
+    be a terminus ante quem, in the reign of Hishām).
+  location_within_source: pp. 80-82
+  notes: The 728-coin nuance (terminus post quem vs ante quem, reign of Hishām) is
+    preserved per editorial rule 1; hence ENT-PERS-0019 (Hishām) is referenced.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

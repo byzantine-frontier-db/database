@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0100
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0036
+  - ENT-EVT-0018
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, p. 83, reporting the
+    Dibsi Faraj excavators (Harper & Wilkinson).
+  confidence: 4
+  observations_supported:
+  - OBS-0047
+  paraphrase: The excavators attributed extensive damage at Dibsi Faraj to an 859
+    earthquake; the settlement never fully recovered, though preexisting buildings
+    were reused on a smaller scale and numismatic evidence points to continuity until
+    the thirteenth century.
+  location_within_source: p. 83
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

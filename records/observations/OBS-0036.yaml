@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0036
+  proposition: The central thughūr comprised a western zone (the Syrian Jibāl / Massif
+    of Belus, adjacent to the Amuq) and an eastern zone (the Gaziantep plateau and
+    the Euphrates steppe), with markedly lower rainfall eastward placing much of the
+    region in the marginal dry-farming and pastoral zone.
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0034
+  - ENT-PLC-0020
+  supporting_attestations:
+  - ATT-0088
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

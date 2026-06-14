@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0042
+  proposition: Older extensive surveys of the central thughūr used coarse and inconsistent
+    ceramic chronologies that conflated Roman with Late Roman wares and failed to
+    distinguish Early from Middle Islamic wares.
+  associated_entities:
+  - ENT-PLC-0010
+  supporting_attestations:
+  - ATT-0094
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

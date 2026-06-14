@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0095
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0044
+  - ENT-PLC-0037
+  - ENT-PLC-0036
+  - ENT-PLC-0038
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, pp. 79-81 (Tabqa Dam
+    Euphrates Survey).
+  confidence: 4
+  observations_supported:
+  - OBS-0043
+  paraphrase: 'Synthesis of the Euphrates surveys: Early Islamic settlement focused
+    on canals and rivers in the plains but was less prolific along the Euphrates itself,
+    confined to a few key settlements (Balis thriving; Abū Hurayra abandoned; Qasirīn/Dibsi
+    Faraj reduced to a smaller town).'
+  location_within_source: pp. 79-81
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

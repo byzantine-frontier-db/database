@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0091
+  source: SRC-0027
+  entities_referenced:
+  - ENT-PLC-0034
+  - ENT-PLC-0010
+  - ENT-PLC-0043
+  provenance: primary_summary
+  citation: 'Mustawfī, Nuzhat al-Qulūb, trans. G. Le Strange (Leiden: Brill, 1919),
+    pp. 102-6; reached via Eger 2015 p. 71 n. 5.'
+  confidence: 3
+  observations_supported:
+  - OBS-0039
+  paraphrase: A fourteenth-century list of towns and agricultural products of the
+    region (olives, cotton, fruit and nut trees, raisins from Manbij, salt and fish
+    from the Jabbūl lake, etc.).
+  notes: Primary content reached via Eger 2015 (secondary route).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

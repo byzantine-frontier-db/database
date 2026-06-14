@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0039
+  standardised_name: Tell Sweyhat
+  place_type: ruined_site
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Tell on the river terrace at the edge of the Euphrates floodplain
+    (Tabqa/Sweyhat survey region). Showed slight domestic/rural Late Roman occupation,
+    mostly abandoned by the Early Islamic period; but three new Early Islamic foundations
+    were established nearby c. 750-800 (Khirbet Dhiman, Khirbet al-Hamra, SS12).
+  linked_attestations:
+  - ATT-0101
+  coordinates:
+    latitude: 36.48
+    longitude: 38.18
+    crs: EPSG:4326
+    coordinate_source: Approximate scholarly identification (editorial); to be verified
+      against a gazetteer
+    coordinate_method: scholarly_identification
+    coordinate_precision: site
+    uncertainty_radius_m: 4000
+    coordinate_confidence: 2
+  notes: Coordinates approximate (Euphrates left bank near Lake Assad); verify against
+    gazetteer.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

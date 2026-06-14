@@ -1,0 +1,29 @@
+- record_type: event
+  id: ENT-EVT-0018
+  standardised_name: Earthquake of 859 damaging Dibsi Faraj
+  event_type:
+    primary: environmental
+    sub: earthquake
+  start_date:
+    start: 859
+    end: 859
+    precision: year
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0036
+  description: An earthquake to which the excavators of Dibsi Faraj attributed extensive
+    damage; the settlement never fully recovered, though numismatic evidence indicates
+    continuity to the thirteenth century.
+  overall_confidence: 3
+  analytical_summary: Mid-ninth-century seismic damage horizon at Dibsi Faraj, as
+    interpreted by the site's excavators (Harper & Wilkinson). Dating is the excavators'
+    attribution.
+  linked_attestations:
+  - ATT-0100
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

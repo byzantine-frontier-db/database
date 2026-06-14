@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0030
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015), ch. 2'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'The apparent collapse of settlement from the Late Roman to the Early
+    Islamic period in older surveys is largely an artefact of ceramic conflation and
+    misdating rather than a real demographic gap: Early Islamic diagnostic wares (brittleware
+    cooking pots, the holemouth pot, transitional buffwares) were repeatedly classified
+    as Late Roman or as undifferentiated ''Roman/Byzantine'', so Early Islamic settlement
+    was systematically under-recognised.'
+  confidence: 4
+  supporting_evidence:
+  - ATT-0094
+  - ATT-0095
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

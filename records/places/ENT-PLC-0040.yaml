@@ -1,0 +1,23 @@
+- record_type: place
+  id: ENT-PLC-0040
+  standardised_name: Khirbet Dhiman (SS11)
+  place_type: village
+  identification_status: identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: Early Islamic foundation near Tell Sweyhat (survey designation
+    SS11), c. 9 ha, consisting of three blocks of two-to-four rectangular courtyard
+    buildings around a walled enclosure of c. 70 x 70 m. Estimated population c. 864-1,350.
+    In use for a short period c. 750-800; deliberately sited off the older tell on
+    a low depression site.
+  linked_attestations:
+  - ATT-0101
+  notes: Site identified by survey (Whitcomb, in Wilkinson 2004). Coordinates deferred
+    (near Tell Sweyhat).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,37 @@
+- record_type: place
+  id: ENT-PLC-0038
+  standardised_name: Abū Hurayra
+  place_type: ruined_site
+  identification_status: identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: Abandoned Euphrates site (Greek Hararis), one of the main settlements
+    of the Tabqa Dam Euphrates Survey, traditionally identified as the location of
+    the Battle of Ṣiffīn (657) between Muʿāwiya and ʿAlī. Recorded as abandoned by
+    the Early Islamic period.
+  linked_attestations:
+  - ATT-0095
+  - ATT-0099
+  alternative_names:
+  - form: Abū Hurayra
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: Hararis
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Ṣiffīn
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  notes: The equation of Abū Hurayra with Ṣiffīn is traditional (Eger 2015 p. 81);
+    the battle itself is recorded as ENT-EVT-0017. Coordinates deferred pending gazetteer
+    verification.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

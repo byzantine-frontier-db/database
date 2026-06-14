@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0101
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0039
+  - ENT-PLC-0040
+  - ENT-PLC-0041
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, p. 83, reporting D.
+    Whitcomb in Wilkinson, On the Margin of the Euphrates (2004).
+  confidence: 4
+  observations_supported:
+  - OBS-0048
+  - OBS-0049
+  paraphrase: 'Near Tell Sweyhat, three new Early Islamic foundations (Khirbet Dhiman/SS11
+    c. 9 ha; Khirbet al-Hamra/SS7 c. 5 ha; SS12 c. 0.8 ha, a probable sheikh''s residence)
+    were deliberately sited off the tells on low depression sites and occupied c.
+    750-800. Population estimates: c. 864-1,350 at SS11 and c. 360-563 at SS7.'
+  location_within_source: p. 83
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

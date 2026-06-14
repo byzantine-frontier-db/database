@@ -1,0 +1,15 @@
+- record_type: relationship
+  id: REL-0022
+  type: near
+  source_entity: ENT-PLC-0036
+  target_entity: ENT-PLC-0044
+  confidence: 5
+  linked_attestations:
+  - ATT-0095
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0040
+  proposition: In 1051 Ibn Buṭlān described the country between Ḥalab and Anṭākiya
+    as populous, continuously cultivated, and prosperous -- its settlement and land
+    use, in Eger's reading, at their Islamic-period peak.
+  associated_entities:
+  - ENT-PLC-0034
+  - ENT-PLC-0022
+  supporting_attestations:
+  - ATT-0092
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

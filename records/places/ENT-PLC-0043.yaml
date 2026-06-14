@@ -1,0 +1,48 @@
+- record_type: place
+  id: ENT-PLC-0043
+  standardised_name: Manbij
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Town between Ḥalab and the Euphrates, a node in the road network
+    of the central thughūr and the western terminus of an important Euphrates crossing
+    (Jisr Manbij). Listed among the ʿawāṣim towns of the eastern steppe; an exporter
+    of raisins. Its crossing exemplifies Eger's tributary/river-crossing pattern.
+  linked_attestations:
+  - ATT-0090
+  - ATT-0091
+  - ATT-0102
+  alternative_names:
+  - form: Manbij
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: Jisr Manbij
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Hierapolis / Mabbug
+    language: grc
+    script: Grek
+    name_type: modern_name
+  coordinates:
+    latitude: 36.53
+    longitude: 37.95
+    crs: EPSG:4326
+    coordinate_source: Approximate scholarly identification (editorial); to be verified
+      against a gazetteer
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 3
+  notes: The Greek name Hierapolis (Syriac Mabbug) is well-established general knowledge
+    but is NOT stated by Eger in pp. 69-85; recorded here as an unattested alternative
+    name. Coordinates approximate.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

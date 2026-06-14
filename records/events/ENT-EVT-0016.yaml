@@ -1,0 +1,42 @@
+- record_type: event
+  id: ENT-EVT-0016
+  standardised_name: Construction of the Nahr Maslama (Balis canal), first quarter
+    of the eighth century
+  event_type:
+    primary: construction_infrastructure
+    sub: water_system_construction
+  start_date:
+    start: 715
+    end: 725
+    precision: year_range_broad
+    confidence: 3
+    primary_dating_system: AH
+    notes: '''first quarter of the eighth century'' per Eger; Zuqnīn dates the digging
+      c. 717-18.'
+  associated_places:
+  - ENT-PLC-0045
+  - ENT-PLC-0037
+  - ENT-PLC-0036
+  participants:
+  - ENT-PERS-0025
+  - ENT-PERS-0019
+  description: Construction of a canal running from Balis past Qasirīn to Ṣiffīn,
+    parallel to the Euphrates, with associated forts and villages.
+  overall_confidence: 3
+  analytical_summary: Early Umayyad hydraulic project on the middle Euphrates, attributed
+    to Maslama b. ʿAbd al-Malik (and, per the Chronicle of Zuqnīn, to the caliph Hishām).
+    It replaced an earlier canal system and supported agricultural settlement; a preserved
+    plastered conduit near Dibsi Faraj is identified with it.
+  linked_attestations:
+  - ATT-0097
+  - ATT-0098
+  notes: No Umayyad political-entity record exists in the snapshot (ENT-POL-0002 is
+    the Abbasid Caliphate), so political_entities_involved is omitted; an Umayyad
+    polity entity is a deferred item.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

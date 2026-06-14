@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0092
+  source: SRC-0021
+  entities_referenced:
+  - ENT-PLC-0034
+  - ENT-PLC-0022
+  provenance: primary_paraphrase
+  citation: Ibn Buṭlān, Letter on the journey from Ḥalab to Anṭākiya (1051), in G.
+    Le Strange, Palestine under the Moslems, p. 370, also quoted by Yāqūt, Muʿjam
+    al-buldān, 2.266-70; reached via Eger 2015 p. 69 n. 1.
+  confidence: 4
+  observations_supported:
+  - OBS-0040
+  paraphrase: On a journey from Ḥalab to Anṭākiya in 1051, Ibn Buṭlān found the whole
+    country populous and continuously cultivated -- wheat and barley under the olive
+    trees, continuous villages, gardens, and flowing water -- with no ruined abodes;
+    the traveller passing in contentment and peace.
+  notes: Translation paraphrased rather than quoted, per fair-use rule. Cross-links
+    to the existing source SRC-0021 (Ibn Buṭlān) and to SRC-0020 (Yāqūt, who transmits
+    the passage).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,35 @@
+- record_type: source
+  id: SRC-0029
+  standardised_title: Theophilus of Edessa, Chronicle
+  author_unnamed: false
+  date_of_composition:
+    start: 750
+    end: 785
+    precision: year_range_broad
+    confidence: 2
+  language: syr
+  script: Syrc
+  genre: universal_chronicle
+  edition_used: '[citation needed: edition -- Eger 2015 p. 83 n. 30 gives only ''Theophilus
+    of Edessa, Chronicle, p. 147''; the reference is most likely to R. Hoyland (trans.),
+    Theophilus of Edessa''s Chronicle, TTH 57 (Liverpool UP, 2011), but this is not
+    stated by Eger and is unverified.]'
+  reliability_assessment: A lost Syriac chronicle (Theophilus of Edessa, d. 785),
+    reconstructed from dependent works (Theophanes the Confessor, Agapios of Manbij,
+    the Syriac common source). Used here only as the citation Eger actually supplies
+    in n. 30.
+  dependencies: []
+  notes: 'IMPORTANT DISCREPANCY (preserved per editorial rule 1): Eger''s MAIN TEXT
+    (pp. 82-3) attributes the Ṣiffīn water-capture account to ''Theophanes'' (758/760-817),
+    i.e. Theophanes the Confessor (SRC-0012); his FOOTNOTE 30 cites ''Theophilus of
+    Edessa, Chronicle, p. 147''. The two are related (Theophanes drew on the Eastern/Syriac
+    common source identified with Theophilus) but are distinct sources. This batch
+    attests the passage against the source named in the footnote and flags the conflict;
+    an editor should verify which source Eger intended.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

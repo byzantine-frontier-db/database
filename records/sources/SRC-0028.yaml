@@ -1,0 +1,32 @@
+- record_type: source
+  id: SRC-0028
+  standardised_title: Pseudo-Dionysius of Tell Maḥrē, Chronicle of Zuqnīn (parts III-IV,
+    A.D. 488-775)
+  alternative_titles:
+  - Chronicle of Zuqnīn
+  - Chronicle of Pseudo-Dionysius of Tell Maḥrē
+  author_unnamed: true
+  date_of_composition:
+    start: 775
+    end: 775
+    precision: year
+    confidence: 3
+  language: syr
+  script: Syrc
+  genre: universal_chronicle
+  edition_used: 'A. Harrak (trans.), The Chronicle of Zuqnīn, Parts III and IV: A.D.
+    488-775 (Toronto: Pontifical Institute of Mediaeval Studies, 1999), pp. 160-1'
+  translation_used: 'Harrak (Toronto: PIMS, 1999)'
+  reliability_assessment: Anonymous Syriac monastic chronicle; valuable independent
+    witness for early Umayyad-period North Syria/Jazira.
+  notes: Cited by Eger 2015 pp. 82-3 n. 27 for the construction of the Balis canal
+    (the Bēth Balish). Eger's footnote reports that Zuqnīn attributes the canal to
+    BOTH Hishām and Maslama, dug c. 717-18 -- a divergence from his main text, which
+    names Maslama alone.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

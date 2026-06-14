@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0027
+  standardised_title: Mustawfī, Nuzhat al-Qulūb
+  author_unnamed: false
+  date_of_composition:
+    start: 1340
+    end: 1340
+    precision: year
+    confidence: 3
+  language: fa
+  script: Arab
+  genre: geographical_work
+  edition_used: 'trans. G. Le Strange (Leiden: Brill, 1919), pp. 102-6 (Persian text),
+    102-5 (English text)'
+  translation_used: 'Le Strange (Leiden: Brill, 1919)'
+  notes: Persian cosmographical/geographical work of Ḥamd Allāh Mustawfī al-Qazwīnī
+    (1281-1349). Cited by Eger 2015 p. 71 n. 5 for a fourteenth-century list of towns
+    and agricultural products of the central thughūr region. Author entity not minted
+    in this batch (deferred).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

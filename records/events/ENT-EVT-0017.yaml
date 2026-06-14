@@ -1,0 +1,32 @@
+- record_type: event
+  id: ENT-EVT-0017
+  standardised_name: Battle of Ṣiffīn, 657
+  event_type:
+    primary: military
+    sub: battle
+  start_date:
+    start: 657
+    end: 657
+    precision: year
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0038
+  participants:
+  - ENT-PERS-0024
+  - ENT-PERS-0020
+  description: Confrontation on the Euphrates (near Abū Hurayra/Ṣiffīn) between Muʿāwiya
+    and the caliph ʿAlī during the First Fitna. In the account Eger cites, Muʿāwiya's
+    troops seized the water supply and ʿAlī's men suffered thirst and desertion.
+  overall_confidence: 4
+  analytical_summary: First-Fitna battle of 657, introduced by Eger only for its water-supply
+    episode, which illustrates the strategic importance of Euphrates irrigation/water
+    control at the Dibsi Faraj/Ṣiffīn locale.
+  linked_attestations:
+  - ATT-0099
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

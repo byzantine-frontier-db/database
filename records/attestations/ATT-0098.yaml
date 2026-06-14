@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0098
+  source: SRC-0028
+  entities_referenced:
+  - ENT-PLC-0045
+  - ENT-PERS-0025
+  - ENT-PERS-0019
+  - ENT-EVT-0016
+  provenance: primary_paraphrase
+  citation: Pseudo-Dionysius of Tell Maḥrē, Chronicle of Zuqnīn (Harrak trans., 1999),
+    pp. 160-1; reached via Eger 2015 pp. 82-83 n. 27.
+  confidence: 3
+  observations_supported:
+  - OBS-0045
+  paraphrase: Both Hishām and Maslama dug a canal known as the Bēth Balish c. 717-18;
+    forts and villages were built along it.
+  location_within_source: Chronicle of Zuqnīn (Harrak), pp. 160-1
+  notes: 'DISCREPANCY preserved (rule 1): Eger''s main text credits Maslama alone
+    with the canal, whereas this footnoted source (Zuqnīn) credits both Hishām and
+    Maslama. Primary content reached via Eger 2015 (secondary route).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

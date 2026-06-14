@@ -1,0 +1,25 @@
+- record_type: place
+  id: ENT-PLC-0044
+  standardised_name: Euphrates River
+  place_type: river
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Principal river of the central and eastern thughūr, structuring
+    settlement, irrigation, and the road/crossing network discussed throughout the
+    chapter. Its braided/meandering floodplain (trees, backswamps, abandoned channels,
+    wetlands) created rich cultivation zones, especially between Zeugma/Birecik and
+    Raqqa.
+  linked_attestations:
+  - ATT-0095
+  - ATT-0102
+  linked_interpretations:
+  - INT-0033
+  notes: No point coordinate assigned (linear feature spanning the survey area).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

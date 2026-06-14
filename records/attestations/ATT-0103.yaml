@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0103
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0042
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, p. 85, reporting P.
+    Kenrick (Zeugma ceramics) and Algaze et al. (TEARP).
+  confidence: 4
+  observations_supported:
+  - OBS-0052
+  paraphrase: Islamic Zeugma (Area D, Site 19) covered c. 2.5 ha, greatly reduced
+    from the c. 87 ha Late Roman settlement; mid-eighth- to mid-ninth-century pottery
+    and the absence of sgraffiato wares imply occupation did not continue much past
+    the ninth century.
+  location_within_source: p. 85
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

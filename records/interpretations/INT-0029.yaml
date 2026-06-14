@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0029
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0009
+  scholar: Eger, A. Asa
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015), ch. 2'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The central thughūr should not be treated as a single entity but as several
+    linked micro-regions; archaeological examination of sites on the ground reveals
+    both similarities to the Amuq lowlands and key differences across its sub-zones.
+  confidence: 4
+  supporting_evidence:
+  - ATT-0088
+  - ATT-0090
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

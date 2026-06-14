@@ -1,0 +1,31 @@
+- record_type: person
+  id: ENT-PERS-0025
+  standardised_name: Maslama ibn ʿAbd al-Malik
+  alternative_names:
+  - form: Maslama b. ʿAbd al-Malik
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: general
+  death:
+    date:
+      start: 738
+      end: 738
+      precision: year
+      confidence: 4
+  overall_confidence: 4
+  analytical_summary: Umayyad prince and general (d. 738), son of the caliph ʿAbd
+    al-Malik. In Eger 2015 ch. 2 he is credited with building the early-eighth-century
+    Balis canal (the Nahr Maslama) running from Balis past Qasirīn to Ṣiffīn. The
+    Chronicle of Zuqnīn associates both Maslama and the caliph Hishām (ENT-PERS-0019)
+    with the work.
+  linked_attestations:
+  - ATT-0097
+  - ATT-0098
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

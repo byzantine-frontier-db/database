@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0094
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0010
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, pp. 73-79 (review
+    of the Tabqa Reservoir, Tabqa Dam, Jabbūl, Nahr Sajūr, Gaziantep, Umm el-Marra/Jabbūl,
+    Jerablus Tahtani, TEARP, Tell Rifaʿat and Sweyhat surveys).
+  confidence: 4
+  observations_supported:
+  - OBS-0042
+  paraphrase: 'Eger''s critical review of the regional surveys: chronologies conflate
+    Roman with Late Roman and fail to separate Early from Middle Islamic wares, so
+    that Early Islamic settlement is repeatedly under-recorded (e.g. brittleware cooking
+    pots and the Early Islamic holemouth pot misclassified as Late Roman or ''Roman/Byzantine'').'
+  location_within_source: pp. 73-79
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true

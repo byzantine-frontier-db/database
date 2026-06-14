@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0090
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0034
+  - ENT-PLC-0009
+  - ENT-PLC-0010
+  - ENT-PLC-0043
+  - ENT-PLC-0023
+  provenance: modern_synthesis
+  citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, pp. 72-73.
+  confidence: 4
+  observations_supported:
+  - OBS-0038
+  paraphrase: Eger describes Ḥalab as the southern anchor of the central thughūr,
+    lists the smaller ʿawāṣim towns of the eastern steppe (Dābiq, Tīzīn, Raʿbān, Manbij,
+    Dulūk, Kaysūm, Sanjah/Bahasnā), and reconstructs the dense east-west road network,
+    arguing the region was well connected and well travelled rather than an abandoned
+    no-man's-land.
+  location_within_source: pp. 72-73
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
+    workflow_state: draft
+    editorial_review_required: true
