@@ -22,9 +22,11 @@
   - ATT-0080
   - ATT-0096
   - ATT-0098
+  - ATT-0138
+  - ATT-0139
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis (AI-assisted extraction, Claude)
     workflow_state: draft

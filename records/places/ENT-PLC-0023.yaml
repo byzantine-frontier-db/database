@@ -35,6 +35,7 @@
   - ATT-0082
   - ATT-0083
   - ATT-0090
+  - ATT-0137
   linked_interpretations:
   - INT-0025
   notes: 'PRESERVED CONFLICT (rule 1/governance): Marasion vs Germanikeia identification,
@@ -43,7 +44,7 @@
     rather than a separate record pending editorial decision.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis (AI-assisted extraction, Claude)
     workflow_state: draft

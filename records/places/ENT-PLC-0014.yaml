@@ -32,6 +32,8 @@
   linked_attestations:
   - ATT-0059
   - ATT-0061
+  - ATT-0134
+  - ATT-0136
   notes: 'Identity resolution: no existing place entity for the Taurus range (Cilician
     Gates ENT-PLC-0005 is a pass within it but distinct). No plausible match; recommend
     new entity. The term jibāl al-rūm is also applied by some authors to the Anatolian
@@ -39,7 +41,7 @@
     [] outstanding.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-10T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

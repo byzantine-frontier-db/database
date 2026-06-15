@@ -13,6 +13,12 @@
   - ATT-0090
   - ATT-0091
   - ATT-0102
+  - ATT-0124
+  - ATT-0125
+  - ATT-0126
+  - ATT-0131
+  - ATT-0133
+  - ATT-0137
   alternative_names:
   - form: Manbij
     language: ar
@@ -41,7 +47,7 @@
     name. Coordinates approximate.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
     workflow_state: draft
