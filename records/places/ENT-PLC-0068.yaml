@@ -1,0 +1,35 @@
+- record_type: place
+  id: ENT-PLC-0068
+  standardised_name: Hadath
+  alternative_names:
+  - form: Adata
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: al-Ḥadath
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: fortress
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0014
+  - ENT-PLC-0009
+  overall_confidence: 3
+  analytical_summary: Town outpost (Greek Adata) guarding a key Taurus pass; a Late
+    Roman settlement refounded/refortified under al-Mahdī (or his son Hārūn) in the
+    late eighth century. Its sun-dried-brick (libin) walls were repaired after "melting"
+    in winter rains and a mosque was built; ashlar-mortared walls with square buttresses
+    are of uncertain date. A Byzantine raid in 785/6 drove off market traders; a Christian
+    community and bishopric are attested in the ninth century.
+  linked_attestations:
+  - ATT-0135
+  - ATT-0136
+  - ATT-0137
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

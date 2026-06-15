@@ -1,0 +1,29 @@
+- record_type: place
+  id: ENT-PLC-0063
+  standardised_name: Qūrus
+  alternative_names:
+  - form: Cyrrhus
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0009
+  overall_confidence: 3
+  analytical_summary: Town (Greek Cyrrhus) in the ʿAfrīn valley with a tell/lower-town
+    arrangement and a fort named for one of Abū ʿUbayda's commanders; strong Syriac
+    Orthodox community with bishops into the tenth century and a Slav population.
+    Listed (as a kūra) among the ʿawāṣim.
+  linked_attestations:
+  - ATT-0124
+  - ATT-0125
+  - ATT-0126
+  - ATT-0133
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

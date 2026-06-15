@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0135
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PLC-0068
+  - ENT-EVT-0021
+  - ENT-POL-0001
+  - ENT-POL-0002
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, III.568 (Arabic); trans. vol. 30, p. 39 — reached
+    via Eger 2015, p. 100 (fn 83).
+  paraphrase: al-Ṭabarī records that in 785/6 market traders fled Hadath during a
+    Byzantine raid, indicating a market population beyond the garrison.
+  location_within_source: Taʾrīkh III.568
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 100, n. 83.'
+  observations_supported:
+  - OBS-0075
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

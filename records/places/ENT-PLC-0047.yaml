@@ -1,0 +1,39 @@
+- record_type: place
+  id: ENT-PLC-0047
+  standardised_name: ʿAzāz
+  alternative_names:
+  - form: Tell Azaz
+    language: ar
+    script: Arab
+    name_type: modern_name
+  - form: Hazazu
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Arsace
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Artasia
+    language: la
+    script: Latn
+    name_type: historical_attestation
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0034
+  overall_confidence: 3
+  analytical_summary: Important settlement and tell (Tell Azaz) west of the Nahr Quwayq,
+    the heaviest Early Islamic ceramic site in the Tell Rifaʿat Survey though scarcely
+    mentioned in pre-Crusader texts; possibly a monastery (Dayr Tell ʿAzāz). Yāqūt
+    calls it a fine town and preserves verse set there by Isḥāq al-Mawṣilī.
+  linked_attestations:
+  - ATT-0105
+  - ATT-0106
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

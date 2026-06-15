@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0123
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0060
+  - ENT-PLC-0044
+  provenance: archaeological_evidence
+  citation: Eger 2015, p. 95 (Jarablus Tahtani Survey, Site 17; fn 71).
+  paraphrase: Eger describes a 25x25 m square building with corner towers, a cistern
+    and a well (Jarablus Tahtani Survey Site 17) as a stopping point and probable
+    river-crossing c. 47 km north of Jisr Manbij.
+  confidence: 3
+  observations_supported:
+  - OBS-0067
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

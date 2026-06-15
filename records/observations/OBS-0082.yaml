@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0082
+  proposition: Tilbeşar (Tall Bashīr) lacked Late Roman pottery but yielded an Early
+    Islamic ceramic scatter and a reused eighth-century Syriac building inscription,
+    pointing to a possible Christian/monastic occupation before its main eleventh-twelfth-century
+    phase.
+  associated_entities:
+  - ENT-PLC-0055
+  supporting_attestations:
+  - ATT-0145
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

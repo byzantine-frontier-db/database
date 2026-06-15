@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0129
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0037
+  provenance: primary_paraphrase
+  citation: Yāqūt, Muʿjam al-buldān (Beirut, 1990), 1.390-1 — reached via Eger 2015,
+    p. 96 (fn 77).
+  paraphrase: Yāqūt notes that Balis was once a river crossing but in his day lay
+    8 km from the shifted course of the Euphrates.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 96, n. 77.'
+  observations_supported:
+  - OBS-0070
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

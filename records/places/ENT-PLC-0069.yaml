@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0069
+  standardised_name: Kaysūm
+  alternative_names:
+  - form: Kaisou
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: city
+  identification_status: identified
+  identification_confidence: 3
+  associated_entities:
+  - ENT-PLC-0009
+  overall_confidence: 3
+  analytical_summary: Town (Greek Kaisou) of the central/eastern thughūr, assumed
+    to be a former Late Roman town (unverified) with a Syriac community; Dionysius
+    of Tell Maḥrē studied at its Monastery of Mar Jacob in the early ninth century.
+    Listed among the towns by Ibn Shaddād.
+  linked_attestations:
+  - ATT-0128
+  - ATT-0140
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

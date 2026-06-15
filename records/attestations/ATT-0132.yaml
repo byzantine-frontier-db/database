@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0132
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0061
+  provenance: primary_paraphrase
+  citation: Yāqūt, Muʿjam al-buldān (Beirut, 1990), 3.59 — reached via Eger 2015,
+    p. 98 (fn 80).
+  paraphrase: Yāqūt mentions a fortress under a hill (qalʿa taḥt jabal) at Raʿbān,
+    taken as the focus of Early Islamic settlement in its encircled lower city.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 98, n. 80.'
+  observations_supported:
+  - OBS-0072
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

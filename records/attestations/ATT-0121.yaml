@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0121
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0057
+  provenance: archaeological_evidence
+  citation: Eger 2015, p. 95 (reporting Magness's reanalysis; fn 69).
+  paraphrase: Eger reports Magness's reanalysis of the Dehes ceramics, which redates
+    its excavated houses to the second half of the sixth-seventh century (with seventh-century
+    pottery in the earliest floors) and shows occupation continuing into the ninth-tenth
+    centuries.
+  confidence: 3
+  observations_supported:
+  - OBS-0065
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

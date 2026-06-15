@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0035
+  associated_entities:
+  - ENT-PLC-0050
+  - ENT-PLC-0051
+  - ENT-PLC-0039
+  - ENT-PLC-0037
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Eger argues that Umayyad "princely residences" and their canal infrastructure
+    (as at Nāʿūra and Khusāf, tied to the Maslama estate at Balis) anticipate Abbasid
+    sedentarization: villages with forts/residences for local rulers in the Umayyad
+    period correspond to the "sheikh''s house" pattern seen in the Sweyhat survey,
+    becoming focal points for larger conglomerate villages under the Abbasids.'
+  supporting_evidence:
+  - ATT-0112
+  - ATT-0115
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

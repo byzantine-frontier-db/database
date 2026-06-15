@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0127
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0037
+  - ENT-PLC-0070
+  - ENT-PLC-0073
+  provenance: primary_paraphrase
+  citation: 'Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ [citation needed: page] — reached via
+    Eger 2015, p. 96.'
+  paraphrase: Ibn Ḥawqal (writing 967-88), a native of the region, lists only Balis,
+    Sanjah and Sumaysāṭ among these towns.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 96. Page not footnoted by Eger here.'
+  observations_supported:
+  - OBS-0069
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

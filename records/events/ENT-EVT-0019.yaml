@@ -1,0 +1,29 @@
+- record_type: event
+  id: ENT-EVT-0019
+  standardised_name: Sacking of Qenneshre, 811
+  event_type:
+    primary: military
+    sub: sack_of_city
+  start_date:
+    start: 811
+    end: 811
+    precision: year
+    confidence: 3
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0054
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: The monastery of Qenneshre was torched and sacked in 811 by
+    a Rabīʿa follower of Naṣr al-ʿUqaylī, during the civil strife of the period.
+  linked_attestations:
+  - ATT-0117
+  notes: Perpetrator (a Rabīʿa follower of Naṣr al-ʿUqaylī) not minted as a PersonRecord.
+    Reached via Eger 2015, p. 92 (fn 57, citing Tannous 2010).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

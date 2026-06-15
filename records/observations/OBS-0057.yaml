@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0057
+  proposition: Abū al-Ward al-Kilābī, settled among Maslama b. ʿAbd al-Malik's descendants
+    at Balis/Nāʿūra, swore allegiance to the Abbasids c. 749/50 and joined the opposition
+    after killing an officer who had abused Maslama's family at Khusāf.
+  associated_entities:
+  - ENT-PERS-0026
+  - ENT-PLC-0050
+  - ENT-PLC-0051
+  - ENT-PERS-0025
+  - ENT-PLC-0037
+  supporting_attestations:
+  - ATT-0110
+  - ATT-0111
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

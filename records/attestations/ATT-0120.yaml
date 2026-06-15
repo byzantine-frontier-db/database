@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0120
+  source: SRC-0033
+  entities_referenced:
+  - ENT-PERS-0036
+  - ENT-PLC-0056
+  provenance: primary_paraphrase
+  citation: Life of St Simeon of the Olives — reached via Eger 2015, p. 94.
+  paraphrase: The Life of St Simeon of the Olives (d. 734) mentions holy men enclosing
+    themselves in monastery towers (pyrgoi), a survival of the Stylite pillar.
+  confidence: 2
+  notes: 'Secondary route: Eger 2015, p. 94. [citation needed: edition].'
+  observations_supported:
+  - OBS-0064
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

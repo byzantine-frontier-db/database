@@ -1,0 +1,23 @@
+- record_type: person
+  id: ENT-PERS-0033
+  standardised_name: Theodota of Amida
+  person_type: saint
+  religious_affiliation: Miaphysite (Syriac Orthodox) Christian
+  death:
+    date:
+      start: 698
+      end: 698
+      precision: year
+      confidence: 3
+  overall_confidence: 3
+  analytical_summary: Syriac holy man (d. 698) who, according to his Life, withdrew
+    to a cave for at least eight months in the Euphrates region near Carchemish, illustrating
+    eremitic cave-monasticism there.
+  linked_attestations:
+  - ATT-0118
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

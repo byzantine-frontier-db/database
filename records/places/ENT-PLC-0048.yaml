@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0048
+  standardised_name: Tell Hailane
+  alternative_names:
+  - form: Haylān
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  associated_entities:
+  - ENT-PLC-0034
+  overall_confidence: 3
+  analytical_summary: Tell in the Nahr Quwayq valley c. 10 km north of Ḥalab, most
+    likely the Haylān of Yāqūt, a village whose spring water reportedly fed the pools
+    of Ḥalab's congregational mosque via a 12 km canal. Latest survey ceramics were
+    fifth-century.
+  linked_attestations:
+  - ATT-0107
+  - ATT-0108
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

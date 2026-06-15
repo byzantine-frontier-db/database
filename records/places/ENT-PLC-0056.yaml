@@ -1,0 +1,33 @@
+- record_type: place
+  id: ENT-PLC-0056
+  standardised_name: Syrian Jibāl
+  alternative_names:
+  - form: Dead Cities
+    language: en
+    script: Latn
+    name_type: modern_name
+  - form: massif calcaire
+    language: fr
+    script: Latn
+    name_type: modern_name
+  place_type: region
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0022
+  - ENT-PLC-0034
+  - ENT-PLC-0020
+  overall_confidence: 3
+  analytical_summary: 'The limestone uplands ("Dead Cities" / massif calcaire) between
+    Anṭākiya and Ḥalab: roughly 700 self-contained Late Roman and Early Islamic villages
+    with abundant churches but no fortifications, c. 61 of them monasteries. Many
+    continued into the ninth-tenth centuries.'
+  linked_attestations:
+  - ATT-0119
+  - ATT-0120
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

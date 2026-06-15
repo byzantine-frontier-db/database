@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0145
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0055
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 90-92 (French excavations from 1994; fns 53-54).
+  paraphrase: Eger reports that Tilbeşar (Tall Bashīr / Crusader Turbessel), excavated
+    from 1994, yielded no Late Roman pottery but a scatter of Early Islamic ceramics
+    and a reused eighth-century Syriac building inscription, suggesting a possible
+    Christian/monastic community before its main eleventh-twelfth-century occupation.
+  confidence: 3
+  observations_supported:
+  - OBS-0082
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

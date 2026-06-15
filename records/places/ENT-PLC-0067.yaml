@@ -1,0 +1,35 @@
+- record_type: place
+  id: ENT-PLC-0067
+  standardised_name: Ruṣāfat Hishām
+  alternative_names:
+  - form: Ruṣāfa
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: Sergiopolis
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0009
+  - ENT-PERS-0019
+  overall_confidence: 3
+  analytical_summary: Former Byzantine and Ghassanid centre (Sergiopolis/Ruṣāfa) far
+    to the east near Raqqa, developed by Hishām ibn ʿAbd al-Malik with small quṣūr
+    residences, gardens and canals; more like a "desert castle" than a thughūr town.
+    Ibn Buṭlān describes a mainly Christian community and way station at a crossroads
+    of routes from Dimashq and Ḥimṣ. Counted among the ʿawāṣim.
+  linked_attestations:
+  - ATT-0124
+  - ATT-0125
+  - ATT-0138
+  - ATT-0139
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

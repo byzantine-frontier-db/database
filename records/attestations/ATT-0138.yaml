@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0138
+  source: SRC-0021
+  entities_referenced:
+  - ENT-PLC-0067
+  - ENT-PERS-0019
+  provenance: primary_paraphrase
+  citation: 'Ibn Buṭlān, Letter on the journey from Ḥalab to Anṭākiya (1051) [citation
+    needed: page] — reached via Eger 2015, p. 99.'
+  paraphrase: Ibn Buṭlān reports that Ruṣāfat Hishām was mainly a Christian community
+    and a way station at a crossroads of routes from Dimashq and Ḥimṣ.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 99. Page not footnoted by Eger here.'
+  observations_supported:
+  - OBS-0077
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

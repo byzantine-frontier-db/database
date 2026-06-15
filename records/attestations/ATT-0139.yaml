@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0139
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0067
+  - ENT-PERS-0019
+  - ENT-PLC-0009
+  provenance: archaeological_evidence
+  citation: Eger 2015, p. 99 (recent excavations; fn 82).
+  paraphrase: Eger reports recent excavations at Ruṣāfat Hishām revealing small quṣūr-type
+    residences with gardens, canals and irrigation features, making it more like a
+    "desert castle" than a thughūr town; it had been a Byzantine and Ghassanid centre
+    before Hishām developed it.
+  confidence: 3
+  observations_supported:
+  - OBS-0077
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

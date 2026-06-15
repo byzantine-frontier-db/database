@@ -1,0 +1,21 @@
+- record_type: place
+  id: ENT-PLC-0060
+  standardised_name: Way station (Jarablus Tahtani Survey Site 17)
+  place_type: fortification
+  identification_status: approximately_identified
+  identification_confidence: 3
+  associated_entities:
+  - ENT-PLC-0044
+  overall_confidence: 3
+  analytical_summary: A 25x25 m square building with corner towers, a bottle-shaped
+    cistern and a well on a limestone rise above the Euphrates, c. 47 km north of
+    Jisr Manbij; a stopping point and probable river-crossing on the western-bank
+    Euphrates route.
+  linked_attestations:
+  - ATT-0123
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

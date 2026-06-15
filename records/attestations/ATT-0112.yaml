@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0112
+  source: SRC-0030
+  entities_referenced:
+  - ENT-PLC-0050
+  - ENT-PERS-0025
+  provenance: primary_paraphrase
+  citation: al-Sarakhsī, in Rosenthal, JAOS 71/2 (1951), pp. 138-9 — reached via Eger
+    2015, p. 89 (fn 47).
+  paraphrase: al-Sarakhsī, travelling between Ḥalab and Balis, noted a small stone
+    fort belonging to Maslama b. ʿAbd al-Malik at Nāʿūra, and that the surrounding
+    country was well-watered by canals from the Nahr Quwayq.
+  confidence: 3
+  notes: 'Transmission chain: al-Sarakhsī (lost work) > fragments ed. Rosenthal 1951
+    > Eger 2015, p. 89, n. 47.'
+  observations_supported:
+  - OBS-0058
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

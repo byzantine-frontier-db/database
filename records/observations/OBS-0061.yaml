@@ -1,0 +1,15 @@
+- record_type: observation
+  id: OBS-0061
+  proposition: The monastery of Qenneshre, continuously occupied from the fifth century
+    to the Abbasid period, was torched and sacked in 811.
+  associated_entities:
+  - ENT-PLC-0054
+  - ENT-EVT-0019
+  supporting_attestations:
+  - ATT-0117
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

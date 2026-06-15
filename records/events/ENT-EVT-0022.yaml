@@ -1,0 +1,30 @@
+- record_type: event
+  id: ENT-EVT-0022
+  standardised_name: Construction of the ribāṭ at Dābiq, 804
+  event_type:
+    primary: construction_infrastructure
+    sub: fortress_construction
+  start_date:
+    start: 804
+    end: 804
+    precision: year
+    confidence: 3
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0065
+  participants:
+  - ENT-PERS-0037
+  - ENT-PERS-0018
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: A ribāṭ was built at Dābiq in 804 by Qāsim, son of Hārūn al-Rashīd
+    — the only recorded building activity at the site.
+  linked_attestations:
+  - ATT-0134
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

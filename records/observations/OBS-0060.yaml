@@ -1,0 +1,18 @@
+- record_type: observation
+  id: OBS-0060
+  proposition: Nāʿūra and Khusāf lay on the Ḥalab–Balis stretch of an itinerary the
+    caliph al-Muʿtaḍid followed in 900.
+  associated_entities:
+  - ENT-PLC-0050
+  - ENT-PLC-0051
+  - ENT-PERS-0030
+  - ENT-PLC-0034
+  - ENT-PLC-0037
+  supporting_attestations:
+  - ATT-0116
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

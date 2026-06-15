@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0111
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0026
+  - ENT-PLC-0051
+  - ENT-PERS-0025
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, III.52 (Arabic); trans. vol. 27, p. 176 — reached
+    via Eger 2015, p. 89 (fn 48).
+  paraphrase: al-Ṭabarī reports that at Zarāʿat Banī Zufar / Khusāf an Abbasid officer
+    manhandled the sons and wives of Maslama b. ʿAbd al-Malik at Maslama's fort; Abū
+    al-Ward killed the officer in their defence and joined the Abbasid opposition.
+  location_within_source: Taʾrīkh III.52
+  confidence: 4
+  notes: 'Secondary route: Eger 2015, p. 89, n. 48.'
+  observations_supported:
+  - OBS-0057
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

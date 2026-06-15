@@ -1,0 +1,22 @@
+- record_type: person
+  id: ENT-PERS-0030
+  standardised_name: al-Muʿtaḍid biʾllāh
+  person_type: caliph
+  political_affiliation: ENT-POL-0002
+  offices_held:
+  - office: Abbasid caliph
+    valid_from: 892
+    valid_to: 902
+    confidence: 5
+  overall_confidence: 4
+  analytical_summary: Abbasid caliph (r. 892-902). A travel itinerary he followed
+    in 900, from Funduq al-Ḥusayn to al-Iskandarūna, passed through Nāʿūra and Khusāf
+    in the Ḥalab steppe.
+  linked_attestations:
+  - ATT-0116
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0144
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0053
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 93 (fn 60).
+  paraphrase: Eger describes Khunāṣira (Greek/modern Anasartha), some 55 km south-east
+    of Ḥalab, as a Christian community that became a new bishopric with a kastron
+    in the fourth-fifth centuries before achieving town status.
+  confidence: 3
+  notes: 'Yāqūt mention noted by Eger at p. 93 (fn 60); exact Yāqūt volume/page not
+    given here [citation needed: Yāqūt volume and page].'
+  observations_supported:
+  - OBS-0081
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

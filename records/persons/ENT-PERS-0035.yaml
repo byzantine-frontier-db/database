@@ -1,0 +1,19 @@
+- record_type: person
+  id: ENT-PERS-0035
+  standardised_name: Sulaymān ibn ʿAbd al-Malik
+  person_type: caliph
+  offices_held:
+  - office: Umayyad caliph
+    valid_from: 715
+    valid_to: 717
+    confidence: 5
+  overall_confidence: 4
+  analytical_summary: Umayyad caliph (r. 715-717) who briefly used Dābiq as a headquarters.
+  linked_attestations:
+  - ATT-0134
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

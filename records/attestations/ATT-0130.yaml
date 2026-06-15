@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0130
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0037
+  - ENT-PERS-0025
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 96-97 (Princeton/Syrian Directorate excavations; fn 78).
+  paraphrase: Excavations at Balis (Barbalissus) uncovered a Late Roman walled city
+    in continued use and an Umayyad qaṣr (67x77 m) overlooking it, perhaps of Maslama
+    b. ʿAbd al-Malik or his brother Saʿīd al-Khayr, dismantled in the early Abbasid
+    period.
+  confidence: 3
+  notes: Brother Saʿīd al-Khayr not minted as a PersonRecord.
+  observations_supported:
+  - OBS-0070
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

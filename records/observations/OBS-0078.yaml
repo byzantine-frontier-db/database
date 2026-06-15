@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0078
+  proposition: Kaysūm and Sanjah-Bahasnā, places of Syriac communities, replaced Hadath;
+    Dionysius of Tell Maḥrē studied at the Monastery of Mar Jacob in Kaysūm in the
+    early ninth century.
+  associated_entities:
+  - ENT-PLC-0069
+  - ENT-PLC-0070
+  - ENT-PERS-0034
+  supporting_attestations:
+  - ATT-0140
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

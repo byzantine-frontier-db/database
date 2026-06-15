@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0134
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0065
+  - ENT-PLC-0066
+  - ENT-PERS-0035
+  - ENT-PERS-0037
+  - ENT-EVT-0022
+  - ENT-PLC-0064
+  - ENT-PLC-0014
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 98-99 (Rifaʿat Survey; CORONA).
+  paraphrase: Eger reports that Dābiq briefly served as a headquarters of the caliph
+    Sulaymān, that its only recorded building activity was a ribāṭ built by Qāsim
+    b. Hārūn al-Rashīd in 804, and that the surrounding Marj Dābiq was a winter mustering
+    ground for expeditions into the Taurus.
+  confidence: 3
+  observations_supported:
+  - OBS-0073
+  - OBS-0074
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

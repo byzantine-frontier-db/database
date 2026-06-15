@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0136
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0068
+  - ENT-PERS-0032
+  - ENT-EVT-0020
+  - ENT-PERS-0018
+  - ENT-PLC-0014
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 99-100.
+  paraphrase: Eger describes Hadath (Adata) as a Late Roman site given a "new foundation"
+    under al-Mahdī in the late eighth century, with libin walls repaired after winter
+    rains and a mosque built; it guarded a key Taurus pass.
+  confidence: 3
+  observations_supported:
+  - OBS-0075
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

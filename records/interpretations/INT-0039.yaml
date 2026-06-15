@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0039
+  associated_entities:
+  - ENT-PLC-0057
+  scholar: Magness, J.
+  publication: The Archaeology of Early Islamic Settlement in Palestine
+  argument: Magness, reanalysing the Dehes ceramics, argues that seventh-century pottery
+    in the earliest floors radically shifts the village's foundation date from the
+    fourth century to the later sixth-seventh century, with continuity into the ninth-tenth
+    centuries.
+  supporting_evidence:
+  - ATT-0121
+  confidence: 4
+  notes: Cited via Eger 2015, p. 95 (fn 69).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

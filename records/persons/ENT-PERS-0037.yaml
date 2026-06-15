@@ -1,0 +1,18 @@
+- record_type: person
+  id: ENT-PERS-0037
+  standardised_name: Qāsim ibn Hārūn al-Rashīd
+  person_type: other_lay
+  political_affiliation: ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: Son of Hārūn al-Rashīd who, Eger reports, had a ribāṭ built
+    at Dābiq in 804.
+  linked_attestations:
+  - ATT-0134
+  notes: Son of Hārūn al-Rashīd (ENT-PERS-0018); kinship link expressed via PROV-REL
+    relationship record.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

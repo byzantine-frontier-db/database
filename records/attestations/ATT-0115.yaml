@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0115
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0051
+  - ENT-PLC-0049
+  provenance: archaeological_evidence
+  citation: Eger 2015, p. 89 (Jabbūl Survey of 1939; fn 45).
+  paraphrase: Eger identifies Khusāf with Tell Khzaf, a large mound with a shrine
+    and cemetery surveyed in the 1939 Jabbūl Survey; a CORONA image shows a possible
+    canal and Early Islamic anomalies, though the 1990s survey found Late Roman but
+    no Early Islamic ceramics at the mound itself.
+  confidence: 3
+  observations_supported:
+  - OBS-0059
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

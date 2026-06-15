@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0133
+  source: SRC-0007
+  entities_referenced:
+  - ENT-EVT-0023
+  - ENT-PERS-0031
+  - ENT-PLC-0061
+  - ENT-PLC-0062
+  - ENT-PLC-0063
+  - ENT-PLC-0043
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 96-99.
+  paraphrase: Eger reports that Raʿbān, Dulūk, Qūrus and Manbij were taken during
+    the early Islamic conquests by Abū ʿUbayda in the reign of ʿUmar I, and that the
+    fort at Qūrus was named for one of Abū ʿUbayda's commanders.
+  confidence: 3
+  observations_supported:
+  - OBS-0072
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

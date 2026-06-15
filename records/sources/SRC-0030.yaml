@@ -1,0 +1,22 @@
+- record_type: source
+  id: SRC-0030
+  standardised_title: al-Sarakhsī, geographical / itinerary work (fragments)
+  date_of_composition:
+    precision: half_century
+    confidence: 3
+    notes: Aḥmad b. al-Ṭayyib al-Sarakhsī, d. 899; original largely lost.
+  script: Arab
+  edition_used: 'Fragments ed. F. Rosenthal, ''Arabic Books and Manuscripts IV: New
+    Fragments of as-Sarahsī'', JAOS 71/2 (1951)'
+  reliability_assessment: Survives only in fragments; preserves first-hand itinerary
+    observations between Ḥalab and Balis.
+  notes: Reached in this extraction via Eger 2015, pp. 88-89 (fns 47, 49). Author
+    not yet a corpus PersonRecord (ENT-PERS-0027).
+  language: ar
+  genre: geographical_work
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

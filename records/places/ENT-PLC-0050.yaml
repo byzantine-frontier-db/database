@@ -1,0 +1,29 @@
+- record_type: place
+  id: ENT-PLC-0050
+  standardised_name: Nāʿūra
+  alternative_names:
+  - form: al-Nāʿūra
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: village
+  identification_status: unidentified
+  identification_confidence: 2
+  associated_entities:
+  - ENT-PLC-0034
+  - ENT-PLC-0037
+  overall_confidence: 2
+  analytical_summary: Village ("Waterwheel") between Ḥalab and Balis where Abū al-Ward
+    lived among Maslama b. ʿAbd al-Malik's descendants; al-Sarakhsī noted a small
+    stone fort of Maslama there. A node on al-Muʿtaḍid's 900 itinerary. As yet unidentified
+    on the ground.
+  linked_attestations:
+  - ATT-0110
+  - ATT-0112
+  - ATT-0116
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

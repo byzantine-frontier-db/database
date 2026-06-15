@@ -1,0 +1,22 @@
+- record_type: person
+  id: ENT-PERS-0034
+  standardised_name: Dionysius of Tell Maḥrē
+  person_type: patriarch
+  religious_affiliation: Syriac Orthodox Christian
+  offices_held:
+  - office: Patriarch of Antioch (Syriac Orthodox)
+    valid_from: 818
+    valid_to: 845
+    confidence: 4
+  overall_confidence: 4
+  analytical_summary: Syriac Orthodox patriarch and chronicler (in office 818-45)
+    who, per Eger, studied at the Monastery of Mar Jacob in Kaysūm in the early ninth
+    century.
+  linked_attestations:
+  - ATT-0140
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

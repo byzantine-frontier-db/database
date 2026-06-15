@@ -1,0 +1,20 @@
+- record_type: source
+  id: SRC-0033
+  standardised_title: Life of St Simeon of the Olives
+  date_of_composition:
+    precision: century
+    confidence: 2
+    notes: Subject d. 734.
+  script: Syrc
+  edition_used: '[citation needed: edition — not specified by Eger]'
+  reliability_assessment: Syriac hagiography; cited for holy men occupying tower (pyrgos)
+    structures in monasteries.
+  notes: Reached via Eger 2015, p. 94.
+  language: syr
+  genre: hagiography
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

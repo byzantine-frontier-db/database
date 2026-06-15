@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0128
+  source: SRC-0023
+  entities_referenced:
+  - ENT-PLC-0027
+  - ENT-PLC-0028
+  - ENT-PLC-0026
+  - ENT-PLC-0069
+  provenance: primary_paraphrase
+  citation: 'Ibn Shaddād, al-Aʿlāq al-Khaṭīra [citation needed: page] — reached via
+    Eger 2015, p. 96.'
+  paraphrase: Ibn Shaddād (1216/17-85) lists Baghrās, Darbassāk and Artāḥ (all in
+    the Amuq Plain), Kaysūm and Tell Qabbasin.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 96. Tell Qabbasin deferred — not minted.'
+  observations_supported:
+  - OBS-0069
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

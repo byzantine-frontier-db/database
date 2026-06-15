@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0142
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0027
+  - ENT-PERS-0028
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 88-89, 96 (fns 47, 49, 74).
+  paraphrase: Eger draws on the geographers al-Sarakhsī (d. 899), whose itinerary
+    fragments describe the settled country between Ḥalab and Balis, and Ibn al-Faqīh
+    al-Hamdānī (w. 903), whose Kitāb al-Buldān supplies a list of ʿawāṣim towns, as
+    named authorities for the settlement geography of the Ḥalab steppe.
+  confidence: 3
+  notes: Prosopographical anchor attestation linking the two geographer-authors (whose
+    works are SRC-0030 and SRC-0031) to Eger's synthesis, on the pattern of the pilot
+    corpus ATT-0050. Their primary content is attested separately (ATT-0112/009, ATT-0125).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

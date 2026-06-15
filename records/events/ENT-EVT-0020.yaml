@@ -1,0 +1,31 @@
+- record_type: event
+  id: ENT-EVT-0020
+  standardised_name: Refoundation/refortification of Hadath under al-Mahdī
+  event_type:
+    primary: construction_infrastructure
+    sub: fortress_construction
+  start_date:
+    start: 775
+    end: 790
+    precision: year_range_broad
+    confidence: 3
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0068
+  participants:
+  - ENT-PERS-0032
+  - ENT-PERS-0018
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: Late-eighth-century "new foundation" and refortification of
+    the Late Roman site of Hadath (Adata), attributed by Eger to al-Mahdī or his son
+    Hārūn, including repair of its libin walls and construction of a mosque.
+  linked_attestations:
+  - ATT-0136
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

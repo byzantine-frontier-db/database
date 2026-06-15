@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0122
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0059
+  - ENT-PLC-0042
+  - ENT-PLC-0044
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 95-96 (Algaze Birecik survey; fns 72-73).
+  paraphrase: Eger reports Pınar Tarlası (Site 4) as a well-built rectangular way-station
+    of the mid-eighth to mid-tenth centuries on the Euphrates route, possibly replacing
+    Late Roman Zeugma and preceding Middle Islamic Bira (Birecik) as a crossing.
+  confidence: 3
+  observations_supported:
+  - OBS-0066
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

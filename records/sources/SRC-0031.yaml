@@ -1,0 +1,24 @@
+- record_type: source
+  id: SRC-0031
+  standardised_title: Ibn al-Faqīh al-Hamdānī, Kitāb al-Buldān
+  date_of_composition:
+    start: 903
+    end: 903
+    precision: year
+    confidence: 3
+    notes: Compiler died (w.) 903.
+  script: Arab
+  edition_used: '[citation needed: edition and page — Eger gives only the list, fn
+    74]'
+  reliability_assessment: Administrative-geographical list of ʿawāṣim towns; cited
+    by Eger alongside Ibn Khurradādhbih.
+  notes: Reached via Eger 2015, p. 96 (fn 74). Edition not specified by Eger for this
+    list.
+  language: ar
+  genre: geographical_work
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

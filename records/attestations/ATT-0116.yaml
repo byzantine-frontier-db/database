@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0116
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PLC-0050
+  - ENT-PLC-0051
+  - ENT-PERS-0030
+  - ENT-PLC-0034
+  - ENT-PLC-0037
+  - ENT-PLC-0027
+  - ENT-PLC-0022
+  - ENT-PLC-0026
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, III.2200 (Arabic); trans. vol. 38, p. 91 — reached
+    via Eger 2015, p. 90 (fn 51).
+  paraphrase: al-Ṭabarī records an itinerary followed in 900 by the caliph al-Muʿtaḍid
+    from Funduq al-Ḥusayn to al-Iskandarūna, running Baghrās–Anṭākiya–Artāḥ–al-Atharib–Ḥalab–al-Nāʿūra–Khusāf–Ṣiffīn–Balis–Dawsar–Baṭn
+    Dāmān–Raqqah; Nāʿūra and Khusāf thus lay on the Ḥalab–Balis stretch.
+  location_within_source: Taʾrīkh III.2200
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 90, n. 51. Minor route-nodes (al-Iskandarūna,
+    al-Atharib, Ṣiffīn, Dawsar, Baṭn Dāmān, Raqqah, Funduq al-Ḥusayn) deferred — not
+    minted.'
+  observations_supported:
+  - OBS-0060
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

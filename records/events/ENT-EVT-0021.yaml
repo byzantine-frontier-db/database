@@ -1,0 +1,28 @@
+- record_type: event
+  id: ENT-EVT-0021
+  standardised_name: Byzantine raid on Hadath, 785/6
+  event_type:
+    primary: military
+    sub: raid
+  start_date:
+    start: 785
+    end: 786
+    precision: year_range_narrow
+    confidence: 3
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0068
+  political_entities_involved:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: A Byzantine raid in 785/6 from which market traders fled, indicating
+    a civilian/market population at Hadath beyond its garrison.
+  linked_attestations:
+  - ATT-0135
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

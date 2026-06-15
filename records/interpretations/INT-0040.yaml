@@ -1,0 +1,30 @@
+- record_type: interpretation
+  id: INT-0040
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0009
+  - ENT-PLC-0034
+  - ENT-PLC-0046
+  - ENT-PLC-0044
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: In his conclusions Eger argues that the eastern central thughūr (the Ḥalab
+    steppe and river) was more densely settled than the western thughūr in the Early
+    Islamic period, with strong seventh-century continuity; that the Euphrates corridor
+    was only sparsely and evenly settled as way stations and crossings; and that the
+    region's relative prosperity owed more to the importance of Ḥalab as chief city
+    and to irrigation development by locals, elite and caliphs than to Hārūn's ʿawāṣim
+    reapportionment alone.
+  supporting_evidence:
+  - ATT-0109
+  - ATT-0122
+  - ATT-0137
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

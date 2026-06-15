@@ -1,0 +1,17 @@
+- record_type: interpretation
+  id: INT-0036
+  associated_entities:
+  - ENT-PLC-0056
+  scholar: Tchalenko, G.
+  publication: Villages antiques de la Syrie du Nord
+  argument: Tchalenko argued that the "Dead Cities" of the Syrian Jibāl represented
+    a unique fifth-sixth-century settlement pattern built on olive monoculture.
+  confidence: 3
+  notes: Traditional view, presented by Eger as the position he revises; cited via
+    Eger 2015, pp. 92-93 (fn 63). No SourceRecord minted for Tchalenko.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

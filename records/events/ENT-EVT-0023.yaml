@@ -1,0 +1,34 @@
+- record_type: event
+  id: ENT-EVT-0023
+  standardised_name: Conquest of Raʿbān, Dulūk, Qūrus and Manbij by Abū ʿUbayda
+  event_type:
+    primary: military
+    sub: capture_of_fortress
+  start_date:
+    start: 634
+    end: 644
+    precision: year_range_broad
+    confidence: 3
+    primary_dating_system: AH
+  associated_places:
+  - ENT-PLC-0061
+  - ENT-PLC-0062
+  - ENT-PLC-0063
+  - ENT-PLC-0043
+  participants:
+  - ENT-PERS-0031
+  political_entities_involved:
+  - ENT-POL-0002
+  - ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: A group of minor frontier settlements — Raʿbān, Dulūk, Qūrus
+    and Manbij — taken during the early Islamic conquests by Abū ʿUbayda in the reign
+    of the caliph ʿUmar I (r. 634-44).
+  linked_attestations:
+  - ATT-0133
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

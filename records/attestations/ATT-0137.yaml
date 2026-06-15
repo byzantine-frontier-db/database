@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0137
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0018
+  - ENT-PLC-0009
+  - ENT-PLC-0022
+  - ENT-PLC-0027
+  - ENT-PLC-0037
+  - ENT-PLC-0065
+  - ENT-PLC-0068
+  - ENT-PLC-0043
+  - ENT-PLC-0023
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 99-100.
+  paraphrase: Eger reports that during Hārūn al-Rashīd's caliphate more than half
+    of the known central-thughūr settlements — Anṭākiya, Baghrās, Balis, Dābiq, Hadath,
+    Manbij and Marʿash — received considerable repairs and new construction, many
+    of them being part of the ʿawāṣim.
+  confidence: 3
+  observations_supported:
+  - OBS-0076
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

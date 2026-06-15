@@ -1,0 +1,24 @@
+- record_type: place
+  id: ENT-PLC-0049
+  standardised_name: Jabbūl Lake
+  alternative_names:
+  - form: Sabkhat al-Jabbūl
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: natural_feature
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0035
+  overall_confidence: 3
+  analytical_summary: Salt lake (Sabkhat al-Jabbūl) south of Qinnasrīn, around which
+    marsh and lake settlements clustered; associated with salt extraction.
+  linked_attestations:
+  - ATT-0115
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0105
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0047
+  - ENT-PERS-0029
+  provenance: primary_paraphrase
+  citation: Yāqūt, Muʿjam al-buldān (Beirut, 1990), 4.132 — reached via Eger 2015,
+    p. 88 (fn 43).
+  paraphrase: Yāqūt records ʿAzāz as a fine town (madīna laṭīfa) with a monastery
+    (Dayr Tell ʿAzāz) and preserves verse composed there by Isḥāq al-Mawṣilī, a clue
+    to the town's date and standing.
+  location_within_source: Muʿjam al-buldān 4.132
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 88, n. 43. Verse not reproduced (fair-use/IP).'
+  observations_supported:
+  - OBS-0054
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

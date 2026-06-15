@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0038
+  associated_entities:
+  - ENT-PLC-0037
+  - ENT-PERS-0025
+  scholar: Leisten, T.
+  publication: '''For Prince and countryside — the Marwanid Mansion at Balis on the
+    Euphrates'''
+  argument: Leisten argues that the Marwanid mansion (qaṣr) at Balis was a focal point
+    and production centre for surrounding villages and encampments, mainly settled
+    by the Qays tribe.
+  supporting_evidence:
+  - ATT-0130
+  confidence: 3
+  notes: Cited via Eger 2015, p. 97 (fn 79).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

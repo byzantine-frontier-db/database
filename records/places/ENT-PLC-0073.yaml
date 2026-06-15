@@ -1,0 +1,26 @@
+- record_type: place
+  id: ENT-PLC-0073
+  standardised_name: Sumaysāṭ
+  alternative_names:
+  - form: Samosata
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0019
+  - ENT-PLC-0044
+  overall_confidence: 3
+  analytical_summary: Euphrates town (later Samosata) toward which the land route
+    diverged north of Pınar Tarlası; listed among the towns by Ibn Ḥawqal. On the
+    eastern thughūr.
+  linked_attestations:
+  - ATT-0127
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

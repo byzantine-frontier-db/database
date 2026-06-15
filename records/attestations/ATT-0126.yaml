@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0126
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0043
+  - ENT-PLC-0071
+  - ENT-PLC-0063
+  - ENT-PLC-0022
+  - ENT-PLC-0061
+  - ENT-PLC-0062
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1987 ed.), p. 180 — reached via Eger 2015,
+    p. 96 (fn 76).
+  paraphrase: al-Balādhurī (and later Yāqūt) names Manbij, Tīzīn, Qūrus and Anṭākiya,
+    adding Raʿbān and Dulūk and the places between.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 96, n. 76.'
+  observations_supported:
+  - OBS-0069
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

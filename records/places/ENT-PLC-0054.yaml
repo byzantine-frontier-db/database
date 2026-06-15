@@ -1,0 +1,26 @@
+- record_type: place
+  id: ENT-PLC-0054
+  standardised_name: Qenneshre
+  alternative_names:
+  - form: Qinnisre
+    language: syr
+    script: Syrc
+    name_type: alternative_transliteration
+  place_type: monastery
+  identification_status: probably_identified
+  identification_confidence: 3
+  associated_entities:
+  - ENT-PLC-0044
+  overall_confidence: 3
+  analytical_summary: Celebrated Syriac Miaphysite monastic centre ("Eagle's Nest")
+    on the Euphrates opposite the tell of Carchemish (Europa), with a chapel of Thomas
+    the Apostle, a mill and a river crossing. Occupied without interruption from the
+    fifth century to the Abbasid period; torched and sacked in 811.
+  linked_attestations:
+  - ATT-0117
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

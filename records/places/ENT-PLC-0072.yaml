@@ -1,0 +1,23 @@
+- record_type: place
+  id: ENT-PLC-0072
+  standardised_name: al-Jūma
+  place_type: administrative_unit
+  identification_status: unidentified
+  identification_confidence: 2
+  associated_entities:
+  - ENT-PLC-0009
+  overall_confidence: 2
+  analytical_summary: Place described by several authors as part of the ʿawāṣim but
+    never located; referred to indirectly when villages are assigned to its district
+    in the ʿAfrīn valley. Yāqūt gives almost nothing beyond calling it a madīna; possibly
+    a district rather than a town.
+  linked_attestations:
+  - ATT-0124
+  - ATT-0125
+  - ATT-0141
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

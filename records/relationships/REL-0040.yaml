@@ -1,0 +1,14 @@
+- record_type: relationship
+  id: REL-0040
+  type: contains
+  source_entity: ENT-PLC-0056
+  target_entity: ENT-PLC-0058
+  confidence: 3
+  linked_attestations:
+  - ATT-0119
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

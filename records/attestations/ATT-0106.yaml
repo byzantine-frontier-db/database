@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0106
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0047
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 87-88 (Tell Rifaʿat Survey; fn 42).
+  paraphrase: In the Tell Rifaʿat Survey ʿAzāz (Tell Azaz) had the heaviest Early
+    Islamic ceramic assemblage and continued into the Middle Islamic period, with
+    Late Roman pottery to the mid-seventh century.
+  confidence: 3
+  observations_supported:
+  - OBS-0054
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

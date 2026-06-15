@@ -1,0 +1,18 @@
+- record_type: attestation
+  id: ATT-0108
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0048
+  provenance: modern_identification
+  citation: Eger 2015, p. 87.
+  paraphrase: Eger identifies Tell Hailane (Tell Rifaʿat Survey) as most likely Yāqūt's
+    Haylān; the latest survey ceramics there were fifth-century.
+  confidence: 3
+  observations_supported:
+  - OBS-0055
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

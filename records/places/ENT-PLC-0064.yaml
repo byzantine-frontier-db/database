@@ -1,0 +1,22 @@
+- record_type: place
+  id: ENT-PLC-0064
+  standardised_name: Jisr Manbij
+  place_type: bridge
+  identification_status: unidentified
+  identification_confidence: 2
+  associated_entities:
+  - ENT-PLC-0043
+  - ENT-PLC-0044
+  overall_confidence: 2
+  analytical_summary: Euphrates crossing associated with Manbij, not definitively
+    located; possibly a double site spanning both banks near Tall Najm / Qalʿat Najm.
+    al-Ṭabarī records that ʿAlī crossed the river here on his way to Ṣiffīn (656/7).
+  linked_attestations:
+  - ATT-0131
+  - ATT-0134
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

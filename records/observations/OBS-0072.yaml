@@ -1,0 +1,21 @@
+- record_type: observation
+  id: OBS-0072
+  proposition: Raʿbān, Dulūk, Qūrus and Manbij were taken during the early Islamic
+    conquests by Abū ʿUbayda under ʿUmar I; Yāqūt records a fortress-under-a-hill
+    at Raʿbān.
+  associated_entities:
+  - ENT-EVT-0023
+  - ENT-PERS-0031
+  - ENT-PLC-0061
+  - ENT-PLC-0062
+  - ENT-PLC-0063
+  - ENT-PLC-0043
+  supporting_attestations:
+  - ATT-0132
+  - ATT-0133
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

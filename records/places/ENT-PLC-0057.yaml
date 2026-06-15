@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0057
+  standardised_name: Dehes
+  alternative_names:
+  - form: Déhès
+    language: fr
+    script: Latn
+    name_type: modern_name
+  place_type: village
+  identification_status: identified
+  identification_confidence: 4
+  associated_entities:
+  - ENT-PLC-0056
+  overall_confidence: 3
+  analytical_summary: Upland village in the Syrian Jibāl, the only one of the limestone
+    settlements to be excavated (Tate & Sodini soundings); diverse agriculture and
+    oil presses indicate relative self-sufficiency. Magness's reanalysis of its ceramics
+    redated the houses to the later sixth-seventh century, with occupation into the
+    ninth-tenth centuries.
+  linked_attestations:
+  - ATT-0121
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

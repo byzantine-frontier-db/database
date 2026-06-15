@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0140
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0069
+  - ENT-PERS-0034
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 101.
+  paraphrase: Eger reports that Dionysius of Tell Maḥrē studied at the Monastery of
+    Mar Jacob in Kaysūm in the early ninth century, and that Kaysūm and Sanjah-Bahasnā,
+    assumed (unverified) former Late Roman towns of Syriac communities, replaced Hadath.
+  confidence: 3
+  observations_supported:
+  - OBS-0078
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

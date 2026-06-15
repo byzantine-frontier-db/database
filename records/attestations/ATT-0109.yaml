@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0109
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0046
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  - ENT-PLC-0034
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 87-88 (Tell Rifaʿat Survey; fn 40).
+  paraphrase: Of 29 Early Islamic sites in the Tell Rifaʿat Survey, 22 (76%) predate
+    the Late Roman period and seven were new eighth-century foundations, indicating
+    continuity past the seventh-century conquests — the reverse of the Amuq and Kahramanmaraş
+    Surveys.
+  confidence: 3
+  observations_supported:
+  - OBS-0056
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

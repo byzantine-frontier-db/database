@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0113
+  source: SRC-0030
+  entities_referenced:
+  - ENT-PLC-0051
+  provenance: primary_paraphrase
+  citation: al-Sarakhsī, in Rosenthal, JAOS 71/2 (1951), p. 139 — reached via Eger
+    2015, p. 89 (fn 49).
+  paraphrase: al-Sarakhsī describes the region around Khusāf as watered by canals,
+    though water was scarce when crossing the open plain.
+  confidence: 3
+  notes: 'Transmission chain: al-Sarakhsī > Rosenthal 1951 > Eger 2015, p. 89, n.
+    49.'
+  observations_supported:
+  - OBS-0059
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,25 @@
+- record_type: person
+  id: ENT-PERS-0031
+  standardised_name: Abū ʿUbayda ibn al-Jarrāḥ
+  person_type: general
+  death:
+    date:
+      start: 639
+      end: 639
+      precision: year
+      confidence: 3
+  overall_confidence: 3
+  analytical_summary: Companion of the Prophet and commander of the early Islamic
+    conquest of Syria under the caliph ʿUmar I (r. 634-44). Eger credits his forces
+    with taking Raʿbān, Dulūk, Qūrus and Manbij; a fort at Qūrus was named for one
+    of his commanders.
+  linked_attestations:
+  - ATT-0133
+  notes: Reign-marker caliph ʿUmar I (r. 634-44) not yet a corpus PersonRecord; noted
+    as deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

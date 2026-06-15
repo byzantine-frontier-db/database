@@ -1,0 +1,19 @@
+- record_type: place
+  id: ENT-PLC-0071
+  standardised_name: Tīzīn
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 2
+  associated_entities:
+  - ENT-PLC-0009
+  overall_confidence: 2
+  analytical_summary: Town listed among the ʿawāṣim settlements by Ibn Khurradādhbih
+    and by Balādhurī/Yāqūt; not described in detail by Eger here.
+  linked_attestations:
+  - ATT-0126
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

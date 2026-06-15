@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0107
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0048
+  - ENT-PLC-0034
+  provenance: primary_paraphrase
+  citation: Yāqūt, Muʿjam al-buldān (Beirut, 1990), 2.381 — reached via Eger 2015,
+    p. 87 (fn 39).
+  paraphrase: Yāqūt names Haylān among the villages of Ḥalab whose spring water filled
+    the pools of the congregational mosque via a 12 km canal.
+  confidence: 3
+  notes: 'Secondary route: Eger 2015, p. 87, n. 39.'
+  observations_supported:
+  - OBS-0055
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

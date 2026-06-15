@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0125
+  source: SRC-0031
+  entities_referenced:
+  - ENT-PLC-0009
+  - ENT-PLC-0043
+  - ENT-PLC-0037
+  - ENT-PLC-0072
+  - ENT-PLC-0067
+  - ENT-PLC-0063
+  provenance: primary_paraphrase
+  citation: 'Ibn al-Faqīh al-Hamdānī, Kitāb al-Buldān [citation needed: edition and
+    page] — reached via Eger 2015, p. 96 (fn 74).'
+  paraphrase: Ibn al-Faqīh gives a comparable list of ʿawāṣim towns, five of seven
+    of which fall in the Ḥalab region.
+  confidence: 2
+  notes: 'Secondary route: Eger 2015, p. 96, n. 74. Edition not specified by Eger.'
+  observations_supported:
+  - OBS-0068
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

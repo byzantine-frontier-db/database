@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0119
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0056
+  - ENT-PLC-0058
+  - ENT-PLC-0022
+  - ENT-PLC-0034
+  - ENT-PLC-0020
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 92-95 (fns 63-68).
+  paraphrase: Eger characterises the Syrian Jibāl ("Dead Cities") as roughly 700 self-contained,
+    unfortified Late Roman and Early Islamic villages with abundant churches and about
+    61 monasteries, many continuing into the ninth-tenth centuries; the pilgrimage
+    centre at Dayr Simʿan was fortified in the tenth century.
+  confidence: 3
+  observations_supported:
+  - OBS-0063
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

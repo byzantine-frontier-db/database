@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0118
+  source: SRC-0032
+  entities_referenced:
+  - ENT-PERS-0033
+  - ENT-PLC-0044
+  provenance: primary_paraphrase
+  citation: Theodota of Amida, Life, section at p. 77 (forthcoming ed./trans. Tannous)
+    — reached via Eger 2015, p. 92 (fn 56).
+  paraphrase: The Life of Theodota of Amida (d. 698) recounts his withdrawal to a
+    cave in the Euphrates region for at least eight months, evidence Eger cites for
+    eremitic cave-monasticism there.
+  confidence: 2
+  notes: 'Secondary route: Eger 2015, p. 92, n. 56. Edition forthcoming at time of
+    Eger; [citation needed: published edition].'
+  observations_supported:
+  - OBS-0062
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

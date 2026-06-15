@@ -1,0 +1,23 @@
+- record_type: observation
+  id: OBS-0076
+  proposition: During Hārūn al-Rashīd's caliphate more than half of the known central-thughūr
+    settlements (Anṭākiya, Baghrās, Balis, Dābiq, Hadath, Manbij, Marʿash) received
+    repairs and new construction.
+  associated_entities:
+  - ENT-PERS-0018
+  - ENT-PLC-0009
+  - ENT-PLC-0022
+  - ENT-PLC-0027
+  - ENT-PLC-0037
+  - ENT-PLC-0065
+  - ENT-PLC-0068
+  - ENT-PLC-0043
+  - ENT-PLC-0023
+  supporting_attestations:
+  - ATT-0137
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

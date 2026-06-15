@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0143
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0052
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 92-93 (new Jabbūl Survey, Site 34; fns 58-59).
+  paraphrase: Eger reports Ḥāfir, a village around a tell between Balis and Ḥalab
+    linked to the monastery Dayr Ḥāfir, resurveyed as Site 34 of the new Jabbūl Survey
+    and occupied in the Early Islamic period; Yāqūt also mentions it.
+  confidence: 3
+  notes: 'Yāqūt mention noted by Eger at p. 92 (fn 58); exact Yāqūt volume/page not
+    given here [citation needed: Yāqūt volume and page]. Attested against Eger for
+    the survey identification.'
+  observations_supported:
+  - OBS-0080
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,22 @@
+- record_type: source
+  id: SRC-0032
+  standardised_title: Theodota of Amida, Life (Vita)
+  date_of_composition:
+    precision: century
+    confidence: 2
+    notes: Subject d. 698; date of composition of the Life uncertain.
+  script: Syrc
+  edition_used: '[citation needed: published edition — forthcoming edition and translation
+    by J. Tannous at time of Eger 2015, fn 56]'
+  reliability_assessment: Syriac hagiography; used by Eger for eremitic cave-monasticism
+    on the Euphrates.
+  notes: Reached via Eger 2015, p. 92 (fn 56), citing the section at p. 77 of the
+    forthcoming Tannous edition.
+  language: syr
+  genre: hagiography
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
