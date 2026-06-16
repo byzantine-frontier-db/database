@@ -25,10 +25,15 @@
   - ATT-0138
   - ATT-0139
   - ATT-0146
+  - ATT-0170
+  - ATT-0171
+  - ATT-0172
   metadata:
     schema_version: 1.0.0
-    record_version: 1.3.0
+    record_version: 1.4.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis (AI-assisted extraction, Claude)
     workflow_state: draft
     editorial_review_required: true
+  linked_interpretations:
+  - INT-0046

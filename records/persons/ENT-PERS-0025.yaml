@@ -26,12 +26,18 @@
   - ATT-0111
   - ATT-0112
   - ATT-0130
+  - ATT-0160
+  - ATT-0165
+  - ATT-0168
+  - ATT-0169
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
     workflow_state: draft
     editorial_review_required: true
   linked_interpretations:
   - INT-0038
+  - INT-0047
+  - INT-0048
