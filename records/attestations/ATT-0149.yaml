@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0149
+  source: SRC-0023
+  entities_referenced:
+  - ENT-PLC-0073
+  - ENT-PERS-0041
+  observations_supported:
+  - OBS-0098
+  provenance: primary_paraphrase
+  citation: Ibn Shaddād, al-Aʿlāq al-Khaṭīra, p. 2.192 — reached via Eger 2015 (SRC-0007),
+    p. 122 (ch.3 fn 31)
+  paraphrase: Sumaysāṭ was taken during the reign of ʿUmar I; its citizens were enjoined
+    to guide travellers properly and to maintain the town's bridges and roads.
+  location_within_source: p. 2.192
+  confidence: 3
+  notes: Primary source (Ibn Shaddād) reached via Eger. Edition of Ibn Shaddād not
+    consulted directly.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

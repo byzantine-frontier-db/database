@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0076
+  standardised_name: Hisn Ziyad
+  alternative_names:
+  - form: Enzitene
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: fortress
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Fort of the thughūr al-bakriya in the eastern Altınova/Elazığ Plain;
+    Jacobite bishopric.
+  overall_confidence: 3
+  analytical_summary: Fortress (Greek Enzitene) in the eastern Altınova Plain, appearing
+    in the sources only from the tenth century; seat of a Jacobite bishopric, associated
+    with a Slav appointed as ruler by Marwān II. Ibn Serapion reports six further
+    unnamed forts beyond it before the Arsanās joins the Euphrates.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0147
+  - ATT-0148
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

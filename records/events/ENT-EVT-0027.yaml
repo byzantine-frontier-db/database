@@ -1,0 +1,35 @@
+- record_type: event
+  id: ENT-EVT-0027
+  standardised_name: Rebuilding of the walls of Sumaysāṭ, c. 813
+  event_type:
+    primary: construction_infrastructure
+    sub: wall_construction
+  start_date:
+    start: 813
+    end: 813
+    precision: year
+    confidence: 3
+    primary_dating_system: CE
+  associated_places:
+  - ENT-PLC-0073
+  participants:
+  - ENT-PERS-0039
+  political_entities_involved:
+  - ENT-POL-0002
+  description: The city walls of Sumaysāṭ were rebuilt in 813, most probably at the
+    start of al-Maʾmūn's reign; his predecessor al-Amīn had paid little attention
+    to the thughūr.
+  overall_confidence: 3
+  analytical_summary: A rare recorded instance of building activity at Sumaysāṭ, dated
+    to 813 and associated with the start of al-Maʾmūn's reign.
+  linked_attestations:
+  - ATT-0153
+  notes: Minted provisionally. Eger p. 122.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

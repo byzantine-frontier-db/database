@@ -1,0 +1,34 @@
+- record_type: place
+  id: ENT-PLC-0086
+  standardised_name: Karababa Basin
+  alternative_names:
+  - form: Karababa Basin
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: region
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Northernmost navigable reach of the Euphrates; transition zone between
+    the North Syrian steppe and the eastern Taurus; contained the thughūr settlements
+    of Hisn Manṣūr and Sumaysāṭ.
+  environmental_setting: Mountain-ringed lowland defined by limestone plateaus; 400-600
+    mm/annum rainfall; Pleistocene river terraces; wheat, barley, viticulture, fruit
+    and nut trees.
+  overall_confidence: 4
+  analytical_summary: One of the three intermontane micro-regions of the eastern thughūr
+    (with the Malatiya and Elazığ Plains). A major transition point and the most northern
+    navigable stretch of the Euphrates; a nucleus of settlement, transport and trade
+    containing Hisn Manṣūr and Sumaysāṭ.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0154
+  notes: 'Entity search: not in snapshot; minted provisionally as a region.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

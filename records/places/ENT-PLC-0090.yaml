@@ -1,0 +1,33 @@
+- record_type: place
+  id: ENT-PLC-0090
+  standardised_name: Nahr Arsanās
+  alternative_names:
+  - form: Arsanias
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Murad Su
+    language: tr
+    script: Latn
+    name_type: modern_name
+  place_type: river
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: River of the Elazığ Plain on which Shimshāṭ lay; joins the Euphrates
+    beyond Hisn Ziyad.
+  overall_confidence: 4
+  analytical_summary: River (Greek Arsanias, modern Murad Su) watering the Elazığ
+    Plain, on which Shimshāṭ (Arsamosata) lay; per Ibn Serapion, six unnamed forts
+    stood beyond Hisn Ziyad before the Arsanās joined the Euphrates.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0148
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

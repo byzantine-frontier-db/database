@@ -1,0 +1,38 @@
+- record_type: source
+  id: SRC-0034
+  standardised_title: Ibn Serapion (Ibn Sarābiyūn / Suhrāb), Description of Mesopotamia
+    and Baghdad
+  alternative_titles:
+  - Kitāb ʿajāʾib al-aqālīm al-sabʿa (attributed)
+  author_id: ENT-PERS-0048
+  date_of_composition:
+    precision: century
+    confidence: 3
+    primary_dating_system: CE
+    notes: Composed about 900 CE per the title of Le Strange's translation; exact
+      date not established here.
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: '[citation needed: Arabic edition]; Eger cites Arabic text section/page
+    within Le Strange 1895'
+  translation_used: G. Le Strange (trans. & notes), 'Description of Mesopotamia and
+    Baghdad, written about the year 900 A.D. by Ibn Serapion', Journal of the Royal
+    Asiatic Society of Great Britain and Ireland (January 1895)
+  reliability_assessment: Early geographical/hydrographic description; valuable for
+    the river systems and bridges of the Upper Euphrates frontier.
+  known_biases: '[citation needed: assessment]'
+  dependencies: []
+  notes: 'Provisional source. Author conventionally Latinised "Ibn Serapion" (Ibn
+    Sarābiyūn, also Suhrāb). Reached via Eger 2015 (SRC-0007), pp. 104-105, 124 (Eger
+    ch.3 fns 3, 34, 35). Provisional id SRC-0034. Entity search: no existing SourceRecord
+    in the snapshot matches this geographical work (distinct from al-Yaʿqūbī Kitāb
+    al-Buldān SRC-0008 and Ibn Khurradādhbih SRC-0010).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

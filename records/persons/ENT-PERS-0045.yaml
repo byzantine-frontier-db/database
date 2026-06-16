@@ -1,0 +1,24 @@
+- record_type: person
+  id: ENT-PERS-0045
+  standardised_name: ʿAbd al-Malik ibn Marwān
+  alternative_names:
+  - form: ʿAbd al-Malik
+    language: ar
+    script: Arab
+    name_type: regnal_name
+  person_type: caliph
+  overall_confidence: 3
+  analytical_summary: Umayyad caliph; Qālīqalā first conquered by ʿUbayd Allāh ibn
+    ʿAbd al-Malik under his reign, per Eger.
+  linked_attestations:
+  - ATT-0153
+  notes: 'Entity search: absent from snapshot; minted provisionally. No Umayyad ENT-POL-
+    entity exists; affiliation omitted.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

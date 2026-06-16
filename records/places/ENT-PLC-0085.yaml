@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0085
+  standardised_name: Hisn al-Minshār
+  alternative_names:
+  - form: Ḥiṣn al-Minshār
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: fortress
+  identification_status: unidentified
+  identification_confidence: 1
+  frontier_role: Unlocated fort considered, with Hisn Kamkh, closest to the source
+    of the Euphrates.
+  overall_confidence: 2
+  analytical_summary: Unlocated fortress named by Eger alongside Hisn Kamkh as among
+    the settlements closest to the source of the Euphrates.
+  linked_attestations:
+  - ATT-0146
+  notes: 'Entity search: not in snapshot; minted provisionally as an unidentified
+    place. No coordinates.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

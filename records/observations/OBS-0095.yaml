@@ -1,0 +1,23 @@
+- record_type: observation
+  id: OBS-0095
+  proposition: The thughūr al-bakriya (Elazığ Plain) comprised Hisn Qalawdhiya, Hisn
+    Ziyad, Hisn Kamkh and Shimshāṭ, corresponding to the "region of the fortresses"
+    (al-ḥuṣūn) of the Life of Theodota of Amida.
+  associated_entities:
+  - ENT-PLC-0088
+  - ENT-PLC-0077
+  - ENT-PLC-0076
+  - ENT-PLC-0078
+  - ENT-PLC-0075
+  - ENT-PERS-0033
+  supporting_attestations:
+  - ATT-0147
+  - ATT-0154
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

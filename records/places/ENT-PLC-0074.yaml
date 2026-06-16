@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0074
+  standardised_name: Hisn Manṣūr
+  alternative_names:
+  - form: Ḥiṣn Manṣūr
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: Adıyaman
+    language: tr
+    script: Latn
+    name_type: modern_name
+  place_type: fortress
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Thughūr settlement and route node in the Karababa Basin, on the Sumaysāṭ-Malatiya
+    axis and the Raqqa-Sarūj-Sumaysāṭ road; hypothesised by Eger as part of the way-station
+    system.
+  environmental_setting: Karababa Basin, west bank of the Upper Euphrates near natural
+    springs.
+  overall_confidence: 4
+  analytical_summary: Frontier fort/settlement (modern Adıyaman) in the Karababa Basin,
+    c. 32 km north of Sumaysāṭ and c. 150 km south of Malatiya. Unexcavated; Eger
+    hypothesises it belonged to the Karababa way-station network.
+  linked_attestations:
+  - ATT-0146
+  notes: 'Entity search: not in snapshot (ENT-PLC-0001..0073); no match. Minted provisionally.
+    Coordinates deferred to editorial review.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

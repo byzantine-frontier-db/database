@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0077
+  standardised_name: Hisn Qalawdhiya
+  alternative_names:
+  - form: Claudias / Claudioupolis
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: fortress
+  identification_status: approximately_identified
+  identification_confidence: 2
+  frontier_role: Maslaḥa (outpost) of Malatiya; one of the thughūr al-bakriya forts.
+  overall_confidence: 2
+  analytical_summary: Fort and maslaḥa of Malatiya, rebuilt under al-Manṣūr, presently
+    unlocated. Eger suggests it lay at the (also unlocated) Late Roman Claudias, near
+    Koldere/Doğanyol c. 60 km south-east of Malatiya — perhaps Kale (by the name)
+    or Pütürge, where a Late Roman fortification was found.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0147
+  - ATT-0153
+  notes: 'Entity search: not in snapshot; minted provisionally. Identification disputed/approximate
+    per Eger p. 124-125. Coordinates deferred (multiple candidate sites).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

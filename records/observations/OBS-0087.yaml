@@ -1,0 +1,18 @@
+- record_type: observation
+  id: OBS-0087
+  proposition: Malatiya was divided into seven quarters, one per tribe (e.g. Sulaym,
+    Qays), which was also the basis of its military organization.
+  associated_entities:
+  - ENT-PLC-0016
+  supporting_attestations:
+  - ATT-0150
+  notes: Attributed by Eger to Ibn Shaddād transmitting al-Yaʿqūbī; see ATT-0150 for
+    the transmission-chain flags.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

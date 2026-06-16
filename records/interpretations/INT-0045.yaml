@@ -1,0 +1,33 @@
+- record_type: interpretation
+  id: INT-0045
+  associated_entities:
+  - ENT-PLC-0092
+  - ENT-PLC-0044
+  - ENT-EVT-0013
+  - ENT-EVT-0010
+  scholar: Gerber, Ch.
+  publication: '"Die Umgebung des Lidar Höyük", in Continuity and Change'
+  date: 1994
+  argument: In the sixth century settlement expanded onto the hilly land between Ruhā
+    and the Euphrates as Byzantines sought refuge from the demands of Sasanian armies
+    and Bedouin in the plains; seventh- and eighth-century settlement around Lidar
+    may be connected to a Byzantine evacuation of the area after the Islamic conquest,
+    with historical accounts of the Byzantines resettling the Syrian population into
+    Thrace.
+  supporting_evidence:
+  - ATT-0154
+  confidence: 2
+  notes: 'SECONDARY-INTERPRETATION OBJECT: this is Gerber''s argument, reached via
+    Eger 2015 (SRC-0007), pp. 117-118, who reports it approvingly. No SourceRecord
+    for Gerber exists in the corpus, so publication_source_id is omitted. Intersects
+    pilot/Central-Thughūr events ENT-EVT-0013 (Byzantine relocation of Jacobites from
+    the Marʿash area to Thrace, 778) and ENT-EVT-0010 (Heraklios'' evacuation of the
+    frontier forts) — a notable dissertation cross-link on frontier depopulation/resettlement.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

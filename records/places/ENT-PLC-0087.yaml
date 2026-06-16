@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0087
+  standardised_name: Malatiya Plain (Tohma Basin)
+  place_type: region
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Semi-enclosed basin (c. 900 m.a.s.l.) of the central eastern thughūr,
+    watered by the Euphrates and the Nahr Qaraqīs; site of Malatiya and Zibatra.
+  environmental_setting: Surrounded by the Anti-Taurus to west/south/east and the
+    Hekimhan Mountains to the north; iron mined in the Taurus near Zibatra.
+  overall_confidence: 4
+  analytical_summary: Second micro-region of the eastern thughūr, a semi-enclosed
+    basin known for its major town Malatiya, with Zibatra to the south-west; watered
+    by the Euphrates and the Nahr Qaraqīs (Greek Melas, modern Tohma Çay).
+  linked_attestations:
+  - ATT-0146
+  - ATT-0154
+  notes: 'Entity search: not in snapshot; minted provisionally as a region (distinct
+    from the town Malatiya = ENT-PLC-0016).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,37 @@
+- record_type: event
+  id: ENT-EVT-0026
+  standardised_name: Hārūn al-Rashīd's canal bringing Euphrates water to Sarūj
+  event_type:
+    primary: construction_infrastructure
+    sub: water_system_construction
+  start_date:
+    start: 786
+    end: 809
+    precision: year_range_broad
+    confidence: 2
+    primary_dating_system: CE
+    notes: Dated to the reign of Hārūn al-Rashīd; Michael the Syrian gives no precise
+      year.
+  associated_places:
+  - ENT-PLC-0082
+  - ENT-PLC-0044
+  participants:
+  - ENT-PERS-0018
+  description: Per Michael the Syrian, Hārūn al-Rashīd brought water to Sarūj from
+    the Euphrates via canals.
+  overall_confidence: 2
+  analytical_summary: An Abbasid water-supply work at Sarūj attributed to Hārūn al-Rashīd;
+    one of the comparatively few canal projects Eger notes for this largely rain-fed
+    region.
+  linked_attestations:
+  - ATT-0151
+  notes: Minted provisionally. Michael the Syrian, Chronique, via Eger p. 122 (fn
+    33).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

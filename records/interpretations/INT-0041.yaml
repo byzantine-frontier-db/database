@@ -1,0 +1,32 @@
+- record_type: interpretation
+  id: INT-0041
+  associated_entities:
+  - ENT-PLC-0086
+  - ENT-PLC-0087
+  - ENT-PLC-0088
+  - ENT-PLC-0019
+  - ENT-PLC-0044
+  - ENT-PLC-0034
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 3
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The eastern thughūr was more sparsely settled, with small rural settlements,
+    than the central thughūr around Ḥalab, and more similar to the Amuq and Kahramanmaraş
+    plains; settlement was reduced by about half from the Late Roman period. The Euphrates
+    served only as a crossing for land routes rather than as a settlement axis, and
+    sites clustered around springs and spring-fed streams in a largely rain-fed agricultural
+    zone, with far fewer canal projects than further south.
+  supporting_evidence:
+  - ATT-0154
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

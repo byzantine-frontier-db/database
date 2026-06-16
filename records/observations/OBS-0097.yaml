@@ -1,0 +1,18 @@
+- record_type: observation
+  id: OBS-0097
+  proposition: Ibn Serapion reports six unnamed forts beyond Hisn Ziyad before the
+    Nahr Arsanās joins the Euphrates.
+  associated_entities:
+  - ENT-PLC-0076
+  - ENT-PLC-0090
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0148
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

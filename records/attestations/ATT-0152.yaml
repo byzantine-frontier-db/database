@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0152
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0016
+  - ENT-PLC-0079
+  - ENT-EVT-0028
+  observations_supported:
+  - OBS-0090
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1987 ed.), p. 265 (Malaṭiya), p. 280 (Qālīqalā);
+    cf. M. Bonner, Aristocratic Violence and Holy War, p. 143 — reached via Eger 2015
+    (SRC-0007), p. 124 (ch.3 fn 38)
+  paraphrase: al-Balādhurī records Malatiya and Qālīqalā among the places settled
+    with Jaziran soldiers, who were granted lands to farm.
+  location_within_source: pp. 265, 280
+  confidence: 3
+  notes: Primary source (al-Balādhurī) reached via Eger, who also cites Bonner (secondary).
+    Edition not consulted directly.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

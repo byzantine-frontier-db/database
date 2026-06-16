@@ -1,0 +1,25 @@
+- record_type: person
+  id: ENT-PERS-0048
+  standardised_name: Ibn Serapion (Ibn Sarābiyūn)
+  alternative_names:
+  - form: Suhrāb
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  person_type: scholar
+  overall_confidence: 3
+  analytical_summary: Geographer (fl. c. 900), author of the geographical/hydrographic
+    description used by Eger for the river systems of the Upper Euphrates frontier
+    (SRC-0034).
+  linked_attestations:
+  - ATT-0148
+  notes: 'Entity search: absent from snapshot; minted provisionally as author of SRC-0034.
+    Identity conventionally given as Ibn Sarābiyūn / Suhrāb.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

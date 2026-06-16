@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0075
+  standardised_name: Shimshāṭ
+  alternative_names:
+  - form: Arsamosata
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Fort/town of the thughūr al-bakriya in the Elazığ Plain, on the Nahr
+    Arsanās; outpost on the route to Malatiya.
+  overall_confidence: 3
+  analytical_summary: Settlement (Greek Arsamosata) on the Nahr Arsanās, comprising
+    an upland Hellenistic fort and a lower walled Islamic town; rebuilt by Ṣāliḥ b.
+    ʿAlī under al-Manṣūr. One of the thughūr al-bakriya forts identified with the
+    Life of Theodota's "region of the fortresses".
+  linked_attestations:
+  - ATT-0146
+  - ATT-0147
+  - ATT-0153
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

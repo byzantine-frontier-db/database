@@ -1,0 +1,30 @@
+- record_type: interpretation
+  id: INT-0042
+  associated_entities:
+  - ENT-PERS-0038
+  - ENT-EVT-0024
+  - ENT-PLC-0007
+  - ENT-PLC-0016
+  - ENT-PLC-0019
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 3
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Under al-Manṣūr a deliberate policy of stabilization and refortification
+    of the eastern thughūr is evident, intended to secure key road and river points
+    within a frontier zone that remained as often in Byzantine hands or independently
+    controlled as under caliphal control.
+  supporting_evidence:
+  - ATT-0153
+  confidence: 3
+  notes: Eger draws here in part on Wheatley, The Places Where Men Pray Together,
+    p. 109 (ch.3 fn 39). Intersects the pilot-corpus event ENT-EVT-0011 (Hārūn's creation
+    of the ʿawāṣim) as a related frontier-organisation measure.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,48 @@
+- record_type: event
+  id: ENT-EVT-0024
+  standardised_name: al-Manṣūr's stabilization and refortification of the eastern
+    thughūr
+  event_type:
+    primary: construction_infrastructure
+    sub: fortification
+  start_date:
+    start: 754
+    end: 775
+    precision: year_range_broad
+    confidence: 3
+    primary_dating_system: CE
+    notes: Dated to the reign of al-Manṣūr (r. 754-775 per Eger).
+  associated_places:
+  - ENT-PLC-0007
+  - ENT-PLC-0016
+  - ENT-PLC-0075
+  - ENT-PLC-0077
+  - ENT-PLC-0078
+  - ENT-PLC-0079
+  participants:
+  - ENT-PERS-0038
+  - ENT-PERS-0042
+  political_entities_involved:
+  - ENT-POL-0002
+  description: Under al-Manṣūr a policy of stabilization and refortification of the
+    eastern thughūr is evident; he built or rebuilt Zibatra, Malatiya, Shimshāṭ, Hisn
+    Qalawdhiya, Hisn Kamkh and Qālīqalā at the far north-eastern end of the zone,
+    much of the work carried out by his uncle, the governor Ṣāliḥ b. ʿAlī.
+  overall_confidence: 3
+  analytical_summary: Mid-eighth-century Abbasid programme securing key road and river
+    points of the eastern thughūr through fortress building and rebuilding; a structural
+    precursor to the ninth-century frontier conflicts in the pilot corpus.
+  linked_attestations:
+  - ATT-0153
+  linked_interpretations:
+  - INT-0042
+  notes: Minted provisionally. Eger synthesis (pp. 124-125), drawing in part on Wheatley,
+    The Places Where Men Pray Together, p. 109 (ch.3 fn 39).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

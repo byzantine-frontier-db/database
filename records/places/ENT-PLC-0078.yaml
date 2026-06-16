@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0078
+  standardised_name: Hisn Kamkh
+  alternative_names:
+  - form: Kamacha
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: fortress
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Northernmost fort of the thughūr al-bakriya, near Armenian lands
+    and close to the source of the Euphrates.
+  overall_confidence: 3
+  analytical_summary: Fortress (Greek Kamacha) far to the north near Armenian lands,
+    considered the town closest to the source of the Euphrates (with the unlocated
+    Hisn al-Minshār). Changed hands repeatedly; taken under Muʿāwiya and Yazīd II;
+    its inhabitants helped defend it against Constantine V. Described as a castle
+    with a lower town and a merchant presence.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0153
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred
+    (modern Kemah commonly proposed; not asserted here).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,29 @@
+- record_type: interpretation
+  id: INT-0043
+  associated_entities:
+  - ENT-PLC-0086
+  - ENT-PLC-0074
+  - ENT-PLC-0073
+  - ENT-PLC-0091
+  - ENT-PLC-0082
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 3
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: A system of way stations roughly a day's travel apart (Kurban Höyük, Lidar
+    Höyük and Gritille Survey Site 11) structured the Raqqa-Sarūj-Sumaysāṭ road and
+    the Marʿash-Raʿbān-Sumaysāṭ road across the Karababa Basin; Eger hypothesises
+    that the unexcavated Hisn Manṣūr formed part of the same system.
+  supporting_evidence:
+  - ATT-0154
+  confidence: 2
+  notes: Eger explicitly flags the Hisn Manṣūr inclusion as a hypothesis ("I hypothesize",
+    p. 122). The named excavated way stations are deferred to the archaeological pass.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

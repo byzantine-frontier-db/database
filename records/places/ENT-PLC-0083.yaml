@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0083
+  standardised_name: Monastery of Bar Ṣawmā
+  alternative_names:
+  - form: Bar Sawma
+    language: syr
+    script: Syrc
+    name_type: historical_attestation
+  place_type: monastery
+  identification_status: approximately_identified
+  identification_confidence: 2
+  frontier_role: Jacobite monastery between Malatiya and Hisn Manṣūr; node on the
+    route into the mountains toward Malatiya.
+  overall_confidence: 2
+  analytical_summary: Jacobite monastery in the district of Tepehan (village of Pereş),
+    between Malatiya and Hisn Manṣūr; connected by Eger to the Early Islamic site
+    at Eski Kahta and the route into the mountains toward Malatiya.
+  linked_attestations:
+  - ATT-0146
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

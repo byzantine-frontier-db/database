@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0089
+  standardised_name: Nahr al-Qubāqib
+  alternative_names:
+  - form: Sultan Suyu
+    language: tr
+    script: Latn
+    name_type: modern_name
+  place_type: river
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: River of the Malatiya Plain originating in Byzantine lands and flowing
+    into the Euphrates; spanned by a great bridge.
+  overall_confidence: 3
+  analytical_summary: River (modern Sultan Suyu) described by Ibn Serapion as originating
+    in Byzantine territory and flowing into the Euphrates, with a great bridge named
+    after it; the Nahr Qaraqīs (Greek Melas, Tohma Çay) is given by Eger as its tributary.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0148
+  notes: 'Entity search: not in snapshot; minted provisionally. Eger''s text is internally
+    tangled on the Qubāqib/Qaraqīs relationship; recorded as Eger states (p. 105,
+    124). The Nahr Qaraqīs (Melas/Tohma Çay) is NOT minted separately here — deferred.
+    Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

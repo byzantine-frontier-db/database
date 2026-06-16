@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0044
+  associated_entities:
+  - ENT-PLC-0086
+  - ENT-PLC-0088
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015), ch. 3
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Early Islamic occupation in the eastern thughūr is hard to detect archaeologically
+    because surveys frequently grouped it with "Byzantine" material, producing an
+    apparent few-then-many pattern across the Early-to-Middle Islamic transition.
+    Eger argues Early Islamic settlement was nonetheless real but low-density, pastoralist-linked
+    and focused on springs, with the sedentary population concentrated at centres
+    such as Sumaysāṭ.
+  supporting_evidence:
+  - ATT-0154
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

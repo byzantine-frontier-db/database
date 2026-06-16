@@ -1,0 +1,24 @@
+- record_type: person
+  id: ENT-PERS-0047
+  standardised_name: Constantine V
+  alternative_names:
+  - form: Kōnstantinos V
+    language: grc
+    script: Grek
+    name_type: regnal_name
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: Byzantine emperor who, per Eger, retook Qālīqalā (later rebuilt
+    by al-Manṣūr) and attacked Hisn Kamkh, whose inhabitants helped repel him.
+  linked_attestations:
+  - ATT-0153
+  notes: 'Entity search: absent from snapshot; minted provisionally.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

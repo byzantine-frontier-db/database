@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0150
+  source: SRC-0023
+  entities_referenced:
+  - ENT-PLC-0016
+  observations_supported:
+  - OBS-0087
+  provenance: primary_paraphrase
+  citation: 'Ibn Shaddād, al-Aʿlāq al-Khaṭīra [from al-Yaʿqūbī], [citation needed:
+    exact Ibn Shaddād page for the Malatiya seven-quarters notice] — reached via Eger
+    2015 (SRC-0007), p. 124'
+  paraphrase: Malatiya was divided into seven quarters, one per tribe (e.g. Sulaym,
+    Qays), which also formed the basis of its military organization.
+  confidence: 3
+  notes: 'TRANSMISSION-CHAIN FLAG: Eger attributes this to "Ibn Shaddād from Yaʿqūbī
+    (d. 897/8)" (p. 124). Attested here against Ibn Shaddād (SRC-0023) as the work
+    Eger cites. Ibn Shaddād transmits it from al-Yaʿqūbī; which al-Yaʿqūbī work is
+    unverified (Taʾrīkh = SRC-0003 vs Kitāb al-Buldān = SRC-0008) — the geographical/administrative
+    content suggests Kitāb al-Buldān but this is NOT asserted. Eger gives no page
+    for this specific notice (distinct from the Sumaysāṭ notice at fn 31). Both the
+    exact Ibn Shaddād page and the underlying al-Yaʿqūbī locus require editorial verification.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

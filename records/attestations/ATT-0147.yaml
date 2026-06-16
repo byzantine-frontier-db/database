@@ -1,0 +1,39 @@
+- record_type: attestation
+  id: ATT-0147
+  source: SRC-0032
+  entities_referenced:
+  - ENT-PLC-0081
+  - ENT-PLC-0088
+  - ENT-PLC-0077
+  - ENT-PLC-0076
+  - ENT-PLC-0078
+  - ENT-PLC-0075
+  - ENT-PERS-0033
+  observations_supported:
+  - OBS-0095
+  - OBS-0096
+  provenance: primary_paraphrase
+  citation: 'Theodota of Amida, Life, §115 (region of the fortresses; Bīlū/Pīlīn =
+    Palu); cf. §§115-116 (lake "Hūrē"); epigraph [citation needed: section/folio]
+    — reached via Eger 2015 (SRC-0007), pp. 102, 119, 124 (ch.3 fns 1, 4, 37)'
+  paraphrase: Mar Theodota travels to "the region of the fortresses" (al-ḥuṣūn), passing
+    Bīlū and Pīlīn (Palu) and the surrounding districts; he sets out to visit Syrian
+    Orthodox in flight, whom (he says) the Romans are driving out to make them change
+    their faith. Eger maps the "region of the fortresses" onto the thughūr al-bakriya
+    forts.
+  direct_quotation: region of the fortresses (al-ḥuṣūn)
+  location_within_source: §115 (and §§115-116); epigraph section not specified by
+    Eger
+  confidence: 3
+  notes: 'Transmission chain: primary Syriac Life of Theodota of Amida (SRC-0032),
+    reached via Eger 2015. Direct_quotation limited to a short phrase (fair use);
+    the full epigraph is not reproduced. Original-language (Syriac) text not consulted;
+    provenance primary_paraphrase. Epigraph section unspecified by Eger — flagged.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

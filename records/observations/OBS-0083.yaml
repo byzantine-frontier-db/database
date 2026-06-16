@@ -1,0 +1,22 @@
+- record_type: observation
+  id: OBS-0083
+  proposition: Zibatra was rebuilt four times — by al-Manṣūr, Hārūn al-Rashīd, al-Maʾmūn
+    and al-Muʿtaṣim — each time after a Byzantine attack, and al-Muʿtaṣim added four
+    ḥuṣūn around it.
+  associated_entities:
+  - ENT-PLC-0007
+  - ENT-EVT-0025
+  - ENT-PERS-0038
+  - ENT-PERS-0018
+  - ENT-PERS-0039
+  - ENT-PERS-0001
+  supporting_attestations:
+  - ATT-0153
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

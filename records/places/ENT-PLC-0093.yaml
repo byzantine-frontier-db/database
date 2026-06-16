@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0093
+  standardised_name: Ḥarrān
+  alternative_names:
+  - form: Carrhae
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  frontier_role: Route node on the south-north Balikh-valley road from Raqqa to the
+    Euphrates crossings at Sumaysāṭ and Hisn Manṣūr.
+  overall_confidence: 4
+  analytical_summary: City on the Balikh-valley route from Raqqa to the Euphrates
+    crossings at Sumaysāṭ and Hisn Manṣūr; named by Eger as a node on the key south-north
+    road through the eastern thughūr approaches.
+  linked_attestations:
+  - ATT-0146
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

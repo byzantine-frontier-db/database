@@ -1,0 +1,38 @@
+- record_type: attestation
+  id: ATT-0154
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0086
+  - ENT-PLC-0087
+  - ENT-PLC-0088
+  - ENT-PLC-0074
+  - ENT-PLC-0091
+  - ENT-PLC-0092
+  - ENT-PLC-0073
+  - ENT-PLC-0044
+  - ENT-PLC-0019
+  observations_supported:
+  - OBS-0095
+  provenance: modern_synthesis
+  citation: Eger, A. Asa, The Islamic-Byzantine Frontier (2015), ch. 3, pp. 106-122
+    (survey methodology; settlement in the three basins; way stations)
+  paraphrase: Eger's synthesis of the archaeological survey evidence for the eastern
+    thughūr — the difficulty of isolating Early Islamic occupation (often subsumed
+    under "Byzantine"), the reduction of settlement by roughly half from the Late
+    Roman period, the spring-focused and largely rain-fed settlement pattern, and
+    the day's-travel way-station system along the Karababa routes.
+  location_within_source: pp. 106-122
+  confidence: 3
+  notes: Modern-synthesis attestation drawing together numerous secondary survey publications
+    (Wilkinson, Blaylock, Stein, Algaze, Gerber, Redford, Whallon and others) cited
+    by Eger. Individual survey/excavation sites and their datable observations (Kurban
+    Höyük way station, Tille Höyük coin of 741, etc.) are DEFERRED to a later archaeological
+    pass (see summary).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

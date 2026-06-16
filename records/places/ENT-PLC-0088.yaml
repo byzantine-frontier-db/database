@@ -1,0 +1,43 @@
+- record_type: place
+  id: ENT-PLC-0088
+  standardised_name: Elazığ Plain (Keban Basin) / Thughūr al-Bakriya
+  alternative_names:
+  - form: thughūr al-bakriya
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Keban Basin
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: region
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: The "northern frontier of the tribe of Bakr" (Diyār Bakr); intermontane
+    plain whose forts (Hisn Qalawdhiya, Hisn Ziyad, Hisn Kamkh, Shimshāṭ) correspond
+    to the Life of Theodota's "region of the fortresses".
+  environmental_setting: Broad river valleys 700-845 m.a.s.l. watered by the Western
+    Euphrates (Karasu) and the Nahr Arsanās (Murad Su); includes the Aşvan and Altınova
+    valleys and Lake Hazar.
+  overall_confidence: 4
+  analytical_summary: Third micro-region of the eastern thughūr, called thughūr al-bakriya
+    (the northern frontier of Diyār Bakr). Its forts — Hisn Qalawdhiya, Hisn Ziyad,
+    Hisn Kamkh and Shimshāṭ — are identified by Eger with the "region of the fortresses"
+    (al-ḥuṣūn) of the Life of Theodota of Amida.
+  linked_attestations:
+  - ATT-0146
+  - ATT-0147
+  - ATT-0154
+  notes: 'Entity search: not in snapshot; minted provisionally. The administrative
+    label thughūr al-bakriya and the modern geographic Elazığ/Keban Basin are treated
+    as one entity (Eger: "The Elazığ Plain was called thughūr al-bakriya"). Lake Hazar
+    possibly = the lake "Hūrē" with islands and fish in the Life of Theodota (sections
+    115-16) — flagged, not asserted.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

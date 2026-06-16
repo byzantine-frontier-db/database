@@ -1,0 +1,39 @@
+- record_type: place
+  id: ENT-PLC-0081
+  standardised_name: Palu
+  alternative_names:
+  - form: Paluyah
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Bīlū
+    language: syr
+    script: Syrc
+    name_type: historical_attestation
+  - form: Pīlīn
+    language: syr
+    script: Syrc
+    name_type: historical_attestation
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Settlement of the Elazığ Plain within the "region of the fortresses"
+    (al-ḥuṣūn) of the Life of Theodota of Amida.
+  overall_confidence: 3
+  analytical_summary: Settlement (modern Palu) corresponding, per Eger, to the Bīlū
+    and Pīlīn named in the Life of Theodota of Amida as lying in the "region of the
+    fortresses".
+  linked_attestations:
+  - ATT-0146
+  - ATT-0147
+  notes: 'Entity search: not in snapshot; minted provisionally. Syriac forms Bīlū/Pīlīn
+    marked language syr/Syrc; the precise script of Eger''s transliteration is Latin
+    — original-script forms inferred, flagged for review. Coordinates deferred.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

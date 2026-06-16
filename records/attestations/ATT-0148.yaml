@@ -1,0 +1,39 @@
+- record_type: attestation
+  id: ATT-0148
+  source: SRC-0034
+  entities_referenced:
+  - ENT-PERS-0048
+  - ENT-PLC-0089
+  - ENT-PLC-0090
+  - ENT-PLC-0076
+  - ENT-PLC-0016
+  - ENT-PLC-0007
+  - ENT-PLC-0044
+  observations_supported:
+  - OBS-0094
+  - OBS-0097
+  provenance: primary_paraphrase
+  citation: 'Ibn Serapion, Description of Mesopotamia and Baghdad (trans. Le Strange,
+    JRAS 1895): §IV, p. 13 (Arabic) / p. 63 (Eng.) [Malatiya watercourses]; §III,
+    p. 11 (Arabic) / p. 54 (Eng.) [six forts beyond Hisn Ziyad]; p. 58 notes [Nahr
+    Qubāqib] — reached via Eger 2015 (SRC-0007), pp. 105, 124 (ch.3 fns 3, 34, 35)'
+  paraphrase: Ibn Serapion describes the Nahr al-Qubāqib as rising in Byzantine lands
+    and flowing into the Euphrates with a great bridge named after it; watercourses
+    brought from the Nahr Malatiya (modern Shakhma Su) into Malatiya before flowing
+    into the Qubāqib below the bridge; and six further unnamed forts beyond Hisn Ziyad
+    before the Nahr Arsanās joins the Euphrates. Eger also reports Ibn Serapion stating
+    that the Qaraqīs passes near the gate of Zibatra.
+  location_within_source: §§III-IV; p. 58 (notes)
+  confidence: 3
+  notes: 'Primary geographical source reached via Eger. The Zibatra/Qaraqīs notice
+    (Eger p. 124) is not separately page-referenced by Eger — [citation needed: exact
+    Ibn Serapion section/page for the Zibatra gate notice]. Arabic edition not consulted
+    directly.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true

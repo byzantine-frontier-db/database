@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0096
+  proposition: Palu (Bīlū/Pīlīn) is named in the Life of Theodota of Amida as lying
+    within the "region of the fortresses".
+  associated_entities:
+  - ENT-PLC-0081
+  - ENT-PERS-0033
+  supporting_attestations:
+  - ATT-0147
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
+      pending
+    workflow_state: draft
+    editorial_review_required: true
