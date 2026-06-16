@@ -47,8 +47,10 @@
   - ATT-0001
   - ATT-0003
   - ATT-0058
+  - ATT-0146
+  - ATT-0153
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft

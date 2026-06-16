@@ -17,13 +17,19 @@
   - ATT-0118
   - ATT-0122
   - ATT-0123
+  - ATT-0146
+  - ATT-0148
+  - ATT-0151
+  - ATT-0154
   linked_interpretations:
   - INT-0033
   - INT-0040
+  - INT-0041
+  - INT-0045
   notes: No point coordinate assigned (linear feature spanning the survey area).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: AI-assisted extraction (Claude); pending editorial review by Curtis
     workflow_state: draft
