@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0168
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0098
+  - ENT-PERS-0050
+  - ENT-PERS-0025
+  provenance: numismatic_evidence
+  citation: Eger 2015 (SRC-0007), p. 143 (reporting Heidemann, 'Settlement Patterns...
+    Diyar Mudar', ch. 4 fn. 32)
+  paraphrase: Eger reports Heidemann's observation that the lack of coins of Maslama,
+    against the many coins of the local governor al-ʿAbbās b. Muḥammad (759-72), indicates
+    the Umayyad site was possibly a self-sufficient agricultural estate (ḍayʿa).
+  confidence: 3
+  notes: Numismatic observation transmitted via Eger from Heidemann (fn. 32). The
+    interpretive claim drawn from it is recorded at INT-0048. Eger 2015 p. 143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0108

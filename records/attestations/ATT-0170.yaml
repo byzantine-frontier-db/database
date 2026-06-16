@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0170
+  source: SRC-0036
+  entities_referenced:
+  - ENT-PERS-0019
+  - ENT-PLC-0097
+  - ENT-PLC-0091
+  provenance: primary_quotation
+  citation: 'Agapius of Manbij, Kitāb al-ʿUnwān [citation needed: edition and page];
+    reached via Eger 2015 (SRC-0007), pp. 140-141'
+  paraphrase: Agapius of Manbij records that the Caliph Hishām opened up many abundant
+    water channels and drew water from the river above Kallinikos (Raqqa) — testimony
+    Eger uses to identify the major Balikh canal as one built by Hishām in 724.
+  direct_quotation: He opened up many abundant water channels and it was he who drew
+    water from the river above Kallinikos (Raqqa)
+  confidence: 3
+  notes: 'Transmission chain: Agapius of Manbij -> Eger 2015 pp. 140-141. Direct quotation
+    is from Eger''s English rendering (translator/edition unspecified by Eger here);
+    under-15-word fair-use extract retained for evidential value, edition flagged
+    [citation needed]. References SRC-0036. Quotation should be re-verified against
+    the cited edition before promotion.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0109

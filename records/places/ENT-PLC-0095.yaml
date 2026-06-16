@@ -1,0 +1,43 @@
+- record_type: place
+  id: ENT-PLC-0095
+  standardised_name: Balikh River
+  alternative_names:
+  - form: Bilecha
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Nahr al-Balīkh
+    language: ar
+    script: Arab
+    name_type: transliteration
+  place_type: river
+  identification_status: identified
+  identification_confidence: 5
+  environmental_setting: Euphrates tributary of the Diyār Muḍar; narrow (c. 6 m wide
+    per Eger), rising from subterranean springs in the Harran Plain — at ʿAyn al-ʿArūs
+    or, per Ibn Serapion, at ʿAyn al-Dhabbāniyya / al-Dhahbāna — fed by further streams
+    including the Wādī Ḥamār, and emptying into the Euphrates at Raqqa. Floodplain
+    c. 70 km E-W and c. 100 km N-S, bordered by limestone and gypsum plateaus.
+  overall_confidence: 5
+  analytical_summary: The Balikh, with the Harran Plain, forms one topographic unit
+    and the principal watershed nucleus of settlement in the western Jazīra. Its valley
+    is the subject of the Balikh-half settlement discussion. The disagreement over
+    its spring-source (ʿAyn al-ʿArūs vs Ibn Serapion's ʿAyn al-Dhabbāniyya) is preserved
+    in the attestations rather than adjudicated.
+  associated_entities:
+  - ENT-PLC-0044
+  - ENT-PLC-0091
+  - ENT-PLC-0096
+  linked_attestations:
+  - ATT-0156
+  - ATT-0157
+  notes: 'New entity. Snapshot search: no Balikh River record present (ENT-PLC-0044
+    is the Euphrates; ENT-PLC-0089/0090 are the Qubāqib and Arsanās). Eger 2015 (SRC-0007)
+    pp. 128-130. Minor tributaries (Jullab, Daysan/Kara Koyun, Wādī Ḥamār) deferred
+    as minor hydronyms per scope discipline. Provisional ID pending minting.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

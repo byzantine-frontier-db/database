@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0159
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0098
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), pp. 142-143 (reporting Haase's excavations at Madīnat
+    al-Far/Ḥiṣn Maslama, ch. 4 fn. 30)
+  paraphrase: 'Eger reports the excavated form of Ḥiṣn Maslama: a walled compound
+    over 100 ha with a central rectangular enclosure (80 x 40 m), a large northern
+    enclosure (330 x 330 m) with corner towers, tower buttresses, gates, ditch and
+    street grid, and a southern residential compound; two phases (scarcely-represented
+    early eighth century; late-eighth/early-ninth-century ʿAbbāsid), with little occupation
+    after c. 860.'
+  confidence: 4
+  notes: Archaeological observation transmitted via Eger from Haase (fn. 30). Eger
+    2015 pp. 142-143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0103

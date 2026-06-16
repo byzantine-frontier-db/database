@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0157
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0095
+  - ENT-PLC-0096
+  - ENT-PLC-0091
+  - ENT-PLC-0092
+  - ENT-PLC-0093
+  - ENT-PERS-0049
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), pp. 128-129, 140
+  paraphrase: Eger describes the Balikh/Harran Plain topographic unit and its hydrology,
+    and notes that in the Late Roman period Edessa (Ruhā) and Karrhai (Ḥarrān) in
+    the Osrhoene province were the focal urban centres, fortified by Justinian, before
+    being replaced by Balikh-valley settlement in the Early Islamic period.
+  confidence: 4
+  notes: Eger's own synthesis of the physical geography and the Late Roman urban pattern;
+    attested against SRC-0007 directly. The "fortified by Justinian" detail derives
+    ultimately from Procopius (cf. SRC-0024) but Eger gives no citation at this point,
+    so it is attested here as Eger's statement; a Procopius-based attestation is deferred
+    pending verification.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0100
+  - OBS-0101

@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0099
+  proposition: Qarqīsiyā and al-Mawṣil were thughūr cities of al-Kūfa in the early
+    days of the conquest of ʿIrāq (638-9), indicating the Jazīra functioned as an
+    initial frontier during the conquests.
+  associated_entities:
+  - ENT-PLC-0094
+  - ENT-PLC-0010
+  supporting_attestations:
+  - ATT-0155
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

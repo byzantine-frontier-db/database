@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0164
+  source: SRC-0030
+  entities_referenced:
+  - ENT-PLC-0100
+  provenance: primary_paraphrase
+  citation: al-Sarakhsī (geographical/itinerary work); reached via Eger 2015 (SRC-0007),
+    p. 142
+  paraphrase: al-Sarakhsī (late ninth century) describes Bājadda as a walled city
+    with gardens and a central well that irrigated the fields.
+  confidence: 3
+  notes: 'Transmission chain: al-Sarakhsī -> Eger 2015 p. 142. Eger gives no edition/page
+    for this Sarakhsī description here; location within source is [citation needed:
+    page]. Note: Eger elsewhere transmits Sarakhsī via Yāqūt''s Muʿjam (cf. ch. 5
+    fn. 1); whether this Bājadda notice is likewise Yāqūt-mediated is flagged for
+    editorial review.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0105

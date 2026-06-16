@@ -1,0 +1,62 @@
+- record_type: place
+  id: ENT-PLC-0098
+  standardised_name: Ḥiṣn Maslama (Madīnat al-Far)
+  alternative_names:
+  - form: Madīnat al-Far
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Ḥiṣn Maslama
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: BS 187
+    language: en
+    script: Latn
+    name_type: alternative_transliteration
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 4
+  environmental_setting: 'Large walled compound (over 100 ha) on the Balikh road,
+    c. 3 km from the Balikh, surrounded by canals bringing water to irrigate fields.
+    Three elements: a central elevated rectangular enclosure (80 x 40 m) of two adjacent
+    walled houses; a large northern enclosure (330 x 330 m) with corner towers, eight
+    intermittent tower buttresses, gates, outer ditch and street grid; and a loosely
+    planned southern residential compound.'
+  chronology:
+    start: 700
+    end: 860
+    precision: year_range_broad
+    confidence: 3
+  overall_confidence: 4
+  analytical_summary: 'Ḥiṣn Maslama / Madīnat al-Far (survey site BS 187), named after
+    its founder Maslama b. ʿAbd al-Malik, son of ʿAbd al-Malik. Two occupation phases:
+    an early-eighth-century phase scarcely represented, and a late-eighth/early-ninth-century
+    ʿAbbāsid phase to which most visible large-scale building belongs; little evidence
+    of occupation after c. 860. Functioned as a way station / garrison connecting
+    Raqqa-Ḥarrān (S-N) and Jisr Manbij-Raʾs al-ʿAyn (W-E). Eger uses it as the type
+    case for his argument that the ḥuṣūn developed from quṣūr desert estates with
+    agricultural holdings (interpretation recorded separately).'
+  associated_entities:
+  - ENT-PERS-0025
+  - ENT-PERS-0032
+  - ENT-PLC-0091
+  - ENT-PLC-0093
+  - ENT-PLC-0064
+  - ENT-PLC-0095
+  linked_attestations:
+  - ATT-0159
+  - ATT-0160
+  linked_interpretations:
+  - INT-0047
+  - INT-0048
+  notes: 'New entity. Snapshot search: ENT-PLC-0074 is Ḥiṣn Manṣūr (different fort,
+    compared to Ḥiṣn Maslama by Eger), not a match; no Ḥiṣn Maslama / Madīnat al-Far
+    record present. Excavation/identification per Haase (Eger ch. 4 fn. 30). Eger
+    2015 (SRC-0007) pp. 141-143. Provisional ID pending minting.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

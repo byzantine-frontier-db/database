@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0047
+  associated_entities:
+  - ENT-PLC-0098
+  - ENT-PERS-0025
+  scholar: Eger, A. A.
+  publication: 'The Islamic-Byzantine Frontier (London: I.B. Tauris, 2015); cf. Eger,
+    ''Ḥiṣn, Ribāṭ, Thaghr, or Qaṣr?'', in P. Cobb (ed.), The Lineaments of Islam (Leiden:
+    Brill, 2012)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The ḥuṣūn such as Ḥiṣn Maslama were not strictly fortified 'castles' but
+    developed in some way from the quṣūr desert estates with their agricultural holdings;
+    Ḥiṣn Maslama, surrounded by canals irrigating fields, may have been part of a
+    settlement policy of granting incentives in agricultural lands.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0159
+  - ATT-0160
+  - ATT-0168
+  notes: Eger's interpretive argument, developed further in his 2012 article (ch.
+    4 fn. 31). Eger 2015 p. 143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

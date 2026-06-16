@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0049
+  associated_entities:
+  - ENT-PLC-0095
+  - ENT-PLC-0094
+  scholar: Bartl, K.
+  publication: '''The Balih Valley, Northern Syria, during the Islamic Period: Remarks
+    Concerning the Historical Topography'', Berytus 41 (1993/4)'
+  date: 1994
+  argument: The dearth of evidence for the Umayyad period in the Balikh (the earliest
+    Islamic settlement evidence appearing only from the mid-eighth century) is likely
+    a manifestation of the difficulty of identifying the transitional coarseware pottery
+    rather than of genuine absence of settlement, since the region is known textually
+    from the Umayyad period (e.g. via Ḥiṣn Maslama).
+  confidence: 3
+  supporting_evidence:
+  - ATT-0158
+  notes: Argument attributed by Eger to Bartl (ch. 4 fn. 26). Recorded as a named
+    modern scholar's interpretation reported by Eger; Bartl's article not minted as
+    a SourceRecord in this batch. Eger 2015 pp. 140-141.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,18 @@
+- record_type: observation
+  id: OBS-0108
+  proposition: Coins of the local governor al-ʿAbbās b. Muḥammad (759-72) are numerous
+    at the site whereas coins of Maslama are lacking — a numismatic contrast Heidemann
+    reads as indicating the Umayyad-phase site was a self-sufficient agricultural
+    estate.
+  associated_entities:
+  - ENT-PLC-0098
+  - ENT-PERS-0050
+  - ENT-PERS-0025
+  supporting_attestations:
+  - ATT-0168
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

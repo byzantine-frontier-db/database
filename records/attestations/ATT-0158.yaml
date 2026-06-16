@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0158
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0097
+  - ENT-PLC-0095
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), pp. 140-141 (reporting Wilkinson, Western Jazira
+    Archaeological Landscape Project)
+  paraphrase: Eger reports that the sixth- to eighth-century Balikh landscape was
+    dominated by a major straightened canal (Nahr al-Abbāra / Nahr Turkmān) running
+    parallel down the east side of the valley, replacing an earlier smaller Sahlān-Ḥammām
+    system; sites were aligned along it, and after diverting water from the river
+    it re-emptied just south of Tell Hammam et-Turkmān.
+  confidence: 3
+  notes: Eger's synthesis of Wilkinson's landscape survey; attested against SRC-0007.
+    The canal's identification with Hishām's 724 canal is treated as interpretation
+    (INT-0046).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0102

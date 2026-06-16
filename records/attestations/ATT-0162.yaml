@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0162
+  source: SRC-0010
+  entities_referenced:
+  - ENT-PLC-0099
+  - ENT-PLC-0091
+  - ENT-PLC-0093
+  provenance: primary_paraphrase
+  citation: Ibn Khurradādhbih, Kitāb al-Masālik wa-l-Mamālik, p. 96; reached via Eger
+    2015 (SRC-0007), p. 142, ch. 4 fn. 28
+  paraphrase: Ibn Khurradādhbih lists Tell Mahrē as a stop on the Raqqa-Ḥarrān road.
+  confidence: 4
+  notes: 'Transmission chain: Ibn Khurradādhbih, Masālik p. 96 -> Eger 2015 p. 142
+    (fn. 28).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0104

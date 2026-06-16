@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0155
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PLC-0094
+  - ENT-PLC-0010
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, I.2497 (Arabic) = trans. vol. 13, pp. 77-8; reached
+    via Eger 2015 (SRC-0007), p. 127, ch. 4 fn. 2
+  paraphrase: al-Ṭabarī states that Qarqīsiyā and al-Mawṣil were thughūr cities of
+    al-Kūfa in the early days of the conquest of ʿIrāq (638-9), evidence that the
+    Jazīra functioned as an initial frontier during the conquests.
+  confidence: 4
+  notes: 'Transmission chain: al-Ṭabarī, Taʾrīkh I.2497 -> Eger 2015 p. 127 (fn. 2).
+    Eger page recorded here per secondary-source-mediated extraction rule.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0099

@@ -1,0 +1,41 @@
+- record_type: place
+  id: ENT-PLC-0101
+  standardised_name: Bājarwān (Bāgharwān)
+  alternative_names:
+  - form: Bāgharwān
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: BS 108-110
+    language: en
+    script: Latn
+    name_type: alternative_transliteration
+  - form: Tall Damir al-Sharqī and al-Gharbī
+    language: ar
+    script: Arab
+    name_type: modern_name
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  environmental_setting: Twin site straddling the Balikh River (survey sites BS 108,
+    109 and 110 on both banks; Tall Damir al-Sharqī and al-Gharbī), forming a single
+    medium-sized settlement primarily dating to the ninth century. Compared by Eger
+    to the double site AS 29 on the Yaghra River in the Amuq.
+  overall_confidence: 3
+  analytical_summary: Bājarwān / Bāgharwān, a preexisting Roman-period town and one
+    of five named sites in the Balikh valley; a double (twin) settlement on either
+    side of the Balikh. A medium-sized center attested historically.
+  associated_entities:
+  - ENT-PLC-0095
+  - ENT-PLC-0025
+  linked_attestations:
+  - ATT-0166
+  notes: New entity. Eger compares it to AS 29 on the Yaghra (ENT-PLC-0025 in snapshot).
+    Snapshot search returned no Bājarwān match. Eger 2015 (SRC-0007) pp. 141-142.
+    Provisional ID pending minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

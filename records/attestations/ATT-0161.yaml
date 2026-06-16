@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0161
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0099
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), p. 142 (survey site BS 142)
+  paraphrase: Eger reports that the city wall of Tell Mahrē (Tell Sheikh Hassan) measured
+    450 x 450 m (20 ha), enclosing a central mound, church and small mosque; the Late
+    Roman precursor enclosed c. 7 ha, with main occupation evident from extensive
+    eighth- to tenth-century ceramics.
+  confidence: 4
+  notes: Survey/archaeological observation reported by Eger. Eger 2015 p. 142.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0104

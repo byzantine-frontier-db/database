@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0046
+  associated_entities:
+  - ENT-PLC-0097
+  - ENT-PERS-0019
+  scholar: Eger, A. A.
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange among Muslim
+    and Christian Communities (London: I.B. Tauris, 2015)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The major Balikh canal (Nahr al-Abbāra / Nahr Turkmān) may be identified
+    with one built by Hishām while caliph in 724, on the basis of the Syriac/Arabic
+    textual accounts (Agapius of Manbij, the anonymous Chronicle of 819) crediting
+    Hishām with diverting Euphrates water near Raqqa.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0170
+  - ATT-0171
+  - ATT-0172
+  - ATT-0158
+  notes: Eger's identification, expressly hedged ("may be identified"). Eger 2015
+    pp. 140-141.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

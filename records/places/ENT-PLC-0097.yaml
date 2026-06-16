@@ -1,0 +1,44 @@
+- record_type: place
+  id: ENT-PLC-0097
+  standardised_name: Nahr al-Abbāra / Nahr Turkmān (major Balikh canal)
+  alternative_names:
+  - form: Nahr al-Abbāra
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Nahr Turkmān
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: other
+  identification_status: probably_identified
+  identification_confidence: 3
+  environmental_setting: A straightened channel running parallel down the east side
+    of the Balikh Valley from its top, irrigating large areas; the dominant canal
+    of the sixth- to eighth-century Balikh landscape. After diverting water from the
+    river it re-emptied into it just south of Tell Hammam et-Turkmān; sites were conspicuously
+    aligned along it.
+  overall_confidence: 3
+  analytical_summary: The principal Balikh irrigation canal (Nahr al-Abbāra / Nahr
+    Turkmān), documented by Wilkinson's Western Jazira Archaeological Landscape Project.
+    It replaced an earlier, smaller Sahlān-Ḥammām canal system (Hellenistic to sixth
+    century). Eger reports the identification of this canal with one built by Hishām
+    as caliph in 724 — an interpretation recorded separately (see PROV-INT records)
+    and resting on the Agapius/Chronicle-of-819/Jarīr testimony.
+  associated_entities:
+  - ENT-PLC-0095
+  - ENT-PERS-0019
+  linked_attestations:
+  - ATT-0158
+  linked_interpretations:
+  - INT-0046
+  notes: New entity. place_type 'other' (no 'canal'/'irrigation_work' value in PlaceType
+    enum v1.0.0; candidate vocabulary extension noted for editorial review). The earlier
+    Sahlān-Ḥammām canal is mentioned only in passing and is deferred. Eger 2015 (SRC-0007)
+    pp. 140-141. Provisional ID pending minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

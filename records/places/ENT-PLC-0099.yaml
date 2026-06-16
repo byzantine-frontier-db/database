@@ -1,0 +1,45 @@
+- record_type: place
+  id: ENT-PLC-0099
+  standardised_name: Tell Mahrē (Tell Sheikh Hassan)
+  alternative_names:
+  - form: Tell Sheikh Hassan
+    language: en
+    script: Latn
+    name_type: modern_name
+  - form: Therimachon
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: BS 142
+    language: en
+    script: Latn
+    name_type: alternative_transliteration
+  place_type: fortification
+  identification_status: probably_identified
+  identification_confidence: 3
+  environmental_setting: Walled town on the Raqqa-Ḥarrān road; city wall 450 x 450
+    m (20 ha) enclosing a central mound, church and small mosque. The Late Roman precursor
+    was smaller, enclosing c. 7 ha. Main occupation evident from extensive eighth-
+    to tenth-century ceramics.
+  overall_confidence: 3
+  analytical_summary: Tell Mahrē (modern Tell Sheikh Hassan, possibly Greek Therimachon),
+    survey site BS 142, a fortified town on the Raqqa-Ḥarrān route. Ibn Khurradādhbih
+    lists it as a stop on that road; Yāqūt calls it a fortified town. The Therimachon
+    identification is Eger's tentative ('possibly'), hence probably_identified.
+  associated_entities:
+  - ENT-PLC-0091
+  - ENT-PLC-0093
+  linked_attestations:
+  - ATT-0161
+  - ATT-0162
+  - ATT-0163
+  notes: New entity. Not to be confused with Dionysius of Tell Maḥrē (person ENT-PERS-0034)
+    or the Pseudo-Dionysius chronicle (SRC-0028); this is the settlement. Snapshot
+    search returned no match. Eger 2015 (SRC-0007) pp. 141-142. Provisional ID pending
+    minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

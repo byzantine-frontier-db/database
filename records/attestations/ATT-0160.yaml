@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0160
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0098
+  - ENT-PERS-0025
+  - ENT-PERS-0032
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), p. 143
+  paraphrase: Eger states that Maslama b. ʿAbd al-Malik controlled the frontier from
+    Iskandarūna and Anṭākiya to the Balikh and was governor of the Jazīra (708-9);
+    the early ʿAbbāsid caliphs allowed the territory to remain in his family's possession,
+    and in 779-80 al-Mahdī stayed at the site.
+  confidence: 4
+  notes: Eger's narrative synthesis; underlying primary references (e.g. for al-Mahdī's
+    stay) not individually footnoted at this point. Eger 2015 p. 143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0103

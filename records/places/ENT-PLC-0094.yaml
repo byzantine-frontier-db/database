@@ -1,0 +1,42 @@
+- record_type: place
+  id: ENT-PLC-0094
+  standardised_name: Jazīra (al-Jazīra, northern Mesopotamia)
+  alternative_names:
+  - form: al-Jazīra
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: الجزيرة
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: region
+  identification_status: identified
+  identification_confidence: 5
+  frontier_role: Northern-Mesopotamian region between the Tigris and Euphrates, behind
+    the eastern thughūr; topographically a frontier hinterland analogous to the relationship
+    of the ʿawāṣim to the central thughūr. Administratively divided into three tribal
+    districts (Diyār Muḍar, Diyār Rabīʿa, Diyār Bakr).
+  environmental_setting: Region defined by the two principal Euphrates tributaries,
+    the Balikh (in the Diyār Muḍar) and the Khabūr (in the Diyār Rabīʿa), with intervening
+    pasturelands; mixed rain-fed and irrigated agriculture, strong pastoralist component.
+  overall_confidence: 5
+  analytical_summary: The Jazīra (northern Mesopotamia) is the overarching region
+    of Eger 2015 ch. 4. Though not formally part of the thughūr or ʿawāṣim provinces,
+    Eger treats it as a frontier hinterland; al-Ṭabarī notes Qarqīsiyā and al-Mawṣil
+    were thughūr cities of al-Kūfa in the early conquest. This record anchors the
+    Balikh-half settlement entities. The Diyār Rabīʿa / Khabūr material is deferred
+    to the Khabūr-half session.
+  linked_attestations:
+  - ATT-0155
+  notes: 'New entity. Snapshot search performed against standardised_name and alternative_names:
+    the snapshot contains ENT-PLC-0019 "Thughūr al-Jazariya" (the frontier DIVISION)
+    but no record for the Jazīra REGION itself; these are distinct (region vs administrative
+    frontier strip), so a new entity is minted rather than reusing ENT-PLC-0019. Eger
+    2015 (SRC-0007) pp. 127-131. Provisional ID pending canonical minting.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

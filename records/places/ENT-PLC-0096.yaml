@@ -1,0 +1,37 @@
+- record_type: place
+  id: ENT-PLC-0096
+  standardised_name: Harran Plain
+  alternative_names:
+  - form: Urfa-Harran Basin
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: region
+  identification_status: identified
+  identification_confidence: 5
+  environmental_setting: Broad lowland c. 400 m.a.s.l. bordered east by the Tektek
+    Mountains and west by low hills; sloping north (470 m) to south (345 m); 300-400
+    mm/annum rainfall, fertile, watered by the Jullab River and susceptible to flooding.
+    Forms one topographic unit with the Balikh valley. Wheat, lentils, chickpeas,
+    fruit and vegetables cultivated.
+  overall_confidence: 5
+  analytical_summary: The Harran Plain (Urfa-Harran Basin) is the northern, better-watered
+    half of the Balikh topographic unit, with the Balikh's springs rising within it.
+    In the Late Roman period its focal urban centres were Edessa (Ruhā) and Karrhai
+    (Ḥarrān); these were succeeded by Balikh-valley settlement in the Early Islamic
+    period.
+  associated_entities:
+  - ENT-PLC-0092
+  - ENT-PLC-0093
+  - ENT-PLC-0095
+  linked_attestations:
+  - ATT-0157
+  notes: New entity (the physiographic plain/basin, distinct from the town of Ḥarrān
+    = ENT-PLC-0093). Snapshot search returned no Harran Plain record. Eger 2015 (SRC-0007)
+    pp. 128-129. Provisional ID pending minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

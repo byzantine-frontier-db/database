@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0166
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0101
+  - ENT-PLC-0095
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), pp. 141-142 (survey sites BS 108, 109, 110)
+  paraphrase: Eger reports that BS 108-110 on both banks of the Balikh formed one
+    settlement, primarily ninth-century, identified as Bājarwān/Bāgharwān — a preexisting
+    Roman town, one of five named valley sites, and a medium-sized double centre compared
+    to AS 29 on the Yaghra in the Amuq.
+  confidence: 3
+  notes: Eger's synthesis of survey evidence and historical identification. Eger 2015
+    pp. 141-142.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0106

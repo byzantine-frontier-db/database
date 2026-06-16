@@ -1,0 +1,30 @@
+- record_type: person
+  id: ENT-PERS-0049
+  standardised_name: Justinian I
+  alternative_names:
+  - form: Flavius Petrus Sabbatius Iustinianus
+    language: la
+    script: Latn
+    name_type: standardised
+  - form: Ἰουστινιανός
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 5
+  analytical_summary: Justinian I, Eastern Roman emperor (r. 527-565). In the Balikh-half
+    material Eger notes only that Edessa (Ruhā) and Karrhai (Ḥarrān), the focal Late
+    Roman urban centres of the Harran Plain in the Osrhoene province, were fortified
+    by Justinian.
+  linked_attestations:
+  - ATT-0157
+  notes: New entity. Snapshot search returned no Justinian record. Role here limited
+    to the fortification of Edessa/Ḥarrān. Eger 2015 (SRC-0007) p. 140. Provisional
+    ID pending minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

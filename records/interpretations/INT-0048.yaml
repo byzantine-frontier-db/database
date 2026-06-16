@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0048
+  associated_entities:
+  - ENT-PLC-0098
+  - ENT-PERS-0050
+  - ENT-PERS-0025
+  scholar: Heidemann, S.
+  publication: '''Settlement Patterns, Economic Development and Archaeological Coin
+    Finds in Bilad al-Sham: The Case of Diyar Mudar'', in Residences, Castles, Settlements'
+  date: 2006
+  argument: The lack of coins of Maslama, against the many coins of the local governor
+    al-ʿAbbās b. Muḥammad (759-72), indicates that the Umayyad-phase site of Ḥiṣn
+    Maslama was possibly a self-sufficient agricultural estate (ḍayʿa) that was transformed
+    in the early ʿAbbāsid period into an administrative centre and/or market or way
+    station/garrison.
+  confidence: 3
+  supporting_evidence:
+  - ATT-0168
+  notes: Argument attributed by Eger to Heidemann (ch. 4 fn. 32-33). Recorded as an
+    interpretation of a named modern scholar reported by Eger; Heidemann's work is
+    not minted as a SourceRecord in this batch (scope discipline), so publication_source_id
+    is omitted. Eger 2015 p. 143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

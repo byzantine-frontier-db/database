@@ -1,0 +1,15 @@
+- record_type: observation
+  id: OBS-0107
+  proposition: A square enclosure of 250 m per side with a visible entry (survey site
+    BS 273), inhabited in the Early Islamic period in the north-east Balikh valley,
+    may be the site of the historically attested Dabana/Davana Castle.
+  associated_entities:
+  - ENT-PLC-0102
+  supporting_attestations:
+  - ATT-0167
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

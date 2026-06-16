@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0169
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0051
+  - ENT-PLC-0098
+  - ENT-PERS-0032
+  - ENT-PERS-0025
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), p. 143
+  paraphrase: Eger records that when al-Mahdī stayed at Ḥiṣn Maslama in 779-80, a
+    descendant of Maslama, the poet Muḥammad b. Yazīd al-Umawī (al-Ḥiṣnī), was still
+    living there, and the ʿAbbāsids spared his life out of the sympathy they bore
+    Maslama.
+  confidence: 3
+  notes: Eger's narrative; underlying primary source not footnoted at this point.
+    Eger 2015 p. 143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0103

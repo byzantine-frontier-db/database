@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0171
+  source: SRC-0029
+  entities_referenced:
+  - ENT-PERS-0019
+  - ENT-PLC-0097
+  - ENT-PLC-0044
+  provenance: primary_quotation
+  citation: Theophilus of Edessa, Chronicle, p. 224 (cited by Eger for the anonymous
+    Chronicle of 819); reached via Eger 2015 (SRC-0007), p. 141, ch. 4 fn. 23
+  paraphrase: The anonymous author of the Chronicle of 819 (cited by Eger via Theophilus
+    of Edessa, p. 224) records that Hishām diverted a river from the Euphrates to
+    irrigate the plantations and fields he made near it.
+  direct_quotation: '[Hishām] diverted a river from the Euphrates to irrigate the
+    plantations and the fields which he made near it'
+  confidence: 3
+  notes: 'Transmission chain: anonymous Chronicle of 819, cited by Eger as "Theophilus
+    of Edessa, Chronicle, p. 224" (ch. 4 fn. 23) -> Eger 2015 p. 141. Attested against
+    the SRC-0029 (Theophilus of Edessa) dossier as Eger cites it; the relationship
+    between Eger''s "Chronicle of 819" and the SRC-0029 Theophilus material is flagged
+    for editorial review (possible source-attribution discrepancy, cf. the Theophanes/Theophilus
+    issue noted in the Ch. 2 batch). Under-15-word fair-use extract from Eger''s rendering.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0109

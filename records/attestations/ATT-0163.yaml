@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0163
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0099
+  provenance: primary_paraphrase
+  citation: Yāqūt, Muʿjam al-buldān; reached via Eger 2015 (SRC-0007), p. 142
+  paraphrase: Yāqūt calls Tell Mahrē a fortified town.
+  confidence: 3
+  notes: 'Transmission chain: Yāqūt, Muʿjam al-buldān -> Eger 2015 p. 142. Eger gives
+    no volume/page for this specific Yāqūt statement at this point; location within
+    Yāqūt is [citation needed: volume and page].'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0104

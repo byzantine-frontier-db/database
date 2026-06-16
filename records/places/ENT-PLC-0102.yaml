@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0102
+  standardised_name: Dabana / Davana Castle
+  alternative_names:
+  - form: Davana
+    language: en
+    script: Latn
+    name_type: alternative_transliteration
+  - form: BS 273
+    language: en
+    script: Latn
+    name_type: alternative_transliteration
+  place_type: fortification
+  identification_status: hypothetically_identified
+  identification_confidence: 2
+  environmental_setting: A site with square enclosure walls of 250 m per side and
+    a visible entry, in the north-east part of the Balikh valley, inhabited in the
+    Early Islamic period.
+  overall_confidence: 2
+  analytical_summary: Dabana / Davana Castle, named among the Balikh-valley sites
+    known from historical accounts. Eger tentatively suggests survey site BS 273 (a
+    square 250 m-per-side enclosure in the north-east valley) may be its site; the
+    identification is hypothetical.
+  associated_entities:
+  - ENT-PLC-0095
+  linked_attestations:
+  - ATT-0167
+  notes: New entity, low confidence. The other name-listed Balikh sites (Leontopolis,
+    the Kadar/Amud Monastery) are deferred as minor toponyms per scope discipline.
+    Eger 2015 (SRC-0007) p. 143. Provisional ID pending minting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

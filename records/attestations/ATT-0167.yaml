@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0167
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0102
+  provenance: modern_identification
+  citation: Eger 2015 (SRC-0007), p. 143 (survey site BS 273)
+  paraphrase: Eger notes Dabana/Davana Castle among the historically attested Balikh
+    sites and tentatively suggests that survey site BS 273 — a square enclosure of
+    250 m per side with a visible entry in the north-east valley, inhabited in the
+    Early Islamic period — may be its location.
+  confidence: 2
+  notes: Hypothetical identification by Eger. Eger 2015 p. 143.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0107

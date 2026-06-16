@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0172
+  source: SRC-0035
+  entities_referenced:
+  - ENT-PERS-0019
+  - ENT-PLC-0044
+  provenance: primary_quotation
+  citation: Jarīr, Dīwān Jarīr (Cairo, 1969), vol. I, p. 345, lines 24-5; reached
+    via Eger 2015 (SRC-0007), p. 127 (epigraph), ch. 4 fn. 1
+  paraphrase: The chapter epigraph from Jarīr praises the Caliph Hishām as blessed
+    with canals flowing from the hump of the Euphrates, among them the Hanī and another
+    flowing at Qarqarā.
+  confidence: 3
+  notes: 'Transmission chain: Jarīr, Dīwān (Cairo, 1969) I.345 ll.24-5 -> Eger 2015
+    p. 127 (fn. 1; translation aided by T. Qutbuddin). References SRC-0035. Panegyric,
+    corroborating Hishām''s association with Euphrates/Balikh canal-building. Paraphrased
+    rather than quoted at length to respect translation copyright.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0109
