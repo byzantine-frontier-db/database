@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0111
+  standardised_name: Dāliya
+  alternative_names:
+  - form: Dāliya
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: al-Graiye
+    language: ar
+    script: Arab
+    name_type: modern_name
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Station on the ʿIraq-Jazīra land route at the Khabūr-Middle Euphrates
+    confluence region.
+  overall_confidence: 3
+  analytical_summary: Town (its name meaning 'water-wheel') identified by Eger with
+    al-Graiye/Site 44, occupied mid eighth to twelfth century, where the foundation
+    of a naʿūra (water-wheel) within the river was found, matching the town's namesake.
+  linked_attestations:
+  - ATT-0180
+  - ATT-0182
+  notes: Provisional ID per governance §5.1.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

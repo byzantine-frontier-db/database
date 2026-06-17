@@ -1,0 +1,41 @@
+- record_type: place
+  id: ENT-PLC-0109
+  standardised_name: Mawṣil
+  alternative_names:
+  - form: Mosul
+    language: en
+    script: Latn
+    name_type: modern_name
+  - form: al-Mawṣil
+    language: ar
+    script: Arab
+    name_type: transliteration
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.34
+    longitude: 43.13
+    crs: EPSG:4326
+    coordinate_source: Identification with modern Mosul
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 5
+  frontier_role: Eastern terminus of the Raqqa-Mawṣil caravan road traversing the
+    upper Khabūr; SE anchor of the Mawṣil-Nisibin route.
+  overall_confidence: 4
+  analytical_summary: Major Tigris city named by Eger as the eastern terminus of the
+    main caravan road traversing the upper Khabūr and connecting Raqqa to Mawṣil,
+    and as the south-eastern anchor of the Mawṣil-Nisibin route across the Khabūr
+    triangle.
+  linked_attestations:
+  - ATT-0178
+  notes: Provisional ID per governance §5.1.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

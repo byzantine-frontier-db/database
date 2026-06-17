@@ -1,0 +1,40 @@
+- record_type: event
+  id: ENT-EVT-0029
+  standardised_name: Foundation of Rāfiqa as a garrison town (772)
+  event_type:
+    primary: construction_infrastructure
+    sub: fortress_construction
+    secondary:
+    - primary: military
+      sub: garrisoning
+  start_date:
+    start: 772
+    end: 772
+    precision: year
+    confidence: 4
+    primary_dating_system: CE
+  associated_places:
+  - ENT-PLC-0112
+  - ENT-PLC-0091
+  participants:
+  - ENT-PERS-0038
+  political_entities_involved:
+  - ENT-POL-0002
+  description: al-Manṣūr erected Rāfiqa beside Raqqa, garrisoned by Khurāsānī troops,
+    as a headquarters for Byzantine raids and to establish an Abbasid frontier presence.
+    Balādhurī reports the site had no earlier remains.
+  overall_confidence: 4
+  analytical_summary: Deliberate foundation of a garrison town (Rāfiqa) by al-Manṣūr
+    in 772, adjoining Raqqa; possibly the only regional frontier settlement newly
+    founded purely as a garrison town.
+  linked_attestations:
+  - ATT-0176
+  - ATT-0183
+  notes: Provisional ID per governance §5.1.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

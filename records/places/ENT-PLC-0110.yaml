@@ -1,0 +1,46 @@
+- record_type: place
+  id: ENT-PLC-0110
+  standardised_name: Raḥba
+  alternative_names:
+  - form: Raḥba Mālik b. Ṭawq
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Mayādīn
+    language: ar
+    script: Arab
+    name_type: modern_name
+  place_type: city
+  identification_status: probably_identified
+  identification_confidence: 3
+  coordinates:
+    latitude: 35.02
+    longitude: 40.45
+    crs: EPSG:4326
+    coordinate_source: Eger's identification of Raḥba with the site of Mayādīn/Site
+      51 (Middle Euphrates survey)
+    coordinate_method: scholarly_identification
+    coordinate_precision: locality
+    uncertainty_radius_m: 6000
+    coordinate_confidence: 3
+  frontier_role: Euphrates river-port town and station on the ʿIraq-Jazīra land route;
+    founded as an early Abbasid economic centre.
+  overall_confidence: 3
+  analytical_summary: Town (Raḥba Mālik b. Ṭawq) identified by Eger with Mayādīn/Site
+    51, occupied early ninth to mid eleventh century. Textual tradition holds it was
+    founded by a leader of the Banū Taghlib (Mālik b. Ṭawq) under al-Maʾmūn (813-33),
+    developed as a river-port (furḍa) and commercial centre.
+  linked_attestations:
+  - ATT-0180
+  - ATT-0181
+  linked_interpretations:
+  - INT-0057
+  notes: Provisional ID per governance §5.1. Coordinates approximate (al-Raḥba/Mayādīn
+    area on the middle Euphrates).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

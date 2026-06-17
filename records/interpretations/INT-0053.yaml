@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0053
+  associated_entities:
+  - ENT-PLC-0104
+  scholar: Ur, J. A.
+  publication: Tell Hamoukar survey (reported in Eger 2015)
+  date: 2010
+  argument: The Tell Hamoukar survey shows settlement growth beginning in the Late
+    Sasanian-Early Islamic period, with many consolidated, largely unfortified sites
+    over 1 ha; some newly founded in the eighth-tenth centuries while others were
+    abandoned.
+  confidence: 3
+  notes: Modern survey reported by Eger; no publication_source_id per session-8 convention.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

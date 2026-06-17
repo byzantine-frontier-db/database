@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0184
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0114
+  - ENT-PERS-0053
+  observations_supported:
+  - OBS-0115
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 152-153 (Nahr Saʿīd).
+  paraphrase: Eger reports that textual evidence attributes the digging of the Nahr
+    Saʿīd canal to Saʿīd al-Khayr b. ʿAbd al-Malik, whereas soundings, ceramics and
+    radiocarbon uniformly indicate a ninth-century date, so the archaeological and
+    textual evidence diverge.
+  location_within_source: Chapter 4, pp. 152-153
+  confidence: 3
+  notes: 'Eger supplies no footnote for the textual attribution within this page range:
+    [citation needed: primary source attributing Nahr Saʿīd to Saʿīd al-Khayr b. ʿAbd
+    al-Malik].'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

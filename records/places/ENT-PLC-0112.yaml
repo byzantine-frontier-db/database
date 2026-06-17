@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0112
+  standardised_name: Rāfiqa
+  alternative_names:
+  - form: al-Rāfiqa
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Abbasid garrison town adjoining Raqqa; built as a headquarters for
+    Byzantine raids and to establish an Abbasid presence on the frontier.
+  overall_confidence: 4
+  analytical_summary: Garrison town founded by al-Manṣūr (772) immediately beside
+    Raqqa and garrisoned by Khurāsānī troops. Balādhurī reports it was newly founded
+    on a site without ancient remains; with Raqqa it became a major early Abbasid
+    focus, especially under Hārūn al-Rashīd (temporary capital 796-808).
+  linked_attestations:
+  - ATT-0176
+  - ATT-0183
+  notes: Provisional ID per governance §5.1. The Raqqa-Rāfiqa-Ḥarrān "Towns" material
+    (Eger pp. 154-155) sits in the Diyār Muḍar; partial overlap with the Balikh-half
+    session is possible and is flagged for editorial de-duplication.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

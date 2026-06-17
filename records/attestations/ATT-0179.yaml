@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0179
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0107
+  observations_supported:
+  - OBS-0116
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 146-147 (Tell Brak way station).
+  paraphrase: Eger describes the Early Islamic way station at Tell Brak — a fortified
+    enclosure 91 m per side (0.73 ha) with 2.6 m walls, towers and a 2 m gate, only
+    8th-10th-c. ceramics over c.14 ha, and an associated canal from the Nahr Jaghjagh.
+  location_within_source: Chapter 4, pp. 146-147
+  confidence: 4
+  notes: Eger reports the survey of Ur, Karsgaard and Oates (recorded as INT-0054)
+    and flags a dating dispute (Poidebard/Gregory) which is deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

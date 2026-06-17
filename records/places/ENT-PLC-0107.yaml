@@ -1,0 +1,40 @@
+- record_type: place
+  id: ENT-PLC-0107
+  standardised_name: Tell Brak
+  alternative_names:
+  - form: Tell Brak
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 5
+  coordinates:
+    latitude: 36.67
+    longitude: 41.06
+    crs: EPSG:4326
+    coordinate_source: Well-known archaeological tell, Wadi Jaghjagh, NE Syria
+    coordinate_method: archaeological_survey
+    coordinate_precision: site
+    uncertainty_radius_m: 500
+    coordinate_confidence: 5
+  frontier_role: Early Islamic way station on the Khabūr-triangle route network, reusing
+    an earlier (Roman/Late Roman) castellum.
+  overall_confidence: 4
+  analytical_summary: Multi-period tell reused as an Early Islamic way station. Eger
+    reports a fortified enclosure 91 m per side (0.73 ha), 2.6 m-thick walls, regularly
+    spaced towers and a 2 m gateway, with only 8th-10th-century ceramics scattered
+    over c.14 ha and an associated canal drawn from the Nahr Jaghjagh. The pre-Islamic
+    vs Early Islamic dating of the enclosure is disputed in the literature Eger cites
+    (deferred).
+  linked_attestations:
+  - ATT-0179
+  notes: Provisional ID per governance §5.1. Dating dispute (Poidebard/Gregory vs
+    Early Islamic) deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

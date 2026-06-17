@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0114
+  standardised_name: Nahr Saʿīd
+  alternative_names:
+  - form: Nahr Saʿīd
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: river
+  identification_status: approximately_identified
+  identification_confidence: 3
+  frontier_role: Early Islamic irrigation canal on the west bank of the Middle Euphrates,
+    parallel to the river for c.33 km.
+  overall_confidence: 3
+  analytical_summary: Constructed canal running parallel to the Euphrates on its western
+    bank for c.33 km, with 14 associated sites (several on tells). Textual tradition
+    attributes its digging to the Umayyad prince Saʿīd al-Khayr b. ʿAbd al-Malik,
+    but soundings, ceramics and radiocarbon uniformly indicate a ninth-century date;
+    Eger suggests an Umayyad origin developed under Abbasid ascendancy.
+  linked_attestations:
+  - ATT-0180
+  - ATT-0184
+  linked_interpretations:
+  - INT-0056
+  notes: Provisional ID per governance §5.1.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

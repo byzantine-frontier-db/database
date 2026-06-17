@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0181
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0110
+  - ENT-EVT-0030
+  - ENT-PERS-0054
+  - ENT-PERS-0039
+  observations_supported:
+  - OBS-0118
+  provenance: modern_identification
+  citation: Eger 2015, p. 153 (Raḥba = Mayādīn/Site 51).
+  paraphrase: Eger identifies Raḥba (Raḥba Mālik b. Ṭawq) with the site of Mayādīn/Site
+    51 (early ninth to mid eleventh century), reporting the textual tradition that
+    it was founded by a Banū Taghlib leader under al-Maʾmūn and had a river-port (furḍa).
+  location_within_source: Chapter 4, p. 153
+  confidence: 3
+  notes: Eger states the archaeological dates corroborate textual evidence but supplies
+    no footnote for the foundation tradition within this page range.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

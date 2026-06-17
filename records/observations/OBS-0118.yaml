@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0118
+  proposition: Raḥba (Raḥba Mālik b. Ṭawq) is identified with Mayādīn/Site 51, occupied
+    from the early ninth to the mid eleventh century.
+  associated_entities:
+  - ENT-PLC-0110
+  - ENT-PERS-0054
+  supporting_attestations:
+  - ATT-0181
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

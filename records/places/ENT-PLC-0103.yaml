@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0103
+  standardised_name: Diyār Muḍar
+  alternative_names:
+  - form: Diyār Muḍar
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Western administrative division of the Jazīra, fronting the upper
+    Euphrates/Balikh; Raqqa its qaṣaba and one of the capitals of the ʿawāṣim.
+  overall_confidence: 4
+  analytical_summary: Administrative division of the Jazīra in which Raqqa served
+    as provincial capital (qaṣaba). Eger treats the Balikh, Raqqa-Rāfiqa and Ḥarrān
+    as its principal settlements. Minted from the Khabūr half; the cognate division
+    Diyār Rabīʿa (anticipated for the Khabūr proper) is NOT attested in pp. 143-157
+    and is deferred.
+  linked_attestations:
+  - ATT-0183
+  notes: 'Provisional ID per governance §5.1. Note: the geographic-context brief anticipated
+    Diyār Rabīʿa for the Khabūr; Eger uses only "Diyār Muḍar" in this page range,
+    so Diyār Rabīʿa was not minted.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,15 @@
+- record_type: observation
+  id: OBS-0119
+  proposition: Dāliya is identified with al-Graiye/Site 44, where the foundation of
+    a naʿūra (water-wheel) within the river was found, matching the town's name.
+  associated_entities:
+  - ENT-PLC-0111
+  supporting_attestations:
+  - ATT-0182
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

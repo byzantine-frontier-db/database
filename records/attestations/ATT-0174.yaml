@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0174
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0104
+  - ENT-PLC-0106
+  - ENT-PLC-0105
+  observations_supported:
+  - OBS-0111
+  provenance: primary_paraphrase
+  citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (1990 ed.), vol. 3, p. 15; reached via
+    Eger 2015, p. 147 n. 43.
+  paraphrase: Yāqūt records that the Khabūr from Raʾs al-ʿAyn to Qarqīsiyā was in
+    the past entirely navigable by small boats, so that people could visit each other's
+    gardens and orchards, implying a dense network of canals.
+  location_within_source: Muʿjam al-buldān, vol. 3, p. 15
+  confidence: 4
+  notes: Secondary route Eger 2015, p. 147. Paraphrase pending verification against
+    the printed edition.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

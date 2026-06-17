@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0055
+  associated_entities:
+  - ENT-PLC-0104
+  scholar: Decker, M.
+  publication: Reported in Eger 2015 (lower-Khabūr canal studies)
+  date: 2009
+  argument: The c.170 km of canals along the lower Khabūr were likely all dug at one
+    time, in the Neo-Assyrian period (c.900-600 BCE), with the distributed site network
+    densifying from the Parthian-Islamic period; Decker estimates the canals could
+    irrigate c.30,000 ha and support c.62,000 inhabitants.
+  confidence: 3
+  notes: Modern scholarship reported by Eger; no publication_source_id per session-8
+    convention.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

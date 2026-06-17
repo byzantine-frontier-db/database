@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0051
+  associated_entities:
+  - ENT-PLC-0094
+  scholar: Robinson, C.
+  publication: Empire and Elites after the Muslim Conquest (Cambridge, 2000)
+  date: 2000
+  argument: On Robinson's view (as reported by Eger), Early Islamic settlement in
+    the Jazīra did not generate the same urbanisation as occurred along the Tigris,
+    and such Muslim settlement as existed was shaped by opportunism and necessity
+    rather than by the enthusiasm of the Qurashī elite.
+  confidence: 2
+  notes: Counter-position that Eger rebuts. Reported via Eger; no publication_source_id
+    per session-8 convention for modern scholars. Robinson's wording paraphrased to
+    respect copyright.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

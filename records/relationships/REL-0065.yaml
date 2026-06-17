@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0065
+  type: belongs_to
+  source_entity: ENT-PLC-0091
+  target_entity: ENT-PLC-0103
+  confidence: 4
+  linked_attestations:
+  - ATT-0183
+  notes: Raqqa was the qaṣaba (provincial capital) of the Diyār Muḍar.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,38 @@
+- record_type: place
+  id: ENT-PLC-0106
+  standardised_name: Raʾs al-ʿAyn
+  alternative_names:
+  - form: Raʾs al-ʿAyn
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 36.85
+    longitude: 40.07
+    crs: EPSG:4326
+    coordinate_source: Scholarly identification with modern Raʾs al-ʿAyn / Serê Kaniyê
+      at the Khabūr headwaters
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 3000
+    coordinate_confidence: 4
+  frontier_role: Principal town of the western Khabūr at the river's headwaters; node
+    on the Raqqa-Mawṣil caravan road.
+  overall_confidence: 4
+  analytical_summary: Main town of the western Khabūr, at the spring-fed headwaters
+    of the river. Eger notes the Islamic settlement lay north of the Late Roman period
+    site. Yāqūt describes the Khabūr as once navigable downstream from here to Qarqīsiyā.
+  linked_attestations:
+  - ATT-0174
+  - ATT-0178
+  notes: Provisional ID per governance §5.1.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,47 @@
+- record_type: place
+  id: ENT-PLC-0105
+  standardised_name: Qarqīsiyā
+  alternative_names:
+  - form: Circesium
+    language: la
+    script: Latn
+    name_type: historical_attestation
+  - form: Kirkesion
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: al-Buṣayra
+    language: ar
+    script: Arab
+    name_type: modern_name
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  coordinates:
+    latitude: 35.15
+    longitude: 40.43
+    crs: EPSG:4326
+    coordinate_source: Scholarly identification of Qarqīsiyā/Circesium with al-Buṣayra
+      at the Khabūr-Euphrates confluence
+    coordinate_method: scholarly_identification
+    coordinate_precision: settlement
+    uncertainty_radius_m: 4000
+    coordinate_confidence: 4
+  frontier_role: Town at the Khabūr-Euphrates confluence; a station on the ʿIraq-Jazīra
+    land route.
+  overall_confidence: 4
+  analytical_summary: Town at the confluence of the Khabūr and Euphrates (Greek Kirkesion),
+    around which the few Late Roman sites of the Middle Euphrates survey clustered.
+    Eger lists it among the main confluence towns functioning as stations on the land
+    route linking ʿIraq and the Jazīra.
+  linked_attestations:
+  - ATT-0174
+  - ATT-0180
+  notes: Provisional ID per governance §5.1. Eger writes "Qarqīsiyā (Buṣayra)".
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

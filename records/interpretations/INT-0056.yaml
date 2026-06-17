@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0056
+  associated_entities:
+  - ENT-PLC-0114
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (I.B. Tauris, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Eger reconciles the textual attribution of the Nahr Saʿīd to the Umayyad
+    Saʿīd al-Khayr b. ʿAbd al-Malik with its ninth-century archaeological dating by
+    proposing the canal may have been begun by the Umayyads but developed later as
+    part of the Abbasid ascendancy in the region.
+  supporting_evidence:
+  - ATT-0184
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

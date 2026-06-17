@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0052
+  associated_entities:
+  - ENT-PLC-0104
+  scholar: Wilkinson, T. J.
+  publication: Tell Beydar regional survey (reported in Eger 2015)
+  date: 2001
+  argument: The Tell Beydar survey of the western Khabūr shows a drop in site numbers
+    from the Sasanian period, attributed to a low sedentary population, with alluviation
+    on the valley floors likely obscuring some sites.
+  confidence: 3
+  notes: Modern survey reported by Eger; no publication_source_id per session-8 convention.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

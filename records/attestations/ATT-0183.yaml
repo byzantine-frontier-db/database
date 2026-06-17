@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0183
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0103
+  - ENT-PLC-0112
+  - ENT-EVT-0029
+  - ENT-PLC-0091
+  - ENT-PLC-0093
+  - ENT-PERS-0038
+  - ENT-PERS-0018
+  observations_supported:
+  - OBS-0113
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 154-155 (Towns).
+  paraphrase: Eger names Raqqa, Rāfiqa and Ḥarrān as the large settlements of the
+    Diyār Muḍar, with Raqqa its qaṣaba; Rāfiqa was erected by al-Manṣūr (772) as a
+    garrison, and the twin towns became an early Abbasid focus, made a temporary capital
+    by Hārūn al-Rashīd (796-808).
+  location_within_source: Chapter 4, pp. 154-155
+  confidence: 4
+  notes: Diyār Muḍar / Raqqa-Rāfiqa-Ḥarrān material overlaps the Balikh-half session's
+    likely coverage; flagged for editorial de-duplication.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

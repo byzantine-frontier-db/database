@@ -1,0 +1,35 @@
+- record_type: place
+  id: ENT-PLC-0113
+  standardised_name: Nahr Dawrīn
+  alternative_names:
+  - form: Nahr Dawrīn
+    language: ar
+    script: Arab
+    name_type: standardised
+  - form: Dawrīn
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  place_type: river
+  identification_status: approximately_identified
+  identification_confidence: 3
+  frontier_role: Major Early Islamic irrigation canal on the east bank of the Middle
+    Euphrates near the Khabūr confluence.
+  overall_confidence: 3
+  analytical_summary: Constructed irrigation canal traced intermittently for c.50
+    km along the east bank of the Middle Euphrates; some 36 sites lay along it (26
+    dating from the 7th-8th c.). Not attested under this name in historical accounts,
+    but al-Ṭabarī mentions a desolate land called Dawrīn, with its villages, granted
+    to Hishām and made a revenue estate.
+  linked_attestations:
+  - ATT-0175
+  - ATT-0180
+  notes: Provisional ID per governance §5.1. place_type 'river' used for a constructed
+    canal, consistent with existing Nahr- entities in the corpus.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

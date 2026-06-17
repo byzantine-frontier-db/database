@@ -1,0 +1,32 @@
+- record_type: interpretation
+  id: INT-0050
+  associated_entities:
+  - ENT-PLC-0104
+  - ENT-PLC-0095
+  - ENT-PLC-0094
+  - ENT-PLC-0103
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (I.B. Tauris, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The Balikh, the Middle Euphrates/Khabūr confluence and the western/central
+    Khabūr were unusual micro-regions, showing roughly twice (or more) the typical
+    proportion of Early Islamic to Late Roman sites — scanty post-conquest occupation
+    followed by rapid early Abbasid settlement growth, much of it canal-irrigated.
+    This archaeological pattern complicates and challenges the view that Jaziran Muslim
+    settlement was driven by opportunism and desperation rather than elite enthusiasm.
+  supporting_evidence:
+  - ATT-0178
+  - ATT-0180
+  counter_evidence:
+  - ATT-0177
+  confidence: 4
+  notes: Eger's central thesis for the chapter; presented in his Conclusions (pp.
+    155-157) explicitly against Robinson (INT-0051).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

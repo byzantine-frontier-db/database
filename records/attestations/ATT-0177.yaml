@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0177
+  source: SRC-0034
+  entities_referenced:
+  - ENT-PLC-0095
+  observations_supported:
+  - OBS-0114
+  provenance: primary_paraphrase
+  citation: Ibn Serapion, Description of Mesopotamia and Baghdad, section III, p.
+    12 (Arabic) / p. 55 (trans. Le Strange); reached via Eger 2015, p. 155 n. 55.
+  paraphrase: Ibn Serapion describes the Balikh as rich in estates (ḍiyāʿ), rural
+    districts (rasātīq) and gardens (basātīn), implying a densely populated area.
+  location_within_source: Description of Mesopotamia and Baghdad, section III
+  confidence: 3
+  notes: Secondary route Eger 2015, p. 155. Concerns the Balikh (ENT-PLC-0095); appears
+    in this page range within Eger's Conclusions.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

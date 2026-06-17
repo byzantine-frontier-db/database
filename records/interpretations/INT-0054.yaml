@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0054
+  associated_entities:
+  - ENT-PLC-0107
+  scholar: Ur, J. A.; Karsgaard, P.; Oates, J.
+  publication: Tell Brak suburban survey (reported in Eger 2015)
+  date: 2011
+  argument: At the Tell Brak way station, a canal drawing water from the Nahr Jaghjagh,
+    with three perpendicular offshoots between river and station, indicates a focus
+    of cultivated fields around the site.
+  supporting_evidence:
+  - ATT-0179
+  confidence: 3
+  notes: Modern survey reported by Eger; no publication_source_id per session-8 convention.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

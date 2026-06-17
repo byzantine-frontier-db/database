@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0176
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0112
+  - ENT-EVT-0029
+  - ENT-PERS-0038
+  observations_supported:
+  - OBS-0113
+  provenance: primary_quotation
+  citation: al-Balādhurī, Futūḥ al-buldān (1987 ed.), p. 247; reached via Eger 2015,
+    p. 154 n. 50.
+  direct_quotation: wa lam yakun al-Rāfiqa athar qadīm (transliteration; "Rāfiqa had
+    no ancient remains")
+  original_language_quotation:
+    text: ولم يكن للرافقة أثر قديم
+    language: ar
+    script: Arab
+  paraphrase: Balādhurī indicates Rāfiqa was a deliberate new foundation, with no
+    pre-existing ancient settlement on the site.
+  location_within_source: Futūḥ al-buldān, p. 247
+  confidence: 4
+  notes: Secondary route Eger 2015, p. 154. Short phrase from a public-domain edition;
+    original Arabic reconstructed from the transliteration Eger supplies and flagged
+    for verification against the printed text.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

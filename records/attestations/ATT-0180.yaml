@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0180
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0105
+  - ENT-PLC-0110
+  - ENT-PLC-0111
+  - ENT-PLC-0113
+  - ENT-PLC-0114
+  observations_supported:
+  - OBS-0117
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 152-154 (Euphrates-Khabūr confluence; Towns).
+  paraphrase: Eger identifies Qarqīsiyā (Buṣayra), Raḥba and Dāliya as the main known
+    towns of the Khabūr/Middle Euphrates confluence functioning as stations on the
+    land route connecting ʿIraq and the Jazīra, and describes the Nahr Dawrīn and
+    Nahr Saʿīd canal systems on either bank of the Euphrates.
+  location_within_source: Chapter 4, pp. 152-154
+  confidence: 4
+  notes: Anchors the confluence-town and canal entities to Eger's discussion.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true

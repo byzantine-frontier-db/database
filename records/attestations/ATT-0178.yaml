@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0178
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0104
+  - ENT-PLC-0106
+  - ENT-PLC-0108
+  - ENT-PLC-0109
+  - ENT-PLC-0094
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 143-148 (Settlement in the Khabūr Valley).
+  paraphrase: Eger synthesises the Tell Beydar, Tell Hamoukar, Tell Leilan and North
+    Jazira surveys to characterise the Khabūr valley's Early Islamic settlement, and
+    frames the western Khabūr around Raʾs al-ʿAyn with the Raqqa-Mawṣil and Mawṣil-Nisibin
+    route network.
+  location_within_source: Chapter 4, pp. 143-148
+  confidence: 4
+  notes: Anchors the Khabūr River, Raʾs al-ʿAyn, Naṣībīn and Mawṣil entities to Eger's
+    discussion. Detailed survey arguments are recorded as separate InterpretationRecords.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis (AI-assisted extraction)
+    workflow_state: draft
+    editorial_review_required: true
