@@ -20,11 +20,13 @@
   linked_attestations:
   - ATT-0146
   - ATT-0153
+  - ATT-0176
+  - ATT-0183
   notes: 'Entity search: absent from the supplied snapshot persons list (ENT-PERS-0001..0037);
     no match. Minted provisionally as ENT-PERS-0038.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
       pending
