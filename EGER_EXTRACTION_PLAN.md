@@ -85,3 +85,8 @@ Apply the editorial workflow rules:
 6. Per governance, every record needs a SourceRecord -- if Eger cites a new primary not yet in the snapshot, draft a new PROV-SRC- SourceRecord.
 
 Produce all records as a single YAML list. End with a summary noting record counts by type, cross-corpus links to existing entities (by canonical ID from snapshot), items deferred, and any unresolved disagreements.
+
+
+## High-priority follow-up: Umayyad polity gap
+
+Across sessions 7-10, the corpus has accumulated multiple records whose `political_affiliation` was omitted because no Umayyad polity entity exists in the schema (ENT-POL-0001 Byzantine, ENT-POL-0002 Abbasid only). Affected persons include: Marwān II (ENT-PERS-0043), Yazīd II (0044), ʿAbd al-Malik (0045), ʿUbayd Allāh ibn ʿAbd al-Malik (0046), Sulaymān ibn ʿAbd al-Malik (0035), Maslama (0025), Hishām (0019), al-Walīd I (0056), al-Walīd II (0057), ʿUmar II (0055), Yazīd I (0059), and others. Recommended action: mint **ENT-POL-0003 Umayyad Caliphate** in a dedicated maintenance session, then run a back-fill script to populate `political_affiliation` on all Umayyad-era PersonRecords. Note this should be done before any extraction that adds significant new Umayyad material (none expected in Eger's remaining chapters but worth doing soon for corpus consistency).
