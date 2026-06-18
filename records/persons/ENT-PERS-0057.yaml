@@ -9,7 +9,7 @@
   - ATT-0199
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: curtis-ai-extraction
     workflow_state: draft
@@ -19,7 +19,9 @@
     language: ar
     script: Arab
     name_type: regnal_name
-  political_affiliation: ENT-POL-0002
+  political_affiliation:
+  - ENT-POL-0002
+  - ENT-POL-0003
   offices_held:
   - office: Caliph
     valid_from: 743
