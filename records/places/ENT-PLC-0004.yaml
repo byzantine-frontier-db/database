@@ -46,6 +46,7 @@
     record_version: 1.5.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
+    editorial_review_required: true
   linked_interpretations:
   - INT-0014
   - INT-0015
