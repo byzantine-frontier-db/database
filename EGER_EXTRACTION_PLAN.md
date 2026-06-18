@@ -18,7 +18,7 @@ Target pace: one session per day
 | 7 | Ch. 3 Eastern Thughur (NE Anatolia, dissertation core) | 102-126 | EXTRACTED | 87 | 4926ef9 | pending |
 | 8 | Ch. 4 part A (Balikh) | 127-142 | EXTRACTED | 50 | bd09bee | pending |
 | 9 | Ch. 4 part B (Khabur) | 143-157 | EXTRACTED | 47 | 42f9277 | pending |
-| 10 | Ch. 5 Western Thughur (Cilicia) | 158-182 | pending | | | |
+| 10 | Ch. 5 Western Thughur (Cilicia) | 158-182 | EXTRACTED | 114 | 2fbdb8f | pending |
 | 11 | Part 2 intro + Ch. 6 (Late Roman prologue) | 183-197 | pending | | | |
 | 12 | Ch. 7 part A (Hydraulic Villages) | 198-220 | pending | | | |
 | 13 | Ch. 7 part B | 221-245 | pending | | | |
