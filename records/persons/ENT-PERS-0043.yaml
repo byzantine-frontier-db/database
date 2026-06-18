@@ -12,13 +12,14 @@
     as ruler associated with Hisn Ziyad.
   linked_attestations:
   - ATT-0153
+  - ATT-0197
   notes: 'Entity search: absent from snapshot; minted provisionally. political_affiliation
     deliberately omitted: no Umayyad ENT-POL- entity exists in the snapshot (only
     ENT-POL-0001 Byzantine, ENT-POL-0002 Abbasid). Flagged for Technical Lead to mint
     an Umayyad political entity.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: AI-assisted extraction (Eger 2015 ch.3 batch); contributor review
       pending
