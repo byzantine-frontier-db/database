@@ -53,6 +53,60 @@ Target pace: one session per day
 - Session 2 (Introduction): 11 records, 6 entities back-referenced including Heraklios merge into ENT-PERS-0016.
 - Session 3 (Part 1 intro + Ch. 1, pp. 23-68): 88 records, 3 entities back-referenced (ENT-PLC-0004, 0009, 0010); ATT-0087 orphan fix on ENT-PLC-0020.
 
+## Part 1 milestone (completed)
+
+**Date of completion**: 2026-06-17 (the day's third extraction; sessions 1, 2, 3, 5, 6, 7, 8, 9, 10 across June 2026).
+
+**Material covered**: Eger 2015 Introduction, Part 1 introduction, Chapters 1-5 of Part 1 ("The Syro-Anatolian Thughur"), and Chapter 8 of Part 2 ("The Byzantine Frontier", extracted out of order as the original pilot extension).
+
+**Pages extracted**: 1-126, 158-182, 246-263 (~166 of Eger's 310 pages, ~54% of the book) — but Part 1 is now complete.
+
+**Corpus state after Part 1 + maintenance**:
+- Total records: **739**
+- Sources: 41
+- Persons: 58
+- Places (incl. polities): 143
+- Events: 30
+- Observations: 144
+- Attestations: 172
+- Interpretations: 71
+- Relationships: 80
+
+**Framework entity hubs** (entities matured into busy cross-reference nodes across multiple sessions):
+- SRC-0007 Eger 2015 — secondary anchor for the entire run, cited 100+ times across attestations and interpretations
+- ENT-PLC-0004 Tarsus — most heavily-linked place; bridges the 838 campaign material (pilot) and the Cilician frontier material (session 10)
+- ENT-PLC-0010 Thughur — abstract framework entity now versioned to 1.5+; references across all sessions
+- ENT-PLC-0009 ʿAwasim — companion abstract entity; matured through every chapter
+- ENT-PLC-0034 Halab (Aleppo) — central node for Central Thughur sessions 5-6
+- ENT-PLC-0094 Jazira — minted session 8, immediately load-bearing for sessions 8-9 Jaziran material
+- ENT-PERS-0001 al-Mutasim — pilot-corpus dissertation-core hub; activated by Chapter 3 (Zibatra rebuilding)
+- ENT-PLC-0007 Zibatra — pilot-corpus 838-trigger entity, activated by Chapter 3 via Eger's fourfold rebuilding event
+- ENT-PERS-0018 Harun al-Rashid — cross-sectional figure threading sessions 3, 5, 6, 7, 8, 9, 10
+- ENT-PERS-0038 al-Mansur — minted session 7, immediately active across sessions 8-10
+- ENT-POL-0003 Umayyad Caliphate — minted in maintenance, back-fills political_affiliation on 14 persons
+
+**Preserved scholarly disputes (rule 1)**:
+- Theophanes vs Theophilus on Siffin water-capture attribution (session 5)
+- Maslama alone vs Hisham+Maslama on Nahr Maslama builder (session 5)
+- Tchalenko olive-monoculture vs Eger revision on Dead Cities (session 6)
+- Magness redating vs older 4th-century chronology on Dehes (session 6)
+- Eger vs Robinson on Jaziran settlement (Robinson opportunism-and-desperation vs Eger elite-enthusiasm; session 9)
+- Three disputed identifications in Cilicia: al-Harunniyya (Duzici vs Orensehir), Hisn Awlas (Karaduvar vs Elaiussa-Sebaste), Hisn Qatraghash (Sariseki Kalesi) — all session 10
+- Nahr Said dating contradiction (Umayyad textual vs 9th-century archaeological signature; session 9)
+
+**Tools and workflows matured**:
+- `tools/entity_snapshot.py` — per-session corpus entity snapshot for prompt grounding (mitigates Project-knowledge staleness)
+- `tools/validate_batch.py` — subschema-targeted pre-validation with relaxed PROV- prefix support (from session 7)
+- Auto-discovering renumbering pattern (Python heredoc using regex over PROV- IDs, handling both PROV-PERS-NNN and PROV-ENT-PERS-NNN formats)
+- Auto-discovering back-reference pattern (walks attestations/interpretations as reference sources, updates linked_attestations/linked_interpretations on entities, MINOR version bumps per governance §4.3)
+- Master prompt template (session 3 onwards, with entity snapshot baked in)
+- Page-budget discipline: 15-25 pages per session reliable; >30 pages risks output truncation (proven by chapter 2 full-chapter failure forcing the part-A/part-B split)
+- Provenance pattern for modern scholars: scholar/publication text without publication_source_id (no stub SourceRecords for Bartl, Heidemann, Robinson, Tchalenko, Magness, Lyonnet, Meijer, Wilkinson, Lauffray, etc.)
+
+**Schema-bootstrap note**: ENT-POL-0003 Umayyad Caliphate required bootstrapping with ATT-0099 (Muʿāwiya, dynasty founder) to satisfy linked_attestations minItems:1 constraint. Subsequent back-reference passes will accumulate further attestations naturally.
+
+**Outstanding follow-up at Part 1 close**: see Follow-up items section above.
+
 ## Master prompt template (session 3 onwards)
 
 Per-session setup:
