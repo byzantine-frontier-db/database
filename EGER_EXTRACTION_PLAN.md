@@ -137,6 +137,7 @@ Apply the editorial workflow rules:
 4. Use [citation needed: ...] placeholders for any uncertain reference rather than inventing one.
 5. PROV- provisional identifiers for all new records.
 6. Per governance, every record needs a SourceRecord -- if Eger cites a new primary not yet in the snapshot, draft a new PROV-SRC- SourceRecord.
+7. created_by field on every record must be the bare string "Curtis" — AI-assisted production methodology is documented at the project level in docs/governance.md §2, not per-record.
 
 Produce all records as a single YAML list. End with a summary noting record counts by type, cross-corpus links to existing entities (by canonical ID from snapshot), items deferred, and any unresolved disagreements.
 
