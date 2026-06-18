@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-POL-0003
+  standardised_name: Umayyad Caliphate
+  alternative_names:
+  - form: al-Khilāfa al-Umawiyya
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Banū Umayya
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Caliphate ruling 661-750, capital at Damascus. Successor to
+    the Rashidun Caliphate, predecessor to the Abbasid Caliphate. Principal Muslim
+    rival to the Byzantine Empire on the Anatolian-Syrian frontier in the late seventh
+    and early eighth centuries.
+  linked_attestations:
+  - ATT-0099
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    workflow_state: draft
