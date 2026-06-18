@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0191
+  source: SRC-0022
+  entities_referenced:
+  - ENT-PLC-0122
+  provenance: primary_paraphrase
+  citation: Michael the Syrian, Chronique, vol. 3, p. 462
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Bishops of Irenopolis (a candidate identification for Hārūnīyya/Düzici)
+    are recorded by Michael the Syrian.
+  location_within_source: vol. 3, p. 462
+  observations_supported:
+  - OBS-0126
+  notes: Reached via Eger 2015, Ch. 5 p. 169 and n. 18.

@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0122
+  proposition: The three major Cilician cities were sited on rivers (Baradān, Sayhān,
+    Jayhān), not on the coast, as shown on Ibn Ḥawqal's 10th-century map.
+  associated_entities:
+  - ENT-PLC-0004
+  - ENT-PLC-0118
+  - ENT-PLC-0119
+  - ENT-PLC-0132
+  - ENT-PLC-0133
+  - ENT-PLC-0134
+  supporting_attestations:
+  - ATT-0187
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

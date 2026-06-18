@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0194
+  source: SRC-0041
+  entities_referenced:
+  - ENT-PLC-0022
+  provenance: primary_paraphrase
+  citation: 'Codex Theodosianus [citation needed: exact constitution]'
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: A 4th/5th-century law required a fleet to keep the Orontes clear of
+    "obstructions" (silt or pirates), evidence that riverine silting was already a
+    concern.
+  observations_supported:
+  - OBS-0123
+  notes: Reached via Eger 2015, Ch. 5 p. 174.

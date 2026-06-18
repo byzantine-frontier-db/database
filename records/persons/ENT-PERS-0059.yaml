@@ -1,0 +1,26 @@
+- record_type: person
+  id: ENT-PERS-0059
+  standardised_name: Yazīd ibn Muʿāwiya (Yazīd I)
+  person_type: caliph
+  overall_confidence: 5
+  analytical_summary: Umayyad caliph (r. 680-683). In Eger Ch. 5 (via Yāqūt) the reign
+    from which the western thughūr was called Khadhqadūna.
+  linked_attestations:
+  - ATT-0186
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Yazīd I
+    language: ar
+    script: Arab
+    name_type: regnal_name
+  offices_held:
+  - office: Caliph
+    valid_from: 680
+    valid_to: 683
+    confidence: 5

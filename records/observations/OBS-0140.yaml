@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0140
+  proposition: Hishām developed a four-fort system (Hisn Qatraghash, Hisn Mura, Baghras,
+    Būqā) to protect the Amanus passes against upland groups such as the Jarājima.
+  associated_entities:
+  - ENT-PLC-0135
+  - ENT-PLC-0136
+  - ENT-PLC-0027
+  - ENT-PLC-0029
+  - ENT-PERS-0019
+  supporting_attestations:
+  - ATT-0205
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

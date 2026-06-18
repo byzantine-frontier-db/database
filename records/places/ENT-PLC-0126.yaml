@@ -1,0 +1,34 @@
+- record_type: place
+  id: ENT-PLC-0126
+  standardised_name: al-Iskandarūna (Alexandretta)
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: Coastal town at the head of the Belen Pass road; under the control
+    of Maslama b. ʿAbd al-Malik and fortified under Hārūn al-Rashīd. Modern İskenderun
+    obscures it; possibly in the Esentepe/Çankaya neighbourhoods.
+  linked_attestations:
+  - ATT-0196
+  - ATT-0203
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Alexandretta
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: İskenderun
+    language: tr
+    script: Latn
+    name_type: modern_name
+  - form: Iskandarūna
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  frontier_role: Coastal terminus of the Belen Pass route into the plain.

@@ -1,0 +1,20 @@
+- record_type: place
+  id: ENT-PLC-0128
+  standardised_name: Kafarbayyā
+  place_type: settlement
+  identification_status: approximately_identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: A settlement built under ʿUmar II on the opposite (river) bank
+    from al-Massīsa, which quickly became a significant focus of settlement and remains
+    visible today.
+  linked_attestations:
+  - ATT-0197
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  frontier_role: River-bank suburb / twin settlement of al-Massīsa.

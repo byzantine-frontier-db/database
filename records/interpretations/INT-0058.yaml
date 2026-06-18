@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0058
+  associated_entities:
+  - ENT-PLC-0115
+  argument: Cilicia's reputation as an emptied no-man's-land derives mainly from city-focused
+    9th-10th-century texts and the lament-narrative of Heraklios's departure; the
+    archaeological record of settlement and material culture better reveals a settled
+    crossroads region that changed over time rather than an abandoned wilderness.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0195

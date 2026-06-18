@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0129
+  standardised_name: Saluqiyya (Seleukia / Silifke)
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Town in Rough Cilicia on the Göksu (Calycadnus), capital of
+    the kleisoura of Seleukia; source of the mayʿa (storax) perfume exported to Islamic
+    lands; a node on the route toward Claudiopolis and Iconium.
+  linked_attestations:
+  - ATT-0189
+  - ATT-0190
+  - ATT-0192
+  - ATT-0208
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Seleukia
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Seleucia
+    language: la
+    script: Latn
+    name_type: historical_attestation
+  - form: Silifke
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Principal town of Rough Cilicia; kleisoura capital.

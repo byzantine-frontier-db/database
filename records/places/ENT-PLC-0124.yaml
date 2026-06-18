@@ -1,0 +1,27 @@
+- record_type: place
+  id: ENT-PLC-0124
+  standardised_name: al-Muthaqqab (Mutallip Höyük)
+  place_type: fortification
+  identification_status: probably_identified
+  identification_confidence: 3
+  overall_confidence: 3
+  analytical_summary: A small coastal thughūr settlement at the north of the Bay of
+    Iskenderun, likely identified with the harbour tell of Mutallip Höyük. Built in
+    the Umayyad period under ʿUmar II or Hishām. Ceramics show Late Roman and Middle
+    Islamic but no definitive Early Islamic pieces (site obscured by industrial development).
+  linked_attestations:
+  - ATT-0196
+  - ATT-0203
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Mutallip Höyük
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Small coastal way station / fort of the Plain of Issus.

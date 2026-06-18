@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0193
+  source: SRC-0039
+  entities_referenced:
+  - ENT-PLC-0123
+  provenance: primary_paraphrase
+  citation: 'al-Muqaddasī, Aḥsan al-taqāsīm [citation needed: edition]'
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Muqaddasī mentions the fortified settlement al-Tīnāt ("the Figs"), the
+    abbreviated form underlying the toponym.
+  observations_supported:
+  - OBS-0137
+  notes: Reached via Eger 2015, Ch. 5 p. 171 and n. 23.

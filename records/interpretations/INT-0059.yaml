@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0059
+  associated_entities:
+  - ENT-PLC-0118
+  - ENT-PLC-0119
+  - ENT-PLC-0004
+  - ENT-PLC-0115
+  argument: The three major Cilician cities (Massisa, Adhana, Tarsus) were evenly
+    spaced on the three rivers and roughly equidistant between the passes and the
+    sea, reflecting Cilicia's primary role as a crossroads linking Anatolia to Syria,
+    with maritime access secondary.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0187
+  - ATT-0196

@@ -1,0 +1,38 @@
+- record_type: place
+  id: ENT-PLC-0118
+  standardised_name: al-Massīsa (Mopsuestia)
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Principal eastern city of the Cilician Plain on the Jayhān/Pyramus.
+    First Umayyad focus of urban refortification (ʿAbd al-Malik built the mosque and
+    wall, garrisoned it 703-5); active under successive Umayyads; opposite-bank suburb
+    Kafarbayyā founded under ʿUmar II.
+  linked_attestations:
+  - ATT-0185
+  - ATT-0187
+  - ATT-0196
+  - ATT-0197
+  - ATT-0206
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Mopsuestia
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: al-Maṣṣīṣa
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  - form: Misis
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Westernmost major thughūr city; crossroads centre of Cilician traffic.

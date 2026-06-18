@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0122
+  standardised_name: al-Hārūnīyya
+  place_type: settlement
+  identification_status: disputed
+  identification_confidence: 2
+  overall_confidence: 2
+  analytical_summary: 'An Abbasid foundation attributed to Hārūn al-Rashīd (under
+    his father al-Mahdī), guarding the south-north route into the Taurus and the Darb
+    al-ʿAyn (Bahçe Pass). Location undetermined: candidates are Düzici (= Late Roman
+    Irenopolis) and Örenşehir; Eger judges Örenşehir the stronger identification on
+    size and material culture.'
+  linked_attestations:
+  - ATT-0191
+  - ATT-0202
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Hārūnīyya
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  - form: Irenopolis
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  frontier_role: Easternmost of the eastern-plain town triad; guards the Bahçe Pass
+    approach.
+  notes: 'identification_status disputed per governance §4.4: Düzici (Irenopolis)
+    vs Örenşehir. See associated InterpretationRecord. Bishopric of Irenopolis attested
+    via Michael the Syrian.'

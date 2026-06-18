@@ -1,0 +1,25 @@
+- record_type: place
+  id: ENT-PLC-0137
+  standardised_name: Kinet Höyük
+  place_type: harbour
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: A tall multi-period harbour tell on the Plain of Issus near
+    Issus, c. 900 m south of Hisn al-Tīnāt; its name likely a corruption of al-Tīnāt
+    ("the Figs"). Occupied into the 12th-14th centuries.
+  linked_attestations:
+  - ATT-0204
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Kinet
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Harbour site adjacent to the Hisn al-Tīnāt way station.

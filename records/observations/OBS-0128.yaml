@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0128
+  proposition: The Cilician Plain comprised a lowland alluvial plain (Cilicia Pedias)
+    and a coastal Plain of Issus, bounded by the Amanus, Taurus and Rough Cilicia.
+  associated_entities:
+  - ENT-PLC-0115
+  - ENT-PLC-0116
+  - ENT-PLC-0117
+  - ENT-PLC-0032
+  - ENT-PLC-0014
+  supporting_attestations:
+  - ATT-0195
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

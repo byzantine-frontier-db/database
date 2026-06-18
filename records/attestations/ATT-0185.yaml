@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0185
+  source: SRC-0030
+  entities_referenced:
+  - ENT-PLC-0118
+  - ENT-PLC-0119
+  provenance: primary_quotation
+  citation: al-Sarakhsī, geographical/itinerary work, in Yāqūt, Muʿjam al-buldān (1990)
+    1.161-2; trans. Rosenthal, "Arabic Books", pp. 77-8
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: 'Itinerary epigraph: travelling from al-Massīsa to Adhana through prairie
+    and closely-spaced villages and settlements.'
+  direct_quotation: passing through a prairie and villages which followed each other
+    very closely
+  observations_supported:
+  - OBS-0120
+  notes: Reached via Eger 2015, Ch. 5 p. 159 (epigraph) and n. 1. Primary source al-Sarakhsī
+    (SRC-0030) transmitted by Yāqūt (SRC-0020), Rosenthal translation.

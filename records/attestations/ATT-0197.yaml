@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0197
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0118
+  - ENT-PLC-0128
+  - ENT-PERS-0045
+  - ENT-PERS-0056
+  - ENT-PERS-0055
+  - ENT-PERS-0019
+  - ENT-PERS-0043
+  - ENT-PERS-0020
+  provenance: primary_summary
+  citation: Eger 2015, Ch. 5, pp. 173-174, 176 (Towns; Massisa), reporting Islamic
+    geographers/historians and the Salmeri & d'Agata wall survey
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: 'al-Massīsa was the first thughūr town built up: ʿAbd al-Malik rebuilt
+    it, repairing the wall, installing a garrison and building a mosque in 703-5;
+    it saw activity under al-Walīd I, ʿUmar II, possibly Hishām and Marwān II; under
+    ʿUmar II the opposite-bank settlement Kafarbayyā was founded. First settlement
+    perhaps under Muʿāwiya.'
+  observations_supported:
+  - OBS-0130
+  notes: Eger reporting multiple Islamic geographers/historians plus the Salmeri &
+    d'Agata city-wall survey; treated as primary_summary mediated by Eger.

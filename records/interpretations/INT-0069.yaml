@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0069
+  associated_entities:
+  - ENT-PLC-0117
+  argument: Blanton and Rauh's surveys of western Rough Cilicia concluded that an
+    overall decrease in settlement and population spanning the periods 700-969 and
+    970-1071 had actually begun already in the late sixth and early seventh centuries.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Blanton, R. and Rauh, N.
+  publication: Surveys of the coast of western Rough Cilicia (Blanton 2000)
+  date: 2000
+  supporting_evidence:
+  - ATT-0208

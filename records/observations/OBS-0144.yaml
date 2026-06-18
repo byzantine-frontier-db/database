@@ -1,0 +1,15 @@
+- record_type: observation
+  id: OBS-0144
+  proposition: Sīs, at the pass entrance toward Feke and Kayseri, was heavily developed
+    only later, in the mid-ninth century.
+  associated_entities:
+  - ENT-PLC-0127
+  supporting_attestations:
+  - ATT-0209
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

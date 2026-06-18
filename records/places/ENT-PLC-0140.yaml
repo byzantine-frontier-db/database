@@ -1,0 +1,20 @@
+- record_type: place
+  id: ENT-PLC-0140
+  standardised_name: Funduq Bughā
+  place_type: settlement
+  identification_status: approximately_identified
+  identification_confidence: 2
+  overall_confidence: 2
+  analytical_summary: A funduq (hostel/inn way station) between Adhana and Tarsus,
+    constructed on the orders of Bughā al-Saghīr (d. 862). One of several Cilician
+    funduqs serving pilgrims and merchants rather than military use.
+  linked_attestations:
+  - ATT-0206
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  frontier_role: Hostel way station on the Adhana-Tarsus road.

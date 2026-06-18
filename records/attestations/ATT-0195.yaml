@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0195
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0115
+  - ENT-PLC-0116
+  - ENT-PLC-0117
+  - ENT-PLC-0032
+  - ENT-PLC-0014
+  - ENT-PLC-0130
+  - ENT-PLC-0132
+  - ENT-PLC-0133
+  - ENT-PLC-0134
+  provenance: modern_synthesis
+  citation: Eger 2015, Ch. 5 ("The Western Thughūr"), pp. 159-162 (The Environment)
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: 'Description of the Cilician geography: the lowland Cilician Plain and
+    coastal Plain of Issus, bounded by the Amanus, Taurus and Rough Cilicia; the three
+    rivers (Baradān, Sayhān, Jayhān); the Lamis as the western Byzantine boundary.'
+  observations_supported:
+  - OBS-0127
+  - OBS-0128

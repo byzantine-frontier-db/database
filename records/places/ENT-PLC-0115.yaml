@@ -1,0 +1,43 @@
+- record_type: place
+  id: ENT-PLC-0115
+  standardised_name: Cilician Plain (Cilicia Pedias / Çukurova)
+  place_type: region
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: The large lowland alluvial plain of eastern Cilicia ("Smooth
+    Cilicia"), watered by the Baradān/Cydnus, Sayhān/Sarus and Jayhān/Pyramus rivers;
+    the core of the western thughūr and roughly one-third of the Islamic-Byzantine
+    frontier.
+  linked_attestations:
+  - ATT-0186
+  - ATT-0189
+  - ATT-0195
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Cilicia Pedias
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Smooth Cilicia
+    language: en
+    script: Latn
+    name_type: translation
+  - form: Khadhqadūna
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Çukurova
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Core settled zone of the western thughūr; crossroads linking Anatolia
+    and Syria.
+  environmental_setting: Fertile alluvial plain; increasingly marshy deltas by the
+    Early Islamic period.

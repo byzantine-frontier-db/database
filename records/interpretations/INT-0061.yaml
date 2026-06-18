@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0061
+  associated_entities:
+  - ENT-PLC-0123
+  argument: The coastal, harbour-adjacent siting of Hisn al-Tīnāt disproves any military-strategic
+    reading of the term ḥiṣn here; it was a fortified way station protecting a timber
+    resource on the Syria-Anatolia route.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5; cf. Eger, "Hisn al-Tinat"
+    (2010)
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0204

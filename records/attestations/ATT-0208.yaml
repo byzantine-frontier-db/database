@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0208
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0117
+  - ENT-PLC-0129
+  - ENT-PLC-0130
+  - ENT-PLC-0131
+  provenance: modern_synthesis
+  citation: Eger 2015, Ch. 5, pp. 170-171, 180-181 (Settlement in Rough Cilicia; western
+    coast)
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Surveys in Rough Cilicia reveal little significant post-7th-century
+    occupation; major coastal towns were largely abandoned or moved upland by the
+    end of the 7th c.; timber felling and ephemeral coastal stopping points persisted;
+    the Lamis exchange site and Hisn ʿAwlās lie at the western margin.
+  observations_supported:
+  - OBS-0143
+  - OBS-0136

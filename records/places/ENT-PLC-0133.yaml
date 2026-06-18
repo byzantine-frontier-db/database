@@ -1,0 +1,30 @@
+- record_type: place
+  id: ENT-PLC-0133
+  standardised_name: Jayhān River (Pyramus)
+  place_type: river
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Easternmost of the three Cilician Plain rivers, flowing through
+    al-Massīsa; named (with the Sayhān) after the paradisiacal Jayhūn/Sayhūn; subject
+    of Strabo's remark on silting toward Cyprus.
+  linked_attestations:
+  - ATT-0187
+  - ATT-0188
+  - ATT-0195
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Pyramus
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Ceyhan
+    language: tr
+    script: Latn
+    name_type: modern_name

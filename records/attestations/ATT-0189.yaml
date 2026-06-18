@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0189
+  source: SRC-0037
+  entities_referenced:
+  - ENT-PLC-0117
+  - ENT-PLC-0115
+  - ENT-PLC-0129
+  provenance: primary_paraphrase
+  citation: Ananias of Širak, Geography (Hewsen 1992, p. 54, long recension)
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Ananias gives a fuller account of the resources of Isauria (gum, storax,
+    colophane, calamite, etc.); the mayʿa perfume derived from storax came from Saluqiyya/Seleukia
+    and was exported to Islamic lands.
+  location_within_source: p. 54 (long recension)
+  observations_supported:
+  - OBS-0124
+  notes: Reached via Eger 2015, Ch. 5 p. 160 and n. 5.

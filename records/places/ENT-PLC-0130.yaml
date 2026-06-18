@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0130
+  standardised_name: Lamis River (Lamos / Lamas)
+  place_type: river
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: River coursing through the highlands, typically taken as the
+    westernmost frontier boundary with Byzantium; site (not definitively located)
+    of recurrent Byzantine-Islamic prisoner exchanges, where a medieval village and
+    later castle of that name are present.
+  linked_attestations:
+  - ATT-0195
+  - ATT-0208
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Lamos
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Lamas
+    language: tr
+    script: Latn
+    name_type: modern_name
+  - form: Limonlu
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Western boundary of the thughūr with Byzantium; prisoner-exchange
+    locus.

@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0206
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0140
+  - ENT-PERS-0058
+  - ENT-PERS-0030
+  - ENT-PLC-0118
+  - ENT-PLC-0119
+  - ENT-PLC-0004
+  provenance: primary_summary
+  citation: Eger 2015, Ch. 5, pp. 172-173 (funduqs / way stations), reporting Islamic
+    geographers
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Hostel/inn way stations named funduq were mentioned mainly in Cilicia
+    (al-Funduq near Massisa; Funduq al-Husayn, through which al-Muʿtaḍid passed in
+    900; Funduq Bughā, built on the orders of Bughā al-Saghīr (d. 862), and Funduq
+    al-Jadīd, between Adhana and Tarsus); their designation as funduq rather than
+    ḥiṣn suggests use by pilgrims and merchants rather than fortification.
+  observations_supported:
+  - OBS-0141
+  notes: Minor funduqs (al-Funduq, Funduq al-Husayn, Funduq al-Jadīd) captured at
+    observation level, not minted as separate place entities (thinly attested, unlocated)
+    - deferred.

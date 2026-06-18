@@ -1,0 +1,29 @@
+- record_type: place
+  id: ENT-PLC-0127
+  standardised_name: Sīs
+  place_type: fortress
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: Settlement at the entrance to the pass north toward Feke and
+    Kayseri; per textual evidence heavily developed only later, in the mid-ninth century.
+  linked_attestations:
+  - ATT-0196
+  - ATT-0209
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Sis
+    language: tr
+    script: Latn
+    name_type: modern_name
+  - form: Kozan
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Northern gateway from the eastern plain toward Cappadocia.

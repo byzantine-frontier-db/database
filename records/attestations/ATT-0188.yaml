@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0188
+  source: SRC-0040
+  entities_referenced:
+  - ENT-PLC-0133
+  provenance: primary_quotation
+  citation: Strabo, Geography 12.2.4
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Strabo's remark that the silt-bearing Pyramus would advance its beach
+    toward Cyprus, indicating ancient awareness of coastal progradation.
+  location_within_source: 12.2.4
+  observations_supported:
+  - OBS-0123
+  notes: Reached via Eger 2015, Ch. 5 p. 160 n. 6.

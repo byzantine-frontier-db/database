@@ -1,0 +1,17 @@
+- record_type: relationship
+  id: REL-0080
+  type: different_from
+  source_entity: ENT-PLC-0138
+  target_entity: ENT-PLC-0031
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  linked_attestations: []
+  notes: Cilician Domuztepe (olive-oil estate, Rossiter & Freed) is a homonym distinct
+    from ENT-PLC-0031 Domuztepe (KM 97), a Euphrates-region survey site. Flagged for
+    editorial confirmation.

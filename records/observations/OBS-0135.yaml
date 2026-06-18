@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0135
+  proposition: Hārūnīyya was an Abbasid foundation attributed to Hārūn al-Rashīd (under
+    al-Mahdī) guarding the Darb al-ʿAyn/Bahçe Pass approach; its precise location
+    is undetermined (Düzici vs Örenşehir).
+  associated_entities:
+  - ENT-PLC-0122
+  - ENT-PERS-0018
+  - ENT-PERS-0032
+  - ENT-PLC-0139
+  supporting_attestations:
+  - ATT-0202
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

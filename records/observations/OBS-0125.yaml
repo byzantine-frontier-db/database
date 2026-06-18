@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0125
+  proposition: The Rough Cilician coast beyond Tarsus was lined with ruined Roman
+    towns, while the inhabited sites were upland forts (Ibn Khurradādhbih's Nābik).
+  associated_entities:
+  - ENT-PLC-0117
+  - ENT-PLC-0004
+  - ENT-PLC-0129
+  supporting_attestations:
+  - ATT-0190
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

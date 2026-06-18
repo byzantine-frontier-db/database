@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0120
+  standardised_name: ʿAyn Zarba (Anazarbus)
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Town north up the Jayhān toward the Taurus passes; a former
+    Late Roman city refortified under Hārūn al-Rashīd (796 or 804). Ceramic evidence
+    (Posamentir; Eger) shows a marked mid-8th-10th-century occupation over a slight
+    7th/8th-century presence; later contraction and Byzantine reoccupation.
+  linked_attestations:
+  - ATT-0196
+  - ATT-0200
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Anazarbus
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Anavarza
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Eastern-plain town guarding the Jayhān-Taurus route to Cappadocia.

@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0200
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0120
+  - ENT-PERS-0018
+  provenance: archaeological_evidence
+  citation: Eger 2015, Ch. 5, pp. 177-178 (ʿAyn Zarba), reporting Posamentir survey
+    and Eger's ceramic analysis
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: ʿAyn Zarba shows Late Roman ceramics to the early 7th c., only a slight
+    7th/8th-century presence, and a marked mid-8th-10th-century occupation; partially
+    corroborates the textual account of fortification by Hārūn al-Rashīd (796 or 804);
+    later contraction and a tenth-century-plus upper wall phase attributable to Byzantine
+    reoccupation.
+  observations_supported:
+  - OBS-0133

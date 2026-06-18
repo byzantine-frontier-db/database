@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0066
+  associated_entities:
+  - ENT-PLC-0115
+  argument: 'The archaeological chronology confirms the textual evidence: the majority
+    of Early Islamic settlement dates from the 8th century onward, with 7th/8th-century
+    sites few though not wholly absent.'
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0198
+  - ATT-0200
+  - ATT-0201

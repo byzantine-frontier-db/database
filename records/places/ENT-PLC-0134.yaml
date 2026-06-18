@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0134
+  standardised_name: Baradān River (Cydnus)
+  place_type: river
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Westernmost of the three Cilician Plain rivers, flowing through
+    Tarsus.
+  linked_attestations:
+  - ATT-0187
+  - ATT-0195
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Cydnus
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Berdan
+    language: tr
+    script: Latn
+    name_type: modern_name
+  - form: Tarsus Çayı
+    language: tr
+    script: Latn
+    name_type: modern_name

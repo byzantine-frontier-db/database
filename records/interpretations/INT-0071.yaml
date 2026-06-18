@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0071
+  associated_entities:
+  - ENT-PLC-0115
+  argument: On Eger's reading of Seton-Williams's 1951 Cilicia Survey (with its conflated
+    later-period chronologies), the ware categories suggest a roughly 2:1 ratio of
+    Late Roman/Middle Islamic to Early Islamic period sites - a major Late Roman peak
+    and a minor Middle Islamic peak - though only very tenuous conjectures are possible.
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger (reading Seton-Williams 1954)
+  publication: Seton-Williams, "Cilician Survey", Anatolian Studies 4 (1954)
+  date: 1954
+  supporting_evidence:
+  - ATT-0195
+  notes: Data from Seton-Williams; the ratio inference is Eger's tentative reading.

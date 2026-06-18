@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0187
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0118
+  - ENT-PLC-0004
+  - ENT-PLC-0119
+  - ENT-PLC-0132
+  - ENT-PLC-0133
+  - ENT-PLC-0134
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ, map of the province of Shām
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Ibn Ḥawqal's 10th-century map shows the three Cilician rivers and indicates
+    the major settlements as riverine (on the Baradān, Sayhān, Jayhān) rather than
+    coastal.
+  observations_supported:
+  - OBS-0122
+  notes: Reached via Eger 2015, Ch. 5 pp. 160, 175.

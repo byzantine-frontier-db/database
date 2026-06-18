@@ -1,0 +1,34 @@
+- record_type: place
+  id: ENT-PLC-0121
+  standardised_name: Kanīsa al-Sawdāʾ (Epiphaneia / "the Black Church")
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: Former Late Roman Epiphaneia at the junction of the Plain of
+    Issus and the Cilician Plain, on an extinct volcano and basalt field (source of
+    its Arabic name). Strong Late Roman occupation, light 7th/8th-century, then an
+    8th-10th-century Early Islamic phase; fortified by Hārūn al-Rashīd (799/806).
+  linked_attestations:
+  - ATT-0201
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Epiphaneia
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Kanīsat al-Sawdāʾ
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  - form: the Black Church
+    language: en
+    script: Latn
+    name_type: translation
+  frontier_role: Eastern-plain Abbasid foundation; node of the eastern town network.

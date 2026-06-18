@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0064
+  associated_entities:
+  - ENT-PLC-0137
+  - ENT-PLC-0123
+  argument: The modern toponym Kinet (Höyük) is most likely a corruption of al-Tīnāt,
+    the abbreviated form of the fortified settlement named in Muqaddasī.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0193
+  - ATT-0204

@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0201
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0121
+  - ENT-PERS-0018
+  provenance: archaeological_evidence
+  citation: Eger 2015, Ch. 5, pp. 176-177 (Kanīsa al-Sawdāʾ), reporting Tobin and
+    Mopsus surveys and Hatay Museum salvage excavations
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Kanīsa al-Sawdāʾ (former Epiphaneia) shows strong Late Roman occupation
+    to the early 7th c., very light 7th/8th-century and slightly more 8th-10th-century
+    presence; salvage excavation revealed an Early Islamic phase of shops, street,
+    water system and warehouse; fortified by Hārūn al-Rashīd (799 or 806).
+  observations_supported:
+  - OBS-0134

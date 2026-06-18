@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0063
+  associated_entities:
+  - ENT-PLC-0122
+  argument: Of the two candidates for Hārūnīyya, Örenşehir is the stronger identification
+    than Düzici on grounds of size, location and range of material culture, though
+    neither has clear pre-Islamic settlement and the question remains open.
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0202
+  notes: Records the disputed identification (governance §4.4) within the single Hārūnīyya
+    entity.

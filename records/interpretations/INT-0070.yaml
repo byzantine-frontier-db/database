@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0070
+  associated_entities:
+  - ENT-PLC-0135
+  argument: Hellenkemper and Hild identified Hisn Qatraghash with Sarıseki Kalesi,
+    a Crusader/Ottoman fortification - an identification Eger regards as unverifiable
+    because the site lies within a military compound.
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Hellenkemper, H. and Hild, F.
+  publication: Kilikien und Isaurien (1990)
+  date: 1990
+  supporting_evidence:
+  - ATT-0205

@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0123
+  standardised_name: Hisn al-Tīnāt (Tüpraş Field)
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: Abbasid fortified way station on the coastal road between Bayās
+    and al-Muthaqqab, by the Plain of Issus near Kinet Höyük. Eger's survey/excavation
+    found 4-5 phases (8th-early 12th c.), a square enclosure with corner towers; despite
+    the term ḥiṣn, sited for timber gathering/distribution rather than military defence.
+  linked_attestations:
+  - ATT-0193
+  - ATT-0196
+  - ATT-0204
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: al-Tīnāt
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Tüpraş Field
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Fortified timber way station on the Syria-Anatolia coastal route.

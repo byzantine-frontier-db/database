@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0196
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0033
+  - ENT-PLC-0139
+  - ENT-PLC-0118
+  - ENT-PLC-0119
+  - ENT-PLC-0004
+  - ENT-PLC-0120
+  - ENT-PLC-0127
+  - ENT-PLC-0023
+  - ENT-PLC-0126
+  - ENT-PLC-0125
+  - ENT-PLC-0123
+  - ENT-PLC-0124
+  provenance: modern_synthesis
+  citation: Eger 2015, Ch. 5, pp. 162 (roads)
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: 'Reconstruction of the western-thughūr road network: the Belen and Bahçe
+    (Darb al-ʿAyn) passes across the Amanus; the coastal road via Iskandarūna, Bayās,
+    Hisn al-Tīnāt and al-Muthaqqab to al-Massīsa; the main plain road linking Massisa,
+    Adhana and Tarsus; northern routes to ʿAyn Zarba and Sīs.'
+  observations_supported:
+  - OBS-0129

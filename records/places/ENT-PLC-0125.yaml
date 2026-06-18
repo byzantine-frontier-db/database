@@ -1,0 +1,25 @@
+- record_type: place
+  id: ENT-PLC-0125
+  standardised_name: Bayās
+  place_type: settlement
+  identification_status: approximately_identified
+  identification_confidence: 2
+  overall_confidence: 2
+  analytical_summary: An obscure small coastal thughūr settlement, possibly near the
+    Payas Çayı beneath a Crusader fort later overbuilt by a 16th-century Ottoman fort.
+  linked_attestations:
+  - ATT-0196
+  - ATT-0203
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  alternative_names:
+  - form: Payas
+    language: tr
+    script: Latn
+    name_type: modern_name
+  frontier_role: Minor coastal settlement of the Plain of Issus.

@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0204
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0123
+  - ENT-PLC-0137
+  provenance: archaeological_evidence
+  citation: Eger 2015, Ch. 5, pp. 171-173 and n. 23 (Hisn al-Tīnāt / Tüpraş Field
+    survey, directed by Eger)
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Survey and excavation at Tüpraş Field/Hisn al-Tīnāt found 4-5 construction
+    phases (8th-early 12th c.) and a square fortified enclosure with corner towers;
+    its coastal, harbour-adjacent siting and timber-distribution function show the
+    term ḥiṣn here denotes a fortified way station, not a military fort. Kinet Höyük
+    lies c. 900 m south.
+  observations_supported:
+  - OBS-0137
+  - OBS-0139

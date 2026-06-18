@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0203
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0124
+  - ENT-PLC-0125
+  - ENT-PLC-0126
+  - ENT-PERS-0025
+  - ENT-PERS-0018
+  - ENT-PERS-0055
+  - ENT-PERS-0019
+  provenance: modern_synthesis
+  citation: Eger 2015, Ch. 5, pp. 179-180 (coastal thughūr settlements)
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: al-Muthaqqab (likely Mutallip Höyük, built under ʿUmar II or Hishām),
+    Bayās (near Payas Çayı) and al-Iskandarūna (under Maslama b. ʿAbd al-Malik; fortified
+    by Hārūn al-Rashīd) form a smaller group of coastal Plain-of-Issus thughūr settlements,
+    their Early Islamic levels obscured by modern industry.
+  observations_supported:
+  - OBS-0138

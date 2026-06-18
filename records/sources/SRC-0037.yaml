@@ -1,0 +1,30 @@
+- record_type: source
+  id: SRC-0037
+  standardised_title: Ananias of Širak, Ašxarhacʿoycʿ (The Geography of Ananias of
+    Širak)
+  alternative_titles:
+  - Ašxarhacʿoycʿ
+  - Geography (Long and Short Recensions)
+  author_unnamed: false
+  date_of_composition:
+    start: 610
+    end: 685
+    precision: year_range_broad
+    confidence: 2
+    notes: 'Eger: Ananias "possibly wrote between 610 and 685".'
+  language: hy
+  script: Armn
+  genre: geographical_work
+  edition_used: 'R. H. Hewsen (intro, trans., comm.), The Geography of Ananias of
+    Širak (Wiesbaden: Reichert, 1992)'
+  notes: Armenian geographical work. Cited by Eger 2015 (Ch. 5, p. 160 and n. 5) for
+    the resources of Isauria/Rough Cilicia (gum, storax, colophane, calamite) and
+    the mayʿa perfume of Saluqiyya. Author not separately minted as a person entity
+    (source-author only, no frontier-actor role).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true

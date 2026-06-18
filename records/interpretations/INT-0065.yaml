@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0065
+  associated_entities:
+  - ENT-PLC-0115
+  - ENT-PLC-0117
+  argument: 'In the Early Islamic period the frontier limit was the plain itself:
+    Islamic sites concentrated on the plain and avoided artificial or natural rises,
+    while Byzantine sites remained in the uplands and Rough Cilicia held no permanent
+    Islamic settlement.'
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0208

@@ -1,0 +1,15 @@
+- record_type: relationship
+  id: REL-0075
+  type: rebuilt
+  source_entity: ENT-PERS-0018
+  target_entity: ENT-PLC-0121
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  linked_attestations:
+  - ATT-0201

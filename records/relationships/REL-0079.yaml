@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0079
+  type: lies_on_route
+  source_entity: ENT-PLC-0140
+  target_entity: ENT-PLC-0004
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  linked_attestations:
+  - ATT-0206
+  notes: Funduq Bughā between Adhana and Tarsus on the main plain road.

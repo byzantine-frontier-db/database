@@ -1,0 +1,24 @@
+- record_type: place
+  id: ENT-PLC-0135
+  standardised_name: Hisn Qatraghash
+  place_type: fortress
+  identification_status: disputed
+  identification_confidence: 2
+  overall_confidence: 2
+  analytical_summary: An upland Amanus fort, the first fort built by Hishām (with
+    a muhandis from Antakiya), inferred by Eger to protect the Çalan Pass. Said to
+    be "near al-Massīsa"; identified by Hellenkemper and Hild with Sarıseki Kalesi,
+    but that identification cannot be verified (the site lies within a military compound).
+  linked_attestations:
+  - ATT-0205
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  frontier_role: Hishām-period Amanus pass fort (Çalan Pass), part of a four-fort
+    system.
+  notes: identification with Sarıseki Kalesi (Hellenkemper & Hild 1990) unverifiable
+    per Eger.

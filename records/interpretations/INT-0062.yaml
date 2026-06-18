@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0062
+  associated_entities:
+  - ENT-PLC-0135
+  - ENT-PLC-0136
+  - ENT-PLC-0027
+  - ENT-PLC-0029
+  argument: The four Amanus forts built by Hishām (Qatraghash, Mura, Baghras, Būqā)
+    formed a deliberate small system guarding major and minor passes - necessary not
+    against an external enemy but to control troublesome upland groups such as the
+    Jarājima within Islamic lands.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015), Ch. 5
+  publication_source_id: SRC-0007
+  date: 2015
+  supporting_evidence:
+  - ATT-0205

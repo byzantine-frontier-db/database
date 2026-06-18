@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0205
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0135
+  - ENT-PLC-0136
+  - ENT-PLC-0027
+  - ENT-PLC-0029
+  - ENT-PERS-0019
+  - ENT-PLC-0032
+  provenance: modern_synthesis
+  citation: Eger 2015, Ch. 5, pp. 169-170 (upland forts)
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Hisn Qatraghash (first fort built by Hishām, inferred to guard the Çalan
+    Pass) and Hisn Mura (guarding ʿAqaba al-Baydā), together with Baghras and Būqā
+    in the Amuq, formed a four-fort system developed by Hishām to protect the Amanus
+    passes against upland groups such as the Jarājima.
+  observations_supported:
+  - OBS-0140

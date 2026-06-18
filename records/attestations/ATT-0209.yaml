@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0209
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0127
+  provenance: primary_summary
+  citation: Eger 2015, Ch. 5, p. 179 (Sīs), reporting textual evidence
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  paraphrase: Sīs, at the entrance to the pass toward Feke and Kayseri, was heavily
+    developed only later, in the mid-ninth century.
+  observations_supported:
+  - OBS-0144

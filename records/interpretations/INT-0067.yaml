@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0067
+  associated_entities:
+  - ENT-PLC-0115
+  argument: Killebrew and Lehmann's Mopsos Survey (2004-9) recorded 195 sites, mostly
+    dated Hellenistic to Late Roman, indicating that settlement in the eastern Cilician
+    Plain flourished and population expanded during the Roman/Late Roman periods.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: curtis-ai-extraction
+    workflow_state: draft
+    editorial_review_required: true
+  scholar: Killebrew, A. and Lehmann, G.
+  publication: Mopsos Survey (2004-9); preliminary reports
+  date: 2009
+  supporting_evidence:
+  - ATT-0195
