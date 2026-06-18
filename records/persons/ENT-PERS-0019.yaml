@@ -7,9 +7,7 @@
     script: Arab
     name_type: standardised
   person_type: caliph
-  political_affiliation:
-  - ENT-POL-0002
-  - ENT-POL-0003
+  political_affiliation: ENT-POL-0003
   offices_held:
   - office: Umayyad caliph
     valid_from: 724
@@ -36,7 +34,7 @@
   - ATT-0205
   metadata:
     schema_version: 1.0.0
-    record_version: 1.7.0
+    record_version: 1.8.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis (AI-assisted extraction, Claude)
     workflow_state: draft
