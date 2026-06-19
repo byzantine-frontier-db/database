@@ -1,0 +1,27 @@
+- record_type: interpretation
+  id: INT-0082
+  associated_entities:
+  - ENT-POL-0003
+  - ENT-PLC-0094
+  scholar: Eger, A. Asa
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015), ch. 7'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The Umayyad state was not an absolutist 'hydraulic' empire but a dominant
+    family within a Muslim minority in a largely Christian Levant. It governed through
+    indirect administration, incentives of wealth and prestige, and gradual tribal
+    cohesion and sedentarization; lands still occupied by non-Muslims were preserved
+    but taxed with the kharāj, and monasteries were integrated into this fiscal system.
+  supporting_evidence:
+  - ATT-0234
+  - ATT-0236
+  - ATT-0237
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

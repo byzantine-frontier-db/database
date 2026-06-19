@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0226
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0114
+  - ENT-PLC-0110
+  - ENT-PLC-0105
+  - ENT-PLC-0111
+  - ENT-PERS-0053
+  - ENT-PERS-0056
+  observations_supported:
+  - OBS-0160
+  provenance: modern_synthesis
+  citation: 'Eger 2015 p.211 [citation needed: primary source for the Nahr Saʿīd qaṭīʿa
+    grant]'
+  confidence: 3
+  notes: The Nahr Saʿīd, built by Saʿīd al-Khayr ibn ʿAbd al-Malik on a qaṭīʿa granted
+    by his brother al-Walīd I; runs Qarqīsiyā to Dāliya, irrigating Raḥba. No clean
+    primary footnote in Eger here; attested via Eger as modern synthesis pending verification.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

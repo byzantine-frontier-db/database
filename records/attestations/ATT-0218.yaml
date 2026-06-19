@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0218
+  source: SRC-0035
+  entities_referenced:
+  - ENT-PERS-0019
+  - ENT-PLC-0144
+  - ENT-PLC-0044
+  observations_supported:
+  - OBS-0152
+  provenance: primary_paraphrase
+  citation: Jarīr, Dīwān Jarīr, vol. I, p. 291, lines 39-45 (trans. assisted by T.
+    Qutbuddin)
+  confidence: 4
+  notes: 'Chapter epigraph, via Eger 2015 p.198 (and discussion p.212; Eger n.1).
+    The verses are paraphrased, not quoted, per copyright policy: they praise Hishām''s
+    cutting of Euphrates canals and the flourishing olives and vines of the Hanī.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

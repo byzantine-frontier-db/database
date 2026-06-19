@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0086
+  associated_entities:
+  - ENT-PLC-0031
+  - ENT-PLC-0021
+  scholar: Bradbury, J.
+  publication: '''"Presencing the Past": Islamic rural burial practices, Homs region''
+    (conference proceedings, 2013)'
+  argument: Burials atop abandoned tells (cairns/tumuli), typically within c.500 m
+    of Islamic sites, represent a pragmatic Islamic-period reuse of tells as out-of-the-way
+    cemeteries linked to nearby settlements.
+  confidence: 3
+  notes: Reported by Eger 2015 pp.202-3. No publication_source_id.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0227
+  source: SRC-0030
+  entities_referenced:
+  - ENT-PLC-0106
+  - ENT-PERS-0025
+  - ENT-PERS-0052
+  - ENT-PLC-0100
+  observations_supported:
+  - OBS-0161
+  provenance: primary_paraphrase
+  citation: al-Sarakhsī, via Yāqūt, Muʿjam al-buldān (1990), 3.15-16 (Rosenthal, Aḥmad
+    b. al-Ṭayyib as-Saraḫsī, p.71)
+  confidence: 3
+  notes: Via Eger 2015 p.213 (n.39). Raʾs al-ʿAyn irrigated by canals; a town of Maslama
+    granted to his man Usayd as-Sulamī (matched to existing ENT-PERS-0052 'Āsīd of
+    the Sulaym'), 'possibly identified as Bājadda' (tentative).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

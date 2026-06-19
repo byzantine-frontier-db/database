@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0228
+  source: SRC-0023
+  entities_referenced:
+  - ENT-PLC-0093
+  - ENT-PERS-0032
+  - ENT-PERS-0018
+  observations_supported:
+  - OBS-0162
+  provenance: primary_paraphrase
+  citation: Ibn Shaddād, al-Aʿlāq al-Khaṭīra, p.14
+  confidence: 3
+  notes: Via Eger 2015 p.213 (n.38). The canal al-Jullāb, feeding Ḥarrān, built by
+    al-Mahdī and Hārūn al-Rashīd's secretary. The al-Jullāb canal place-entity is
+    deferred this session.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

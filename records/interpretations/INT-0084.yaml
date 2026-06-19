@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0084
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  scholar: Decker, M.
+  publication: '''Frontier Settlement and Economy in the Byzantine East'' (pp.252,
+    264)'
+  argument: Dispersed lowland settlement and canal-building in the Roman/Late Roman
+    periods imply a stable, secure landscape; the Early Islamic decline in settlement
+    numbers, seen in almost every frontier survey, may reflect a shift in the sociopolitical
+    climate.
+  confidence: 3
+  notes: 'Reported by Eger 2015 pp.200-2, who partly resists the reading: he holds
+    that Early Islamic settlement types and distribution remained essentially Late
+    Roman, so a measure of stability endured. Recorded with scholar/publication and
+    NO publication_source_id.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

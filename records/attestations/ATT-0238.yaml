@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0238
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0036
+  - ENT-PLC-0050
+  - ENT-PLC-0111
+  - ENT-PLC-0110
+  - ENT-PERS-0018
+  - ENT-PLC-0034
+  - ENT-PLC-0037
+  - ENT-PLC-0049
+  - ENT-PLC-0044
+  observations_supported:
+  - OBS-0172
+  provenance: modern_synthesis
+  citation: Eger 2015 pp.212-13
+  confidence: 3
+  notes: 'Waterwheel evidence: qadus jars at Dibsi Faraj (archaeological); toponyms
+    Nāʿūra and al-Dāliya; Hārūn al-Rashīd''s observation of naʿūra wheels at al-Raḥba
+    (a primary detail embedded without clean footnote — flagged for verification).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

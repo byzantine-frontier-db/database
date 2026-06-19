@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0154
+  proposition: According to the Chronicle of 1234, Hishām employed both free and forced
+    labour in the undertaking of his canal projects.
+  associated_entities:
+  - ENT-PERS-0019
+  - ENT-PLC-0144
+  supporting_attestations:
+  - ATT-0220
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

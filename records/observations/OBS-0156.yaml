@@ -1,0 +1,18 @@
+- record_type: observation
+  id: OBS-0156
+  proposition: Hishām held a money-generating estate at Dawrīn (with its villages),
+    associable with the Nahr Dawrīn at the Khabūr-Euphrates confluence.
+  associated_entities:
+  - ENT-PERS-0019
+  - ENT-PLC-0113
+  - ENT-PLC-0104
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0222
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

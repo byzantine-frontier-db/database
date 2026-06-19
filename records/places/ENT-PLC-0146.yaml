@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0146
+  standardised_name: Dayr Mār Sarjiyūs al-ʿArīḍ
+  alternative_names:
+  - form: Monastery of Mar Sergios the Broad
+    language: en
+    script: Latn
+    name_type: translation
+  place_type: monastery
+  identification_status: approximately_identified
+  identification_confidence: 2
+  frontier_role: Monastery within the fiscal reach of the qāʾid of Sumaysāṭ; subject
+    to kharāj and jizya collection.
+  overall_confidence: 2
+  analytical_summary: Monastery near Hisn Qalawdhiya (ENT-PLC-0077). In the Life of
+    Theodota of Amida (§85) an officer named Sargis is sent by the qāʾid of Sumaysāṭ
+    (ENT-PLC-0073) to collect kharāj and jizya here. Located only approximately ('near
+    Hisn Qalawdhiya').
+  associated_entities:
+  - ENT-PLC-0077
+  - ENT-PLC-0073
+  linked_attestations:
+  - ATT-0234
+  notes: Minted this session; no snapshot match. Coordinates omitted. The collecting
+    officer Sargis deferred as a person-entity (single mention, no anchor).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

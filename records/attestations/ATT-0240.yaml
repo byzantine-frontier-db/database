@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0240
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0022
+  - ENT-PLC-0034
+  - ENT-PLC-0009
+  - ENT-PLC-0024
+  - ENT-PLC-0027
+  observations_supported: []
+  provenance: modern_synthesis
+  citation: Eger 2015 p.200
+  paraphrase: 'Eger characterises the early Islamic urban transformation in the ʿAwāṣim:
+    Anṭākiya''s reduction in urban scale, Ḥalab''s rise to ʿawāṣim qaṣaba (administrative
+    centre), and the growth of secondary settlements such as ʿImm and Baghras around
+    water mills and canals. Anṭākiya in particular is presented as a case of rus in
+    urbe — rural-style settlement persisting within urban space.'
+  confidence: 3
+  notes: Antakiya's reduction and Halab's rise to ʿawāṣim qaṣaba; growth of ʿImm and
+    Baghras around water mills/canals; Antakiya as a case of rus in urbe.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

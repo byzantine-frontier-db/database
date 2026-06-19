@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0158
+  proposition: Maslama ibn ʿAbd al-Malik built a canal at Bālis to irrigate its villages
+    from the Euphrates; the land, abandoned by inhabitants who had fled, was granted
+    to fighters and converted Syrian Arabs and eventually given as a qaṭīʿa to his
+    son al-Maʾmūn (a son of Maslama, NOT the caliph al-Maʾmūn ENT-PERS-0039).
+  associated_entities:
+  - ENT-PERS-0025
+  - ENT-PLC-0037
+  - ENT-PLC-0045
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0224
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

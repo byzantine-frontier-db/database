@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0160
+  proposition: Raʾs al-ʿAyn was irrigated by canals; a town there belonging to Maslama
+    ibn ʿAbd al-Malik was granted to his client Usayd as-Sulamī (Āsīd of the Sulaym),
+    tentatively identified with Bājadda.
+  associated_entities:
+  - ENT-PLC-0106
+  - ENT-PERS-0025
+  - ENT-PERS-0052
+  - ENT-PLC-0100
+  supporting_attestations:
+  - ATT-0226
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

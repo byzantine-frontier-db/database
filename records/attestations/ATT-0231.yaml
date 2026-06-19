@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0231
+  source: SRC-0033
+  entities_referenced:
+  - ENT-PERS-0036
+  - ENT-PLC-0093
+  observations_supported:
+  - OBS-0165
+  provenance: primary_paraphrase
+  citation: Life of St Simeon of the Olives, via Eger 2015 p.204
+  confidence: 4
+  notes: Simeon of the Olives (ENT-PERS-0036; distinct from Simeon the Mountaineer
+    ENT-PERS-0060) travelled between Ḥarrān and the Ṭūr ʿAbdīn at least four times.
+    The Ṭūr ʿAbdīn place-entity remains deferred per prior sessions.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

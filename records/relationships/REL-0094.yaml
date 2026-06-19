@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0094
+  type: near
+  source_entity: ENT-PLC-0058
+  target_entity: ENT-PLC-0056
+  confidence: 2
+  linked_attestations:
+  - ATT-0232
+  notes: Dayr Simʿan / Qalʿat Simʿān lies in the Limestone Massif / Syrian Jibāl zone.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

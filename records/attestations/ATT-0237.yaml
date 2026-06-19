@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0237
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0045
+  - ENT-PLC-0118
+  - ENT-PLC-0010
+  - ENT-PLC-0094
+  - ENT-PERS-0020
+  observations_supported:
+  - OBS-0171
+  provenance: modern_synthesis
+  citation: Eger 2015 p.210, citing Kātbi, Islamic Land Tax, p.247
+  confidence: 3
+  notes: 'ʿAbd al-Malik gifts lands to frontier fighters at al-Massīsa, the thughūr
+    and the Jazīra; qaṭīʿa grants increase from Muʿāwiya onward. Reported via Eger
+    (route: Kātbi).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

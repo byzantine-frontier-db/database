@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0145
+  standardised_name: Nahr al-Nīl Canal (Raqqa)
+  place_type: river
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Abbasid canal serving palatial Raqqa/Rāfiqa; partly a defensive moat.
+  environmental_setting: Drew Euphrates water; a c.12 m wide feeder emptying east
+    of Raqqa into the marshy Balikh-Euphrates confluence.
+  overall_confidence: 3
+  analytical_summary: Canal attributed to Hārūn al-Rashīd (ENT-PERS-0018) at Raqqa
+    (ENT-PLC-0091). It ran into the western side of the city past Hārūn's palaces
+    and served as a moat (khandaq); a qanat fed the northern palaces. Identified largely
+    via Toueir's study and CORONA imagery rather than a single textual source.
+  associated_entities:
+  - ENT-PERS-0018
+  - ENT-PLC-0091
+  - ENT-PLC-0044
+  - ENT-PLC-0095
+  linked_attestations:
+  - ATT-0229
+  notes: Minted this session; no snapshot match. PlaceType 'canal' gap (place_type
+    'river'). Coordinates omitted. Grounding modern/archaeological (Toueir; Heidemann;
+    CORONA).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

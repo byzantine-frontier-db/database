@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0085
+  associated_entities:
+  - ENT-PLC-0094
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  scholar: Wilkinson, T. J.
+  publication: '''Regional Approaches to Mesopotamian Archaeology'' (pp.237, 242)'
+  argument: Flat and low-mounded sites are systematically under-represented in tell-focused
+    surveys, which skews Roman-to-Early-Islamic settlement data; the record nonetheless
+    shows 'differential growth' across micro-regions.
+  confidence: 3
+  notes: Reported by Eger 2015 pp.200-2. No publication_source_id.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

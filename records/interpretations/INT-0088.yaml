@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0088
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  scholar: Glick, T. F. (with Barceló, Kirchner, Cressier)
+  publication: From Muslim Fortress to Christian Castle; and al-Andalus hydraulic-archaeology
+    literature
+  argument: In al-Andalus, Sicily and the Balearics, Early Islamic lowland 'hydraulic
+    villages' (aldea/alquería, from al-qarya) clustered around a shared water supply
+    without attendant castles, sited for water access rather than defence — a comparative
+    model Eger applies to the Syro-Anatolian canal villages.
+  confidence: 3
+  notes: Reported by Eger 2015 pp.208-9 as a comparative frame. No publication_source_id.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

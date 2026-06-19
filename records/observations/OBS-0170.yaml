@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0170
+  proposition: ʿAbd al-Malik gifted lands to frontier fighters at al-Massīsa, in the
+    thughūr and in the Jazīra, part of an increase in qaṭīʿa land grants from the
+    time of Muʿāwiya onward.
+  associated_entities:
+  - ENT-PERS-0045
+  - ENT-PLC-0118
+  - ENT-PLC-0010
+  - ENT-PLC-0094
+  - ENT-PERS-0020
+  supporting_attestations:
+  - ATT-0236
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

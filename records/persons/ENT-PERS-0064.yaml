@@ -1,0 +1,33 @@
+- record_type: person
+  id: ENT-PERS-0064
+  standardised_name: Iyāḍ ibn Ghanm
+  alternative_names:
+  - form: Iyāḍ ibn Ghanm al-Fihrī
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: general
+  death:
+    date:
+      start: 639
+      end: 641
+      precision: year_range_narrow
+      confidence: 2
+  overall_confidence: 4
+  analytical_summary: Early-caliphate (Rāshidūn-era) commander credited with the conquest
+    of the Jazīra, including Raqqa and its region. Per Eger (via al-Balādhurī) he
+    left the majority of the cultivated land with its already-established farmers
+    (al-fallāḥīn / al-arīsīyīn). Operated under the caliphate of ʿUmar I (ENT-PERS-0041);
+    no Rāshidūn polity entity exists, so political_affiliation is left unset.
+  linked_attestations:
+  - ATT-0236
+  notes: Minted this session; snapshot search returned no match (distinct from conquest
+    generals Abū ʿUbayda ENT-PERS-0031 and Ṣāliḥ ibn ʿAlī ENT-PERS-0042). Anchored
+    on al-Balādhurī attestation ATT-0236 (Eger 2015 p.209).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

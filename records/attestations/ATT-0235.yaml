@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0235
+  source: SRC-0032
+  entities_referenced:
+  - ENT-PLC-0054
+  - ENT-PERS-0033
+  observations_supported:
+  - OBS-0169
+  provenance: primary_paraphrase
+  citation: Theodota of Amida, Life, section p.175, via Eger 2015 p.207 (n.15)
+  confidence: 3
+  notes: Irrigation ditches feeding fields of grain, fruit and produce around Qenneshre;
+    Eger suggests these may correspond to the Jerablus/Carchemish canal features.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

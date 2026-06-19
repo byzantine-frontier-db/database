@@ -1,0 +1,45 @@
+- record_type: event
+  id: ENT-EVT-0031
+  standardised_name: Construction of the Hanī Canal under Hishām
+  event_type:
+    primary: construction_infrastructure
+    sub: water_system_construction
+  start_date:
+    start: 724
+    end: 743
+    precision: year_range_broad
+    confidence: 3
+    primary_dating_system: regnal_umayyad
+    notes: Dated to the reign of Hishām (r.724-743); no precise construction date.
+  associated_places:
+  - ENT-PLC-0144
+  - ENT-PLC-0095
+  - ENT-PLC-0044
+  - ENT-PLC-0091
+  participants:
+  - ENT-PERS-0019
+  political_entities_involved:
+  - ENT-POL-0003
+  description: Construction of the Hanī Canal, a major Umayyad caliphal irrigation/estate
+    canal in the lower Balikh-Euphrates zone, attributed to Hishām.
+  historical_significance: Eger's principal textual case for caliphal hydraulic-estate
+    investment on the frontier; celebrated by Jarīr and, per Michael the Syrian, exceptionally
+    lucrative.
+  overall_confidence: 3
+  analytical_summary: Caliphal canal-building project of Hishām, attested across Arabic
+    poetry (Jarīr) and Syriac chronicle traditions (Zuqnīn, Michael the Syrian, Chronicle
+    of 1234).
+  linked_attestations:
+  - ATT-0218
+  - ATT-0219
+  - ATT-0220
+  - ATT-0221
+  linked_interpretations:
+  - INT-0081
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

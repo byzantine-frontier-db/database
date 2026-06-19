@@ -1,0 +1,31 @@
+- record_type: interpretation
+  id: INT-0083
+  associated_entities:
+  - ENT-PLC-0045
+  - ENT-PLC-0097
+  - ENT-PLC-0098
+  - ENT-PLC-0095
+  scholar: Eger, A. Asa
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015), ch. 7'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The Balikh 'Nahr Maslama' (feeding the Hisn Maslama cistern) may be identical
+    with the Nahr al-Abbāra, dated to the sixth-eighth centuries, since both ran along
+    the east side of the Balikh. The relationship of this Balikh canal to the canonical
+    Nahr Maslama (ENT-PLC-0045, tagged 'Balis canal') and to the Nahr al-Abbāra (ENT-PLC-0097)
+    is left unresolved; the identification question is preserved rather than silently
+    merged.
+  supporting_evidence:
+  - ATT-0224
+  confidence: 2
+  notes: 'Recorded per the identity-resolution rule: scholarly identification questions
+    are preserved, not resolved by minting a duplicate. No new canal entity minted
+    for the Balikh ''Nahr Maslama''.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

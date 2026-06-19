@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0219
+  source: SRC-0028
+  entities_referenced:
+  - ENT-PLC-0144
+  - ENT-PERS-0019
+  - ENT-PLC-0044
+  - ENT-PLC-0095
+  observations_supported:
+  - OBS-0152
+  - OBS-0153
+  provenance: primary_paraphrase
+  citation: 'Pseudo-Dionysius of Tell Maḥrē, Chronicle of Zuqnīn [citation needed:
+    exact page in Harrak (trans.), PIMS 1999]'
+  confidence: 3
+  notes: 'Via Eger 2015 p.212: the c.15 km canal from near Qalʿat Namrūd to the Balikh-Euphrates
+    confluence is identified with the Hanī and attributed to Hishām in the Chronicle
+    of Zuqnīn.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

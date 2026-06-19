@@ -1,0 +1,31 @@
+- record_type: interpretation
+  id: INT-0080
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0095
+  - ENT-PLC-0049
+  - ENT-PLC-0025
+  scholar: Eger, A. Asa
+  publication: 'The Islamic-Byzantine Frontier: Interaction and Exchange (London:
+    I.B. Tauris, 2015), ch. 7'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: From c.700 CE new agricultural estates and hydraulic infrastructure (irrigation,
+    milling, transport) developed on the frontier, with marshes as overlooked loci
+    of settlement. Canal and river settlements were linearly arranged, evenly spaced,
+    and sometimes formed double sites on either bank; sites were chosen for proximity
+    to water rather than for strategic location — a 'hydraulic villages' pattern paralleled
+    in al-Andalus.
+  supporting_evidence:
+  - ATT-0224
+  - ATT-0229
+  - ATT-0238
+  - ATT-0239
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

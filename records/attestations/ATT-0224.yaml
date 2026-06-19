@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0224
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PERS-0025
+  - ENT-PLC-0098
+  - ENT-PLC-0097
+  - ENT-PLC-0095
+  observations_supported:
+  - OBS-0158
+  provenance: primary_paraphrase
+  citation: Yāqūt, Muʿjam al-buldān (1990), 2.306; with Ibn Serapion, Description
+    of Mesopotamia and Baghdad (notes by Le Strange), p. 59
+  confidence: 3
+  notes: Via Eger 2015 p.211 (nn.31-33; Haase, Heidemann, Wilkinson as modern route).
+    Maslama's Balikh canal, the Hisn Maslama cistern, and the foundation of the settlement
+    of Hisn Maslama at the inhabitants' request. The Balikh canal's relation to the
+    canonical Nahr Maslama (ENT-PLC-0045, 'Balis canal') and Nahr al-Abbāra (ENT-PLC-0097)
+    is unresolved — see INT-0083.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

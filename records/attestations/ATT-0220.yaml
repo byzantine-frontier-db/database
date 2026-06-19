@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0220
+  source: SRC-0022
+  entities_referenced:
+  - ENT-PLC-0144
+  - ENT-PERS-0019
+  observations_supported:
+  - OBS-0154
+  provenance: primary_paraphrase
+  citation: 'Michael the Syrian, Chronique (ed. Chabot) [citation needed: exact vol./page]'
+  confidence: 3
+  notes: 'Via Eger 2015 p.212 (n.41): per Michael the Syrian the Hanī''s revenue surpassed
+    the empire''s total tax revenue; Michael and the Chronicle of 1234 also allude
+    to high taxation and tribute.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

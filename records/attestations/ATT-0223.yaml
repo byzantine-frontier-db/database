@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0223
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0019
+  - ENT-PLC-0113
+  - ENT-PLC-0104
+  - ENT-PLC-0044
+  observations_supported:
+  - OBS-0157
+  provenance: primary_paraphrase
+  citation: 'al-Ṭabarī, Taʾrīkh [citation needed: exact vol./page]'
+  confidence: 3
+  notes: Via Eger 2015 p.212. Ṭabarī refers to Hishām's money-generating estate at
+    Dawrīn (with its villages), associated with the Nahr Dawrīn at the Khabūr-Euphrates
+    confluence.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

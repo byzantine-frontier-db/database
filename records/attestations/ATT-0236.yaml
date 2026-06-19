@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0236
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PERS-0064
+  - ENT-PLC-0091
+  observations_supported:
+  - OBS-0170
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1987), p.237, via Eger 2015 p.209 (n.23)
+  confidence: 4
+  notes: 'Prosopographical anchor for the new person Iyāḍ ibn Ghanm (ENT-PERS-0064):
+    on conquering Raqqa he left the land with its established farmers (al-fallāḥīn
+    / al-arīsīyīn).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
