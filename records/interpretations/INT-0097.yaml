@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0097
+  associated_entities:
+  - ENT-PLC-0037
+  scholar: Kennedy, H.
+  publication: '''Elite Incomes in the Early Islamic State'' (cited by Eger 2015,
+    p. 214)'
+  date: 2004
+  argument: At Balis the irrigated lands were liable both to the Muslim tithe owed
+    to the state and to yields owed to the landowner or patron, illustrating the layered
+    fiscal claims on reclaimed frontier estates.
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

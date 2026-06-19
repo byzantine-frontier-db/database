@@ -1,0 +1,28 @@
+- record_type: source
+  id: SRC-0050
+  standardised_title: Anazarbus tariff inscription (sixth-century list of duties on
+    goods)
+  author_unnamed: true
+  language: grc
+  script: Grek
+  genre: inscription_corpus
+  date_of_composition:
+    precision: century
+    confidence: 3
+    start: '500'
+    end: '599'
+    notes: Sixth century per Eger.
+  edition_used: 'G. Dagron & D. Feissel, Inscriptions de Cilicie (Travaux et Mémoires,
+    Monographies 4; Paris: de Boccard, 1987), pp. 182 and n. 92 (per Eger fn 84).'
+  reliability_assessment: Sixth-century epigraphic tariff list at Anazarbus. The reading
+    of 'rice' rests on a fragmentary word ('LOV / possibly ὀρύριον), so the rice item
+    is speculative (cf. Finkelstein 2011).
+  notes: Reached via Eger 2015, p. 224, citing Dagron & Feissel. Epigraphic source
+    for the Anazarbus attestation.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

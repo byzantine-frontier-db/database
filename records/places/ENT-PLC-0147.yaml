@@ -1,0 +1,36 @@
+- record_type: place
+  id: ENT-PLC-0147
+  standardised_name: Ṭūr ʿAbdīn
+  alternative_names:
+  - form: ܛܘܪ ܥܒܕܝܢ
+    language: syr
+    script: Syrc
+    name_type: historical_attestation
+  - form: Tur Abdin
+    language: en
+    script: Latn
+    name_type: modern_name
+  place_type: region
+  identification_status: identified
+  identification_confidence: 5
+  frontier_role: Limestone upland (the 'Mountain of the Servants [of God]') in north-eastern
+    Mesopotamia; Syriac-Orthodox monastic heartland associated with Qartmīn/Mor Gabriel
+    and with the building activity of Simeon of the Olives.
+  environmental_setting: Upland plateau between Naṣībīn/Diyār Rabīʿa and the Tigris;
+    one of the regions where water-mills are noted from at least the fourth century.
+  overall_confidence: 5
+  analytical_summary: Monastic region of Ṭūr ʿAbdīn, brought into the corpus here
+    as the regional anchor for the building catalogue of Simeon of the Olives and
+    for the monastery of Qartmīn (Mor Gabriel). Deferred in prior sessions as insufficiently
+    attested; now substantively attested via the Life of Simeon of the Olives and
+    Eger's mill discussion (Eger 2015, pp. 214-215).
+  linked_attestations:
+  - ATT-0241
+  notes: Provisional ID; coordinates deliberately omitted (region, no fabricated centroid).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

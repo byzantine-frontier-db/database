@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0178
+  proposition: Water-mills are attested at Naṣībīn and at Qenneshre along the Euphrates.
+  associated_entities:
+  - ENT-PLC-0108
+  - ENT-PLC-0054
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0244
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

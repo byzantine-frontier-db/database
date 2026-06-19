@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0093
+  associated_entities:
+  - ENT-PLC-0024
+  - ENT-PLC-0025
+  - ENT-PLC-0023
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Hydraulic villages, holding roughly equidistant plots along canals and
+    rivers, may have been organised by tribal, clan or religious affiliation (with
+    differing tax status), and Muslim and Christian communities may have shared a
+    single water system, as perhaps at the Yaghra River sites and at ʿImm and its
+    satellites; the use of tell-forts on the Marʿash canals further ties defence to
+    water supply near the Taurus frontier.
+  supporting_evidence:
+  - ATT-0247
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

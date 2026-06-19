@@ -1,0 +1,27 @@
+- record_type: interpretation
+  id: INT-0091
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0113
+  - ENT-PLC-0104
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Frontier canal systems were conservative and localised in scale — none
+    approached the 230-km Sasanian Nahrawān Canal, and even the largest thughūr/Jazīra
+    systems (Nahr Dawrīn, the Khabūr zone) irrigated only c. 30,000 ha — so construction,
+    maintenance and organisation operated at the scale of a town or the collective
+    authority of several hydraulic villages, even where the central administration
+    retained an interest.
+  supporting_evidence:
+  - ATT-0247
+  confidence: 3
+  notes: Nahrawān Canal (Sasanian Iraq) deferred as a comparandum, not minted.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

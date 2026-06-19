@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0243
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0037
+  - ENT-PERS-0025
+  - ENT-PLC-0045
+  - ENT-POL-0003
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1987 ed.), pp. 205-206; reached via Eger
+    2015, p. 214.
+  paraphrase: The Muslim villagers around Balis asked Maslama (b. ʿAbd al-Malik) to
+    build them a canal — the second Nahr Maslama — and gave him one-third of its produce
+    (ghullatihim) as a tithe for the government (ʿushr al-sulṭān). al-Balādhurī's
+    discussion shows that ʿushr on artificially watered lands was one-twentieth (5%),
+    against one-tenth for naturally watered, with the higher-rate kharāj paid by non-Muslims;
+    at Balis the lands owed both the Muslim tithe to the state and yields to the landowner/patron.
+  location_within_source: pp. 205-206.
+  confidence: 4
+  notes: Maslama is an Umayyad figure (ENT-POL-0003). The 'second Nahr Maslama' is
+    the existing Balis canal (ENT-PLC-0045; construction event ENT-EVT-0016). The
+    landowner/patron point is also supported by H. Kennedy, 'Elite Incomes', pp. 142-3
+    (modern; Eger fn 49) — see interpretation INT-0097.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0177

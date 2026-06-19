@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0246
+  source: SRC-0050
+  entities_referenced:
+  - ENT-PLC-0120
+  provenance: epigraphic_evidence
+  citation: Anazarbus tariff inscription, ed. Dagron & Feissel, Inscriptions de Cilicie
+    (1987), pp. 182 & n. 92; reached via Eger 2015, p. 224 (Eger fn 84).
+  paraphrase: A sixth-century inscription listing duties on goods entering Anazarbus
+    may include rice among the taxed items; the reading rests on a fragmentary word
+    ('LOV, possibly ὀρύριον) and is therefore speculative.
+  location_within_source: Dagron & Feissel no. (Anazarbus), pp. 182 & n. 92.
+  confidence: 2
+  notes: Rice reading flagged speculative by Eger after Finkelstein (2011). Epigraphic
+    provenance.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0179

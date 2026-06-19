@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0094
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0056
+  scholar: Butzer, K. (with T. F. Glick, M. Barceló)
+  publication: Work on al-Andalus irrigation (cited by Eger 2015, pp. 216-217)
+  date: 1988
+  argument: 'In al-Andalus, irrigation organised on a tripartite scale: a macro (Roman,
+    50-100 km²), a meso (a small group of typically seven villages, 15-125 ha) and
+    a micro (c. 1 ha) scale; Islamic-period water rights were adapted from the Roman
+    ''Syrian System'', and meso/micro scales correlated with tribal/segmentary rather
+    than feudal Visigothic organisation.'
+  confidence: 3
+  notes: Comparative al-Andalus model reported by Eger; no publication_source_id per
+    workflow (modern scholarship via secondary).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

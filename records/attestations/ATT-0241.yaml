@@ -1,0 +1,35 @@
+- record_type: attestation
+  id: ATT-0241
+  source: SRC-0033
+  entities_referenced:
+  - ENT-PERS-0036
+  - ENT-PLC-0108
+  - ENT-PLC-0147
+  - ENT-PLC-0148
+  - ENT-EVT-0032
+  provenance: primary_paraphrase
+  citation: Life of St Simeon of the Olives (SRC-0033); reached via Eger, The Islamic-Byzantine
+    Frontier (2015), p. 214, who also cites J. Tannous, 'Syria Between Byzantium and
+    Islam', p. 371.
+  paraphrase: Simeon of the Olives built at Naṣībīn a large and beautiful mosque next
+    to the church, plus a madrasa and a pandocheion (way station), with groves, irrigation
+    channels and mills, funding the works from gold and silver found as a hoard by
+    his nephew; the Life also reflects that large monasteries such as Qartmīn (Mor
+    Gabriel) on the Ṭūr ʿAbdīn could own other monasteries, with rents and agricultural
+    proceeds accruing to the monasteries themselves.
+  location_within_source: Life of Simeon of the Olives (no folio/page supplied by
+    Eger).
+  confidence: 3
+  notes: 'Transmission chain: primary Life → Tannous (modern study) → Eger 2015 p.
+    214. Tannous handled separately as a modern interpretation. Eger page recorded
+    here per workflow.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0174
+  - OBS-0175

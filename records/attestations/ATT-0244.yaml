@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0244
+  source: SRC-0048
+  entities_referenced:
+  - ENT-PLC-0108
+  - ENT-PLC-0054
+  - ENT-PLC-0044
+  provenance: primary_paraphrase
+  citation: al-Azdī, Taʾrīkh al-Mawṣil, pp. 26, 28, 33, 43; reached via Eger 2015,
+    p. 215.
+  paraphrase: Water-mills were described at Naṣībīn and at Qenneshre along the Euphrates.
+  location_within_source: pp. 26, 28, 33, 43.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 215 (Eger fn 53). The wider claims about caliphal
+    mills (ʿurūb) around Mawṣil from the Marwanid period and mills built by Hishām
+    rest in Eger on modern works (Robinson; Braemer et al.) and on Eger's own synthesis;
+    these are handled in interpretation INT-0090, not collapsed into this primary
+    attestation.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0178

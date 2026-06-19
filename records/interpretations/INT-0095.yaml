@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0095
+  associated_entities:
+  - ENT-PLC-0044
+  - ENT-PLC-0020
+  scholar: Berthier, S.
+  publication: Peuplement rural et aménagements hydroagricoles dans la moyenne vallée
+    de l'Euphrate (cited by Eger 2015, p. 223)
+  date: 2001
+  argument: The appearance of non-native cultivars and the close tie between settlement
+    and irrigation in the Middle Euphrates evidence a genuine Islamic agricultural
+    revolution.
+  confidence: 2
+  notes: Reported by Eger; directly contested by Samuel & Decker (INT-0096). Preserved
+    disagreement.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

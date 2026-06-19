@@ -1,0 +1,34 @@
+- record_type: attestation
+  id: ATT-0250
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0123
+  - ENT-PLC-0029
+  - ENT-PLC-0149
+  - ENT-PLC-0059
+  - ENT-PLC-0098
+  - ENT-PLC-0107
+  - ENT-PLC-0086
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 226-228 with Figure 28 (comparative way stations).
+  paraphrase: Eger groups a set of Early Islamic 'fortified square enclosures' — Hisn
+    al-Tīnāt (Plain of Issus), Būqā (Amuq), Kurban Höyük (Karababa Basin), Site 17
+    (Jerablus/Carchemish), Site 4/Pınar Tarlası, Ḥiṣn Maslama (Balikh) and Tell Brak
+    (Khabūr) — sited on south–north routes. They are mainly single-period (founded
+    8th c., abandoned by 12th), retain the qaṣr layout but are smaller and variable
+    in size, and are often undecorated; some may be misidentified Roman forts (e.g.
+    Tell Brak). They are best categorised as way stations, distinct from ribāṭ, and
+    were probably called ḥuṣūn.
+  location_within_source: pp. 226-228; Figure 28.
+  confidence: 4
+  notes: 'Survey sites not minted: ''Site 17 from the Jerablus/Carchemish Survey''
+    is NOT confidently matched to ENT-PLC-0060 (''Jarablus Tahtani Survey Site 17'')
+    because the survey names differ; left unlinked pending review. Pınar Tarlası matched
+    to ENT-PLC-0059; Būqā to ENT-PLC-0029.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

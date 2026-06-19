@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0251
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0123
+  - ENT-PLC-0126
+  - ENT-PLC-0115
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 228-229 (excavation results, Hisn al-Tīnāt).
+  paraphrase: Hisn al-Tīnāt lay both on the land route from al-Iskandarūna into Cilicia
+    and on the coast as a port. Its third phase (tenth century) saw thickened enclosure
+    walls and domestic structures, with dock evidence (amphorae and timber) on the
+    shoreline and geophysically detected structures linking enclosure to coast. Locally
+    made frontier ceramics and glass occurred alongside imports (perfume and medicine
+    bottles, bronze surgical tools, glass bracelets) from Iraq, Egypt and Byzantine
+    lands; very few military artefacts were found.
+  location_within_source: pp. 228-229.
+  confidence: 4
+  notes: Excavation data reported by Eger (himself the excavator).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0182

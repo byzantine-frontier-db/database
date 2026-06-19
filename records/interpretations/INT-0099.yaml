@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0099
+  associated_entities:
+  - ENT-PLC-0149
+  - ENT-PLC-0123
+  - ENT-PLC-0107
+  - ENT-PLC-0010
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The 'fortified square enclosure' is a distinct Early Islamic mid-range
+    settlement type — way stations between the thughūr towns and rural farms — retaining
+    the qaṣr layout; because several may be misidentified Roman forts (e.g. Tell Brak),
+    they should prompt a revision of received notions of the Roman limes. Hisn al-Tīnāt
+    shows that by the tenth century such a site could be a coastal trade settlement
+    rather than an isolated garrison.
+  supporting_evidence:
+  - ATT-0250
+  - ATT-0251
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

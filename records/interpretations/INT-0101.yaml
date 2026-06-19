@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0101
+  associated_entities:
+  - ENT-PLC-0044
+  - ENT-PLC-0094
+  - ENT-PLC-0010
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Early Islamic frontier settlement preferred smaller rivers, canals and
+    coastal streams and avoided the major rivers (Euphrates, Tigris), concentrating
+    instead on land routes and a sparse set of strategic river crossings.
+  supporting_evidence:
+  - ATT-0252
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

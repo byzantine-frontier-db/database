@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0242
+  source: SRC-0047
+  entities_referenced:
+  - ENT-PERS-0032
+  - ENT-PLC-0044
+  provenance: primary_paraphrase
+  citation: Qudāma b. Jaʿfar, Kitāb al-Kharāj (trans. 'Taxation in Islam'), pp. 60-62;
+    reached via Eger 2015, p. 214.
+  paraphrase: 'Qudāma discusses the sharing of water rights and local canal-digging:
+    excavation was a shared communal activity, but cleaning, damming and supervising
+    the canals were directed by the Imam ''from the moneys of the Muslims''. For al-Mahdī''s
+    time he cites another scholar that, along the great rivers, digging, bridge-construction,
+    canal-clearing and dam-maintenance were paid for from the state treasury.'
+  location_within_source: pp. 60-62.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 214 (Eger fn 46-47).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0176

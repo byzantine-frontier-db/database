@@ -1,0 +1,16 @@
+- record_type: observation
+  id: OBS-0183
+  proposition: Early Islamic settlement avoided the Euphrates, with the few river
+    crossings spaced on average about 70 km apart.
+  associated_entities:
+  - ENT-PLC-0044
+  - ENT-PLC-0094
+  supporting_attestations:
+  - ATT-0252
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

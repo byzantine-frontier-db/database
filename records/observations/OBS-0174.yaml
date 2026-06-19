@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0174
+  proposition: Simeon of the Olives built a mosque (beside the church), a madrasa
+    and a pandocheion (way station) at Naṣībīn.
+  associated_entities:
+  - ENT-PERS-0036
+  - ENT-PLC-0108
+  - ENT-EVT-0032
+  supporting_attestations:
+  - ATT-0241
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

@@ -1,0 +1,39 @@
+- record_type: attestation
+  id: ATT-0252
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0044
+  - ENT-PLC-0073
+  - ENT-PLC-0042
+  - ENT-PLC-0054
+  - ENT-PLC-0037
+  - ENT-PLC-0064
+  - ENT-PLC-0091
+  - ENT-PLC-0094
+  - ENT-PLC-0086
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 228-229, synthesising the Gritille, Birecik, Bozova-Urfa,
+    Northern Jazīra and Saddam Dam (Eski Mosul) salvage surveys.
+  paraphrase: 'Early Islamic settlement largely avoided the Euphrates: surveys show
+    far fewer Early Islamic (and even Late Roman) river sites than in Hellenistic/Roman
+    times, with the few examples on upper terraces away from the river. Only a handful
+    of spaced crossings occur — Sumaysāṭ, Zeugma (Site 19), Qenneshre/Khirbet Seraisat
+    (Site 1), Balis, Jisr Manbij and Raqqa — averaging c. 70 km apart. The Northern
+    Jazīra and Saddam Dam surveys similarly show avoidance of major-river settlement
+    and a preference for land-route sites such as Tell al-Hawa beside the ''Abbasid
+    Road hollow way.'
+  location_within_source: pp. 228-229.
+  confidence: 4
+  notes: Survey sites (Khirbet Seraisat Site 1, Tell al-Hawa, Lidar Höyük) not minted
+    as entities. The sentence on p. 229 runs into p. 230 ('Caliph Hārūn travelling
+    from Raqqa to ...') — that continuation is deferred to the next session. Redford's
+    interpretive point handled in INT-0100.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0183

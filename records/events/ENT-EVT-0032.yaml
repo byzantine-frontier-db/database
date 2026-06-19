@@ -1,0 +1,47 @@
+- record_type: event
+  id: ENT-EVT-0032
+  standardised_name: Building works of Simeon of the Olives at Naṣībīn (mosque, madrasa,
+    way-station)
+  event_type:
+    primary: construction_infrastructure
+    sub: mosque_construction
+    secondary:
+    - primary: religious
+      sub: monastic_foundation
+  start_date:
+    precision: quarter_century
+    confidence: 3
+    start: '700'
+    end: '734'
+    primary_dating_system: AD
+    notes: Before Simeon's death (traditionally 734); precise date not given by Eger.
+  associated_places:
+  - ENT-PLC-0108
+  - ENT-PLC-0147
+  - ENT-PLC-0148
+  participants:
+  - ENT-PERS-0036
+  political_entities_involved:
+  - ENT-POL-0003
+  description: According to his Life, Simeon of the Olives built at Naṣībīn a 'large
+    and beautiful mosque' next to the church, together with a madrasa and a pandocheion
+    (way station), with groves, irrigation channels and mills; the works were funded
+    from a hoard of gold and silver found by his nephew.
+  historical_significance: A notable case of a Christian holy man endowing a mosque
+    alongside a church, and of monastic investment in agrarian and hydraulic infrastructure
+    on the Jaziran frontier.
+  overall_confidence: 3
+  analytical_summary: Discrete construction programme attributed to Simeon of the
+    Olives at Naṣībīn, drawn from his hagiographic Life (SRC-0033) via Eger 2015,
+    p. 214.
+  linked_attestations:
+  - ATT-0241
+  notes: Provisional ID. Funding by a discovered hoard flagged by Eger as 'a likely
+    exception to the norm' of monastic funding.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

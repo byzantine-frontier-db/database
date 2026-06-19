@@ -1,0 +1,33 @@
+- record_type: attestation
+  id: ATT-0247
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0020
+  - ENT-PLC-0024
+  - ENT-PLC-0021
+  - ENT-PLC-0023
+  - ENT-PLC-0025
+  provenance: archaeological_evidence
+  citation: Eger 2015, pp. 218-219, reporting Amuq Valley and Kahramanmaraş/Marʿash
+    survey site-size data.
+  paraphrase: On the Amuq ʿAfrīn Canal (B) the sites measure 4.48, 6.1 and 35 ha east-to-west,
+    the largest at the canal end; on the ʿImm(a) Canal system 2.25, 1 and 4.5 ha,
+    the largest again at the end where a water-mill system was found; in the eastern
+    Marʿash Plain the eastern canal's sites are 1.13, 0.79 and 6 ha and the western
+    canal's 6, 2 and 4 ha. Middle sites are smallest and the terminal site largest;
+    by contrast the naturally watered Yaghra River sites are all of roughly equal
+    size (~12 ha each).
+  location_within_source: pp. 218-219.
+  confidence: 4
+  notes: Survey-level canal designations (ʿAfrīn Canal B, ʿImm/ʿImma Canal, Nahr Hurith/Ak
+    Su Canal, Kara Su River) deferred as distinct place entities; content attached
+    to the existing plain/locality entities.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
+  observations_supported:
+  - OBS-0180

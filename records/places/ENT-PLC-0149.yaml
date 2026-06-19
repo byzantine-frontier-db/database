@@ -1,0 +1,32 @@
+- record_type: place
+  id: ENT-PLC-0149
+  standardised_name: Kurban Höyük
+  alternative_names:
+  - form: Kurban Hüyük
+    language: tr
+    script: Latn
+    name_type: alternative_transliteration
+  place_type: fortification
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Early Islamic fortified square enclosure ('way station') in the Karababa
+    Basin, one of Eger's four comparative way-station exemplars (Figure 28) alongside
+    Ḥiṣn Maslama, Tell Brak and Hisn al-Tīnāt.
+  environmental_setting: Karababa Basin, on a south–north route; single-period site
+    (8th–12th c.).
+  overall_confidence: 4
+  analytical_summary: Excavated mound in the Karababa Basin classed by Eger among
+    the Early Islamic 'fortified square enclosure' way stations. Minted because three
+    of the four Figure-28 exemplars already exist in the corpus (ENT-PLC-0098, ENT-PLC-0107,
+    ENT-PLC-0123) while Kurban Höyük did not (Eger 2015, pp. 226-228).
+  linked_attestations:
+  - ATT-0250
+  notes: Provisional ID; coordinates deliberately omitted (survey/excavation site,
+    no fabricated precision).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true

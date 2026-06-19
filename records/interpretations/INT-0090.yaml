@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0090
+  associated_entities:
+  - ENT-PLC-0109
+  - ENT-PERS-0019
+  - ENT-PLC-0010
+  scholar: Eger, A. A.
+  publication: The Islamic-Byzantine Frontier (2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Caliphal/state investment in water-mills (ʿurūb, e.g. around Mawṣil from
+    the Marwanid period, and mills ascribed to Hishām) and in irrigation was both
+    a revenue source and a means of inducing frontier inhabitants to settle and channel
+    loyalty to the central state, thereby extending its control.
+  supporting_evidence:
+  - ATT-0244
+  confidence: 3
+  notes: Rests partly on modern works (Robinson; Braemer et al.) and Wilkinson & Rayne
+    (see INT-0096); kept distinct from the al-Azdī primary attestation.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+  editorial_review_required: true
