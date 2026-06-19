@@ -33,11 +33,13 @@
   linked_attestations:
   - ATT-0079
   - ATT-0215
+  - ATT-0230
   linked_interpretations:
   - INT-0028
+  - INT-0086
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

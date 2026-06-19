@@ -30,15 +30,17 @@
   - ENT-PERS-0019
   linked_attestations:
   - ATT-0158
+  - ATT-0224
   linked_interpretations:
   - INT-0046
+  - INT-0083
   notes: New entity. place_type 'other' (no 'canal'/'irrigation_work' value in PlaceType
     enum v1.0.0; candidate vocabulary extension noted for editorial review). The earlier
     Sahlān-Ḥammām canal is mentioned only in passing and is deferred. Eger 2015 (SRC-0007)
     pp. 140-141. Provisional ID pending minting.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

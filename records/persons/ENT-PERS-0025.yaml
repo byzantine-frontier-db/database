@@ -31,9 +31,12 @@
   - ATT-0168
   - ATT-0169
   - ATT-0203
+  - ATT-0224
+  - ATT-0225
+  - ATT-0227
   metadata:
     schema_version: 1.0.0
-    record_version: 1.5.0
+    record_version: 1.6.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
@@ -42,4 +45,5 @@
   - INT-0038
   - INT-0047
   - INT-0048
+  - INT-0081
   political_affiliation: ENT-POL-0003

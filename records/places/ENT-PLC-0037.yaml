@@ -20,6 +20,8 @@
   - ATT-0129
   - ATT-0130
   - ATT-0137
+  - ATT-0225
+  - ATT-0238
   alternative_names:
   - form: Bālis
     language: ar
@@ -46,7 +48,7 @@
   notes: Coordinates approximate (Meskene / Lake Assad shore); verify against gazetteer.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

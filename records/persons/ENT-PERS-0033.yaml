@@ -17,9 +17,11 @@
   - ATT-0118
   - ATT-0146
   - ATT-0147
+  - ATT-0234
+  - ATT-0235
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

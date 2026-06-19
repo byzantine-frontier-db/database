@@ -18,9 +18,10 @@
     by the Tell Rifaʿat Survey (Matthers 1981).
   linked_attestations:
   - ATT-0109
+  - ATT-0239
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
