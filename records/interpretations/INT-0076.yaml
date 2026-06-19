@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0076
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0022
+  scholar: de Giorgi, A. U.
+  publication: '''Socio-economic Studies in the Territory of Antioch in the High Roman
+    Empire'' (PhD diss., Bryn Mawr)'
+  date: 2006
+  argument: De Giorgi argues that the reduction in the number of farms in the Amuq
+    Plain reflects the expansion of larger estates owned by Antioch's wealthy families
+    and officials, which absorbed smaller holdings and whole villages and monopolised
+    the city's markets — an endemic vulnerability whereby a minority controlled most
+    land and trade.
+  confidence: 3
+  notes: Modern scholar reported by Eger; no publication_source_id.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0215
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0031
+  - ENT-PLC-0021
+  observations_supported:
+  - OBS-0150
+  provenance: numismatic_evidence
+  citation: E. Carlson, 'A Constantinian Coin Deposit from the Syro-Anatolian Frontier',
+    poster, ASOR Annual Meeting, Atlanta, 2010 (coins on Open Context); reported in
+    Eger (SRC-0007), p. 196 (n. 31)
+  paraphrase: Excavations at Domuztepe (KM 97) in 2005 recovered a deposit of c. 287
+    silver-washed bronze coins dating mainly 313–347 CE, about 65 per cent minted
+    at the nearby Antioch mint; the low-value circulating coins argue against a savings
+    hoard and point to the site's development as a local centre by the fourth century.
+  location_within_source: Eger 2015, p. 196
+  confidence: 4
+  notes: Numismatic observation reached via Eger reporting Carlson's excavation. Domuztepe
+    here is the Kahramanmaraş-plain coin-deposit site (ENT-PLC-0031), not the Cilician
+    olive-oil estate (ENT-PLC-0138).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0078
+  associated_entities:
+  - ENT-PLC-0020
+  scholar: Wickham, C.
+  publication: Framing the Early Middle Ages
+  date: 2005
+  argument: Wickham's demonstration of macro- and micro-regional variation across
+    the Mediterranean is invoked by Eger as the basis for treating these Late Roman
+    patterns as the 'prologue' to Early Islamic settlement and the trajectories of
+    incastellamento that crystallised in the Middle Islamic period.
+  confidence: 3
+  notes: Modern scholar reported by Eger; no publication_source_id. Associated with
+    the Amuq as the local instance of a Mediterranean-wide argument.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

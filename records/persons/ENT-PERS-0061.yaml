@@ -1,0 +1,38 @@
+- record_type: person
+  id: ENT-PERS-0061
+  standardised_name: Libanius
+  alternative_names:
+  - form: Λιβάνιος
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  person_type: scholar
+  birth:
+    date:
+      start: 314
+      end: 314
+      precision: year
+      confidence: 3
+  death:
+    date:
+      start: 392
+      end: 393
+      precision: year_range_narrow
+      confidence: 3
+  overall_confidence: 4
+  analytical_summary: Fourth-century Greek rhetor and sophist of Antioch, author of
+    the Orations including the Antiochikos (Or. 11). Eger uses his panegyric as textual
+    evidence for Antioch's relationship to its agricultural hinterland, while cautioning
+    that the descriptions are rhetorical.
+  linked_attestations:
+  - ATT-0212
+  - ATT-0217
+  notes: Author of SRC-0043. Named biographically in the chapter as Antioch's own
+    citizen (Eger 2015, p. 194). No existing snapshot match; new PROV record minted.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

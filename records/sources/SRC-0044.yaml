@@ -1,0 +1,31 @@
+- record_type: source
+  id: SRC-0044
+  standardised_title: John of Ephesus, Lives of the Eastern Saints
+  alternative_titles:
+  - Lives of the Eastern Saints
+  - Vitae sanctorum orientalium
+  author_id: ENT-PERS-0063
+  date_of_composition:
+    start: 566
+    end: 569
+    precision: year_range_narrow
+    confidence: 3
+  language: syr
+  script: Syrc
+  genre: hagiography
+  edition_used: Brooks, E. W. (ed. and trans.), in Patrologia Orientalis 17 (1923),
+    pp. 233–4 (Life of Simeon the Mountaineer)
+  translation_used: Brooks, E. W. (trans.), Patrologia Orientalis 17 (1923)
+  reliability_assessment: Sixth-century Syriac collective hagiography; the Life of
+    Simeon the Mountaineer supplies evidence for upland Christian pastoral communities
+    in the Anti-Taurus.
+  known_biases: Miaphysite (West-Syrian) hagiographic shaping.
+  dependencies: []
+  notes: Cited by Eger 2015, p. 193 (n. 21) for the Life of Simeon the Mountaineer.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

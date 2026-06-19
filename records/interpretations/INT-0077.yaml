@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0077
+  associated_entities:
+  - ENT-PLC-0073
+  - ENT-PLC-0044
+  scholar: Gerber
+  publication: '[citation needed: full Gerber citation]'
+  argument: Gerber argues that the concentration of Late Roman upland settlement around
+    Lidar Höyük near Sumaysāṭ on the Euphrates was keyed into displacement caused
+    by the sixth-century incursions of Persian armies and pre-Islamic Arab tribes
+    competing for resources on the plain.
+  confidence: 2
+  notes: Modern scholar reported by Eger; no publication_source_id. Full Gerber citation
+    not supplied by Eger in the visible apparatus — flagged [citation needed]. Lidar
+    Höyük not minted as a place entity (deferred); associated with Sumaysāṭ and the
+    Euphrates.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

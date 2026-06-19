@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0072
+  associated_entities:
+  - ENT-PLC-0023
+  - ENT-PLC-0021
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (I.B. Tauris, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Eger identifies Late Roman Germanikeia with the tell KM 55 / Danışman
+    Höyük in the centre of the Kahramanmaraş plain — the Hellenistic and Early Roman
+    local urban centre — which in the Late Roman period, if occupied at all, no longer
+    reached urban scale. This is in tension with the conventional identification of
+    Germanikeia with Marʿash (ENT-PLC-0023); the identification is treated here as
+    unresolved rather than as an entity merge or split.
+  confidence: 2
+  notes: Per governance §4.4, the disagreement is preserved as an interpretation associated
+    with the existing Marʿash entity; no Germanikeia entity is minted and no merge/split
+    is performed. Flagged as an open identification dispute.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

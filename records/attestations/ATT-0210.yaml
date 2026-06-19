@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0210
+  source: SRC-0042
+  entities_referenced:
+  - ENT-POL-0001
+  observations_supported:
+  - OBS-0145
+  provenance: primary_paraphrase
+  citation: Ḥudūd al-ʿĀlam, trans. Minorsky 1937, pp. 156–7; reached via Eger, The
+    Islamic-Byzantine Frontier (SRC-0007), p. 183 (epigraph, n. 1)
+  paraphrase: The anonymous geographer reports that cities in Rūm, once numerous,
+    had become few; that the districts were prosperous and held strong fortresses
+    because of the frequency of frontier raids; and that each village had a castle
+    in which to take shelter.
+  location_within_source: Minorsky trans., pp. 156–7
+  confidence: 4
+  notes: Late 10th-c. external description used by Eger to frame the Part 2 incastellamento
+    thesis.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

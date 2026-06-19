@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0211
+  source: SRC-0043
+  entities_referenced:
+  - ENT-PLC-0022
+  observations_supported:
+  - OBS-0146
+  provenance: primary_paraphrase
+  citation: Libanius, Or. 11.22 (Norman trans., TTH 34, 2000); reached via Eger (SRC-0007),
+    p. 187 (epigraph, n. 1)
+  paraphrase: Libanius describes the hills around the Antioch plain as cultivated
+    by farmers driving their ploughs to the summits, the uplands rivalling the lowlands
+    in fertility.
+  location_within_source: Or. 11.22
+  confidence: 4
+  notes: Rhetorical panegyric; Eger cautions Libanius's descriptions cannot be taken
+    at face value.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

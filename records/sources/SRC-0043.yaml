@@ -1,0 +1,37 @@
+- record_type: source
+  id: SRC-0043
+  standardised_title: Libanius, Orations
+  alternative_titles:
+  - Antiochikos (Or. 11)
+  - Orationes
+  author_id: ENT-PERS-0061
+  date_of_composition:
+    start: 350
+    end: 393
+    precision: year_range_broad
+    confidence: 3
+    notes: Career span of the orations; Or. 11 (Antiochikos) conventionally dated
+      to 356 CE.
+  language: grc
+  script: Grek
+  genre: other
+  edition_used: '[citation needed: Greek critical edition (Foerster)]'
+  translation_used: Norman, A. F. (trans.), Antioch as a Centre of Hellenic Culture
+    as Observed by Libanius, Translated Texts for Historians 34, Liverpool University
+    Press, 2000
+  reliability_assessment: Fourth-century rhetorical panegyric; descriptions of Antioch
+    and its hinterland are encomiastic and, as Eger notes, cannot be taken at face
+    value, but supply textual evidence for the city–countryside relationship.
+  known_biases: Panegyric/rhetorical idealisation of Antioch.
+  dependencies: []
+  notes: 'Genre forced to ''other'': rhetorical orations are not represented in the
+    SourceRecord genre enum (schema vocabulary gap). Passages cited by Eger: Or. 11.22
+    (p. 187, n. 1), Or. 11.260–2 (p. 189, n. 5; p. 194, n. 24), Or. 11.230 (p. 194,
+    n. 25).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

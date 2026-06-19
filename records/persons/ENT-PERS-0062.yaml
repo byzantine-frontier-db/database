@@ -1,0 +1,27 @@
+- record_type: person
+  id: ENT-PERS-0062
+  standardised_name: Theodoret of Cyrrhus
+  alternative_names:
+  - form: Theodoret, Bishop of Cyrrhus
+    language: en
+    script: Latn
+    name_type: epithet
+  person_type: bishop
+  religious_affiliation: Chalcedonian Christian
+  overall_confidence: 4
+  analytical_summary: Fifth-century bishop of Cyrrhus (fl. 440s) and author of the
+    Historia Religiosa (SRC-0018), whose account of the North Syrian countryside Eger
+    cites for villages built in the plain adjoining the hills.
+  linked_attestations:
+  - ATT-0213
+  - ATT-0217
+  notes: Author of the already-registered SRC-0018 (Historia Religiosa). The author-person
+    was previously absent from the snapshot; minted here because Eger supplies a prosopographical
+    anchor (Bishop of Cyrrhus, 440s; Eger 2015, p. 193).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

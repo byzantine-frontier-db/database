@@ -1,0 +1,31 @@
+- record_type: source
+  id: SRC-0042
+  standardised_title: Ḥudūd al-ʿĀlam (The Regions of the World)
+  alternative_titles:
+  - Ḥudūd al-ʿĀlam min al-mashriq ilā al-maghrib
+  author_unnamed: true
+  date_of_composition:
+    start: 982
+    end: 983
+    precision: year_range_narrow
+    confidence: 5
+  language: fa
+  script: Arab
+  genre: geographical_work
+  edition_used: '[citation needed: Persian edition]'
+  translation_used: 'Minorsky, V. (trans.), Ḥudūd al-ʿĀlam: ''The Regions of the World'',
+    E.J.W. Gibb Memorial Series / Luzac, London, 1937, pp. 156–7'
+  reliability_assessment: Anonymous Persian geography of 982–3 CE; valuable late 10th-c.
+    external description of the Byzantine Anatolian settlement pattern. Used by Eger
+    as the framing epigraph for the Part 2 incastellamento thesis.
+  known_biases: Outsider Islamic geographical perspective on Rūm.
+  dependencies: []
+  notes: Cited by Eger 2015 as the epigraph to Part 2 (p. 183, n. 1). Original author
+    unnamed. Persian critical edition not given by Eger — flagged [citation needed].
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

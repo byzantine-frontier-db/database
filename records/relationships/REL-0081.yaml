@@ -1,0 +1,18 @@
+- record_type: relationship
+  id: REL-0081
+  type: different_from
+  source_entity: ENT-PERS-0060
+  target_entity: ENT-PERS-0036
+  confidence: 4
+  linked_attestations:
+  - ATT-0214
+  notes: 'Encodes the disambiguation: Simeon the Mountaineer (6th-c. Anti-Taurus ascetic)
+    is a distinct person from Simeon of the Olives (ENT-PERS-0036, later Ṭūr ʿAbdīn
+    figure).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

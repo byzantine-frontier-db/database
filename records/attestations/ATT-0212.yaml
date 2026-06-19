@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0212
+  source: SRC-0043
+  entities_referenced:
+  - ENT-PLC-0022
+  - ENT-PLC-0020
+  - ENT-PERS-0061
+  observations_supported:
+  - OBS-0147
+  provenance: primary_quotation
+  citation: Libanius, Or. 11.260–2 and Or. 11.230 (Norman trans., TTH 34, 2000); reached
+    via Eger (SRC-0007), p. 194 (nn. 24–25)
+  direct_quotation: By lake and river craft they empty the countryside of its produce
+  paraphrase: Antioch is portrayed as drawing its produce from the hinterland by water
+    transport; elsewhere Libanius states the hinterland population had little need
+    of the town thanks to exchange among themselves.
+  location_within_source: Or. 11.260–2; Or. 11.230
+  confidence: 4
+  notes: Single short quotation retained for evidential purposes (translator A. F.
+    Norman credited); remainder paraphrased per fair-use limits.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

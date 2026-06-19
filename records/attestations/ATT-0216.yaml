@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0216
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0138
+  observations_supported:
+  - OBS-0151
+  provenance: archaeological_evidence
+  citation: Eger (SRC-0007), p. 189 (olive press at the fifth/sixth-century Domuztepe
+    estate)
+  paraphrase: Eger reports an olive press at the fifth/sixth-century Cilician site
+    of Domuztepe as evidence for wheat, vine and olive production in the Late Roman
+    countryside.
+  location_within_source: Eger 2015, p. 189
+  confidence: 3
+  notes: Cilician olive-oil estate Domuztepe (ENT-PLC-0138), disambiguated from the
+    KM 97 coin-deposit Domuztepe (ENT-PLC-0031).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

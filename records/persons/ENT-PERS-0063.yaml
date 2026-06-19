@@ -1,0 +1,38 @@
+- record_type: person
+  id: ENT-PERS-0063
+  standardised_name: John of Ephesus
+  alternative_names:
+  - form: John of Ephesus
+    language: syr
+    script: Syrc
+    name_type: translation
+  person_type: bishop
+  religious_affiliation: Miaphysite (West-Syrian) Christian
+  birth:
+    date:
+      start: 507
+      end: 507
+      precision: year
+      confidence: 2
+  death:
+    date:
+      start: 588
+      end: 589
+      precision: year_range_narrow
+      confidence: 2
+  overall_confidence: 3
+  analytical_summary: Sixth-century Miaphysite bishop and Syriac historian, author
+    of the Lives of the Eastern Saints (SRC-0044), the source of the Life of Simeon
+    the Mountaineer.
+  linked_attestations:
+  - ATT-0217
+  notes: Author of SRC-0044. Anchored prosopographically via ATT-0217 (Eger 2015,
+    p. 193, n. 21 identifies him as author). No existing snapshot match; new PROV
+    record minted.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

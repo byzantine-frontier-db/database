@@ -1,0 +1,35 @@
+- record_type: person
+  id: ENT-PERS-0060
+  standardised_name: Simeon the Mountaineer
+  alternative_names:
+  - form: Simeon the Mountaineer
+    language: syr
+    script: Syrc
+    name_type: translation
+  person_type: monk
+  religious_affiliation: Miaphysite (West-Syrian) Christian
+  death:
+    date:
+      start: 535
+      end: 541
+      precision: year_range_narrow
+      confidence: 2
+  overall_confidence: 3
+  analytical_summary: Sixth-century Syrian ascetic (d. c. 541) whose vita, in John
+    of Ephesus's Lives of the Eastern Saints, describes his itinerant ministry in
+    the Anti-Taurus between Samosata and Melitene, where he re-Christianised upland
+    pastoral communities and restored an abandoned church. Explicitly distinct from
+    Simeon of the Olives (ENT-PERS-0036).
+  linked_attestations:
+  - ATT-0214
+  notes: 'Entity-match search against the snapshot: distinguished from ENT-PERS-0036
+    (Simeon of the Olives), a different, later (7th–8th c.) Ṭūr ʿAbdīn figure. No
+    existing match; new PROV record minted. The distinction is also encoded as a different_from
+    relationship (REL-0081).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

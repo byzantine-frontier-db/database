@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0150
+  proposition: A Constantinian coin deposit of roughly 287 silver-washed bronze coins,
+    dating mainly 313–347 CE with about 65 per cent minted at Antioch, was excavated
+    in 2005 at Domuztepe (KM 97) in the Kahramanmaraş plain.
+  associated_entities:
+  - ENT-PLC-0031
+  - ENT-PLC-0021
+  supporting_attestations:
+  - ATT-0215
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

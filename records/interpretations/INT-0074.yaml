@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0074
+  associated_entities:
+  - ENT-EVT-0012
+  - ENT-PLC-0020
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (I.B. Tauris, 2015); 'The Swamps of
+    Home'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Eger explains the Late Roman shift to upland settlement in the Amuq as
+    a dynamic response to the growth of the lake and marshes: a feedback cycle in
+    which marsh-avoidance and the pressures of the olive-oil export market drove dispersed
+    upland settlement, deforestation and cultivation, loosening topsoils that eroded
+    onto the plain, silting canals and rivers and causing marshification, which in
+    turn prompted further upland retreat and intensified oil and wine production.'
+  supporting_evidence:
+  - ATT-0213
+  - ATT-0216
+  confidence: 3
+  notes: Links to the marshification event entity (ENT-EVT-0012).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

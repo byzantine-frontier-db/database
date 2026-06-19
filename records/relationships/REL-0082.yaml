@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0082
+  type: located_at
+  source_entity: ENT-PERS-0061
+  target_entity: ENT-PLC-0022
+  confidence: 5
+  linked_attestations:
+  - ATT-0212
+  notes: Libanius as a citizen and resident of Antioch.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0075
+  associated_entities:
+  - ENT-PLC-0056
+  - ENT-PLC-0020
+  scholar: Wilkinson, T. J.
+  publication: '''Archaeological Landscapes of the Near East'' / ''Regional Approaches'''
+  date: 1994
+  argument: Wilkinson interprets the Late Roman peak of dispersed settlement as the
+    continuation and culmination of a pattern beginning in the first millennium BCE
+    (c. 900), which he terms the 'Great Dispersal', contrasting with earlier nucleation
+    before the Hellenistic period.
+  confidence: 3
+  notes: Modern scholar reported by Eger; no publication_source_id per established
+    pattern. Date approximate to the cited work.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

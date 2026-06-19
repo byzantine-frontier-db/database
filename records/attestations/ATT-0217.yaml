@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0217
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0061
+  - ENT-PERS-0062
+  - ENT-PERS-0063
+  provenance: modern_synthesis
+  citation: Eger (SRC-0007), pp. 189, 193–194 with apparatus (nn. 1, 5, 15, 21, 24–25),
+    identifying Libanius, Theodoret of Cyrrhus, and John of Ephesus as the authors
+    of the works cited in the chapter
+  paraphrase: 'Prosopographical anchoring attestation: Eger''s chapter names and attributes
+    the cited works to Libanius (Orations), Theodoret of Cyrrhus (Historia Religiosa),
+    and John of Ephesus (Lives of the Eastern Saints), providing the identifying context
+    for these author-person entities.'
+  confidence: 4
+  notes: Anchor attestation per the ATT-0050 pattern; supports no specific observation.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
