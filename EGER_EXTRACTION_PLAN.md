@@ -19,7 +19,7 @@ Target pace: one session per day
 | 8 | Ch. 4 part A (Balikh) | 127-142 | EXTRACTED | 50 | bd09bee | pending |
 | 9 | Ch. 4 part B (Khabur) | 143-157 | EXTRACTED | 47 | 42f9277 | pending |
 | 10 | Ch. 5 Western Thughur (Cilicia) | 158-182 | EXTRACTED | 114 | 2fbdb8f | pending |
-| 11 | Part 2 intro + Ch. 6 (Late Roman prologue) | 183-197 | pending | | | |
+| 11 | Part 2 intro + Ch. 6 (Late Roman prologue) | 183-197 | EXTRACTED | 32 | 9e3f18b | pending |
 | 12 | Ch. 7 part A (Hydraulic Villages) | 198-220 | pending | | | |
 | 13 | Ch. 7 part B | 221-245 | pending | | | |
 | 14 | Ch. 9 Epilogue (Middle Byzantine castles, dissertation period) | 264-276 | pending | | | |
