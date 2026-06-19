@@ -34,6 +34,7 @@ Target pace: one session per day
 - ATT-0061 (Heraklios speech): confirm SUNY al-Tabari vol. XI translator (Blankinship?).
 - Sis-departure dating contradiction (Ibn Shaddad 711-12 vs Baladhuri after al-Waqidi 808-9): create two primary SourceRecords + Interpretation per governance section 5.4.
 - Deferred from ch.8: Hisn Hiraqla, Lu'lu'a, Safsaf forts; c.831 al-Matmura raid; Kibyrrhaiotonon maritime theme; Michael Maleinos; Pseudo-Jahiz, Ibn al-Faqih, Ibn al-Adim corroborating sources; Selime-Yaprakhisar, Canli Kilise, Acik Saray, Gumuskoy/B16 archaeological sites.
+- Schema vocabulary gaps accumulated across sessions: (1) PlaceType enum lacks `canal` / `irrigation_work` (worked around as `other` for Nahr Maslama, Nahr al-Abbāra/Turkmān, Nahr Quwayq, etc., sessions 5-6); (2) SourceRecord genre enum lacks `rhetorical_orations` (worked around as `other` for Libanius SRC-0043, session 11). Worth proposing as Schema v1.1 vocabulary extensions to the Technical Lead.
 - Provenance-classification spot-check (audit, 2026-06-17): 6 attestations with unusual provenance values were reviewed:
   - ATT-0085 (modern_interpretation, only record using this value): keep as attestation but harmonise provenance to modern_synthesis. Paired with INT-0022.
   - ATT-0096 (modern_identification): keep as attestation. Flat multi-name historical identification, related interpretive complexity recorded elsewhere.
