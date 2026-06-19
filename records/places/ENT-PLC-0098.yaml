@@ -48,6 +48,7 @@
   - ATT-0159
   - ATT-0160
   - ATT-0224
+  - ATT-0250
   linked_interpretations:
   - INT-0047
   - INT-0048
@@ -58,7 +59,7 @@
     2015 (SRC-0007) pp. 141-143. Provisional ID pending minting.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

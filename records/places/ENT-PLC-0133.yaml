@@ -12,9 +12,10 @@
   - ATT-0187
   - ATT-0188
   - ATT-0195
+  - ATT-0249
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

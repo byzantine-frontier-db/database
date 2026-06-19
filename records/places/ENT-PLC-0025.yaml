@@ -24,15 +24,18 @@
   - ENT-PLC-0020
   linked_attestations:
   - ATT-0073
+  - ATT-0247
+  - ATT-0248
   linked_interpretations:
   - INT-0024
   - INT-0080
+  - INT-0093
   notes: 'PRESERVED CONFLICT (rule 1): Eger flags an earlier, in his view incorrect,
     association of Yaghra with the classical site of Meleagrum (ch. 1 n. 18, citing
     de Giorgi 2007). Recorded but not resolved.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

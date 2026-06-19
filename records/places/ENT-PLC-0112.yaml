@@ -19,12 +19,13 @@
   linked_attestations:
   - ATT-0176
   - ATT-0183
+  - ATT-0249
   notes: Provisional ID per governance §5.1. The Raqqa-Rāfiqa-Ḥarrān "Towns" material
     (Eger pp. 154-155) sits in the Diyār Muḍar; partial overlap with the Balikh-half
     session is possible and is flagged for editorial de-duplication.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-16T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

@@ -15,6 +15,7 @@
   - ATT-0103
   - ATT-0104
   - ATT-0122
+  - ATT-0252
   alternative_names:
   - form: Ζεῦγμα
     language: grc
@@ -35,7 +36,7 @@
   notes: Coordinates approximate (Belkıs, near Nizip); verify against gazetteer.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

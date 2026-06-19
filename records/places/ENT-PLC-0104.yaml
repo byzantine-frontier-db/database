@@ -25,8 +25,10 @@
   notes: Provisional ID per governance §5.1.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-16T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
     editorial_review_required: true
+  linked_interpretations:
+  - INT-0091

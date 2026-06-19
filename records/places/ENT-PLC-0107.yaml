@@ -30,12 +30,15 @@
   linked_attestations:
   - ATT-0179
   - ATT-0239
+  - ATT-0250
   notes: Provisional ID per governance §5.1. Dating dispute (Poidebard/Gregory vs
     Early Islamic) deferred.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-16T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
     editorial_review_required: true
+  linked_interpretations:
+  - INT-0099

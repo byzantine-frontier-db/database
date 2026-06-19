@@ -43,7 +43,9 @@
     [] outstanding.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.3.0
+    record_version: 1.4.0
     created_at: '2026-06-10T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
+  linked_interpretations:
+  - INT-0098

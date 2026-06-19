@@ -42,7 +42,7 @@
   - ATT-0237
   metadata:
     schema_version: 1.0.0
-    record_version: 1.8.0
+    record_version: 1.9.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
@@ -61,3 +61,9 @@
   - INT-0040
   - INT-0079
   - INT-0084
+  - INT-0089
+  - INT-0090
+  - INT-0091
+  - INT-0094
+  - INT-0099
+  - INT-0101
