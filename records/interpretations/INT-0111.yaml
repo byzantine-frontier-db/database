@@ -18,3 +18,9 @@
     created_by: Curtis
     workflow_state: draft
     editorial_review_required: true
+  notes: 'Preserved scholarly dispute with INT-0112 (Eger) on the timing of the Muslim
+    demographic majority; both interpret ATT-0274. Schema gap: RelationshipRecord
+    source_entity/target_entity require entity records (persons/places/events/polities),
+    not interpretations, so this dispute cannot currently be encoded as a RelationshipRecord.
+    Logged as Schema v1.1 candidate; dispute structure documented inline by INT ID
+    until then.'

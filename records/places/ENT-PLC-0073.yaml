@@ -25,9 +25,10 @@
   - ATT-0214
   - ATT-0234
   - ATT-0252
+  - ATT-0272
   metadata:
     schema_version: 1.0.0
-    record_version: 1.4.0
+    record_version: 1.5.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

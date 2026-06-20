@@ -12,11 +12,17 @@
     Early Islamic period.
   supporting_evidence:
   - ATT-0274
-  counter_evidence:
-  - INT-0111
   confidence: 3
-  notes: Eger contests the precision of Bulliet's dates while accepting the broad
+  notes: 'Eger contests the precision of Bulliet''s dates while accepting the broad
     majority pattern.
+
+
+    Preserved scholarly dispute with INT-0111 (Bulliet) on the timing of the Muslim
+    demographic majority; both interpret ATT-0274. Schema gap: RelationshipRecord
+    source_entity/target_entity require entity records (persons/places/events/polities),
+    not interpretations, so this dispute cannot currently be encoded as a RelationshipRecord.
+    Logged as Schema v1.1 candidate; dispute structure documented inline by INT ID
+    until then.'
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

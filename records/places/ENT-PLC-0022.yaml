@@ -51,12 +51,14 @@
   - ATT-0212
   - ATT-0240
   - ATT-0245
+  - ATT-0265
+  - ATT-0272
   linked_interpretations:
   - INT-0027
   - INT-0076
   metadata:
     schema_version: 1.0.0
-    record_version: 1.7.0
+    record_version: 1.8.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

@@ -11,9 +11,12 @@
     8th-10th-century Early Islamic phase; fortified by Hārūn al-Rashīd (799/806).
   linked_attestations:
   - ATT-0201
+  - ATT-0258
+  - ATT-0267
+  - ATT-0272
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

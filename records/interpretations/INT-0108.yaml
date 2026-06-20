@@ -9,11 +9,16 @@
   argument: The same Raqqa report is an example of state-sponsored sedentarisation.
   supporting_evidence:
   - ATT-0269
-  counter_evidence:
-  - INT-0107
   confidence: 3
-  notes: Preserved disagreement with Robinson (INT-1206) over whether the Raqqa report
+  notes: 'Preserved disagreement with Robinson (INT-1206) over whether the Raqqa report
     reflects deliberate state policy.
+
+
+    Preserved scholarly dispute with INT-0107 (Robinson) on the Raqqa-headquarters
+    report; both interpret ATT-0269. Schema gap: RelationshipRecord source_entity/target_entity
+    require entity records (persons/places/events/polities), not interpretations,
+    so this dispute cannot currently be encoded as a RelationshipRecord. Logged as
+    Schema v1.1 candidate; dispute structure documented inline by INT ID until then.'
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

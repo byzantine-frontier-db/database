@@ -10,8 +10,6 @@
     directed against nomads.
   supporting_evidence:
   - ATT-0269
-  counter_evidence:
-  - INT-0108
   confidence: 3
   metadata:
     schema_version: 1.0.0
@@ -20,3 +18,8 @@
     created_by: Curtis
     workflow_state: draft
     editorial_review_required: true
+  notes: 'Preserved scholarly dispute with INT-0108 (Donner) on the Raqqa-headquarters
+    report; both interpret ATT-0269. Schema gap: RelationshipRecord source_entity/target_entity
+    require entity records (persons/places/events/polities), not interpretations,
+    so this dispute cannot currently be encoded as a RelationshipRecord. Logged as
+    Schema v1.1 candidate; dispute structure documented inline by INT ID until then.'

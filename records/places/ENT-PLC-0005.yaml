@@ -26,9 +26,10 @@
     route for Abbasid armies entering Anatolia. Crossed by al-Afshīn in 838.
   linked_attestations:
   - ATT-0020
+  - ATT-0268
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

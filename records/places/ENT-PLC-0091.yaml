@@ -26,11 +26,17 @@
   - ATT-0236
   - ATT-0249
   - ATT-0252
+  - ATT-0263
+  - ATT-0268
+  - ATT-0269
   notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.4.0
+    record_version: 1.5.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
     editorial_review_required: true
+  linked_interpretations:
+  - INT-0107
+  - INT-0108

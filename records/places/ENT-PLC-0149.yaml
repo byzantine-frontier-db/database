@@ -21,11 +21,12 @@
     ENT-PLC-0123) while Kurban Höyük did not (Eger 2015, pp. 226-228).
   linked_attestations:
   - ATT-0250
+  - ATT-0261
   notes: Provisional ID; coordinates deliberately omitted (survey/excavation site,
     no fabricated precision).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
