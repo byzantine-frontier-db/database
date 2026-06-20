@@ -22,7 +22,7 @@ Target pace: one session per day
 | 11 | Part 2 intro + Ch. 6 (Late Roman prologue) | 183-197 | EXTRACTED | 32 | 9e3f18b | pending |
 | 12 | Ch. 7 part A (Hydraulic Villages I) | 198-213 | EXTRACTED | 73 | d5ee70d | pending |
 | 13 | Ch. 7 part B (Hydraulic Villages II) | 214-229 | EXTRACTED | 47 | b24ea4f | pending |
-| 14 | Ch. 7 part C (Hydraulic Villages III) | 230-245 | pending | | | |
+| 14 | Ch. 7 part C (Hydraulic Villages III) | 230-245 | EXTRACTED | 97 | 46aa268 | pending |
 | 15 | Ch. 9 Epilogue (Middle Byzantine castles, dissertation period) | 264-276 | pending | | | |
 | 16 | Ch. 10 part A (Frontier interaction) | 277-293 | pending | | | |
 | 17 | Ch. 10 part B | 294-309 | pending | | | |
