@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0113
+  type: followed_by
+  source_entity: ENT-EVT-0042
+  target_entity: ENT-EVT-0030
+  confidence: 3
+  linked_attestations: []
+  notes: Mālik b. Ṭawq's grant under Hārūn preceded the formal foundation of Raḥba
+    under al-Maʾmūn (ENT-EVT-0030).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

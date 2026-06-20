@@ -1,0 +1,33 @@
+- record_type: attestation
+  id: ATT-0272
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0119
+  - ENT-PLC-0022
+  - ENT-PLC-0118
+  - ENT-PLC-0068
+  - ENT-PLC-0078
+  - ENT-PLC-0121
+  - ENT-PLC-0073
+  - ENT-PLC-0027
+  - ENT-PLC-0034
+  - ENT-PLC-0009
+  - ENT-POL-0001
+  - ENT-PLC-0010
+  observations_supported:
+  - OBS-0198
+  provenance: modern_synthesis
+  citation: 'Eger 2015, pp. 238-241 (citing fns 127-129: McCormick; Tannous; Straughn).'
+  paraphrase: Markets and merchants are attested in at least seven frontier towns
+    (Adhana, Anṭākiya, al-Massīsa, Hadath, Hisn Kamkh, Kanīsa al-Sawdāʾ and Sumaysāṭ)
+    and at the inn at Baghrās, with Byzantium the other great market; the thughūr
+    economy was self-sufficient at the micro-level, and monasteries and awqāf of the
+    ʿawāṣim around Anṭākiya and Ḥalab supported military and religious institutions.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

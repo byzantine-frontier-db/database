@@ -1,0 +1,31 @@
+- record_type: interpretation
+  id: INT-0114
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0094
+  - ENT-POL-0002
+  - ENT-POL-0003
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'A four-period model of frontier history: (1) 632-c.700, wide conquests
+    under Sufyanid policy with expanded Jazira/Ḥalab settlement; (2) c.700-c.750,
+    Marwanid irrigation and estate-building in the Jazira and North Syria; (3) c.750-809,
+    full early-Abbasid development with direct caliphal involvement; (4) 809-c.900,
+    post-civil-war frontier autonomy with minimal caliphal presence, extending into
+    the tenth century under Hamdanid rule and Byzantine reconquest.'
+  supporting_evidence:
+  - ATT-0267
+  - ATT-0268
+  - ATT-0272
+  confidence: 3
+  notes: Heidemann (fn 130) dates a frontier decline to 880-900 from a decrease in
+    coins.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

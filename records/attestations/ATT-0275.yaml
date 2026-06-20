@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0275
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0154
+  - ENT-PLC-0058
+  - ENT-PLC-0155
+  - ENT-PLC-0024
+  - ENT-PLC-0031
+  - ENT-PLC-0047
+  - ENT-PLC-0010
+  observations_supported:
+  - OBS-0200
+  provenance: modern_synthesis
+  citation: 'Eger 2015, pp. 242-243 (citing fn 134: Straughn).'
+  paraphrase: Highland Muslim communities are barely evidenced - the exceptions being
+    Bara and Dayr Simʿan with newly-built mosques and Dayr Seta with a repurposed
+    mosque; lesser towns like ʿImm, villages like Domuztepe and monastery-towns like
+    ʿAzāz retained Christian communities, while Syriac- and Aramaic-speaking Christians
+    (called Nabaṭ) and a residual urban Greek (Melkite) population remained, and nearly
+    every major thaghr kept a bishop's seat.
+  confidence: 4
+  notes: Domuztepe disambiguated to the Amuq/ʿAzāz-region site ENT-PLC-0031 (KM 97),
+    NOT the Cilician olive-oil estate ENT-PLC-0138 (homonym). Group entities (Nabaṭ,
+    Melkites, Taghlib) deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

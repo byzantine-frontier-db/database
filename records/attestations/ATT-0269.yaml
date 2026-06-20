@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0269
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-PLC-0091
+  - ENT-POL-0002
+  provenance: modern_synthesis
+  citation: 'Eger 2015, pp. 236-237 (citing fns 116-117: Robinson; Donner; Wilkinson).'
+  paraphrase: Eger reads caliphal frontier involvement and 'show expeditions' as a
+    symbolic consolidation of loyalty to the central state; the Raqqa settlement report
+    reflects both anxiety over uncontrolled nomads and a literary trope of settling
+    wilderness, paralleling Neo-Assyrian resettlement, with sedentarisation occurring
+    most under strong administrations.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

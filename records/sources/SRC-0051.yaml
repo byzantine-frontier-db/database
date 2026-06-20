@@ -1,0 +1,22 @@
+- record_type: source
+  id: SRC-0051
+  standardised_title: al-Muhallabī, geographical / itinerary work (al-ʿAzīzī)
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: '[citation needed: edition of al-Muhallabī''s geographical work]'
+  transmission_history: Tenth-century Arabic geographical work by al-Ḥasan b. Aḥmad
+    al-Muhallabī (d. 990), largely lost and known through later citation. Reached
+    here at second hand via O. R. Constable, Housing the Stranger in the Mediterranean
+    World (Cambridge, 2003).
+  notes: Drafted to carry the bilād al-fanādiq attestation (ATT-1204). Eger cites
+    it via Constable (Eger 2015, p. 232, fn 96). Edition/recension details unverified
+    -> [citation needed].
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

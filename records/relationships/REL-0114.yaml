@@ -1,0 +1,17 @@
+- record_type: relationship
+  id: REL-0114
+  type: located_at
+  source_entity: ENT-PERS-0039
+  target_entity: ENT-PLC-0004
+  confidence: 4
+  linked_attestations:
+  - ATT-0268
+  notes: Place of death and burial of al-Maʾmūn, 833 (no 'death'/'burial' event sub-category
+    available).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

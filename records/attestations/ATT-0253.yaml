@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0253
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0014
+  - ENT-PLC-0037
+  - ENT-PLC-0150
+  - ENT-PLC-0044
+  - ENT-PLC-0010
+  - ENT-POL-0002
+  - ENT-POL-0003
+  observations_supported:
+  - OBS-0184
+  - OBS-0185
+  provenance: modern_synthesis
+  citation: 'Eger 2015, p. 230 (citing fns 91-94: Kennedy; Wheatley; Wilkinson; Squatriti/Rashev).'
+  paraphrase: Eger argues the frontier settlement pattern was not a border but a military/economic
+    settled zone incorporating the Taurus as a wide natural boundary, perceived as
+    a frontier and pierced with crossing points; Balis and Jazīra Ibn ʿUmar functioned
+    as river ports (furḍa) shipping frontier goods to ʿIraq, though transhumant tribes
+    preferred land-based caravan trade; canal building and fortified way stations
+    formed an Abbasid network of frontier development.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

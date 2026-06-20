@@ -1,0 +1,31 @@
+- record_type: event
+  id: ENT-EVT-0040
+  standardised_name: al-Manṣūr's renaming of al-Massīsa as al-Maʿmūra (756)
+  event_type:
+    primary: construction_infrastructure
+    sub: restoration
+  start_date:
+    start: 756
+    end: 756
+    precision: year
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0118
+  participants:
+  - ENT-PERS-0038
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 4
+  analytical_summary: al-Manṣūr gave al-Massīsa the second name al-Maʿmūra ('the colonised/restored',
+    from ʿimāra) in 756, commemorating its early-Abbasid (re)development.
+  notes: 'Schema vocabulary gap: no ''renaming'' sub-category; classed under restoration
+    as the naming commemorates a refoundation/restoration (flagged for Technical Lead).'
+  linked_attestations:
+  - ATT-0258
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

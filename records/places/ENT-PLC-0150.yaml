@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0150
+  standardised_name: Jazīra Ibn ʿUmar
+  alternative_names:
+  - form: Cizre
+    language: tr
+    script: Latn
+    name_type: modern_name
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: Named with Balis as a furḍa (river port) for the frontier, through
+    which goods were shipped down to ʿIraq.
+  environmental_setting: 'Tigris-bank town. NB: the Tigris River is not yet represented
+    in the corpus (recurring structural gap flagged for the Technical Lead); river
+    link deferred.'
+  overall_confidence: 4
+  analytical_summary: Upper-Tigris town listed by Eger (citing geographers via Kennedy)
+    alongside Balis as a frontier river port (furḍa). Coordinates deferred.
+  linked_attestations:
+  - ATT-0253
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

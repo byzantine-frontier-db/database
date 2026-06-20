@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0274
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0067
+  - ENT-PERS-0055
+  - ENT-PLC-0094
+  - ENT-PLC-0037
+  - ENT-PERS-0025
+  - ENT-PERS-0038
+  - ENT-PLC-0010
+  observations_supported:
+  - OBS-0199
+  provenance: modern_synthesis
+  citation: 'Eger 2015, pp. 240-243 (citing fns 131-136: Bulliet; Humphreys; Kennedy;
+    Katbi).'
+  paraphrase: Practising Muslims were a minority through the Umayyad and partly Abbasid
+    periods; converts (mawālī) such as Maymūn b. Mihrān, administrator of the Jazīra
+    under ʿUmar II, attained office; tax markers (kharāj/jizya vs ʿushr) are textually
+    too patchy to map ethnicity, the cadastral surveys (taʿdīl) of caliphs like al-Manṣūr
+    being unpreserved; and at Balis a Greek family owned the settlement at the conquest
+    while Syrian Arab converts later paid ʿushr under Maslama.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

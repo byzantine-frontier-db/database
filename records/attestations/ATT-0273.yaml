@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0273
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-POL-0001
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, II.2374-75 (Arabic) and vol. 12, p. 159 (English);
+    reached via Eger 2015, p. 242, fn 133 (cf. Tannous).
+  paraphrase: Ṭabarī's material is adduced for frontier Christians converting to Islam
+    and reverting as politically, economically or socially expedient.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

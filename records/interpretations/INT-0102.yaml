@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0102
+  associated_entities:
+  - ENT-PLC-0014
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The Islamic-Byzantine frontier was not a linear border but a military/economic
+    settled zone; the Taurus was a perceived, permeable frontier crossed at established
+    points.
+  supporting_evidence:
+  - ATT-0253
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

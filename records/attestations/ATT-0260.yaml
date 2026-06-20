@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0260
+  source: SRC-0022
+  entities_referenced:
+  - ENT-PLC-0034
+  provenance: primary_paraphrase
+  citation: Michael the Syrian, Chronique, III p. 1; IV pp. 478-9 (ed./trans. as in
+    SRC-0022), reached via Eger 2015, p. 233, fn 101 (cf. Morony).
+  paraphrase: Michael the Syrian records that the camp of the wealthy Banū Tanūkh
+    outside Ḥalab had, by 813, become a sprawling, unwalled and lavish town that attracted
+    merchants.
+  confidence: 4
+  notes: Banū Tanūkh is a group/tribal entity, unsupported by schema v1 and deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

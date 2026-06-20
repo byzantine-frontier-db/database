@@ -1,0 +1,26 @@
+- record_type: place
+  id: ENT-PLC-0155
+  standardised_name: Dayr Seta
+  alternative_names:
+  - form: Deir Seta
+    language: ar
+    script: Latn
+    name_type: alternative_transliteration
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Upland site cited by Eger as featuring a repurposed mosque - among
+    the handful of highland Muslim-presence exceptions.
+  environmental_setting: Limestone Massif of north-western Syria.
+  overall_confidence: 3
+  analytical_summary: Highland Syrian site adduced for a repurposed mosque as a rare
+    marker of highland Muslim presence (Eger 2015, p. 242, fn 134). Coordinates deferred.
+  linked_attestations:
+  - ATT-0275
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

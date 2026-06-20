@@ -1,0 +1,33 @@
+- record_type: event
+  id: ENT-EVT-0036
+  standardised_name: al-Manṣūr's rebuilding programme of four Cilician towns (756-760)
+  event_type:
+    primary: construction_infrastructure
+    sub: restoration
+  start_date:
+    start: 756
+    end: 760
+    precision: year_range_narrow
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0115
+  participants:
+  - ENT-PERS-0038
+  - ENT-PERS-0042
+  political_entities_involved:
+  - ENT-POL-0002
+  related_events:
+  - ENT-EVT-0024
+  overall_confidence: 4
+  analytical_summary: Under al-Manṣūr a programme rebuilt four towns between 756 and
+    760, carried out by Ṣāliḥ b. ʿAlī, whose family had inherited much of the northern-Syrian
+    and Mesopotamian Umayyad land.
+  linked_attestations:
+  - ATT-0267
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

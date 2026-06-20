@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0112
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Bulliet's exact dates are too specific and somewhat arbitrary, but a general
+    pattern of a Muslim majority by the end of the Early Islamic period plausibly
+    echoes the pattern of c. 50 per cent of Late Roman sites being reoccupied in the
+    Early Islamic period.
+  supporting_evidence:
+  - ATT-0274
+  counter_evidence:
+  - INT-0111
+  confidence: 3
+  notes: Eger contests the precision of Bulliet's dates while accepting the broad
+    majority pattern.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0109
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-POL-0002
+  scholar: von Sivers, P.
+  publication: '''Taxes and Trade'''
+  argument: 'A three-period model of Abbasid thughūr economic development: 750-842
+    fiscal-incentive settlement with agriculture predominant; 842-78 a transitional,
+    defensive phase with declining agriculture and nascent commerce; 878-962 agriculture
+    eclipsed by commercial expansion.'
+  supporting_evidence:
+  - ATT-0272
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

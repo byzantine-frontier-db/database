@@ -1,0 +1,33 @@
+- record_type: event
+  id: ENT-EVT-0035
+  standardised_name: al-Manṣūr's settlement of 4,000 soldiers at Malaṭya
+  event_type:
+    primary: administrative
+    sub: settlement
+  start_date:
+    start: 754
+    end: 775
+    precision: year_range_broad
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0016
+  participants:
+  - ENT-PERS-0038
+  - ENT-PERS-0043
+  political_entities_involved:
+  - ENT-POL-0002
+  related_events:
+  - ENT-EVT-0028
+  overall_confidence: 4
+  analytical_summary: al-Manṣūr settled 4,000 soldiers at Malaṭya with farmland grants
+    (iqṭāʿ); read as a political move to unseat the pro-Umayyad tribal allies of Marwān
+    II in the central and eastern thughūr.
+  linked_attestations:
+  - ATT-0264
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

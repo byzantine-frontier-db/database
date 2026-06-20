@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0258
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0118
+  - ENT-PERS-0038
+  - ENT-PERS-0018
+  - ENT-PLC-0120
+  - ENT-PLC-0121
+  - ENT-PLC-0122
+  - ENT-EVT-0040
+  observations_supported:
+  - OBS-0187
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 232-233.
+  paraphrase: al-Manṣūr gave al-Massīsa the second name al-Maʿmūra ('the colonised/restored',
+    from ʿimāra) in 756, while ʿAyn Zarba, Hārūnīyya and Kanīsa al-Sawdāʾ were developed
+    under Hārūn.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

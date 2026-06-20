@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0276
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0024
+  - ENT-PLC-0025
+  - ENT-PLC-0020
+  - ENT-PLC-0056
+  - ENT-POL-0003
+  - ENT-PLC-0010
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 244-245.
+  paraphrase: 'Eger''s hydraulic-villages synthesis: newly-founded settlements tied
+    to new canal construction were the largest plain sites, settled by Arab tribes
+    and mawālī as largely non-Christian Muslim communities under Umayyad officials;
+    expanding Late Roman river sites such as ʿImm and Yaghra in the Amuq suggest mixed
+    Muslim-Christian communities that grew into hydraulic villages controlling water
+    rights; marsh settlements (e.g. relocated Zuṭṭ) and fortified enclosures controlled
+    movement, while shrinking or upland-continuity sites may mark persisting Christian
+    communities such as those of the Syrian Jibāl.'
+  confidence: 4
+  notes: Zuṭṭ is a group entity (deferred). ENT-PLC-0025 here is Yaghra (the Amuq
+    river site).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

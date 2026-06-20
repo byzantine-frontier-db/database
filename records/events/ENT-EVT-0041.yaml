@@ -1,0 +1,28 @@
+- record_type: event
+  id: ENT-EVT-0041
+  standardised_name: Arab raid on Euchaita (after 640)
+  event_type:
+    primary: military
+    sub: raid
+  start_date:
+    start: 640
+    end: 650
+    precision: year_range_broad
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0153
+  overall_confidence: 3
+  analytical_summary: An early Arab raid on Euchaita in which a 5,000-strong army
+    wintered around the city with mounts, pack animals and herds, holding a large
+    band of captives - cited to illustrate conquest-era nomadic wintering.
+  notes: Rāshidūn-period raid; political_entities_involved left empty (no Rāshidūn
+    polity in corpus).
+  linked_attestations:
+  - ATT-0271
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

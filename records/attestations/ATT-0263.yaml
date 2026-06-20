@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0263
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PERS-0065
+  - ENT-PERS-0020
+  - ENT-PLC-0094
+  - ENT-PLC-0103
+  - ENT-PLC-0091
+  - ENT-EVT-0033
+  observations_supported:
+  - OBS-0188
+  provenance: primary_quotation
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8), p. 245; trans. following P. K.
+    Hitti, Origins of the Islamic State, p. 278; reached via Eger 2015, pp. 234-235,
+    fn 104.
+  direct_quotation: to settle the Arabs in places far from the cities and villages
+  paraphrase: Balādhurī reports that ʿUthmān instructed Muʿāwiya, ruler of Syria and
+    the Jazīra, to settle the Arabs far from cities and villages and to let them use
+    unowned land; accordingly the Banū Tamīm were settled at ar-Rābiyah, a mixed multitude
+    of Qays, Asad and others at al-Māzihīn and al-Mudaibir, the same in Diyār Muḍar,
+    and the Rabīʿah in their Diyār.
+  confidence: 4
+  notes: Tribal/group entities (Banū Tamīm, Qays, Asad, Rabīʿah) and minor toponyms
+    (ar-Rābiyah, al-Māzihīn, al-Mudaibir) deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

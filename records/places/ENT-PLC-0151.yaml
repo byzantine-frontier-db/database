@@ -1,0 +1,23 @@
+- record_type: place
+  id: ENT-PLC-0151
+  standardised_name: Kharāb Sayyar
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  frontier_role: One of the large square early-Abbasid towns (c. 650 x 650 m) in Eger's
+    morphological series resembling Umayyad ʿAnjar and derived from former Umayyad
+    estates.
+  environmental_setting: Jaziran steppe / Balikh-region planned town.
+  overall_confidence: 4
+  analytical_summary: Square Abbasid-period town in the northern Jazira cited by Eger
+    for its dimensions in the comparative series of planned square towns (Eger 2015,
+    pp. 233-234). Coordinates deferred.
+  linked_attestations:
+  - ATT-0262
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0256
+  source: SRC-0051
+  entities_referenced:
+  - ENT-PLC-0010
+  observations_supported:
+  - OBS-0186
+  provenance: primary_quotation
+  citation: 'al-Muhallabī (d. 990), geographical work [citation needed: edition],
+    reached via O. R. Constable, Housing the Stranger in the Mediterranean World (Cambridge,
+    2003), p. 51; Eger 2015, p. 232, fn 96.'
+  direct_quotation: bilād al-fanādiq (land of the way stations)
+  paraphrase: al-Muhallabī called the frontier the 'land of the way stations', reflecting
+    the density of fanādiq across the tenth-century thughūr.
+  confidence: 4
+  notes: 'Doubly mediated: Eger -> Constable -> al-Muhallabī. Provenance primary_quotation
+    for the cited Arabic phrase.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

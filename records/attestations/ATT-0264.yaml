@@ -1,0 +1,36 @@
+- record_type: attestation
+  id: ATT-0264
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0035
+  - ENT-PERS-0054
+  - ENT-PERS-0018
+  - ENT-PLC-0110
+  - ENT-PLC-0104
+  - ENT-PERS-0038
+  - ENT-PLC-0016
+  - ENT-PERS-0043
+  - ENT-PLC-0095
+  - ENT-PLC-0068
+  - ENT-EVT-0035
+  - ENT-EVT-0042
+  observations_supported:
+  - OBS-0190
+  - OBS-0191
+  provenance: modern_synthesis
+  citation: 'Eger 2015, pp. 234-235 (citing fns 105-106: Kennedy; Bianquis; von Sivers).'
+  paraphrase: Pro-Umayyad southern-Iraqi tribes (e.g. the Kinda from Kūfa and the
+    Tanūkh) were settled around Qinnasrīn for iqṭāʿ under Umayyad-family governors;
+    Mālik b. Ṭawq al-Taghlibī obtained lands and waterwheels from Hārūn al-Rashīd
+    at the future Raḥba near the outlet of the Khabūr; in the Abbasid period the eastern
+    frontier as far as Malaṭya was administered by tribal governors, and al-Manṣūr
+    settled 4,000 soldiers at Malaṭya with farmland to unseat the pro-Umayyad allies
+    of Marwān II.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

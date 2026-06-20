@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0106
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-POL-0002
+  scholar: Donner, F.
+  publication: (reported by Eger; cf. Early Islamic Conquests)
+  date: 1981
+  argument: State-sponsored intentionality on the frontier added a level of control
+    that reduced the risk to long-distance trade from raiding groups and prevented
+    the rise of local autonomies.
+  supporting_evidence:
+  - ATT-0264
+  - ATT-0267
+  confidence: 3
+  notes: 'Citation mismatch: Eger attributes this argument to F. Donner in the main
+    text while fn 97 points to Eger''s own ''Hisn, Ribāṭ, Thaghr, or Qaṣr?''. Attribution
+    follows the text; mismatch flagged for editorial review.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

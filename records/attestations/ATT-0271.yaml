@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0271
+  source: SRC-0052
+  entities_referenced:
+  - ENT-PLC-0153
+  - ENT-EVT-0041
+  observations_supported:
+  - OBS-0197
+  provenance: primary_paraphrase
+  citation: 'Acta S. Theodori 54B, cited in F. Trombley, ''The decline of the seventh-century
+    town: the exception of Euchaita'' (Malibu, CA, 1985), n. 63, p. 80; reached via
+    Eger 2015, pp. 236-237, fn 118.'
+  direct_quotation: a large captive band in men and animals
+  paraphrase: A raid on Euchaita after 640 records a 5,000-strong Arab army wintering
+    around the city with mounts, pack animals and herds of cattle for subsistence,
+    holding a large band of captives in men and animals drawn from various provinces.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

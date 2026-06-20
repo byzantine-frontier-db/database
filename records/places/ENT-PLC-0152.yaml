@@ -1,0 +1,29 @@
+- record_type: place
+  id: ENT-PLC-0152
+  standardised_name: ʿAnjar
+  alternative_names:
+  - form: ʿAnjar
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  frontier_role: Umayyad planned town in Lebanon (c. 310 x 370 m) used by Eger as
+    the morphological template for the square early-Abbasid frontier towns.
+  environmental_setting: Biqāʿ valley, Lebanon; Umayyad foundation outside the frontier
+    proper.
+  overall_confidence: 5
+  analytical_summary: Umayyad planned town adduced as comparandum for the square-town
+    morphology of the Abbasid thughūr; per Northedge, Hisn Maslama may be associated
+    with ʿAnjar by chronology and patronage (Eger 2015, p. 233, fn 102). Coordinates
+    deferred.
+  linked_attestations:
+  - ATT-0262
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0257
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0120
+  - ENT-PLC-0004
+  - ENT-PLC-0119
+  - ENT-PLC-0122
+  - ENT-PLC-0115
+  - ENT-PLC-0010
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 232-233.
+  paraphrase: Nearly all thughūr cities were taken by treaty, not force, and frontier
+    towns saw a surge of settlement and construction from the late-eighth-century
+    early-Abbasid period; at ʿAyn Zarba ceramics are slight in the 7th/early-8th century
+    but major from the mid-8th to 10th, with parallels at Gözlü Küle (Tarsus) and
+    Örensehir (a candidate for Hārūnīyya), and texts note camps at Tarsus (651/2)
+    and Adhana (743) until the early-Abbasid development.
+  confidence: 4
+  notes: Survey/site names Gözlü Küle and Örensehir deferred as minor; Örensehir as
+    a candidate identification of al-Hārūnīyya (ENT-PLC-0122) noted but not merged
+    (canonical records immutable).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

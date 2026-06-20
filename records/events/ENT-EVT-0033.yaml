@@ -1,0 +1,35 @@
+- record_type: event
+  id: ENT-EVT-0033
+  standardised_name: ʿUthmān's order to Muʿāwiya to settle Arab tribes across the
+    Jazīra
+  event_type:
+    primary: administrative
+    sub: settlement
+  start_date:
+    start: 644
+    end: 656
+    precision: year_range_broad
+    confidence: 3
+  associated_places:
+  - ENT-PLC-0094
+  - ENT-PLC-0103
+  - ENT-PLC-0091
+  participants:
+  - ENT-PERS-0065
+  - ENT-PERS-0020
+  overall_confidence: 3
+  analytical_summary: Per Balādhurī (via Eger), Caliph ʿUthmān instructed Muʿāwiya,
+    governor of Syria, to settle Arab tribes far from cities and villages across the
+    Jazīra and to use unowned land; specific tribal settlements followed in Diyār
+    Muḍar and elsewhere.
+  notes: Rāshidūn-period event; the Rāshidūn caliphate is not in the corpus, so political_entities_involved
+    is left empty (flagged for Technical Lead).
+  linked_attestations:
+  - ATT-0263
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

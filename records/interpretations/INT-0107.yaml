@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0107
+  associated_entities:
+  - ENT-PLC-0091
+  - ENT-PLC-0010
+  scholar: Robinson, C.
+  publication: '''Tribes and Nomads'', p. 439'
+  argument: The Raqqa settlement report is a literary telescoping of long-term social
+    change and a reaction to an ongoing security threat, not a state-sponsored policy
+    directed against nomads.
+  supporting_evidence:
+  - ATT-0269
+  counter_evidence:
+  - INT-0108
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

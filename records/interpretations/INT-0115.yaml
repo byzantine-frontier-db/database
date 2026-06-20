@@ -1,0 +1,31 @@
+- record_type: interpretation
+  id: INT-0115
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0024
+  - ENT-PLC-0025
+  - ENT-PLC-0020
+  - ENT-PLC-0056
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (London, 2015)
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Eger''s ethno-religious hypothesis treats preexisting vs newly-founded
+    settlement as a proxy for Christian vs Muslim communities: newly-founded canal-based
+    hydraulic villages were largely Muslim, while shrinking or upland-continuity sites
+    mark persisting Christian communities - a model Eger himself flags as flawed and
+    longue-durée, omitting individual variation (defection, reconversion, captives).'
+  supporting_evidence:
+  - ATT-0275
+  - ATT-0276
+  confidence: 3
+  notes: al-Andalus comparanda (Acién Almansa; Gutiérrez Lloret, fns 138-139) supporting
+    the de novo / ceramic-marker argument are deferred per project scope (comparative
+    material).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

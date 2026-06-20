@@ -1,0 +1,24 @@
+- record_type: person
+  id: ENT-PERS-0065
+  standardised_name: ʿUthmān ibn ʿAffān
+  alternative_names:
+  - form: ʿUthmān
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: caliph
+  religious_affiliation: Islam
+  overall_confidence: 5
+  analytical_summary: Third Rāshidūn caliph (r. 644-656). In Balādhurī's account,
+    reached via Eger, he instructs Muʿāwiya, governor of Syria, to settle Arab tribes
+    across the Jazīra. The Rāshidūn caliphate is not yet a polity in the corpus snapshot;
+    political_affiliation left unset (flagged for Technical Lead).
+  linked_attestations:
+  - ATT-0263
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

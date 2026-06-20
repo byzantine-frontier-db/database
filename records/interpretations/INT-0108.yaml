@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0108
+  associated_entities:
+  - ENT-PLC-0091
+  - ENT-PLC-0010
+  scholar: Donner, F.
+  publication: Early Islamic Conquests, pp. 253, 266
+  date: 1981
+  argument: The same Raqqa report is an example of state-sponsored sedentarisation.
+  supporting_evidence:
+  - ATT-0269
+  counter_evidence:
+  - INT-0107
+  confidence: 3
+  notes: Preserved disagreement with Robinson (INT-1206) over whether the Raqqa report
+    reflects deliberate state policy.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

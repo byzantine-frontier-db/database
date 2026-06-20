@@ -1,0 +1,15 @@
+- record_type: relationship
+  id: REL-0105
+  type: carried_out
+  source_entity: ENT-PERS-0042
+  target_entity: ENT-EVT-0036
+  confidence: 4
+  linked_attestations:
+  - ATT-0267
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

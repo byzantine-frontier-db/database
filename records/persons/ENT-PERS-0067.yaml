@@ -1,0 +1,24 @@
+- record_type: person
+  id: ENT-PERS-0067
+  standardised_name: Maymūn ibn Mihrān
+  alternative_names:
+  - form: Maymūn b. Mihrān
+    language: ar
+    script: Arab
+    name_type: standardised
+  person_type: courtier
+  political_affiliation: ENT-POL-0003
+  religious_affiliation: Islam (convert / mawlā)
+  overall_confidence: 4
+  analytical_summary: Cited by Eger as a convert (mawlā) who attained office, serving
+    as secretary and administrator of the Jazīra under ʿUmar II; adduced to show converts
+    could attain power as civil servants.
+  linked_attestations:
+  - ATT-0274
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

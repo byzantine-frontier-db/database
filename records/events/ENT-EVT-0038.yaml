@@ -1,0 +1,35 @@
+- record_type: event
+  id: ENT-EVT-0038
+  standardised_name: Hārūn al-Rashīd's establishment of Manbij and Raqqa as seats
+    (791-808)
+  event_type:
+    primary: administrative
+    sub: creation_of_administrative_unit
+  start_date:
+    start: 791
+    end: 808
+    precision: year_range_broad
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0043
+  - ENT-PLC-0091
+  - ENT-PLC-0112
+  participants:
+  - ENT-PERS-0018
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 4
+  analytical_summary: Hārūn al-Rashīd established Manbij as a headquarters in 791
+    and moved the capital to Raqqa (Rāfiqa) from 797 to 808 - the dynastically significant
+    Hārūn-at-Raqqa episode anchoring direct caliphal participation on the frontier.
+  notes: 'Schema vocabulary gap: no capital/seat-relocation sub-category (see EVT-1205).
+    Flagged as dynastically significant per session brief.'
+  linked_attestations:
+  - ATT-0268
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

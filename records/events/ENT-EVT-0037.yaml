@@ -1,0 +1,32 @@
+- record_type: event
+  id: ENT-EVT-0037
+  standardised_name: al-Mahdī's transfer of the Abbasid capital to Ḥalab (778)
+  event_type:
+    primary: administrative
+    sub: creation_of_administrative_unit
+  start_date:
+    start: 778
+    end: 778
+    precision: year
+    confidence: 4
+  associated_places:
+  - ENT-PLC-0034
+  participants:
+  - ENT-PERS-0032
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 4
+  analytical_summary: al-Mahdī moved the capital from Baghdad to Ḥalab in 778 as part
+    of the policy of direct caliphal involvement on the frontier.
+  notes: 'Schema vocabulary gap: EventSubCategory has no value for a capital/seat
+    relocation; ''creation_of_administrative_unit'' used as nearest fit (flagged for
+    Technical Lead).'
+  linked_attestations:
+  - ATT-0268
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

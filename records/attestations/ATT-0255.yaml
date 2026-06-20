@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0255
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-PLC-0140
+  - ENT-PLC-0027
+  provenance: modern_synthesis
+  citation: 'Eger 2015, p. 232 (citing fns 95-96: Constable).'
+  paraphrase: Unfortified inns (funduq, khān) increased through waqf in the ninth
+    and tenth centuries, particularly in the thughūr; together with fortified way
+    stations they formed a system designed to promote settlement and sedentarisation
+    and to protect the infrastructure of movement across the frontier.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

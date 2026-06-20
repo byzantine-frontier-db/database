@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0254
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0123
+  - ENT-PLC-0040
+  - ENT-PLC-0039
+  - ENT-PLC-0051
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 230-231 (cf. fn 90).
+  paraphrase: Hisn al-Tīnāt is shown to have guarded and managed local resources,
+    part of a small system of Early Islamic sites along the Tum Çay facilitating seaborne
+    timber transport; the fortified enclosures contrast with sparse 7th/early-8th-century
+    settlement, exemplified by the newly-founded enclosure at Site 11 of the Sweyhat
+    Survey (Khirbet Dhiman, SS11), of early-Abbasid date and set apart from but related
+    to a village, with a fort/residence at Tell Khusāf nearby.
+  confidence: 4
+  notes: 'Disambiguation: the main text''s ''Site 11 from the Sweyhat Survey'' = SS11
+    = ENT-PLC-0040 (Khirbet Dhiman); distinct from the Gritille-Survey Site 11 + Lidar
+    Höyük pair near Sumaysāṭ in fn 90, which remain deferred (survey-level).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

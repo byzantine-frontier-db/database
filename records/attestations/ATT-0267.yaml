@@ -1,0 +1,38 @@
+- record_type: attestation
+  id: ATT-0267
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0038
+  - ENT-PERS-0042
+  - ENT-PERS-0032
+  - ENT-PERS-0018
+  - ENT-PERS-0066
+  - ENT-PLC-0120
+  - ENT-PLC-0121
+  - ENT-PLC-0122
+  - ENT-PLC-0115
+  - ENT-PLC-0109
+  - ENT-POL-0003
+  - ENT-EVT-0036
+  - ENT-EVT-0039
+  observations_supported:
+  - OBS-0192
+  - OBS-0195
+  provenance: modern_synthesis
+  citation: 'Eger 2015, pp. 235-237 (citing fns 109-111: von Sivers; Kennedy; Eger
+    gazetteer).'
+  paraphrase: 'Caliphal frontier renovations concentrated in the later eighth century:
+    under al-Manṣūr a programme rebuilt four towns 756-760 under Ṣāliḥ b. ʿAlī, whose
+    family had inherited most of the northern-Syrian and Mesopotamian Umayyad lands;
+    al-Mahdī (via Hārūn and the Khurāsānī commander al-Ḥasan b. Qaḥṭaba) repaired
+    eight thughūr towns and Hārūn six more, focusing in 799-800 on ʿAyn Zarba, Kanīsa
+    al-Sawdāʾ and Hārūnīyya in the eastern Cilician Plain; both caliphs settled Khurāsānīs,
+    Yamanīs, Jazīrans from Mawṣil, Syrians and volunteers.'
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0261
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0042
+  - ENT-PLC-0149
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 233.
+  paraphrase: From the Tigris-Euphrates Carchemish-Birecik Survey, Zeugma continued
+    as a smaller Early Islamic site (possibly a ḥāḍir), while Site 6 of the Kurban
+    Höyük Survey showed Late Roman continuity only on the periphery of the site.
+  confidence: 4
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0104
+  associated_entities:
+  - ENT-PLC-0035
+  scholar: Whitcomb, D.
+  publication: '''Archaeological Research at Hadir Qinnasrin'', Archéologie Islamique
+    10 (2000), p. 27'
+  date: 2000
+  argument: The two-room structure at Qinnasrīn (mud brick then stone) marks a tent
+    that became a permanent foundation (sibāṭ) just before or during the early Abbasid
+    period, posited as the settlement of the Tayyiʾ and Tanūkh.
+  supporting_evidence:
+  - ATT-0259
+  confidence: 3
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

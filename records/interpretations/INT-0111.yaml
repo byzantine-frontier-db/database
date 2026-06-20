@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0111
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Bulliet, R.
+  publication: Conversion to Islam in the Medieval Period (Cambridge, MA, 1979)
+  date: 1979
+  argument: A conversion-curve model in which early adoption reached c. 16 per cent
+    by 861 and an early majority of c. 50 per cent by 961, with conversion slower
+    in remote rural areas.
+  supporting_evidence:
+  - ATT-0274
+  confidence: 2
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
