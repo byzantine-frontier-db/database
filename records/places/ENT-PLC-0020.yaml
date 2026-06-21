@@ -46,6 +46,9 @@
   - ATT-0247
   - ATT-0248
   - ATT-0276
+  - ATT-0277
+  - ATT-0278
+  - ATT-0286
   linked_interpretations:
   - INT-0022
   - INT-0037
@@ -65,9 +68,10 @@
   - INT-0096
   - INT-0098
   - INT-0115
+  - INT-0117
   metadata:
     schema_version: 1.0.0
-    record_version: 1.8.0
+    record_version: 1.9.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

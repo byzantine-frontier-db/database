@@ -34,6 +34,9 @@
   - ATT-0244
   - ATT-0252
   - ATT-0253
+  - ATT-0283
+  - ATT-0288
+  - ATT-0292
   linked_interpretations:
   - INT-0033
   - INT-0040
@@ -44,10 +47,12 @@
   - INT-0096
   - INT-0100
   - INT-0101
+  - INT-0117
+  - INT-0120
   notes: No point coordinate assigned (linear feature spanning the survey area).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.7.0
+    record_version: 1.8.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

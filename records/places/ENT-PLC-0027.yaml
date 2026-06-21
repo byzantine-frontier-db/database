@@ -50,6 +50,8 @@
   - ATT-0240
   - ATT-0255
   - ATT-0272
+  - ATT-0280
+  - ATT-0283
   linked_interpretations:
   - INT-0026
   - INT-0062
@@ -58,7 +60,7 @@
     left unresolved per Eger.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.4.0
+    record_version: 1.5.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
