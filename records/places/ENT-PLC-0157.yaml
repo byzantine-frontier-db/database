@@ -1,0 +1,26 @@
+- record_type: place
+  id: ENT-PLC-0157
+  persistent_identifiers:
+    internal_id: ENT-PLC-0157
+  standardised_name: Çatal Höyük (Amuq Plain)
+  place_type: ruined_site
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: Excavated tell in the Amuq Plain (Plain of Antioch). A large
+    number of coins of the Middle Islamic/Middle Byzantine period from the Çatal Höyük
+    excavations raise an incongruity that Eger explains either by a high level of
+    rural monetisation or by the presence of a military garrison. Also cited as an
+    example of small-tell occupation in the period.
+  linked_attestations:
+  - ATT-0286
+  notes: DIFFERENT FROM the Neolithic Çatalhöyük in the Konya Plain; this is the Amuq-Plain
+    tell of the Braidwood Syrian-Hittite expedition. Disambiguation relationship recorded
+    against ENT-PLC-0160 (Çadır Höyük). Coordinates deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

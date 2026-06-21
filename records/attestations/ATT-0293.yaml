@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0293
+  source: SRC-0054
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-POL-0001
+  - ENT-POL-0002
+  provenance: primary_quotation
+  citation: 'Ibn Jubayr, Riḥla (Leiden: Brill, 1907), p. 287; trans. Broadhurst, Travels
+    of Ibn Jubayr, pp. 300-1; via O. Constable, Housing the Stranger, p. 223 (cited
+    Eger 2015, SRC-0007, pp. 275-6 n. 27)'
+  direct_quotation: Muslim and Christian travellers will come and go between them
+    without interference
+  paraphrase: Ibn Jubayr records as an astonishing thing that, even when the fires
+    of discord burned between Muslim and Christian and two armies faced each other
+    in battle array, Muslim and Christian travellers (rifāq) would come and go between
+    them without interference.
+  confidence: 4
+  notes: Primary content of Ibn Jubayr (SRC-0054) reached via Constable; transmission
+    recorded in citation. Eger pp. 275-6, illustrating the persistence of safe trade
+    and way-stations in the unstable frontier landscape.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0207

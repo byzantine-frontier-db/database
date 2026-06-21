@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0205
+  proposition: The hilltop fortress of al-Rāwandān, like Baghrās and Darbassak, possessed
+    gardens, fruit trees and springs (Abū al-Fidāʾ).
+  associated_entities:
+  - ENT-PLC-0161
+  - ENT-PLC-0027
+  - ENT-PLC-0028
+  supporting_attestations:
+  - ATT-0280
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

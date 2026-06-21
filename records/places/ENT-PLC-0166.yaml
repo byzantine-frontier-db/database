@@ -1,0 +1,30 @@
+- record_type: place
+  id: ENT-PLC-0166
+  persistent_identifiers:
+    internal_id: ENT-PLC-0166
+  standardised_name: Sebastea
+  alternative_names:
+  - form: Sebasteia
+    language: grc
+    script: Grek
+    name_type: alternative_transliteration
+  place_type: city
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 3
+  analytical_summary: A city in (or near) Cappadocia, described by Eger as the seat
+    of a ruler named Ismāʿīl who, during the famine of the winter of 1173-4, hoarded
+    the local wheat and was killed together with his entire household by the villagers
+    — a counter-example to the protective grain-storage function of the frontier ḥuṣūn.
+  linked_attestations:
+  - ATT-0281
+  notes: Eger (p. 275) places Sebastea 'in Cappadocia'; the city (modern Sivas) is
+    more usually reckoned to Pontus/Lesser Armenia. Discrepancy flagged for the Technical
+    Lead. Coordinates deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

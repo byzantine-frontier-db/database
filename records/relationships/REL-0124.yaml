@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0124
+  type: located_at
+  source_entity: ENT-EVT-0044
+  target_entity: ENT-PLC-0123
+  confidence: 5
+  linked_attestations:
+  - ATT-0290
+  notes: The tenth-century refortification took place at Ḥiṣn al-Tīnāt.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

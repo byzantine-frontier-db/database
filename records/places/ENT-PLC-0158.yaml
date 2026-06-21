@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0158
+  persistent_identifiers:
+    internal_id: ENT-PLC-0158
+  standardised_name: Tell Tuneinir
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  environmental_setting: Khabur river region, northern Jazīra.
+  overall_confidence: 4
+  analytical_summary: 'A 46-hectare site of the twelfth-to-thirteenth centuries (Zangid
+    and Ayyubid periods) in the Khabur region. The tell served as a residential quarter
+    while the large lower town was devoted to commercial activity: two khānāt, a market
+    with iron-, glass-, ceramic- and textile-working workshops, and a bath. A mosque
+    attached to the khan and a church suggest mixed Muslim-Christian occupation or
+    a Christian community serving Muslim caravans. The khānāt and market were violently
+    burnt and destroyed during the political upheavals of the thirteenth century,
+    with weapons found in the destruction levels.'
+  linked_attestations:
+  - ATT-0287
+  notes: 'Coordinates deferred. Khabur location: near ENT-PLC-0104 (Khabūr River).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

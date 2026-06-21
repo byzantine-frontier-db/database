@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0282
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0058
+  - ENT-PLC-0165
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), p. 273
+  paraphrase: Monasteries such as Qalʿat Simʿān (dedicated to St Simeon the Elder)
+    and the Monastery of St Simeon the Younger overlooking the Orontes Delta were
+    refurbished with outer fortified enclosure walls in the tenth century and later.
+  confidence: 3
+  notes: Eger p. 273. ENT-PLC-0058 (Dayr Simʿan) is referenced for Qalʿat Simʿān;
+    Eger's 'Qalʿat Simʿān' is the monastery-citadel of St Simeon the Elder, which
+    may be distinct from the Dayr Simʿān pilgrimage town entity — flagged for the
+    Technical Lead.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0209

@@ -1,0 +1,37 @@
+- record_type: interpretation
+  id: INT-0117
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0021
+  - ENT-PLC-0044
+  - ENT-PLC-0046
+  - ENT-PLC-0094
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (2015), ch. 9
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Eger argues for a ''century of discontinuity'' and renomadization in
+    the tenth-eleventh centuries: marked site abandonment, a shift from farmsteads
+    to fortresses and from villa to village, and a transformation of the settled landscape
+    into a transient landscape of camps. He links this to political and economic fragmentation,
+    the weakening of ties to Baghdad after the capital moved to Samarra'', an influx
+    of Turkic and Arabian tribes, and environmental degradation (aggradation, marshification
+    and the collapse of unmaintained canal systems). Middle Islamic/Middle Byzantine
+    settlement falls into two phases and shows nucleated dispersal, consolidation
+    around tells, and the fortification of tells and uplands.'
+  supporting_evidence:
+  - ATT-0279
+  - ATT-0291
+  - ATT-0292
+  counter_evidence:
+  - ATT-0277
+  confidence: 4
+  notes: Eger pp. 264-270. Ibn Buṭlān's 1051 report of prosperity (ATT-0277) is logged
+    as counter-evidence, the tension Eger himself flags ('despite the ceramic evidence').
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

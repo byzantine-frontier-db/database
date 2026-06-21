@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0286
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0157
+  - ENT-PLC-0020
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), p. 270 n. 15, reporting Gerritsen et al. and Vorderstrasse
+  paraphrase: A large number of Middle Islamic/Middle Byzantine coins from the Çatal
+    Höyük excavations in the Amuq raise an incongruity that may be explained either
+    by a high level of monetisation even in rural areas or by the presence of a military
+    garrison at the site.
+  confidence: 3
+  notes: Eger p. 270; underlying publications Gerritsen et al.; Vorderstrasse 2005
+    (not in corpus).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0211

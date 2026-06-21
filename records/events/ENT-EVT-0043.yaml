@@ -1,0 +1,45 @@
+- record_type: event
+  id: ENT-EVT-0043
+  persistent_identifiers:
+    internal_id: ENT-EVT-0043
+  standardised_name: Byzantine reconquest of the frontier (from 956)
+  event_type:
+    primary: military
+    sub: campaign
+  start_date:
+    start: 0956
+    precision: year
+    confidence: 3
+    notes: Eger dates the reconquest 'after the first sieges in 956' (p. 267); the
+      process extends across the later tenth century.
+  associated_places:
+  - ENT-PLC-0010
+  - ENT-PLC-0022
+  - ENT-PLC-0123
+  political_entities_involved:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  description: The Byzantine reconquest of the Anatolian/north-Syrian frontier, beginning
+    after the first sieges in 956, which Eger characterises as only partly successful
+    and as exploiting the growing internal crisis of the Abbasid caliphate.
+  historical_significance: Resolves the pre-history framed by the 838 campaign material
+    elsewhere in the corpus; the western thughūr and urban centres reconquered by
+    Byzantium followed a different settlement trajectory from the renomadised interior.
+  overall_confidence: 3
+  analytical_summary: 'Process-event: the partial Byzantine reconquest of the frontier
+    from 956, set by Eger against the internal fragmentation of the Abbasid caliphate
+    (Kurdish, Daylamī/Buyid and Bedouin pressures, weak caliphs).'
+  linked_attestations:
+  - ATT-0295
+  notes: Anchor date 956 is Eger's ('first sieges in 956', p. 267); precision kept
+    to year with confidence 3. Individual dynastic events of the reconquest era (Mirdasid
+    seizure 1024, ʿUqaylī capture of Ḥalab 1079, ʿAḍud al-Dawla's reduction of Hamdanid
+    fortresses 977-980) are documented within the Kennedy interpretation (INT-0123)
+    rather than as separate events.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

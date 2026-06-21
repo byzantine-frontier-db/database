@@ -1,0 +1,35 @@
+- record_type: interpretation
+  id: INT-0116
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0162
+  - ENT-PLC-0163
+  - ENT-PLC-0159
+  - ENT-PLC-0160
+  - ENT-PLC-0164
+  scholar: Eger, A. Asa
+  publication: 'The Islamic-Byzantine Frontier (London: I.B. Tauris, 2015), ch. 9'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Eger argues that the system of ḥuṣūn (fortified upland towns and castles)
+    of the tenth to thirteenth centuries inverted the feudal model: these settlements
+    did not follow a military borderline, nor function as feudal centres of urban
+    power, tax collection and control over a rural population. Instead they were non-linear,
+    defensive complexes that sheltered local populations, stored grain, and held livestock
+    — self-sufficient products of frontier incastellamento that belong in an entirely
+    different class from castles of the Western European/Christian medieval model.'
+  supporting_evidence:
+  - ATT-0280
+  - ATT-0283
+  - ATT-0288
+  - ATT-0289
+  - ATT-0293
+  confidence: 4
+  notes: Eger's central argument of the chapter (pp. 273-276).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

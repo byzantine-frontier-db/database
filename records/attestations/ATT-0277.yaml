@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0277
+  source: SRC-0021
+  entities_referenced:
+  - ENT-PLC-0034
+  - ENT-PLC-0022
+  - ENT-PLC-0020
+  provenance: primary_quotation
+  citation: Ibn Buṭlān, quoted in Yāqūt, Muʿjam al-buldān (1955-7), 1.267; trans.
+    Le Strange, Palestine Under the Moslems, p. 370 (via Eger 2015, SRC-0007, p. 267
+    n. 3)
+  direct_quotation: the villages ran continuous, their gardens full of flowers
+  paraphrase: 'Travelling through the Amuq Plain in 1051, the Christian physician
+    Ibn Buṭlān found the whole country between Ḥalab and Anṭākiya populous and prosperous:
+    the soil sown with wheat and barley growing under the olive trees, continuous
+    villages, gardens full of flowers, and waters flowing on every hand.'
+  confidence: 4
+  notes: Primary content of Ibn Buṭlān (SRC-0021) reached via Yāqūt (SRC-0020) and
+    Le Strange's translation; transmission chain recorded in citation. Eger p. 267.
+    Eger flags the prosperity as standing 'despite the ceramic evidence' for tenth-century
+    discontinuity.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0202

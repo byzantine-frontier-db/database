@@ -1,0 +1,37 @@
+- record_type: event
+  id: ENT-EVT-0044
+  persistent_identifiers:
+    internal_id: ENT-EVT-0044
+  standardised_name: Refortification of the Ḥiṣn al-Tīnāt main enclosure, tenth century
+  event_type:
+    primary: construction_infrastructure
+    sub: fortification
+  start_date:
+    start: 0900
+    end: 0999
+    precision: century
+    confidence: 3
+    notes: '''some time in the tenth century'' (Eger p. 270).'
+  associated_places:
+  - ENT-PLC-0123
+  political_entities_involved:
+  - ENT-POL-0001
+  description: Substantial refortification of the main enclosure of Ḥiṣn al-Tīnāt
+    some time in the tenth century, through reinforcement of its outer walls and the
+    addition of towers; part of the continuity of the site from the eighth to the
+    early twelfth centuries under Middle Byzantine rule.
+  overall_confidence: 3
+  analytical_summary: 'Tenth-century archaeological refortification phase at Ḥiṣn
+    al-Tīnāt (ENT-PLC-0123): outer walls reinforced and towers added, evidencing investment
+    in the reconquered western thughūr.'
+  linked_attestations:
+  - ATT-0290
+  notes: Dated only to the tenth century; archaeological. Located at ENT-PLC-0123
+    (REL-0124).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

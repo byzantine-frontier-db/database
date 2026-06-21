@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0164
+  persistent_identifiers:
+    internal_id: ENT-PLC-0164
+  standardised_name: Kale Boğaz
+  place_type: castle
+  identification_status: approximately_identified
+  identification_confidence: 3
+  environmental_setting: Upland site c. 15 km SW of Gölbaşı, on the Gölbaşı-Pazarcık
+    road (Adıyaman region).
+  overall_confidence: 3
+  analytical_summary: A thirteenth-to-fourteenth-century double-walled castle recorded
+    by the Adıyaman Survey, located about 15 km south-west of Gölbaşı on the main
+    road to Pazarcık.
+  linked_attestations:
+  - ATT-0284
+  linked_interpretations:
+  - INT-0116
+  notes: Coordinates deferred (relative location only, per Blaylock et al., 'The Adıyaman
+    Survey'). Gölbaşı and Pazarcık recorded as locating toponyms in environmental_setting;
+    not minted.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

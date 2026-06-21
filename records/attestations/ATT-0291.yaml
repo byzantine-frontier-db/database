@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0291
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0046
+  - ENT-PLC-0034
+  provenance: primary_summary
+  citation: Eger 2015 (SRC-0007), pp. 265-266 (Nahr Quwayq survey data)
+  paraphrase: In the Nahr Quwayq survey virtually every Early Islamic period site
+    continued into the Middle Byzantine period except six (five of which ended in
+    the tenth century); of twelve new Middle Islamic/Middle Byzantine sites, nine
+    were founded in the eleventh-thirteenth centuries and three in the tenth, one
+    of the latter being the Ḥalab citadel.
+  confidence: 3
+  notes: Eger pp. 265-266. Survey-level synthesis.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0217

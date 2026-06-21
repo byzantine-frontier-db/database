@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0281
+  source: SRC-0022
+  entities_referenced:
+  - ENT-PERS-0069
+  - ENT-PLC-0166
+  provenance: primary_paraphrase
+  citation: Michael the Syrian, Chronique, III, pp. 207-8, 598 (via Eger 2015, SRC-0007,
+    p. 275 n. 26)
+  paraphrase: During the famine of the winter of 1173-4, Ismāʿīl, the ruler of Sebastea
+    in Cappadocia, hoarded the wheat for himself and was subsequently killed, together
+    with his entire household, by the villagers.
+  confidence: 3
+  notes: Eger p. 275; Eger also cites M. Morony, 'Michael the Syrian as a Source'.
+    Primary content of Michael the Syrian (SRC-0022).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0206

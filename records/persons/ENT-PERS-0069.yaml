@@ -1,0 +1,32 @@
+- record_type: person
+  id: ENT-PERS-0069
+  persistent_identifiers:
+    internal_id: ENT-PERS-0069
+  standardised_name: Ismāʿīl of Sebastea
+  person_type: other_lay
+  death:
+    date:
+      start: '1174'
+      end: '1174'
+      precision: year
+      confidence: 3
+      notes: Killed during the famine of the winter of 1173-4 (Eger p. 275, after
+        Michael the Syrian).
+    place_id: ENT-PLC-0166
+  overall_confidence: 3
+  analytical_summary: Ruler of Sebastea in Cappadocia who, during the famine of the
+    winter of 1173-4, hoarded the local wheat for himself and was killed, together
+    with his entire household, by the villagers. Eger cites him as a counter-example
+    to the protective grain-storage role of the frontier ḥuṣūn.
+  linked_attestations:
+  - ATT-0281
+  notes: Thinly attested minor figure, recorded because he is the subject of a discrete
+    primary attestation (Michael the Syrian). Name 'Ismāʿīl' as given by Eger; no
+    further identification asserted.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0122
+  type: near
+  source_entity: ENT-PLC-0163
+  target_entity: ENT-PLC-0044
+  confidence: 4
+  linked_attestations:
+  - ATT-0283
+  notes: Qalʿat Najm lies on the Euphrates River.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

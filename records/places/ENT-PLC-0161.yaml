@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0161
+  persistent_identifiers:
+    internal_id: ENT-PLC-0161
+  standardised_name: al-Rāwandān
+  alternative_names:
+  - form: Rāwandān
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  place_type: fortress
+  identification_status: identified
+  identification_confidence: 4
+  environmental_setting: Hilltop in the ʿAfrīn Valley.
+  overall_confidence: 4
+  analytical_summary: A hilltop fortress in the ʿAfrīn Valley (in modern Syria), across
+    the Amuq. In fourteenth-century descriptions (Abū al-Fidāʾ) it possessed gardens,
+    fruit trees and springs, like the lower-town-and-castle complexes of Baghrās and
+    Darbassak. Eger treats it as part of the single self-sufficient fortified-settlement
+    type produced by frontier incastellamento.
+  linked_attestations:
+  - ATT-0280
+  notes: Coordinates deferred. ʿAfrīn Valley toponym deferred as a minor toponym;
+    recorded here in environmental_setting.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

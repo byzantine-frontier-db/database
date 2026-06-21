@@ -1,0 +1,30 @@
+- record_type: source
+  id: SRC-0054
+  persistent_identifiers:
+    internal_id: SRC-0054
+  standardised_title: Ibn Jubayr, Riḥla (The Travels of Ibn Jubayr)
+  alternative_titles:
+  - Riḥlat Ibn Jubayr
+  author_unnamed: false
+  date_of_composition:
+    precision: year_range_broad
+    confidence: 3
+    notes: Account of travels c. 1183-1185; author lived 1145-1216 (Eger p. 275).
+  language: ar
+  script: Arab
+  genre: travel_account
+  edition_used: 'Ibn Jubayr, Riḥla (Leiden: Brill, 1907), p. 287'
+  translation_used: 'The Travels of Ibn Jubayr, trans. R. J. C. Broadhurst (London:
+    Jonathan Cape, 1952), pp. 300-1'
+  reliability_assessment: Twelfth-century Andalusi traveller's first-hand account;
+    valued for eyewitness observation of Near Eastern conditions.
+  notes: Drafted because Eger 2015 (SRC-0007) pp. 275-6 n. 27 quotes Ibn Jubayr on
+    the safe passage of Muslim and Christian travellers (rifāq) between opposing armies,
+    reached via O. Constable, Housing the Stranger, p. 223.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

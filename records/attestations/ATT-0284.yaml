@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0284
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0164
+  provenance: archaeological_evidence
+  citation: 'Eger 2015 (SRC-0007), p. 273 n. 21, reporting Blaylock et al., ''The
+    Adıyaman Survey: An Interim Report'', pp. 128-9'
+  paraphrase: The Adıyaman Survey recorded Kale Boğaz, a thirteenth-to-fourteenth-century
+    double-walled castle about 15 km south-west of Gölbaşı on the main road to Pazarcık.
+  confidence: 3
+  notes: Eger p. 273; underlying survey publication Blaylock et al. (not in corpus).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

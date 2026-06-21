@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0285
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0068
+  - ENT-PLC-0023
+  - ENT-PLC-0016
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), p. 269
+  paraphrase: Philaretos Brachamios, a former Byzantine general turned rebel and warlord,
+    held power around Marʿash and Malaṭya between 1071 and 1078, among the local powers
+    that filled the political vacuum on the frontier.
+  confidence: 3
+  notes: Eger p. 269, drawing on H. Kennedy. Activity-attestation for ENT-PERS-0068.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0210
+  proposition: The earliest fortified frontier castles were tenth-century Byzantine
+    foundations (Baghrās, Anṭākya, ʿAyn Zarba) and eleventh-century Bedouin foundations
+    on the Euphrates (Qalʿat Jaʿbar, Qalʿat Najm).
+  associated_entities:
+  - ENT-PLC-0027
+  - ENT-PLC-0022
+  - ENT-PLC-0120
+  - ENT-PLC-0162
+  - ENT-PLC-0163
+  supporting_attestations:
+  - ATT-0283
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

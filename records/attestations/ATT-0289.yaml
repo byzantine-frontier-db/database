@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0289
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0160
+  provenance: archaeological_evidence
+  citation: 'Eger 2015 (SRC-0007), p. 274 n. 23, reporting M. Cassis, ''Çadır Höyük:
+    A Rural Settlement in Byzantine Anatolia'' (2009), pp. 3-8'
+  paraphrase: Excavations at Çadır Höyük in northern Anatolia, a fortified tell occupied
+    in the ninth and tenth centuries, showed that the wall around the summit was intended
+    to protect a storage area and a stable of livestock for the population living
+    on a lower terrace.
+  confidence: 3
+  notes: Eger p. 274.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0215

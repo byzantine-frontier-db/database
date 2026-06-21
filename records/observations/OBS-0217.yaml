@@ -1,0 +1,17 @@
+- record_type: observation
+  id: OBS-0217
+  proposition: Most Early Islamic sites in the Nahr Quwayq survey continued into the
+    Middle Byzantine period, with a small number of new tenth-to-thirteenth-century
+    foundations.
+  associated_entities:
+  - ENT-PLC-0046
+  - ENT-PLC-0034
+  supporting_attestations:
+  - ATT-0291
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0053
+  persistent_identifiers:
+    internal_id: SRC-0053
+  standardised_title: al-Masʿūdī, Kitāb al-Tanbīh wa al-ishrāf
+  alternative_titles:
+  - The Book of Admonition and Revision
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: '[citation needed: edition; Eger cites pp. 131-2 of an unspecified
+    edition via Cappel]'
+  reliability_assessment: Tenth-century Arabic geographical/historical compendium;
+    valuable for contemporary observation of tenth-century Syria.
+  notes: Drafted because Eger 2015 (SRC-0007) p. 268 n. 7 cites al-Masʿūdī's Kitāb
+    al-Tanbīh wa al-ishrāf for the depopulation of the Orontes Valley villages. Reached
+    via A. J. Cappel, 'The Byzantine Response to the Arab (10th-11th centuries)',
+    Byzantinische Forschungen 20 (1994), p. 115. Provisional record; edition details
+    to be supplied by Technical Lead.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

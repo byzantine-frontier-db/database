@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0122
+  associated_entities:
+  - ENT-PLC-0094
+  scholar: Adams, R. McC. (as reported by Eger)
+  publication: Reported in Eger (2015), p. 267 n. 4 (Adams, Heartland of Cities, 1981)
+  argument: R. McC. Adams, from surveys of southern Iraq, identified a period of economic
+    and demographic decline, which Eger connects to environmental degradation (the
+    fragility of unmaintained canal systems and salinization) and fiscal instability
+    in the southern Iraqi lowlands — factors that weakened the economic links binding
+    the frontier and Jazīra to Baghdad.
+  confidence: 3
+  notes: Modern scholarship reported by Eger; no publication_source_id.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

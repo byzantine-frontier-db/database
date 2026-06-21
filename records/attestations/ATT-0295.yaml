@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0295
+  source: SRC-0007
+  entities_referenced:
+  - ENT-EVT-0043
+  - ENT-POL-0001
+  - ENT-POL-0002
+  - ENT-PLC-0010
+  provenance: modern_synthesis
+  citation: Eger 2015 (SRC-0007), p. 267
+  paraphrase: The Byzantine reconquest of the frontier after the first sieges in 956
+    was only partly successful; it exploited the growing internal crisis of the Abbasid
+    caliphate — the rising influence of Kurdish and Daylamī (Buyid) groups and Arab
+    Bedouin tribes, and a Turkish military class that elevated weak caliphs such as
+    al-Muṭīʿ (r. 946-74).
+  confidence: 3
+  notes: Eger p. 267. Evidential support for the reconquest event ENT-EVT-0043.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0212

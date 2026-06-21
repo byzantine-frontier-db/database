@@ -1,0 +1,35 @@
+- record_type: interpretation
+  id: INT-0123
+  associated_entities:
+  - ENT-POL-0002
+  - ENT-PLC-0094
+  - ENT-PLC-0034
+  - ENT-PLC-0091
+  - ENT-PLC-0110
+  scholar: Kennedy, H. (as reported by Eger)
+  publication: Reported in Eger (2015), pp. 268-269 nn. 9-10 (Kennedy, The Prophet
+    and the Age of the Caliphates)
+  argument: 'Following H. Kennedy, Eger sets the renomadization in its political context:
+    at the twilight of Abbasid centralized power, independent frontier dynasties formed
+    from Bedouin tribes (the Hamdanids of the Banū Taghlib around Ḥalab and Mawṣil;
+    then the ʿUqayl, the Kilāb/Mirdasids, and the Numayrids), while the Daylamī Buyids
+    and a Turkish military faction contested control of Baghdad and the Jazīra. The
+    Mirdasids took the lands between Ḥalab and Raḥba in 1024; the ʿUqayl took Ḥalab
+    in 1079; ʿAḍud al-Dawla reduced the Hamdanid mountain fortresses between 977 and
+    980, after which the northern regions were ceded to the ʿUqayl and others as iqṭāʿ.
+    Kurdish groups such as the Humaydī under Bādh clashed with these powers over access
+    to pasture.'
+  confidence: 3
+  notes: Modern scholarship reported by Eger; no publication_source_id. This interpretation
+    absorbs the chapter's dynastic detail; the individual dynasts (Muʿizz al-Dawla,
+    Bakhtiyār/ʿIzz al-Dawla, Sabuktakīn, ʿAḍud al-Dawla, Bādh) and the tribal/dynastic
+    group entities (Hamdanids, Mirdasids, ʿUqayl, Numayrids, Banū Taghlib) are deferred
+    — the dynasts as thinly-attested synthesis actors and the tribes because group
+    entities are unsupported by schema v1.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

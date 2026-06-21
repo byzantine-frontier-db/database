@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0280
+  source: SRC-0019
+  entities_referenced:
+  - ENT-PLC-0161
+  - ENT-PLC-0027
+  - ENT-PLC-0028
+  provenance: primary_paraphrase
+  citation: Abū al-Fidāʾ, Kitāb taqwīm al-buldān, p. 267 (via Eger 2015, SRC-0007,
+    p. 274 n. 22)
+  paraphrase: In fourteenth-century descriptions, the hilltop fortress of al-Rāwandān
+    in the ʿAfrīn Valley, like the lower-town-and-castle complexes of Baghrās and
+    Darbassak, possessed gardens, fruit trees and springs.
+  confidence: 4
+  notes: Eger p. 274.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0205

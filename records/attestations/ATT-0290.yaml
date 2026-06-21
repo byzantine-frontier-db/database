@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0290
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0123
+  - ENT-EVT-0044
+  - ENT-PLC-0046
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), p. 270
+  paraphrase: Excavations at Ḥiṣn al-Tīnāt show continuity from the eighth to the
+    early twelfth centuries, with substantial refortification of the main enclosure
+    in the tenth century (outer walls reinforced, towers added); kilns producing splash-glazed
+    sgraffiato and turquoise-glazed creamware served the local region, with parallels
+    at al-Mīnāʾ and inland sites towards Ḥalab in the Nahr Quwayq.
+  confidence: 4
+  notes: Eger p. 270; cf. n. 13 (Waagé). al-Mīnāʾ deferred as minor toponym.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0216

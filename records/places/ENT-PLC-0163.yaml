@@ -1,0 +1,26 @@
+- record_type: place
+  id: ENT-PLC-0163
+  persistent_identifiers:
+    internal_id: ENT-PLC-0163
+  standardised_name: Qalʿat Najm
+  place_type: castle
+  identification_status: identified
+  identification_confidence: 4
+  environmental_setting: On the Euphrates River.
+  overall_confidence: 4
+  analytical_summary: A castle on the Euphrates River, named by Eger alongside Qalʿat
+    Jaʿbar as constructed in the eleventh century by Bedouin Arab tribes such as the
+    Banū Numayr.
+  linked_attestations:
+  - ATT-0283
+  linked_interpretations:
+  - INT-0116
+  notes: Coordinates deferred. Builder attributed to the Banū Numayr (tribal group
+    entity deferred). Near ENT-PLC-0044 (Euphrates River).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

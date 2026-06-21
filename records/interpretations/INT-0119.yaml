@@ -1,0 +1,31 @@
+- record_type: interpretation
+  id: INT-0119
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0159
+  - ENT-PLC-0160
+  scholar: Glick, T. F.; Barrionuevo, C. & López, R.; de Meulemeester, J. & Matthys,
+    A. (as reported by Eger)
+  publication: Reported in Eger, The Islamic-Byzantine Frontier (2015), ch. 9, pp.
+    272-275
+  argument: 'Drawing on Iberian and Italian research (Glick; Barrionuevo and López;
+    de Meulemeester and Matthys), Eger reports a comparative model of incastellamento
+    for al-Andalus: a transition from dispersed, tribally-based alquería hydraulic
+    sites to nucleated village groupings around a fortification (the ḥiṣn/qarya model)
+    from the end of the tenth century. The earliest ḥuṣūn comprised a central residence,
+    a celoquia (sālaqiya) for the qāʾid, and a cistern with a walled enclosure (baqar/albacar)
+    for sheltering livestock and people; some served as fortified granaries, a role
+    de Meulemeester likens to the storage function of contemporary churches. The density
+    of these fortifications in the populous southern plains, rather than along the
+    Christian border, shows they were for refuge rather than a military borderline.'
+  confidence: 3
+  notes: Modern comparative scholarship reported by Eger; per editorial rule no publication_source_id
+    is set. Iberian/Italian place entities (Huesca, Castelló, Cabezo de la Cobertera,
+    etc.) deferred as comparative material.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

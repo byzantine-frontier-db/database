@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0278
+  source: SRC-0039
+  entities_referenced:
+  - ENT-PLC-0020
+  provenance: primary_quotation
+  citation: al-Muqaddasī, Aḥsan al-taqāsīm fī maʿrifat al-aqālīm, 155 (via Eger 2015,
+    SRC-0007, p. 271 n. 16)
+  direct_quotation: villages are more splendid and larger than most of the cities
+  paraphrase: al-Muqaddasī writes of the Amuq that in this region the villages (qurā)
+    are more splendid and larger than most of the cities (mudun) — testimony Eger
+    reads as evidence of conglomerate-village formation.
+  confidence: 4
+  notes: Eger p. 271.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0203

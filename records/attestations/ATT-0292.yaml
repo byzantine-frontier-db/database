@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0292
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0036
+  - ENT-PLC-0044
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), p. 265
+  paraphrase: Dibsi Faraj on the Euphrates declined in the tenth and eleventh centuries,
+    although numismatic evidence continues there until the thirteenth.
+  confidence: 3
+  notes: Eger p. 265.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0218

@@ -1,0 +1,34 @@
+- record_type: person
+  id: ENT-PERS-0068
+  persistent_identifiers:
+    internal_id: ENT-PERS-0068
+  standardised_name: Philaretos Brachamios
+  alternative_names:
+  - form: Philaretos Brachamios
+    language: grc
+    script: Grek
+    name_type: standardised
+  person_type: general
+  political_affiliation: ENT-POL-0001
+  offices_held:
+  - office: Former Byzantine general; independent rebel/warlord around Marʿash and
+      Malaṭya
+    valid_from: 1071
+    valid_to: 1078
+    confidence: 3
+  overall_confidence: 4
+  analytical_summary: A former Byzantine general who became an independent rebel and
+    warlord, holding power around Marʿash and Malaṭya between 1071 and 1078, in the
+    period of frontier fragmentation that followed the Byzantine collapse in Anatolia.
+  linked_attestations:
+  - ATT-0285
+  notes: DIFFERENT FROM Philaretos the Merciful (ENT-PERS-0017), the eighth-century
+    Anatolian saint of SRC-0013; a different_from relationship is recorded (REL-0119)
+    to prevent conflation. Activity reported by Eger p. 269, drawing on H. Kennedy.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

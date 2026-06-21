@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0121
+  associated_entities:
+  - ENT-PLC-0094
+  - ENT-PLC-0091
+  scholar: Heidemann, S. (as reported by Eger)
+  publication: Reported in Eger (2015), p. 266 n. 2 (Heidemann, 'Settlement Patterns,
+    Economic Development', p. 505)
+  argument: Heidemann, on numismatic evidence, would bring the onset of decline earlier
+    — to the last third of the ninth century — tieing it to the Abbasid-Tulunid wars
+    of the 880s, the Qarāmiṭa rebellions from 899 onward, and the Hamdanid takeover
+    of Raqqa in 942.
+  confidence: 3
+  notes: 'Modern scholarship reported by Eger; no publication_source_id. DISAGREEMENT
+    (chronological) with Bartl & Berthier (INT-0120): Heidemann dates the decline''s
+    onset a century earlier (last third of the ninth century) than the first-Middle-Islamic-phase
+    dating of INT-0120. Documented inline per the schema-v1.1-pending convention.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0123
+  type: near
+  source_entity: ENT-PLC-0158
+  target_entity: ENT-PLC-0104
+  confidence: 4
+  linked_attestations:
+  - ATT-0287
+  notes: Tell Tuneinir lies in the Khabur region.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

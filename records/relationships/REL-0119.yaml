@@ -1,0 +1,17 @@
+- record_type: relationship
+  id: REL-0119
+  type: different_from
+  source_entity: ENT-PERS-0068
+  target_entity: ENT-PERS-0017
+  confidence: 5
+  linked_attestations: []
+  notes: Philaretos Brachamios (11th-c. Byzantine general/warlord) is a different
+    person from Philaretos the Merciful (ENT-PERS-0017), the 8th-c. Anatolian saint.
+    Homonym disambiguation.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

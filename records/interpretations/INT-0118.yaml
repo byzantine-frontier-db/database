@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0118
+  associated_entities:
+  - ENT-PLC-0022
+  - ENT-PLC-0123
+  - ENT-PLC-0046
+  scholar: Eger, A. Asa
+  publication: The Islamic-Byzantine Frontier (2015), ch. 9
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Eger argues that the parts of the frontier reconquered by the Byzantines
+    — the western thughūr and the urban centres — fared differently from the renomadised
+    interior: Anṭākiya grew in importance under Middle Byzantine rule, Ḥiṣn al-Tīnāt
+    shows continuity and tenth-century refortification, and local kilns produced splash-glazed
+    sgraffiato and turquoise-glazed wares for the region, indicating sustained investment
+    and exchange.'
+  supporting_evidence:
+  - ATT-0290
+  - ATT-0277
+  confidence: 4
+  notes: Eger p. 270.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

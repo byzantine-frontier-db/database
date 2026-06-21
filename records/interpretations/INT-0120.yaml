@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0120
+  associated_entities:
+  - ENT-PLC-0095
+  - ENT-PLC-0044
+  - ENT-PLC-0094
+  scholar: Bartl, K.; Berthier, S. (as reported by Eger)
+  publication: Reported in Eger (2015), p. 266 n. 1 (Bartl, 'Baliḥ Valley Survey';
+    Berthier, Peuplement rural)
+  argument: Bartl and Berthier, from the Balikh Valley and Middle Euphrates surveys,
+    link the drop in settlement to the political and economic fragmentation of the
+    northern regions and a shift toward nomadism in the first phase of the Middle
+    Islamic/Middle Byzantine period, followed by a brief secondary resurgence during
+    the Zangid/Ayyubid/Mamluk period until the Mongol era.
+  confidence: 3
+  notes: 'Modern scholarship reported by Eger; no publication_source_id. DISAGREEMENT
+    (chronological): Heidemann (INT-0121) would push the onset of decline earlier,
+    to the last third of the ninth century, where Bartl and Berthier locate it in
+    the first Middle Islamic phase (mid-tenth century onward). The two are not contradictory
+    in mechanism but differ on dating; recorded here per the schema-v1.1-pending convention
+    for inter-interpretation disagreement.'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

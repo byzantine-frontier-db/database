@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0288
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0159
+  - ENT-PLC-0044
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), p. 273 n. 20, reporting Alvaro & Balossi in Di Nocera,
+    TAÇDAM 2000, pp. 89-96
+  paraphrase: At Zeytinlibahçe Höyük on the Upper Euphrates a Middle Islamic fortified
+    building occupied much of the tell, with a 1.5 m-thick wall along the contour
+    line interspersed with buttresses and watchtowers; a second phase with subdivided
+    rooms and animal skeletons shows the fortified settlement also enclosed space
+    for livestock.
+  confidence: 3
+  notes: Eger p. 273.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0214

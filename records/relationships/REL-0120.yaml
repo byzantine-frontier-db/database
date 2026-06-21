@@ -1,0 +1,17 @@
+- record_type: relationship
+  id: REL-0120
+  type: different_from
+  source_entity: ENT-PLC-0160
+  target_entity: ENT-PLC-0157
+  confidence: 5
+  linked_attestations: []
+  notes: Çadır Höyük (central Anatolia) is a different site from Çatal Höyük (Amuq
+    Plain), and both are distinct from the Neolithic Çatalhöyük of the Konya Plain.
+    Disambiguation.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

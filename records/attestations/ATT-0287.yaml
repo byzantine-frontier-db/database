@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0287
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0158
+  - ENT-PLC-0104
+  provenance: archaeological_evidence
+  citation: Eger 2015 (SRC-0007), p. 273
+  paraphrase: Tell Tuneinir in the Khabur, a 46-ha twelfth-to-thirteenth-century (Zangid
+    and Ayyubid) site, had a residential quarter on the tell and a large commercial
+    lower town with two khānāt, workshops for iron, glass, ceramic and textile working,
+    a bath, and a mosque-and-church pairing; its khānāt and market were violently
+    burnt during the thirteenth-century upheavals, with weapons in the destruction
+    levels.
+  confidence: 4
+  notes: Eger p. 273.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0213

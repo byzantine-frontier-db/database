@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0126
+  type: carried_out
+  source_entity: ENT-POL-0001
+  target_entity: ENT-EVT-0043
+  confidence: 3
+  linked_attestations:
+  - ATT-0295
+  notes: The Byzantine Empire carried out the reconquest of the frontier from 956.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

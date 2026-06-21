@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0279
+  source: SRC-0053
+  entities_referenced:
+  - ENT-PLC-0156
+  provenance: primary_paraphrase
+  citation: al-Masʿūdī, Kitāb al-Tanbīh wa al-ishrāf, pp. 131-2, cited in A. J. Cappel,
+    'The Byzantine Response to the Arab (10th-11th centuries)', Byzantinische Forschungen
+    20 (1994), p. 115 (via Eger 2015, SRC-0007, p. 268 n. 7)
+  paraphrase: In the mid-tenth century al-Masʿūdī observed that the villages of the
+    Orontes Valley had become heavily depopulated through official negligence and
+    were peopled by Bedouin.
+  confidence: 3
+  notes: Primary content of al-Masʿūdī (SRC-0053) reached via Cappel 1994; transmission
+    recorded in citation. Eger p. 268. Eger's note adds (after Honigman/Vasiliev)
+    that in the early eleventh century c. 20,000 tribesmen of the Ṭayyiʾ and Kalb
+    settled near Anṭākiya (between Qasṭūn and Inab) — recorded here as editorial context,
+    not separately extracted.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0204
