@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0140
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0032
+  - ENT-PLC-0171
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: Each smaller ecological region — mountain, marsh, desert — was itself
+    a localized frontier; the singular 'frontier' dissolves into a plurality of environmentally-determined
+    localized frontiers, each requiring those who would control it to enter and become
+    part of it.
+  supporting_evidence:
+  - ATT-0313
+  - ATT-0315
+  confidence: 4
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0319
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0025
+  - ENT-PERS-0056
+  - ENT-PERS-0076
+  - ENT-PLC-0014
+  observations_supported:
+  - OBS-0226
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, II.1,185 (Arabic) / vol. 23 p. 134 (English); reached
+    via Eger 2015, p. 296.
+  paraphrase: During a raiding campaign under al-Walīd I in 705/6, Maslama b. ʿAbd
+    al-Malik fought alongside Maymūn al-Jurjumānī in the Taurus, an instance of Jarājima
+    fighters absorbed into Umayyad summer expeditions.
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

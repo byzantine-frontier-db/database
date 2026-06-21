@@ -1,0 +1,37 @@
+- record_type: attestation
+  id: ATT-0323
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PERS-0020
+  - ENT-PLC-0173
+  - ENT-PLC-0022
+  - ENT-PLC-0029
+  - ENT-PLC-0020
+  - ENT-EVT-0053
+  - ENT-PERS-0056
+  - ENT-PERS-0044
+  - ENT-PLC-0118
+  observations_supported:
+  - OBS-0229
+  - OBS-0230
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8), p. 230; reached via Eger 2015,
+    p. 304.
+  paraphrase: 'al-Balādhurī records the early frontier settlements of marsh populations:
+    Muʿāwiya settled Zuṭṭ and Sayābija families from Baṣra at Anṭākiya and Būqā in
+    669/70; under al-Walīd I some 4,000 water buffalo (male and female) were brought
+    from India to the frontier; Yazīd b. ʿAbd al-Malik sent a further 4,000 female
+    water buffalo and their Zuṭṭ keepers to al-Maṣṣīṣa (taken from al-Muhallab), bringing
+    the total there to some 8,000.'
+  confidence: 3
+  notes: al-Balādhurī (per Eger's note) records the animals were brought to counter
+    a lion menace. al-Walīd I's importation and Yazīd II's transfer not given dedicated
+    EventEntities; captured here and anchored to participants/places. al-Muhallab
+    deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

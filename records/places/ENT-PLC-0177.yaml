@@ -1,0 +1,22 @@
+- record_type: place
+  id: ENT-PLC-0177
+  standardised_name: Jabal al-Rawādif
+  place_type: mountain
+  identification_status: probably_identified
+  identification_confidence: 3
+  frontier_role: Localized upland frontier south of Antioch.
+  overall_confidence: 3
+  analytical_summary: Mountain district south of Anṭākiya, reckoned part of the Syrian
+    Jibāl, in the early eleventh century populated by the al-Aḥmar and Ghannāj under
+    the local chieftain Naṣr b. Musarraf.
+  linked_attestations:
+  - ATT-0329
+  linked_interpretations: []
+  notes: Coordinates deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

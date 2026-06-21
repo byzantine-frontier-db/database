@@ -1,0 +1,26 @@
+- record_type: place
+  id: ENT-PLC-0179
+  standardised_name: Ghab Valley
+  place_type: region
+  identification_status: identified
+  identification_confidence: 4
+  environmental_setting: Middle Orontes marsh / lagoon ('Lake of the Christians',
+    buḥairat al-naṣārā).
+  overall_confidence: 4
+  analytical_summary: Wetland stretch of the Middle Orontes, described by Abū al-Fidāʾ
+    in the fourteenth century (under Mamlūk rule) as inhabited by Christian fishermen
+    in pile-dwellings around a lagoon (the 'Lake of the Christians'); Eger reads it
+    as a late parallel to the southern Iraqi marsh communities.
+  linked_attestations:
+  - ATT-0325
+  linked_interpretations:
+  - INT-0148
+  notes: Coordinates deferred. Afāmiya Lake and buḥairat al-naṣārā mentioned by Abū
+    al-Fidāʾ are deferred as separate features.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

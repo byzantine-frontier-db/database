@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0313
+  source: SRC-0059
+  entities_referenced:
+  - ENT-EVT-0045
+  - ENT-PERS-0018
+  - ENT-PERS-0073
+  - ENT-PLC-0091
+  observations_supported:
+  - OBS-0223
+  provenance: primary_quotation
+  citation: Eid (ed.), Lettre du calife Hārūn al-Rashīd à l'empereur Constantin VI,
+    pp. 181-3 (Fr. trans. pp. 79-80); Eng. via el-Cheikh, Byzantium Viewed by the
+    Arabs, p. 92; reached via Eger 2015, pp. 293-4.
+  direct_quotation: abandoned the summits of the mountains and the beds of marshes
+  paraphrase: In a letter sent from Raqqa in 796, Hārūn al-Rashīd reminds Constantine
+    VI how well the Byzantines had prospered under their peace, when they left the
+    mountain summits and marsh-beds and settled to dig canals, plant trees and bring
+    forth springs.
+  confidence: 3
+  notes: Authenticity of the letter debated; reached only via el-Cheikh. Eger uses
+    it to frame mountains and marshes as wilderness in the central-state imagination.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0334
+  source: SRC-0007
+  entities_referenced:
+  - ENT-EVT-0048
+  - ENT-PERS-0025
+  - ENT-PLC-0071
+  - ENT-PLC-0122
+  observations_supported: []
+  provenance: modern_synthesis
+  citation: Eger 2015, pp. 296-7.
+  paraphrase: Eger reports that in 708 Maslama b. ʿAbd al-Malik attempted to settle
+    the Jarājima elsewhere to control them — at lowland sites (ʿAmq Tīzīn, Mount Huwwār
+    near al-Hārūnīyya, Ḥimṣ, Dimashq) and in the Byzantine uplands (Sunḥ al-Lūlūn
+    near Luʾluʾa).
+  confidence: 2
+  notes: Destinations given by Eger without a single primary citation; recorded as
+    modern synthesis. Several micro-toponyms deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

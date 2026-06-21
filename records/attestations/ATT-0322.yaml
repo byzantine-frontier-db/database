@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0322
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PERS-0081
+  - ENT-PLC-0184
+  - ENT-PLC-0181
+  - ENT-PLC-0174
+  - ENT-PLC-0180
+  - ENT-PLC-0173
+  observations_supported: []
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8), p. 230; reached via Eger 2015,
+    p. 302.
+  paraphrase: al-Balādhurī reports that the Zuṭṭ, Sayābija and Andaghar were Indians
+    (Sindī) in the Persian army; the second group of Zuṭṭ was brought in the Umayyad
+    period by Muḥammad b. al-Qāsim al-Thaqafī, prefect of al-Ḥajjāj, after his Indus
+    Valley campaigns, and settled in the district of Kaskar east of al-Kūfa, in the
+    Tigris lowlands around Wāsiṭ, with their families and livestock; following the
+    conquests the Zuṭṭ had converted, become mawālī and based themselves around Baṣra.
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

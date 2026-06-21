@@ -1,0 +1,21 @@
+- record_type: place
+  id: ENT-PLC-0175
+  standardised_name: Mayyāfāriqīn
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  analytical_summary: Jaziran city whose Arab and Christian communities, according
+    to Eger (after Bonner), formed an alliance against the mountain folk in response
+    to the raiding of the local governor and tribal chief Qurra b. Thābit.
+  linked_attestations:
+  - ATT-0328
+  linked_interpretations: []
+  notes: Coordinates deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

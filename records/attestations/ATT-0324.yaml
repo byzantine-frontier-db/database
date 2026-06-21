@@ -1,0 +1,34 @@
+- record_type: attestation
+  id: ATT-0324
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0001
+  - ENT-PERS-0082
+  - ENT-PLC-0185
+  - ENT-PLC-0183
+  - ENT-PLC-0120
+  - ENT-PLC-0010
+  - ENT-EVT-0052
+  - ENT-EVT-0054
+  - ENT-POL-0001
+  observations_supported:
+  - OBS-0228
+  - OBS-0231
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, III.1,168-9 / vol. 33 p. 11; III.1,167 / vol. 33 p.
+    8; III.1069 / vol. 32 p. 140; III.1,426 / vol. 34 p. 137; reached via Eger 2015,
+    pp. 302-4.
+  direct_quotation: frogs
+  paraphrase: al-Ṭabarī records that the revolting Zuṭṭ — derided as 'frogs' — travelled
+    and fought by skiff, forcing Abbasid troops to do the same and to block the canals;
+    after their defeat al-Muʿtaṣim's commander Ujayf deported 27,000 of them, first
+    to Khāniqīn north of Baghdad and then to ʿAyn Zarba on the thughūr, where in 855
+    a Byzantine raid carried off Zuṭṭ women, children and livestock.
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

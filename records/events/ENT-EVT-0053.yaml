@@ -1,0 +1,40 @@
+- record_type: event
+  id: ENT-EVT-0053
+  standardised_name: Muʿāwiya's settlement of Zuṭṭ and Sayābija at Anṭākiya and Būqā,
+    669/70
+  event_type:
+    primary: demographic
+    sub: settlement
+  start_date:
+    precision: year_range_narrow
+    confidence: 3
+    start: 669
+    end: 670
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0022
+  - ENT-PLC-0029
+  - ENT-PLC-0020
+  - ENT-PLC-0173
+  participants:
+  - ENT-PERS-0020
+  political_entities_involved:
+  - ENT-POL-0003
+  overall_confidence: 3
+  analytical_summary: Muʿāwiya settled Zuṭṭ and Sayābija families from Baṣra at Anṭākiya
+    and at Būqā in the Amuq in 669/70, an early instance of transplanting marsh populations
+    to the frontier.
+  linked_attestations:
+  - ATT-0323
+  linked_interpretations: []
+  notes: 'POSSIBLE DUPLICATE of ENT-EVT-0034 (''Muʿāwiya''s transport of Persians
+    to Anṭākiya (669/70)''): same agent and date but different described population
+    (Zuṭṭ/Sayābija from Baṣra vs ''Persians''). FLAG for Technical Lead: confirm whether
+    these are one event or two.'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

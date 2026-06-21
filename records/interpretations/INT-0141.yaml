@@ -1,0 +1,20 @@
+- record_type: interpretation
+  id: INT-0141
+  associated_entities:
+  - ENT-PERS-0016
+  - ENT-PLC-0032
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: The tradition that the Jarājima/Mardaites were 'intentionally left by
+    Heraklios' to guard the frontier outposts is a misrepresentation of a local populace
+    that had no wish to evacuate or be resettled.
+  supporting_evidence:
+  - ATT-0316
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0143
+  type: carried_out
+  source_entity: ENT-PERS-0082
+  target_entity: ENT-EVT-0052
+  confidence: 4
+  linked_attestations:
+  - ATT-0324
+  notes: Ujayf executed the suppression and deportation of the Zuṭṭ.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

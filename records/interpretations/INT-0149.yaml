@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0149
+  associated_entities:
+  - ENT-PLC-0117
+  - ENT-PLC-0115
+  - ENT-PLC-0005
+  - ENT-PLC-0004
+  scholar: Shaw, B. D. (reported by Eger)
+  argument: 'In Shaw''s reading, ''the mountains made the man'': in Rough Cilicia
+    the mere presence of a leader (e.g. the satrap Datames) in the highlands rendered
+    him a political outlaw in the eyes of the central state. Mountains were localized
+    frontiers; to control them one had to become part of them, generating central-state
+    anxiety — a pattern strongly evocative of nomadic/settled interaction and similar
+    to the Islamic-Byzantine frontier nearly a thousand years later.'
+  supporting_evidence: []
+  confidence: 3
+  notes: The satrap Datames is deferred as a PersonEntity (pre-classical, tangential).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

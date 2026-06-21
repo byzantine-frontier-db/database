@@ -1,0 +1,36 @@
+- record_type: event
+  id: ENT-EVT-0045
+  standardised_name: Hārūn al-Rashīd's letter to Constantine VI from Raqqa, 796
+  event_type:
+    primary: diplomatic
+    sub: formal_correspondence
+  start_date:
+    precision: year
+    confidence: 4
+    start: 796
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0091
+  participants:
+  - ENT-PERS-0018
+  - ENT-PERS-0073
+  political_entities_involved:
+  - ENT-POL-0002
+  - ENT-POL-0001
+  historical_significance: Used by Eger to illustrate the central-state view of mountain
+    and marsh as wilderness to be displaced by settled, productive landscapes.
+  overall_confidence: 3
+  analytical_summary: A diplomatic letter sent by Hārūn al-Rashīd from Raqqa in 796,
+    reminding Constantine VI of the prosperity Byzantines had enjoyed under their
+    peace by abandoning mountain summits and marsh-beds for settled agriculture (digging
+    canals, planting trees, releasing springs).
+  linked_attestations:
+  - ATT-0313
+  linked_interpretations: []
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

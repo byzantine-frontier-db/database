@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0147
+  associated_entities:
+  - ENT-PLC-0171
+  - ENT-PLC-0120
+  - ENT-PLC-0118
+  - ENT-PLC-0010
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: The marsh-dwelling groups deported to the Cilician thughūr (Zuṭṭ, Sayābija)
+    were the very same southern-Iraqi marsh populations; their frontier settlements
+    constitute an internal ecological localized frontier transplanted onto the Islamic-Byzantine
+    frontier, and their 'trade-and-raid' subsistence parallels that of transhumant
+    tribes that rely on sedentary markets and on raiding settlements.
+  supporting_evidence:
+  - ATT-0323
+  - ATT-0324
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

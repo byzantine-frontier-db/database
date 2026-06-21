@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0144
+  associated_entities:
+  - ENT-PERS-0077
+  - ENT-EVT-0049
+  scholar: Cobb, P. (reported by Eger)
+  argument: The Bundār/Theodore revolt was a nativist, messianic and millenarian movement,
+    comparable to other upland/lowland 'bandit cults' in history such as those associated
+    with the Judaean revolt — and, at root, an upland/lowland conflict.
+  supporting_evidence:
+  - ATT-0327
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

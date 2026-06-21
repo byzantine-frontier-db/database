@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0141
+  type: in_revolt_against
+  source_entity: ENT-PERS-0080
+  target_entity: ENT-POL-0002
+  confidence: 4
+  linked_attestations:
+  - ATT-0331
+  notes: ʿImrān b. Shāhīn maintained independence against the Abbasid Caliphate.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

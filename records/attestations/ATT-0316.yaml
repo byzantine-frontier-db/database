@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0316
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0032
+  - ENT-PLC-0170
+  - ENT-PLC-0125
+  - ENT-PLC-0029
+  observations_supported:
+  - OBS-0224
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8), pp. 217-18, 221; reached via Eger
+    2015, pp. 295-6.
+  paraphrase: al-Balādhurī treats the Jarājima at length as Christians of the Amanus
+    (al-Lukkām) centred on the town of al-Jurjuma, between Bayās and Būqā near the
+    Maʿdin al-Zāj (vitriol/copperas mine); Arabic and Syriac texts call them brigands
+    (luṣūṣ; Garegūmāyē / Marīdāyē). He also glosses the al-rawādif ('those who follow')
+    as possibly including former slaves of the Muslims who joined their cause.
+  confidence: 4
+  notes: The Jarājima themselves cannot be minted as a group EntityRecord (schema
+    v1 has no group record type); attestation anchored to the Amanus and al-Jurjuma.
+    Maʿdin al-Zāj deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

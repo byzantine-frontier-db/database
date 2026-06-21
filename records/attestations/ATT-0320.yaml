@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0320
+  source: SRC-0039
+  entities_referenced:
+  - ENT-PLC-0172
+  - ENT-PLC-0181
+  - ENT-PLC-0171
+  observations_supported:
+  - OBS-0227
+  provenance: primary_paraphrase
+  citation: al-Muqaddasī, Aḥsan al-taqāsīm, p. 119 (trans. Wheatley, The Places Where
+    Men Pray Together, p. 89); reached via Eger 2015, pp. 300-1.
+  paraphrase: 'al-Muqaddasī describes al-Salīq, a former Sasanian city, as a madīna
+    on the edge of a lagoon in the southern Iraqi swamps whose fields reach the outskirts
+    of al-Kūfa: a harsh, malarial, mosquito-ridden place whose people live on fish
+    and warm water, yet a source of abundant flour, water and fish under a benign
+    government, its inhabitants reputed good fighters knowledgeable about the river.'
+  confidence: 3
+  notes: Content paraphrased; Wheatley's modern translation not reproduced (per copyright/fair-use
+    limits). Translator (Wheatley) credited.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

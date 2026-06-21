@@ -1,0 +1,29 @@
+- record_type: interpretation
+  id: INT-0151
+  associated_entities:
+  - ENT-PLC-0032
+  - ENT-PLC-0010
+  - ENT-PLC-0117
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: 'Upland/lowland, central-state/periphery interaction is neither unique
+    to the Islamic-Byzantine frontier nor to a single period: comparable processes
+    recur across regions (Eger draws on Scott''s ''art of not being governed'' and
+    comparative scholarship on upland Southeast Asia, west China and the Vietnam-India
+    borderlands). The inhabitants of localized frontiers are not fixed but shift with
+    historical circumstance — local Byzantines becoming mountain pastoralists, the
+    Hispano-Roman population of al-Andalus, the Cilicians, the Jarājima retreating
+    to the Amanus — down to modern analogues such as the Kurds/PKK in the Amanus and
+    ETA in the Pyrenees.'
+  supporting_evidence: []
+  confidence: 3
+  notes: al-Andalus and Sicily comparative material deferred (recurring deferred category).
+    Modern political analogues (PKK, ETA) recorded as Eger's comparative coda, not
+    minted.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

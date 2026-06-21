@@ -14,9 +14,10 @@
   - ATT-0190
   - ATT-0195
   - ATT-0208
+  - ATT-0333
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
@@ -32,3 +33,7 @@
     name_type: historical_attestation
   frontier_role: Upland margin of the frontier; Byzantine upland refuges and abandoned
     coasts.
+  linked_interpretations:
+  - INT-0149
+  - INT-0150
+  - INT-0151

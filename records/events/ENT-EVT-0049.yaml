@@ -1,0 +1,37 @@
+- record_type: event
+  id: ENT-EVT-0049
+  standardised_name: Bundār/Theodore's revolt in Lebanon and its suppression by Ṣāliḥ
+    b. ʿAlī
+  event_type:
+    primary: political
+    sub: revolt
+  start_date:
+    precision: year_range_broad
+    confidence: 2
+    start: 754
+    end: 775
+    primary_dating_system: AD
+    notes: Under al-Manṣūr; precise year not given.
+  participants:
+  - ENT-PERS-0077
+  - ENT-PERS-0042
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: An early-Abbasid revolt against taxation led by the Jarājima
+    leader Bundār (Theodore), drawing in disenfranchised peasants and runaway slaves
+    and plundering Baʿlabakk and villages of the Biqāʿ; Ṣāliḥ b. ʿAlī, governor of
+    Syria under al-Manṣūr, rooted them out of their mountain stronghold and resettled
+    them around the province.
+  linked_attestations:
+  - ATT-0327
+  linked_interpretations:
+  - INT-0144
+  notes: Reached via Eger (after Cobb).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0332
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0182
+  - ENT-PLC-0016
+  - ENT-PLC-0083
+  - ENT-PLC-0077
+  - ENT-PLC-0044
+  observations_supported: []
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 298 (after Dadoyan, 'The Armenian intermezzo in Bilād al-Shām',
+    pp. 164-5).
+  paraphrase: Eger reports, following Dadoyan, that the Armenian Tonrakian groups
+    (the Banū Bazrik and Banū Boghousag) of the Anti-Taurus south of Malaṭya raided
+    surrounding Muslim and Christian villages and monasteries (including the Monastery
+    of Bar Ṣawmā), and that the rulers of Malaṭya granted them lands around Ḥiṣn Qalawdhiya
+    near the Euphrates to forestall this.
+  confidence: 3
+  notes: Tonrakian groups not mintable (group gap). Sevaverak/Siberek deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -1,0 +1,43 @@
+- record_type: event
+  id: ENT-EVT-0052
+  standardised_name: Zuṭṭ revolt and deportation to the thughūr (813-835)
+  event_type:
+    primary: political
+    sub: revolt
+    secondary:
+    - primary: demographic
+      sub: deportation
+  start_date:
+    precision: year_range_broad
+    confidence: 4
+    start: 813
+    end: 835
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0171
+  - ENT-PLC-0185
+  - ENT-PLC-0120
+  - ENT-PLC-0010
+  participants:
+  - ENT-PERS-0001
+  - ENT-PERS-0082
+  political_entities_involved:
+  - ENT-POL-0002
+  historical_significance: A key instance, for Eger, of the same marsh population
+    being relocated onto the Islamic-Byzantine frontier.
+  overall_confidence: 3
+  analytical_summary: The Zuṭṭ of the southern Iraqi marshes revolted (813-33 and
+    834), travelling and fighting by skiff and forcing Abbasid troops to block the
+    canals; after nine months of marsh warfare they were subdued and deported by al-Muʿtaṣim's
+    commander Ujayf, who sent 27,000 first to Khāniqīn and then to ʿAyn Zarba on the
+    thughūr.
+  linked_attestations:
+  - ATT-0324
+  linked_interpretations: []
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -1,0 +1,25 @@
+- record_type: person
+  id: ENT-PERS-0077
+  standardised_name: Bundār / Theodore
+  alternative_names:
+  - form: Theodore
+    language: grc
+    script: Grek
+  person_type: other_lay
+  overall_confidence: 3
+  analytical_summary: Leader of the Jarājima in the early Abbasid period who rallied
+    disenfranchised peasants and runaway slaves in a revolt against taxation in Lebanon,
+    plundering Baʿlabakk and villages of the Biqāʿ before being suppressed and resettled
+    by Ṣāliḥ b. ʿAlī. Said to have come from the village of Munayṭira.
+  linked_attestations:
+  - ATT-0327
+  linked_interpretations:
+  - INT-0144
+  notes: Reached via Eger (after Cobb); no primary edition cited.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

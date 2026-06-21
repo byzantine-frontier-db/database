@@ -1,0 +1,29 @@
+- record_type: event
+  id: ENT-EVT-0054
+  standardised_name: Byzantine raid on ʿAyn Zarba, 855
+  event_type:
+    primary: military
+    sub: raid
+  start_date:
+    precision: year
+    confidence: 4
+    start: 855
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0120
+  political_entities_involved:
+  - ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: In 855 a Byzantine raid on ʿAyn Zarba carried off a number of
+    Zuṭṭ women, children and livestock settled there, illustrating the exposure of
+    deported marsh communities on the frontier.
+  linked_attestations:
+  - ATT-0324
+  linked_interpretations: []
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

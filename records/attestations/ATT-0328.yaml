@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0328
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0079
+  - ENT-PLC-0175
+  observations_supported: []
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 298 (after Bonner, Aristocratic Violence and Holy War, pp.
+    48-50).
+  paraphrase: Eger reports, following Bonner, that the local governor and tribal chief
+    Qurra b. Thābit raided the lowland towns, prompting the Arab and Christian communities
+    of Mayyāfāriqīn to form an alliance against the mountain folk — an Islamic-side
+    counterpart to the Christian Jarājima.
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

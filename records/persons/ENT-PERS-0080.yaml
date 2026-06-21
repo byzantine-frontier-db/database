@@ -1,0 +1,21 @@
+- record_type: person
+  id: ENT-PERS-0080
+  standardised_name: ʿImrān b. Shāhīn
+  person_type: amir
+  overall_confidence: 3
+  analytical_summary: Founder of an independent polity in the southern Iraqi marshes
+    with headquarters at al-Salīq; maintained power through a first period of independence
+    (949-79), with repeated Abbasid attempts to depose him failing on account of the
+    army's unfamiliarity with the wetlands.
+  linked_attestations:
+  - ATT-0331
+  linked_interpretations:
+  - INT-0146
+  notes: Reached via Eger (after Wheatley).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

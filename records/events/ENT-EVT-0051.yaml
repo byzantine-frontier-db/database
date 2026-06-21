@@ -1,0 +1,36 @@
+- record_type: event
+  id: ENT-EVT-0051
+  standardised_name: ʿImrān b. Shāhīn's independent rule in the southern Iraqi marshes
+    (949-79)
+  event_type:
+    primary: political
+    sub: usurpation
+  start_date:
+    precision: year_range_broad
+    confidence: 3
+    start: 949
+    end: 979
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0172
+  - ENT-PLC-0171
+  participants:
+  - ENT-PERS-0080
+  political_entities_involved:
+  - ENT-POL-0002
+  overall_confidence: 3
+  analytical_summary: ʿImrān b. Shāhīn established himself as an independent ruler
+    in the southern Iraqi marshes, with headquarters at al-Salīq, maintaining power
+    through a first period of independence (949-79); repeated Abbasid attempts to
+    depose him failed because the army was unfamiliar with the wetland terrain.
+  linked_attestations:
+  - ATT-0331
+  linked_interpretations: []
+  notes: Reached via Eger (after Wheatley).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

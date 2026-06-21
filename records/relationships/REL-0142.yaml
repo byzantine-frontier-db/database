@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0142
+  type: in_revolt_against
+  source_entity: ENT-PERS-0078
+  target_entity: ENT-POL-0001
+  confidence: 4
+  linked_attestations:
+  - ATT-0330
+  notes: Naṣr b. Musarraf's 1027 insurrection was against Byzantine-controlled Anṭākiya.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

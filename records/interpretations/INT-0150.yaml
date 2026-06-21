@@ -1,0 +1,19 @@
+- record_type: interpretation
+  id: INT-0150
+  associated_entities:
+  - ENT-PLC-0117
+  - ENT-PLC-0115
+  scholar: Shaw, B. D. (reported by Eger)
+  argument: 'The landowner ideology that framed the mountain/plain frontier as a barbarian/civilized
+    dividing line was, in Shaw''s analysis, partly an illusion: montane societies,
+    while rejecting external political and military force, remained open and permeable
+    to the cultural and economic currents flowing up from the lowlands.'
+  supporting_evidence: []
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

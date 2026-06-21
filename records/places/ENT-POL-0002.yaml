@@ -22,9 +22,11 @@
   - ATT-0270
   - ATT-0293
   - ATT-0295
+  - ATT-0321
+  - ATT-0331
   metadata:
     schema_version: 1.0.0
-    record_version: 1.6.0
+    record_version: 1.7.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
@@ -41,3 +43,4 @@
   - INT-0129
   - INT-0138
   - INT-0139
+  - INT-0146

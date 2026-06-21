@@ -18,9 +18,10 @@
   - ATT-0266
   - ATT-0267
   - ATT-0283
+  - ATT-0324
   metadata:
     schema_version: 1.0.0
-    record_version: 1.3.0
+    record_version: 1.4.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
@@ -35,3 +36,5 @@
     script: Latn
     name_type: modern_name
   frontier_role: Eastern-plain town guarding the Jayhān-Taurus route to Cappadocia.
+  linked_interpretations:
+  - INT-0147

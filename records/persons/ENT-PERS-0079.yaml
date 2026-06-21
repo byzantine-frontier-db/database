@@ -1,0 +1,21 @@
+- record_type: person
+  id: ENT-PERS-0079
+  standardised_name: Qurra b. Thābit
+  person_type: amir
+  overall_confidence: 3
+  analytical_summary: A local governor and tribal chief whose raiding of the lowland
+    towns provoked the Arab and Christian communities of Mayyāfāriqīn to form an alliance
+    against the mountain folk; an example of an Islamic-side mountain dissident paralleling
+    the Christian Jarājima.
+  linked_attestations:
+  - ATT-0328
+  linked_interpretations: []
+  notes: Reached via Eger (after Bonner); political_affiliation ambiguous (Umayyad-Abbasid
+    transition), omitted.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

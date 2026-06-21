@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0136
+  type: located_at
+  source_entity: ENT-PLC-0170
+  target_entity: ENT-PLC-0032
+  confidence: 4
+  linked_attestations:
+  - ATT-0316
+  notes: al-Jurjuma lay within the Amanus (al-Lukkām).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

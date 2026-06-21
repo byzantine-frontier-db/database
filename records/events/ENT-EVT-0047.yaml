@@ -1,0 +1,42 @@
+- record_type: event
+  id: ENT-EVT-0047
+  standardised_name: ʿAbd al-Malik's payment to Justinian II to remove the Jarājima
+  event_type:
+    primary: diplomatic
+    sub: treaty
+    secondary:
+    - primary: economic
+      sub: tribute_payment
+  start_date:
+    precision: year_range_broad
+    confidence: 2
+    start: 685
+    end: 695
+    primary_dating_system: AD
+    notes: During the reigns of ʿAbd al-Malik and Justinian II; precise year not given.
+  associated_places:
+  - ENT-PLC-0032
+  participants:
+  - ENT-PERS-0045
+  - ENT-PERS-0075
+  political_entities_involved:
+  - ENT-POL-0003
+  - ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: ʿAbd al-Malik offered the emperor Justinian II money to remove
+    12,000 Jarājima ('not including runaway levies and slaves') from the frontier;
+    the attempt was only partially successful, most Jarājima remaining in their Amanus
+    homes while some joined the Islamic summer expeditions.
+  linked_attestations:
+  - ATT-0318
+  linked_interpretations:
+  - INT-0143
+  notes: 'Convergent witnesses: Theophilus of Edessa, Theophanes Confessor, Agapius,
+    Michael the Syrian, and the Chronicle of 1234.'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

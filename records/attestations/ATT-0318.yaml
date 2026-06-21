@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0318
+  source: SRC-0046
+  entities_referenced:
+  - ENT-PERS-0045
+  - ENT-PERS-0075
+  - ENT-EVT-0047
+  - ENT-PLC-0032
+  observations_supported:
+  - OBS-0225
+  provenance: primary_quotation
+  citation: Chronicle of 1234, p. 182 (with Theophilus of Edessa, Chronicle, pp. 180-2;
+    Mango & Scott, p. 506); reached via Eger 2015, pp. 296-7.
+  direct_quotation: not including runaway levies and slaves
+  paraphrase: Greek and Syriac witnesses agree that ʿAbd al-Malik offered Justinian
+    II money to remove 12,000 Jarājima from the frontier; the Chronicle of 1234 specifies
+    the figure was exclusive of runaway levies and slaves.
+  confidence: 3
+  notes: 'Convergent witnesses: Theophilus of Edessa, Theophanes, Agapius, Michael
+    the Syrian. Quotation attributed to the Chronicle of 1234 (SRC-0046).'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

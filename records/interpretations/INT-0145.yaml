@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0145
+  associated_entities:
+  - ENT-PLC-0032
+  - ENT-PLC-0022
+  - ENT-PLC-0014
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: The Islamic attempt to control the Christian Jarājima (seventh-eighth
+    centuries) and the Byzantine attempt to control the Bedouin/peasant mountain groups
+    (early eleventh century) occurred in the very same Antiochene mountains — not
+    on the Taurus frontier line — and reflect a recurring localized frontier of mountain-and-plain;
+    the rebel groups practised a semi-nomadic/semi-settled strategy and were forced
+    into upland life to preserve local autonomy.
+  supporting_evidence:
+  - ATT-0326
+  - ATT-0329
+  confidence: 4
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

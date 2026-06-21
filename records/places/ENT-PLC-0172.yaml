@@ -1,0 +1,28 @@
+- record_type: place
+  id: ENT-PLC-0172
+  standardised_name: al-Salīq
+  alternative_names:
+  - form: al-Sālīq
+    language: ar
+    script: Arab
+  place_type: settlement
+  identification_status: probably_identified
+  identification_confidence: 3
+  environmental_setting: Swamp settlement on the edge of a lagoon.
+  overall_confidence: 3
+  analytical_summary: A pre-existing Sasanian city in the southern Iraqi swamps, described
+    by al-Muqaddasī as a madīna on the edge of a lagoon whose fields reach the outskirts
+    of al-Kūfa. Headquarters of the independent marsh ruler ʿImrān b. Shāhīn.
+  linked_attestations:
+  - ATT-0320
+  - ATT-0331
+  linked_interpretations:
+  - INT-0146
+  notes: Coordinates deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

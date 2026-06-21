@@ -1,0 +1,36 @@
+- record_type: event
+  id: ENT-EVT-0046
+  standardised_name: Ḥabīb ibn Maslama's peace treaty with the Jarājima
+  event_type:
+    primary: diplomatic
+    sub: treaty
+  start_date:
+    precision: year_range_broad
+    confidence: 2
+    start: 636
+    end: 645
+    primary_dating_system: AD
+    notes: During the early Muslim conquest of north Syria; precise date uncertain.
+  associated_places:
+  - ENT-PLC-0022
+  - ENT-PLC-0170
+  - ENT-PLC-0032
+  participants:
+  - ENT-PERS-0074
+  overall_confidence: 3
+  analytical_summary: 'A treaty by which Ḥabīb ibn Maslama al-Fihrī, acting governor
+    of Anṭākiya, sought to bind the Jarājima during the conquests: they would act
+    as spies and participate in raids, were absolved from tax, and were allowed to
+    keep booty; terms extended to the citizens of al-Jurjuma and surrounding villages
+    (the al-rawādif).'
+  linked_attestations:
+  - ATT-0326
+  linked_interpretations: []
+  notes: Reached via Eger (after Keiko).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

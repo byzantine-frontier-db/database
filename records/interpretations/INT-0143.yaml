@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0143
+  associated_entities:
+  - ENT-PLC-0032
+  - ENT-POL-0001
+  - ENT-EVT-0047
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: The Jarājima functioned as a self-governing 'political tribe'. Byzantine
+    use of them as buffers and allies is typical of Byzantine frontier warfare — keeping
+    them within the Islamic frontier rather than raiding Byzantine lands — yet the
+    inability of either empire to control them shows them to have been effectively
+    self-governing, resembling the local frontier Byzantines who likewise took to
+    mountain refuges as an environmental-political response.
+  supporting_evidence:
+  - ATT-0316
+  - ATT-0317
+  - ATT-0318
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

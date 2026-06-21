@@ -1,0 +1,32 @@
+- record_type: event
+  id: ENT-EVT-0048
+  standardised_name: Maslama ibn ʿAbd al-Malik's resettlement of the Jarājima, 708
+  event_type:
+    primary: demographic
+    sub: settlement
+  start_date:
+    precision: year
+    confidence: 3
+    start: 708
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0071
+  - ENT-PLC-0122
+  participants:
+  - ENT-PERS-0025
+  overall_confidence: 3
+  analytical_summary: 'In 708 Maslama b. ʿAbd al-Malik attempted to disperse the Jarājima
+    to fresh locations to control them: lowland sites (ʿAmq Tīzīn, Mount Huwwār near
+    al-Hārūnīyya, Ḥimṣ, Dimashq) and Byzantine uplands (Sunḥ al-Lūlūn near Luʾluʾa).'
+  linked_attestations:
+  - ATT-0334
+  linked_interpretations: []
+  notes: 'Several destination micro-toponyms deferred: Mount Huwwār, Ḥimṣ, Dimashq,
+    Sunḥ al-Lūlūn / Luʾluʾa.'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

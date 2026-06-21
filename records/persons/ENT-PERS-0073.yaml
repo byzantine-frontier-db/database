@@ -1,0 +1,25 @@
+- record_type: person
+  id: ENT-PERS-0073
+  standardised_name: Constantine VI
+  alternative_names:
+  - form: Kōnstantinos VI
+    language: grc
+    script: Grek
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 5
+  analytical_summary: Byzantine emperor (r. 780-797), addressed by Hārūn al-Rashīd
+    in the letter of 796 invoking the prosperity Byzantines enjoyed under their peace
+    treaty.
+  linked_attestations:
+  - ATT-0313
+  linked_interpretations: []
+  notes: Disambiguated by different_from relationships from Constantine V (ENT-PERS-0047)
+    and Constantine VII (ENT-PERS-0071).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

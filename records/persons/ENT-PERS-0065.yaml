@@ -15,9 +15,10 @@
     political_affiliation left unset (flagged for Technical Lead).
   linked_attestations:
   - ATT-0263
+  - ATT-0333
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-20T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

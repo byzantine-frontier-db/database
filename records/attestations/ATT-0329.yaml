@@ -1,0 +1,34 @@
+- record_type: attestation
+  id: ATT-0329
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0176
+  - ENT-PLC-0177
+  - ENT-PLC-0032
+  - ENT-PLC-0056
+  - ENT-PERS-0078
+  - ENT-PLC-0178
+  - ENT-PLC-0034
+  - ENT-PLC-0022
+  observations_supported: []
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 299 (after Cappel, 'The Byzantine Response to the Arab',
+    pp. 116-17).
+  direct_quotation: fiercely antagonistic toward any type of outside authority
+  paraphrase: Eger reports, following Cappel, that in the early eleventh century the
+    mountain districts of the Jabal al-Summāq, Jabal al-Rawādif and Jabal al-Lukkām
+    (Amanus) were inhabited by a tribally organized peasantry ('ashāʾir) resistant
+    to outside authority; the Jabal al-Rawādif was held by the al-Aḥmar and Ghannāj
+    under Naṣr b. Musarraf, with parallel rebellions by the Druze on the Jabal al-Summāq
+    and the Munqidh near Shayzar, and the Byzantines enlisted such groups to guard
+    the passes between Ḥalab and Anṭākiya.
+  confidence: 3
+  notes: al-Aḥmar, Ghannāj, Druze and Munqidh are groups; not mintable under schema
+    v1. Jabal al-Lukkām = the Amanus (ENT-PLC-0032).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

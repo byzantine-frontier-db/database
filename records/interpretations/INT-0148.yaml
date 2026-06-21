@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0148
+  associated_entities:
+  - ENT-PLC-0179
+  - ENT-PLC-0156
+  scholar: Eger, A. A.
+  publication_source_id: SRC-0007
+  argument: The fourteenth-century Christian marsh fishermen of the Ghab Valley either
+    learned their adaptive wetland subsistence from the Iraqi/Sindī marsh dwellers
+    settled on the frontier in the Early Islamic period, or developed it independently
+    and simultaneously as a parallel response to environment and political circumstance.
+  supporting_evidence:
+  - ATT-0325
+  confidence: 2
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

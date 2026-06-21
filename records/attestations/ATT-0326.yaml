@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0326
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0074
+  - ENT-EVT-0046
+  - ENT-PLC-0022
+  - ENT-PLC-0032
+  observations_supported: []
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 295 (after Keiko, 'The Expansion of the Muslims', p. 78).
+  paraphrase: Eger reports, following Keiko, that Ḥabīb ibn Maslama al-Fihrī, acting
+    governor of Anṭākiya, attempted a treaty binding the Jarājima as spies and raiders
+    in exchange for tax exemption and the retention of booty, with terms extended
+    to the people of al-Jurjuma and surrounding villages.
+  confidence: 3
+  notes: Modern-synthesis attestation anchoring entities reported by Eger via a modern
+    study; no primary edition cited for the treaty terms.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

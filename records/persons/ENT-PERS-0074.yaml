@@ -1,0 +1,21 @@
+- record_type: person
+  id: ENT-PERS-0074
+  standardised_name: Ḥabīb ibn Maslama al-Fihrī
+  person_type: general
+  overall_confidence: 4
+  analytical_summary: Acting governor/commander at Anṭākiya during the early conquests
+    who attempted to bind the Jarājima by treaty (service as spies and raiders, tax
+    exemption, retention of booty), extending terms to the people of al-Jurjuma and
+    surrounding villages (the al-rawādif).
+  linked_attestations:
+  - ATT-0326
+  linked_interpretations: []
+  notes: 'political_affiliation omitted: he operated in the Rāshidūn conquest era
+    and no Rāshidūn polity entity exists (recurring deferred/flagged gap).'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

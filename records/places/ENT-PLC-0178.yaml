@@ -1,0 +1,21 @@
+- record_type: place
+  id: ENT-PLC-0178
+  standardised_name: Shayzar
+  place_type: settlement
+  identification_status: identified
+  identification_confidence: 4
+  overall_confidence: 4
+  analytical_summary: Fortified town on the Orontes; in the early eleventh century
+    the Munqidh held the surrounding uplands as a base of resistance comparable to
+    that of other Antiochene mountain groups.
+  linked_attestations:
+  - ATT-0329
+  linked_interpretations: []
+  notes: Coordinates deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

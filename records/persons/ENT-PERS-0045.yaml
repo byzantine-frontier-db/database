@@ -15,11 +15,12 @@
   - ATT-0197
   - ATT-0237
   - ATT-0311
+  - ATT-0318
   notes: 'Entity search: absent from snapshot; minted provisionally. No Umayyad ENT-POL-
     entity exists; affiliation omitted.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.5.0
+    record_version: 1.6.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

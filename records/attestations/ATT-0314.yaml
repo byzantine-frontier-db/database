@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0314
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0043
+  - ENT-PLC-0093
+  - ENT-PLC-0010
+  observations_supported: []
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh (instances at II.881-892 / vol. 22 pp. 32-44; III.93
+    / vol. 28 pp. 9-12; III.689 / vol. 30 p. 230; III.1,068-72 / vol. 32 pp. 138-44);
+    reached via Eger 2015, p. 294.
+  paraphrase: Local chiefs, warlords and self-proclaimed rebels repeatedly ensconced
+    themselves on the thughūr against the central Islamic state — most notably Marwān
+    II, the last Umayyad caliph, at Ḥarrān during the Abbasid Revolution; al-Ṭabarī
+    records further frontier usurpers (Ṣāliḥ b. Musarriḥ at Āmid, Muqātil al-ʿAkkī
+    at Ḥarrān, ʿAbd al-Salām al-Khārijī at Āmid, Naṣr b. Shabath al-ʿUqaylī at Kaysūm).
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

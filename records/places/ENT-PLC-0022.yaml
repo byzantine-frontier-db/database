@@ -56,13 +56,18 @@
   - ATT-0277
   - ATT-0283
   - ATT-0311
+  - ATT-0323
+  - ATT-0326
+  - ATT-0329
+  - ATT-0330
   linked_interpretations:
   - INT-0027
   - INT-0076
   - INT-0118
+  - INT-0145
   metadata:
     schema_version: 1.0.0
-    record_version: 1.10.0
+    record_version: 1.11.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

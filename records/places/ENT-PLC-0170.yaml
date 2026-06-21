@@ -1,0 +1,31 @@
+- record_type: place
+  id: ENT-PLC-0170
+  standardised_name: al-Jurjuma
+  alternative_names:
+  - form: al-Jurjumā
+    language: ar
+    script: Arab
+  place_type: settlement
+  identification_status: hypothetically_identified
+  identification_confidence: 2
+  frontier_role: Mountain stronghold-settlement of an autonomous Christian frontier
+    population.
+  overall_confidence: 3
+  analytical_summary: The chief settlement of the Jarājima in the Amanus (al-Lukkām),
+    placed by al-Balādhurī between Bayās and Būqā near the Maʿdin al-Zāj (vitriol/copperas
+    mine). Eger discusses whether it was a small urban centre or a large mountain
+    village with dependent settlements; the Tabula Imperii Byzantini's identification
+    with modern Çomçom (between Kırıkhan and Sarıseki) is unverified.
+  linked_attestations:
+  - ATT-0316
+  linked_interpretations: []
+  notes: Coordinates deferred. Çomçom identification (Hild & Hellenkemper) unverified;
+    identification_status hypothetically_identified. Maʿdin al-Zāj, Bayās' surroundings
+    and other micro-toponyms deferred.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

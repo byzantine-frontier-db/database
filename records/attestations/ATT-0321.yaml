@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0321
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PLC-0171
+  - ENT-POL-0002
+  observations_supported: []
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh (devotes significant attention to the Zanj Revolt);
+    reached via Eger 2015, pp. 301-4.
+  paraphrase: al-Ṭabarī is the principal source for the Zanj Revolt of the southern
+    Iraqi marshes; the term 'Zanj', though properly denoting East African slaves brought
+    to work the canals, was applied collectively to the non-Arab marsh populations,
+    including the Zuṭṭ (from the Indus Valley) and the Sayābija.
+  confidence: 3
+  notes: Zanj, Zuṭṭ and Sayābija are groups and cannot be minted as EntityRecords
+    under schema v1; anchored to al-Baṭāʾiḥ.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

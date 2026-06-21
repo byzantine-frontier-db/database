@@ -29,9 +29,10 @@
   - ATT-0232
   - ATT-0233
   - ATT-0276
+  - ATT-0329
   metadata:
     schema_version: 1.0.0
-    record_version: 1.4.0
+    record_version: 1.5.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

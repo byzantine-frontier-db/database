@@ -1,0 +1,23 @@
+- record_type: person
+  id: ENT-PERS-0082
+  standardised_name: Ujayf
+  alternative_names:
+  - form: Ujayf b. ʿAnbasa
+    language: ar
+    script: Arab
+  person_type: general
+  political_affiliation: ENT-POL-0002
+  overall_confidence: 4
+  analytical_summary: Commander of al-Muʿtaṣim who subdued the revolting Zuṭṭ and
+    deported 27,000 of them, first to Khāniqīn north of Baghdad and then to ʿAyn Zarba
+    on the thughūr.
+  linked_attestations:
+  - ATT-0324
+  linked_interpretations: []
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

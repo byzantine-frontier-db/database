@@ -1,0 +1,35 @@
+- record_type: event
+  id: ENT-EVT-0050
+  standardised_name: Naṣr b. Musarraf's insurrection against Byzantine Anṭākiya, 1027
+  event_type:
+    primary: political
+    sub: revolt
+  start_date:
+    precision: year_range_narrow
+    confidence: 4
+    start: 1027
+    end: 1032
+    primary_dating_system: AD
+  associated_places:
+  - ENT-PLC-0022
+  - ENT-PLC-0177
+  participants:
+  - ENT-PERS-0078
+  political_entities_involved:
+  - ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: An insurrection begun in 1027 by Naṣr b. Musarraf of the Jabal
+    al-Rawādif against Byzantine-controlled Anṭākiya, lasting five years; one of several
+    early-eleventh-century mountain rebellions (with the Druze and the Munqidh) in
+    the Antiochene uplands.
+  linked_attestations:
+  - ATT-0330
+  linked_interpretations: []
+  notes: Reached via Eger (after Cappel) and Skylitzes (SRC-0060).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

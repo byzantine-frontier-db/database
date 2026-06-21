@@ -1,0 +1,24 @@
+- record_type: person
+  id: ENT-PERS-0075
+  standardised_name: Justinian II
+  alternative_names:
+  - form: Ioustinianos II
+    language: grc
+    script: Grek
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 5
+  analytical_summary: Byzantine emperor (r. 685-695, 705-711) under whom the Jarājima
+    allied with the Byzantines during the second fitna, and to whom ʿAbd al-Malik
+    reportedly paid to remove 12,000 Jarājima from the frontier.
+  linked_attestations:
+  - ATT-0318
+  linked_interpretations: []
+  notes: Disambiguated by different_from relationship from Justinian I (ENT-PERS-0049).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

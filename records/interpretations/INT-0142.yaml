@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0142
+  associated_entities:
+  - ENT-PLC-0032
+  - ENT-PLC-0079
+  - ENT-PLC-0023
+  scholar: Zakeri; E. L. Daniel; Kaegi; Keiko; Alkım (reported by Eger)
+  argument: 'The origins of the Jarājima are disputed in modern scholarship, with
+    three principal positions reported by Eger and left unresolved: (a) remnants of
+    Persian cavalry who remained in Syria cultivating tax-free plots in exchange for
+    service (Zakeri; E. L. Daniel); (b) people of Armenian/Caucasus descent from the
+    highlands near Qālīqalā / Theodosiopolis (Kaegi; Keiko); and (c) inhabitants of
+    the region of Late-Hittite/Assyrian Gurgum, ancient Marʿash (Alkım).'
+  supporting_evidence: []
+  confidence: 2
+  notes: Unresolved scholarly dispute preserved within a single interpretation (no
+    group EntityRecord exists to carry an identification_status 'disputed'). The three
+    positions are mutually competing; none is endorsed.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

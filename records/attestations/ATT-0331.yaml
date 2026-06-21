@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0331
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0080
+  - ENT-PLC-0172
+  - ENT-PLC-0171
+  - ENT-EVT-0051
+  - ENT-POL-0002
+  observations_supported:
+  - OBS-0227
+  provenance: modern_synthesis
+  citation: Eger 2015, p. 301 (after Wheatley, The Places Where Men Pray Together,
+    p. 89).
+  paraphrase: Eger reports, following Wheatley, that ʿImrān b. Shāhīn established
+    himself as an independent ruler in the southern Iraqi marshes with headquarters
+    at al-Salīq (first independence 949-79), repeated Abbasid attempts to depose him
+    failing because of the army's unfamiliarity with the wetlands.
+  confidence: 3
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

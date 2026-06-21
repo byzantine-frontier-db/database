@@ -1,0 +1,16 @@
+- record_type: relationship
+  id: REL-0140
+  type: near
+  source_entity: ENT-PLC-0182
+  target_entity: ENT-PLC-0016
+  confidence: 4
+  linked_attestations:
+  - ATT-0332
+  notes: The Anti-Taurus range lies south of Malaṭya.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
