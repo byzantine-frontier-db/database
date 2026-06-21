@@ -24,7 +24,7 @@ Target pace: one session per day
 | 13 | Ch. 7 part B (Hydraulic Villages II) | 214-229 | EXTRACTED | 47 | b24ea4f | pending |
 | 14 | Ch. 7 part C (Hydraulic Villages III) | 230-245 | EXTRACTED | 97 | 46aa268 | pending |
 | 15 | Ch. 9 Epilogue (Middle Byzantine castles, dissertation period) | 264-276 | pending | | | |
-| 16 | Ch. 10 part A (Frontier interaction) | 277-293 | pending | | | |
+| 16 | Ch. 10 part A (Frontier interaction) | 277-293 | EXTRACTED | 54 | 6638855 | pending |
 | 17 | Ch. 10 part B | 294-309 | pending | | | |
 | 18 | Conclusions | 310-end | pending | | | |
 
@@ -35,7 +35,7 @@ Target pace: one session per day
 - ATT-0061 (Heraklios speech): confirm SUNY al-Tabari vol. XI translator (Blankinship?).
 - Sis-departure dating contradiction (Ibn Shaddad 711-12 vs Baladhuri after al-Waqidi 808-9): create two primary SourceRecords + Interpretation per governance section 5.4.
 - Deferred from ch.8: Hisn Hiraqla, Lu'lu'a, Safsaf forts; c.831 al-Matmura raid; Kibyrrhaiotonon maritime theme; Michael Maleinos; Pseudo-Jahiz, Ibn al-Faqih, Ibn al-Adim corroborating sources; Selime-Yaprakhisar, Canli Kilise, Acik Saray, Gumuskoy/B16 archaeological sites.
-- Hamdanid polity gap (flagged session 15): no ENT-POL for the Hamdanid dynasty (Aleppo/Mosul, c.890-1004), recurring across multiple chapters. Sister to Rāshidūn (session 14) and pre-existing Buyid gap. Mint when convenient using bootstrap pattern; non-blocking.
+- Hamdanid polity gap (flagged session 15, CLOSED session 16 as ENT-POL-0004 Hamdanid Emirate, place_type administrative_unit): no ENT-POL for the Hamdanid dynasty (Aleppo/Mosul, c.890-1004), recurring across multiple chapters. Sister to Rāshidūn (session 14) and pre-existing Buyid gap. Mint when convenient using bootstrap pattern; non-blocking.
 - Buyid polity gap (re-flagged session 15): no ENT-POL for the Buyid dynasty (c.934-1062), occasionally mentioned in chapter 7-9 material. Non-blocking.
 - ENT-GRP schema gap (flagged session 15): no $def for group/tribal/dynastic entity type. Blocks first-class entity records for Hamdanids, Mirdasids, Numayrids, ʿUqaylids, Banū Tanūkh, Banū Tamīm, Qays, Asad, Rabīʿah, Kinda, Nabaṭ, Melkites, Taghlib, Zuṭṭ, Jarājima/Mardaites (accumulating across sessions). Polities partially serve this role for dynasties but not for tribal or religious groupings. Logged as Schema v1.1 candidate alongside the dispute-encoding gap.
 - Editorial review flags from session 15: ENT-PLC-0058 (Dayr Simʿan) vs Eger's "Qalʿat Simʿān" may be distinct entities — verify; Sebastea (ENT-PLC-0166 ex PROV-PLC-1411) — Eger places in Cappadocia where it is conventionally reckoned Pontus/Sivas, may be a different Sebastea or an Eger error.
