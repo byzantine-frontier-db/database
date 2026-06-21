@@ -1,0 +1,25 @@
+- record_type: interpretation
+  id: INT-0125
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0014
+  publication_source_id: SRC-0007
+  argument: Eger argues that the frontier is best understood not as a Muslim/Christian
+    military borderline but as a landscape of tribal interaction and seasonal transhumance
+    ('enclosed nomadism'), in which tribes were heterogeneous (some nomadic, some
+    sedentary, most in between) and the line between nomad-as-soldier, transhumant
+    tribe-as-army-unit and tribal leader-as-commander was tenuous; the introduction
+    of non-Arab soldiers (Khurāsānīs, Turks) reflects central-state attempts to quash
+    tribal autonomy.
+  supporting_evidence:
+  - ATT-0297
+  - ATT-0299
+  confidence: 4
+  notes: Eger 2015, pp. 280-284.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

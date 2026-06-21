@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0311
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0022
+  - ENT-PERS-0020
+  - ENT-PERS-0045
+  - ENT-POL-0003
+  - ENT-PLC-0063
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (1987), p. 204; reached together with Faliḥ
+    Ḥusayn, 'The participation of non-Arab elements in the Umayyad army and administration',
+    in F. Donner (ed.), The Articulation of Early Islamic State Structures (Ashgate,
+    2012), pp. 279-80
+  paraphrase: al-Balādhurī records that Slavs came into Islamic lands under Muʿāwiya
+    (664/5) and again under Justinian II and ʿAbd al-Malik (693), and were settled
+    on the frontier around Anṭākiya, Afāmiya (Apamaea) and Ḥiṣn Salmān in the district
+    of Qūrus, taking Arabic names — an Umayyad-era instance of incorporating cross-frontier
+    populations.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 291 (fn 41). Justinian II (distinct from Justinian
+    I, ENT-PERS-0049), Afāmiya/Apamaea and Ḥiṣn Salmān deferred. Links the Umayyad
+    polity (ENT-POL-0003).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0221

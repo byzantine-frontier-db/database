@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0310
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PERS-0072
+  - ENT-PLC-0084
+  - ENT-PLC-0016
+  provenance: modern_synthesis
+  citation: 'Eger 2015, p. 290, drawing on G. Le Strange, ''Al-Abrīk, Tephrike, the
+    Capital of the Paulicians: A Correction Corrected'', Journal of the Royal Asiatic
+    Society (October 1896), p. 734; mawlā detail via E. L. Daniel, ''The "Ahl Al-Taqadum"…'',
+    Journal of Islamic Studies 7/2 (1996), p. 174'
+  paraphrase: Eger, synthesising Le Strange and Daniel, presents the Paulicians —
+    eastern dualist Christians accused of Manichaean heresy — as inhabiting the mountains
+    north of Malaṭiya towards Tephrike under Karbeas (a mawlā of Ṭāhir b. al-Ḥusayn),
+    siding with the Muslims against Byzantium until their defeat by the Byzantines
+    in 872.
+  confidence: 3
+  notes: 'Provenance modern_synthesis: the Karbeas/Paulician material reaches the
+    corpus through Eger''s narrative (SRC-0007) drawing on modern scholarship rather
+    than a primary source Eger quotes. Supports the Karbeas entity (ENT-PERS-0072).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

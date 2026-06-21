@@ -54,9 +54,10 @@
   - ATT-0272
   - ATT-0277
   - ATT-0291
+  - ATT-0303
   metadata:
     schema_version: 1.0.0
-    record_version: 1.6.0
+    record_version: 1.7.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
@@ -66,3 +67,5 @@
   - INT-0040
   - INT-0041
   - INT-0123
+  - INT-0128
+  - INT-0135

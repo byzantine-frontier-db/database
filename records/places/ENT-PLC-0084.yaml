@@ -21,12 +21,13 @@
     Paulicians; node on the north-south Euphrates route from Malatiya.
   linked_attestations:
   - ATT-0146
+  - ATT-0310
   notes: 'Entity search: not in snapshot; minted provisionally. Paulicians named as
     a group but not minted (no GroupEntity record type in schema v1; see deferred
     items). Coordinates deferred.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

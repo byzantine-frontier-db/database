@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0308
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0002
+  - ENT-PLC-0007
+  - ENT-PLC-0016
+  - ENT-PERS-0070
+  - ENT-EVT-0008
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, III.1,235 (Arabic) and vol. 33, p. 95 (English)
+  paraphrase: al-Ṭabarī reports that in 837 Theophilos attacked Zibaṭra and Malaṭiya
+    and was joined by a body of Kurdish and Persian defectors, the Muḥammira, whose
+    commander was named variously Narsī / Narseh / Naṣīr / Nuṣayr, or by the Greek
+    name Theophobos; they were enlisted as regularly paid Byzantine troops and given
+    wives.
+  confidence: 4
+  notes: Reached via Eger 2015, p. 291 (fn 44). Adds the Muḥammira / Theophobos detail
+    to existing event ENT-EVT-0008 (Theophilos's raid on Zibatra/Sozopetra, 837).
+    Muḥammira deferred (group entity unsupported by schema v1).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0221

@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0304
+  source: SRC-0054
+  entities_referenced:
+  - ENT-PLC-0023
+  - ENT-PLC-0115
+  - ENT-PLC-0014
+  - ENT-PLC-0169
+  provenance: primary_paraphrase
+  citation: 'Ibn Jubayr, Riḥla (Leiden: Brill, 1907), p. 287; Travels of Ibn Jubayr,
+    trans. R. J. C. Broadhurst (London: Jonathan Cape, 1952), pp. 300-1; reached via
+    O. Constable, Housing the Stranger, p. 223'
+  paraphrase: Islamic sources record fanādiq (sing. funduq, caravanserais) on the
+    routes through the Cilician plain and the Taurus passes — including one north
+    of Badhandūn (Greek Podandos, modern Pozantı), one near Qayṣariyya, and one between
+    Marʿash and Tzamandos — evidencing institutional trade infrastructure across the
+    frontier.
+  confidence: 3
+  notes: Reached via Eger 2015, pp. 287-288 (fn 27). Badhandūn (Podandos/Pozantı)
+    and Tzamandos deferred (minor route stations); Qayṣariyya minted (ENT-PLC-0169).
+    Distinct from the existing Funduq Bughā (ENT-PLC-0140).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

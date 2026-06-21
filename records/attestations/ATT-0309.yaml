@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0309
+  source: SRC-0056
+  entities_referenced:
+  - ENT-POL-0001
+  - ENT-PERS-0071
+  provenance: primary_paraphrase
+  citation: Constantine VII Porphyrogennetos, De Cerimoniis, 694.22-695.14, trans.
+    E. McGeer, pp. 365-6
+  paraphrase: A short text in the De Cerimoniis states that Muslims who are baptised
+    may receive a start-up grant of money, oxen and seed grain plus three years' tax
+    exemption, and that households taking in converted captives as 'sons-in-law' (gambroi)
+    likewise receive three years' exemption — a Byzantine mechanism of incorporation
+    aimed at encouraging conversion, sedentarisation and agrarian productivity.
+  confidence: 4
+  notes: Reached via Eger 2015, p. 292 (fn 47).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0222

@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0297
+  source: SRC-0047
+  entities_referenced:
+  - ENT-PLC-0010
+  - ENT-POL-0001
+  provenance: primary_paraphrase
+  citation: 'Qudāma b. Jaʿfar, Kitāb al-Kharāj, Bibliotheca Geographorum Arabicorum
+    6 (Leiden: Brill, 1889), p. 259'
+  paraphrase: 'Qudāma b. Jaʿfar describes the calendar of the annual raids (al-ghazuwāt):
+    a 30-day ''springtime'' raid beginning c. 10 May once horses are in condition,
+    with pasturing in Roman territory; a return and rest of c. 25 days; a 60-day summer
+    raid from 10 July; and shorter winter raids of about 20 days round-trip, completed
+    by late February, timed to catch the enemy and their animals weak. The raid seasons
+    track pastoral transhumance and the condition of livestock.'
+  confidence: 4
+  notes: Reached via Eger 2015, p. 280. Long block quotation in Eger paraphrased here
+    per fair-use practice. Qudāma author entity deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0219

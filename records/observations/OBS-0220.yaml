@@ -1,0 +1,21 @@
+- record_type: observation
+  id: OBS-0220
+  proposition: Markets and seasonal fairs (panegyris / tagūrtā), together with funduq
+    infrastructure, integrated transhumant pastoralists, settled communities and cross-frontier
+    traders into an interdependent frontier economy tapping long-distance (Silk Route)
+    exchange.
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0034
+  supporting_attestations:
+  - ATT-0300
+  - ATT-0301
+  - ATT-0302
+  - ATT-0303
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,23 @@
+- record_type: source
+  id: SRC-0058
+  standardised_title: Kitāb al-kasb (attributed to al-Shaybānī)
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: legal_text
+  edition_used: 'trans. M. Bonner, ''The Kitāb al-kasb attributed to al-Shaybānī:
+    Poverty, Surplus, and the Circulation of Wealth'', Journal of the American Oriental
+    Society 121/3 (2001), p. 415'
+  reliability_assessment: Authorship attribution to al-Shaybānī is doubtful, as flagged
+    by Bonner; treated here as a juristic text on earning/livelihood transmitting
+    a saying ascribed to Caliph ʿUmar.
+  notes: Introduced via Eger 2015, p. 283 (fn 11) as the source of the saying ascribed
+    to Caliph ʿUmar contrasting the pursuit of God's bounty (faḍl) with death in jihād;
+    cf. Qurʾān 73:20.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

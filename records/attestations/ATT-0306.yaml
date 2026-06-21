@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0306
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PLC-0167
+  - ENT-POL-0001
+  - ENT-PLC-0130
+  - ENT-PLC-0004
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, III.1,451-2 (Arabic) and vol. 34, pp. 168-70 (English)
+  paraphrase: al-Ṭabarī describes a prisoner exchange at Constantinople at which some
+    Muslims chose not to return but to convert to Christianity and remain — one of
+    the mechanisms by which the cross-frontier population of captives, runaways and
+    converts was reshuffled. Prisoner exchanges otherwise took place across the neutral
+    zone of the Lāmus River west of Tarsus.
+  confidence: 4
+  notes: Reached via Eger 2015, p. 290 (fn 38; fn 36 for the Lāmus exchanges, reached
+    via Durak).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0221

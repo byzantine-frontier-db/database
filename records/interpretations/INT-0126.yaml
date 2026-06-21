@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0126
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-POL-0002
+  publication_source_id: SRC-0007
+  argument: 'Eger argues that frontier jihād and raiding against unbelievers had little
+    to do with the religious spread of Islam and functioned essentially as an economic
+    war: conversion is seldom mentioned, whereas the amassing of jizya and booty (livestock,
+    textiles, grain, objects, prisoners) is central, and tax incentives were used
+    to settle groups on the frontier. Booty and tax collection are difficult to separate
+    from raiding.'
+  supporting_evidence:
+  - ATT-0298
+  confidence: 4
+  notes: Eger 2015, pp. 283-284. Supported by the saying ascribed to ʿUmar (ATT-0298).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

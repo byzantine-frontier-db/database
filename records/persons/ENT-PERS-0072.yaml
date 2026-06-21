@@ -1,0 +1,33 @@
+- record_type: person
+  id: ENT-PERS-0072
+  standardised_name: Karbeas
+  alternative_names:
+  - form: Qarbiyās
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Karbeas
+    language: grc
+    script: Grek
+    name_type: transliteration
+  person_type: general
+  religious_affiliation: Paulician (eastern dualist Christian)
+  overall_confidence: 3
+  analytical_summary: Leader of the Paulicians, eastern dualist Christians who held
+    the mountainous terrain north of Malaṭiya towards Tephrike; described as a mawlā
+    of Ṭāhir b. al-Ḥusayn. The Paulicians under his control sided with the Muslims
+    against the Byzantines and were eventually defeated by the Byzantines in 872.
+  linked_attestations:
+  - ATT-0310
+  linked_interpretations: []
+  notes: Reported by Eger 2015, p. 290, drawing on Le Strange (1896, fn 39) and, for
+    the mawlā detail, E. L. Daniel (1996, fn 37). Ṭāhir b. al-Ḥusayn and Zurayq (a
+    mawlā of the Khuzāʿa) are deferred (passing mentions). The Paulicians as a group
+    are deferred (group entities unsupported by schema v1).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

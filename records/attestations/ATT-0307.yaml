@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0307
+  source: SRC-0001
+  entities_referenced:
+  - ENT-PERS-0041
+  - ENT-POL-0001
+  - ENT-PLC-0094
+  provenance: primary_paraphrase
+  citation: al-Ṭabarī, Taʾrīkh, I.2,507 (Arabic) and vol. 13, pp. 88-90 (English);
+    for mustaʿriba, ibid., II.1,185, 1194 (Arabic) and vol. 23, pp. 134, 143 (English)
+  direct_quotation: we will surely dissolve our covenants with the Christians
+  paraphrase: al-Ṭabarī reports that in the early conquests (AH/AD 639-40) the Banū
+    Taghlib joined al-Walīd, except for the Iyāḍ b. Nizār who departed with their
+    possessions for Byzantine territory; Caliph ʿUmar wrote to the Byzantine emperor
+    asking him to turn them back, warning that otherwise the covenants with the Christians
+    under Arab rule would be dissolved. About 4,000 returned while the rest scattered
+    across the borderlands between Syria, the Jazīra and Byzantine territory. Movement
+    across the frontier was two-way (cf. mustaʿriba).
+  confidence: 4
+  notes: Reached via Eger 2015, p. 291 (fn 43). The 'al-Walīd' of 639-40 is the early-conquest
+    commander, NOT the caliph al-Walīd I (ENT-PERS-0056) — left unlinked pending disambiguation.
+    Banū Taghlib and Iyāḍ b. Nizār deferred (group entities unsupported by schema
+    v1).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0221

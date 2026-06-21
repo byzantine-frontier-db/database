@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0128
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0034
+  publication_source_id: SRC-0007
+  argument: Eger argues that markets and fairs created an interdependent, largely
+    self-sufficient frontier economy linking transhumant tribes, settled communities
+    and foreign traders; fairs were frequently held on neutral ground at or outside
+    towns, often at Christian saints' shrines on fixed feast-days, allowing settlers,
+    pastoralists and foreigners to trade without entering the town, and the settlement
+    of thughūr towns in open lowland on main routes (rather than in defensible strongholds)
+    reflects this openness to trade.
+  supporting_evidence:
+  - ATT-0300
+  - ATT-0302
+  - ATT-0303
+  confidence: 4
+  notes: Eger 2015, pp. 287-289.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

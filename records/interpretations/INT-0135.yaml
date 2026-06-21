@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0135
+  associated_entities:
+  - ENT-PLC-0034
+  - ENT-PLC-0091
+  - ENT-PLC-0043
+  - ENT-PLC-0110
+  scholar: Binggeli, A.
+  publication: '''Annual Fairs, Regional Networks, and Trade Routes in Syria, Sixth-Tenth
+    Centuries'', in C. Morrisson (ed.), Trade and Markets in Byzantium (Washington,
+    DC: Dumbarton Oaks, 2012), pp. 281-96'
+  date: 2012
+  argument: A. Binggeli identifies four fairs in the thughūr and Jazīra — Ḥalab, Raqqa,
+    Manbij and Raḥba — along the post road (Ṭarīq al-Barīd) that, unlike many other
+    fairs of Bilād al-Shām, all fell in the autumn months (September-November) to
+    take advantage of the fall harvest, allowing soldiers and pastoralists to sell
+    or trade booty soon after returning from the summer campaigns.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 289 (fn 31-32).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

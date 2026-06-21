@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0302
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0094
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb ṣūrat al-arḍ, p. 217; reached via Wheatley, The Places
+    Where Men Pray Together, p. 106
+  paraphrase: In the eastern Jazīra (Diyār Rabīʿa), Ibn Ḥawqal mentions the Sūq al-Aḥad
+    (Sunday Market) near a river feeding the Upper Zāb, where lowland farmers, Kurdish
+    highland dwellers (Hadhbaniya), Arabian Bedouin (Shaybān) and Christians (Sahārija)
+    at Kafr ʿAzzā met in a seasonal fair. Such fairs (panegyris / Syriac tagūrtā)
+    corresponded with Christian martyr feasts on fixed days and persisted after the
+    Islamic conquest.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 288 (fn 30). Sub-toponyms deferred (Diyār Rabīʿa,
+    Kafr ʿAzzā, Upper/Greater Zāb, Zagros Mountains); the local groups (Hadhbaniya,
+    Shaybān, Sahārija) are deferred (group entities unsupported by schema v1).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0220

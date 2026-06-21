@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0132
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Brown, P.
+  publication: '''The Rise and Function of the Holy Man'' [citation needed: full publication
+    details]'
+  argument: P. Brown's work on the holy man is invoked to argue that frontier ascetics
+    and holy men (e.g. those calling themselves ṭūraiē, 'men of the mountains', and
+    raʿiē, 'shepherds') practised a form of pastoralism and acted as 'shepherds of
+    God's flock', linking pastoralists to sedentarists and Arab tribes to settled
+    communities and mediating disputes over land and water.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 282 (fn 7). The named holy men (John the Arab,
+    Alexander the Sleepless, Symeon Stylites) are deferred (illustrative mentions).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0305
+  source: SRC-0055
+  entities_referenced:
+  - ENT-PERS-0032
+  - ENT-PLC-0168
+  provenance: primary_paraphrase
+  citation: Lewond, History of Lewond, The Eminent Vardapet of the Armenians, trans.
+    Z. Arzoumanian (Wynnewood, PA, 1982), p. 37
+  paraphrase: According to the eighth-century Armenian historian Lewond, al-Mahdī
+    established a free-trade system for Muslim merchants trading in nearby Armenia
+    by abolishing duties — taken as evidence that the frontier towns were open to,
+    and dependent on, trade.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 288 (fn 28).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

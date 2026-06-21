@@ -1,0 +1,28 @@
+- record_type: interpretation
+  id: INT-0129
+  associated_entities:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  - ENT-PLC-0010
+  publication_source_id: SRC-0007
+  argument: Eger argues that frontier tribes functioned as political rather than strictly
+    genealogical units, incorporating defectors, prisoners, runaways and mawālī; that
+    'aṣabiya (ancestral solidarity) was a deliberately vague, mythic binding ideology
+    best mobilised when framed within religious ideology (jihād); and that cross-frontier
+    identity was genuinely two-way, with Muslims helping Byzantine Christians (mustaʿriba)
+    and Christians and others entering Islamic service, so that the frontier unit
+    resembled a politically ordered group or army garrison more than a closed lineage.
+  supporting_evidence:
+  - ATT-0306
+  - ATT-0307
+  - ATT-0311
+  - ATT-0312
+  confidence: 4
+  notes: Eger 2015, pp. 290-293.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

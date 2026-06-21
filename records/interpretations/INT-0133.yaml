@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0133
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Straughn, [I. B.]
+  publication: '''Materializing Islam'' [citation needed: full publication details],
+    p. 206'
+  argument: Straughn hypothesises that the settlement of new Early Islamic communities
+    in marsh and pasture lands across the frontier reflects an intentional 'cultural
+    logic' creating a ḥimā space — a category with a particular designation in Islamic
+    law as a public good serving the whole community as pasture.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 286 (fn 19). Complements Eger's own ḥimā argument
+    (INT-0127).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

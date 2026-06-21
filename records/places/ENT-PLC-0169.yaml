@@ -1,0 +1,33 @@
+- record_type: place
+  id: ENT-PLC-0169
+  standardised_name: Qayṣariyya (Caesarea in Cappadocia)
+  alternative_names:
+  - form: Kaisareia
+    language: grc
+    script: Grek
+    name_type: historical_attestation
+  - form: Kayseri
+    language: tr
+    script: Latn
+    name_type: modern_name
+  place_type: city
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 4
+  frontier_role: Major Cappadocian city on the frontier road network; site of a funduq
+    (caravanserai) serving merchants and travellers.
+  analytical_summary: Caesarea in Cappadocia (modern Kayseri), named among the locations
+    of fanādiq (sing. funduq) along the Cilician and Taurus route network reported
+    in Islamic sources.
+  linked_attestations:
+  - ATT-0304
+  linked_interpretations: []
+  notes: Introduced via Eger 2015, p. 288 (fn 27, reached via Constable; Ibn Jubayr).
+    Single passing mention — flagged for review. Coordinates deferred.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

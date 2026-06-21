@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0138
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-POL-0002
+  scholar: Wittek, P.
+  publication: 'ghazī thesis as reported in Lindner, Nomads and Ottomans (1983) [citation
+    needed: Wittek, The Rise of the Ottoman Empire]'
+  argument: P. Wittek's ghazī thesis holds that the formation of the early Ottoman
+    state in the late thirteenth century was an outcome of Ottoman religious warriors
+    fighting a Muslim holy war, driven by an absolutist political-religious agenda.
+  confidence: 2
+  notes: 'Reported (and rejected) in Eger 2015, pp. 292-293 (fn 48). DISPUTE: directly
+    contradicted by Lindner (INT-0139), who argues the formative Ottoman polity was
+    not purely Muslim but syncretic and that the ghazī image was applied retroactively
+    by sedentary administrative classes. Eger sides with Lindner and uses the dispute
+    to support his economic reading of early-Islamic jihād (INT-0126).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

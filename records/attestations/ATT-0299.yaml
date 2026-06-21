@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0299
+  source: SRC-0016
+  entities_referenced:
+  - ENT-EVT-0035
+  - ENT-PERS-0038
+  - ENT-PLC-0016
+  - ENT-PLC-0018
+  - ENT-PLC-0019
+  - ENT-PLC-0094
+  provenance: primary_quotation
+  citation: al-Balādhurī, Futūḥ al-buldān (1957-8), pp. 264-5, trans. following Hitti,
+    Origins of the Islamic State, pp. 292-3; see also Ibn Ḥawqal, Kitāb ṣūrat al-arḍ,
+    p. 154
+  direct_quotation: Malaṭyah being one of the Mesopotamian frontier towns
+  paraphrase: al-Balādhurī reports that al-Manṣūr settled 4,000 fighters from Mesopotamia
+    (ahl al-Jazīra) at Malaṭya, one of the Mesopotamian frontier towns, and that the
+    division of the thughūr into the Syrian (al-shāmiya) and Jaziran (al-jazariya)
+    sectors was made to distinguish the regional and tribal makeup of the armies crossing
+    the frontier.
+  confidence: 4
+  notes: Reached via Eger 2015, p. 284 (fn 14). Re-attests existing event ENT-EVT-0035
+    (al-Manṣūr's settlement of 4,000 soldiers at Malaṭya) and links the thughūr-division
+    divisions ENT-PLC-0018/0019.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

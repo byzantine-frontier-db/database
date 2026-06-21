@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0301
+  source: SRC-0057
+  entities_referenced:
+  - ENT-PLC-0118
+  provenance: primary_paraphrase
+  citation: '[citation needed: edition and page for Ibn al-ʿAdīm on sheep-wool coats
+    at al-Maṣṣīṣa]'
+  paraphrase: Ibn al-ʿAdīm records that fine sheep-wool coats were sold at al-Maṣṣīṣa
+    for 30 dīnārs apiece — a concrete commodity-price datum for the frontier market
+    economy.
+  confidence: 2
+  notes: Reached via Eger 2015, p. 288, which supplies no footnote for this notice;
+    edition and page unverified. editorial_review_required.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0220

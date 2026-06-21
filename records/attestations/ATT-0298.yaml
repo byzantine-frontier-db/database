@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0298
+  source: SRC-0058
+  entities_referenced:
+  - ENT-PERS-0041
+  provenance: primary_quotation
+  citation: Kitāb al-kasb (attributed to al-Shaybānī), trans. M. Bonner, 'The Kitāb
+    al-kasb attributed to al-Shaybānī…', Journal of the American Oriental Society
+    121/3 (2001), p. 415; cf. Qurʾān 73:20
+  direct_quotation: seeking God's bounty (faḍl), rather than be killed as a fighter
+    in the jihād
+  paraphrase: A saying ascribed to Caliph ʿUmar expresses a preference for dying while
+    travelling the land in pursuit of God's bounty (faḍl) over being killed as a fighter
+    in jihād — used to foreground the economic, profit-seeking dimension of frontier
+    activity over a purely religious one.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 283 (fn 11). Authorship of the Kitāb al-kasb is
+    doubtful (Bonner). Supports Eger's economic reading of frontier jihād (INT-0126).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

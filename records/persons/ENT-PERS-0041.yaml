@@ -12,13 +12,15 @@
     were first conquered.
   linked_attestations:
   - ATT-0149
+  - ATT-0298
+  - ATT-0307
   notes: 'Entity search: absent from snapshot; minted provisionally. SCHOLARLY-DATA
     FLAG: Eger gives "ʿUmar I (r. 624-44)" (p. 122); the conventional regnal dates
     are 634-644. Recorded as Eger states it; flagged for editorial verification (probable
     typo in Eger).'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

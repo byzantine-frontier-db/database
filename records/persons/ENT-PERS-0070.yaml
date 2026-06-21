@@ -1,0 +1,39 @@
+- record_type: person
+  id: ENT-PERS-0070
+  standardised_name: Theophobos
+  alternative_names:
+  - form: Narsī
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Naṣīr
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  - form: Nuṣayr
+    language: ar
+    script: Arab
+    name_type: alternative_transliteration
+  - form: Theophobus
+    language: grc
+    script: Grek
+    name_type: alternative_transliteration
+  person_type: general
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 3
+  analytical_summary: Commander of the Muḥammira, a body of Kurdish and Persian defectors
+    that joined the emperor Theophilos during his 837 attack on Zibaṭra and Malaṭiya.
+    Named variously in the Arabic tradition (Narsī / Narseh / Naṣīr / Nuṣayr) and
+    under the Greek name Theophobos. The defectors were enlisted as regularly paid
+    Byzantine troops and given wives.
+  linked_attestations:
+  - ATT-0308
+  notes: Reported by al-Ṭabarī (Eger 2015, p. 291, fn 44). The Muḥammira itself is
+    a group and is deferred (group entities unsupported by schema v1).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

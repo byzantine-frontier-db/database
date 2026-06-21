@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0300
+  source: SRC-0019
+  entities_referenced:
+  - ENT-PERS-0016
+  - ENT-POL-0001
+  provenance: primary_paraphrase
+  citation: Abū al-Fidāʾ, Kitāb taqwīm al-buldān, p. 267
+  paraphrase: An envoy of the Prophet Muḥammad is said to have delivered goods for
+    trade along with a letter to Heraklios — cited as early evidence that frontier
+    exchange (whether trade, gift, tribute, or smuggling) used nomadic and transhumant
+    tribes as middlemen for crafts and luxury goods linked to the Silk Route.
+  confidence: 3
+  notes: Reached via Eger 2015, p. 287 (fn 22).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0220

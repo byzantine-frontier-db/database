@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0136
+  associated_entities:
+  - ENT-PERS-0002
+  - ENT-PERS-0001
+  - ENT-POL-0001
+  scholar: Whittow, M.
+  publication: The Making of Byzantium, 600-1025 (Berkeley, 1996), pp. 169-70
+  date: 1996
+  argument: M. Whittow notes that Theophilos, like his Abbasid contemporary al-Muʿtaṣim,
+    maintained a personal bodyguard (hetaireia) of Khazars or Turks from the Farghana
+    valley, and an 'Ethiopian Unit' possibly drawn from East African Zanj canal-workers
+    of southern Iraq — illustrating the parallel recruitment of foreign and defector
+    troops on both sides of the frontier.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 291 (fn 45).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

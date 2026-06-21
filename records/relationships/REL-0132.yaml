@@ -1,0 +1,22 @@
+- record_type: relationship
+  id: REL-0132
+  type: contains
+  source_entity: ENT-POL-0004
+  target_entity: ENT-PLC-0108
+  temporal_scope:
+    start: '935'
+    precision: year_range_narrow
+    confidence: 4
+    primary_dating_system: CE
+    notes: Hamdanid control of Naṣībīn at the time of the Ḥabīb clan's 935 defection.
+  confidence: 4
+  linked_attestations:
+  - ATT-0312
+  notes: Naṣībīn was under Hamdanid control when the Ḥabīb clan defected in 935.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

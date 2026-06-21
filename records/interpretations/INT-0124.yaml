@@ -1,0 +1,21 @@
+- record_type: interpretation
+  id: INT-0124
+  associated_entities:
+  - ENT-PLC-0010
+  publication_source_id: SRC-0007
+  argument: 'Eger frames frontier interaction as comprising three layers: (1) an ideological
+    layer of military and religious conflict, in which the frontier is a single physical
+    boundary; (2) an external layer of competition over resources; and (3) an internal
+    layer of political relationships between local peripheral groups and the central
+    authority. In the last two, the frontier becomes a set of peripheral environmental
+    boundaries and localised zones of upland-lowland interaction rather than a single
+    line.'
+  confidence: 4
+  notes: Eger 2015, pp. 278. The chapter's organising framework.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

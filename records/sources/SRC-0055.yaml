@@ -1,0 +1,21 @@
+- record_type: source
+  id: SRC-0055
+  standardised_title: History of Lewond (Patmutʿiwn Lewondeay)
+  alternative_titles:
+  - History of Lewond, the Eminent Vardapet of the Armenians
+  author_unnamed: false
+  language: hy
+  script: Armn
+  genre: history
+  edition_used: 'trans. Z. Arzoumanian, History of Lewond, The Eminent Vardapet of
+    the Armenians (Wynnewood, PA: St. Sahag and St. Mesrob Armenian Church, 1982)'
+  notes: Eighth-century Armenian history. Introduced via Eger 2015, p. 288 (fn 28)
+    as authority for al-Mahdī's abolition of duties for Muslim merchants trading in
+    Armenia. Author entity (Lewond) deferred per established author-PersonEntity scope.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

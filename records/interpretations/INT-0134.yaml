@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0134
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Wickham, C.
+  publication: Framing the Early Middle Ages (Oxford, 2005)
+  date: 2005
+  argument: C. Wickham compares the Anatolian plateau and the Spanish meseta as transhumance
+    economies (visible as early as c. 400 CE) and documents the survival of annual
+    travelling fairs (panegyreis) in major Byzantine cities (Trebizond, Ephesos, Sinope,
+    Euchaita, Chonai, Myria, Thessaloniki, Nikomedia), where localised trade, exchange
+    and the distribution of military pay occurred.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 286 (fn 20) and p. 289 (fn 33). The Byzantine fair-cities
+    are deferred (catalogue of mostly out-of-corpus toponyms); Euchaita already exists
+    (ENT-PLC-0153).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

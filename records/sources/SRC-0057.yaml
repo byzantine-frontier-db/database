@@ -1,0 +1,20 @@
+- record_type: source
+  id: SRC-0057
+  standardised_title: Ibn al-ʿAdīm, history of Aleppo (Bughyat al-ṭalab / Zubdat al-ḥalab)
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: local_chronicle
+  edition_used: '[citation needed: edition and page for Ibn al-ʿAdīm''s notice on
+    sheep-wool coats at al-Maṣṣīṣa]'
+  notes: Kamāl al-Dīn ibn al-ʿAdīm, historian of Aleppo (d. 1262). Introduced via
+    Eger 2015, p. 288, which gives no footnote for the al-Maṣṣīṣa wool-coat price
+    notice; edition unverified. Author entity deferred per established author-PersonEntity
+    scope.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0296
+  source: SRC-0017
+  entities_referenced:
+  - ENT-PLC-0020
+  - ENT-POL-0001
+  provenance: primary_paraphrase
+  citation: Nuʿaym b. Ḥammād, Kitāb al-fitan wa-l-malāḥim, fols. 122a-b, 135a-b, 139b,
+    144a; related apocalyptic prophecy of the Ḥimṣ scholar Arṭā b. al-Mundhir al-Alhānī
+    (d. 779/80), ed./trans. W. Madelung, 'Apocalyptic Prophecies in Ḥimṣ in the Umayyad
+    Age', Journal of Semitic Studies 31/2 (1986), fols. 63b, 28a
+  direct_quotation: a third of the Arabs, whole tribes with their banners, will join
+    the infidels
+  paraphrase: An Umayyad-age apocalyptic tradition from Ḥimṣ places the events leading
+    to the final conquest of Constantinople in the Amuq Plain, with a truce and alliance
+    between Byzantines and Arabs against defecting North Arabian Muslims, and hostility
+    directed especially at the Quḍāʿa (the South-Arabian Kalb confederacy) who had
+    settled in northern Syria and the thughūr before the Islamic conquests.
+  confidence: 3
+  notes: Reached via Eger 2015, pp. 277-278. Same apocalyptic tradition transmitted
+    both through Nuʿaym's Kitāb al-fitan (SRC-0017) and through Madelung's edition
+    of the Ḥimṣ prophecies. Quḍāʿa/Kalb confederacy and the 'Hamra'' deferred (group
+    entities unsupported by schema v1); Kūfa not minted (single passing mention).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

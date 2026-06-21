@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0131
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Rowton, M. B.
+  publication: '''Enclosed Nomadism'', Journal of the Economic and Social History
+    of the Orient 17/1 (1974), pp. 1-30'
+  date: 1974
+  argument: M. B. Rowton's concept of 'enclosed nomadism' holds that the nomads' range
+    of mobility included a settled area of seasonal agriculture together with adjacent
+    uplands for pasture, rather than long-range migration — the model Eger adopts
+    for the thughūr.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 280 (fn 5). Eger's footnote prints the volume as
+    '71/1', an apparent transposition for JESHO 17/1 (1974); corrected here and flagged
+    for review.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

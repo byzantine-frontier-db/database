@@ -1,0 +1,22 @@
+- record_type: interpretation
+  id: INT-0130
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Robinson, C.
+  publication: '''Tribes and Nomads'' [citation needed: full publication details]'
+  argument: 'C. Robinson outlines several models of nomad-settler interaction: a mutualism
+    model of symbiosis between the two groups, and a conflict model in which nomads
+    are dangerous, uncontrolled raiders whose threat justifies large-scale investment
+    in fortifications. Robinson notes that a mutualism model presupposes political
+    and environmental stability.'
+  confidence: 3
+  notes: Reported in Eger 2015, pp. 278-279 (fn 4) and p. 282 (fn 9). Eger qualifies
+    Robinson by arguing the two models are not mutually exclusive and that mutualism
+    need not assume stability.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0137
+  associated_entities:
+  - ENT-PERS-0023
+  - ENT-PLC-0001
+  scholar: Wickham, C.
+  publication: Framing the Early Middle Ages (Oxford, 2005), p. 630; with Trombley,
+    'The Decline of the Seventh Century Town', p. 85
+  argument: Drawing on Wickham (and Trombley), Eger reports that the Byzantine state
+    established markets for the Islamic armies — under Leo III at ʿAmmūriyya (Amorion)
+    in 716, and at the request to the Empress Irene a chain of markets for the returning
+    Islamic armies in Bithynia — so that soldiers acquiring booty or stipends ('aṭāʾ)
+    contributed to the frontier economy.
+  confidence: 3
+  notes: Reported in Eger 2015, p. 289 (fn 33-34). The Empress Irene and Bithynia
+    are named in the argument but not minted (passing mentions).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

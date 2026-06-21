@@ -24,11 +24,12 @@
     hypothesises it belonged to the Karababa way-station network.
   linked_attestations:
   - ATT-0146
+  - ATT-0312
   notes: 'Entity search: not in snapshot (ENT-PLC-0001..0073); no match. Minted provisionally.
     Coordinates deferred to editorial review.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

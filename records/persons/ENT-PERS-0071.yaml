@@ -1,0 +1,27 @@
+- record_type: person
+  id: ENT-PERS-0071
+  standardised_name: Constantine VII Porphyrogennetos
+  alternative_names:
+  - form: Kōnstantinos VII Porphyrogennētos
+    language: grc
+    script: Grek
+    name_type: transliteration
+  person_type: emperor
+  political_affiliation: ENT-POL-0001
+  overall_confidence: 5
+  analytical_summary: Byzantine emperor (r. 913-959), under whose name the De Cerimoniis
+    was compiled. Cited for a short text describing the incentives (money, oxen, seed
+    grain, three years' tax exemption) granted to baptised Muslims and to households
+    taking in converted captives as 'sons-in-law' (gambroi).
+  linked_attestations:
+  - ATT-0309
+  linked_interpretations: []
+  notes: Author/compiler associated with SRC-0056 (De Cerimoniis). Introduced via
+    Eger 2015, p. 292 (fn 47).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0312
+  source: SRC-0009
+  entities_referenced:
+  - ENT-POL-0004
+  - ENT-PLC-0108
+  - ENT-POL-0001
+  - ENT-PLC-0103
+  - ENT-PLC-0076
+  - ENT-PLC-0074
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb ṣūrat al-arḍ, pp. 211-13; reached together with M. Canard,
+    Histoire de la Dynastie des H'amdanides de Jazira et de Syrie (Paris, 1953), pp.
+    139-40, 303, 737-9
+  paraphrase: The Ḥabīb clan of the Banū Taghlib (12,000 horsemen with families) allied
+    with the Byzantines in 935 and defected from Ḥamdānid-controlled Naṣībīn into
+    Byzantine lands, where they were given lands, animals and goods; they then raided
+    Islamic lands annually at harvest, chiefly in the Diyār Muḍar, seizing frontier
+    forts such as Ḥiṣn Ziyād and Ḥiṣn Manṣūr.
+  confidence: 3
+  notes: Reached via Eger 2015, pp. 291-292 (fn 46). Supports first activation of
+    the Hamdanid polity (ENT-POL-0004). The Ḥabīb clan / Banū Taghlib are deferred
+    (group entities unsupported by schema v1).
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  observations_supported:
+  - OBS-0221
