@@ -1,0 +1,29 @@
+- record_type: interpretation
+  id: INT-0153
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: 'Eger, A. Asa, The Islamic-Byzantine Frontier: Interaction and Exchange
+    (London: I.B. Tauris, 2015), Conclusions (pp. 310-314)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: The core-periphery model, which positions the frontier in a fixed relationship
+    of subordination to a central state, can be dispensed with. Because archaeological
+    evidence is site-specific, territoriality cast in an archaeological light avoids
+    political subjectivity, and what the archaeology shows is a region of continuity,
+    ecological subsistence, and local economy rather than a politically-bounded periphery.
+  confidence: 3
+  notes: Methodological claim restating the book's recurrent argument that frontier
+    settlements (like those of Early Islamic Palestine and Egypt) are dominated by
+    local traditions and immediate-environment subsistence. Eger deploys A. Smith's
+    general theoretical position here (see INT-0161). Stands in deliberate dialectical
+    tension with INT-0156 (frontiers inseparable from ideology); Eger resolves the
+    tension through the multi-layer model of INT-0158. Documented inline per rule
+    10; not a paired counter_evidence dispute (intra-author dialectic).
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

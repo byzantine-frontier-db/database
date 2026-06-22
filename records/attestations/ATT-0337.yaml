@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0337
+  source: SRC-0064
+  entities_referenced:
+  - ENT-PLC-0068
+  - ENT-PERS-0021
+  observations_supported:
+  - OBS-0235
+  provenance: primary_paraphrase
+  citation: 'al-Mutanabbī, Dīwān, qaṣīda on the Battle of Ḥadath; reached via Eger,
+    The Islamic-Byzantine Frontier (London, 2015), n.5 (p.368). [citation needed:
+    edition of the Dīwān].'
+  paraphrase: al-Mutanabbī's tenth-century qaṣīda on the Battle of Ḥadath provoked
+    a response from the emperor Nikephoros II Phokas in the same dueling-poetry style
+    — adduced by Eger as frontier poetry functioning as cross-confessional literary
+    interaction.
+  location_within_source: al-Mutanabbī, Dīwān (Ḥadath qaṣīda); Eger 2015 n.5 (p.368)
+  editorial_interpretation: The 'response' attributed to Nikephoros Phokas is reported
+    by Eger; the attestable primary content is the existence and subject of al-Mutanabbī's
+    Ḥadath qaṣīda.
+  confidence: 3
+  notes: Eger supplies no edition for the Dīwān; citation carries a [citation needed]
+    placeholder. editorial_review_required true.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

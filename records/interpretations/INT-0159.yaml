@@ -1,0 +1,43 @@
+- record_type: interpretation
+  id: INT-0159
+  associated_entities:
+  - ENT-PLC-0010
+  - ENT-PLC-0022
+  - ENT-PLC-0016
+  - ENT-PLC-0073
+  - ENT-PLC-0093
+  - ENT-PLC-0091
+  - ENT-PLC-0082
+  - ENT-PLC-0043
+  - ENT-PLC-0092
+  scholar: Eger, A. Asa
+  publication: 'Eger, A. Asa, The Islamic-Byzantine Frontier: Interaction and Exchange
+    (London: I.B. Tauris, 2015), Conclusions (pp. 310-314)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'The frontier was porous: individuals (scholars, geographers, physicians,
+    merchants, diplomats, religious leaders, pilgrims, spies) and objects (diplomatic
+    gifts, relics, translated books) crossed it constantly, and Syriac scholars lived
+    in almost every frontier town and monastery. Receptiveness to the ''enemy''s''
+    culture implies it was perceived as ''neutral'', not infected by the ideology
+    of its foreign source. Interdisciplinary study — art history of acculturation
+    and hybridisation, and prosopography of frontier-crossing individuals — can fine-tune
+    the archaeologist''s focus on groups.'
+  confidence: 4
+  supporting_evidence:
+  - ATT-0335
+  - ATT-0336
+  notes: 'Restates the ''interaction and exchange'' thesis named in the book''s subtitle.
+    Associated frontier towns where Syriac scholars are reported (Eger p.313): Anṭākiya,
+    Malaṭya, Sumaysāṭ, Ḥarrān, Raqqa, Sarūj, Manbij, Ruhā — all matched to canonical
+    place IDs. Eger leans on Zadeh (INT-0162) and Durak (INT-0163), and (not minted
+    as INTs this session) Bloom, Utrero Agudo, Conrad, Beihammer, Tannous, Campbell,
+    Kilpatrick, el Cheikh — deferred. Supporting attestations: the Bryas-plan (ATT-0335)
+    and Hārūn-translated-texts (ATT-0336) instances of objects crossing the frontier.'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

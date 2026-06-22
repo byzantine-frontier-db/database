@@ -1,0 +1,24 @@
+- record_type: source
+  id: SRC-0061
+  standardised_title: Kitāb al-Siyar (al-Shaybānī)
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: military_treatise
+  translation_used: 'M. Khadduri (trans.), The Islamic Law of Nations: Shaybānī''s
+    Siyar (Baltimore: Johns Hopkins Press, 1966)'
+  notes: 'Drafted per directive from Eger 2015 p.312 and n.3 (p.368), where the siyar
+    genre (''Book of Military Campaigns'', appearing in the ninth century, by Muḥammad
+    b. al-Ḥasan al-Shaybānī, d.805, and others) is adduced as an exemplar of frontier-ideology
+    literature. Author person (al-Shaybānī) not minted in this session — passing authorial
+    mention, deferred to Technical Lead. genre: ''military_treatise'' chosen as closest
+    fit; siyar is strictly a legal genre on the law of war/nations, so ''legal_text''
+    is an alternative — flagged for schema/genre review. [citation needed: critical
+    edition of the Arabic text].'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

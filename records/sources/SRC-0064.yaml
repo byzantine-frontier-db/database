@@ -1,0 +1,19 @@
+- record_type: source
+  id: SRC-0064
+  standardised_title: al-Mutanabbī, Dīwān (qaṣīda on the Battle of Ḥadath)
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: other
+  notes: 'Drafted per directive from Eger 2015 p.312 and n.5 (p.368). The tenth-century
+    qaṣīda by al-Mutanabbī on the Battle of Ḥadath (954); Eger adduces it as an exemplar
+    of frontier ''dueling poetry''. genre: no enum value for poetry/dīwān — ''other''
+    used; genre-enum gap flagged. Author person (al-Mutanabbī) not minted — deferred.
+    Grounds ATT-0337. [citation needed: edition of the Dīwān — Eger supplies none].'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

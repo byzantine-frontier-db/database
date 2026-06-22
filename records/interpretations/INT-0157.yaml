@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0157
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: 'Eger, A. Asa, The Islamic-Byzantine Frontier: Interaction and Exchange
+    (London: I.B. Tauris, 2015), Conclusions (pp. 310-314)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'Jihād was an elastic, idiosyncratic concept rather than a static, monumental
+    one: its development tracked the changing political and social realities of relations
+    with non-Muslim individuals, communities, and empires. Jihād and apocalypse were
+    structurally similar narratives in that their mythology could be re-fitted to
+    any actual event of war — victory, defeat, or political crisis alike.'
+  confidence: 4
+  notes: Restates the conceptual-history argument about jihād's plasticity. Companion
+    to INT-0156.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

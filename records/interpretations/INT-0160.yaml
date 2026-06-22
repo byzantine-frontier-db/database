@@ -1,0 +1,27 @@
+- record_type: interpretation
+  id: INT-0160
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: 'Eger, A. Asa, The Islamic-Byzantine Frontier: Interaction and Exchange
+    (London: I.B. Tauris, 2015), Conclusions (pp. 310-314)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'In a final move, the frontier is ''deconstructed'': no longer a means
+    to an end, it becomes a tool and discursive framework for addressing problems
+    across disciplines. Perceptions of frontiers are a product of the disciplines
+    that created them; examining the thughūr reveals how archaeology, history, art
+    history, and literature each place their own frontiers. The deconstruction is
+    itself generative — an ''epistemological imāra'' (rebuilding/repopulation).'
+  confidence: 3
+  notes: Eger's closing meta-historiographical / programmatic claim. The 'dismantling
+    and rebuilding' framing echoes Heraklios' sha'atha of the frontier forts (cf.
+    ENT-EVT-0010) as a structuring metaphor. Programmatic rather than evidential;
+    confidence 3.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

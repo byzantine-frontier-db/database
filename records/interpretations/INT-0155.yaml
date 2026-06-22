@@ -1,0 +1,26 @@
+- record_type: interpretation
+  id: INT-0155
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: 'Eger, A. Asa, The Islamic-Byzantine Frontier: Interaction and Exchange
+    (London: I.B. Tauris, 2015), Conclusions (pp. 310-314)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: Reflexively, the very discourse of settlement continuity, environmental
+    history, and the de-emphasis of destabilising Christian-Muslim interaction may
+    itself be read as the product of an early-twenty-first-century liberal and reactive
+    Western ideology, emerging in response to a decade of physical and propagandistic
+    conflict between the US, Europe, and the Middle East. Frontiers therefore cannot
+    be wholly decoupled from ideology, real or imagined.
+  confidence: 2
+  notes: Eger's self-critical/reflexive caveat on his own methodology. Recorded at
+    low confidence (speculative authorial reflection, not an evidential claim). No
+    counterpart in earlier chapters; appears to be original to the Conclusions.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

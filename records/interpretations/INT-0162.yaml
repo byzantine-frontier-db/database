@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0162
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Zadeh, T.
+  publication: Mapping Frontiers Across Medieval Islam
+  argument: The Islamic search for the mythical and fantastic at the edges of civilization
+    — the lands of Gog and Magog (Yājūj and Mājūj) and the Cave of the Seven Sleepers
+    — expresses a desire to place an Islamic imperial and religious claim even on
+    the most metaphysical of frontiers; frontier-crossing individuals likewise carried
+    geographical knowledge back across the divide.
+  confidence: 3
+  notes: 'Modern-scholar interpretation reported by Eger 2015 (nn.6 and 9, p.369);
+    no publication_source_id. Supports the ''fantastical geographies'' strand of INT-0156
+    and the porous-frontier argument of INT-0159. [citation needed: publication year
+    — Eger''s note omits it].'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

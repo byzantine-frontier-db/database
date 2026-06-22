@@ -1,0 +1,21 @@
+- record_type: observation
+  id: OBS-0234
+  proposition: From a raid on Amorium and Ankyra (Ancyra), Hārūn al-Rashīd brought
+    back old (Greek) texts, which he had translated by the Christian physician Yuḥannā
+    b. Māsawayh of Jundīsābūr.
+  associated_entities:
+  - ENT-PERS-0018
+  - ENT-PLC-0001
+  - ENT-PLC-0006
+  supporting_attestations:
+  - ATT-0336
+  notes: Yuḥannā b. Māsawayh not minted as a person entity (passing prosopographical
+    mention) — deferred. Adduced by Eger as evidence of books as travelling, translatable
+    objects of cross-frontier exchange.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

@@ -65,12 +65,13 @@
   - ATT-0008
   - ATT-0009
   - ATT-0011
+  - ATT-0336
   linked_interpretations:
   - INT-0001
   - INT-0137
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

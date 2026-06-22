@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0161
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Smith, A.
+  publication: 'The Political Landscape: Constellations of Authority in Early Complex
+    Polities (Berkeley: University of California Press, 2003), p. 154'
+  date: 2003
+  argument: Ecological change, or alterations in the nutrient requirements of populations,
+    are the only clear determinants that might explain changes in the attachments
+    between people and place — a position resisting political/subjectivist claims
+    about territoriality.
+  confidence: 3
+  notes: Modern-scholar interpretation reported by Eger 2015 (p.311 and n.1, p.369);
+    no publication_source_id per routing rule (Smith's work is not a corpus SourceRecord).
+    Eger deploys Smith's general theoretical claim to support the anti-core-periphery
+    / archaeological-continuity argument of INT-0153.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

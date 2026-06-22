@@ -1,0 +1,24 @@
+- record_type: interpretation
+  id: INT-0154
+  associated_entities:
+  - ENT-PLC-0010
+  scholar: Eger, A. Asa
+  publication: 'Eger, A. Asa, The Islamic-Byzantine Frontier: Interaction and Exchange
+    (London: I.B. Tauris, 2015), Conclusions (pp. 310-314)'
+  publication_source_id: SRC-0007
+  date: 2015
+  argument: 'To the archaeologist, the frontier as an identifiable regional space
+    is imperceptible: the thughūr is an ''imagined frontier'' composed of religious
+    and political ideologies. Stripped of that ideological overlay, the archaeological
+    substrate shows continuity rather than a bounded territorial divide.'
+  confidence: 3
+  notes: 'Restates the ''imagined frontier'' thread. Closely coupled to INT-0153 and
+    to the literary/ideological ''third layer'' of INT-0156. [citation needed: canonical
+    INT ids for the chapter-level ''imagined frontier'' interpretations].'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

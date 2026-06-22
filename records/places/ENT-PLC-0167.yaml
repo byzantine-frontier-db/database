@@ -21,12 +21,13 @@
     chose not to return but to convert and remain.
   linked_attestations:
   - ATT-0306
+  - ATT-0335
   linked_interpretations: []
   notes: Introduced via Eger 2015, p. 290 (fn 38). Coordinates deferred (~41.01N,
     28.98E) pending the project's standard coordinate-assignment pass.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-21T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

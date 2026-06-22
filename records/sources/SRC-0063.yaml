@@ -1,0 +1,20 @@
+- record_type: source
+  id: SRC-0063
+  standardised_title: Ibn Abī Uṣaybiʿa, ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ
+  author_unnamed: false
+  language: ar
+  script: Arab
+  genre: prosopography
+  edition_used: 'A. Müller (ed.), ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ (Egypt: al-Maṭbaʿa
+    al-Wahibīya, 1882)'
+  notes: Drafted per directive from Eger 2015 n.10 (p.370), reached via J. Tannous,
+    'Syria Between Byzantium and Islam'. A biographical dictionary of physicians (ṭabaqāt
+    al-aṭibbāʾ); 'prosopography' is the closest genre fit. Author person (Ibn Abī
+    Uṣaybiʿa) not minted — deferred to Technical Lead. Grounds ATT-0336.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

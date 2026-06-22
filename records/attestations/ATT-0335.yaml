@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0335
+  source: SRC-0002
+  entities_referenced:
+  - ENT-PERS-0002
+  - ENT-PLC-0183
+  - ENT-PLC-0167
+  observations_supported:
+  - OBS-0233
+  provenance: primary_paraphrase
+  citation: Theophanes Continuatus, on the building of the Bryas Palace under Theophilos;
+    reached via Eger, The Islamic-Byzantine Frontier (London, 2015), n.8 (p.369),
+    citing 'Theophanes'.
+  paraphrase: Eger cites Theophanes for the report that the plan of the Bryas Palace
+    on the Bosphorus came from Baghdad via an emissary, as a textual instance of cross-frontier
+    transmission of architectural design and craftsmen.
+  location_within_source: Theophanes Continuatus, reign of Theophilos; Eger 2015 n.8
+    (p.369)
+  confidence: 3
+  notes: Eger writes 'Theophanes' without disambiguation. The Bryas Palace account
+    belongs to the reign of Theophilos (829-842), i.e. to Theophanes Continuatus (SRC-0002),
+    not to the Chronographia of Theophanes the Confessor (SRC-0012), whose text ends
+    at 813; attestation placed against SRC-0002 on that basis but flagged for verification
+    against the printed source. editorial_review_required true.
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

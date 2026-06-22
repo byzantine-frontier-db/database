@@ -1,0 +1,24 @@
+- record_type: source
+  id: SRC-0062
+  standardised_title: Digenes Akritas (Διγενῆς Ἀκρίτας)
+  author_unnamed: true
+  language: grc
+  script: Grek
+  genre: other
+  edition_used: 'H. Grégoire, Ho Digenēs Akritas (New York: The National Herald, 1942)'
+  translation_used: 'E. Jeffreys (ed. and trans.), Digenes Akritis: the Grottaferrata
+    and Escorial versions (Cambridge: Cambridge University Press, 1998)'
+  notes: 'Drafted per directive from Eger 2015 p.312 and n.4 (p.368). The Byzantine
+    frontier epic (akritic poem); Eger adduces it (alongside the Chanson de Roland)
+    as an exemplar of frontier epic poetry constituting an ideological ''third layer''.
+    Two recensions: a late-13th-/early-14th-c. G (Grottaferrata) version and a late-15th-c.
+    E (Escorial) version. genre: no enum value for epic/poetry — ''other'' used; recurring
+    genre-enum gap flagged for schema v2. Composition date contested and deliberately
+    omitted rather than guessed.'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft

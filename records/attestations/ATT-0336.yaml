@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0336
+  source: SRC-0063
+  entities_referenced:
+  - ENT-PERS-0018
+  - ENT-PLC-0001
+  - ENT-PLC-0006
+  observations_supported:
+  - OBS-0234
+  provenance: primary_paraphrase
+  citation: Ibn Abī Uṣaybiʿa, ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ, ed. A. Müller
+    (Egypt, 1882), p. 246; reached via J. Tannous, 'Syria Between Byzantium and Islam',
+    pp. 47, 564-5, and Eger, The Islamic-Byzantine Frontier (London, 2015), n.10 (p.370).
+  paraphrase: On a raid to Amorium and Ankyra, Hārūn al-Rashīd recovered old texts
+    and had them translated by Yuḥannā b. Māsawayh, a Christian physician of Jundīsābūr
+    — adduced by Eger as an instance of books as captured, translatable objects of
+    cross-frontier exchange.
+  location_within_source: Ibn Abī Uṣaybiʿa, ed. Müller (1882), p. 246; Eger 2015 n.10
+    (p.370)
+  confidence: 3
+  notes: 'Transmission chain: primary (Ibn Abī Uṣaybiʿa) → secondary route (Tannous)
+    → Eger. Provenance primary_paraphrase; secondary route recorded in citation per
+    workflow §secondary-source-mediated. editorial_review_required true.'
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-22T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
