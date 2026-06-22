@@ -26,7 +26,7 @@ Target pace: one session per day
 | 15 | Ch. 9 Epilogue (Middle Byzantine castles, dissertation period) | 264-276 | pending | | | |
 | 16 | Ch. 10 part A (Frontier interaction) | 277-293 | EXTRACTED | 54 | 6638855 | pending |
 | 17 | Ch. 10 part B | 294-309 | pending | | | |
-| 18 | Conclusions | 310-end | pending | | | |
+| 18 | Conclusions | 310-end | EXTRACTED | 22 | 14b36bc | pending |
 
 ## Follow-up items (across chapters)
 
