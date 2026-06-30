@@ -60,7 +60,7 @@
   - ATT-0324
   metadata:
     schema_version: 1.0.0
-    record_version: 1.14.0
+    record_version: 1.15.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
@@ -126,3 +126,4 @@
   - INT-0161
   - INT-0162
   - INT-0163
+  - INT-0016

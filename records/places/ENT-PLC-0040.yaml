@@ -15,9 +15,11 @@
   - ATT-0254
   notes: Site identified by survey (Whitcomb, in Wilkinson 2004). Coordinates deferred
     (near Tell Sweyhat).
+  linked_interpretations:
+  - INT-0032
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

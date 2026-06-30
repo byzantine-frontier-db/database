@@ -36,13 +36,15 @@
   - ATT-0224
   - ATT-0229
   - ATT-0264
+  - ATT-0158
+  - ATT-0166
   notes: 'New entity. Snapshot search: no Balikh River record present (ENT-PLC-0044
     is the Euphrates; ENT-PLC-0089/0090 are the Qubāqib and Arsanās). Eger 2015 (SRC-0007)
     pp. 128-130. Minor tributaries (Jullab, Daysan/Kara Koyun, Wādī Ḥamār) deferred
     as minor hydronyms per scope discipline. Provisional ID pending minting.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.4.0
+    record_version: 1.5.0
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
@@ -51,3 +53,4 @@
   - INT-0080
   - INT-0083
   - INT-0120
+  - INT-0049

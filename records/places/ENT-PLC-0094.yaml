@@ -37,6 +37,7 @@
   - ATT-0299
   - ATT-0302
   - ATT-0307
+  - ATT-0173
   notes: 'New entity. Snapshot search performed against standardised_name and alternative_names:
     the snapshot contains ENT-PLC-0019 "Thughūr al-Jazariya" (the frontier DIVISION)
     but no record for the Jazīra REGION itself; these are distinct (region vs administrative
@@ -44,7 +45,7 @@
     2015 (SRC-0007) pp. 127-131. Provisional ID pending canonical minting.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.6.0
+    record_version: 1.7.0
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
@@ -61,3 +62,4 @@
   - INT-0121
   - INT-0122
   - INT-0123
+  - INT-0049

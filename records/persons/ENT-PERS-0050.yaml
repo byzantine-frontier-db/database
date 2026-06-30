@@ -25,9 +25,11 @@
     span Eger gives (759-72) and is low-confidence. Snapshot search returned no match.
     Eger 2015 (SRC-0007) p. 143 (Heidemann, ch. 4 fn. 32). Provisional ID pending
     minting.
+  linked_interpretations:
+  - INT-0048
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

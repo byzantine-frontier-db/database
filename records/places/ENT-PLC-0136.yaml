@@ -9,9 +9,11 @@
     protecting the pass ʿAqaba al-Baydā; possibly sited in the still-accessible foothills.
   linked_attestations:
   - ATT-0205
+  linked_interpretations:
+  - INT-0062
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

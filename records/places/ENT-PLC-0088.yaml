@@ -33,9 +33,12 @@
     as one entity (Eger: "The Elazığ Plain was called thughūr al-bakriya"). Lake Hazar
     possibly = the lake "Hūrē" with islands and fish in the Life of Theodota (sections
     115-16) — flagged, not asserted.'
+  linked_interpretations:
+  - INT-0041
+  - INT-0044
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
