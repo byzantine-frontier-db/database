@@ -1,0 +1,56 @@
+Byzantine-Islamic Frontier Database — Licensing
+===============================================
+
+This repository contains multiple components released under different licenses.
+This file is an orientation, not a license text in itself. The full text of each
+license is in the referenced file, and the reasoning behind the split is set out
+in the Governance Charter, section 8 (docs/governance.md, "Licensing").
+
+Components and their licenses
+-----------------------------
+
+1. DATA — Creative Commons Attribution 4.0 International (CC BY 4.0)
+   Full text: LICENSE-DATA
+   Applies to: the database records (records/), dating-system reference data
+   (data/), and the authored *content* of the controlled vocabularies
+   (the labeled concepts in vocabularies/).
+   Attribution is fulfilled by citing the project and the canonical identifier
+   of the relevant record; see the citation guidance in README.md.
+
+2. CODE — Apache License 2.0
+   Full text: LICENSE-CODE
+   Applies to: the tooling and validators (tools/), all *.py files, and any
+   executable scripts in the repository.
+
+3. VOCABULARY STRUCTURE and SCHEMA — Creative Commons Zero 1.0 Universal (CC0 1.0)
+   Full text: LICENSE-VOCAB
+   Applies to: the JSON Schema (schema/byzfrontier_schema_v1.json) and the
+   skeletal structure of the SKOS vocabularies — their taxonomic organization
+   and concept scheme, as distinct from the labeled concept content authored by
+   the project (which is DATA, above).
+
+On the vocabulary content / vocabulary structure distinction
+------------------------------------------------------------
+
+The split within vocabularies/ is deliberate. The schema and the skeletal
+ontology (how concepts are organized) are released under CC0 so they can be
+reused, embedded, and built upon with no restriction, maximising
+interoperability. The specific labeled concept content the project has authored
+(definitions, scope notes, and the scholarly choices they embody) is authored
+scholarship and is released under CC BY 4.0, so that reuse carries attribution.
+Where the boundary is genuinely ambiguous, treat the material as DATA (CC BY 4.0).
+
+Source quotations
+-----------------
+
+Direct quotations from primary sources in public-domain editions are unrestricted.
+Quotations from modern critical editions and translations are used for evidential
+purposes under fair-use / fair-dealing provisions, with the edition and translator
+recorded in the attestation record. See docs/governance.md, section 8.3.
+
+SPDX summary
+------------
+
+  records/, data/, vocabularies/ (content)      CC-BY-4.0
+  tools/, *.py, scripts                          Apache-2.0
+  schema/, vocabularies/ (structure)             CC0-1.0
