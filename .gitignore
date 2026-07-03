@@ -5,3 +5,7 @@ current_entities.txt
 # Derived artifacts — regenerate with tools/export_geojson.py
 places.geojson
 *.geojson
+
+# Derived artifacts — regenerate with tools/export_geojson.py
+places.geojson
+*.geojson
