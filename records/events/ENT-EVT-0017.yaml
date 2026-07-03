@@ -18,6 +18,8 @@
     and the caliph ʿAlī during the First Fitna. In the account Eger cites, Muʿāwiya's
     troops seized the water supply and ʿAlī's men suffered thirst and desertion.
   overall_confidence: 4
+  political_entities_involved:
+  - ENT-POL-0005
   analytical_summary: First-Fitna battle of 657, introduced by Eger only for its water-supply
     episode, which illustrates the strategic importance of Euphrates irrigation/water
     control at the Dibsi Faraj/Ṣiffīn locale.
@@ -26,7 +28,7 @@
   - ATT-0131
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

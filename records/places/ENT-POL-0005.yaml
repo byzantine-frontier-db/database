@@ -1,0 +1,41 @@
+- record_type: place
+  id: ENT-POL-0005
+  standardised_name: Rāshidūn Caliphate
+  alternative_names:
+  - form: al-Khilāfa al-Rāshida
+    language: ar
+    script: Arab
+    name_type: historical_attestation
+  - form: Rightly-Guided Caliphate
+    language: en
+    script: Latn
+    name_type: translation
+  place_type: administrative_unit
+  identification_status: identified
+  identification_confidence: 5
+  overall_confidence: 5
+  frontier_role: The first caliphate, under which the early Islamic conquests brought
+    Syria, the Jazīra, and the future Thughūr–ʿAwāṣim frontier zone under Muslim control;
+    formative rather than administrative in the frontier's later sense.
+  analytical_summary: The Rāshidūn ("Rightly-Guided") Caliphate, 632–661 CE — from the
+    succession of Abū Bakr after the death of the Prophet to the end of the caliphate
+    of ʿAlī ibn Abī Ṭālib. Its caliphs were Abū Bakr, ʿUmar ibn al-Khaṭṭāb, ʿUthmān
+    ibn ʿAffān, and ʿAlī. The conquest-era polity to which the corpus's early commanders
+    (Abū ʿUbayda, Iyāḍ ibn Ghanm, Ḥabīb ibn Maslama) and events (the north-Syrian and
+    Jaziran conquests, Ṣiffīn) belong. Predecessor to the Umayyad Caliphate (ENT-POL-0003).
+  linked_attestations:
+  - ATT-0263
+  linked_interpretations: []
+  notes: FIRST ACTIVATION of a Rāshidūn polity entity (schema-bootstrap pattern) —
+    flagged for Technical Lead. Modelled as administrative_unit with an ENT-POL identifier,
+    consistent with ENT-POL-0001/0002/0003/0004. Bootstrapped with ATT-0263 (ʿUthmān's
+    order to settle Arab tribes across the Jazīra; al-Balādhurī, Futūḥ al-buldān, via
+    Eger 2015) to satisfy linked_attestations minItems:1; further attestations accrue
+    as conquest-era persons and events are back-referenced to this polity. Dates 632–661 CE.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-02T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

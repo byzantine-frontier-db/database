@@ -18,6 +18,8 @@
   participants:
   - ENT-PERS-0074
   overall_confidence: 3
+  political_entities_involved:
+  - ENT-POL-0005
   analytical_summary: 'A treaty by which Ḥabīb ibn Maslama al-Fihrī, acting governor
     of Anṭākiya, sought to bind the Jarājima during the conquests: they would act
     as spies and participate in raids, were absolved from tax, and were allowed to
@@ -30,7 +32,7 @@
   editorial_review_required: true
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-21T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

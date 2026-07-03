@@ -18,17 +18,18 @@
   - ENT-PERS-0065
   - ENT-PERS-0020
   overall_confidence: 3
+  political_entities_involved:
+  - ENT-POL-0005
   analytical_summary: Per Balādhurī (via Eger), Caliph ʿUthmān instructed Muʿāwiya,
     governor of Syria, to settle Arab tribes far from cities and villages across the
     Jazīra and to use unowned land; specific tribal settlements followed in Diyār
     Muḍar and elsewhere.
-  notes: Rāshidūn-period event; the Rāshidūn caliphate is not in the corpus, so political_entities_involved
-    is left empty (flagged for Technical Lead).
+  notes: Rāshidūn-period event; political_entities_involved now references ENT-POL-0005 (Rāshidūn Caliphate, minted 2026-07-02).
   linked_attestations:
   - ATT-0263
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-20T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

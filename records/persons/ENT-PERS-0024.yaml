@@ -7,6 +7,7 @@
     script: Arab
     name_type: standardised
   person_type: caliph
+  political_affiliation: ENT-POL-0005
   offices_held:
   - office: Caliph (Rāshidūn)
     valid_from: 656
@@ -22,7 +23,7 @@
   - ATT-0131
   metadata:
     schema_version: 1.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

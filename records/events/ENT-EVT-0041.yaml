@@ -12,16 +12,17 @@
   associated_places:
   - ENT-PLC-0153
   overall_confidence: 3
+  political_entities_involved:
+  - ENT-POL-0005
   analytical_summary: An early Arab raid on Euchaita in which a 5,000-strong army
     wintered around the city with mounts, pack animals and herds, holding a large
     band of captives - cited to illustrate conquest-era nomadic wintering.
-  notes: Rāshidūn-period raid; political_entities_involved left empty (no Rāshidūn
-    polity in corpus).
+  notes: Rāshidūn-period raid; political_entities_involved now references ENT-POL-0005 (Rāshidūn Caliphate).
   linked_attestations:
   - ATT-0271
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-20T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

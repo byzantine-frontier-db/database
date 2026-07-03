@@ -8,6 +8,7 @@
   - ENT-PLC-0103
   - ENT-PLC-0091
   - ENT-EVT-0033
+  - ENT-POL-0005
   observations_supported:
   - OBS-0188
   provenance: primary_quotation
@@ -25,7 +26,7 @@
     (ar-Rābiyah, al-Māzihīn, al-Mudaibir) deferred.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-06-20T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
