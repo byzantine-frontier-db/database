@@ -1,0 +1,41 @@
+=== normalize_gazetteer.py change report ===
+mojibake dot-below glyphs repaired : 631
+page-number lines removed          : 119
+footnote lines de-interleaved       : 170
+site headers detected               : 45
+coordinate lines found              : 28  (usable=27, flagged=1)
+
+--- ALL coordinates (auditable: entry, zone, raw UTM -> WGS84) ---
+  Adana                          36N N4095901 E708016 -> 36.98626,35.33729
+  Anṭākiya                       37N N4010217 E244752 -> 36.20314,36.16098
+  ‘Awlās/Ḥiṣn ‘Awlās             36N N4035867 E602767 -> 36.46256,34.14695
+  ‘Ayn Zarba                     36N N412718 E757076 -> 37.25572,35.89868  [REPAIRED]
+  Baghrās                        37N N4038328 E254051 -> 36.45869,36.25543
+  Bālis                          37N N3983024 E419730 -> 35.98836,38.10952
+  Bayās                          37N N4071391 E251306 -> 36.75569,36.21414
+  Būqā                           37N N4054953 E269569 -> 36.61227,36.42347
+  Dābiq                          37N N4045025 E345134 -> 36.53809,37.26995
+  Dulūk                          37N N4113393 E354515 -> 37.15562,37.36161
+  Göynük)                        37N N4173794 E362406 -> 37.70106,37.43919
+  Hārūnīyya                      37N N4125125 E273665 -> 37.2452,36.44824
+  Ḥiṣn al-Tīnāt                  37N N4083216 E246048 -> 36.86077,36.15136
+  Ḥiṣn Kamkh                     37N N4383256 E503197 -> 39.59903,39.03724
+  Ḥiṣn Manṣūr                    37N N4179360 E436191 -> 37.75933,38.27559
+  Ḥiṣn Ziyād                     37N N4283871 E522378 -> 38.70319,39.25736
+  (see Chapter 4)                37N N4052271 E248303 -> 36.58275,36.18681
+  Gözeneler                      36N N43750 E95800 -> —  [UNRECOVERABLE]
+  Malaṭiya                       37N N4252799 E444661 -> 38.42173,38.36605
+  Manbij/Jisr Manbij             37N N4043273 E406771 -> 36.5303,37.95859
+  Al-Maṣṣīṣa                     36N N4093412 E733600 -> 36.95784,35.62372
+  (see Chapter 4)                36N N4090149 E765645 -> 36.91997,35.98208
+  Qūrus                          37N N4068531 E317837 -> 36.74505,36.95959
+  Ra‘bān                         37N N4142864 E384111 -> 37.42534,37.69022
+  Sīs (Sīsīya)                   36N N4148511 E748786 -> 37.45002,35.81247
+  Ṭaranda                        37N N4270288 E368271 -> 38.57129,37.48786
+  Tarsus/Arsus                   36N N408631 E668364 -> 36.90778,34.88986  [REPAIRED]
+  Zibaṭra                        37N N4216642 E402006 -> 38.09227,37.88248
+
+--- FLAGGED for editorial review ---
+  REPAIRED  ‘Ayn Zarba: 36N N412718 E757076 -> N4127180 (37.25572,35.89868) conf=2 :: northing lost a trailing digit; easting confirms Anavarza (~37.28N 35.86E)
+  UNRECOVERABLE  Gözeneler: 36N N43750 E95800 :: both figures truncated to 5 digits; multiple digits lost and northing ambiguous (4093750 vs 4043750). Flag for manual entry against the printed source.
+  REPAIRED  Tarsus/Arsus: 36N N408631 E668364 -> N4086310 (36.90778,34.88986) conf=2 :: northing lost a trailing digit; Gözlü Küle is the Tarsus mound -> attribute to ENT-PLC-0004 Tarsus (~36.90N 34.90E)

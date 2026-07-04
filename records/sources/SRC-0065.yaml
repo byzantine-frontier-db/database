@@ -1,0 +1,50 @@
+- record_type: source
+  id: SRC-0065
+  standardised_title: 'Eger, A. Asa, The Spaces Between the Teeth: Environment, Settlement,
+    and Interaction on the Islamic-Byzantine Frontier — Appendix 2: A Gazetteer of Early
+    Islamic Thughūr and ʿAwāṣim Sites'
+  alternative_titles:
+  - The Spaces Between the Teeth
+  - Eger 2008 dissertation gazetteer
+  date_of_composition:
+    start: 2008
+    end: 2008
+    precision: year
+    confidence: 5
+  language: en
+  script: Latn
+  genre: gazetteer
+  edition_used: 'Doctoral dissertation, University of Chicago, 2008; Appendix 2 (pp. 436–554).'
+  reliability_assessment: Dual-role source. For Section 4 (personal observations) Eger is a
+    primary observer — dated first-person site autopsy from fieldwork in 2002–2006 — strong
+    for the physical state of frontier sites at time of visit. For Sections 1–3 the appendix
+    synthesises primary texts and modern scholarship and advances Eger's own identifications
+    (e.g. Ḥadath, Hārūnīyya). Coordinates are Eger's map-derived UTM points, metre-figured
+    but map-scale in true accuracy.
+  known_biases: Shares the frontier-as-exchange interpretive frame of Eger 2015 (SRC-0007);
+    some site identifications are Eger's novel arguments rather than settled consensus and
+    should be modelled as InterpretationRecords, not asserted facts.
+  dependencies: []
+  notes: 'Phase 2 extraction source. THREE DISTINCT ATTESTATION PATTERNS derive from this
+    one record, keyed by gazetteer section: (1) Section-1 coordinate line → provenance
+    gis_derived_observation, recording Eger''s locational identification; (2) Section-4
+    personal observations → provenance primary_observation (visited sites only), carrying
+    observation_date from the dated visit; (3) Section-2 historical narrative → provenance
+    primary_paraphrase attested against the underlying primary SourceRecord with "reached
+    via Eger 2008" in the citation, mirroring the SRC-0007 transmission-chain pattern.
+    COORDINATES are UTM-sourced from the appendix and converted to WGS84 (EPSG:326xx→4326)
+    via pyproj; per-record coordinate_method should record "UTM (zone) from Eger 2008
+    gazetteer, converted via pyproj" with uncertainty_radius_m ≈ 500 (map-derivation, not
+    the spurious metre precision). SOURCE TEXT was normalised with tools/normalize_gazetteer.py
+    (PUA dot-below mojibake repaired, page numbers and footnotes de-interleaved); cleaned
+    text at docs/eger_2008_gazetteer_cleaned.txt, extracted coordinates at
+    docs/eger_2008_coordinates.json. Relationship to SRC-0007: the 2015 monograph is the
+    later published synthesis building on this dissertation; the two are distinct sources
+    (2008 = primary fieldwork gazetteer; 2015 = secondary monograph).'
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-04T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
