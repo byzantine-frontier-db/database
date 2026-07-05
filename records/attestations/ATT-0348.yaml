@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0348
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0120
+  observations_supported:
+  - OBS-0240
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, "Personal Observations" (SRC-0065),
+    reporting the first (2004) visit.
+  paraphrase: On Eger's first visit to the site, in 2004, a local villager recovered
+    a post-reform Umayyad coin from the surface while the team was walking the site.
+  observation_date:
+    start: '2004'
+    precision: year
+    confidence: 5
+  confidence: 3
+  notes: Section-4 first-person autopsy; schema v2 record. Deliberately modelled as
+    a separate, year-precise observation distinct from the day-dated 8/3/04 block, since
+    the text places the coin find on the earlier "first visit in 2004" (no day given).
+    A stray surface find; a post-reform Umayyad coin is a mild tension with the mid-eighth-century
+    resettlement reading (OBS-0239) and is flagged as such.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

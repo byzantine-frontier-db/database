@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0343
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0120
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba (SRC-0065); coordinate 36N N412718
+    E757076 (northing repaired to 4127180), converted to WGS84 (37.25572, 35.89868)
+    via pyproj.
+  paraphrase: Eger identifies ʿAyn Zarba with classical Anazarbus (modern Anavarza/Dilekayya),
+    at the foot of an isolated limestone outcrop in the eastern Cilician plain, just
+    north of a large bend of the Jayhān and roughly one day's march (~24 miles) north-east
+    of Sīs.
+  confidence: 2
+  notes: 'Section-1 locational identification. The coordinate added to ENT-PLC-0120
+    is a REPAIRED point: the raw northing 412718 had lost a trailing digit and was restored
+    to 4127180 (the easting independently confirms Anavarza). coordinate_confidence 2
+    — flagged for editorial review against the printed source.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

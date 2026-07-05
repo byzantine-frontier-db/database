@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0341
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0119
+  observations_supported:
+  - OBS-0236
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Adhana, "Personal Observations, 7/20/05" (SRC-0065).
+  paraphrase: On a visit of 20 July 2005 Eger found the east bank of the Sayhān occupied
+    by a poorer modern quarter with no surface trace of the ruined castle or "great
+    mosque" reported by nineteenth-century travellers; aside from the Roman bridge,
+    little of the city's antiquity is now locatable above ground.
+  observation_date:
+    start: '2005-07-20'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record (primary_observation
+    + observation_date).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

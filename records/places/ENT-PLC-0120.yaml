@@ -19,11 +19,19 @@
   - ATT-0267
   - ATT-0283
   - ATT-0324
+  - ATT-0343
+  - ATT-0344
+  - ATT-0345
+  - ATT-0346
+  - ATT-0347
+  - ATT-0348
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.5.0
+    schema_version: 2.0.0
+    record_version: 1.6.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
+    modified_at: '2026-07-05T00:00:00Z'
+    modified_by: Curtis
     workflow_state: draft
     editorial_review_required: true
   alternative_names:
@@ -36,6 +44,22 @@
     script: Latn
     name_type: modern_name
   frontier_role: Eastern-plain town guarding the Jayhān-Taurus route to Cappadocia.
+  coordinates:
+    latitude: 37.25572
+    longitude: 35.89868
+    crs: EPSG:4326
+    coordinate_source: 'UTM 36N from Eger 2008 gazetteer (SRC-0065): raw N412718 E757076;
+      northing REPAIRED to 4127180 (lost a trailing digit — the easting independently
+      confirms Anavarza). Converted to WGS84 via pyproj.'
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 2
+  notes: 'Coordinate added Session 1 (Phase 2) from a REPAIRED gazetteer point —
+    coordinate_confidence 2, FLAGGED for editorial review against the printed source
+    (editorial_review_required already true). Locational identification recorded as
+    ATT-0343. coordinate_method is the schema enum gazetteer_entry; the UTM/repair
+    detail is held in coordinate_source.'
   linked_interpretations:
   - INT-0147
   - INT-0060

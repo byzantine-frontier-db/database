@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0338
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0119
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Adhana (SRC-0065); coordinate 36N N4095901
+    E708016, converted to WGS84 (36.98626, 35.33729) via pyproj.
+  paraphrase: Eger locates Adhana (Adana) on an isolated circular hill rising from
+    the Cilician plain a few miles below the Taurus foothills, with the Sayhān (classical
+    Sarus) river at the base of its eastern side; about one journey's stop (~20 miles)
+    from al-Maṣṣīṣa.
+  confidence: 5
+  notes: Section-1 locational identification (Eger equating Adhana with modern Adana).
+    Coordinate added to ENT-PLC-0119 (map-derived, uncertainty ~500 m).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0347
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0120
+  observations_supported:
+  - OBS-0239
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, "Personal Observations, 8/3/04"
+    (SRC-0065).
+  paraphrase: Preliminary surface collection showed an overwhelming preponderance of
+    ʿAbbāsid ceramics (many brittleware holemouth rims) with almost no seventh-century
+    brittleware diagnostics and very few Syrian yellow-glaze wares, consistent with
+    resettlement of the site only from the mid-eighth century; Roman through Middle
+    Islamic surface material was largely confined within the city walls rather than
+    the extramural areas.
+  observation_date:
+    start: '2004-08-03'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record. Corroborates
+    the Posamentir/Eger ceramic picture already summarised on ENT-PLC-0120.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0345
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0120
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba (SRC-0065), reporting R. Edwards'
+    survey of the fortifications.
+  paraphrase: Edwards' survey of the south circuit wall distinguished an Islamic building
+    phase — smooth recycled ashlar in irregular courses over a socle of small crude
+    stones — from the underlying Byzantine opus listatum; a fragmentary Kufic dedicatory
+    inscription naming al-Mutawakkil (r. 846–861) survives on the lower-city circuit,
+    associating a wall repair with his reign.
+  confidence: 3
+  notes: 'Section-3 published-archaeology pattern (excavator/surveyor: R. Edwards).
+    The al-Mutawakkil Kufic dedicatory inscription is a candidate future epigraphic
+    SourceRecord — distinct from the sixth-century Anazarbus tariff inscription (SRC-0050).
+    Cited by entry, s.v. ʿAyn Zarba.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

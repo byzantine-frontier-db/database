@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0346
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0120
+  observations_supported:
+  - OBS-0238
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, "Personal Observations, 8/3/04"
+    (SRC-0065).
+  paraphrase: Working the site on 3 August 2004 with R. Posamentir's DAI (Istanbul)
+    team, Eger recorded a flat scrub landscape grazed by sheep and goats; the standing
+    architecture is identifiably Roman or Late Roman/Byzantine, with two tile baths
+    surviving exceptionally well amid deep sedimentation (a local villager reporting
+    ~4 m), possibly reused as pottery kilns; the monumental arch is in precarious disrepair
+    and many of its stones — including inscribed blocks sought for the Kufic text —
+    have been removed by house-building.
+  observation_date:
+    start: '2004-08-03'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -17,13 +17,21 @@
   - ATT-0257
   - ATT-0266
   - ATT-0272
+  - ATT-0338
+  - ATT-0339
+  - ATT-0340
+  - ATT-0341
+  - ATT-0342
   linked_interpretations:
   - INT-0059
+  - INT-0164
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.2.0
+    schema_version: 2.0.0
+    record_version: 1.3.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
+    modified_at: '2026-07-05T00:00:00Z'
+    modified_by: Curtis
     workflow_state: draft
     editorial_review_required: true
   alternative_names:
@@ -33,3 +41,16 @@
     name_type: modern_name
   frontier_role: Central node of the Cilician city triad between mountain passes and
     sea.
+  coordinates:
+    latitude: 36.98626
+    longitude: 35.33729
+    crs: EPSG:4326
+    coordinate_source: UTM 36N N4095901 E708016 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 5
+  notes: Coordinate added Session 1 (Phase 2) from Eger 2008 gazetteer (SRC-0065),
+    clean 36N conversion; locational identification recorded as ATT-0338. coordinate_method
+    is the schema enum gazetteer_entry (the UTM-source detail is held in coordinate_source).

@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0342
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0119
+  observations_supported:
+  - OBS-0237
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Adhana, "Personal Observations, 7/20/05" (SRC-0065).
+  paraphrase: On the same 2005 visit Eger recorded that the Adana museum holds a hoard
+    of ʿAbbāsid silver dirhams for which he could find no recorded find-provenance.
+  observation_date:
+    start: '2005-07-20'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record. Unprovenanced
+    hoard — evidential weight limited by the missing find-context.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

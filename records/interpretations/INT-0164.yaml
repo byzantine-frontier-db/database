@@ -1,0 +1,30 @@
+- record_type: interpretation
+  id: INT-0164
+  associated_entities:
+  - ENT-PLC-0119
+  scholar: A. Asa Eger
+  publication: 'The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Adhana'
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Eger reads Adhana's two documented settlement loci — the west-bank Tepebağ
+    hill and the east-bank riverine quarter — as corresponding either to two distinct
+    Early Islamic encampments (a Syrian and a Khurāsānī) or to a fortress-and-town
+    pairing, following the historical evidence for successive Umayyad and ʿAbbāsid
+    foundations on both banks of the Sayhān.
+  supporting_evidence:
+  - ATT-0339
+  - ATT-0340
+  - ATT-0341
+  confidence: 3
+  notes: Eger's own identification (Section-2/Section-4 synthesis), attributed to him
+    against SRC-0065 rather than asserted as fact. Rests on the fortification history
+    (ATT-0339, ATT-0340) and his 2005 site autopsy (ATT-0341); supporting_evidence
+    is attestation-only per the INT evidence rule. The Syrian-vs-Khurāsānī split is
+    the more specific of the two readings Eger offers and remains a hypothesis.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
