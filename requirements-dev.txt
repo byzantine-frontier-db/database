@@ -1,0 +1,13 @@
+# Development / tooling dependencies for the Byzantine-Islamic Frontier Database.
+#
+# The core validators (tools/byzfrontier_validate.py, tools/byzfrontier_xref.py)
+# and CI require only:
+PyYAML>=6.0
+jsonschema>=4.0
+#
+# Additional, script-specific dependency:
+#   pyproj — required ONLY by tools/normalize_gazetteer.py for UTM->WGS84
+#   coordinate conversion of the Eger 2008 gazetteer. Not used by CI (which runs
+#   the validators against records/, not tools/). The script guards its import
+#   and raises a clear message if pyproj is absent.
+pyproj>=3.4
