@@ -140,6 +140,12 @@ Changes to the JSON Schema are categorised:
 
 The schema is itself a published artefact; every change is announced in the change log.
 
+**Transition window and lazy migration.** During a transition period the validators accept multiple schema versions at once: `tools/byzfrontier_validate.py` is given each active schema (e.g. `--schema` for both v1 and v2) and dispatches every record to the schema whose `RecordMetadata.schema_version` const matches that record's declared `metadata.schema_version`. Records under different schema versions therefore coexist and all validate.
+
+Schema-version migration is **lazy, not a mass rewrite**. A record's `metadata.schema_version` is updated to whichever schema is current only when the record next receives a MINOR or MAJOR version bump for some other reason. Over time the corpus migrates onto the current schema without a dedicated rewrite pass; records not otherwise touched remain valid under their original schema for the duration of the transition window.
+
+**Split-ship of required-field changes.** Promoting a field to `required` is a MAJOR change that would otherwise break every record producer simultaneously. Such changes ship in two stages: first the field is added as an optional property definition (PATCH/MINOR); then, once lazy migration has carried the corpus onto the new schema version, the field is promoted to `required` (MAJOR). Consumers adopt the field during the interval between the two stages.
+
 ### 5.7 Decision-Making Procedure
 
 The default Board procedure is:

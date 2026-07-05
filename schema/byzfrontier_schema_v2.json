@@ -1,0 +1,1528 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byzantine-frontier-db.org/schema/v1.0.0",
+  "title": "Byzantine-Islamic Frontier Database Schema",
+  "version": "1.0.0",
+  "description": "JSON Schema (Draft 2020-12) for records in the Byzantine-Islamic Frontier Historical-Geographical Database. Defines all record types (sources, places, persons, events, observations, attestations, interpretations, relationships) and shared types (temporal values, coordinates, controlled vocabularies). Validating records against this schema is the formal correctness criterion for the database.",
+  "$defs": {
+    "Identifier": {
+      "type": "string",
+      "pattern": "^(ENT-(PLC|PERS|EVT|POL|GRP|INS|RTE|OBJ)|SRC|OBS|ATT|INT|REL)-[0-9]{4,8}$",
+      "description": "Internal database identifier. ENT-PLC (place), ENT-PERS (person), ENT-EVT (event), ENT-POL (political entity), ENT-GRP (group), ENT-INS (institution), ENT-RTE (route), ENT-OBJ (object), SRC (source), OBS (observation), ATT (attestation), INT (interpretation), REL (relationship). Numbers zero-padded to at least 4 digits."
+    },
+    "URI": {
+      "type": "string",
+      "format": "uri"
+    },
+    "ExternalIdentifier": {
+      "type": "object",
+      "properties": {
+        "authority": {
+          "type": "string",
+          "enum": [
+            "pleiades",
+            "viaf",
+            "geonames",
+            "tgn",
+            "wikidata",
+            "pinakes",
+            "trismegistos",
+            "vcba",
+            "pbw",
+            "pmbz",
+            "loc",
+            "isni",
+            "gnd",
+            "other"
+          ]
+        },
+        "identifier": {
+          "type": "string"
+        },
+        "uri": {
+          "$ref": "#/$defs/URI"
+        }
+      },
+      "required": [
+        "authority",
+        "identifier"
+      ]
+    },
+    "PersistentIdentifier": {
+      "type": "object",
+      "description": "Internal and external identifier bundle. The internal_id is canonical; external_identifiers cross-reference authoritative external authorities (Pleiades, VIAF, PMBZ, Wikidata, etc.). See Ontology Alignment §6.",
+      "properties": {
+        "internal_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "canonical_uri": {
+          "$ref": "#/$defs/URI"
+        },
+        "external_identifiers": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ExternalIdentifier"
+          }
+        }
+      },
+      "required": [
+        "internal_id"
+      ]
+    },
+    "ConfidenceLevel": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "5 Certain; 4 Highly Probable; 3 Probable; 2 Possible; 1 Speculative. See specification §6."
+    },
+    "TemporalPrecision": {
+      "type": "string",
+      "enum": [
+        "exact_day",
+        "month",
+        "season",
+        "year",
+        "year_range_narrow",
+        "year_range_broad",
+        "decade",
+        "quarter_century",
+        "half_century",
+        "century",
+        "relative_before",
+        "relative_after",
+        "relative_between",
+        "unknown"
+      ],
+      "description": "year_range_narrow: 2-5 years; year_range_broad: 6-20 years. See specification §7.1."
+    },
+    "DatingSystem": {
+      "type": "string",
+      "enum": [
+        "AD",
+        "BC",
+        "CE",
+        "BCE",
+        "AH",
+        "AM_byzantine",
+        "AM_alexandrian",
+        "regnal_byzantine",
+        "regnal_abbasid",
+        "regnal_umayyad",
+        "indiction",
+        "seleucid",
+        "olympiad",
+        "archaeological_phase",
+        "palaeographic",
+        "radiocarbon"
+      ]
+    },
+    "DatingValue": {
+      "type": "object",
+      "properties": {
+        "system": {
+          "$ref": "#/$defs/DatingSystem"
+        },
+        "value": {
+          "type": "string",
+          "description": "Native form of the date in the given system, e.g. 'AH 223' or 'regnal year 9 of Theophilos'."
+        },
+        "normalised_start": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "normalised_end": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "system",
+        "value"
+      ]
+    },
+    "TemporalValue": {
+      "type": "object",
+      "description": "Dual-axis temporal representation. Precision and confidence are independent.",
+      "properties": {
+        "start": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^-?[0-9]{1,4}(-[0-9]{2}(-[0-9]{2})?)?$"
+            },
+            {
+              "type": "integer"
+            }
+          ],
+          "description": "Year, year-month, or year-month-day. Year accepts 1 to 4 digits with optional negative sign (BCE). Pre-Gregorian dates are normalised to the Julian calendar by editorial convention."
+        },
+        "end": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^-?[0-9]{1,4}(-[0-9]{2}(-[0-9]{2})?)?$"
+            },
+            {
+              "type": "integer"
+            }
+          ]
+        },
+        "precision": {
+          "$ref": "#/$defs/TemporalPrecision"
+        },
+        "confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "primary_dating_system": {
+          "$ref": "#/$defs/DatingSystem"
+        },
+        "alternative_datings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DatingValue"
+          }
+        },
+        "relative_to": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "description": "Required when precision is relative_before, relative_after, or relative_between."
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "precision",
+        "confidence"
+      ]
+    },
+    "IdentificationStatus": {
+      "type": "string",
+      "enum": [
+        "identified",
+        "probably_identified",
+        "approximately_identified",
+        "hypothetically_identified",
+        "unidentified",
+        "disputed"
+      ]
+    },
+    "CoordinateMethod": {
+      "type": "string",
+      "enum": [
+        "archaeological_survey",
+        "modern_map",
+        "satellite_imagery",
+        "scholarly_identification",
+        "inference_from_itinerary",
+        "gazetteer_entry",
+        "computed_centroid",
+        "other"
+      ]
+    },
+    "CoordinatePrecision": {
+      "type": "string",
+      "enum": [
+        "point",
+        "building",
+        "site",
+        "settlement",
+        "locality",
+        "region"
+      ]
+    },
+    "Coordinates": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        },
+        "crs": {
+          "type": "string",
+          "const": "EPSG:4326",
+          "description": "WGS84 is mandated for v1.0.0."
+        },
+        "coordinate_source": {
+          "type": "string"
+        },
+        "coordinate_method": {
+          "$ref": "#/$defs/CoordinateMethod"
+        },
+        "coordinate_precision": {
+          "$ref": "#/$defs/CoordinatePrecision"
+        },
+        "uncertainty_radius_m": {
+          "type": "number",
+          "minimum": 0
+        },
+        "coordinate_confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude",
+        "crs",
+        "coordinate_method",
+        "coordinate_precision",
+        "coordinate_confidence"
+      ]
+    },
+    "LanguageCode": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}$",
+      "description": "ISO 639-1 (preferred) or ISO 639-3 language code. e.g. ar, grc, syr, hy, ka, la, en."
+    },
+    "ScriptCode": {
+      "type": "string",
+      "pattern": "^[A-Z][a-z]{3}$",
+      "description": "ISO 15924 script code. e.g. Arab, Grek, Syrc, Armn, Geor, Latn."
+    },
+    "AlternativeName": {
+      "type": "object",
+      "properties": {
+        "form": {
+          "type": "string"
+        },
+        "language": {
+          "$ref": "#/$defs/LanguageCode"
+        },
+        "script": {
+          "$ref": "#/$defs/ScriptCode"
+        },
+        "name_type": {
+          "type": "string",
+          "enum": [
+            "standardised",
+            "transliteration",
+            "translation",
+            "historical_attestation",
+            "kunya_nasab",
+            "regnal_name",
+            "monastic_name",
+            "epithet",
+            "modern_name",
+            "alternative_transliteration"
+          ]
+        },
+        "attested_in": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        }
+      },
+      "required": [
+        "form",
+        "language",
+        "script"
+      ]
+    },
+    "ProvenanceCategory": {
+      "type": "string",
+      "enum": [
+        "primary_quotation",
+        "primary_paraphrase",
+        "primary_summary",
+        "primary_observation",
+        "archaeological_evidence",
+        "epigraphic_evidence",
+        "numismatic_evidence",
+        "papyrological_evidence",
+        "sigillographic_evidence",
+        "modern_synthesis",
+        "modern_identification",
+        "modern_interpretation",
+        "gis_derived_observation",
+        "editorial_inference",
+        "cross_source_synthesis"
+      ]
+    },
+    "EventCategory": {
+      "type": "string",
+      "enum": [
+        "military",
+        "political",
+        "diplomatic",
+        "administrative",
+        "economic",
+        "religious",
+        "cultural",
+        "demographic",
+        "environmental",
+        "construction_infrastructure"
+      ]
+    },
+    "EventSubCategory": {
+      "type": "string",
+      "description": "Controlled sub-category vocabulary per specification §9.2. Sub-categories must be consistent with the parent EventCategory.",
+      "enum": [
+        "raid",
+        "incursion",
+        "siege",
+        "assault",
+        "battle",
+        "skirmish",
+        "ambush",
+        "naval_engagement",
+        "occupation",
+        "garrisoning",
+        "fortification",
+        "withdrawal",
+        "retreat",
+        "surrender",
+        "capture_of_fortress",
+        "sack_of_city",
+        "destruction",
+        "deportation_of_population",
+        "ransoming",
+        "prisoner_exchange",
+        "military_review",
+        "mustering",
+        "campaign",
+        "accession",
+        "deposition",
+        "succession_dispute",
+        "revolt",
+        "usurpation",
+        "civil_war",
+        "assassination",
+        "oath_of_allegiance",
+        "dynastic_marriage",
+        "regency",
+        "embassy",
+        "treaty",
+        "truce",
+        "ransom_negotiation",
+        "gift_exchange",
+        "formal_correspondence",
+        "alliance",
+        "hostage_exchange",
+        "appointment",
+        "dismissal",
+        "creation_of_administrative_unit",
+        "dissolution_of_administrative_unit",
+        "boundary_change",
+        "census",
+        "fiscal_reform",
+        "trade_activity",
+        "market_establishment",
+        "taxation_event",
+        "tribute_payment",
+        "coinage_reform",
+        "famine",
+        "surplus",
+        "fiscal_grant",
+        "pilgrimage",
+        "monastic_foundation",
+        "church_construction",
+        "mosque_construction",
+        "council",
+        "synod",
+        "ordination",
+        "martyrdom",
+        "translation_of_relics",
+        "conversion_event",
+        "persecution",
+        "theological_controversy",
+        "translation_activity",
+        "manuscript_production",
+        "scholarly_exchange",
+        "literary_composition",
+        "migration",
+        "deportation",
+        "settlement",
+        "depopulation",
+        "plague_event",
+        "earthquake",
+        "flood",
+        "drought",
+        "climatic_event",
+        "agricultural_failure",
+        "wall_construction",
+        "fortress_construction",
+        "road_construction",
+        "bridge_construction",
+        "water_system_construction",
+        "harbour_works",
+        "repair",
+        "restoration"
+      ]
+    },
+    "EventTypeAssignment": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "$ref": "#/$defs/EventCategory"
+        },
+        "sub": {
+          "$ref": "#/$defs/EventSubCategory"
+        },
+        "secondary": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "primary": {
+                "$ref": "#/$defs/EventCategory"
+              },
+              "sub": {
+                "$ref": "#/$defs/EventSubCategory"
+              }
+            },
+            "required": [
+              "primary",
+              "sub"
+            ]
+          }
+        }
+      },
+      "required": [
+        "primary",
+        "sub"
+      ]
+    },
+    "PlaceType": {
+      "type": "string",
+      "enum": [
+        "settlement",
+        "city",
+        "village",
+        "fortification",
+        "fortress",
+        "castle",
+        "kastron",
+        "monastery",
+        "church",
+        "mosque",
+        "region",
+        "administrative_unit",
+        "theme",
+        "kura",
+        "jund",
+        "route",
+        "pass",
+        "river",
+        "mountain",
+        "frontier_zone",
+        "battle_site",
+        "natural_feature",
+        "harbour",
+        "bridge",
+        "ruined_site",
+        "capital_city",
+        "other"
+      ]
+    },
+    "PersonType": {
+      "type": "string",
+      "enum": [
+        "emperor",
+        "caliph",
+        "amir",
+        "general",
+        "strategos",
+        "patriarch",
+        "bishop",
+        "abbot",
+        "monk",
+        "ulema",
+        "qadi",
+        "vizier",
+        "courtier",
+        "soldier",
+        "civilian",
+        "scholar",
+        "martyr",
+        "saint",
+        "other_lay",
+        "other_religious",
+        "unspecified"
+      ]
+    },
+    "RelationshipType": {
+      "type": "string",
+      "enum": [
+        "located_at",
+        "contains",
+        "adjoins",
+        "lies_on_route",
+        "near",
+        "belongs_to",
+        "subordinate_to",
+        "in_revolt_against",
+        "allied_with",
+        "at_war_with",
+        "tributary_to",
+        "parent_of",
+        "child_of",
+        "sibling_of",
+        "spouse_of",
+        "kin_of",
+        "besieged",
+        "occupied",
+        "defended",
+        "captured",
+        "destroyed",
+        "founded",
+        "rebuilt",
+        "participated_in",
+        "led",
+        "witnessed",
+        "carried_out",
+        "victim_of",
+        "depends_on",
+        "contradicts",
+        "transmits",
+        "translates",
+        "summarises",
+        "attests",
+        "contradicts_attestation",
+        "supersedes_attestation",
+        "parent_event_of",
+        "child_event_of",
+        "concurrent_with",
+        "preceded_by",
+        "followed_by",
+        "alternative_identification_of",
+        "same_as",
+        "different_from"
+      ]
+    },
+    "WorkflowState": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "under_review",
+        "published",
+        "deprecated",
+        "withdrawn"
+      ]
+    },
+    "RecordMetadata": {
+      "type": "object",
+      "description": "Required on every record. Captures audit trail and workflow state.",
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "const": "2.0.0"
+        },
+        "record_version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "created_by": {
+          "type": "string"
+        },
+        "modified_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modified_by": {
+          "type": "string"
+        },
+        "workflow_state": {
+          "$ref": "#/$defs/WorkflowState"
+        },
+        "review_history": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "reviewer": {
+                "type": "string"
+              },
+              "date": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "decision": {
+                "type": "string",
+                "enum": [
+                  "accepted",
+                  "rejected",
+                  "revision_requested"
+                ]
+              },
+              "notes": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "reviewer",
+              "date",
+              "decision"
+            ]
+          }
+        },
+        "editorial_review_required": {
+          "type": "boolean",
+          "description": "True until a human has verified the record's cited source against the printed page (editorial_workflow.md rule 5). Records may publish only when false. Defined here in v2 (PATCH); promotion to REQUIRED is deferred to a later MAJOR step once lazy migration completes (governance section 5.6)."
+        }
+      },
+      "required": [
+        "schema_version",
+        "record_version",
+        "created_at",
+        "workflow_state"
+      ]
+    },
+    "ThreeLayerStructure": {
+      "type": "object",
+      "description": "Per specification §11. Every entity record carries an analytical_summary and links to attestations.",
+      "properties": {
+        "analytical_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "linked_interpretations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        }
+      }
+    },
+    "TimeBoundedAttribute": {
+      "type": "object",
+      "description": "Used for attributes that change over time (political affiliation, administrative status, etc.). Per spec §C.11 item 5.",
+      "properties": {
+        "value": {
+          "type": [
+            "string",
+            "object"
+          ]
+        },
+        "valid_from": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "valid_to": {
+          "type": [
+            "string",
+            "integer"
+          ]
+        },
+        "confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "value",
+        "valid_from",
+        "confidence"
+      ]
+    },
+    "SourceRecord": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "source"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "persistent_identifiers": {
+          "$ref": "#/$defs/PersistentIdentifier"
+        },
+        "standardised_title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternative_titles": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "author_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "author_unnamed": {
+          "type": "boolean",
+          "default": false
+        },
+        "date_of_composition": {
+          "$ref": "#/$defs/TemporalValue"
+        },
+        "language": {
+          "$ref": "#/$defs/LanguageCode"
+        },
+        "script": {
+          "$ref": "#/$defs/ScriptCode"
+        },
+        "genre": {
+          "type": "string",
+          "enum": [
+            "universal_chronicle",
+            "imperial_chronicle",
+            "local_chronicle",
+            "annals",
+            "history",
+            "hagiography",
+            "geographical_work",
+            "travel_account",
+            "military_treatise",
+            "legal_text",
+            "administrative_text",
+            "letter_collection",
+            "documentary_archive",
+            "inscription_corpus",
+            "numismatic_catalogue",
+            "sigillographic_catalogue",
+            "archaeological_publication",
+            "modern_monograph",
+            "modern_synthesis",
+            "gazetteer",
+            "prosopography",
+            "edition",
+            "translation",
+            "other"
+          ]
+        },
+        "edition_used": {
+          "type": "string"
+        },
+        "translation_used": {
+          "type": "string"
+        },
+        "transmission_history": {
+          "type": "string"
+        },
+        "reliability_assessment": {
+          "type": "string"
+        },
+        "known_biases": {
+          "type": "string"
+        },
+        "dependencies": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "manuscript_witnesses": {
+          "type": "array",
+          "description": "For source-critical work. v1.0.0 supports a list of witness references; full witness modelling deferred to v2.0.",
+          "items": {
+            "type": "object",
+            "properties": {
+              "shelf_mark": {
+                "type": "string"
+              },
+              "date": {
+                "$ref": "#/$defs/TemporalValue"
+              },
+              "notes": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "shelf_mark"
+            ]
+          }
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "standardised_title",
+        "language",
+        "genre",
+        "metadata"
+      ]
+    },
+    "PlaceEntity": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "place"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "persistent_identifiers": {
+          "$ref": "#/$defs/PersistentIdentifier"
+        },
+        "standardised_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternative_names": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/AlternativeName"
+          }
+        },
+        "place_type": {
+          "$ref": "#/$defs/PlaceType"
+        },
+        "identification_status": {
+          "$ref": "#/$defs/IdentificationStatus"
+        },
+        "identification_confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "coordinates": {
+          "$ref": "#/$defs/Coordinates"
+        },
+        "alternative_coordinates": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Coordinates"
+          },
+          "description": "For disputed identifications: each candidate identification's coordinates."
+        },
+        "political_affiliation_history": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TimeBoundedAttribute"
+          }
+        },
+        "administrative_status_history": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/TimeBoundedAttribute"
+          }
+        },
+        "frontier_role": {
+          "type": "string"
+        },
+        "environmental_setting": {
+          "type": "string"
+        },
+        "chronology": {
+          "$ref": "#/$defs/TemporalValue"
+        },
+        "associated_entities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "overall_confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "analytical_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1,
+          "description": "Per §3.1 every entity must have evidential support."
+        },
+        "linked_interpretations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "standardised_name",
+        "place_type",
+        "identification_status",
+        "identification_confidence",
+        "overall_confidence",
+        "analytical_summary",
+        "linked_attestations",
+        "metadata"
+      ]
+    },
+    "PersonEntity": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "person"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "persistent_identifiers": {
+          "$ref": "#/$defs/PersistentIdentifier"
+        },
+        "standardised_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "alternative_names": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/AlternativeName"
+          }
+        },
+        "person_type": {
+          "$ref": "#/$defs/PersonType"
+        },
+        "political_affiliation": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "religious_affiliation": {
+          "type": "string"
+        },
+        "offices_held": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "office": {
+                "type": "string"
+              },
+              "valid_from": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "valid_to": {
+                "type": [
+                  "string",
+                  "integer"
+                ]
+              },
+              "confidence": {
+                "$ref": "#/$defs/ConfidenceLevel"
+              }
+            },
+            "required": [
+              "office",
+              "confidence"
+            ]
+          }
+        },
+        "birth": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "$ref": "#/$defs/TemporalValue"
+            },
+            "place_id": {
+              "$ref": "#/$defs/Identifier"
+            }
+          }
+        },
+        "death": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "$ref": "#/$defs/TemporalValue"
+            },
+            "place_id": {
+              "$ref": "#/$defs/Identifier"
+            }
+          }
+        },
+        "kinship": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "relation": {
+                "type": "string",
+                "enum": [
+                  "father",
+                  "mother",
+                  "son",
+                  "daughter",
+                  "brother",
+                  "sister",
+                  "spouse",
+                  "cousin",
+                  "uncle",
+                  "aunt",
+                  "ancestor",
+                  "descendant",
+                  "kinsman"
+                ]
+              },
+              "person_id": {
+                "$ref": "#/$defs/Identifier"
+              },
+              "confidence": {
+                "$ref": "#/$defs/ConfidenceLevel"
+              }
+            },
+            "required": [
+              "relation",
+              "person_id"
+            ]
+          }
+        },
+        "overall_confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "analytical_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "linked_interpretations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "standardised_name",
+        "person_type",
+        "overall_confidence",
+        "analytical_summary",
+        "linked_attestations",
+        "metadata"
+      ]
+    },
+    "EventEntity": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "event"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "persistent_identifiers": {
+          "$ref": "#/$defs/PersistentIdentifier"
+        },
+        "standardised_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_type": {
+          "$ref": "#/$defs/EventTypeAssignment"
+        },
+        "parent_event": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "child_events": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "start_date": {
+          "$ref": "#/$defs/TemporalValue"
+        },
+        "end_date": {
+          "$ref": "#/$defs/TemporalValue"
+        },
+        "dating_basis": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DatingValue"
+          }
+        },
+        "associated_places": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "participants": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "political_entities_involved": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "related_events": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "description": {
+          "type": "string"
+        },
+        "historical_significance": {
+          "type": "string"
+        },
+        "overall_confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "analytical_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "linked_interpretations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "standardised_name",
+        "event_type",
+        "overall_confidence",
+        "analytical_summary",
+        "linked_attestations",
+        "metadata"
+      ]
+    },
+    "ObservationRecord": {
+      "type": "object",
+      "description": "A discrete propositional claim. Per spec §2.3.",
+      "properties": {
+        "record_type": {
+          "const": "observation"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "proposition": {
+          "type": "string",
+          "minLength": 1
+        },
+        "associated_entities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "supporting_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "contradicting_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "proposition",
+        "associated_entities",
+        "supporting_attestations",
+        "metadata"
+      ]
+    },
+    "AttestationRecord": {
+      "type": "object",
+      "description": "Evidential record linking a source to one or more observations about one or more entities. Per spec §2.4.",
+      "properties": {
+        "record_type": {
+          "const": "attestation"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "source": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "entities_referenced": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "observations_supported": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "provenance": {
+          "$ref": "#/$defs/ProvenanceCategory"
+        },
+        "citation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "direct_quotation": {
+          "type": "string"
+        },
+        "original_language_quotation": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "language": {
+              "$ref": "#/$defs/LanguageCode"
+            },
+            "script": {
+              "$ref": "#/$defs/ScriptCode"
+            }
+          }
+        },
+        "paraphrase": {
+          "type": "string"
+        },
+        "location_within_source": {
+          "type": "string",
+          "description": "Book, chapter, page, folio, line as applicable."
+        },
+        "editorial_interpretation": {
+          "type": "string"
+        },
+        "confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        },
+        "observation_date": {
+          "$ref": "#/$defs/TemporalValue",
+          "description": "Date a primary field observation was made (e.g. a dated site visit). Used with provenance primary_observation. Same temporal type as EventEntity.start_date for cross-field consistency."
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "source",
+        "entities_referenced",
+        "provenance",
+        "citation",
+        "confidence",
+        "metadata"
+      ]
+    },
+    "InterpretationRecord": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "interpretation"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "associated_entities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "minItems": 1
+        },
+        "scholar": {
+          "type": "string"
+        },
+        "publication": {
+          "type": "string"
+        },
+        "publication_source_id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "date": {
+          "type": "integer"
+        },
+        "argument": {
+          "type": "string",
+          "minLength": 1
+        },
+        "supporting_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "counter_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          }
+        },
+        "confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "associated_entities",
+        "argument",
+        "confidence",
+        "metadata"
+      ]
+    },
+    "RelationshipRecord": {
+      "type": "object",
+      "properties": {
+        "record_type": {
+          "const": "relationship"
+        },
+        "id": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "type": {
+          "$ref": "#/$defs/RelationshipType"
+        },
+        "source_entity": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "target_entity": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "temporal_scope": {
+          "$ref": "#/$defs/TemporalValue"
+        },
+        "spatial_scope": {
+          "$ref": "#/$defs/Identifier"
+        },
+        "confidence": {
+          "$ref": "#/$defs/ConfidenceLevel"
+        },
+        "linked_attestations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Identifier"
+          },
+          "description": "Direct evidential support. May be empty for structural relationships (e.g. parent_event_of, contains) whose evidence is inherited from related entities."
+        },
+        "notes": {
+          "type": "string"
+        },
+        "metadata": {
+          "$ref": "#/$defs/RecordMetadata"
+        }
+      },
+      "required": [
+        "record_type",
+        "id",
+        "type",
+        "source_entity",
+        "target_entity",
+        "confidence",
+        "metadata"
+      ]
+    }
+  },
+  "oneOf": [
+    {
+      "$ref": "#/$defs/SourceRecord"
+    },
+    {
+      "$ref": "#/$defs/PlaceEntity"
+    },
+    {
+      "$ref": "#/$defs/PersonEntity"
+    },
+    {
+      "$ref": "#/$defs/EventEntity"
+    },
+    {
+      "$ref": "#/$defs/ObservationRecord"
+    },
+    {
+      "$ref": "#/$defs/AttestationRecord"
+    },
+    {
+      "$ref": "#/$defs/InterpretationRecord"
+    },
+    {
+      "$ref": "#/$defs/RelationshipRecord"
+    }
+  ]
+}

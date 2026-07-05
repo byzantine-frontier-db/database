@@ -211,12 +211,31 @@ def cli_main():
         sys.exit(2)
 
     parser = argparse.ArgumentParser(description="Validate Byzfrontier records against the schema.")
-    parser.add_argument("--schema", required=True, help="Path to byzfrontier_schema_v1.json")
+    parser.add_argument("--schema", required=True, action="append",
+                        help="Path to a schema file. Repeatable: during the migration "
+                             "transition window pass --schema for each of v1 and v2. Each "
+                             "record is validated against the schema whose "
+                             "RecordMetadata.schema_version const matches the record's "
+                             "declared metadata.schema_version.")
     parser.add_argument("paths", nargs="+", help="YAML or JSON files / directories to validate")
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
 
-    validator = Validator.from_file(args.schema)
+    # {declared schema_version -> Validator} dispatch map (transition window). With a single
+    # --schema this behaves exactly as before: that schema validates every record.
+    schemas: dict = {}
+    for spath in args.schema:
+        sdoc = json.loads(Path(spath).read_text(encoding="utf-8"))
+        ver = (sdoc.get("$defs", {}).get("RecordMetadata", {})
+               .get("properties", {}).get("schema_version", {}).get("const"))
+        schemas[ver] = Validator(sdoc)
+    single = next(iter(schemas.values())) if len(schemas) == 1 else None
+
+    def pick_validator(rec):
+        if single is not None:
+            return single
+        ver = (rec.get("metadata") or {}).get("schema_version") if isinstance(rec, dict) else None
+        return schemas.get(ver)
 
     files = []
     for p in args.paths:
@@ -249,7 +268,14 @@ def cli_main():
         file_errors = 0
         for i, rec in enumerate(records):
             total_records += 1
-            errs = validator.validate(rec)
+            v = pick_validator(rec)
+            if v is None:
+                declared = (rec.get("metadata") or {}).get("schema_version") if isinstance(rec, dict) else None
+                errs = [ValidationError(["metadata", "schema_version"],
+                        f"no schema loaded for declared schema_version {declared!r} "
+                        f"(loaded: {sorted(k for k in schemas)})")]
+            else:
+                errs = v.validate(rec)
             if errs:
                 file_errors += len(errs)
                 rec_id = rec.get("id", f"<record {i}>") if isinstance(rec, dict) else f"<record {i}>"
