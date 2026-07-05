@@ -1,0 +1,948 @@
+{
+  "source": "Eger 2008 dissertation appendix (SRC-0065)",
+  "target": "docs/eger_2008_gazetteer_cleaned.txt",
+  "note": "byte_start/byte_end are UTF-8 byte offsets into the cleaned text AS EMITTED; re-run this tool if the cleaned file is edited. entries[] gives per-entry source page spans for citation (s.v. <entry>, pp. start-end).",
+  "pages": [
+    {
+      "page": 436,
+      "byte_start": 0,
+      "anchor": "APPENDIX 2",
+      "byte_end": 1621
+    },
+    {
+      "page": 437,
+      "byte_start": 1621,
+      "anchor": "the historical geography of certain thughūr sites that have ",
+      "byte_end": 2890
+    },
+    {
+      "page": 438,
+      "byte_start": 2890,
+      "anchor": "the mid nineteenth century.4",
+      "byte_end": 4553
+    },
+    {
+      "page": 439,
+      "byte_start": 4553,
+      "anchor": "encampment with a Syrian commander may have been founded bes",
+      "byte_end": 6173
+    },
+    {
+      "page": 440,
+      "byte_start": 6173,
+      "anchor": "Adana Tepebağ.",
+      "byte_end": 7731
+    },
+    {
+      "page": 441,
+      "byte_start": 7731,
+      "anchor": "places, abutting houses, within buildings, parts of foundati",
+      "byte_end": 8954
+    },
+    {
+      "page": 442,
+      "byte_start": 8954,
+      "anchor": "outcrop drops in a nearly vertical cliff while the eastern e",
+      "byte_end": 10842
+    },
+    {
+      "page": 443,
+      "byte_start": 10842,
+      "anchor": "Cocuso–Laranda–Badimo–Praetorio–Flaviada–Anazarbo, which tra",
+      "byte_end": 12972
+    },
+    {
+      "page": 444,
+      "byte_start": 12972,
+      "anchor": "two colonnaded streets. It was also a mint from at least 1 B",
+      "byte_end": 14879
+    },
+    {
+      "page": 445,
+      "byte_start": 14879,
+      "anchor": "occurred in 806. ‘Abdullā b. Ṭāhir, governor of the region, ",
+      "byte_end": 16656
+    },
+    {
+      "page": 446,
+      "byte_start": 16656,
+      "anchor": "Research",
+      "byte_end": 18866
+    },
+    {
+      "page": 447,
+      "byte_start": 18866,
+      "anchor": "Cilician Survey only alluded to Gough’s work.16 Sinclair, al",
+      "byte_end": 20576
+    },
+    {
+      "page": 448,
+      "byte_start": 20576,
+      "anchor": "construction as Byzantine and not more specifically as Late ",
+      "byte_end": 22254
+    },
+    {
+      "page": 449,
+      "byte_start": 22254,
+      "anchor": "mainly Byzantine. In the southwest corner was a different co",
+      "byte_end": 24058
+    },
+    {
+      "page": 450,
+      "byte_start": 24058,
+      "anchor": "was either identifiably Roman or Late Roman/Byzantine. The h",
+      "byte_end": 25409
+    },
+    {
+      "page": 451,
+      "byte_start": 25409,
+      "anchor": "it was sometimes included as part of Syria, the Jazīra, and ",
+      "byte_end": 27235
+    },
+    {
+      "page": 452,
+      "byte_start": 27235,
+      "anchor": "third of their harvest after the sultan took a tenth. He bui",
+      "byte_end": 29072
+    },
+    {
+      "page": 453,
+      "byte_start": 29072,
+      "anchor": "the Zengids and Ayyubids, there was no construction of build",
+      "byte_end": 30972
+    },
+    {
+      "page": 454,
+      "byte_start": 30972,
+      "anchor": "Byzantine to Ayyubid periods. Interestingly, the site of the",
+      "byte_end": 32135
+    },
+    {
+      "page": 455,
+      "byte_start": 32135,
+      "anchor": "the son of Hārūn al-Rashīd established a ribāṭ.",
+      "byte_end": 33445
+    },
+    {
+      "page": 456,
+      "byte_start": 33445,
+      "anchor": "History31",
+      "byte_end": 35131
+    },
+    {
+      "page": 457,
+      "byte_start": 35131,
+      "anchor": "Research",
+      "byte_end": 36813
+    },
+    {
+      "page": 458,
+      "byte_start": 36813,
+      "anchor": "mound occupation would be unusual for these periods, however",
+      "byte_end": 38047
+    },
+    {
+      "page": 459,
+      "byte_start": 38047,
+      "anchor": "Aksaray or Serayköy and reached from the northeast along the",
+      "byte_end": 39782
+    },
+    {
+      "page": 460,
+      "byte_start": 39782,
+      "anchor": "(Keysum). Abu Ezzah could not find the site but posited that",
+      "byte_end": 41571
+    },
+    {
+      "page": 461,
+      "byte_start": 41571,
+      "anchor": "caliph. The town was also named al-Mahdīya or al-Muḥammadīya",
+      "byte_end": 43506
+    },
+    {
+      "page": 462,
+      "byte_start": 43506,
+      "anchor": "town down. During the time of Ibn Shaddād’s text (1272–1281)",
+      "byte_end": 45137
+    },
+    {
+      "page": 463,
+      "byte_start": 45137,
+      "anchor": "investigate this. Al-Uhaydab may have been built later as an",
+      "byte_end": 46914
+    },
+    {
+      "page": 464,
+      "byte_start": 46914,
+      "anchor": "on the Hasanbeyli Pass 25 km northeast of Osmaniye. Hellenke",
+      "byte_end": 48539
+    },
+    {
+      "page": 465,
+      "byte_start": 48539,
+      "anchor": "and built of squared limestone and basalt. The castle, measu",
+      "byte_end": 50302
+    },
+    {
+      "page": 466,
+      "byte_start": 50302,
+      "anchor": "History50",
+      "byte_end": 52076
+    },
+    {
+      "page": 467,
+      "byte_start": 52076,
+      "anchor": "Irenopolis as the only town that manufactured spears, which ",
+      "byte_end": 53846
+    },
+    {
+      "page": 468,
+      "byte_start": 53846,
+      "anchor": "completed it in his own caliphate. According to Ibn Ḥawqal, ",
+      "byte_end": 55614
+    },
+    {
+      "page": 469,
+      "byte_start": 55614,
+      "anchor": "complex dating to the early twentieth century Ottoman period",
+      "byte_end": 57487
+    },
+    {
+      "page": 470,
+      "byte_start": 57487,
+      "anchor": "a schoolteacher and registered privately by the Adana museum",
+      "byte_end": 58648
+    },
+    {
+      "page": 471,
+      "byte_start": 58648,
+      "anchor": "History58",
+      "byte_end": 60149
+    },
+    {
+      "page": 472,
+      "byte_start": 60149,
+      "anchor": "Remains",
+      "byte_end": 61473
+    },
+    {
+      "page": 473,
+      "byte_start": 61473,
+      "anchor": "History63",
+      "byte_end": 63122
+    },
+    {
+      "page": 474,
+      "byte_start": 63122,
+      "anchor": "Ibn Shaddād states that it possessed rural districts (rustāq",
+      "byte_end": 64402
+    },
+    {
+      "page": 475,
+      "byte_start": 64402,
+      "anchor": "Ḥiṣn Qalawdiya",
+      "byte_end": 65364
+    },
+    {
+      "page": 476,
+      "byte_start": 65364,
+      "anchor": "bishopric is mentioned at the site between 1027–1038. It was",
+      "byte_end": 66640
+    },
+    {
+      "page": 477,
+      "byte_start": 66640,
+      "anchor": "History66",
+      "byte_end": 68121
+    },
+    {
+      "page": 478,
+      "byte_start": 68121,
+      "anchor": "sounding that the Hellenistic and Roman areas were south of ",
+      "byte_end": 69041
+    },
+    {
+      "page": 479,
+      "byte_start": 69041,
+      "anchor": "Al-Jūma",
+      "byte_end": 70403
+    },
+    {
+      "page": 480,
+      "byte_start": 70403,
+      "anchor": "periods Hārūnīyya and Bayās. There is also a local route fro",
+      "byte_end": 72222
+    },
+    {
+      "page": 481,
+      "byte_start": 72222,
+      "anchor": "basalt. Hārūn is also known to have garrisoned Khurāsānīs, d",
+      "byte_end": 74010
+    },
+    {
+      "page": 482,
+      "byte_start": 74010,
+      "anchor": "century writes that it stood twelve miles from Hārūnīyya in ",
+      "byte_end": 75496
+    },
+    {
+      "page": 483,
+      "byte_start": 75496,
+      "anchor": "the construction is similar to two other forts that are prob",
+      "byte_end": 77197
+    },
+    {
+      "page": 484,
+      "byte_start": 77197,
+      "anchor": "Sawdā’ and did a surface collection and mapped the site. The",
+      "byte_end": 79026
+    },
+    {
+      "page": 485,
+      "byte_start": 79026,
+      "anchor": "supported this hypothesis. During Ainsworth’s visit he could",
+      "byte_end": 80602
+    },
+    {
+      "page": 486,
+      "byte_start": 80602,
+      "anchor": "suggestive of Hellenistic, the buttresses seem Islamic and t",
+      "byte_end": 82411
+    },
+    {
+      "page": 487,
+      "byte_start": 82411,
+      "anchor": "Islamic. In addition, the Late Bronze, Middle Iron Age, and ",
+      "byte_end": 83903
+    },
+    {
+      "page": 488,
+      "byte_start": 83903,
+      "anchor": "on the Qubāqib/Tokhma Su Pass. This also indicates the direc",
+      "byte_end": 85677
+    },
+    {
+      "page": 489,
+      "byte_start": 85677,
+      "anchor": "In the Early Islamic period, the town became a major thughūr",
+      "byte_end": 87561
+    },
+    {
+      "page": 490,
+      "byte_start": 87561,
+      "anchor": "divided into seven quarters, one per tribe (such as Sulaym, ",
+      "byte_end": 89391
+    },
+    {
+      "page": 491,
+      "byte_start": 89391,
+      "anchor": "reconquest. The city was taken after a long siege and food e",
+      "byte_end": 91047
+    },
+    {
+      "page": 492,
+      "byte_start": 91047,
+      "anchor": "Remains",
+      "byte_end": 92608
+    },
+    {
+      "page": 493,
+      "byte_start": 92608,
+      "anchor": "Manbij/Jisr Manbij",
+      "byte_end": 93986
+    },
+    {
+      "page": 494,
+      "byte_start": 93986,
+      "anchor": "Manbij on the Euphrates bank. However, it had a lower town b",
+      "byte_end": 95127
+    },
+    {
+      "page": 495,
+      "byte_start": 95127,
+      "anchor": "permanent marsh systems. Sinclair states that the Roman road",
+      "byte_end": 96778
+    },
+    {
+      "page": 496,
+      "byte_start": 96778,
+      "anchor": "Valley and to Bahasnā, Sumaysāṭ, and Ruhā due east, respecti",
+      "byte_end": 98436
+    },
+    {
+      "page": 497,
+      "byte_start": 98436,
+      "anchor": "However, the city is mainly known in the Early Islamic perio",
+      "byte_end": 99061
+    },
+    {
+      "page": 498,
+      "byte_start": 99061,
+      "anchor": "Mu‘",
+      "byte_end": 102178
+    },
+    {
+      "page": 499,
+      "byte_start": 102178,
+      "anchor": "resided in the city including Ḥudhayfa b. Qatāda al-Mar‘ashī",
+      "byte_end": 104023
+    },
+    {
+      "page": 500,
+      "byte_start": 104023,
+      "anchor": "Godfrey de Bouillon and became part of Little Armenia with a",
+      "byte_end": 105599
+    },
+    {
+      "page": 501,
+      "byte_start": 105599,
+      "anchor": "population estimate in 1550–1600 (based on tax paying citize",
+      "byte_end": 106927
+    },
+    {
+      "page": 502,
+      "byte_start": 106927,
+      "anchor": "advantage was that it guarded the major trade routes from Ad",
+      "byte_end": 108861
+    },
+    {
+      "page": 503,
+      "byte_start": 108861,
+      "anchor": "The coins of the city depict the “Hearth of Mopsus” showing ",
+      "byte_end": 110641
+    },
+    {
+      "page": 504,
+      "byte_start": 110641,
+      "anchor": "enclosed within the fortified city was transformed into a gr",
+      "byte_end": 112457
+    },
+    {
+      "page": 505,
+      "byte_start": 112457,
+      "anchor": "in 757, and called the city al-Ma‘",
+      "byte_end": 114320
+    },
+    {
+      "page": 506,
+      "byte_start": 114320,
+      "anchor": "passed through the town on his way to confront the people an",
+      "byte_end": 116164
+    },
+    {
+      "page": 507,
+      "byte_start": 116164,
+      "anchor": "In 961, the cavalry of Maṣṣīṣa aided the people of ‘Ayn Zarb",
+      "byte_end": 117938
+    },
+    {
+      "page": 508,
+      "byte_start": 117938,
+      "anchor": "from classical buildings. It stood on an elevation on the ea",
+      "byte_end": 119581
+    },
+    {
+      "page": 509,
+      "byte_start": 119581,
+      "anchor": "Personal Observations, 8/3/04",
+      "byte_end": 121449
+    },
+    {
+      "page": 510,
+      "byte_start": 121449,
+      "anchor": "collapse and several new stores. The site of the Misis Archa",
+      "byte_end": 122995
+    },
+    {
+      "page": 511,
+      "byte_start": 122995,
+      "anchor": "History111",
+      "byte_end": 124642
+    },
+    {
+      "page": 512,
+      "byte_start": 124642,
+      "anchor": "the site of Gökvelioğlu, which sits atop the southernmost sp",
+      "byte_end": 126350
+    },
+    {
+      "page": 513,
+      "byte_start": 126350,
+      "anchor": "and a sarcophagus from the second-third century C.E. that wa",
+      "byte_end": 127657
+    },
+    {
+      "page": 514,
+      "byte_start": 127657,
+      "anchor": "Location",
+      "byte_end": 129280
+    },
+    {
+      "page": 515,
+      "byte_start": 129280,
+      "anchor": "buildings, and an aqueduct. In the sixth and seventh centuri",
+      "byte_end": 131074
+    },
+    {
+      "page": 516,
+      "byte_start": 131074,
+      "anchor": "considered of the wonders of the world. In 905, the Byzantin",
+      "byte_end": 132580
+    },
+    {
+      "page": 517,
+      "byte_start": 132580,
+      "anchor": "unsurprisingly, the best-preserved area with a scatter of ma",
+      "byte_end": 133875
+    },
+    {
+      "page": 518,
+      "byte_start": 133875,
+      "anchor": "rivers are tributaries of the Euphrates. The site was on the",
+      "byte_end": 135281
+    },
+    {
+      "page": 519,
+      "byte_start": 135281,
+      "anchor": "below the modern city; development hampered a proper investi",
+      "byte_end": 136508
+    },
+    {
+      "page": 520,
+      "byte_start": 136508,
+      "anchor": "Baghdād. Sanjah known for its beautiful celebrated bridge, t",
+      "byte_end": 138212
+    },
+    {
+      "page": 521,
+      "byte_start": 138212,
+      "anchor": "Personal Observations, 9/26/04",
+      "byte_end": 139838
+    },
+    {
+      "page": 522,
+      "byte_start": 139838,
+      "anchor": "visit, that citadel was one km further jutting northeast int",
+      "byte_end": 141272
+    },
+    {
+      "page": 523,
+      "byte_start": 141272,
+      "anchor": "the castle, remains poorly understood. There is no mention o",
+      "byte_end": 142656
+    },
+    {
+      "page": 524,
+      "byte_start": 142656,
+      "anchor": "History134",
+      "byte_end": 144187
+    },
+    {
+      "page": 525,
+      "byte_start": 144187,
+      "anchor": "Research",
+      "byte_end": 145625
+    },
+    {
+      "page": 526,
+      "byte_start": 145625,
+      "anchor": "Location",
+      "byte_end": 147405
+    },
+    {
+      "page": 527,
+      "byte_start": 147405,
+      "anchor": "volcanic ridges, cones, and deep valleys and took one day. I",
+      "byte_end": 148838
+    },
+    {
+      "page": 528,
+      "byte_start": 148838,
+      "anchor": "Samosata in the early second century. In 616, Heraclius cros",
+      "byte_end": 150683
+    },
+    {
+      "page": 529,
+      "byte_start": 150683,
+      "anchor": "Byzantines at least ten times and it was the site of inter-I",
+      "byte_end": 152475
+    },
+    {
+      "page": 530,
+      "byte_start": 152475,
+      "anchor": "al-Dawla as part of the reconquest. Muqaddasī in 985 mention",
+      "byte_end": 154252
+    },
+    {
+      "page": 531,
+      "byte_start": 154252,
+      "anchor": "The site is north northeast of Qal‘a al-Rūm and southeast of",
+      "byte_end": 155982
+    },
+    {
+      "page": 532,
+      "byte_start": 155982,
+      "anchor": "to a flat roof. This was surmised by the indication of woode",
+      "byte_end": 157674
+    },
+    {
+      "page": 533,
+      "byte_start": 157674,
+      "anchor": "carved relief decorated vessels. There was also polychrome s",
+      "byte_end": 159518
+    },
+    {
+      "page": 534,
+      "byte_start": 159518,
+      "anchor": "room filled with highly decorated glass fragments.145 Within",
+      "byte_end": 161508
+    },
+    {
+      "page": 535,
+      "byte_start": 161508,
+      "anchor": "casement style (double) constructed in the opus reticulatum ",
+      "byte_end": 163195
+    },
+    {
+      "page": 536,
+      "byte_start": 163195,
+      "anchor": "Adıyaman Museum has Early Islamic ceramics from the excavati",
+      "byte_end": 164033
+    },
+    {
+      "page": 537,
+      "byte_start": 164033,
+      "anchor": "History149",
+      "byte_end": 165449
+    },
+    {
+      "page": 538,
+      "byte_start": 165449,
+      "anchor": "thirteenth/fourteenth centuries. There is also an Ottoman ma",
+      "byte_end": 166886
+    },
+    {
+      "page": 539,
+      "byte_start": 166886,
+      "anchor": "south on the coast) 152 and had a naval arsenal. Childs reco",
+      "byte_end": 168725
+    },
+    {
+      "page": 540,
+      "byte_start": 168725,
+      "anchor": "linen. The Emperor Julian was supposedly buried in Ṭarsūs in",
+      "byte_end": 170501
+    },
+    {
+      "page": 541,
+      "byte_start": 170501,
+      "anchor": "Ma’mūn, who died at Badhandūn (Podandos) at the Cilician Gat",
+      "byte_end": 172455
+    },
+    {
+      "page": 542,
+      "byte_start": 172455,
+      "anchor": "Bughyat al-Talab fī Tārīkh Ḥalab.",
+      "byte_end": 174233
+    },
+    {
+      "page": 543,
+      "byte_start": 174233,
+      "anchor": "population available through waqf, or private ownership.159 ",
+      "byte_end": 176070
+    },
+    {
+      "page": 544,
+      "byte_start": 176070,
+      "anchor": "into and out of the city would be locked and the keys would ",
+      "byte_end": 177872
+    },
+    {
+      "page": 545,
+      "byte_start": 177872,
+      "anchor": "horses. The Turkoman garrison interestingly withdrew from th",
+      "byte_end": 179523
+    },
+    {
+      "page": 546,
+      "byte_start": 179523,
+      "anchor": "removed.161 Ainsworth noted Roman and Byzantine pottery at t",
+      "byte_end": 181319
+    },
+    {
+      "page": 547,
+      "byte_start": 181319,
+      "anchor": "above the asphalt road. The hill was used as a cemetery but ",
+      "byte_end": 183149
+    },
+    {
+      "page": 548,
+      "byte_start": 183149,
+      "anchor": "several mosaics including one associated with a private hous",
+      "byte_end": 184773
+    },
+    {
+      "page": 549,
+      "byte_start": 184773,
+      "anchor": "Personal Observations, 7/05",
+      "byte_end": 186553
+    },
+    {
+      "page": 550,
+      "byte_start": 186553,
+      "anchor": "Hellenkemper and Hild’s work) that although the city was aba",
+      "byte_end": 188710
+    },
+    {
+      "page": 551,
+      "byte_start": 188710,
+      "anchor": "disconnect between the archaeological and historical analysi",
+      "byte_end": 189946
+    },
+    {
+      "page": 552,
+      "byte_start": 189946,
+      "anchor": "Doğanşehir. The site is located on the Nahr Qarāqīs, a tribu",
+      "byte_end": 191636
+    },
+    {
+      "page": 553,
+      "byte_start": 191636,
+      "anchor": "Presumably after this, al-Mu‘taṣim recaptured Zibaṭra on his",
+      "byte_end": 193241
+    },
+    {
+      "page": 554,
+      "byte_start": 193241,
+      "anchor": "Personal Observations, 8/19/2005",
+      "byte_end": 194731
+    }
+  ],
+  "entries": [
+    {
+      "entry": "Adhana",
+      "page_start": 437,
+      "page_end": 437
+    },
+    {
+      "entry": "Adana",
+      "page_start": 437,
+      "page_end": 440
+    },
+    {
+      "entry": "Anṭākiya",
+      "page_start": 441,
+      "page_end": 441
+    },
+    {
+      "entry": "‘Awlās/Ḥiṣn ‘Awlās",
+      "page_start": 441,
+      "page_end": 441
+    },
+    {
+      "entry": "‘Ayn Zarba",
+      "page_start": 441,
+      "page_end": 449
+    },
+    {
+      "entry": "Baghrās",
+      "page_start": 450,
+      "page_end": 450
+    },
+    {
+      "entry": "Bālis",
+      "page_start": 450,
+      "page_end": 453
+    },
+    {
+      "entry": "Bayās",
+      "page_start": 454,
+      "page_end": 454
+    },
+    {
+      "entry": "Būqā",
+      "page_start": 454,
+      "page_end": 454
+    },
+    {
+      "entry": "Dābiq",
+      "page_start": 454,
+      "page_end": 454
+    },
+    {
+      "entry": "Dulūk",
+      "page_start": 455,
+      "page_end": 457
+    },
+    {
+      "entry": "Al-Ḥadath (al-Ḥamrā’)",
+      "page_start": 458,
+      "page_end": 458
+    },
+    {
+      "entry": "Göynük)",
+      "page_start": 458,
+      "page_end": 462
+    },
+    {
+      "entry": "Hārūnīyya",
+      "page_start": 463,
+      "page_end": 469
+    },
+    {
+      "entry": "Ḥiṣn al-Tīnāt",
+      "page_start": 470,
+      "page_end": 470
+    },
+    {
+      "entry": "Ḥiṣn Kamkh",
+      "page_start": 470,
+      "page_end": 471
+    },
+    {
+      "entry": "Ḥiṣn Manṣūr",
+      "page_start": 472,
+      "page_end": 474
+    },
+    {
+      "entry": "Ḥiṣn Qalawdiya",
+      "page_start": 475,
+      "page_end": 475
+    },
+    {
+      "entry": "Ḥiṣn Ziyād",
+      "page_start": 475,
+      "page_end": 475
+    },
+    {
+      "entry": "Iskandarūna",
+      "page_start": 476,
+      "page_end": 476
+    },
+    {
+      "entry": "(see Chapter 4)",
+      "page_start": 476,
+      "page_end": 477
+    },
+    {
+      "entry": "Jawzāt (or Ḥiṣn al-Jawzāt)",
+      "page_start": 478,
+      "page_end": 478
+    },
+    {
+      "entry": "Al-Jūma",
+      "page_start": 479,
+      "page_end": 479
+    },
+    {
+      "entry": "Al-Kanīsa as-Sawdā’",
+      "page_start": 479,
+      "page_end": 479
+    },
+    {
+      "entry": "Gözeneler",
+      "page_start": 479,
+      "page_end": 486
+    },
+    {
+      "entry": "Malaṭiya",
+      "page_start": 487,
+      "page_end": 492
+    },
+    {
+      "entry": "Manbij/Jisr Manbij",
+      "page_start": 493,
+      "page_end": 493
+    },
+    {
+      "entry": "Mar‘",
+      "page_start": 494,
+      "page_end": 494
+    },
+    {
+      "entry": "(see Chapter 3)",
+      "page_start": 494,
+      "page_end": 494
+    },
+    {
+      "entry": "Kahramanmaraş?",
+      "page_start": 494,
+      "page_end": 500
+    },
+    {
+      "entry": "Al-Maṣṣīṣa",
+      "page_start": 501,
+      "page_end": 509
+    },
+    {
+      "entry": "Al-Muthaqqab",
+      "page_start": 510,
+      "page_end": 510
+    },
+    {
+      "entry": "(see Chapter 4)",
+      "page_start": 510,
+      "page_end": 512
+    },
+    {
+      "entry": "Qūrus",
+      "page_start": 513,
+      "page_end": 516
+    },
+    {
+      "entry": "Ra‘bān",
+      "page_start": 517,
+      "page_end": 518
+    },
+    {
+      "entry": "Sanjah/Bahasnā",
+      "page_start": 519,
+      "page_end": 520
+    },
+    {
+      "entry": "Shimshāṭ",
+      "page_start": 521,
+      "page_end": 522
+    },
+    {
+      "entry": "Sīs (Sīsīya)",
+      "page_start": 523,
+      "page_end": 524
+    },
+    {
+      "entry": "Sumaysāṭ",
+      "page_start": 525,
+      "page_end": 535
+    },
+    {
+      "entry": "Tall Jubayr",
+      "page_start": 536,
+      "page_end": 536
+    },
+    {
+      "entry": "Ṭaranda",
+      "page_start": 536,
+      "page_end": 537
+    },
+    {
+      "entry": "Ṭarsūs",
+      "page_start": 538,
+      "page_end": 538
+    },
+    {
+      "entry": "Tarsus/Arsus",
+      "page_start": 538,
+      "page_end": 550
+    },
+    {
+      "entry": "Tīzīn",
+      "page_start": 551,
+      "page_end": 551
+    },
+    {
+      "entry": "Zibaṭra",
+      "page_start": 551,
+      "page_end": 551
+    }
+  ]
+}
