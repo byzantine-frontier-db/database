@@ -1,0 +1,35 @@
+- record_type: attestation
+  id: ATT-0366
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0068
+  observations_supported:
+  - OBS-0242
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462, "Personal
+    Observations, 9/25/04" (SRC-0065).
+  paraphrase: 'On a visit of 25 September 2004 Eger found the site in the Gölbaşı
+    valley at the village of Bozlar (not Başpınar), squarely at the entrance of a
+    Taurus pass (the Darb al-Ḥadath) near a spring: a massive city wall preserved
+    for some 50 m in limestone ashlar with a rubble-and-mortar core and square buttresses
+    at intervals, its top under plough and modern houses, with pottery ranging Roman
+    through Early Islamic. A rounded hill to the west, nearer the pass, he suggested
+    might be the fortified al-Uhaydab, though he did not investigate it.'
+  observation_date:
+    start: '2004-09-25'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record (primary_observation
+    + observation_date). This autopsy is the empirical core of Eger's identification
+    (INT-0165); supports OBS-0242. NB the entry dates both the Dulūk and the al-Ḥadath
+    personal observations to 9/25/04; taken at face value (a same-day field itinerary
+    along the Narlı–Gölbaşı corridor is plausible), flagged for editorial confirmation
+    against the printed appendix.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

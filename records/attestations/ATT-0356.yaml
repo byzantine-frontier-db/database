@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0356
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0062
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Dulūk, pp. 455–457 (SRC-0065), reporting the
+    University of Münster excavations directed by E. Winter.
+  paraphrase: Current excavations by Engelbert Winter's University of Münster team,
+    focused on the sanctuary of Jupiter Dolichenus and two mithraea on the Dülük Baba
+    mound, have also identified the main city, necropolis and churches north of the
+    mound and recovered Islamic-period finds at Dülük Baba.
+  confidence: 3
+  notes: 'Section-3 published-excavation pattern (project: E. Winter, University of
+    Münster). The Islamic-period material at Dülük Baba is the frontier-relevant datum;
+    the Jupiter Dolichenus sanctuary and mithraea are pre-Islamic context.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

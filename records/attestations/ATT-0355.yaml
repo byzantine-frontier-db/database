@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0355
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0062
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Dulūk, pp. 455–457 (SRC-0065), reporting T.
+    A. Sinclair's survey.
+  paraphrase: Sinclair's survey (visit of 1976) recorded traces of a city wall at
+    the north-west foot of the hill, which he dated Middle Byzantine (tenth–eleventh
+    century), and a valley cemetery with rock-cut tombs; the largest cave at the west
+    end, Basamaklı Mağara, was an eleventh-century Syrian Orthodox cave church linked
+    to the monastery of Mar Shlemun (eighth–tenth centuries).
+  confidence: 3
+  notes: 'Section-3 published-survey pattern (surveyor: T. A. Sinclair, 1976).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

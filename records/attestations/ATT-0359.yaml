@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0359
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0068
+  provenance: primary_paraphrase
+  citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (SRC-0020); reached via Eger 2008, Appendix
+    2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462 (SRC-0065).
+  paraphrase: Yāqūt gives the town's name as al-Ḥadath al-Ḥamrāʾ ('the red Ḥadath'),
+    from the reddish colour of its soil, distinguishing it from Ḥadath al-Zuqāq in
+    the Palmyrene desert.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation (name etymology). [citation
+    needed: confirm the Muʿjam al-buldān entry and page.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

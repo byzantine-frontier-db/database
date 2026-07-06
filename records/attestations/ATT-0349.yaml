@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0349
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0065
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Dābiq, p. 454 (SRC-0065); coordinate 37N N4045025
+    E345134, converted to WGS84 (36.53809, 37.26995) via pyproj.
+  paraphrase: Eger locates Dābiq in northern Syria north of Ḥalab, east of ʿAzaz and
+    west of Manbij, close to the modern Turkish border, with the modern town of the
+    same name now covering most of the site; its plain is the Marj Dābiq.
+  confidence: 5
+  notes: Section-1 locational identification (Eger equating Dābiq with the modern
+    village of Dābiq). Coordinate added to ENT-PLC-0065 (map-derived, uncertainty
+    ~500 m). Dābiq is a non-visited site (Section-4 skip list); no primary_observation
+    record was minted.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

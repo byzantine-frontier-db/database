@@ -1,0 +1,42 @@
+- record_type: interpretation
+  id: INT-0165
+  associated_entities:
+  - ENT-PLC-0068
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v.
+    Al-Ḥadath (al-Ḥamrāʾ)
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Al-Ḥadath has never been positively identified. Against Ramsay (who placed
+    it north of Kahramanmaraş) and Weil (south, toward Manbij), and refining Le Strange
+    (Ak Su near İnikli, north of the lake), Eger endorses Hartmann's 1950 relocation
+    to the south side of the lake — followed by Sinclair — and pins the site specifically
+    to the walled mound at the village of Bozlar in the Gölbaşı valley, not Başpınar/Serayköy
+    as earlier proposed, on the strength of his own autopsy of a massive, unmistakable
+    ashlar city wall there guarding the Darb al-Ḥadath and matching the textual descriptions
+    of a fortified town in a lake-and-marsh valley on the upper Ak Su. Blaylock's
+    Adıyaman survey likewise identifies the site with Ḥadath.
+  supporting_evidence:
+  - ATT-0358
+  - ATT-0360
+  - ATT-0361
+  - ATT-0365
+  - ATT-0366
+  confidence: 3
+  notes: 'Eger''s own site identification (the front-matter-flagged novel identification
+    for this appendix), attributed to him against SRC-0065 rather than asserted as
+    fact. supporting_evidence is attestation-only per rule 9: the locational identification
+    (ATT-0358), the topographic primary descriptions Eger matches to the valley (ATT-0360
+    Abū al-Fidāʾ, ATT-0361 Ibn Serapion), the survey/epigraphic evidence (ATT-0365)
+    and his 2004 autopsy (ATT-0366). The competing Ramsay/Weil placements are held
+    within this single record per governance §5.4, not as parallel entities. FLAG:
+    ENT-PLC-0068 currently carries identification_status: identified, but Eger frames
+    the location as never positively settled; a downgrade to disputed would be a MAJOR
+    change and is left to Curtis (not made this session).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

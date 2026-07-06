@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0350
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0065
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Dābiq, p. 454 (SRC-0065).
+  paraphrase: During Maslama's campaign against Constantinople (717) the Umayyad caliph
+    Sulaymān b. ʿAbd al-Malik moved his base from Dimashq to Ramla and then to Dābiq
+    to be nearer the front; in 778 a small Arab force set out from Dābiq to counter
+    a Byzantine invasion in the Marʿash plain but suffered heavy losses; and the ʿAbbāsid
+    caliph al-Muʿtaṣim later stayed at Dābiq.
+  confidence: 3
+  notes: Section-2 historical narrative synthesised by Eger with no identifiable single
+    primary footnote in the entry; attested as modern_synthesis against SRC-0065 rather
+    than a primary source (provenance honesty). Complements the existing SRC-0007
+    attestations (ATT-0134 HQ/804 ribāṭ, ATT-0137 Hārūn-era repairs) with the gazetteer's
+    campaign-staging detail. The 804 ribāṭ of Qāsim b. Hārūn is already carried by
+    ATT-0134; the 1516 Marj Dābiq battle is outside the project's chronological scope.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

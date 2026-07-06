@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0365
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0068
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462 (SRC-0065),
+    reporting the Adıyaman Survey (C. Blaylock).
+  paraphrase: 'A British survey found two Arabic inscriptions at the site in December
+    1987: the first possibly naming the ʿAbbāsid caliph al-Hādī (785–786), the second
+    dated to the early tenth century. The site had never otherwise been properly surveyed;
+    Blaylock''s Adıyaman Survey identifies it with Ḥadath.'
+  confidence: 3
+  notes: 'Section-3 published-survey pattern (project: Adıyaman Survey 1985–1991,
+    C. Blaylock). The two Arabic inscriptions are candidate future epigraphic SourceRecords
+    (one possibly an al-Hādī building inscription, dovetailing with the 783/84 reconstruction
+    in ATT-0364); their find supports Eger''s identification and is adduced in INT-0165.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

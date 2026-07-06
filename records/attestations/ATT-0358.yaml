@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0358
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0068
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462 (SRC-0065);
+    coordinate 37N N4173794 E362406, converted to WGS84 (37.70106, 37.43919) via pyproj.
+  paraphrase: Eger locates al-Ḥadath (classical Adata) at the mounded, walled site
+    south of the lake in the narrow lake-and-marsh valley of the upper Ak Su, at the
+    village of Bozlar in the Gölbaşı valley, guarding the Darb al-Ḥadath pass from
+    Marʿash toward al-Bustān (Albistan).
+  confidence: 4
+  notes: 'Section-1 locational identification. NB the pre-parsed coordinate for this
+    entry is mis-keyed in docs/eger_2008_coordinates.json under the concordance token
+    ''Göynük)'' (from the header ''Armenian Kynuk … Turkish: Göynük)''); confirmed
+    as al-Ḥadath''s point because its raw UTM (37N N4173794 E362406) matches the inline
+    gazetteer coordinate on p. 462. Coordinate added to ENT-PLC-0068 (map-derived,
+    uncertainty ~500 m). The identification itself is Eger''s contested argument,
+    carried as INT-0165; hence confidence 4 not 5.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0364
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0068
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix
+    2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462 (SRC-0065).
+  paraphrase: al-Balādhurī records that ʿAlī b. Sulaymān, governor of al-Jazīra and
+    Qinnasrīn under al-Mahdī, directed the reconstruction of Ḥadath in 783/84 on the
+    caliph's written instruction, after which a garrison of 6,000 was established.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation on the ʿAbbāsid refortification.
+    Complements the al-Mahdī-foundation synthesis (ATT-0136) and al-Ṭabarī''s 785/6
+    market notice (ATT-0135) with the reconstruction''s named director and date. [citation
+    needed: confirm the Futūḥ al-buldān passage and page.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

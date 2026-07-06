@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0351
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0062
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Dulūk, pp. 455–457 (SRC-0065); coordinate
+    37N N4113393 E354515, converted to WGS84 (37.15562, 37.36161) via pyproj.
+  paraphrase: Eger locates Dulūk (classical Doliche) in a valley about 10 km north-west
+    of Gaziantep, on a low elongated hill (Keber Tepesi) about half a kilometre east
+    of the modern village of Dülük, with the temple hill of Dülük Baba adjacent; he
+    identifies it with the classical/Late Roman city of Doliche.
+  confidence: 5
+  notes: Section-1 locational identification (Eger equating Dulūk with Doliche / the
+    Dülük–Keber Tepesi site near Gaziantep). Coordinate added to ENT-PLC-0062 (map-derived,
+    uncertainty ~500 m).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

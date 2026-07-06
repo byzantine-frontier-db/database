@@ -1,0 +1,29 @@
+- record_type: attestation
+  id: ATT-0357
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0062
+  observations_supported:
+  - OBS-0241
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Dulūk, pp. 455–457, "Personal Observations,
+    9/25/04" (SRC-0065).
+  paraphrase: On a visit of 25 September 2004 Eger observed, on the flank of the Dülük
+    Baba mound, caves, rock-cut chambers and tombs, reused rubble-stone, and a dense
+    scatter of Late Roman and Early Islamic pottery, with sparser scatters on the
+    hilltop; he read the ceramics on the mound itself as a possible occupation, likely
+    continuous with the nearby monastery in the Early Islamic period.
+  observation_date:
+    start: '2004-09-25'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record (primary_observation
+    + observation_date). Supports OBS-0241.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

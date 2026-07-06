@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0361
+  source: SRC-0034
+  entities_referenced:
+  - ENT-PLC-0068
+  provenance: primary_paraphrase
+  citation: Ibn Serapion (Ibn Sarābiyūn), Description of Mesopotamia (SRC-0034); reached
+    via Eger 2008, Appendix 2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462 (SRC-0065).
+  paraphrase: Ibn Serapion describes the site as watered by the ʿAyn Zanitha, which
+    joined the river al-ʿArjan and formed a series of small lakes, placing Ḥadath
+    in a valley of lake and marsh.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation; hydrology supporting the
+    lake-valley identification (adduced in INT-0165). [citation needed: confirm the
+    passage and page.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
