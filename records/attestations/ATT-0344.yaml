@@ -4,7 +4,7 @@
   entities_referenced:
   - ENT-PLC-0120
   provenance: modern_synthesis
-  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba (SRC-0065), synthesising M. Canard,
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, pp. 441–449 (SRC-0065), synthesising M. Canard,
     "ʿAyn Zarba" (EI2) and related scholarship.
   paraphrase: Although Arabic sources imply a wholly new foundation, Hārūn al-Rashīd
     in fact only repaired ʿAyn Zarba's circuit wall and citadel in 796 and garrisoned
@@ -12,7 +12,7 @@
     houses as iqṭāʿ; Abū Sulaymān al-Turkī al-Khādim further fortified the town in 804.
   confidence: 3
   notes: Section-2 modern-synthesis pattern (Eger relaying modern scholarship; no separate
-    SourceRecord minted for Canard). Cited by entry, s.v. ʿAyn Zarba.
+    SourceRecord minted for Canard). Cited by entry, s.v. ʿAyn Zarba, pp. 441–449.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

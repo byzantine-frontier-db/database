@@ -5,7 +5,7 @@
   - ENT-PLC-0119
   provenance: primary_paraphrase
   citation: al-Yaʿqūbī, Kitāb al-Buldān (SRC-0008), transmitted by Ibn Shaddād, al-Aʿlāq al-Khaṭīra
-    (SRC-0023); reached via Eger 2008, Appendix 2, s.v. Adhana (SRC-0065).
+    (SRC-0023); reached via Eger 2008, Appendix 2, s.v. Adhana, pp. 437–440 (SRC-0065).
   paraphrase: The fortification of Adhana was not completed under Hārūn al-Rashīd but
     under his son al-Amīn; the town was refortified with additional settlers between
     808 and 810.
@@ -15,7 +15,7 @@
     as the scholarly-probability best guess — frontier-town foundation/settlement content
     is characteristic of the Buldān and of Ibn Shaddād''s use of it — pending a check
     against the printed source.] Secondary-mediated primary attestation (SRC-0065
-    as the route). Printed page removed in normalization; cited by entry, s.v. Adhana.'
+    as the route). Page span restored from the page map (docs/eger_2008_page_map.json); cited s.v. Adhana, pp. 437–440.'
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

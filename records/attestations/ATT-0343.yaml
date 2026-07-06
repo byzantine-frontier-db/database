@@ -4,7 +4,7 @@
   entities_referenced:
   - ENT-PLC-0120
   provenance: gis_derived_observation
-  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba (SRC-0065); coordinate 36N N412718
+  citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, pp. 441–449 (SRC-0065); coordinate 36N N412718
     E757076 (northing repaired to 4127180), converted to WGS84 (37.25572, 35.89868)
     via pyproj.
   paraphrase: Eger identifies ʿAyn Zarba with classical Anazarbus (modern Anavarza/Dilekayya),
