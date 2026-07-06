@@ -11,8 +11,8 @@
     script: Arab
     name_type: standardised
   place_type: fortress
-  identification_status: identified
-  identification_confidence: 4
+  identification_status: disputed
+  identification_confidence: 2
   associated_entities:
   - ENT-PLC-0014
   - ENT-PLC-0009
@@ -44,7 +44,7 @@
   - INT-0165
   metadata:
     schema_version: 2.0.0
-    record_version: 1.4.0
+    record_version: 2.0.0
     created_at: '2026-06-15T00:00:00Z'
     modified_at: '2026-07-06T00:00:00Z'
     modified_by: Curtis
@@ -67,9 +67,11 @@
     The 37N conversion is clean, but coordinate_confidence is 3 (not 5) because the
     point rests on Eger''s contested identification of al-Ḥadath with the Bozlar
     site (INT-0165); Eger himself states the town "has never been positively
-    identified." Locational identification recorded as ATT-0358. FLAG: identification_status
-    remains identified this session; Eger''s framing plus the Ramsay/Weil/Hartmann
-    dispute may warrant a downgrade to disputed (a MAJOR change), left to Curtis.
+    identified." Locational identification recorded as ATT-0358. identification_status downgraded
+    to disputed (MAJOR; record_version -> 2.0.0) on Eger''s statement that the site "has
+    never been positively identified" plus the Ramsay/Weil/Le Strange/Hartmann dispute;
+    competing placements (Bozlar vs Başpınar/Serayköy) held in INT-0165; identification_
+    confidence lowered 4 -> 2 to match.
     Full four-section enrichment: Section-2 primary attestations (Yāqūt ATT-0359,
     Abū al-Fidāʾ ATT-0360, Ibn Serapion ATT-0361, Ibn al-ʿAdīm ATT-0362, Ibn Shaddād
     ATT-0363, al-Balādhurī ATT-0364), Section-3 survey/epigraphy (ATT-0365), and
