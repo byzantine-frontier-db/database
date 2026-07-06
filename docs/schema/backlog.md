@@ -30,3 +30,25 @@ bump; no dedicated rewrite pass.
   `--schema` entry can be retired and any deferred required-field promotion (see split-ship,
   §5.6) can land as its MAJOR step.
 - **Tracking metric:** count of records still at each `schema_version` (a one-line scan).
+
+## Phase 2 editorial follow-ups (scheduled)
+
+### Bālis identification — InterpretationRecord (before Session 7 closes)
+
+Session 1 surfaced a coordinate divergence on ENT-PLC-0037 (Bālis / Meskene / Barbalissos):
+the stored editorial point (35.83, 38.27) and Eger 2008's gazetteer point (35.98836,
+38.10952) differ by **~22.8 km — ~4.6× the stored 5000 m uncertainty radius**. The stored
+coordinate is explicitly flagged "verify against a gazetteer", and Eger 2008 is that
+gazetteer. Left unresolved this session (compare, do not overwrite). Action: mint an
+InterpretationRecord on the Bālis identification weighing the two points, and decide whether
+to adopt Eger's coordinate — which would carry the corresponding MINOR/MAJOR bump on the
+entity. **Target: before Session 7 closes.**
+
+### ATT-0339 — printed Ibn Shaddād verification
+
+ATT-0339 (Adhana fortification under al-Amīn; refortified 808–810) is provisionally attributed
+to al-Yaʿqūbī's **Kitāb al-Buldān (SRC-0008)** on scholarly-probability grounds (frontier-town
+foundation/settlement content characteristic of the Buldān and of Ibn Shaddād's use of it),
+flipped this session from the earlier Taʾrīkh (SRC-0003) guess. Carries `[citation needed]`.
+Action: check the printed Ibn Shaddād, al-Aʿlāq al-khaṭīra, which names its al-Yaʿqūbī source;
+confirm or disconfirm the SRC-0008 attribution and clear the flag.

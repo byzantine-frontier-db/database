@@ -34,9 +34,9 @@ import sys, re, json, argparse, unicodedata
 from pathlib import Path
 
 try:
-    from pyproj import Transformer
+    import pyproj
 except ImportError:
-    sys.exit("pyproj required: pip install pyproj")
+    pyproj = None  # coordinate conversion will raise a clear error if invoked without it
 
 # --- known single-digit repairs, keyed by raw string, with the site they close ---
 # Each: raw northing -> repaired northing (a dropped trailing digit), region-confirmed.
@@ -55,9 +55,13 @@ UNRECOVERABLE = {
 
 _tf = {}
 def utm_to_wgs84(zone: str, north: float, east: float):
+    if pyproj is None:
+        raise RuntimeError(
+            "pyproj is required for coordinate conversion. "
+            "Install with: pip install pyproj")
     if zone not in _tf:
         epsg = (32600 if zone[-1] == "N" else 32700) + int(zone[:2])
-        _tf[zone] = Transformer.from_crs(f"EPSG:{epsg}", "EPSG:4326", always_xy=True)
+        _tf[zone] = pyproj.Transformer.from_crs(f"EPSG:{epsg}", "EPSG:4326", always_xy=True)
     lon, lat = _tf[zone].transform(east, north)
     return round(lat, 5), round(lon, 5)
 
@@ -110,6 +114,7 @@ def main() -> int:
     ap.add_argument("input")
     ap.add_argument("--out-text", default="docs/eger_2008_gazetteer_cleaned.txt")
     ap.add_argument("--out-coords", default="docs/eger_2008_coordinates.json")
+    ap.add_argument("--out-pagemap", default="docs/eger_2008_page_map.json")
     ap.add_argument("--report", default=None, help="write change report here (default stdout)")
     args = ap.parse_args()
 
@@ -170,17 +175,25 @@ def main() -> int:
             flags.append(f"MALFORMED  {entry}: {zone} N{north} E{east} (unclassified)")
         coords.append(rec)
 
-    # --- clean text: drop page numbers, pull footnotes out ---
+    # --- clean text: drop page numbers, pull footnotes out; track source pages ---
     cleaned, footnotes, dropped_pages = [], [], 0
+    current_page = None
+    line_page = []            # source page for each ORIGINAL line (drives entry->page)
+    page_first_line = {}      # page -> first retained non-blank line (byte anchor for the map)
     for ln in lines:
         if PAGE_RE.match(ln):
+            current_page = int(ln.strip())
+            line_page.append(current_page)
             dropped_pages += 1
             continue
+        line_page.append(current_page)
         fm = FOOT_RE.match(ln)
         if fm and not COORD_RE.search(ln):
             footnotes.append(ln.strip())
             continue
         cleaned.append(ln)
+        if current_page is not None and ln.strip() and current_page not in page_first_line:
+            page_first_line[current_page] = ln
     cleaned_text = re.sub(r"\n{3,}", "\n\n", "\n".join(cleaned)).strip() + "\n"
 
     Path(args.out_text).parent.mkdir(parents=True, exist_ok=True)
@@ -189,6 +202,38 @@ def main() -> int:
         json.dumps({"source": "Eger 2008 dissertation appendix (SRC-0065)",
                     "crs_out": "EPSG:4326", "conversion": "pyproj UTM->WGS84",
                     "coordinates": coords}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # --- page map sidecar: byte-range -> source page over the cleaned text + per-entry spans ---
+    total_bytes = len(cleaned_text.encode("utf-8"))
+    page_spans, search_from = [], 0
+    for pg in sorted(page_first_line):
+        anchor = page_first_line[pg]
+        idx = cleaned_text.find(anchor, search_from)
+        if idx == -1:
+            idx = cleaned_text.find(anchor)
+        if idx == -1:
+            continue
+        page_spans.append({"page": pg,
+                           "byte_start": len(cleaned_text[:idx].encode("utf-8")),
+                           "anchor": anchor.strip()[:60]})
+        search_from = idx + len(anchor)
+    for i, sp in enumerate(page_spans):
+        sp["byte_end"] = page_spans[i + 1]["byte_start"] if i + 1 < len(page_spans) else total_bytes
+    hdr_pages = [(nm, line_page[hi]) for hi, nm in headers]
+    entry_pages = []
+    for i, (nm, pg) in enumerate(hdr_pages):
+        nxt = hdr_pages[i + 1][1] if i + 1 < len(hdr_pages) else None
+        end = pg if (nxt is None or pg is None or nxt <= pg) else nxt - 1
+        entry_pages.append({"entry": nm, "page_start": pg, "page_end": end})
+    Path(args.out_pagemap).write_text(json.dumps({
+        "source": "Eger 2008 dissertation appendix (SRC-0065)",
+        "target": "docs/eger_2008_gazetteer_cleaned.txt",
+        "note": "byte_start/byte_end are UTF-8 byte offsets into the cleaned text AS EMITTED; "
+                "re-run this tool if the cleaned file is edited. entries[] gives per-entry "
+                "source page spans for citation (s.v. <entry>, pp. start-end).",
+        "pages": page_spans,
+        "entries": entry_pages,
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
 
     # --- change report ---
     out = []
