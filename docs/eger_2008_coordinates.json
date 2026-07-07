@@ -4,7 +4,7 @@
   "conversion": "pyproj UTM->WGS84",
   "coordinates": [
     {
-      "entry": "Adana",
+      "entry": "Adhana",
       "zone": "36N",
       "raw_northing": 4095901,
       "raw_easting": 708016,
@@ -117,7 +117,7 @@
       "lon": 37.36161
     },
     {
-      "entry": "Göynük)",
+      "entry": "Al-Ḥadath (al-Ḥamrā’)",
       "zone": "37N",
       "raw_northing": 4173794,
       "raw_easting": 362406,
@@ -183,7 +183,7 @@
       "lon": 39.25736
     },
     {
-      "entry": "(see Chapter 4)",
+      "entry": "Iskandarūna",
       "zone": "37N",
       "raw_northing": 4052271,
       "raw_easting": 248303,
@@ -194,14 +194,14 @@
       "lon": 36.18681
     },
     {
-      "entry": "Gözeneler",
+      "entry": "Al-Kanīsa as-Sawdā’",
       "zone": "36N",
       "raw_northing": 43750,
       "raw_easting": 95800,
       "parenthetical": null,
       "status": "unrecoverable",
-      "repair_note": "both figures truncated to 5 digits; multiple digits lost and northing ambiguous (4093750 vs 4043750). Flag for manual entry against the printed source.",
-      "attributed_site": "Al-Massīsa / Mopsuestia / Misis"
+      "repair_note": "both figures truncated to 5 digits; multiple digits lost. Closes the Al-Kanīsa as-Sawdā' entry — attribute to ENT-PLC-0121, not al-Maṣṣīṣa. Flag for manual entry against the printed source.",
+      "attributed_site": "Al-Kanīsa as-Sawdā' / Gözeneler / Epiphaneia (ENT-PLC-0121)"
     },
     {
       "entry": "Malaṭiya",
@@ -237,7 +237,7 @@
       "lon": 35.62372
     },
     {
-      "entry": "(see Chapter 4)",
+      "entry": "Al-Muthaqqab",
       "zone": "36N",
       "raw_northing": 4090149,
       "raw_easting": 765645,
@@ -292,7 +292,7 @@
       "lon": 37.48786
     },
     {
-      "entry": "Tarsus/Arsus",
+      "entry": "Ṭarsūs",
       "zone": "36N",
       "raw_northing": 408631,
       "raw_easting": 668364,

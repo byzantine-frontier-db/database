@@ -48,9 +48,10 @@ KNOWN_REPAIRS = {
 }
 # Severely truncated, NOT reconstructed (multiple digits lost, ambiguous):
 UNRECOVERABLE = {
-    ("36N", 43750, 95800): dict(site="Al-Massīsa / Mopsuestia / Misis",
-        note="both figures truncated to 5 digits; multiple digits lost and northing "
-             "ambiguous (4093750 vs 4043750). Flag for manual entry against the printed source."),
+    ("36N", 43750, 95800): dict(site="Al-Kanīsa as-Sawdā' / Gözeneler / Epiphaneia (ENT-PLC-0121)",
+        note="both figures truncated to 5 digits; multiple digits lost. Closes the Al-Kanīsa "
+             "as-Sawdā' entry — attribute to ENT-PLC-0121, not al-Maṣṣīṣa. Flag for manual "
+             "entry against the printed source."),
 }
 
 _tf = {}
@@ -97,6 +98,18 @@ def is_header(lines, i, coord_idxs) -> bool:
     if len(s) > 45 or not re.search(r"[A-Za-zĀāĪīŪūʿ‘]", s):
         return False
     if ERA_RE.match(s) or s.endswith((".", ",", ";", ":")) or s[0].islower():
+        return False
+    if s.startswith("(see"):                     # cross-reference line, never a site header
+        return False
+    # concordance-continuation lines carry an embedded era/Modern marker (e.g.
+    # "Göynük); Kurdish al-Hatt; Modern Bozlar") — those are not site headers.
+    if re.search(r"\b(Modern|Kurdish|Armenian|Syriac|Seleucid|Classical|Ottoman|Byzantine|Assyrian|Hittite|Crusader)\b", s):
+        return False
+    # a header is never immediately preceded by a concordance line (concordance FOLLOWS the
+    # header); this catches wrapped concordance tails like "Gözeneler68" whose "Modern"
+    # keyword sits on the previous line.
+    prev = next((lines[k].strip() for k in range(i - 1, max(i - 4, -1), -1) if lines[k].strip()), "")
+    if ERA_RE.match(prev) or re.search(r"\b(Modern|Classical|Armenian|Kurdish|Syriac|Crusader)\b", prev):
         return False
     if (i - 1) in coord_idxs or ((i - 2) in coord_idxs and not lines[i - 1].strip()):
         return True

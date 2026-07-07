@@ -52,3 +52,48 @@ foundation/settlement content characteristic of the Buldān and of Ibn Shaddād'
 flipped this session from the earlier Taʾrīkh (SRC-0003) guess. Carries `[citation needed]`.
 Action: check the printed Ibn Shaddād, al-Aʿlāq al-khaṭīra, which names its al-Yaʿqūbī source;
 confirm or disconfirm the SRC-0008 attribution and clear the flag.
+
+## Deferred source-minting queue (Phase 2)
+
+**Standing policy (from Session 2):** during extraction, one-clause primary-source mentions
+are **deferred, not minted mid-session** (keeps sessions focused; matches Session 1's
+zero-mint precedent). Deferred sources are queued here and minted in a **dedicated
+source-minting pass** at a checkpoint (suggested: before Session 4, or whenever the queue
+reaches ~5), which also back-fills the attestations that reference them. Both named
+geographers below recur across the thughūr/ʿawāṣim material, so minting them once serves all
+later sessions.
+
+- **al-Iṣṭakhrī** — deferred at ATT-0354 (Al-Ḥadath "fertile lands"). Major 10th-c. geographer;
+  will recur.
+- **Ibn Rusta** — deferred at INT-0165 / Dulūk ("thughūr site in 903"). Major geographer; will recur.
+
+## Tooling fix applied (Session 2 follow-up)
+
+`normalize_gazetteer.py` header detection previously mis-keyed Al-Ḥadath's coordinate under the
+concordance token "Göynük)" (embedded era/Modern markers weren't excluded). Fixed; sidecars
+`eger_2008_coordinates.json` and `eger_2008_page_map.json` regenerated — Al-Ḥadath's point
+(37.70N 37.44E) and page span (pp. 458–462) now key correctly. Cleaned text unchanged.
+Commit the updated tool + regenerated sidecars together.
+
+## Tooling fix #2 (Session 3 follow-up) — entry-boundary phantoms
+
+`normalize_gazetteer.py` was minting phantom entries off two line types inside a real entry:
+(1) `(see Chapter N)` cross-reference lines, and (2) wrapped concordance continuations whose
+"Modern" keyword sat on the previous line (e.g. `Gözeneler68`). These phantoms stole neighbouring
+coordinates (Session 3 rows #8, #11/#12). Fixed: `(see…` lines and any line immediately preceded
+by a concordance line are excluded from header detection. Sidecars regenerated — Iskandarūna,
+Al-Muthaqqab, and Al-Kanīsa as-Sawdā' now key correctly; the UNRECOVERABLE 43750/95800 point is
+re-attributed to ENT-PLC-0121 (Al-Kanīsa/Epiphaneia), not al-Maṣṣīṣa. Cleaned text unchanged.
+Commit the updated tool + regenerated sidecars together.
+
+## Source-minting queue — AT CHECKPOINT (do before Session 4)
+
+Queue is now ~6 and past the ~5 trigger. A dedicated source-minting pass is warranted before
+Session 4:
+- al-Iṣṭakhrī (recurs), Ibn Rusta (recurs) — from Session 2
+- al-Balkhī (Hārūnīyya joint small-fort description)
+- al-Dimashqī (Kamkh, thughūr al-jazīra list)
+- Abū ʿAmr al-Bāhilī (Ḥiṣn Manṣūr naming tradition)
+- unnamed source behind the Jawzāt garrison roster (Abū ʿAmr al-Ṭarsūsī named as qāḍī, not author)
+Pass mints SRC-0066+ for each resolvable source and back-fills the deferred attestations to point
+at them (updating the placeholder notes in ATT-0354, INT-0165, and the Session 3 deferrals).
