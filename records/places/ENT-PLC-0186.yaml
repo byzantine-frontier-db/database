@@ -1,0 +1,33 @@
+- record_type: place
+  id: ENT-PLC-0186
+  standardised_name: Ḥiṣn Qalawdiya
+  alternative_names:
+  - form: Qalawdiya
+    language: ar
+    script: Arab
+  place_type: fortress
+  identification_status: unidentified
+  identification_confidence: 1
+  overall_confidence: 2
+  analytical_summary: A little-known ʿAbbāsid frontier fort of the thughūr al-bakrīya guarding
+    the eastern approach to Malaṭiya, grouped by Eger with Ḥiṣn Kamkh at the far eastern extent
+    of the frontier. Reported as fortified by al-Manṣūr in 757 and as receiving its first
+    bishop only in the early 10th century. Not identified on the ground and given no coordinate
+    in the Eger 2008 gazetteer. Minted in Phase 2 Session 3 from SRC-0065; resolved as a new
+    place after NFKD-normalized matching returned no existing entity.
+  linked_attestations:
+  - ATT-0384
+  - ATT-0385
+  notes: 'Minted Session 3 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2, s.v. Ḥiṣn Qalawdiya,
+    p. 475. No coordinate line exists in the gazetteer entry — none added; flagged for manual
+    entry against the printed source if a location can be established. Non-visited site (no
+    Section 4): not visited by Eger, no primary_observation minted. identification_status:
+    unidentified, identification_confidence 1 (Eger: "very little is known about the site").
+    editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

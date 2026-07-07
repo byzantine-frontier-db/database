@@ -1,0 +1,23 @@
+- record_type: observation
+  id: OBS-0245
+  proposition: The polygonal mortared buttress fortification around the theatre at al-Kanīsa
+    as-Sawdāʾ/Epiphaneia is most plausibly a Middle Islamic/Medieval defensive work rather
+    than an Early Islamic one, given the rarity of polygonal masonry in the region's Early
+    Islamic building and the site's ceramic continuity from Hellenistic to Middle Islamic
+    with Early Islamic/Byzantine wares under-represented; the Early Islamic occupation likely
+    centred on a small kale on the outcrop within the larger classical city.
+  associated_entities:
+  - ENT-PLC-0121
+  supporting_attestations:
+  - ATT-0404
+  notes: Derived from Eger's dated 2004 autopsy (Section 4). The Middle-Islamic dating of
+    the theatre wall and the kale-plus-classical-city reconstruction are Eger's inferences
+    from architecture and surface ceramics, not stratified results; the under-representation
+    of Early Islamic wares is explicitly attributed to survey methodology.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0384
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0186
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Qalawdiya, p. 475 (SRC-0065).
+  paraphrase: Eger places Ḥiṣn Qalawdiya, of which very little is known, at the far eastern
+    extent of the frontier in the thughūr al-bakrīya (like Ḥiṣn Kamkh), where it guarded the
+    approach to Malaṭiya from the east; no coordinate is given in the gazetteer and the site
+    is not identified on the ground.
+  confidence: 2
+  notes: Section-1 locational statement for a newly minted, unidentified place. Bootstrap
+    attestation giving ENT-PLC-0186 a non-empty linked_attestations. No coordinate line exists
+    in the gazetteer entry — none added; noted for manual follow-up. modern_synthesis (Eger's
+    placement), not gis_derived (no coordinate).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

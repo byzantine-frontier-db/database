@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0398
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0121
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Al-Kanīsa as-Sawdāʾ (Gözeneler), pp. 479–486 (SRC-0065).
+  paraphrase: Eger identifies al-Kanīsa as-Sawdāʾ ("the Black Church") with classical Epiphaneia
+    (earlier Oiniandos) at Güze Han/Gözeneler on an ancient lava bed at the eastern edge of
+    the Cilician/Issos plain, c. 91 km SE of Adana, 11 km south of Toprakkale and 7 km west
+    of Erzin, on the ancient road from Toprakkale toward Baiae and, in the Islamic period,
+    Hārūnīyya and Bayās.
+  confidence: 3
+  notes: 'Section-1 locational identification. NO coordinate added: the gazetteer''s inline
+    UTM for this entry (36N N43750 E95800) is corrupt — both figures truncated to five digits
+    and the northing ambiguous (4043750 vs 4093750) — and is flagged UNRECOVERABLE in docs/eger_2008_coordinates.json.
+    Per session policy the point is NOT invented; ENT-PLC-0121 is left without coordinates,
+    pending manual entry against the printed page. modern_synthesis (no usable coordinate,
+    so not gis_derived).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

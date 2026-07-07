@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0403
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0121
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Al-Kanīsa as-Sawdāʾ (Gözeneler), pp. 479–486, "Remains"
+    (SRC-0065).
+  paraphrase: 'Eger summarises the survey record: Seton-Williams identified Site 146 (Güzen
+    Han) with Epiphaneia, a large aqueduct-fed site with Roman, Late Roman and Islamic ceramics;
+    Jennifer Tobin (visits 1993–2000) recorded a 150-ha site with the largest theatre in Cilicia
+    (87 m diameter), a bath, and much 13th-century sgraffiato with kiln furniture suggesting
+    a medieval pottery centre; and the 2004 Mopsus Survey (Site 1) mapped an acropolis of
+    160 × 60 m, found the first Iron and Bronze Age sherds, put the Roman–Byzantine and early-medieval
+    scatter at c. 66 ha, and argued the 150-ha figure was too large. A 116-pier aqueduct fed
+    a mortared cistern near the citadel, and Greek inscriptions were recorded.'
+  confidence: 3
+  notes: Section-3 published-archaeology summary (Seton-Williams, Tobin, Mopsus Survey), as
+    relayed by Eger.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

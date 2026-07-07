@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0368
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0122
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix 2, s.v.
+    Hārūnīyya, pp. 463–469 (SRC-0065).
+  paraphrase: al-Balādhurī reports Hārūnīyya as a city one march west of Marʿash founded by
+    Hārūn al-Rashīd in 799, while also noting it was begun earlier under al-Mahdī and completed
+    in Hārūn's own caliphate; he refers to it specifically as a fort (ḥiṣn).
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation (SRC-0065 the route). al-Yaʿqūbī
+    corroborates the pre-Hārūn (al-Mahdī-era) construction; a dedicated al-Yaʿqūbī attestation
+    is not minted here as the gazetteer folds the two together without distinguishing Taʾrīkh
+    (SRC-0003) from Kitāb al-Buldān (SRC-0008). [citation needed: confirm the Futūḥ passage
+    against a printed edition.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

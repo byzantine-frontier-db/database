@@ -1,0 +1,38 @@
+- record_type: place
+  id: ENT-PLC-0187
+  standardised_name: Jawzāt
+  alternative_names:
+  - form: Ḥiṣn al-Jawzāt
+    language: ar
+    script: Arab
+  - form: al-Jawzāt
+    language: ar
+    script: Arab
+  place_type: fortress
+  identification_status: unidentified
+  identification_confidence: 1
+  overall_confidence: 2
+  analytical_summary: A fortress of the thughūr al-shāmiyya named by Ibn Ḥawqal and placed
+    by Yāqūt two days from Ṭarsūs, in a mountain pass overlooking the city some eight farsakhs
+    (c. 65 km) away; unidentified today, tentatively located by Eger near Bughaz or Pozantı
+    by the Cilician Gates. The entry preserves an unusually detailed garrison roster (qāḍī,
+    amir and deputy, preacher, fort- and bath-keepers, clerk, couriers, trumpeter and troops,
+    with a bathhouse and a bar on women and unbearded boys), valued as a snapshot of a typical
+    frontier garrison. Minted in Phase 2 Session 3 from SRC-0065 after NFKD-normalized matching
+    returned no existing entity.
+  linked_attestations:
+  - ATT-0394
+  - ATT-0395
+  - ATT-0396
+  notes: 'Minted Session 3 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2, s.v. Jawzāt (or
+    Ḥiṣn al-Jawzāt), p. 478. No coordinate line exists in the gazetteer entry — none added;
+    Eger''s tentative "near Bughaz/Pozantı" placement is held in the analytical summary, not
+    converted to a coordinate. Non-visited site (no Section 4): not visited by Eger, no primary_observation
+    minted. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

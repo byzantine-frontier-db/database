@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0391
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0126
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix 2, s.v.
+    Iskandarūna, p. 476 (SRC-0065).
+  paraphrase: al-Balādhurī records that Iskandarūna belonged to Maslama b. ʿAbd al-Malik;
+    that a fort there was built by Umm Jaʿfar Zubayda, wife of al-Rashīd; and that the site
+    passed as iqṭāʿ to Raghā, a mawlā of al-Mahdī, then through al-Mahdī's sons to Ibrāhīm
+    b. Saʿīd al-Jawharī and to the grand qāḍī Aḥmad b. Abī Duʾād al-Iyādī, who renovated it
+    under al-Wāthiq, before it reverted to the caliph al-Mutawakkil and was taken by Ibn Ṭūlūn
+    in 877.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation. [citation needed: confirm the
+    Futūḥ passage and the chain of tenure against a printed edition.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0383
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0074
+  observations_supported:
+  - OBS-0244
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Manṣūr, pp. 472–474, "Personal Observations,
+    9/26/04" (SRC-0065).
+  paraphrase: On a visit of 26 September 2004 Eger found the town-centre mound of Adıyaman
+    a wooded rise among modern houses, smaller than but comparable to Gözlü Kule at Tarsus,
+    with classical Perre and its necropolis lying several km to the north; he recovered nothing
+    definitely Early Islamic on or around the tell — indeed almost nothing of any period —
+    and stressed that, unlike most frontier sites, Ḥiṣn Manṣūr was not founded on the classical
+    city and would have guarded east–west and north–south trade routes rather than a mountain
+    pass.
+  observation_date:
+    start: '2004-09-26'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0244. schema v2 record.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

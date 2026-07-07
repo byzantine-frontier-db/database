@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0375
+  source: SRC-0027
+  entities_referenced:
+  - ENT-PLC-0078
+  provenance: primary_paraphrase
+  citation: Mustawfī, Nuzhat al-Qulūb (SRC-0027); reached via Eger 2008, Appendix 2, s.v.
+    Ḥiṣn Kamkh, pp. 470–471 (SRC-0065).
+  paraphrase: Mustawfī describes Kamkh as a great castle with a town below it on the riverbank
+    and many fertile villages dependent upon it.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation. al-Dimashqī, cited by Eger for
+    listing Kamkh among the thughūr al-jazīra in the 14th century, has no SourceRecord and
+    is a single-clause mention: DEFERRED to the backlog minting queue rather than minted mid-session.
+    [citation needed: confirm the Nuzhat al-Qulūb passage.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

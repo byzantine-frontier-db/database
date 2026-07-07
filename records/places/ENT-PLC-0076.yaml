@@ -21,11 +21,34 @@
   - ATT-0147
   - ATT-0148
   - ATT-0312
-  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  - ATT-0386
+  - ATT-0387
+  - ATT-0388
+  - ATT-0389
+  coordinates:
+    latitude: 38.70319
+    longitude: 39.25736
+    crs: EPSG:4326
+    coordinate_source: UTM 37N N4283871 E522378 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 4
+  notes: 'Entity search: not in snapshot; minted provisionally (Phase 1). Coordinate
+    added Session 3 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2, s.v. Ḥiṣn Ziyād,
+    p. 475 — supersedes the earlier "coordinates deferred" note. The 37N conversion is
+    clean and falls at Harput (Kharput); coordinate_confidence 4 (not 5) because the entity
+    is probably_identified and the entry records a competing placement (Fiey posits Tilenzit,
+    east of Elazığ), held inline rather than as a parallel entity. Non-visited site: not
+    visited by Eger, no primary_observation. Section-2 Yāqūt (ATT-0387) and history synthesis
+    (ATT-0388); Section-3 epigraphy — the 1146–47 Kūfī/Naskhī inscription and Sinclair''s
+    notes (ATT-0389).'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.1.0
+    schema_version: 2.0.0
+    record_version: 1.2.0
     created_at: '2026-06-15T00:00:00Z'
-    created_by: Curtis
+    modified_at: '2026-07-07T00:00:00Z'
+    modified_by: Curtis
     workflow_state: draft
     editorial_review_required: true

@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0378
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0074
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Manṣūr, pp. 472–474 (SRC-0065).
+  paraphrase: Eger argues Ḥiṣn Manṣūr was an Umayyad rather than an ʿAbbāsid foundation, named
+    not for the caliph but for the Qaysī commander Manṣūr b. Jaʿwana b. al-Ḥārith al-ʿĀmirī
+    (governor of al-Ruhā/Edessa under Marwān II), who was ordered to build or repair the town
+    against Byzantine incursions c. 750 and garrisoned it; after his patron ʿAbdallāh's death
+    in 758 the town fell to ruin and was later refortified and re-garrisoned by Hārūn al-Rashīd
+    during al-Mahdī's caliphate.
+  confidence: 3
+  notes: 'Section-2 foundation narrative synthesised by Eger. The naming tradition is credited
+    in the entry to Abū ʿAmr al-Bāhilī, who has no SourceRecord and is a single-source mention:
+    DEFERRED to the backlog minting queue, not minted mid-session. Attested as modern_synthesis
+    against SRC-0065 (provenance honesty) rather than against the unminted al-Bāhilī.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

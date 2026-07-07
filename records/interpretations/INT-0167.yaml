@@ -1,0 +1,39 @@
+- record_type: interpretation
+  id: INT-0167
+  associated_entities:
+  - ENT-PLC-0121
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Al-Kanīsa
+    as-Sawdāʾ (Gözeneler)
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Eger argues that al-Kanīsa as-Sawdāʾ was not the minor outpost the "small fortification"
+    assumption implies but a large city (a Roman–Byzantine and early-medieval scatter of c.
+    66 ha within a walled acropolis complex), a classical Epiphaneia strengthened rather than
+    founded by Hārūn in 799; and that the conspicuous polygonal buttressed fortification of
+    the theatre is a Middle Islamic/Medieval work, not Early Islamic, so that the Early Islamic
+    phase is better sought in a small kale on the outcrop and the settlement within the old
+    city. He rejects Edwards's identification of Kanīsa as-Sawdāʾ with the small fort of Karafrenk
+    near the Bahçe Pass (built on Abū al-Fidāʾ's unreliable twelve-miles-from-Hārūnīyya distance)
+    and, with Cahen and Sinclair, keeps the site at Güze Han/Gözeneler.
+  supporting_evidence:
+  - ATT-0398
+  - ATT-0399
+  - ATT-0402
+  - ATT-0403
+  - ATT-0404
+  confidence: 3
+  notes: Eger's own reassessment of the site's scale and of the date of its fortification,
+    attributed to him rather than asserted as fact. supporting_evidence is attestation-only
+    per rule 9 (locational/foundation synthesis ATT-0398/0399, the Abū al-Fidāʾ distance he
+    rejects ATT-0402, the survey record ATT-0403, and his 2004 autopsy ATT-0404). The rejected
+    Edwards (Karafrenk) identification is held inline per governance §5.4, not minted as a
+    parallel entity. Distinct from INT-0060 (the ʿAyn Zarba–Hārūnīyya–Kanīsa strategic-triangle
+    argument), which concerns siting rather than scale/chronology.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

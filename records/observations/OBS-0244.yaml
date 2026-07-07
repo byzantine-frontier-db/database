@@ -1,0 +1,20 @@
+- record_type: observation
+  id: OBS-0244
+  proposition: Surface inspection of the town-centre tell at Adıyaman yielded no diagnostically
+    Early Islamic material and very little of any period; Ḥiṣn Manṣūr is thus an example of
+    an Early Islamic frontier foundation established beside, rather than on, the classical
+    city (Perre), sited to command trade routes rather than a pass.
+  associated_entities:
+  - ENT-PLC-0074
+  supporting_attestations:
+  - ATT-0383
+  notes: Derived from Eger's dated 2004 autopsy (Section 4). A largely negative surface result;
+    the off-the-classical-city and route-control readings are Eger's interpretation of the
+    setting, not an excavated result.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0380
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0074
+  provenance: primary_paraphrase
+  citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (SRC-0020); reached via Eger 2008, Appendix
+    2, s.v. Ḥiṣn Manṣūr, pp. 472–474 (SRC-0065).
+  paraphrase: Yāqūt describes Ḥiṣn Manṣūr as walled with three gates and an outer ditch, its
+    inner fortress defended by a double wall.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation. [citation needed: confirm the
+    Muʿjam al-buldān entry.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0396
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0187
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Jawzāt (or Ḥiṣn al-Jawzāt), p. 478 (SRC-0065).
+  paraphrase: Eger relays that Jawzāt was a fortress staffed by a qāḍī (Abū ʿAmr al-Ṭarsūsī),
+    an amir and deputy amir, a preacher, a keeper of the fort and a keeper of the bathhouse,
+    a clerk, two couriers, a trumpet-player and troops, with no women or unbearded boys permitted;
+    he stresses the passage's value as a rare snapshot of a typical frontier garrison and
+    as evidence that even a small frontier site had a bathhouse.
+  confidence: 3
+  notes: 'Section-2 garrison-composition synthesis; the underlying source of the garrison
+    list is not named in the prose (Abū ʿAmr al-Ṭarsūsī is the qāḍī, not cited as author),
+    so it is attested as modern_synthesis against SRC-0065. [citation needed: identify the
+    primary source behind the garrison description.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

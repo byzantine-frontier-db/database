@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0392
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0126
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Iskandarūna, p. 476 (SRC-0065).
+  paraphrase: Eger relays Ainsworth's tradition that the town was founded by Alexander for
+    his horse, and reports that the Early Islamic site was a polygonal fort (not a castle)
+    near "Jacob's spring," about a mile inland from the shore, on or beside which the Crusader
+    castle of Godefroy de Bouillon was later built; the site was also fortified by the kings
+    of Armenian Cilicia.
+  confidence: 3
+  notes: Section-2 topographic/identification synthesis with no single primary footnote; modern_synthesis
+    against SRC-0065.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

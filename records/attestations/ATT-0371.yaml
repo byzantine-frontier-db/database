@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0371
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0122
+  observations_supported:
+  - OBS-0243
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Hārūnīyya, pp. 463–469, "Personal Observations, 7/22/05"
+    (SRC-0065).
+  paraphrase: On a visit of 22 July 2005 Eger examined the Hacılar/Harab quarter c. 2 km WSW
+    of Düziçi and found high-density scatters of ceramics and roof tiles, ashlars and columns
+    (one porphyry) reused in modern houses, a rubble-and-ceramic-pipe aqueduct, a late Late-Roman-C
+    base of 6th/7th century date, in-situ walls only 40–50 cm below the surface, and a Byzantine-style
+    grapevine-and-birds mosaic possibly from a church; he saw no definitely Early Islamic
+    sherds on the ground, but a local private museum held nearly a hundred ʿAbbāsid silver
+    dirhams and an Umayyad triple-nozzle lamp said to come from Düziçi, leading him to judge
+    that Early Islamic Hārūnīyya very likely lay at or near this spot.
+  observation_date:
+    start: '2005-07-22'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0243. schema v2 record
+    (primary_observation + observation_date).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

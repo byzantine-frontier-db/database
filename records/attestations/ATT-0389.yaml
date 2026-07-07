@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0389
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0076
+  provenance: epigraphic_evidence
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Ziyād, p. 475, "Remains" (SRC-0065).
+  paraphrase: Eger reports that Sinclair records no Early Islamic presence at the site though
+    an Early Islamic bridge is noted nearby, and that a 1146–47 inscription in Kūfī and Naskhī
+    script found there is among the earliest cursive inscriptions known from outside Persia.
+  confidence: 3
+  notes: Section-3 published epigraphy/archaeology (Eger reporting Sinclair and the inscription,
+    no autopsy). Recorded as epigraphic_evidence for the dated inscription; the Tilenzit alternative
+    (Fiey) is captured in the entity note and in ATT-0386, not as a parallel entity.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

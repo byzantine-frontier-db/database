@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0374
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0078
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix 2, s.v.
+    Ḥiṣn Kamkh, pp. 470–471 (SRC-0065).
+  paraphrase: al-Balādhurī records that Ḥabīb b. Maslama failed to take Kamkh after capturing
+    Shimshāṭ, as did Ṣafwān b. Muʿaṭṭal al-Sulamī, until Ṣafwān finally took it in 678 with
+    ʿUmar b. al-Ḥabīb scaling the walls; it was taken again under Yazīd II in 724, and after
+    changing hands with the Byzantines was retaken for al-Manṣūr in 766 by al-Ḥasan b. Qaḥṭaba
+    and al-ʿAbbās b. Muḥammad, who besieged it with mangonels and mantelets (dabbāba) and
+    then installed a market that introduced Islamic currency to the area.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation. Ibn Serapion (SRC-0034) is named
+    by Eger as also mentioning Kamkh but with no distinctive content given in the entry, so
+    no separate Ibn Serapion attestation is minted. [citation needed: confirm the Futūḥ passage
+    and the 678/724/766 sequence against a printed edition.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0372
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0123
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn al-Tīnāt, p. 470 (SRC-0065); coordinate 37N N4083216
+    E246048, converted to WGS84 (36.86077, 36.15136) via pyproj.
+  paraphrase: The Appendix-2 entry for Ḥiṣn al-Tīnāt is a cross-reference stub ("see chapter
+    4") giving only the site coordinate; the substantive treatment of the site (the excavated
+    Tüpraş Field kiln/industrial site on the ʿAmuq/Cilician coast) sits in Eger's main text,
+    which is not part of this gazetteer corpus.
+  confidence: 5
+  notes: Section-1 stub extracted per Decision 2 (extract "see chapter" stubs as minimal records).
+    Clean 37N conversion, coordinate_confidence 5; Ḥiṣn al-Tīnāt = Tüpraş Field is a securely
+    identified, excavated site. No Section-2/3/4 content exists in the appendix entry — none
+    fabricated. Coordinate added to ENT-PLC-0123.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -13,11 +13,37 @@
   - ATT-0203
   - ATT-0249
   - ATT-0251
+  - ATT-0390
+  - ATT-0391
+  - ATT-0392
+  - ATT-0393
+  coordinates:
+    latitude: 36.58275
+    longitude: 36.18681
+    crs: EPSG:4326
+    coordinate_source: UTM 37N N4052271 E248303 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj. In docs/eger_2008_coordinates.json this point is
+      mis-keyed under the concordance token '(see Chapter 4)' (a header-artifact mis-key,
+      as with al-Ḥadath/'Göynük)' in Session 2); confirmed as Iskandarūna's point by matching
+      the raw UTM (N4052271 E248303) to the inline gazetteer coordinate at the end of the entry.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 4
+  notes: 'Coordinate added Session 3 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2,
+    s.v. Iskandarūna, p. 476. coordinate_confidence 4: İskenderun/Alexandretta is a secure
+    town identification (probably_identified) but the Early Islamic polygonal fort near
+    "Jacob''s spring," c. 1 mile inland, is not precisely located within the modern city.
+    The entry header carries a "(see Chapter 4)" cross-reference yet still gives a full
+    Location/History/Remains treatment, which is extracted here (it is NOT a bare stub).
+    Section-2 al-Balādhurī tenure-chain (ATT-0391), topographic synthesis (ATT-0392);
+    Section-3 Mopsus Survey (ATT-0393). No Section 4 (not visited).'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.1.0
+    schema_version: 2.0.0
+    record_version: 1.2.0
     created_at: '2026-06-17T00:00:00Z'
-    created_by: Curtis
+    modified_at: '2026-07-07T00:00:00Z'
+    modified_by: Curtis
     workflow_state: draft
     editorial_review_required: true
   alternative_names:

@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0377
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0074
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Manṣūr, pp. 472–474 (SRC-0065); coordinate 37N
+    N4179360 E436191, converted to WGS84 (37.75933, 38.27559) via pyproj.
+  paraphrase: Eger locates Ḥiṣn Manṣūr at modern Adıyaman — the identification he says has
+    "always" been made — in a SW–NE valley between the Taurus and the hills north of the Euphrates
+    in the Gaziantep–Adıyaman rolling plain, watered by the Nahr al-Azraq (Göksu); it is held
+    to have succeeded nearby classical Perre after Perre's decline.
+  confidence: 5
+  notes: Section-1 locational identification; clean 37N conversion, coordinate added to ENT-PLC-0074.
+    The Adıyaman identification is secure (coordinate_confidence 5); the Perre-succession
+    point is Eger's topographic argument, not a coordinate claim.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0390
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0126
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Iskandarūna, p. 476 (SRC-0065); coordinate 37N N4052271
+    E248303, converted to WGS84 (36.58275, 36.18681) via pyproj.
+  paraphrase: Eger locates Iskandarūna (classical Alexandretta ad Issum, modern İskenderun)
+    at the southern Plain of Issos on the Gulf of İskenderun near Rhosos, at the entrance
+    to the Belen Pass (Syrian Gates) linking the coast to the Amuq interior.
+  confidence: 4
+  notes: Section-1 locational identification; clean 37N conversion. In docs/eger_2008_coordinates.json
+    this point is mis-keyed under the concordance token '(see Chapter 4)' — the same header-artifact
+    mis-key seen for al-Ḥadath/'Göynük)' in Session 2 — because the entry header carries a
+    '(see Chapter 4)' cross-reference line; confirmed as Iskandarūna's point by matching the
+    raw UTM (N4052271 E248303) to the inline gazetteer coordinate at the end of the entry.
+    coordinate_confidence 4 (probably_identified; the town is secure but the Early Islamic
+    fort's exact location within İskenderun is not). Coordinate added to ENT-PLC-0126.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

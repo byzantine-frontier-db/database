@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0379
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0074
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ (SRC-0009); reached via Eger 2008, Appendix 2,
+    s.v. Ḥiṣn Manṣūr, pp. 472–474 (SRC-0065).
+  paraphrase: Ibn Ḥawqal describes Ḥiṣn Manṣūr as a small town with a congregational mosque
+    surrounded by irrigated fields.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation. [citation needed: confirm the
+    Ṣūrat al-Arḍ passage.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

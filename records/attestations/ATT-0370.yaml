@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0370
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0122
+  provenance: primary_paraphrase
+  citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (SRC-0020); reached via Eger 2008, Appendix
+    2, s.v. Hārūnīyya, pp. 463–469 (SRC-0065).
+  paraphrase: Yāqūt records that in 959–960 Nikephoros captured 1,500 Muslim residents from
+    Hārūnīyya.
+  confidence: 3
+  notes: 'Section-2 secondary-mediated primary attestation. [citation needed: confirm the
+    Muʿjam al-buldān entry and the date against a printed edition.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

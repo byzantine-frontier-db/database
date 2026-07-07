@@ -18,14 +18,31 @@
   - ATT-0262
   - ATT-0267
   - ATT-0334
+  - ATT-0367
+  - ATT-0368
+  - ATT-0369
+  - ATT-0370
+  - ATT-0371
   linked_interpretations:
   - INT-0060
   - INT-0063
+  - INT-0166
+  coordinates:
+    latitude: 37.24520
+    longitude: 36.44824
+    crs: EPSG:4326
+    coordinate_source: UTM 37N N4125125 E273665 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 3
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.3.0
+    schema_version: 2.0.0
+    record_version: 1.4.0
     created_at: '2026-06-17T00:00:00Z'
-    created_by: Curtis
+    modified_at: '2026-07-07T00:00:00Z'
+    modified_by: Curtis
     workflow_state: draft
     editorial_review_required: true
   alternative_names:
@@ -41,4 +58,12 @@
     approach.
   notes: 'identification_status disputed per governance §4.4: Düzici (Irenopolis)
     vs Örenşehir. See associated InterpretationRecord. Bishopric of Irenopolis attested
-    via Michael the Syrian.'
+    via Michael the Syrian. Coordinate added Session 3 (Phase 2) from Eger 2008 (SRC-0065),
+    Appendix 2, s.v. Hārūnīyya, pp. 463–469; the 37N conversion is clean but coordinate_confidence
+    is 3 (not 5) because the point falls at the Düziçi/Irenopolis candidate Eger endorses
+    in this 2008 gazetteer (INT-0166 / ATT-0367), whereas his later 2015 preference (INT-0063)
+    is for Örenşehir — the identification remains disputed and the coordinate should be
+    re-checked once Curtis settles the candidate. Section-2 primary attestations added:
+    al-Balādhurī (ATT-0368), Ibn Ḥawqal (ATT-0369), Yāqūt (ATT-0370); Section-4 dated autopsy
+    of 22 Jul 2005 (ATT-0371 -> OBS-0243). al-Iṣṭakhrī and al-Balkhī (joint "small fort"
+    description) deferred to the source-minting backlog.'

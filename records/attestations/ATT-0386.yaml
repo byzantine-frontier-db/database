@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0386
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0076
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Ziyād, p. 475 (SRC-0065); coordinate 37N N4283871
+    E522378, converted to WGS84 (38.70319, 39.25736) via pyproj.
+  paraphrase: Eger locates Ḥiṣn Ziyād (classical Enzitene, Syriac Ḥanzīṭ, Armenian Kharput,
+    modern Harput) in the upper Euphrates area west of Shimshāṭ; the coordinate falls at Harput
+    above Elazığ.
+  confidence: 4
+  notes: 'Section-1 locational identification; clean 37N conversion. coordinate_confidence
+    4 (not 5): the entity is identification_status: probably_identified and the entry notes
+    a competing placement — Fiey posits the site at Tilenzit east of Elazığ — so the Harput
+    point carries mild residual uncertainty. Coordinate added to ENT-PLC-0076. Non-visited
+    site; "not visited by Eger" note added, no primary_observation.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

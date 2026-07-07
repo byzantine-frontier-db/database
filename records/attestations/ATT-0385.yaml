@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0385
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0186
+  provenance: modern_synthesis
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Qalawdiya, p. 475 (SRC-0065).
+  paraphrase: Eger reports that Ḥiṣn Qalawdiya was fortified under the early ʿAbbāsids by
+    al-Manṣūr in 757 and did not receive its first bishop until the early 10th century.
+  confidence: 2
+  notes: 'Section-2 historical synthesis; the two-clause entry carries a footnote but names
+    no primary source in the prose, so it is attested as modern_synthesis against SRC-0065
+    rather than a primary. [citation needed: identify the primary source(s) behind Eger''s
+    footnote 64.]'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0373
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0078
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Kamkh, pp. 470–471 (SRC-0065); coordinate 37N
+    N4383256 E503197, converted to WGS84 (39.59903, 39.03724) via pyproj.
+  paraphrase: Eger locates Ḥiṣn Kamkh (classical Kamacha/Chomacha, modern Kemah) on the upper
+    Euphrates in the thughūr al-bakrīya, on the south (left) bank about one day's journey
+    (c. 50 km) below Arzanjān (Erzincan), its strategic value lying in the passes it commanded
+    into Armenia.
+  confidence: 5
+  notes: Section-1 locational identification; clean 37N conversion, coordinate added to ENT-PLC-0078.
+    Non-visited site (no Section-4 present in the entry); "not visited by Eger" note added
+    to the entity, no primary_observation minted.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

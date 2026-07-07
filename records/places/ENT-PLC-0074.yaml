@@ -26,14 +26,38 @@
   - ATT-0146
   - ATT-0312
   - ATT-0154
-  notes: 'Entity search: not in snapshot (ENT-PLC-0001..0073); no match. Minted provisionally.
-    Coordinates deferred to editorial review.'
+  - ATT-0377
+  - ATT-0378
+  - ATT-0379
+  - ATT-0380
+  - ATT-0381
+  - ATT-0382
+  - ATT-0383
+  coordinates:
+    latitude: 37.75933
+    longitude: 38.27559
+    crs: EPSG:4326
+    coordinate_source: UTM 37N N4179360 E436191 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 5
+  notes: 'Entity search: not in snapshot (ENT-PLC-0001..0073); no match. Minted provisionally
+    (Phase 1). Coordinate added Session 3 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2,
+    s.v. Ḥiṣn Manṣūr, pp. 472–474 — supersedes the earlier "coordinates deferred" note;
+    clean 37N conversion onto modern Adıyaman (the secure, long-standing identification),
+    coordinate_confidence 5. Full enrichment: Section-2 foundation synthesis (ATT-0378),
+    primaries Ibn Ḥawqal (ATT-0379), Yāqūt (ATT-0380), Ibn Shaddād (ATT-0381), Abū al-Fidāʾ
+    (ATT-0382); Section-4 dated autopsy of 26 Sep 2004 (ATT-0383 -> OBS-0244). Abū ʿAmr
+    al-Bāhilī (the naming tradition) deferred to the source-minting backlog.'
   linked_interpretations:
   - INT-0043
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.2.0
+    schema_version: 2.0.0
+    record_version: 1.3.0
     created_at: '2026-06-15T00:00:00Z'
-    created_by: Curtis
+    modified_at: '2026-07-07T00:00:00Z'
+    modified_by: Curtis
     workflow_state: draft
     editorial_review_required: true

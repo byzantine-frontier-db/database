@@ -1,0 +1,33 @@
+- record_type: attestation
+  id: ATT-0404
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0121
+  observations_supported:
+  - OBS-0245
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Al-Kanīsa as-Sawdāʾ (Gözeneler), pp. 479–486, "Personal
+    Observations, 8/2/04" (SRC-0065).
+  paraphrase: On a visit of 2 August 2004 Eger examined the conspicuous polygonal mortared
+    buttress wall outside the theatre — the best-preserved feature — found a Hellenistic/Roman
+    sherd set in its mortar and a Syrian yellow-glaze sherd near the top of the city wall,
+    and argued that this theatre-wall fortification is Middle Islamic/Medieval rather than
+    Early Islamic, since polygonal architecture is rare for the Early Islamic period in the
+    region; examining the pottery with Andrea de Giorgi of the 2004 Mopsus Survey he noted
+    continuity from Hellenistic through Middle Islamic at Site 1 with Early Islamic and Byzantine
+    forms under-represented (which he attributed to the survey team's Iron Age focus), and
+    concluded that the Early Islamic settlement was hard to assess but probably occupied a
+    small kale on the rocky outcrop with the wider settlement in the classical city.
+  observation_date:
+    start: '2004-08-02'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0245. schema v2 record.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

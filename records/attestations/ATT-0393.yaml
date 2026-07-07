@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0393
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0126
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Iskandarūna, p. 476, "Remains" (SRC-0065).
+  paraphrase: Eger reports that the recent (then unpublished) Mopsus Survey concluded from
+    surface collection and a sounding that the Hellenistic and Roman areas lay south of the
+    castle and the modern city.
+  confidence: 3
+  notes: Section-3 published-archaeology summary (unpublished survey result as relayed by
+    Eger, no autopsy).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

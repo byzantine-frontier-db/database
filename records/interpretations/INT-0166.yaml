@@ -1,0 +1,35 @@
+- record_type: interpretation
+  id: INT-0166
+  associated_entities:
+  - ENT-PLC-0122
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Hārūnīyya
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: In the 2008 gazetteer Eger follows Hellenkemper and Hild in identifying Early
+    Islamic Hārūnīyya with classical Irenopolis at the Hacılar/Harab quarter of modern Düziçi,
+    rather than with the medieval Hārūnīyya Kalesi on the hill to the north (which yields
+    no Early Islamic material and whose "Arab embrasures," per Edwards, he regards as an insufficient
+    basis). His 22 July 2005 autopsy of the dense Late Roman surface assemblage there, together
+    with reported local finds of ʿAbbāsid dirhams and an Umayyad lamp, underpins the placement,
+    which he still frames as unconfirmed.
+  supporting_evidence:
+  - ATT-0367
+  - ATT-0368
+  - ATT-0369
+  - ATT-0371
+  confidence: 3
+  notes: 'Eger''s 2008-dissertation site identification, attributed to him rather than asserted
+    as fact. supporting_evidence is attestation-only per rule 9. DISPUTE (rule 10): this Düziçi/Irenopolis
+    placement is in tension with INT-0063, which records Eger''s LATER (2015 monograph) preference
+    for Örenşehir as the stronger candidate; the two are held as distinct dated positions,
+    not merged, and the entity remains identification_status: disputed. Competing Honigmann
+    (Bağdacık/Hasanbeyli Pass) and Edwards (Hārūnīyya Kalesi) placements are held inline here
+    per governance §5.4, not minted as parallel entities.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
