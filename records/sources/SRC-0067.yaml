@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0067
+  standardised_title: Ibn Rusta, Kitāb al-Aʿlāq al-nafīsa
+  author_unnamed: false
+  date_of_composition:
+    start: 903
+    end: 913
+    precision: year_range_narrow
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: 'Edition not specified by Eger — [citation needed: Ibn Rusta edition].'
+  reliability_assessment: Early-tenth-century Arabic geographical compendium (the surviving
+    seventh volume of al-Aʿlāq al-nafīsa, compiled c. 903–913); cited by Eger for a 903
+    notice of Dulūk as a thughūr site.
+  dependencies: []
+  notes: 'Minted in the Phase-2 source-minting pass (2026-07-08) to resolve the deferred
+    Dulūk mention (ATT-0408). Author person-entity not yet created. Edition unspecified in Eger.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

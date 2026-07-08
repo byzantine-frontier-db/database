@@ -1,0 +1,30 @@
+- record_type: source
+  id: SRC-0069
+  standardised_title: al-Balkhī, Ṣuwar al-aqālīm
+  author_unnamed: false
+  date_of_composition:
+    start: 920
+    end: 934
+    precision: year_range_broad
+    confidence: 2
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: No independent edition — text preserved only via al-Iṣṭakhrī (SRC-0066)
+    and Ibn Ḥawqal (SRC-0009). [citation needed].
+  reliability_assessment: Abū Zayd al-Balkhī (d. 322/934), founder of the "Balkhī school"
+    of Arabic geography. His Ṣuwar al-aqālīm (regional maps with commentary) does NOT
+    survive independently and is known only through the recensions of al-Iṣṭakhrī and
+    Ibn Ḥawqal; "al-Balkhī" attributions are therefore transmitted via those witnesses.
+  dependencies: []
+  notes: 'FLAG for bibliographic review (Curtis): al-Balkhī''s original is lost and preserved
+    only through al-Iṣṭakhrī (SRC-0066) and Ibn Ḥawqal (SRC-0009). Minted because Eger names
+    him as a distinct authority with death-date 934 (Hārūnīyya, ATT-0406); the alternative
+    is to fold al-Balkhī citations into SRC-0066/SRC-0009. Decision deferred. author_id outstanding.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

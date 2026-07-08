@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0066
+  standardised_title: al-Iṣṭakhrī, Kitāb al-Masālik wa-l-mamālik
+  author_unnamed: false
+  date_of_composition:
+    start: 930
+    end: 951
+    precision: year_range_broad
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: 'Edition not specified by Eger — [citation needed: al-Iṣṭakhrī edition].'
+  reliability_assessment: Tenth-century Arabic geographer of the Balkhī school. His Kitāb
+    al-Masālik wa-l-mamālik (a recension of al-Balkhī's Ṣuwar al-aqālīm, c. 950) is a
+    principal source for the Thughūr/ʿAwāṣim and underlies Ibn Ḥawqal's later Ṣūrat al-Arḍ.
+  dependencies: []
+  notes: 'Minted in the Phase-2 source-minting pass (2026-07-08) to resolve deferred
+    mentions at Hārūnīyya (ATT-0405) and Al-Kanīsa as-Sawdāʾ (ATT-0407). Author person-entity
+    not yet created (author_id outstanding). Edition unspecified in Eger.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

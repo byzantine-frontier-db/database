@@ -1,0 +1,17 @@
+- record_type: attestation
+  id: ATT-0409
+  source: SRC-0068
+  entities_referenced:
+  - ENT-PLC-0078
+  provenance: primary_paraphrase
+  citation: al-Dimashqī, Nukhbat al-dahr (SRC-0068); reached via Eger 2008, Appendix 2, s.v. Ḥiṣn Kamkh, pp. 470–471 (SRC-0065).
+  paraphrase: al-Dimashqī, in the early fourteenth century, lists Ḥiṣn Kamkh among the thughūr al-jazīra.
+  confidence: 3
+  notes: Section-2; resolves the al-Dimashqī deferral on ATT-0375. Late source. Edition/page outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

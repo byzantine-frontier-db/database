@@ -1,0 +1,17 @@
+- record_type: attestation
+  id: ATT-0406
+  source: SRC-0069
+  entities_referenced:
+  - ENT-PLC-0122
+  provenance: primary_paraphrase
+  citation: al-Balkhī, Ṣuwar al-aqālīm (SRC-0069); reached via Eger 2008, Appendix 2, s.v. Hārūnīyya, pp. 463–469 (SRC-0065).
+  paraphrase: al-Balkhī (d. 934), cited with Ibn Ḥawqal and al-Iṣṭakhrī, describes Hārūnīyya as a small fort and, elsewhere, as the closest fortress to Byzantine territory.
+  confidence: 3
+  notes: al-Balkhī's text survives only via al-Iṣṭakhrī (SRC-0066) and Ibn Ḥawqal (SRC-0009) — see the SRC-0069 bibliographic flag. Edition/page outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

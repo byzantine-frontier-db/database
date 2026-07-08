@@ -23,6 +23,8 @@
   - ATT-0369
   - ATT-0370
   - ATT-0371
+  - ATT-0405
+  - ATT-0406
   linked_interpretations:
   - INT-0060
   - INT-0063
@@ -39,7 +41,7 @@
     coordinate_confidence: 3
   metadata:
     schema_version: 2.0.0
-    record_version: 1.4.0
+    record_version: 1.5.0
     created_at: '2026-06-17T00:00:00Z'
     modified_at: '2026-07-07T00:00:00Z'
     modified_by: Curtis

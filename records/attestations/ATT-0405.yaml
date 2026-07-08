@@ -1,0 +1,17 @@
+- record_type: attestation
+  id: ATT-0405
+  source: SRC-0066
+  entities_referenced:
+  - ENT-PLC-0122
+  provenance: primary_paraphrase
+  citation: al-Iṣṭakhrī, Kitāb al-Masālik wa-l-mamālik (SRC-0066); reached via Eger 2008, Appendix 2, s.v. Hārūnīyya, pp. 463–469 (SRC-0065).
+  paraphrase: al-Iṣṭakhrī, cited with Ibn Ḥawqal and al-Balkhī, describes Hārūnīyya as a small fort (ḥiṣn ṣaghīr) on the western slopes of the Amanus.
+  confidence: 3
+  notes: Section-2 joint 'small fort' attribution (cf. ATT-0369 Ibn Ḥawqal, ATT-0406 al-Balkhī); resolves the al-Iṣṭakhrī deferral on ATT-0369. Edition/page unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

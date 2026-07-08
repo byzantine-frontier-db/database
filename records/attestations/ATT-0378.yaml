@@ -12,13 +12,10 @@
     in 758 the town fell to ruin and was later refortified and re-garrisoned by Hārūn al-Rashīd
     during al-Mahdī's caliphate.
   confidence: 3
-  notes: 'Section-2 foundation narrative synthesised by Eger. The naming tradition is credited
-    in the entry to Abū ʿAmr al-Bāhilī, who has no SourceRecord and is a single-source mention:
-    DEFERRED to the backlog minting queue, not minted mid-session. Attested as modern_synthesis
-    against SRC-0065 (provenance honesty) rather than against the unminted al-Bāhilī.'
+  notes: 'Section-2 foundation narrative synthesised by Eger. The naming tradition is credited in the entry to Abū ʿAmr al-Bāhilī, who has no SourceRecord and is a single-source mention: DEFERRED to the backlog minting queue, not minted mid-session. Attested as modern_synthesis against SRC-0065 (provenance honesty) rather than against the unminted al-Bāhilī. STILL DEFERRED (source-minting pass 2026-07-08): Abū ʿAmr al-Bāhilī remains unminted — a naming tradition credited to a named tradent with no citable work (category: named tradent, unknown author; cf. the Jawzāt roster).'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-07-07T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

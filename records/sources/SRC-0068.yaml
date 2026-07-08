@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0068
+  standardised_title: al-Dimashqī, Nukhbat al-dahr fī ʿajāʾib al-barr wa-l-baḥr
+  author_unnamed: false
+  date_of_composition:
+    start: 1300
+    end: 1327
+    precision: year_range_broad
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: geographical_work
+  edition_used: 'Edition not specified by Eger — [citation needed: al-Dimashqī edition].'
+  reliability_assessment: Early-fourteenth-century Arabic cosmography by Shams al-Dīn
+    al-Dimashqī (d. 727/1327); a late source cited by Eger for listing Ḥiṣn Kamkh among
+    the thughūr al-jazīra.
+  dependencies: []
+  notes: 'Minted in the Phase-2 source-minting pass (2026-07-08) to resolve the deferred
+    Ḥiṣn Kamkh mention (ATT-0409). Late/derivative source. Author person-entity not yet created.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-08T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
