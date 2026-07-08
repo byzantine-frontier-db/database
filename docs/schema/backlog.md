@@ -97,3 +97,23 @@ Session 4:
 - unnamed source behind the Jawzāt garrison roster (Abū ʿAmr al-Ṭarsūsī named as qāḍī, not author)
 Pass mints SRC-0066+ for each resolvable source and back-fills the deferred attestations to point
 at them (updating the placeholder notes in ATT-0354, INT-0165, and the Session 3 deferrals).
+
+## Source-minting pass — DONE (2026-07-08)
+
+Cleared four of the six queued sources by minting SourceRecords and back-filling the deferred
+mentions (patch: phase2_source_minting_pass.patch):
+- **SRC-0066 al-Iṣṭakhrī** — attestations ATT-0405 (Hārūnīyya small-fort), ATT-0407 (Al-Kanīsa Friday-mosque)
+- **SRC-0067 Ibn Rusta** — ATT-0408 (Dulūk thughūr, 903)
+- **SRC-0068 al-Dimashqī** — ATT-0409 (Kamkh thughūr al-jazīra)
+- **SRC-0069 al-Balkhī** — ATT-0406 (Hārūnīyya) — **FLAGGED for bibliographic review**: original lost,
+  preserved only via al-Iṣṭakhrī/Ibn Ḥawqal; Curtis to confirm mint-as-distinct vs fold into SRC-0066/0009.
+Deferral notes on ATT-0369, ATT-0375, ATT-0401 updated to RESOLVED; the four referenced entities
+(ENT-PLC-0062/0078/0121/0122) MINOR-bumped with reciprocal linked_attestations.
+
+## Category: "named tradent, unknown author" (stays deferred)
+
+Mentions credited to a *named authority* for whom Eger cites *no citable work* — not minted, held here:
+- **Abū ʿAmr al-Bāhilī** — Ḥiṣn Manṣūr naming tradition (ATT-0378). A naming tradition credited to him;
+  no work cited, single mention. Stays deferred.
+- **Jawzāt garrison-roster source** — only a qāḍī name (Abū ʿAmr al-Ṭarsūsī) survives, not an author.
+These resolve only if a printed-source check turns up an actual work/edition; otherwise permanent notes.
