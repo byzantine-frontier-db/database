@@ -117,3 +117,49 @@ Mentions credited to a *named authority* for whom Eger cites *no citable work* �
   no work cited, single mention. Stays deferred.
 - **Jawzāt garrison-roster source** — only a qāḍī name (Abū ʿAmr al-Ṭarsūsī) survives, not an author.
 These resolve only if a printed-source check turns up an actual work/edition; otherwise permanent notes.
+
+## Coordinate-identification InterpretationRecords needed (before Session 7 closes)
+
+Two stored editorial coordinates diverge from the Eger 2008 gazetteer point beyond their
+uncertainty radius, on the same settlement — each needs an InterpretationRecord weighing the
+two points (and a decision whether to adopt Eger's), per the precedent set at Bālis:
+- **ENT-PLC-0037 Bālis** — stored vs gazetteer ~22.8 km (4.6× radius). [Session 1]
+- **ENT-PLC-0016 Malaṭya** — stored (38.35, 38.30; ±8 km) vs gazetteer (38.42173, 38.36605) =
+  9.84 km, both Battalgazi/Eski Malatya. [Session 4]
+Closed for Manbij (ENT-PLC-0043): gazetteer corroborated the estimate to 768 m — confidence
+raised 3→4, radius 3000→1500 (patch phase2_manbij_coord_corroboration.patch).
+
+## Section-4 (Personal Observations) — verify PER ENTRY, not by the exclusion list
+
+Finding from Session 4: the front-matter "visited summers 2002–2006" line is a general project
+statement, NOT a per-entry guarantee. Malaṭiya and Marʿash are NOT on the non-visited exclusion
+list yet contain no §4; Shimshāṭ IS on the non-visited list yet HAS a §4 section. The only
+reliable signal is an actual "Personal Observations" header in the entry.
+
+**Definitive §4 inventory** (entries whose text contains a Personal Observations section):
+Adhana (p440), ʿAyn Zarba (449), Dulūk (457), Al-Ḥadath (462), Hārūnīyya (468), Ḥiṣn Manṣūr
+(474), Al-Kanīsa/Gözeneler (485), Al-Maṣṣīṣa (509), Al-Muthaqqab-or-Qūrus (513), Raʿbān (518),
+Shimshāṭ (521), Sīs (525), Ṭaranda (537), Ṭarsūs (549), Zibaṭra (554). All other entries →
+Sections 1–3 only, no primary_observation. Master prompts from Session 5 on must instruct
+per-entry §4 verification.
+
+## Deferred source: Ibn al-ʿIbrī (Bar Hebraeus)
+
+Cited at Malaṭiya for Theophilus's 837 capture and 866 events ("Ibn al-ʿIbrī, a Christian
+historian from Malatiya"). Two candidate works: Ecclesiastical History and the Chronography
+(Chronicon Syriacum / Arabic Taʾrīkh mukhtaṣar al-duwal). The cited content is secular/political
+history, which points to the **Chronography** — but the edition is unconfirmed (footnote
+de-interleaved). Queue for the next source-minting pass; lean Chronography, confirm edition.
+
+## Methodological pass: Malaṭiya Balādhurī dedup
+
+Session 4 flagged that some new SRC-0065-routed primary attestations on ENT-PLC-0016 (esp. the
+Balādhurī conquest strand) may overlap Phase-1 records already on the entity. Retained as-is,
+flagged. Run a dedup pass (its own methodological item) to reconcile overlapping primary
+attestations across Phase-1 and Phase-2, deciding which to keep/merge. Not part of any session.
+
+## Tool cosmetic (next regeneration): Marʿash header key
+
+The sidecar keys Marʿash's entry as the truncated `Mar‘` (ʿayn/quote truncation of the header).
+Coordinate absence and the pp.494–500 span are correct; only the display key is truncated.
+De-truncate on the next normalize_gazetteer.py run.
