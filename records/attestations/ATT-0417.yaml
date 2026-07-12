@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0417
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0043
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix 2, s.v.
+    Manbij/Jisr Manbij, p. 493 (SRC-0065).
+  paraphrase: al-Balādhurī reports that ʿIyāḍ b. al-Ghanm subdued the Euphrates villages including
+    Manbij and its dependencies, granting terms like those given to Ruhā — one dīnār and two
+    modii of wheat per man — and that the Ṭayyiʾ tribe, migrating to northern Syria, settled
+    at Manbij and at the ḥāḍir of Qinnasrīn.
+  confidence: 3
+  notes: Section-2 conquest-and-settlement datum (town). Edition/page unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

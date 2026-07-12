@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0415
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0016
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Malaṭiya, pp. 487–492, "Remains" (SRC-0065).
+  paraphrase: 'Eger relays the survey record (chiefly Sinclair): a moated, double-fortified rectangular
+    circuit with polygonal and rectangular towers, its south side holding the entrance; Sinclair
+    took the present walls to be the sixth-century (outer) wall and credited the rectangular
+    layout to the Romans, reading the "prow"-shaped western/southern towers and large eastern
+    bastions as eighth/ninth-century and small-block work as twelfth-century. The circuit measures
+    c. 500 m (SW–NW) by c. 300 m (SW–SE); the Saljūq Great Mosque (1224) lies slightly southwest
+    of centre; Italian teams have worked since the 1960s, mainly at Arslantepe to the south.'
+  confidence: 3
+  notes: Section-3 published-archaeology summary (Sinclair; Italian missions), as relayed by Eger.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

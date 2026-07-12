@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0411
+  source: SRC-0010
+  entities_referenced:
+  - ENT-PLC-0016
+  provenance: primary_paraphrase
+  citation: Ibn Khurradādhbih, Kitāb al-Masālik wa-l-Mamālik (SRC-0010); reached via Eger 2008,
+    Appendix 2, s.v. Malaṭiya, pp. 487–492 (SRC-0065).
+  paraphrase: Ibn Khurradādhbih gives the distance from Malaṭiya to Ḥiṣn Manṣūr as ten farsakhs
+    (c. 81 km).
+  confidence: 3
+  notes: Section-2 distance datum. Edition/page unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

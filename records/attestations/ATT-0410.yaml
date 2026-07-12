@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0410
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0016
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Malaṭiya, pp. 487–492 (SRC-0065); coordinate 37N
+    N4252799 E444661, converted to WGS84 (38.42173, 38.36605) via pyproj.
+  paraphrase: Eger locates Malaṭiya (classical Melitene/Maladnā, modern Battalgazi / Eski
+    Malatya, a suburb 12 km north of modern Malatya on the Sivas road) in the lowland Malatya
+    Plain, watered by the Qubāqib River (classical Melas / modern Tokhma Su) on its east and
+    close to the Euphrates; the walled city guarded a Euphrates crossing at Imikuşağı and a
+    bridge over the Qubāqib three miles from the city on the road west into Byzantine territory.
+  confidence: 5
+  notes: 'Section-1 locational identification. Gazetteer-derived point (38.42173, 38.36605)
+    diverges c. 9.84 km from the entity''s stored coordinate (38.35, 38.30; uncertainty_radius_m
+    8000) — beyond the stored radius but denoting the same settlement (Battalgazi/Eski Malatya);
+    stored coordinate NOT overwritten (compare-don''t-overwrite). Divergence flagged for editorial
+    reconciliation (candidate InterpretationRecord), cf. Bālis precedent.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

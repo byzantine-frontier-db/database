@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0422
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0023
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016), with Theophanes the Confessor, Chronographia
+    (SRC-0012); reached via Eger 2008, Appendix 2, s.v. Marʿash, pp. 494–500 (SRC-0065).
+  paraphrase: al-Balādhurī and Theophanes both record that Marʿash was destroyed by the emperor
+    Constantine V Copronymos in 746, following the Byzantine recapture and a treaty on condition
+    that the inhabitants leave.
+  confidence: 3
+  notes: Section-2 destruction datum; joint attribution to Balādhurī (lead source) and Theophanes
+    (SRC-0012, cross-noted per the ATT-0405 precedent for co-cited primaries). Edition/page unspecified
+    by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

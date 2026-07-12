@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0416
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0043
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Manbij/Jisr Manbij, p. 493 (SRC-0065); coordinate 37N
+    N4043273 E406771 (keyed "Manbij"), converted to WGS84 (36.53030, 37.95859) via pyproj.
+  paraphrase: Eger's entry treats Manbij (classical Hierapolis, Syriac Mabbogh) — the town lying
+    one-to-three leagues from the Euphrates — as distinct from Jisr Manbij, the Euphrates crossing
+    reached by a bridge of boats; the gazetteer coordinate (parenthetical "Manbij") fixes the
+    town at 36.53030, 37.95859.
+  confidence: 5
+  notes: 'Section-1 locational identification for the TOWN (ENT-PLC-0043), not the crossing. The
+    gazetteer point corroborates the entity''s editorial estimate (36.53, 37.95) to within c.
+    768 m; stored coordinate NOT overwritten. Its coordinate_source still reads "to be verified
+    against a gazetteer" — now corroborated; editorial confidence upgrade flagged (not applied).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

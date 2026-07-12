@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0418
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0043
+  provenance: primary_paraphrase
+  citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (SRC-0020); reached via Eger 2008, Appendix 2,
+    s.v. Manbij/Jisr Manbij, p. 493 (SRC-0065).
+  paraphrase: Yāqūt notes that Manbij was watered by canals and wells and was walled, and that
+    many visitors remarked on its fine markets.
+  confidence: 3
+  notes: Section-2 topographic/urban description (town). Edition/page unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

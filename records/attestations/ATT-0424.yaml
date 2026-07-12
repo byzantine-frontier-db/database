@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0424
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0023
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Marʿash, pp. 494–500, "Remains" (SRC-0065).
+  paraphrase: Eger records (after Sinclair and Carter's survey) a Roman bridge over the Ak Su
+    c. 8 km southwest of Marʿash, on the Anṭākiya–Marʿash route, with five-to-six piers retaining
+    little Roman masonry, largely rebuilt in field stone in the medieval period, and, per Sinclair,
+    in use until the First World War.
+  confidence: 3
+  notes: Section-3 published-archaeology summary (Sinclair; Carter), as relayed by Eger.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-09T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

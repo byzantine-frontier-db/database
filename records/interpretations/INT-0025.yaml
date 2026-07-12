@@ -13,9 +13,10 @@
   confidence: 2
   supporting_evidence:
   - ATT-0082
+  - ATT-0423
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.0.0
+    schema_version: 2.0.0
+    record_version: 1.1.0
     created_at: '2026-06-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
