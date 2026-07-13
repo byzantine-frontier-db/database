@@ -163,3 +163,58 @@ attestations across Phase-1 and Phase-2, deciding which to keep/merge. Not part 
 The sidecar keys Marʿash's entry as the truncated `Mar‘` (ʿayn/quote truncation of the header).
 Coordinate absence and the pp.494–500 span are correct; only the display key is truncated.
 De-truncate on the next normalize_gazetteer.py run.
+
+## Source-minting queue — additions (Session 5)
+
+Carry-forward + new, for the next minting pass:
+- **Ibn al-ʿIbrī (Bar Hebraeus)** — Malaṭiya; lean Chronography (Session 4).
+- **Acta Conciliorum Oecumenicorum** — Al-Muthaqqab location datum. A conciliar-acts corpus, not a
+  single author — mint as a documentary/edition source, or route per its editor; needs a bibliographic call.
+- **Ibn al-Shiḥna** — Qūrus, Cyrrhus church-materials (multi-tradent). No SourceRecord.
+
+## Attestation back-fill (existing sources) — CLOSED by Rule 12
+
+Distinct from the minting queue: these sources ALREADY have SourceRecords, so a thin one-clause
+mention just needs an attestation (no mint). Deferred at Al-Muthaqqab for consistency, but they can
+be back-filled without a minting pass whenever convenient:
+- **al-Masʿūdī (SRC-0053)** — "ḥiṣn on the slope of Jebel Lukkam".
+- **al-Idrīsī (SRC-0038)** — Muthaqqab as one item in a coastal succession.
+Worth deciding a standing rule: for an *existing* source, do thin one-clause mentions get attested
+inline (cheap, completeness) rather than deferred? Leaning yes — deferral is really for *minting*.
+
+## al-Yaʿqūbī Buldān-vs-Taʾrīkh — RESOLVED by Rule 13 (convention adopted)
+
+ATT-0427 (Al-Maṣṣīṣa topographic bridge datum) routed to Kitāb al-Buldān (SRC-0008); Eger doesn't
+specify and Taʾrīkh (SRC-0003) isn't excludable. Same ambiguity as ATT-0339 (Session 1, flipped to
+Buldān). This recurs across the appendix — worth a standing convention (default topographic/
+administrative → Buldān, narrative-historical → Taʾrīkh) confirmed against print in a batch, rather
+than a per-case coin-flip.
+
+## Al-Muthaqqab ceramic discrepancy (editorial review)
+
+Entity analytical_summary says "no definitive Early Islamic pieces"; Eger's 2005 autopsy (OBS-0247)
+reports Early Islamic wares among the Mopsus Survey baskets. Not reconciled; the summary predates the
+gazetteer autopsy. Editorial decision needed on whether to revise the summary (would be MINOR content).
+
+## Standing rules ratified (Session 5)
+
+- **Rule 12 — attest existing sources inline.** Thin one-clause primaries citing a SourceRecord
+  already in the corpus are attested at extraction time, not deferred; deferral (defer-then-batch)
+  applies only to *mint* decisions. Compatible with rule 5 (inline attestations still carry
+  editorial_review_required + edition [citation needed]). **Retroactively applied**: al-Masʿūdī
+  (ATT-0450) and al-Idrīsī (ATT-0451) at Al-Muthaqqab — the Session-5 deferrals are CLOSED.
+  Active in master prompts from Session 6.
+- **Rule 13 — al-Yaʿqūbī work attribution.** Topographic/administrative content → Kitāb al-Buldān
+  (SRC-0008); narrative-historical → Taʾrīkh (SRC-0003). Provisional pending printed verification of
+  one representative case. Compatible with rule 4 (each routed attestation states it is a convention,
+  not a determination). **Retroactively applied**: ATT-0339, ATT-0413, ATT-0427 now carry
+  "routed per rule 13, pending printed confirmation" (the "work uncertain" / "third instance" flags
+  are removed). Active in master prompts from Session 6.
+
+## Open methodological items (status snapshot)
+
+- Al-Muthaqqab ceramic discrepancy — editorial call by Curtis (analytical_summary vs OBS-0247).
+- Coordinate InterpretationRecords — Bālis (ENT-PLC-0037) + Malaṭya (ENT-PLC-0016), before Session 7.
+- Source-minting queue — Ibn al-ʿIbrī (lean Chronography), Acta Conciliorum Oecumenicorum, Ibn al-Shiḥna.
+- Malaṭiya Balādhurī / Phase-1 dedup pass (corpus-wide, its own methodological item).
+- Page-number restoration (standing) — entry-level page spans in use via the page map.
