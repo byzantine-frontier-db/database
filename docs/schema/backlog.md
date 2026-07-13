@@ -136,7 +136,8 @@ statement, NOT a per-entry guarantee. Malaṭiya and Marʿash are NOT on the non
 list yet contain no §4; Shimshāṭ IS on the non-visited list yet HAS a §4 section. The only
 reliable signal is an actual "Personal Observations" header in the entry.
 
-**Definitive §4 inventory** (entries whose text contains a Personal Observations section):
+**§4 inventory — RETRACTED, unreliable (see Session 6 correction below)**
+Earlier list (entries whose text contains a Personal Observations section):
 Adhana (p440), ʿAyn Zarba (449), Dulūk (457), Al-Ḥadath (462), Hārūnīyya (468), Ḥiṣn Manṣūr
 (474), Al-Kanīsa/Gözeneler (485), Al-Maṣṣīṣa (509), Al-Muthaqqab-or-Qūrus (513), Raʿbān (518),
 Shimshāṭ (521), Sīs (525), Ṭaranda (537), Ṭarsūs (549), Zibaṭra (554). All other entries →
@@ -218,3 +219,39 @@ gazetteer autopsy. Editorial decision needed on whether to revise the summary (w
 - Source-minting queue — Ibn al-ʿIbrī (lean Chronography), Acta Conciliorum Oecumenicorum, Ibn al-Shiḥna.
 - Malaṭiya Balādhurī / Phase-1 dedup pass (corpus-wide, its own methodological item).
 - Page-number restoration (standing) — entry-level page spans in use via the page map.
+
+## §4 detection — inventory RETRACTED; verify per-entry only (Session 6)
+
+Session 6 proved the §4 inventory unreliable: on this block it was wrong on **3 of 4** sites.
+Two failure modes, and no automated method survives them:
+- **Boundary spill:** a §4 header sits before its entry's closing coordinate but *after* a page
+  break, so page-based attribution hands it to the next entry (Sanjah's p521 §4 → wrongly Shimshāṭ;
+  Sīs's p525 §4 → wrongly Sumaysāṭ).
+- **Typos:** Sumaysāṭ's header reads "Personal Ob**v**servations" — exact-match scans miss it.
+- **Header-detection gaps:** wrapped/trailing-number entry names (Mar‘, Ṭaranda, Ṭarsūs) aren't
+  matched, so "nearest header above" skips to the wrong entry — structural attribution fails too.
+
+**Corrected Session-6 reality:** Sanjah/Bahasnā (§4, 9/26/04), Sīs (§4, 07/20/04), Sumaysāṭ
+(§4, 9/26/05) are VISITED; **Shimshāṭ has NO §4** (Research section is published archaeology) despite
+being flagged in the old inventory. The extracting Claude's per-entry reads are authoritative.
+
+**Standing rule (Session 7+):** do NOT ship a §4 "guess" column. Master prompts instruct the
+extracting Claude to determine §4 per entry by reading the text between the entry header and its
+closing coordinate, matching **typo-tolerantly** (`Personal Ob[a-z]*ervations`) and requiring
+first-person autopsy prose. The front-matter non-visited list and any inventory are hints at best.
+
+## Source-minting queue — additions (Session 6)
+
+New primaries with no SourceRecord (defer-then-batch, for the next minting pass):
+- **al-Wāqidī** (via Balādhurī, Sīs departure-dating strand)
+- **Antonine Itinerary** (Sīs/Flaviada)
+- **Cicero** (Sīs/Pindenissus)
+- **Theophylact Simocatta** (Sumaysāṭ)
+Queue now: Ibn al-ʿIbrī, Acta Conciliorum Oecumenicorum, Ibn al-Shiḥna, al-Wāqidī, Antonine
+Itinerary, Cicero, Theophylact Simocatta (~7) — a minting pass is warranted before/with Session 7.
+
+## Review flag (Session 6): ATT-0470 Ibn Ḥawqal/al-Iṣṭakhrī consolidation
+
+The joint 951-recension datum was consolidated into one attestation (ATT-0470, source SRC-0066,
+Ibn Ḥawqal named in citation) rather than minting a duplicate. Reasonable, but worth confirming it
+shouldn't be two parallel attestations (cf. the Hārūnīyya joint pattern, ATT-0369/0405/0406).
