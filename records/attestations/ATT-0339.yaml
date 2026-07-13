@@ -10,15 +10,10 @@
     under his son al-Amīn; the town was refortified with additional settlers between
     808 and 810.
   confidence: 3
-  notes: '[citation needed: confirm whether Ibn Shaddād here draws on al-Yaʿqūbī''s
-    Kitāb al-Buldān (SRC-0008) or Taʾrīkh (SRC-0003); attributed to the Kitāb al-Buldān
-    as the scholarly-probability best guess — frontier-town foundation/settlement content
-    is characteristic of the Buldān and of Ibn Shaddād''s use of it — pending a check
-    against the printed source.] Secondary-mediated primary attestation (SRC-0065
-    as the route). Page span restored from the page map (docs/eger_2008_page_map.json); cited s.v. Adhana, pp. 437–440.'
+  notes: 'Routed to al-Yaʿqūbī, Kitāb al-Buldān (SRC-0008) per the topographic/administrative convention (rule 13); Eger does not specify the work and the Taʾrīkh (SRC-0003) is not excludable. [citation needed: pending printed confirmation of the Buldān routing.]'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-07-05T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

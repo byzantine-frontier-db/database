@@ -9,13 +9,10 @@
   paraphrase: al-Yaʿqūbī notes that the bridge over the Jayhān between al-Maṣṣīṣa and Adhana
     (restored under al-Muʿtaṣim, r. 833–842, from the span erected in 743) had three arches.
   confidence: 3
-  notes: Section-2 datum. Eger names 'Yaʿqūbī' without specifying the work; routed to the
-    geographical Kitāb al-Buldān (SRC-0008) as the natural home for a topographic bridge description,
-    but the historical Taʾrīkh (SRC-0003) cannot be excluded from the gazetteer text alone
-    — flagged (recurrence of the open Yaʿqūbī Taʾrīkh-vs-Buldān question).
+  notes: 'Section-2 topographic bridge datum. Eger names ''Yaʿqūbī'' without the work; routed to Kitāb al-Buldān (SRC-0008) per rule 13 (topographic content), the Taʾrīkh (SRC-0003) not excludable. [citation needed: pending printed confirmation of the Buldān routing.]'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-07-12T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

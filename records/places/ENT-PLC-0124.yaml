@@ -20,6 +20,8 @@
   - ATT-0438
   - ATT-0439
   - ATT-0440
+  - ATT-0450
+  - ATT-0451
   coordinates:
     latitude: 36.91997
     longitude: 35.98208
@@ -40,7 +42,7 @@
     (see OBS-0247); summary left unchanged pending editorial review.'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.1.0
+    record_version: 1.2.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

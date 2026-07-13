@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0450
+  source: SRC-0053
+  entities_referenced:
+  - ENT-PLC-0124
+  provenance: primary_paraphrase
+  citation: al-Masʿūdī, Kitāb al-Tanbīh wa-l-ishrāf (SRC-0053); reached via Eger 2008,
+    Appendix 2, s.v. Al-Muthaqqab, pp. 510–512 (SRC-0065).
+  paraphrase: al-Masʿūdī places al-Muthaqqab as a ḥiṣn on the slope of Jebel Lukkam (the Amanus).
+  confidence: 3
+  notes: Rule 12 — thin one-clause primary citing a source already in the corpus (SRC-0053),
+    attested inline rather than deferred. Edition/page unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-11T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
