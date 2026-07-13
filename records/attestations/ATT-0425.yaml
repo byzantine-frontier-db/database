@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0425
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0118
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Al-Maṣṣīṣa, pp. 501–509 (SRC-0065); coordinate 36N
+    N4093412 E733600, converted to WGS84 (36.95784, 35.62372) via pyproj.
+  paraphrase: Eger locates al-Maṣṣīṣa (classical Mopsuestia; modern Misis/Yakapınar) on the
+    Jayhān (Pyramus) River in the eastern lower Cilician Plain, on a natural limestone ridge
+    at the edge of the Cebelinur (Misis Dağ), about 32 km east of Adhana and 72 km from Ṭarsūs;
+    the town straddled the river as two settlements — Maṣṣīṣa on the west bank (modern Yakapınar)
+    and the suburb Kafarbayyā on the east (modern Misis) — and commanded the trade routes
+    into the plain and a river port navigable to Kum Kalesi.
+  confidence: 5
+  notes: 'Section-1 locational identification. Coordinate added to ENT-PLC-0118 this session
+    (compare-don''t-overwrite: entity previously carried no coordinates block).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

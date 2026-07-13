@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0447
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0061
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Raʿbān, pp. 517–518 (SRC-0065); coordinate 37N N4142864
+    E384111, converted to WGS84 (37.42534, 37.69022) via pyproj.
+  paraphrase: Eger locates Raʿbān (classical/Syriac Rhabaine/Arabena; modern Araban, Altıntaş)
+    in the centre of the northernmost of two transverse valleys north of Gaziantep, the town
+    of Araban lying on the Kara Su, both valley rivers being tributaries of the Euphrates;
+    the site sat on the east–west road between Sumaysāṭ and Marʿash and formed a road junction
+    next to Kaysūm.
+  confidence: 4
+  notes: 'Section-1 locational identification. Coordinate added to ENT-PLC-0061 this session
+    (compare-don''t-overwrite: no prior coordinates block).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

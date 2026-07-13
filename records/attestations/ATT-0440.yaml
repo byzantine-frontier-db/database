@@ -1,0 +1,33 @@
+- record_type: attestation
+  id: ATT-0440
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0124
+  observations_supported:
+  - OBS-0247
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Al-Muthaqqab, pp. 510–512, "Personal Observations,
+    07/20/05" (SRC-0065).
+  paraphrase: On 20 July 2005 Eger attempted to visit the site but, refused entry, could only
+    view the mound from the gate of the Toros Gübre factory; he judged it prominent and high
+    — unusual for the pattern of Early Islamic 'frontier forts' — and now inland though possibly
+    coastal in antiquity, and with Andrea de Giorgi examined eight baskets of pottery from
+    the 2004 Mopsus Survey, which yielded Roman, Late Roman, Early Islamic and Middle Islamic
+    ceramics.
+  confidence: 4
+  observation_date:
+    start: '2005-07-20'
+    precision: exact_day
+    confidence: 5
+  notes: 'Section-4 first-person autopsy (dated site visit). Resolves the master-prompt p513
+    §4-attribution question: this ''Personal Observations, 07/20/05'' section sits within
+    the Al-Muthaqqab entry (before Al-Muthaqqab''s own coordinate line and before the Qūrus
+    header), so the dated autopsy belongs to Al-Muthaqqab (ENT-PLC-0124), not Qūrus. Supports
+    OBS-0247. schema v2 record.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

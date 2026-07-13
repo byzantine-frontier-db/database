@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0441
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0063
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Qūrus, pp. 513–516 (SRC-0065); coordinate 37N N4068531
+    E317837, converted to WGS84 (36.74505, 36.95959) via pyproj.
+  paraphrase: Eger locates Qūrus (classical Cyrrhus; modern Shaykh Khuruz) in the ʿAfrīn valley
+    in northern Syria, roughly 70 km north of Ḥalab, bordered by the Kurd Dağ, on the smaller
+    of two hills (c. 540 m) at the south-eastern end of a plateau overlooking the valley of
+    the ʿAfrīn and its branch the Saboune-Souyou; he flags that the early travellers Chesney
+    and Ainsworth mistakenly conflated the site with Kilis / ancient Ciliza.
+  confidence: 4
+  notes: 'Section-1 locational identification. Coordinate added to ENT-PLC-0063 this session
+    (compare-don''t-overwrite: no prior coordinates block).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0439
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0124
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Al-Muthaqqab, pp. 510–512 (SRC-0065), reporting published
+    survey work.
+  paraphrase: 'The identification is debated in the published survey record: Edwards, following
+    the geographers, proposed the upland fort of Gökvelioğlu on the Cebelinur spur (rejected
+    as inconsistent with the sources'' coastal placement), while Özgen and Gates, Hild and
+    Hellenkemper, and Tobin favour the coastal mound of Mutallip Höyük — an ovoid tell 18–20
+    m high with Late Roman mortared-rubble walls faced in basalt, a possible harbour wall
+    of large basalt blocks, and pottery from the Hellenistic through the Medieval period ''including
+    many Islamic period ceramics''; the Mopsus Survey recorded it as Site 15 in 2004.'
+  confidence: 3
+  notes: Section-3 published archaeology (Edwards; Özgen & Gates; Hild & Hellenkemper; Tobin;
+    Mopsus Survey 2004). Routed as archaeological_evidence per the §3/§4 split.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

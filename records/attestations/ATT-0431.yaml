@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0431
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0118
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Al-Maṣṣīṣa, pp. 501–509 (SRC-0065), reporting the
+    published survey record.
+  paraphrase: Published survey work records al-Maṣṣīṣa as Site 11 in Seton-Williams' Cilician
+    Survey — the classical city on both banks but mainly the west, with architectural fragments
+    strewn about and extensive illicit robbing to depths of 4–5 m — while Sinclair placed
+    it beyond his eastern-Turkey survey and Edwards declined it for damage; the multi-arched
+    Roman/ʿAbbāsid/Ottoman bridge is the principal upstanding remnant, and limited survey
+    and excavation are being conducted by G. Salmeri and A. L. d'Agata (Cilicia Survey Project),
+    focused on the Hellenistic phases.
+  confidence: 3
+  notes: Section-3 published archaeology (Seton-Williams; Salmeri & d'Agata / Cilicia Survey
+    Project). Not first-person Eger autopsy — routed as archaeological_evidence per the §3/§4
+    split.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

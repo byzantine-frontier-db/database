@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0434
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0124
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix 2, s.v.
+    Al-Muthaqqab, pp. 510–512 (SRC-0065).
+  paraphrase: al-Balādhurī places al-Muthaqqab in the thughūr and states that it was built
+    or repaired by ʿAbd al-ʿAzīz b. Ḥassān b. Māhawayh al-Anṭākī under orders of Hishām b.
+    ʿAbd al-Malik (r. 724–743); it had a mosque, a minbar and a Qurʾān said to be in the hand
+    of ʿUmar II, and was held by a pious tribe descended from ʿAbd Shams living in the fort
+    in monastic renunciation on charity, with the (possibly mythic) detail of a very long
+    human leg-bone found in a ditch dug at the ḥiṣn.
+  confidence: 3
+  notes: 'Section-2 primary datum. CONSTRUCTION-ATTRIBUTION DISPUTE: al-Balādhurī credits
+    the building to ʿAbd al-ʿAzīz b. Ḥassān under Hishām (724–743), against al-Iṣṭakhrī and
+    Ibn Ḥawqal (ATT-0435, ATT-0436) who credit ʿUmar II (717–720); positions preserved separately
+    per rule 3. Edition/page unspecified by Eger.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

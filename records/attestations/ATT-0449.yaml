@@ -1,0 +1,31 @@
+- record_type: attestation
+  id: ATT-0449
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0061
+  observations_supported:
+  - OBS-0248
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Raʿbān, pp. 517–518, "Personal Observations, 7/24/05"
+    (SRC-0065).
+  paraphrase: On 24 July 2005 Eger found the town of Araban backed to the east by a prominent,
+    flat-topped tell of medium size — possibly the largest in both the Kara Su and Merzumen
+    Dere valleys — with many buildings showing in the eroding section; pottery was scarce
+    on top but represented all periods, and while he found no definite Early Islamic ware
+    he did recover Raqqa ware of the tenth/eleventh century; a lateral stone Ottoman mosque
+    atop the tell reused spolia, its mihrab flanked by Corinthian capitals. He inferred the
+    Early Islamic town most likely lies beneath the modern city and could not locate it, investigation
+    being hampered by modern development.
+  confidence: 4
+  observation_date:
+    start: '2005-07-24'
+    precision: exact_day
+    confidence: 5
+  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0248. schema v2 record.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,33 @@
+- record_type: attestation
+  id: ATT-0432
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0118
+  observations_supported:
+  - OBS-0246
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Al-Maṣṣīṣa, pp. 501–509, "Personal Observations, 8/3/04"
+    (SRC-0065).
+  paraphrase: On a visit of 3 August 2004 Eger observed the two halves of al-Maṣṣīṣa surviving
+    as two villages either side of the deeply incised Jayhān, with the reconstructed Roman-form
+    bridge and its original foundations still visible; on the west-bank limestone plateau
+    (40–50 ft high) he recorded stretches of wall in large ashlars and reused columns amid
+    a village that incorporates cut stone from the site into nearly every structure, plus
+    a preserved Medieval/Ottoman mill extending into the river; on the east bank, just north
+    of the bridge, he found the limestone-ashlar western wall of a building with a large portal
+    arch whose acanthus-and-medallion border looked classical but whose pointed (non-classical)
+    arch marks it as later, taken as confirming settlement on both banks, and noted a dense
+    artefact scatter around the Misis Archaeological Museum rise.
+  confidence: 4
+  observation_date:
+    start: '2004-08-03'
+    precision: exact_day
+    confidence: 5
+  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0246. schema v2 record.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

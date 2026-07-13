@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0430
+  source: SRC-0038
+  entities_referenced:
+  - ENT-PLC-0118
+  provenance: primary_paraphrase
+  citation: al-Idrīsī, Nuzhat al-mushtāq (SRC-0038); reached via Eger 2008, Appendix 2, s.v.
+    Al-Maṣṣīṣa, pp. 501–509 (SRC-0065).
+  paraphrase: al-Idrīsī describes extensive gardens and cultivated fields around al-Maṣṣīṣa
+    and notes a second fortification downstream toward the sea, Ḥiṣn al-Mulawwan ('the Coloured
+    Castle'), some twelve miles south of the town.
+  confidence: 3
+  notes: Section-2 datum. Edition/page for al-Idrīsī unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

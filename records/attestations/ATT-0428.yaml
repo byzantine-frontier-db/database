@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0428
+  source: SRC-0066
+  entities_referenced:
+  - ENT-PLC-0118
+  provenance: primary_quotation
+  citation: al-Iṣṭakhrī, Kitāb al-Masālik wa-l-mamālik (SRC-0066); reached via Eger 2008,
+    Appendix 2, s.v. Al-Maṣṣīṣa, pp. 501–509 (SRC-0065).
+  direct_quotation: the people are agreeable, the markets numerous, and the ways excellent
+  paraphrase: 'Writing c. 943, al-Iṣṭakhrī describes al-Maṣṣīṣa and Kafarbayyā as two well-fortified
+    towns on elevated ground either side of the Jayhān, connected by the Roman bridge, with
+    the congregational mosque affording a view to the sea four leagues away, and praises the
+    town: ''the people are agreeable, the markets numerous, and the ways excellent.'''
+  confidence: 3
+  notes: Section-2 primary description, routed to the now-available SRC-0066 (al-Iṣṭakhrī).
+    Single short quotation (Eger's rendering); remainder paraphrased. Edition/page unspecified
+    by Eger.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

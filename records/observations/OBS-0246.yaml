@@ -1,0 +1,21 @@
+- record_type: observation
+  id: OBS-0246
+  proposition: Upstanding masonry survives on both banks of the Jayhān at al-Maṣṣīṣa — ashlar
+    wall stretches and reused columns on the west-bank limestone plateau, and an east-bank
+    building with a pointed (post-classical) portal arch north of the bridge — materially
+    confirming that occupation spanned both sides of the river, consistent with the textual
+    two-town model of Maṣṣīṣa (west) and the suburb Kafarbayyā (east).
+  associated_entities:
+  - ENT-PLC-0118
+  supporting_attestations:
+  - ATT-0432
+  notes: Eger's inference from standing architecture and surface material on his 3 Aug 2004
+    visit; corroborative of the historical two-settlement topography rather than a novel identification.
+    Not stratified.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

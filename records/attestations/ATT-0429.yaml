@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0429
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0118
+  provenance: primary_paraphrase
+  citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (SRC-0020); reached via Eger 2008, Appendix
+    2, s.v. Al-Maṣṣīṣa, pp. 501–509 (SRC-0065).
+  paraphrase: Yāqūt reports that the old city wall of al-Maṣṣīṣa had five gates and the wall
+    of Kafarbayyā four, the latter strongly built and furnished with markets, and gives an
+    Islamicised eponymous foundation for the town, attributing its name to Maṣṣīṣa b. al-Rūm,
+    a grandson of Sām (Shem).
+  confidence: 3
+  notes: Section-2 datum. Edition/page for Yāqūt unspecified by Eger — outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

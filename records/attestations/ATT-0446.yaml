@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0446
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0063
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Qūrus, pp. 513–516 (SRC-0065), reporting published
+    excavation and survey.
+  paraphrase: French excavations sank soundings in the 1950s and ran eight seasons between
+    1964 and 1980, publishing chiefly the Roman theatre; two second-century Roman bridges
+    (over the ʿAfrīn and the Saboune-Souyou) were renovated in the Islamic period and remain
+    in use after cement reinforcement. Straughn's June 2003 documentation (in his dissertation)
+    recorded reused ashlar structures on the slope up to the citadel corroborating an 'economical'
+    Islamic reoccupation of the lower theatre, a citadel scatter of mainly Ayyūbid ceramics
+    largely absent from the lower town, and the Nabī Urī tomb as a Late Roman pyramidal type
+    inscribed to 1304; he could not refine the Islamic-period dating because the excavators
+    published no trench plans or Islamic material culture, and posited a modest garrison-and-periodic-visit
+    role rather than dense early-Islamic settlement.
+  confidence: 3
+  notes: Section-3 published archaeology (French excavations 1950s–1980; Straughn 2003 dissertation).
+    Straughn's 2003 site visit is a published-scholar autopsy, NOT Eger's own — routed as
+    archaeological_evidence per the §3/§4 split; Qūrus has no 'Personal Observations' section
+    and no primary_observation is minted.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

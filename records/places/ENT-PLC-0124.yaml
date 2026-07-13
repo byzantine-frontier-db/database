@@ -12,9 +12,35 @@
   linked_attestations:
   - ATT-0196
   - ATT-0203
+  - ATT-0433
+  - ATT-0434
+  - ATT-0435
+  - ATT-0436
+  - ATT-0437
+  - ATT-0438
+  - ATT-0439
+  - ATT-0440
+  coordinates:
+    latitude: 36.91997
+    longitude: 35.98208
+    crs: EPSG:4326
+    coordinate_source: UTM 36N N4090149 E765645 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj. Point denotes the identified tell of Mutallip Höyük;
+      identification_status remains probably_identified.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 3
+  notes: 'Coordinate added Session 5 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2,
+    s.v. Al-Muthaqqab, pp. 510–512. Eger attempted a visit 20 Jul 2005 (viewed from the
+    factory gate; Section-4 autopsy ATT-0440 -> OBS-0247), resolving the master-prompt
+    p513 §4-attribution question in favour of this entity (not Qūrus). DISCREPANCY (not
+    reconciled): this analytical_summary states ''no definitive Early Islamic pieces'',
+    but Eger''s 2005 examination of the Mopsus Survey ceramics reports Early Islamic wares
+    (see OBS-0247); summary left unchanged pending editorial review.'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.0.0
+    schema_version: 2.0.0
+    record_version: 1.1.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

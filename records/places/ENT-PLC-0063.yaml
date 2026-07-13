@@ -22,9 +22,30 @@
   - ATT-0126
   - ATT-0133
   - ATT-0311
+  - ATT-0441
+  - ATT-0442
+  - ATT-0443
+  - ATT-0444
+  - ATT-0445
+  - ATT-0446
+  coordinates:
+    latitude: 36.74505
+    longitude: 36.95959
+    crs: EPSG:4326
+    coordinate_source: UTM 37N N4068531 E317837 from Eger 2008 gazetteer (SRC-0065),
+      converted to WGS84 via pyproj.
+    coordinate_method: gazetteer_entry
+    coordinate_precision: settlement
+    uncertainty_radius_m: 500
+    coordinate_confidence: 4
+  notes: 'Coordinate added Session 5 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2,
+    s.v. Qūrus, pp. 513–516. NOT VISITED by Eger: the Qūrus entry has no ''Personal
+    Observations'' section; the site''s field documentation is Straughn''s (June 2003,
+    published in his dissertation), routed as archaeological_evidence (ATT-0446), and no
+    primary_observation record is minted for this entity.'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.1.0
+    schema_version: 2.0.0
+    record_version: 1.2.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
