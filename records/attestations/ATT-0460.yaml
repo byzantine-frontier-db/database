@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0460
+  source: SRC-0012
+  entities_referenced:
+  - ENT-PLC-0075
+  provenance: primary_paraphrase
+  citation: Theophanes the Confessor, Chronographia (SRC-0012); reached via Eger 2008, Appendix
+    2, s.v. Shimshāṭ, pp. 521–522 (SRC-0065).
+  paraphrase: Theophanes corroborates the rebuilding of Shimshāṭ (Arsamosata) by Ṣāliḥ b. ʿAlī
+    around 768 C.E.
+  confidence: 3
+  notes: 'Rule 12 — thin one-clause primary citing a source already in the corpus (SRC-0012),
+    attested inline rather than deferred. Edition/page unspecified by Eger — [citation needed:
+    pending printed confirmation]. Greek witness paralleling the Balādhurī notice (ATT-0459).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

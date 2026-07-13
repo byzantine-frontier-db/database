@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0470
+  source: SRC-0066
+  entities_referenced:
+  - ENT-PLC-0073
+  provenance: primary_paraphrase
+  citation: al-Iṣṭakhrī, Kitāb al-Masālik wa-l-mamālik (SRC-0066), jointly with Ibn Ḥawqal,
+    Kitāb Ṣūrat al-Arḍ (SRC-0009); reached via Eger 2008, Appendix 2, s.v. Sumaysāṭ, pp. 525–535
+    (SRC-0065).
+  paraphrase: al-Iṣṭakhrī (with Ibn Ḥawqal), writing c. 951, describes Sumaysāṭ as a small city
+    on the Euphrates with irrigated and rain-fed lands and a fortress, drawing its drinking
+    water from the river — which Eger reads as implying the aqueduct had by then ceased to function.
+  confidence: 3
+  notes: 'Rule 12 — thin one-clause primary citing a source already in the corpus (SRC-0066),
+    attested inline rather than deferred. Edition/page unspecified by Eger — [citation needed:
+    pending printed confirmation]. SRC-0066 is one of the direct-route sources (flagged) opened
+    in the Session-4 source-minting pass. Eger cites al-Iṣṭakhrī and Ibn Ḥawqal jointly for
+    this near-identical recension; consolidated to the al-Iṣṭakhrī record with Ibn Ḥawqal (SRC-0009)
+    named in the citation rather than minting a duplicate — flagged judgment call.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

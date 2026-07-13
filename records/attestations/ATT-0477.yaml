@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0477
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0073
+  observations_supported:
+  - OBS-0251
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Sumaysāṭ, pp. 525–535, "Personal Observations, 9/26/05"
+    (SRC-0065).
+  paraphrase: On a visit of 26 September 2005 Eger found Sumaysāṭ under the waters of the Atatürk
+    Barajı; he drove near the former site by the modern village (giving the route via Samsat
+    to Yarımbağ and down to a lakeside picnic site), noting that a restaurant near the lake
+    past Adıyaman holds a private museum collection from the site and that the Adıyaman Museum
+    holds Early Islamic ceramics — ʿAbbāsid lustrewares and moulded buffwares — from the excavations.
+  observation_date:
+    start: '2005-09-26'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: 'Section-4 first-person autopsy (dated site visit); schema v2 (primary_observation
+    + observation_date). Supports OBS-0251. NB: the entry''s §4 header is misspelled ''Personal
+    Obvservations'' in the gazetteer, which defeats header-detection tooling and is why the
+    front-matter inventory recorded this entry as lacking §4 — §4 verified per entry against
+    the prose.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

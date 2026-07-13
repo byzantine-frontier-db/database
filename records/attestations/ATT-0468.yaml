@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0468
+  source: SRC-0023
+  entities_referenced:
+  - ENT-PLC-0073
+  provenance: primary_paraphrase
+  citation: Ibn Shaddād, al-Aʿlāq al-Khaṭīra (SRC-0023), drawing on Ibn al-ʿAdīm (SRC-0057);
+    reached via Eger 2008, Appendix 2, s.v. Sumaysāṭ, pp. 525–535 (SRC-0065).
+  paraphrase: Ibn Shaddād, on Ibn al-ʿAdīm's authority, adds that the surrender terms obliged
+    the people of Sumaysāṭ to guide lost travellers, repair roads and bridges, and counsel the
+    Muslims.
+  confidence: 3
+  notes: 'Rule 12 — thin one-clause primary citing a source already in the corpus (SRC-0023),
+    attested inline rather than deferred. Edition/page unspecified by Eger — [citation needed:
+    pending printed confirmation]. Nearer witness Ibn Shaddād (SRC-0023) explicitly transmitting
+    Ibn al-ʿAdīm (SRC-0057); both are in the corpus.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

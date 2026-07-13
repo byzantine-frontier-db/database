@@ -20,10 +20,18 @@
   - ATT-0146
   - ATT-0147
   - ATT-0153
-  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred.'
+  - ATT-0459
+  - ATT-0460
+  - ATT-0461
+  - ATT-0462
+  notes: 'Entity search: not in snapshot; minted provisionally. Coordinates deferred
+    (site submerged under Keban Dam Lake since 1974). Not visited by Eger: §4 verified
+    per entry and found absent (no Personal Observations header, no first-person autopsy);
+    Remains routed as archaeological_evidence (ATT-0462). NB the front-matter inventory
+    wrongly flagged this entry as §4-bearing.'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.0.0
+    schema_version: 2.0.0
+    record_version: 1.1.0
     created_at: '2026-06-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

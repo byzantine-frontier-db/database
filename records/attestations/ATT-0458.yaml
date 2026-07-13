@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0458
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0070
+  observations_supported:
+  - OBS-0249
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Sanjah/Bahasnā, pp. 519–520, "Personal Observations,
+    9/26/04" (SRC-0065).
+  paraphrase: On a visit of 26 September 2004 Eger found the site in hilly terrain between Ḥadath
+    and Adıyaman with a nearby stream and an Ottoman mosque and bathhouse; on a flat area at
+    the base of the hill east of the medieval castle he saw only scattered rubble-stone, with
+    no substantial masonry and no large pottery scatters, and states he did not undertake an
+    intensive survey of the lower ground and did not definitely find Early Islamic evidence
+    in a lower city.
+  observation_date:
+    start: '2004-09-26'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: 'Section-4 first-person autopsy (dated site visit); schema v2 (primary_observation
+    + observation_date). Supports OBS-0249. NB: the front-matter inventory listed this entry
+    as having no §4; the entry text in fact carries a Personal Observations header — §4 verified
+    per entry.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

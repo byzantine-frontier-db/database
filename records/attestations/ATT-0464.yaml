@@ -1,0 +1,27 @@
+- record_type: attestation
+  id: ATT-0464
+  source: SRC-0016
+  entities_referenced:
+  - ENT-PLC-0127
+  provenance: primary_paraphrase
+  citation: al-Balādhurī, Futūḥ al-buldān (SRC-0016); reached via Eger 2008, Appendix 2, s.v.
+    Sīs (Sīsīya), pp. 523–524 (SRC-0065).
+  paraphrase: al-Balādhurī reports that the inhabitants of Sīs abandoned the town toward the
+    'Greek mountains'; Eger notes the sources diverge on the date — 711–13 (per Balādhurī with
+    Ibn Shaddād, Ibn al-ʿAdīm and Yāqūt) or 808–10 (Balādhurī after al-Wāqidī) — after which
+    the town fell into ruin until its mid-ninth-century restoration.
+  confidence: 3
+  notes: 'Rule 12 — thin one-clause primary citing a source already in the corpus (SRC-0016),
+    attested inline rather than deferred. Edition/page unspecified by Eger — [citation needed:
+    pending printed confirmation]. Date variance preserved, not reconciled: 711–13 vs 808–10
+    (the latter Balādhurī''s report after al-Wāqidī). Ibn Shaddād (SRC-0023), Ibn al-ʿAdīm (SRC-0057)
+    and Yāqūt (SRC-0020) are named by Eger as parallel witnesses to the earlier date; al-Wāqidī
+    is not in the corpus (mint deferred). Classical witnesses Eger cites for Sīs (Cicero on
+    Pindenissus; the Antonine Itinerary''s Flaviada) are not in the corpus — deferred.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

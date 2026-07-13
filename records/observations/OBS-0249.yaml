@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0249
+  proposition: Eger's 2004 surface inspection of Sanjah/Bahasnā found scattered rubble-stone
+    but no substantial masonry and no large pottery scatters, and no definite Early Islamic
+    evidence in a lower town; the site is one of the few thughūr sites not set in a plain.
+  associated_entities:
+  - ENT-PLC-0070
+  supporting_attestations:
+  - ATT-0458
+  notes: Derived from Eger's dated 2004 autopsy (Section 4). A predominantly negative surface
+    result; the absence of Early Islamic material is stated cautiously (no intensive survey
+    was undertaken).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

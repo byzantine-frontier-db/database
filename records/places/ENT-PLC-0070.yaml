@@ -20,9 +20,21 @@
   linked_attestations:
   - ATT-0127
   - ATT-0146
+  - ATT-0452
+  - ATT-0453
+  - ATT-0454
+  - ATT-0455
+  - ATT-0456
+  - ATT-0457
+  - ATT-0458
+  linked_interpretations:
+  - INT-0168
+  notes: 'Section-4 verified per entry: this entry DOES carry a Personal Observations
+    header (9/26/04) despite the front-matter inventory marking it as §4-absent — Eger
+    visited (ATT-0458 / OBS-0249). No gazetteer coordinate given.'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.1.0
+    schema_version: 2.0.0
+    record_version: 1.2.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

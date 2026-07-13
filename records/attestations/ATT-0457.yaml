@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0457
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0070
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Sanjah/Bahasnā, pp. 519–520 (SRC-0065), reporting published
+    survey.
+  paraphrase: 'Sinclair''s survey records a medieval citadel and lower town: the citadel is
+    Mamlūk (and perhaps earlier), with a double wall except on the naturally steep north side,
+    and a three-storey rectangular Ayyūbid/Mamlūk tower with loopholes and an embossed-stone
+    inscription above the middle storey; the curtain wall left of the tower is of inferior,
+    possibly earlier construction, and the old town preserves Mamlūk and later mosques. A 2006
+    Turkish municipal publication reports further work at the site.'
+  confidence: 3
+  notes: Section-3 published archaeology (Sinclair; 2006 Besni municipal publication). Third-party
+    survey, not Eger's autopsy — routed as archaeological_evidence per the §3/§4 split.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

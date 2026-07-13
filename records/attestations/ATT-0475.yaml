@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0475
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0073
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Sumaysāṭ, pp. 525–535 (SRC-0065), reporting published
+    excavation.
+  paraphrase: 'Sumaysāṭ (Samsat höyük) received early archaeological attention: an initial sounding
+    in 1964 and T. Goell''s 1967 salvage excavation cut a long east–west trench across the mound,
+    revealing six occupation levels of which the upper three are Level IV (Late Roman), Level
+    V (Early Islamic) and Level VI (Middle Islamic); the top level held a twelfth–thirteenth-century
+    governor''s palace of mudbrick on reused-stone foundations with a courtyard plan, domestic
+    and military material culture, and glazed wares (lustre, turquoise Raqqa-type, sgraffiato).
+    Redford (1994–95) published the Islamic glass and wares from Goell''s records and, like
+    nearby Gritille, dated abandonment to before the end of the thirteenth century; Mellink
+    reported a lower room of decorated glass and seventh–eighth-century painted wares indicating
+    continuity rather than the abandonment Sinclair had inferred.'
+  confidence: 3
+  notes: Section-3 published archaeology (Goell 1964/1967 salvage; Redford 1994–95; Mellink).
+    Third-party excavation, not Eger's autopsy — archaeological_evidence per the §3/§4 split.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

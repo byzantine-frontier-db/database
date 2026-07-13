@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0466
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0127
+  observations_supported:
+  - OBS-0250
+  provenance: primary_observation
+  citation: 'Eger 2008, Appendix 2, s.v. Sīs (Sīsīya), pp. 523–524, "Personal Observations:
+    07/20/04" (SRC-0065).'
+  paraphrase: On a visit of 20 July 2004 Eger observed that the Flaviopolis/Sīs Late Roman and
+    Early Islamic settlement would have been a key market town for pass traffic; that the lower
+    town's precise location is unknown and most likely covered by modern Kozan, where extensive
+    development hampered survey; that a river runs through the town; and that the castle is
+    precarious and strongly walled — a fortress rather than a town — commanding the Cilician
+    Plain to the south, with further buildings at the base of the outcrop probably related to
+    the Armenian castle.
+  observation_date:
+    start: '2004-07-20'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: 'Section-4 first-person autopsy (dated site visit); schema v2 (primary_observation
+    + observation_date). Supports OBS-0250. Resolves the p.525 §4 boundary case: this Personal-Observations
+    header closes the Sīs entry (its prose is explicitly about Flaviopolis/Sīs/Kozan), not Sumaysāṭ.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -26,9 +26,20 @@
   - ATT-0234
   - ATT-0252
   - ATT-0272
+  - ATT-0467
+  - ATT-0468
+  - ATT-0469
+  - ATT-0470
+  - ATT-0471
+  - ATT-0472
+  - ATT-0473
+  - ATT-0474
+  - ATT-0475
+  - ATT-0476
+  - ATT-0477
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.6.0
+    schema_version: 2.0.0
+    record_version: 1.7.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

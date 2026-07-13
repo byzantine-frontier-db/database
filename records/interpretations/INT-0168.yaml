@@ -1,0 +1,27 @@
+- record_type: interpretation
+  id: INT-0168
+  associated_entities:
+  - ENT-PLC-0070
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Sanjah/Bahasnā
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Eger argues that Sanjah and Bahasnā were likely one settlement, or two proximal
+    ones — the earlier lower town (Sanjah) and the later upland castle (Bahasnā) — and that,
+    since neither name appears in the Early Islamic thughūr lists but only from the mid-tenth
+    century, the place is best read as a settlement that shifted into an upland fortification
+    by the thirteenth century.
+  supporting_evidence:
+  - ATT-0458
+  confidence: 2
+  notes: 'Eger''s own identity/settlement-shift hypothesis, attributed to him rather than asserted
+    as fact; identification_status is left unchanged (probably_identified). supporting_evidence
+    is attestation-only per rule 9 (his 2004 autopsy, ATT-0458). Low confidence: Eger himself
+    frames it as ''likely''.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

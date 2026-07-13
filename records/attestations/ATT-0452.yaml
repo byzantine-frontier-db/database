@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0452
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0070
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ (SRC-0009); reached via Eger 2008, Appendix 2, s.v.
+    Sanjah/Bahasnā, pp. 519–520 (SRC-0065).
+  paraphrase: Sanjah is named by Ibn Ḥawqal among the ʿawāṣim, alongside Sumaysāṭ and Bālis.
+  confidence: 3
+  notes: 'Rule 12 — thin one-clause primary citing a source already in the corpus (SRC-0009),
+    attested inline rather than deferred. Edition/page unspecified by Eger — [citation needed:
+    pending printed confirmation].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

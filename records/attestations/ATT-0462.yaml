@@ -1,0 +1,28 @@
+- record_type: attestation
+  id: ATT-0462
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0075
+  provenance: archaeological_evidence
+  citation: Eger 2008, Appendix 2, s.v. Shimshāṭ, pp. 521–522 (SRC-0065), reporting published
+    excavation and survey.
+  paraphrase: 'The site of Haraba was excavated in 1969, 1970 and 1973 under the Keban Dam salvage
+    project, with six trenches chiefly on the south-east of the hill following the walls: the
+    excavators found a Hellenistic upland castle and a lower walled town they judged medieval
+    and possibly Saljūq, with a semicircular tower and a city gate facing the Murat River —
+    an arrangement (upland Hellenistic, lowland Middle Islamic) Eger calls curiously inverted.
+    Sinclair reports the site later split into seven villages bearing the name Arşimşat, one
+    being Haraba; the site was flooded by the Keban Dam Lake in 1974. There is no reported Early
+    Islamic architecture or pottery.'
+  confidence: 3
+  notes: 'Section-3 published archaeology (Keban Dam Project 1969–73; Sinclair). NON-VISITED:
+    the Shimshāṭ entry has no Personal Observations header and no first-person autopsy, so no
+    primary_observation is minted (contrast the front-matter which flagged this entry as §4-bearing
+    — §4 verified per entry and found absent). Site submerged under Keban Dam Lake since 1974.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
