@@ -1,0 +1,23 @@
+- record_type: interpretation
+  id: INT-0170
+  associated_entities:
+  - ENT-PLC-0016
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Malaṭiya
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Eger 2008 locates Malaṭya at 38.42173, 38.36605, about 9.84 km from the stored editorial point
+    (38.35, 38.30) — beyond the stored 8 km uncertainty radius. Both denote Battalgazi / Eski Malatya;
+    the divergence is smaller than the Bālis case but still exceeds the radius, warranting editorial reconciliation.
+  supporting_evidence:
+  - ATT-0410
+  confidence: 2
+  notes: 'Coordinate-divergence interpretation (backlog item). Entity coordinate NOT changed; adoption
+    decision (MAJOR) left to Curtis. Parallel case: Bālis, INT-0169.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

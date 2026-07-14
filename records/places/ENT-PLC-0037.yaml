@@ -26,6 +26,7 @@
   - ATT-0252
   - ATT-0253
   - ATT-0274
+  - ATT-0486
   alternative_names:
   - form: Bālis
     language: ar
@@ -61,7 +62,7 @@
     change and no new attestations were minted this session.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.4.1
+    record_version: 1.5.0
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     modified_at: '2026-07-05T00:00:00Z'
@@ -74,3 +75,4 @@
   - INT-0089
   - INT-0092
   - INT-0097
+  - INT-0169
