@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0076
+  standardised_title: Theophylact Simocatta, History (Historiae)
+  author_unnamed: false
+  date_of_composition:
+    start: 628
+    end: 640
+    precision: year_range_broad
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: history
+  edition_used: Edition not specified by Eger — [citation needed].
+  reliability_assessment: Early-seventh-century Byzantine historian; his History covers the reign of Maurice.
+    Cited by Eger only within a bare list of sources in which Sumaysāṭ is "mentioned" (with Procopius
+    and Theophanes) — a name-occurrence, not a substantive datum.
+  dependencies: []
+  notes: 'FLAG: Eger cites this as a bare "mentioned in" list, not a datum. ATT-0485 is a thin name-occurrence
+    (confidence 2); drop to note-only if preferred. Procopius/Theophanes in the same list not minted here.
+    Minted 2026-07-13 per the minting-queue decision.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

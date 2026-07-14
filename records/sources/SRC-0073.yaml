@@ -1,0 +1,26 @@
+- record_type: source
+  id: SRC-0073
+  standardised_title: al-Wāqidī (maghāzī/futūḥ tradition)
+  author_unnamed: false
+  date_of_composition:
+    start: 790
+    end: 822
+    precision: year_range_broad
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: history
+  edition_used: Reached via al-Balādhurī; no independent edition cited by Eger — [citation needed].
+  reliability_assessment: Early Abbasid historian (d. 207/822), a major authority for the maghāzī and
+    conquests. Here reached via al-Balādhurī, who transmits al-Wāqidī’s 809–10 dating of the events at
+    Sīs.
+  dependencies: []
+  notes: Minted 2026-07-13 to resolve the Sīs deferral (ATT-0482); primary reached via al-Balādhurī (transmission
+    chain recorded in the attestation).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

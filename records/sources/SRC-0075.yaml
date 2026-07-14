@@ -1,0 +1,24 @@
+- record_type: source
+  id: SRC-0075
+  standardised_title: Cicero, Epistulae (Ad Familiares / Ad Atticum)
+  author_unnamed: false
+  date_of_composition:
+    start: -51
+    end: -50
+    precision: year_range_narrow
+    confidence: 3
+  language: lat
+  script: Latn
+  genre: letter_collection
+  edition_used: Edition not specified by Eger — [citation needed].
+  reliability_assessment: Roman statesman; as proconsul of Cilicia (51 BCE) his letters describe the siege
+    of Pindenissus, which Eger connects to Sīs.
+  dependencies: []
+  notes: Minted 2026-07-13 to resolve the Sīs deferral (ATT-0484).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

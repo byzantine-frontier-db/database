@@ -1,0 +1,27 @@
+- record_type: source
+  id: SRC-0070
+  standardised_title: Ibn al-ʿIbrī (Bar Hebraeus), Chronicon Syriacum
+  author_unnamed: false
+  date_of_composition:
+    start: 1275
+    end: 1286
+    precision: year_range_broad
+    confidence: 3
+  language: syc
+  script: Syrc
+  genre: universal_chronicle
+  edition_used: Edition not specified by Eger — [citation needed].
+  reliability_assessment: Thirteenth-century Syriac Orthodox historian (maphrian) from the Malatya region.
+    The Chronicon Syriacum is his secular universal history; cited by Eger for events at Malaṭiya in 866.
+    Work identified as the Chronography rather than his Ecclesiastical History on content grounds — pending
+    printed confirmation.
+  dependencies: []
+  notes: Minted in the pre-Session-7 source-minting pass (2026-07-13) to resolve the Malaṭiya deferral
+    (ATT-0479). author_id outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

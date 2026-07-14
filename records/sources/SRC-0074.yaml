@@ -1,0 +1,25 @@
+- record_type: source
+  id: SRC-0074
+  standardised_title: Itinerarium Antonini Augusti (Antonine Itinerary)
+  author_unnamed: true
+  date_of_composition:
+    start: 200
+    end: 300
+    precision: century
+    confidence: 2
+  language: lat
+  script: Latn
+  genre: geographical_work
+  edition_used: Edition not specified by Eger — [citation needed].
+  reliability_assessment: Anonymous Roman register of road stations and distances (third century, with
+    later strata); authorless. Cited by Eger for naming Sīs as Flaviada, eighteen Roman miles from Anazarbos.
+  dependencies: []
+  notes: 'Authorless geographical/documentary source (author_unnamed: true) — NOT the "named tradent"
+    category (no named person is involved). Minted 2026-07-13 to resolve the Sīs deferral (ATT-0483).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0481
+  source: SRC-0072
+  entities_referenced:
+  - ENT-PLC-0063
+  provenance: primary_paraphrase
+  citation: Ibn al-Shiḥna, al-Durr al-muntakhab (SRC-0072); reached via Eger 2008, Appendix 2, s.v. Qūrus,
+    pp. 513–516 (SRC-0065).
+  paraphrase: Ibn al-Shiḥna reports that building materials from the dismantled church of Cyrrhus (Qūrus)
+    were reused in a mosque built by al-Walīd.
+  confidence: 3
+  notes: 'Section-2 primary attestation; resolves the Ibn al-Shiḥna deferral. [citation needed: edition/page].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

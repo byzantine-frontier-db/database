@@ -1,0 +1,18 @@
+- record_type: attestation
+  id: ATT-0484
+  source: SRC-0075
+  entities_referenced:
+  - ENT-PLC-0127
+  provenance: primary_paraphrase
+  citation: Cicero, Epistulae (SRC-0075); reached via Eger 2008, Appendix 2, s.v. Sīs, pp. 523–524 (SRC-0065).
+  paraphrase: Cicero identifies the site as Pindenissus, a name Eger takes to have been shortened to Sīs.
+  confidence: 3
+  notes: 'Section-2 primary attestation; resolves the Cicero deferral noted at ATT-0464. [citation needed:
+    edition/letter].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

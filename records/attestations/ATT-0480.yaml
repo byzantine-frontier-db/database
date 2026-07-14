@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0480
+  source: SRC-0071
+  entities_referenced:
+  - ENT-PLC-0124
+  provenance: primary_paraphrase
+  citation: Acta Conciliorum Oecumenicorum (SRC-0071); reached via Eger 2008, Appendix 2, s.v. Al-Muthaqqab,
+    pp. 510–512 (SRC-0065).
+  paraphrase: The Acta Conciliorum Oecumenicorum record a bishop Valentinos of Mutlubakke at the Council
+    of Ephesus in 431 C.E., attesting Al-Muthaqqab as an episcopal see.
+  confidence: 3
+  notes: 'Section-2 primary attestation against an authorless documentary corpus (SRC-0071); resolves
+    the Acta Conciliorum deferral. [citation needed: ACO volume/page].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,28 @@
+- record_type: source
+  id: SRC-0071
+  standardised_title: Acta Conciliorum Oecumenicorum (ed. E. Schwartz et al.)
+  author_unnamed: true
+  date_of_composition:
+    start: 431
+    end: 787
+    precision: year_range_broad
+    confidence: 3
+  language: grc
+  script: Grek
+  genre: documentary_archive
+  edition_used: Acta Conciliorum Oecumenicorum, ed. E. Schwartz (Berlin/Leipzig, 1914– ); specific volume
+    unspecified by Eger — [citation needed].
+  reliability_assessment: The published corpus of the acts of the ecumenical councils; an authorless documentary
+    source. Cited by Eger for the 431 C.E. attestation of a bishop Valentinos of Mutlubakke at the Council
+    of Ephesus.
+  dependencies: []
+  notes: 'Authorless documentary corpus (author_unnamed: true) — NOT the "named tradent, unknown author"
+    category, which is for a named person lacking a citable work; the ACO is anonymous but fully citable.
+    Minted 2026-07-13 to resolve the Al-Muthaqqab deferral (ATT-0480).'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

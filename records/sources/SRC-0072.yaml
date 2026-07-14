@@ -1,0 +1,25 @@
+- record_type: source
+  id: SRC-0072
+  standardised_title: Ibn al-Shiḥna, al-Durr al-muntakhab fī taʾrīkh mamlakat Ḥalab
+  author_unnamed: false
+  date_of_composition:
+    start: 1400
+    end: 1412
+    precision: year_range_broad
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: local_chronicle
+  edition_used: Edition not specified by Eger — [citation needed].
+  reliability_assessment: Fifteenth-century Aleppan historian (d. 815/1412); al-Durr al-muntakhab is a
+    topographical history of Aleppo and its region. Cited by Eger for the transfer of building materials
+    from the dismantled church of Cyrrhus (Qūrus) to a mosque built by al-Walīd.
+  dependencies: []
+  notes: Minted 2026-07-13 to resolve the Qūrus deferral (ATT-0481). author_id outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
