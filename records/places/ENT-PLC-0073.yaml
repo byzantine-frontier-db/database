@@ -37,9 +37,10 @@
   - ATT-0475
   - ATT-0476
   - ATT-0477
+  - ATT-0478
   metadata:
     schema_version: 2.0.0
-    record_version: 1.7.0
+    record_version: 1.8.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

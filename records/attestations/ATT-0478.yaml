@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0478
+  source: SRC-0066
+  entities_referenced:
+  - ENT-PLC-0073
+  provenance: primary_paraphrase
+  citation: al-Iṣṭakhrī, Kitāb al-Masālik wa-l-mamālik (SRC-0066); reached via Eger 2008,
+    Appendix 2, s.v. Sumaysāṭ, pp. 525–535 (SRC-0065).
+  paraphrase: al-Iṣṭakhrī, writing c. 951, describes Sumaysāṭ as a small city on the Euphrates
+    with irrigated and rain-fed lands and a fortress, drawing its drinking water from the river
+    (the same recension as Ibn Ḥawqal, ATT-0470).
+  confidence: 3
+  notes: 'Section-2 primary attestation, split from the former joint ATT-0470 into parallel
+    attestations per rule 3 and the Hārūnīyya precedent (ATT-0369/0405/0406). Edition/page
+    unspecified by Eger — [citation needed: pending printed confirmation].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
