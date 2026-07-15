@@ -110,7 +110,14 @@ mentions (patch: phase2_source_minting_pass.patch):
 Deferral notes on ATT-0369, ATT-0375, ATT-0401 updated to RESOLVED; the four referenced entities
 (ENT-PLC-0062/0078/0121/0122) MINOR-bumped with reciprocal linked_attestations.
 
-## Category: "named tradent, unknown author" (stays deferred)
+## Two standing categories for hard-to-source citations
+
+**(A) Authorless-but-citable** — a real, citable work with no named author. Model as a normal
+SourceRecord with `author_unnamed: true`. Adopted: Acta Conciliorum Oecumenicorum (SRC-0071),
+Antonine Itinerary (SRC-0074). These get minted and attested normally.
+
+**(B) Named tradent, unknown author** — a named person credited with a report/tradition but with
+no citable work of their own. NOT minted; held as notes until a printed check turns up a work.
 
 Mentions credited to a *named authority* for whom Eger cites *no citable work* — not minted, held here:
 - **Abū ʿAmr al-Bāhilī** — Ḥiṣn Manṣūr naming tradition (ATT-0378). A naming tradition credited to him;
@@ -255,3 +262,32 @@ Itinerary, Cicero, Theophylact Simocatta (~7) — a minting pass is warranted be
 The joint 951-recension datum was consolidated into one attestation (ATT-0470, source SRC-0066,
 Ibn Ḥawqal named in citation) rather than minting a duplicate. Reasonable, but worth confirming it
 shouldn't be two parallel attestations (cf. the Hārūnīyya joint pattern, ATT-0369/0405/0406).
+
+## Pre-Session-7 work — DONE (2026-07-13)
+
+- **ATT-0470 split** (patch phase2_att0470_split.patch): the joint Ibn Ḥawqal/al-Iṣṭakhrī datum at
+  Sumaysāṭ split into two parallel attestations — ATT-0470 (Ibn Ḥawqal, SRC-0009, MAJOR bump for the
+  source change) and ATT-0478 (al-Iṣṭakhrī, SRC-0066) — per rule 3 and the Hārūnīyya precedent.
+- **Source-minting pass 2** (patch phase2_minting_pass_2.patch): minted SRC-0070–0076 and back-filled
+  attestations ATT-0479–0485. Named authors: Ibn al-ʿIbrī (SRC-0070, Chronicon Syriacum per content),
+  Ibn al-Shiḥna (0072), al-Wāqidī (0073, via Balādhurī), Cicero (0075), Theophylact Simocatta (0076).
+  **Authorless-but-citable** (author_unnamed: true, NOT "named tradent"): Acta Conciliorum Oecumenicorum
+  (0071), Antonine Itinerary (0074). ATT-0464 (Sīs) deferral note resolved. **Flag:** ATT-0485
+  (Theophylact) is a thin bare-mention attestation (conf 2) — Curtis may prefer note-only.
+- **Coordinate InterpretationRecords** (patch phase2_coordinate_interpretations.patch): INT-0169 (Bālis)
+  and INT-0170 (Malaṭya) document the divergences; created ATT-0486 (Bālis gis) for rule-9 support.
+  **Entity coordinates NOT changed** — the adoption decision (MAJOR re-coordination) is left to Curtis.
+  This clears the "before Session 7 closes" deadline for both.
+
+Minting queue is now empty except the standing "named tradent, unknown author" holds (Abū ʿAmr
+al-Bāhilī, Jawzāt roster). Still open: Al-Muthaqqab ceramic discrepancy (editorial), Malaṭiya Balādhurī
+dedup pass, coordinate-adoption decisions for Bālis/Malaṭya (INT-0169/0170), page-number restoration.
+
+## Theophylact bare-mention — RESOLVED (2026-07-13)
+
+The ProvenanceCategory enum has no bare_mention/name_occurrence value, so ATT-0485 (a name-occurrence
+of Sumaysāṭ in Theophylact's "mentioned in" list) was **deleted** — a contentless attestation collapses
+the observation/attestation distinction (rule 3). **SRC-0076 preserved** with a pre-emptive-mint note
+(Theophylact is canonical, likely to recur in later phases). ENT-PLC-0073 de-linked and its bump
+reverted (net-zero). Patch: phase2_theophylact_fix.patch. Standing rule: bare "mentioned in" lists are
+notes or a downgraded provenance — never a substantive attestation.
