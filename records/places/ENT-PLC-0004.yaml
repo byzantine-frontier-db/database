@@ -46,9 +46,26 @@
   - ATT-0266
   - ATT-0268
   - ATT-0306
+  - ATT-0490
+  - ATT-0491
+  - ATT-0492
+  - ATT-0493
+  - ATT-0494
+  - ATT-0495
+  - ATT-0496
+  - ATT-0497
+  notes: 'Session 7 (Phase 2) enrichment from Eger 2008 (SRC-0065), Appendix 2, pp. 538-550.
+    Added §1 gazetteer coordinate (ATT-0490; Gözlü Küle repaired point, 1.18 km from the
+    stored coordinate — WITHIN the 2 km radius, so stored coordinate NOT overwritten and no
+    coordinate InterpretationRecord raised); §2 primaries Ibn Ḥawqal (ATT-0491), al-Sarakhsī
+    (ATT-0492), Yāqūt (ATT-0493), Strabo (ATT-0494), and al-Ṭarsūsī via Ibn al-ʿAdīm (ATT-0495);
+    §3 published archaeology (ATT-0496 / OBS-0253); §4 dated autopsy of July 2005 (ATT-0497 /
+    OBS-0253); and Eger''s cooking-ware interpretation INT-0171. Bare mentions not attested
+    (Stephanus of Byzantium, Ibn ʿAtiyya, Miskawayh, Lucan, Dio Chrysostom, Ammianus Marcellinus,
+    Xenophon); al-Ṭarsūsī''s Kitāb siyār al-thughūr queued for deferred source mint.'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.9.0
+    schema_version: 2.0.0
+    record_version: 1.10.0
     created_at: '2026-06-01T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
@@ -58,3 +75,4 @@
   - INT-0016
   - INT-0059
   - INT-0149
+  - INT-0171

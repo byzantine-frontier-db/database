@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0503
+  source: SRC-0057
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: primary_paraphrase
+  citation: 'Ibn al-ʿAdīm, Bughyat al-ṭalab (SRC-0057); reached via Eger 2008, Appendix 2, s.v. Zibaṭra,
+    p. 551 (SRC-0065). [citation needed: exact page span — page-map conflates Tīzīn and Zibaṭra at
+    p. 551].'
+  paraphrase: Ibn al-ʿAdīm records an iron-ore mine at Zibaṭra from which ore was extracted and exported
+    to other towns.
+  confidence: 3
+  notes: 'Section-2 primary attestation (Rule 12). Reported jointly with Ibn Shaddād for the iron
+    mine; split into per-source attestations (ATT-0503 Ibn al-ʿAdīm, ATT-0504 Ibn Shaddād) per the
+    ATT-0470 convention. [citation needed: exact edition/page]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

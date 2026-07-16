@@ -1,0 +1,32 @@
+- record_type: interpretation
+  id: INT-0171
+  associated_entities:
+  - ENT-PLC-0004
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Ṭarsūs
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Eger argues that Ç. Toskay-Evrin's dating of the Cumhuriyet Meydanı cooking wares mis-assigns
+    the Early Islamic evidence. Her most ubiquitous form — the holemouth brittleware cooking pot
+    with rocker decoration (her Type 4) — is dated to the end of the Late Roman period, but Eger
+    holds it to be an ʿAbbāsid form of the eighth–tenth centuries, paralleled widely across north
+    Syria and the Jazīra; its appearance in a Roman-level context is better explained by later pitting
+    and contamination (which she herself notes for the confused upper strata) than by an early date.
+    He further observes that the claimed association of ʿAbbāsid coins with the excavated levels
+    is nowhere substantiated. The result, he argues, is a disconnect between the archaeological and
+    historical analysis that understates Early Islamic Ṭarsūs, where this pot type and its successors
+    form nearly a third of the assemblage and occur intact in the museum.
+  supporting_evidence:
+  - ATT-0497
+  - ATT-0496
+  confidence: 3
+  notes: Eger's own ceramic-chronology interpretation, drawn from his Section-4 autopsy (ATT-0497)
+    and the published record (ATT-0496); cross-references the parallels he gathers in his Appendix
+    1. supporting_evidence is attestation-only (Rule 9). editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

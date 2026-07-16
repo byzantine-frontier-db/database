@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0502
+  source: SRC-0020
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: primary_paraphrase
+  citation: 'Yāqūt al-Ḥamawī, Muʿjam al-buldān (SRC-0020); reached via Eger 2008, Appendix 2, s.v.
+    Zibaṭra, p. 551 (SRC-0065). [citation needed: exact page span — page-map conflates Tīzīn and
+    Zibaṭra at p. 551].'
+  paraphrase: Yāqūt (and others) conflates Zibaṭra with Ḥadath, a confusion Eger flags as affecting
+    the source tradition for the site.
+  confidence: 3
+  notes: 'Section-2 primary attestation (Rule 12), source-critical point on the Zibaṭra/Ḥadath conflation.
+    Relevant to the identification argument in INT-0173. [citation needed: exact edition/page]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

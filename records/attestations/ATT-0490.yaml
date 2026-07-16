@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0490
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0004
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550 (SRC-0065); coordinate 36N N4086310 E668364
+    (Gözlü Küle; repaired), converted to WGS84 (36.90778, 34.88986) via pyproj.
+  paraphrase: Eger's gazetteer coordinate for Ṭarsūs resolves to the Gözlü Küle mound at the south
+    of the city (36.90778, 34.88986); Ṭarsūs sits at the centre of the western Cilician plain, watered
+    by the Cydnus (Tersus Çay / Nahr al-Baradān).
+  confidence: 2
+  notes: Section-1 locational identification. The sidecar point is a repaired reading (northing lost
+    a trailing digit; coordinate_confidence 2) tied to the Gözlü Küle höyük. It lies c. 1.18 km from
+    the entity's stored coordinate (36.9177, 34.8945; uncertainty_radius_m 2000) — WITHIN the stored
+    radius, so the stored coordinate is NOT overwritten and no coordinate InterpretationRecord is
+    raised; the gazetteer point corroborates the stored one. editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

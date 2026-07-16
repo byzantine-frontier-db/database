@@ -1,0 +1,22 @@
+- record_type: observation
+  id: OBS-0253
+  proposition: Early Islamic through Middle Islamic material culture is well represented at Ṭarsūs
+    — ʿAbbāsid-onward coins (including a dirham hoard), Early Islamic lamps and buffware, holemouth
+    brittleware cooking pots with rocker decoration, and a glass-and-ceramic kiln reusing the Roman
+    bath — even though excavation has recovered no clearly sealed, independently dated Early Islamic
+    stratum.
+  associated_entities:
+  - ENT-PLC-0004
+  supporting_attestations:
+  - ATT-0496
+  - ATT-0497
+  notes: Combines the published excavation record (ATT-0496) with Eger's 2005 autopsy of the museum
+    and salvage material (ATT-0497). The presence of the material is well grounded; its stratigraphic
+    dating at Ṭarsūs remains weak (see INT-0171). editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

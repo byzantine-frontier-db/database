@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0495
+  source: SRC-0057
+  entities_referenced:
+  - ENT-PLC-0004
+  provenance: primary_paraphrase
+  citation: Ibn al-ʿAdīm, Bughyat al-ṭalab (SRC-0057), transmitting Abū ʿAmr ʿUthmān b. ʿAbd Allāh
+    al-Ṭarsūsī, Kitāb siyār al-thughūr; reached via Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550
+    (SRC-0065).
+  paraphrase: 'The tenth-century account of al-Ṭarsūsī''s Kitāb siyār al-thughūr, preserved in Ibn
+    al-ʿAdīm''s history of Aleppo, describes the internal organisation of Ṭarsūs: the town apportioned
+    into some 20,000 plots; wall-towers held in private ownership and used as dwellings for settled
+    warriors (mutaʾahhilīn) and bachelor volunteers (ʿuzzāb), one serving as a paper factory; ghāzī
+    housing of various kinds (dār, ribāṭ, zāwiya, khānqāh); the muḥtasib charged with recruiting
+    fighters; and, when the muster (nafīr) went out, all the city gates locked and their keys entrusted
+    to the chief of police until the troops returned.'
+  confidence: 3
+  notes: 'Section-2 primary attestation. al-Ṭarsūsī''s Kitāb siyār al-thughūr survives only through
+    Ibn al-ʿAdīm (SRC-0057), the extant work, so the attestation is against SRC-0057 with the al-Ṭarsūsī
+    authorship recorded (Rule 4, secondary/transmission route in the chain). A dedicated SourceRecord
+    for al-Ṭarsūsī''s Kitāb siyār al-thughūr is queued for the deferred-source mint. Ibn ʿAtiyya''s
+    903 count (34,000 dwellings in 2,000 streets), also transmitted here, is a bare co-mention and
+    not separately attested. [citation needed: exact edition/page]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

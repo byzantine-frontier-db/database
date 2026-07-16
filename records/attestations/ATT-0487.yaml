@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0487
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0188
+  provenance: modern_identification
+  citation: Eger 2008, Appendix 2, s.v. Tall Jubayr, p. 536 (SRC-0065).
+  paraphrase: Eger's gazetteer records Tall Jubayr as a site never definitively located, which historical
+    sources place about 20 km from Ṭarsūs; he takes it to have been probably a maslaḥa (outpost)
+    of Ṭarsūs, named after a Persian of Anṭākiya who fought there.
+  confidence: 2
+  notes: 'Bootstrap attestation for the Session-7 mint. Records Eger''s modern locational identification
+    of an unlocated site (no coordinate in the gazetteer). Eger names no primary source for the distance
+    or the eponym, so nothing is attested to a primary work; provenance is modern_identification
+    against SRC-0065 rather than gis_derived_observation (no coordinate) or primary_paraphrase (no
+    named primary). [citation needed: the ‘historical sources’ Eger relies on]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0507
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0007
+  observations_supported:
+  - OBS-0254
+  provenance: primary_observation
+  citation: 'Eger 2008, Appendix 2, s.v. Zibaṭra, p. 551, “Personal Observations, 8/19/2005” (SRC-0065).
+    [citation needed: exact page span — page-map conflates Tīzīn/Zibaṭra at p. 551].'
+  paraphrase: On a visit of 19 August 2005 Eger examined the ruins at Doğanşehir (reached via the
+    Gölbaşı–Malatya road). Beside the river he found largely intact city walls, unfaced but with
+    discernible corners, gates and towers, running along both sides of the modern road and suggesting
+    a double city wall strongly reminiscent of the walls of Ḥadath and Malaṭiya; modern houses are
+    built over the site and its earlier walls. The Dere Su runs lush along the east side with a mill.
+    He discerned no surface pottery, but noted he had walked only the clean cobbled modern roads,
+    not the houses or gardens. The site lies in a small mountain-ringed valley off the Gölbaşı and
+    Malatya valleys and is known to locals simply as the ‘Kale’.
+  observation_date:
+    start: '2005-08-19'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy; schema v2 (primary_observation + observation_date). Closes
+    the Eger 2008 appendix. Supports OBS-0254 and the identification argument INT-0173. editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

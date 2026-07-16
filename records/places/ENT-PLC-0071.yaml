@@ -8,13 +8,23 @@
   - ENT-PLC-0009
   overall_confidence: 2
   analytical_summary: Town listed among the ʿawāṣim settlements by Ibn Khurradādhbih
-    and by Balādhurī/Yāqūt; not described in detail by Eger here.
+    and by Balādhurī/Yāqūt. Eger 2008's gazetteer adds that the site, known from Umayyad
+    times, lay in a plain called the ʿAmq al-Tīzīn, where Maslama (brother of the caliph
+    al-Walīd) is said to have relocated the Amanus-mountain Jarājima to settle in 708.
   linked_attestations:
   - ATT-0126
   - ATT-0334
+  notes: 'Session 7 (Phase 2) enrichment from Eger 2008 (SRC-0065), Appendix 2, p. 551.
+    Not visited by Eger: the gazetteer entry has only a "History" section and no "Personal
+    Observations" header (verified typo-tolerantly), so no primary_observation was minted.
+    The ʿAmq al-Tīzīn placement and the Jarājima-relocation-708 detail are given by Eger''s
+    gazetteer without a named primary source, so no §2 primary attestation was minted (the
+    Jarājima material is classically al-Balādhurī but is not attributed here) — [citation
+    needed: primary source for the 708 Jarājima relocation]. Page-map conflates Tīzīn and
+    Zibaṭra at p. 551 (flagged).'
   metadata:
-    schema_version: 1.0.0
-    record_version: 1.1.0
+    schema_version: 2.0.0
+    record_version: 1.2.0
     created_at: '2026-06-15T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true

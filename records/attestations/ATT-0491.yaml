@@ -1,0 +1,24 @@
+- record_type: attestation
+  id: ATT-0491
+  source: SRC-0009
+  entities_referenced:
+  - ENT-PLC-0004
+  provenance: primary_paraphrase
+  citation: Ibn Ḥawqal, Kitāb Ṣūrat al-Arḍ (SRC-0009); reached via Eger 2008, Appendix 2, s.v. Ṭarsūs,
+    pp. 538–550 (SRC-0065).
+  paraphrase: 'Ibn Ḥawqal, writing in the tenth century, contrasts Early Islamic Ṭarsūs with the
+    Byzantine-occupied city of his own day: he describes a garrison of volunteer cavalry drawn from
+    across the Muslim world, supported by property placed in waqf, with regions from Persia to the
+    Maghrib each maintaining a hostelry (dār) and a ribāṭ in the city to house their ghāzīs; he also
+    records that al-Maʾmūn, who died at Badhandūn (Podandos) at the Cilician Gates in 833, was buried
+    at Ṭarsūs beside the Friday mosque.'
+  confidence: 3
+  notes: 'Section-2 primary attestation (Rule 12: existing corpus source attested inline). Garrison
+    and dār passages paraphrased, not quoted. [citation needed: exact edition/page]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

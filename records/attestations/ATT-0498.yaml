@@ -1,0 +1,26 @@
+- record_type: attestation
+  id: ATT-0498
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Zibaṭra, p. 551 (SRC-0065); coordinate 37N N4216642 E402006,
+    converted to WGS84 (38.09227, 37.88248) via pyproj.
+  paraphrase: Eger's gazetteer locates Zibaṭra (classical Sozopetra/Zapetra) at modern Doğanşehir
+    on the Nahr Qarāqīs, a tributary of the Qubāqib (modern Sultan Su), in a mountain-ringed plain
+    a day's travel south of Ḥadath and two marches south of Malaṭiya; his coordinate (38.09227, 37.88248)
+    falls at Doğanşehir, whereas Le Strange and Wheatley had identified the ruins with Viranşehir
+    south of Malatya.
+  confidence: 3
+  notes: 'Section-1 locational identification. Eger''s Doğanşehir point lies c. 31.5 km from the
+    entity''s stored coordinate (37.96, 38.2; scholarly_identification TIB 2, uncertainty_radius_m
+    15000) — well BEYOND the stored radius. Compare-don''t-overwrite: stored coordinate NOT changed;
+    the divergence is raised as candidate coordinate InterpretationRecord INT-0172 (cf. Bālis/Malaṭya
+    precedents INT-0169/0170). Supports INT-0172. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

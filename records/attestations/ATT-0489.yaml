@@ -1,0 +1,30 @@
+- record_type: attestation
+  id: ATT-0489
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0080
+  observations_supported:
+  - OBS-0252
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Ṭaranda, pp. 536–537, “Personal Observations, 8/19/05” (SRC-0065).
+  paraphrase: 'On a visit of 19 August 2005 Eger observed Ṭaranda just west of modern Darende, in
+    mountainous southern-Taurus terrain of deeply weathered karst limestone unlike the rest of the
+    thughūr, the site lying in a valley beside a strong-flowing river. Toward the Sonunucu Baba pilgrimage
+    site he noted traces of the ancient settlement: several square Syrian minarets (probably 13th–14th
+    century), a well-preserved Ottoman market, and a small fortification (Zengibar Castle). He inferred
+    that the ancient site lies near the “minarets without mosques” (Eskişehir); a detailed survey
+    of the house-covered area was not carried out.'
+  observation_date:
+    start: '2005-08-19'
+    precision: exact_day
+    confidence: 5
+  confidence: 4
+  notes: Section-4 first-person autopsy (dated site visit); schema v2 record (primary_observation
+    + observation_date). Supports OBS-0252. editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

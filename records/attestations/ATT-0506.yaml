@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0506
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: archaeological_evidence
+  citation: 'Eger 2008, Appendix 2, s.v. Zibaṭra, p. 551 (SRC-0065), reporting the survey descriptions
+    of T. A. Sinclair, Eastern Turkey (Vols 3 and 4). [citation needed: exact page span — page-map
+    conflates Tīzīn/Zibaṭra at p. 551].'
+  paraphrase: Sinclair describes what may be two different sites under the name Zibaṭra/Sozopetra.
+    The first (Vol. 3), known only from an 1840 visit, was a rectangular walled site with a thick
+    double wall and towers (open to the south), a mounded centre with a vaulted building, now covered
+    by houses. The second (Vol. 4), a miṣr about 90 km from Urfa, was a substantial classical city
+    of c. 800 x 800 m with a citadel on a mound to the south-east, rounded wall-towers, four gates,
+    a necropolis to the north, and a church west of the town (later converted into a fort).
+  confidence: 3
+  notes: Section-3 published survey, credited to Sinclair; routed as archaeological_evidence. The
+    two-site ambiguity is the subject of Eger's identification argument (INT-0173). editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

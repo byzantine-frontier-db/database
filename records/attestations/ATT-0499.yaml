@@ -1,0 +1,21 @@
+- record_type: attestation
+  id: ATT-0499
+  source: SRC-0069
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: primary_paraphrase
+  citation: 'al-Balkhī, Ṣuwar al-aqālīm (SRC-0069); reached via Eger 2008, Appendix 2, s.v. Zibaṭra,
+    p. 551 (SRC-0065). [citation needed: exact page span — page-map conflates Tīzīn and Zibaṭra at
+    p. 551].'
+  paraphrase: al-Balkhī states that Zibaṭra was the fortress closest to Byzantine territory.
+  confidence: 2
+  notes: 'Section-2 primary attestation (Rule 12). SRC-0069 is itself FLAGGED for bibliographic review
+    (al-Balkhī''s original is lost and survives only through later derivatives); confidence lowered
+    accordingly. [citation needed: exact edition/page and recension]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

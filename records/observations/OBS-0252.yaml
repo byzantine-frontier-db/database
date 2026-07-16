@@ -1,0 +1,19 @@
+- record_type: observation
+  id: OBS-0252
+  proposition: At Ṭaranda (west of modern Darende) surface traces of the historic settlement survive
+    near the Sonunucu Baba pilgrimage site — square Syrian-type minarets (probably 13th–14th century),
+    an Ottoman market, and a small fortification — with the ancient core probably in the vicinity
+    of the local “minarets without mosques” (Eskişehir); no systematic survey was undertaken.
+  associated_entities:
+  - ENT-PLC-0080
+  supporting_attestations:
+  - ATT-0489
+  notes: Derived from Eger's dated 2005 autopsy (Section 4). Surface/standing-remains observation;
+    the location of the ancient core is Eger's cautious inference, not a survey result. editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

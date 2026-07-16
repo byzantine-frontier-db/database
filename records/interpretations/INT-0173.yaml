@@ -1,0 +1,30 @@
+- record_type: interpretation
+  id: INT-0173
+  associated_entities:
+  - ENT-PLC-0007
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Zibaṭra
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: 'Reconciling Sinclair''s two candidate sites, Eger argues that Sinclair''s first site
+    — the double-walled ruins at Doğanşehir — is the Early Islamic thughūr of Zibaṭra on the grounds
+    of location and physical description, but that Sinclair erred in his historical attribution:
+    the historical evidence Sinclair attached to his second site in fact pertains to this thaghr
+    of Zibaṭra. Eger''s own autopsy of the intact double walls at Doğanşehir, their resemblance to
+    Ḥadath and Malaṭiya, and al-Balādhurī''s ‘great fortress from Byzantine times’ support identifying
+    the Doğanşehir ruins with the frontier fortress.'
+  supporting_evidence:
+  - ATT-0507
+  - ATT-0500
+  confidence: 3
+  notes: Eger's identification argument for Zibaṭra = Doğanşehir. Interacts with the Yāqūt Zibaṭra/Ḥadath
+    conflation (ATT-0502) and with the coordinate-divergence interpretation INT-0172. Related to
+    the standing al-Manṣūr thughūr-stabilization interpretation INT-0042 (which also associates ENT-PLC-0007);
+    cross-referenced per convention on preserved scholarly linkage. editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

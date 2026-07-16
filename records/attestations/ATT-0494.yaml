@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0494
+  source: SRC-0040
+  entities_referenced:
+  - ENT-PLC-0004
+  provenance: primary_paraphrase
+  citation: Strabo, Geographika (SRC-0040); reached via Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550
+    (SRC-0065).
+  paraphrase: Strabo transmits a foundation tradition for Tarsus attributing it to Triptolemus and
+    the Argives searching for Io, and is cited (with Stephanus of Byzantium) for the coastal lagoon
+    — the Rhegma lacus — near the city.
+  confidence: 2
+  notes: 'Section-2 primary attestation (Rule 12), classical topography/foundation tradition. Stephanus
+    of Byzantium is a bare co-mention here and is not in the corpus — not attested (bare-mention
+    rule); queued as a candidate source to mint. [citation needed: exact book/section]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,27 @@
+- record_type: interpretation
+  id: INT-0172
+  associated_entities:
+  - ENT-PLC-0007
+  scholar: A. Asa Eger
+  publication: The Spaces Between the Teeth (2008 dissertation), Appendix 2, s.v. Zibaṭra
+  publication_source_id: SRC-0065
+  date: 2008
+  argument: Eger 2008 locates Zibaṭra at modern Doğanşehir (38.09227, 37.88248), about 31.5 km —
+    more than twice the stored 15 km uncertainty radius — from the stored editorial point (37.96,
+    38.2), which follows the TIB 2 scholarly identification (and the older Le Strange/Wheatley placement
+    near Viranşehir). Both denote the frontier town Zibaṭra/Sozopetra, but the placements differ
+    materially; Eger supports Doğanşehir with a physical description of intact double city walls
+    matching the historical fortress. The divergence exceeds the radius and warrants editorial reconciliation
+    and probable adoption of Eger's Doğanşehir point (a MAJOR re-coordination).
+  supporting_evidence:
+  - ATT-0498
+  confidence: 2
+  notes: 'Coordinate-divergence interpretation. Entity coordinate NOT changed here; the adoption
+    decision (MAJOR) is left to Curtis. Parallel cases: Bālis INT-0169, Malaṭya INT-0170. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

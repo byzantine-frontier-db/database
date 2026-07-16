@@ -1,0 +1,32 @@
+- record_type: attestation
+  id: ATT-0497
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0004
+  observations_supported:
+  - OBS-0253
+  provenance: primary_observation
+  citation: Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550, “Personal Observations, 7/05” (SRC-0065).
+  paraphrase: 'On a visit of July 2005 Eger examined the Ṭarsūs material at first hand: the Cumhuriyet
+    Meydanı colonnaded street under 2–3 m of overburden containing medieval remains; a museum assemblage
+    of Early Islamic lamps, intact buffware jugs and juglets, and two restored holemouth brittleware
+    cooking pots with rocker decoration, together with ʿAbbāsid, Faṭimid, Ayyūbid and Mamlūk coins
+    including a hoard of ʿAbbāsid silver dirhams (mislabelled ‘emevian’). At the contemporaneous
+    salvage excavation of the Roman bath he found abundant Early and Middle Islamic ceramics and
+    a combined glass-and-ceramic kiln, paralleling the pattern he had seen at Anṭākiya and Kanīsa
+    al-Sawdāʾ; at the Gözlü Küle mound to the south little was visible beyond pottery on the southern
+    slope.'
+  observation_date:
+    start: 2005-07
+    precision: month
+    confidence: 4
+  confidence: 4
+  notes: Section-4 first-person autopsy; schema v2 (primary_observation + observation_date, month
+    precision — the gazetteer gives ‘7/05’ without a day). Supports OBS-0253. editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

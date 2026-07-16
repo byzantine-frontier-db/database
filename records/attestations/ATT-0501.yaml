@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0501
+  source: SRC-0066
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: primary_paraphrase
+  citation: 'al-Iṣṭakhrī, Kitāb al-Masālik wa-l-mamālik (SRC-0066); reached via Eger 2008, Appendix
+    2, s.v. Zibaṭra, p. 551 (SRC-0065). [citation needed: exact page span — page-map conflates Tīzīn
+    and Zibaṭra at p. 551].'
+  paraphrase: al-Iṣṭakhrī concurs that Zibaṭra was a great fortress from Byzantine times, located
+    on the Byzantine frontier.
+  confidence: 3
+  notes: 'Section-2 primary attestation (Rule 12). Joint recension with al-Balādhurī (ATT-0500);
+    split per source per the ATT-0470 convention — flagged for review of whether joint recensions
+    should be consolidated. [citation needed: exact edition/page]. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

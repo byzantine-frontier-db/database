@@ -1,0 +1,33 @@
+- record_type: place
+  id: ENT-PLC-0188
+  standardised_name: Tall Jubayr
+  alternative_names:
+  - form: Tall Jubayr
+    language: ar
+    script: Arab
+    name_type: standardised
+  place_type: fortification
+  identification_status: unidentified
+  identification_confidence: 1
+  overall_confidence: 1
+  analytical_summary: Small frontier outpost associated with Ṭarsūs, never definitively located.
+    Eger's gazetteer reports that historical sources place it about 20 km from Ṭarsūs and that it
+    was probably a maslaḥa (outpost) of that city, named after a Persian of Anṭākiya who fought there.
+    Minted in Phase 2 Session 7 from SRC-0065 after NFKD-normalized alias matching against the corpus
+    (including standardised_name and all alternative_names) returned no existing entity.
+  linked_attestations:
+  - ATT-0487
+  notes: 'Minted Session 7 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2, s.v. Tall Jubayr, p.
+    536. No coordinate line exists in the gazetteer entry and the site is explicitly unlocated —
+    no coordinate added. Non-visited site: no Section-4 ‘Personal Observations’ header present (verified
+    typo-tolerantly), so no primary_observation minted — not visited by Eger. The 20-km-from-Ṭarsūs
+    distance and the maslaḥa/Persian-of-Anṭākiya detail are Eger''s summary of unnamed ‘historical
+    sources’; no primary source is named, so none is attested (bootstrap ATT-0487 records only Eger''s
+    modern locational identification). editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

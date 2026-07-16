@@ -1,0 +1,25 @@
+- record_type: attestation
+  id: ATT-0488
+  source: SRC-0065
+  entities_referenced:
+  - ENT-PLC-0080
+  provenance: gis_derived_observation
+  citation: Eger 2008, Appendix 2, s.v. Ṭaranda, pp. 536–537 (SRC-0065); coordinate 37N N4270288
+    E368271, converted to WGS84 (38.57129, 37.48786) via pyproj.
+  paraphrase: Eger's gazetteer locates Ṭaranda (classical Taranta; modern Darende) on the upper Qubāqib
+    River, three marches from Malaṭiya on the Roman road running through the Taurus from Cappadocia
+    and Kayseri via Elbistan/Arabissos, its coordinate (38.57129, 37.48786) falling at modern Darende.
+  confidence: 3
+  notes: 'Section-1 locational identification. The entity had no stored coordinate, so this gazetteer-derived
+    point is added to ENT-PLC-0080 (coordinate_method gazetteer_entry, uncertainty_radius_m 500).
+    NOTE: the point falls at modern Darende, which Eger 2008 explicitly asserts (both here and in
+    his Section-4 visit note); the entity''s Phase-1 note had left the modern identification open
+    and leaned toward Gürün/the Mazikiran Pass. Identification tension flagged for editorial review
+    — NOT silently reconciled. editorial_review_required.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
