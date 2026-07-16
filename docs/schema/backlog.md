@@ -291,3 +291,29 @@ the observation/attestation distinction (rule 3). **SRC-0076 preserved** with a 
 (Theophylact is canonical, likely to recur in later phases). ENT-PLC-0073 de-linked and its bump
 reverted (net-zero). Patch: phase2_theophylact_fix.patch. Standing rule: bare "mentioned in" lists are
 notes or a downgraded provenance — never a substantive attestation.
+
+## PHASE 2 GAZETTEER EXTRACTION — COMPLETE (Session 7, 2026-07-13)
+
+Corpus 1441 records; both schemas + xref clean; review-flag 100%. All 7 sessions + interludes done.
+
+### Session 7 deferred items
+- **Source-minting queue (next batch):** al-Ṭarsūsī, Kitāb siyār al-thughūr (currently attested via
+  Ibn al-ʿAdīm SRC-0057). Plus all prior-session unminted primaries.
+- **Category (B) bare mentions — not attested** (per the bare-mention rule): Stephanus of Byzantium,
+  Ibn ʿAtiyya, Miskawayh, Lucan, Dio Chrysostom, Ammianus Marcellinus, Xenophon. Notes only.
+- **INT-0172 — Zibaṭra = Doğanşehir re-coordination (MAJOR decision):** 31.5 km from stored TIB 2
+  point, well beyond the 15 km radius; Eger's explicit modern identification. Likely adopt.
+- **Ṭaranda Darende-vs-Gürün identification (MAJOR if resolved):** Eger places it at Darende
+  (coordinate + autopsy); Phase-1 leaned Gürün/Mazikiran. identification_status left untouched, flagged.
+- **Parser fix (standing):** page map conflates Tīzīn + Zibaṭra at p.551 — Zibaṭra/Tīzīn records carry
+  `[citation needed: exact span]`. De-truncation + header-boundary fix on the next normalize run.
+- **Tīzīn Jarājima-708 detail** has no named primary in Eger — flagged, unattributed.
+
+### Standing editorial backlog after Phase 2 (all for Curtis)
+1. Coordinate re-coordination decisions (MAJOR): Bālis (INT-0169), Malaṭya (INT-0170), Zibaṭra (INT-0172).
+2. Identification decision (MAJOR): Ṭaranda Darende/Gürün.
+3. Al-Muthaqqab ceramic discrepancy (analytical_summary vs OBS-0247).
+4. **Deferred-source batch mint** — the accumulated queue (al-Ṭarsūsī + earlier holds).
+5. **Corpus-wide dedup pass** — Phase-1/Phase-2 overlapping primaries (Malaṭiya Balādhurī et al.).
+6. Page-number restoration + the Tīzīn/Zibaṭra parser fix.
+7. Joint-recension split convention (ATT-0470 pattern) — ratify as standing or revisit.
