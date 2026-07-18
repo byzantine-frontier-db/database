@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0508
+  source: SRC-0057
+  entities_referenced:
+  - ENT-PLC-0004
+  provenance: primary_paraphrase
+  citation: Ibn ʿAtiyya's count (903), transmitted by Ibn al-ʿAdīm, Bughyat al-ṭalab (SRC-0057); reached
+    via Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550 (SRC-0065).
+  paraphrase: Ibn ʿAtiyya, in a count dated to 903, reckons Ṭarsūs at some 34,000 dwellings laid out along
+    2,000 streets.
+  confidence: 3
+  notes: 'Rule 12 — a substantive datum (dwelling/street count) attributed to Ibn ʿAtiyya, transmitted
+    via the extant witness Ibn al-ʿAdīm (SRC-0057), which is already in the corpus; attested inline against
+    SRC-0057 rather than deferred. Ibn ʿAtiyya has no independent SourceRecord (the count survives only
+    through this transmission), so the source is SRC-0057 with Ibn ʿAtiyya''s authorship recorded in the
+    citation (Rule 4). [citation needed: exact edition/page].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

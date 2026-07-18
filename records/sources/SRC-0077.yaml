@@ -1,0 +1,31 @@
+- record_type: source
+  id: SRC-0077
+  standardised_title: al-Ṭarsūsī (Abū ʿAmr ʿUthmān b. ʿAbd Allāh), Kitāb siyār al-thughūr
+  author_unnamed: false
+  date_of_composition:
+    start: 900
+    end: 965
+    precision: year_range_broad
+    confidence: 3
+  language: ar
+  script: Arab
+  genre: military_treatise
+  edition_used: No independent edition — the work is lost and survives only through Ibn al-ʿAdīm, Bughyat
+    al-ṭalab (SRC-0057). [citation needed].
+  reliability_assessment: Tenth-century account of the internal military-civic organisation and frontier
+    practice of Ṭarsūs by Abū ʿAmr ʿUthmān b. ʿAbd Allāh al-Ṭarsūsī. The work does NOT survive independently;
+    it is preserved only through Ibn al-ʿAdīm's history of Aleppo (SRC-0057), so al-Ṭarsūsī attestations
+    are transmitted via that witness. A first-hand source for the organisation of the frontier city.
+  dependencies: []
+  notes: 'Minted in the post-Phase-2 deferred-source batch (2026-07-14) to resolve the al-Ṭarsūsī deferral
+    at Ṭarsūs; ATT-0495 re-pointed from SRC-0057. Lost work preserved only via Ibn al-ʿAdīm (SRC-0057)
+    — same pattern as al-Balkhī (SRC-0069). Possible person-identity link: the qāḍī ''Abū ʿAmr al-Ṭarsūsī''
+    named at Jawzāt (ATT-0396) may be this author, but the Jawzāt garrison-roster''s own source remains
+    unattributed (category B) — flagged, not asserted. author_id outstanding.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
