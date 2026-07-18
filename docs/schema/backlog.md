@@ -317,3 +317,36 @@ Corpus 1441 records; both schemas + xref clean; review-flag 100%. All 7 sessions
 5. **Corpus-wide dedup pass** — Phase-1/Phase-2 overlapping primaries (Malaṭiya Balādhurī et al.).
 6. Page-number restoration + the Tīzīn/Zibaṭra parser fix.
 7. Joint-recension split convention (ATT-0470 pattern) — ratify as standing or revisit.
+
+## Deferred-source batch mint — DONE / QUEUE CLOSED (2026-07-14)
+
+Scanned the records directly (not the backlog history) for open **source** deferrals. The queue
+reduced to a single genuine target; the rest are argued-deferred below.
+
+- **MINTED — SRC-0077 al-Ṭarsūsī, Kitāb siyār al-thughūr.** Lost 10th-c. work surviving only via
+  Ibn al-ʿAdīm (SRC-0057) — same lost-work pattern as al-Balkhī (SRC-0069). ATT-0495 (Ṭarsūs)
+  re-pointed SRC-0057 → SRC-0077 (MAJOR, source change), transmission via SRC-0057 preserved in the
+  citation. Patch: phase2_deferred_source_mint.patch.
+
+### Argued to STAY deferred (not minted speculatively — per instruction 5)
+
+- **Category (B) named tradent, unknown work — NOT mintable:** Abū ʿAmr al-Bāhilī (Ḥiṣn Manṣūr naming,
+  ATT-0378) and the Jawzāt garrison-roster source (ATT-0396). A named person credited with a
+  report but with no citable work of their own; nothing to mint. NB the Jawzāt qāḍī "Abū ʿAmr
+  al-Ṭarsūsī" may be the SRC-0077 author, but the roster's *own* source is still unnamed, so it stays (B).
+- **Bare co-mentions (Session 7) — NOT minted:** Stephanus of Byzantium (ATT-0494), Lucan, Dio
+  Chrysostom, Ammianus Marcellinus, Xenophon, Miskawayh. Named without a substantive datum; minting
+  a SourceRecord that nothing attests would create orphan sources. Held as notes until a substantive
+  use arises (the Theophylact SRC-0076 pre-emptive mint was a one-off you explicitly queued, and even
+  that is a flagged orphan — not a precedent to repeat here).
+
+### Flagged (not a source-mint, your call)
+
+- **Ibn ʿAtiyya's 903 count of Ṭarsūs** (34,000 dwellings in 2,000 streets) — ATT-0495 labels this a
+  "bare co-mention," but it is a *substantive* datum, transmitted via Ibn al-ʿAdīm (SRC-0057). It could
+  be captured as a rule-12 inline attestation against SRC-0057 (no new source needed) rather than
+  dropped. Small follow-up; flagged rather than done speculatively in this bounded batch.
+
+### Out of scope (separate backlog items, not source-minting)
+- Author-PersonEntity deferrals on SRC-0016..0076 (authors lacking PersonRecords) — a prosopography pass.
+- Phase-1 entity/coordinate/group-entity deferrals — the corpus-wide dedup + coordinate passes.
