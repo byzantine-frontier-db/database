@@ -1,8 +1,9 @@
 - record_type: source
   id: SRC-0079
-  standardised_title: Eger, A. Asa (2012), ceramic re-examination of Mutallip Höyük
+  standardised_title: 'Eger, A. Asa, The Spaces Between the Teeth (İstanbul: Ege Yayınları, 2012)'
   alternative_titles:
   - Eger 2012
+  - The Spaces Between the Teeth (2012 monograph)
   date_of_composition:
     start: 2012
     end: 2012
@@ -11,18 +12,22 @@
   language: en
   script: Latn
   genre: modern_monograph
-  edition_used: Eger 2012, pp. 151–53 — exact title/venue per Curtis’s research, pending confirmation.
-  reliability_assessment: Modern scholarship documenting the 2004 Mopsus Survey ceramics (Killebrew) and
-    Eger’s own 2012 re-examination of that material at Bilkent University; the source for positions 2
-    and 4 of the al-Muthaqqab ceramic dossier (INT-0174).
+  edition_used: 'İstanbul: Ege Yayınları, 2012.'
+  reliability_assessment: The published (2012) monograph version of Eger’s frontier gazetteer, The Spaces
+    Between the Teeth (Ege Yayınları). Source for the al-Muthaqqab ceramic dossier (positions 2 & 4, pp.
+    151-53) and the Zibaṭra coordinate confirmation (p. 200). Distinct from the 2015 interpretive monograph
+    SRC-0007 (I.B. Tauris).
   known_biases: ''
   dependencies: []
-  notes: 'Minted for the ceramic dossier (INT-0174). FLAG: verify whether "Eger 2012" is a distinct publication
-    or the same work as the 2015 monograph SRC-0007 (dated 2015) — if identical, merge. Bibliographic
-    details per Curtis’s research, pending confirmation. author_id outstanding.'
+  notes: 'Title/scope corrected 2026-07-15: this is the full 2012 monograph (Ege Yayınları), not solely
+    the ceramic re-examination as first minted. Distinct from SRC-0007 (2015, I.B. Tauris) — different
+    title, publisher, and scope (specialist gazetteer vs interpretive monograph). Forward-looking (not
+    asserted): Eger 2012 may be the published version of the SRC-0065 dissertation appendix — gazetteer
+    coordinates match across both (e.g. Zibaṭra) — but a page-by-page comparison is needed before adding
+    a dependency edge. Bibliographic details per Curtis’s research, pending printed confirmation.'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.0.0
+    record_version: 1.1.0
     created_at: '2026-07-15T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

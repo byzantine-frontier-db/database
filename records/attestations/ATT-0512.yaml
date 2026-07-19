@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0512
+  source: SRC-0079
+  entities_referenced:
+  - ENT-PLC-0007
+  provenance: modern_identification
+  citation: 'Eger, A. Asa, The Spaces Between the Teeth (İstanbul: Ege Yayınları, 2012), p. 200 (SRC-0079).'
+  paraphrase: Eger’s 2012 monograph gives the same Doğanşehir coordinate for Zibaṭra (38.0923, 37.8825)
+    as the 2008 dissertation gazetteer, confirming the identification across both published works.
+  confidence: 4
+  notes: 'Corroborates the coordinate adopted on ENT-PLC-0007 per INT-0172; the value is identical across
+    Eger 2008 (SRC-0065, p.551) and Eger 2012 (SRC-0079, p.200). [citation needed: printed confirmation
+    of p.200].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
