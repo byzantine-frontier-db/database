@@ -397,3 +397,20 @@ phase2post_zibatra_coord_adoption.patch (4 files, 1449 → 1450, validators 0/0)
 
 Remaining coordinate adoptions: Bālis (INT-0169), Malaṭya (INT-0170). Then Ṭaranda identification,
 Balādhurī dedup, author-prosopography.
+
+## Post-Phase-2 item C — Bālis coordinate adoption — DONE (2026-07-15)
+
+Adopted Eger's Meskene/Barbalissos point for ENT-PLC-0037 per INT-0169. Patch:
+phase2post_balis_coord_adoption.patch (3 files, 1450 → 1451, validators 0/0).
+
+- **ENT-PLC-0037** — coordinate replaced: editorial estimate (35.83, 38.27; 5000 m) → gazetteer
+  point (35.9884, 38.1095); method scholarly_identification → gazetteer_entry; radius 5000 → 500;
+  confidence 2 → 4; coordinate_source cites both publications (SRC-0065 pp.450–453 + SRC-0079 p.64)
+  and the UTM 37N conversion; note records the adoption and discharges the "verify against a
+  gazetteer" flag. **MAJOR bump 1.5.0 → 2.0.0; schema_version migrated 1.0.0 → 2.0.0 (Policy B).**
+- **ATT-0513** (new) — modern_identification corroboration against Eger 2012 (SRC-0079, p.64);
+  value identical across the 2008 gazetteer and the 2012 monograph. Wired to ENT-PLC-0037.
+- **INT-0169** — adoption-outcome note; PATCH 1.0.0 → 1.0.1; 22.8 km divergence closed.
+
+Coordinate adoptions remaining: **Malaṭya (INT-0170)** only. Then Ṭaranda identification,
+Balādhurī dedup, author-prosopography.
