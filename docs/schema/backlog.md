@@ -350,3 +350,30 @@ reduced to a single genuine target; the rest are argued-deferred below.
 ### Out of scope (separate backlog items, not source-minting)
 - Author-PersonEntity deferrals on SRC-0016..0076 (authors lacking PersonRecords) — a prosopography pass.
 - Phase-1 entity/coordinate/group-entity deferrals — the corpus-wide dedup + coordinate passes.
+
+## Post-Phase-2 item A — Al-Muthaqqab ceramic dossier — DONE (2026-07-15)
+
+Reframed the ceramic question from a two-position dispute into a four-position dossier (1991–2012)
+held as scholarly disagreement (INT-0174), per governance (silent reconciliation prohibited).
+Patch: phase2post_muthaqqab_ceramic_dossier.patch (8 files, 1443 → 1449, validators 0/0).
+
+- **INT-0174** — the four positions, each attributed: (1) 1991 Özgen & Gates survey, Early Islamic
+  pottery, via Eger 2010 BASOR (ATT-0509); (2) 2004 Mopsus Survey/Killebrew, small handful E+M
+  Islamic, via Eger 2012 (ATT-0510); (3) Eger's 2005 autopsy, Early Islamic wares (OBS-0247/ATT-0440);
+  (4) Eger's 2012 Bilkent re-examination, no Early Islamic pottery (ATT-0511). supporting_evidence is
+  ATT-only (rule 9). The 2005→2012 reversal by Eger himself is the crux. confidence 2 (unresolved).
+- **ENT-PLC-0124** — analytical_summary softened to acknowledge the dispute and reference INT-0174;
+  the old "no definitive Early Islamic pieces" claim removed; 3 ATTs + INT-0174 wired; MINOR → 1.4.0.
+- **OBS-0247** — note added recording Eger's 2012 revision (Eger 2012 pp. 151-52); PATCH → 1.0.1.
+
+### Source decisions (argued)
+- **MINTED SRC-0078 (Eger 2010 BASOR)** — distinct citable Eger publication; the source for position 1
+  and Eger's Mutallip Höyük remarks. genre archaeological_publication.
+- **MINTED SRC-0079 (Eger 2012)** — the source for positions 2 and 4 (doubly cited, pp. 151-53).
+  genre modern_monograph. **FLAG: confirm whether "Eger 2012" is distinct from the 2015 monograph
+  SRC-0007 (dated 2015) — if the same work, merge SRC-0079 into SRC-0007.**
+- **Özgen & Gates 1992 — NOT minted (deferred).** The 1991 survey datum reaches the corpus only via
+  Eger 2010 BASOR and is cited nowhere else; attested against SRC-0078 with the surveyors credited
+  (rule 4). Mint only if it recurs independently.
+- Bibliographic details of SRC-0078/0079 (exact titles, volumes, pages) are per Curtis's research
+  (2026-07), editorial_review_required, pending printed confirmation.
