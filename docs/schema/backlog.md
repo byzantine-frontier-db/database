@@ -433,3 +433,24 @@ phase2post_malatya_coord_adoption.patch (3 files, 1451 → 1452, validators 0/0)
 **All three coordinate adoptions (Zibaṭra, Bālis, Malaṭya) are now closed.** Remaining post-Phase-2
 items: Ṭaranda Darende/Gürün identification, Balādhurī dedup pass, author-prosopography pass,
 page-number restoration (+ Tīzīn/Zibaṭra p.551 parser fix).
+
+## Post-Phase-2 item E — Ṭaranda identification (CORRECTION) — DONE (2026-07-15)
+
+Corrected a Phase-1 MISREADING (not an adoption of a disputed alternative). Patch:
+phase2post_taranda_identification.patch (3 files, 1452 → 1453, validators 0/0).
+
+- **ENT-PLC-0080** — identification_status probably_identified → **identified**; identification_confidence
+  3 → 4 (scholarly on-site identification, consistent across Eger 2008/2012/2015). Coordinate refined to
+  the Darende point (38.5713, 37.4879), coordinate_confidence 3 → 4, coordinate_source dual-cited
+  (SRC-0065 p.537 + SRC-0079 p.183 + conversion). analytical_summary adds the Darende identification.
+  Notes rewritten to explain the correction, quoting Eger 2015 p.107 verbatim and showing that it lists
+  Ṭaranda and Gürün as two route waypoints, not an identification (the missing comma made it read as an
+  appositive). **MAJOR bump 1.1.0 → 2.0.0** (sv already 2.0.0).
+- **ATT-0515** (new) — Eger 2015 p.107 route context; provenance modern_synthesis, source SRC-0007;
+  attests the route geography while keeping it explicitly distinct from the identification claim.
+- **ATT-0488** — the Session-7 "tension NOT reconciled" note updated to point at the correction; PATCH 1.0.1.
+- No Phase-1 InterpretationRecord existed for the Gürün reading (it lived only in the entity + ATT-0488
+  notes), so none required retraction — the reasoning is preserved in the notes, not silently overwritten.
+
+Remaining post-Phase-2 items: Balādhurī dedup pass, author-prosopography pass, page-number restoration
+(+ Tīzīn/Zibaṭra p.551 parser fix).
