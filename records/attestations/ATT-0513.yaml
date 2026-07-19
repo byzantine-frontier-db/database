@@ -1,0 +1,20 @@
+- record_type: attestation
+  id: ATT-0513
+  source: SRC-0079
+  entities_referenced:
+  - ENT-PLC-0037
+  provenance: modern_identification
+  citation: 'Eger, A. Asa, The Spaces Between the Teeth (İstanbul: Ege Yayınları, 2012), p. 64 (SRC-0079).'
+  paraphrase: Eger’s 2012 monograph gives the same coordinate for Bālis (Meskene / Barbalissos; 35.9884,
+    38.1095) as the 2008 dissertation gazetteer, confirming the identification across both published works.
+  confidence: 4
+  notes: 'Corroborates the coordinate adopted on ENT-PLC-0037 per INT-0169; the value (UTM 37N N3983024
+    E419730) is identical across Eger 2008 (SRC-0065, pp.450–453) and Eger 2012 (SRC-0079, p.64). [citation
+    needed: printed confirmation of p.64].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
