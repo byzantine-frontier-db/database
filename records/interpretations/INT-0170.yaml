@@ -12,11 +12,10 @@
   supporting_evidence:
   - ATT-0410
   confidence: 2
-  notes: 'Coordinate-divergence interpretation (backlog item). Entity coordinate NOT changed; adoption
-    decision (MAJOR) left to Curtis. Parallel case: Bālis, INT-0169.'
+  notes: 'Coordinate-divergence interpretation (backlog item). Entity coordinate NOT changed; adoption decision (MAJOR) left to Curtis. Parallel case: Bālis, INT-0169. ADOPTED (2026-07-15): Eger’s point was adopted as ENT-PLC-0016’s coordinate (MAJOR bump to 2.0.0, radius 8000→500, confidence 4). The value is confirmed identical across Eger 2008 (SRC-0065, pp.487–492) and the Eger 2012 monograph (SRC-0079, p.127; corroborating ATT-0514). The 9.84 km divergence is closed; because both points lie within the extent of Battalgazi / Eski Malatya, the change is primarily a precision gain rather than a substantive re-identification.'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-07-13T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

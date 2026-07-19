@@ -1,0 +1,22 @@
+- record_type: attestation
+  id: ATT-0514
+  source: SRC-0079
+  entities_referenced:
+  - ENT-PLC-0016
+  provenance: modern_identification
+  citation: 'Eger, A. Asa, The Spaces Between the Teeth (İstanbul: Ege Yayınları, 2012), p. 127 (SRC-0079).'
+  paraphrase: Eger’s 2012 monograph gives the same coordinate for Malaṭya (Battalgazi / Eski Malatya;
+    38.4217, 38.3661) as the 2008 dissertation gazetteer, confirming the location across both published
+    works.
+  confidence: 4
+  notes: 'Corroborates the coordinate adopted on ENT-PLC-0016 per INT-0170; the value (UTM 37N N4252799
+    E444661) is identical across Eger 2008 (SRC-0065, pp.487–492) and Eger 2012 (SRC-0079, p.127). The
+    9.84 km shift from the prior point is a precision gain within the Battalgazi footprint, not a re-identification.
+    [citation needed: printed confirmation of p.127].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
