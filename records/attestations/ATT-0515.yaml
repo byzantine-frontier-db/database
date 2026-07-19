@@ -1,0 +1,23 @@
+- record_type: attestation
+  id: ATT-0515
+  source: SRC-0007
+  entities_referenced:
+  - ENT-PLC-0080
+  provenance: modern_synthesis
+  citation: Eger, A. Asa, The Islamic-Byzantine Frontier (I.B. Tauris, 2015), p. 107 (SRC-0007).
+  paraphrase: Eger describes the west-going route from Malatiya to Byzantine lands as traversing the Mazikiran
+    Pass and passing two distinct waypoints in the Taurus foothills — Ṭaranda and modern Gürün — en route
+    to Qaysariya.
+  confidence: 4
+  notes: 'Route-geography claim, NOT an identification: the p. 107 passage lists Ṭaranda and Gürün as
+    separate waypoints ("at [X] and [Y] in the foothills"), not Ṭaranda = Gürün. This passage was the
+    source of the corrected Phase-1 Gürün misreading (see ENT-PLC-0080 notes); attested here to record
+    what Eger 2015 actually says while keeping route context distinct from the Darende identification.
+    [citation needed: printed confirmation of p. 107].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
