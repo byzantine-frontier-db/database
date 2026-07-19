@@ -377,3 +377,23 @@ Patch: phase2post_muthaqqab_ceramic_dossier.patch (8 files, 1443 → 1449, valid
   (rule 4). Mint only if it recurs independently.
 - Bibliographic details of SRC-0078/0079 (exact titles, volumes, pages) are per Curtis's research
   (2026-07), editorial_review_required, pending printed confirmation.
+
+## Post-Phase-2 item B — Zibaṭra coordinate adoption — DONE (2026-07-15)
+
+Adopted Eger's Doğanşehir point for ENT-PLC-0007 per INT-0172. Patch:
+phase2post_zibatra_coord_adoption.patch (4 files, 1449 → 1450, validators 0/0).
+
+- **ENT-PLC-0007** — coordinate replaced: TIB 2 (37.96, 38.20; 15 km) → Doğanşehir
+  (38.0923, 37.8825); method scholarly_identification → gazetteer_entry; radius 15000 → 500;
+  confidence 3 → 4; coordinate_source records both publications (SRC-0065 p.551 + SRC-0079 p.200)
+  and the UTM 37N conversion; MAJOR bump 1.4.0 → 2.0.0; note references the INT-0172 adoption.
+- **ATT-0512** (new) — modern_identification corroboration against Eger 2012 (SRC-0079, p.200);
+  the value is identical across the 2008 gazetteer and the 2012 monograph. Wired to ENT-PLC-0007.
+- **INT-0172** — adoption-outcome note; PATCH 1.0.0 → 1.0.1.
+- **SRC-0079** — title/scope broadened from "ceramic re-examination" to the full 2012 monograph
+  (The Spaces Between the Teeth, İstanbul: Ege Yayınları, 2012), confirmed distinct from SRC-0007
+  (2015, I.B. Tauris); MINOR 1.0.0 → 1.1.0. Carries a forward-looking (unasserted) note that Eger
+  2012 may be the published version of the SRC-0065 appendix, pending a page-by-page comparison.
+
+Remaining coordinate adoptions: Bālis (INT-0169), Malaṭya (INT-0170). Then Ṭaranda identification,
+Balādhurī dedup, author-prosopography.
