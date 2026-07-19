@@ -1,0 +1,29 @@
+- record_type: source
+  id: SRC-0079
+  standardised_title: Eger, A. Asa (2012), ceramic re-examination of Mutallip Höyük
+  alternative_titles:
+  - Eger 2012
+  date_of_composition:
+    start: 2012
+    end: 2012
+    precision: year
+    confidence: 5
+  language: en
+  script: Latn
+  genre: modern_monograph
+  edition_used: Eger 2012, pp. 151–53 — exact title/venue per Curtis’s research, pending confirmation.
+  reliability_assessment: Modern scholarship documenting the 2004 Mopsus Survey ceramics (Killebrew) and
+    Eger’s own 2012 re-examination of that material at Bilkent University; the source for positions 2
+    and 4 of the al-Muthaqqab ceramic dossier (INT-0174).
+  known_biases: ''
+  dependencies: []
+  notes: 'Minted for the ceramic dossier (INT-0174). FLAG: verify whether "Eger 2012" is a distinct publication
+    or the same work as the 2015 monograph SRC-0007 (dated 2015) — if identical, merge. Bibliographic
+    details per Curtis’s research, pending confirmation. author_id outstanding.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

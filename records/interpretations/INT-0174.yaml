@@ -1,0 +1,33 @@
+- record_type: interpretation
+  id: INT-0174
+  associated_entities:
+  - ENT-PLC-0124
+  scholar: A. Asa Eger
+  publication: Eger 2012 (ceramic re-examination), synthesising the 1991 Özgen & Gates survey, the 2004
+    Mopsus Survey, and his 2005 autopsy
+  publication_source_id: SRC-0079
+  date: 2012
+  argument: The Early Islamic ceramic signature at Mutallip Höyük (al-Muthaqqab) is disputed across four
+    examinations, 1991–2012. (1) The 1991 Özgen & Gates survey reported a fair amount of Early Islamic
+    pottery (relayed in Eger 2010 BASOR, p. 51; ATT-0509). (2) The 2004 Mopsus Survey (Killebrew) recovered
+    a small handful of Early and Middle Islamic wares alongside Roman/Late Roman material (Eger 2012,
+    p. 153; ATT-0510). (3) Eger’s 2005 autopsy of the Mopsus baskets found Early Islamic wares (OBS-0247
+    via ATT-0440). (4) Eger’s 2012 re-examination of the same material at Bilkent found no Early Islamic
+    pottery (Eger 2012, pp. 151–52; ATT-0511), reversing his own earlier reading. The disagreement — including
+    Eger’s change of position between 2005 and 2012 — is preserved, not resolved; it bears directly on
+    whether al-Muthaqqab’s Early Islamic occupation is archaeologically attested.
+  supporting_evidence:
+  - ATT-0509
+  - ATT-0510
+  - ATT-0440
+  - ATT-0511
+  confidence: 2
+  notes: Four-position ceramic dossier held as scholarly disagreement (silent reconciliation prohibited).
+    Bibliographic details of SRC-0078/SRC-0079 per Curtis’s research, pending printed confirmation.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

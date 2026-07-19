@@ -5,10 +5,13 @@
   identification_status: probably_identified
   identification_confidence: 3
   overall_confidence: 3
-  analytical_summary: A small coastal thughūr settlement at the north of the Bay of
+  analytical_summary: 'A small coastal thughūr settlement at the north of the Bay of
     Iskenderun, likely identified with the harbour tell of Mutallip Höyük. Built in
-    the Umayyad period under ʿUmar II or Hishām. Ceramics show Late Roman and Middle
-    Islamic but no definitive Early Islamic pieces (site obscured by industrial development).
+    the Umayyad period under ʿUmar II or Hishām. The evidence for Early Islamic occupation
+    is contested across four ceramic examinations 1991–2012 (see INT-0174): the 1991 Özgen
+    & Gates survey and Eger''s 2005 autopsy of the Mopsus material reported Early Islamic
+    wares, whereas Eger''s 2012 re-examination found none. Late Roman and Middle Islamic
+    material is consistently present; the site is obscured by industrial development.'
   linked_attestations:
   - ATT-0196
   - ATT-0203
@@ -23,6 +26,11 @@
   - ATT-0450
   - ATT-0451
   - ATT-0480
+  - ATT-0509
+  - ATT-0510
+  - ATT-0511
+  linked_interpretations:
+  - INT-0174
   coordinates:
     latitude: 36.91997
     longitude: 35.98208
@@ -37,13 +45,12 @@
   notes: 'Coordinate added Session 5 (Phase 2) from Eger 2008 (SRC-0065), Appendix 2,
     s.v. Al-Muthaqqab, pp. 510–512. Eger attempted a visit 20 Jul 2005 (viewed from the
     factory gate; Section-4 autopsy ATT-0440 -> OBS-0247), resolving the master-prompt
-    p513 §4-attribution question in favour of this entity (not Qūrus). DISCREPANCY (not
-    reconciled): this analytical_summary states ''no definitive Early Islamic pieces'',
-    but Eger''s 2005 examination of the Mopsus Survey ceramics reports Early Islamic wares
-    (see OBS-0247); summary left unchanged pending editorial review.'
+    p513 §4-attribution question in favour of this entity (not Qūrus). The Early Islamic ceramic
+    question is now held as a four-position dossier (1991–2012) in INT-0174 rather than a
+    silent summary claim; the analytical_summary was softened accordingly (2026-07-15).'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.3.0
+    record_version: 1.4.0
     created_at: '2026-06-17T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

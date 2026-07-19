@@ -1,0 +1,29 @@
+- record_type: source
+  id: SRC-0078
+  standardised_title: Eger, A. Asa, Ḥiṣn al-Tīnāt (BASOR article, 2010)
+  alternative_titles:
+  - Eger 2010 BASOR
+  date_of_composition:
+    start: 2010
+    end: 2010
+    precision: year
+    confidence: 5
+  language: en
+  script: Latn
+  genre: archaeological_publication
+  edition_used: BASOR (Bulletin of the American Schools of Oriental Research), 2010 — exact volume/pages
+    per Curtis’s research, pending confirmation.
+  reliability_assessment: Modern peer-reviewed scholarship. Relays the 1991 Özgen & Gates survey of Mutallip
+    Höyük (a fair amount of Early Islamic pottery) and carries Eger’s own remarks on the tell; the earliest
+    position in the al-Muthaqqab ceramic dossier (INT-0174).
+  known_biases: ''
+  dependencies: []
+  notes: Minted for the al-Muthaqqab ceramic dossier (INT-0174). Bibliographic details (exact title/volume/pages)
+    per Curtis’s research (2026-07), pending printed confirmation. author_id outstanding.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

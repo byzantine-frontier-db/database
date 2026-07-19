@@ -1,0 +1,19 @@
+- record_type: attestation
+  id: ATT-0510
+  source: SRC-0079
+  entities_referenced:
+  - ENT-PLC-0124
+  provenance: archaeological_evidence
+  citation: Eger, A. Asa (2012), p. 153 (SRC-0079), reporting the 2004 Mopsus Survey (Killebrew).
+  paraphrase: The 2004 Mopsus Survey (Killebrew) recovered a small handful of Early and Middle Islamic
+    wares at Mutallip Höyük alongside Roman and Late Roman material.
+  confidence: 3
+  notes: 'Position 2 of the ceramic dossier (INT-0174). Survey directed by Killebrew, relayed via Eger
+    2012; Killebrew credited per rule 4. [citation needed: exact page].'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
