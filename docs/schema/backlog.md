@@ -414,3 +414,22 @@ phase2post_balis_coord_adoption.patch (3 files, 1450 → 1451, validators 0/0).
 
 Coordinate adoptions remaining: **Malaṭya (INT-0170)** only. Then Ṭaranda identification,
 Balādhurī dedup, author-prosopography.
+
+## Post-Phase-2 item D — Malaṭya coordinate adoption — DONE (2026-07-15)
+
+Adopted Eger's Battalgazi/Eski Malatya point for ENT-PLC-0016 per INT-0170. Patch:
+phase2post_malatya_coord_adoption.patch (3 files, 1451 → 1452, validators 0/0).
+
+- **ENT-PLC-0016** — coordinate replaced: modern-map point (38.35, 38.30; 8 km) → gazetteer point
+  (38.4217, 38.3661); method modern_map → gazetteer_entry; radius 8000 → 500; confidence 4 (unchanged
+  — neither point is strictly wrong within the settlement footprint); coordinate_source cites both
+  publications (SRC-0065 pp.487–492 + SRC-0079 p.127), the conversion, and the precision-gain rationale.
+  **MAJOR bump 1.10.0 → 2.0.0** (schema_version already 2.0.0 — migration was a no-op).
+- **ATT-0514** (new) — modern_identification corroboration against Eger 2012 (SRC-0079, p.127);
+  value identical across both publications; the 9.84 km shift noted as precision within Battalgazi.
+- **INT-0170** — adoption-outcome note; PATCH 1.0.0 → 1.0.1; divergence closed, precision gain not
+  re-identification.
+
+**All three coordinate adoptions (Zibaṭra, Bālis, Malaṭya) are now closed.** Remaining post-Phase-2
+items: Ṭaranda Darende/Gürün identification, Balādhurī dedup pass, author-prosopography pass,
+page-number restoration (+ Tīzīn/Zibaṭra p.551 parser fix).
