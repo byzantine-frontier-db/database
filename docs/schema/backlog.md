@@ -454,3 +454,52 @@ phase2post_taranda_identification.patch (3 files, 1452 → 1453, validators 0/0)
 
 Remaining post-Phase-2 items: Balādhurī dedup pass, author-prosopography pass, page-number restoration
 (+ Tīzīn/Zibaṭra p.551 parser fix).
+
+## Post-Phase-2 item F — Balādhurī / primary-source dedup — CLOSED (2026-07-15)
+
+Read-only scoping + intra-Phase-1 micro-sweep (reports: dedup_scoping_report.md,
+dedup_microsweep_report.md). **Finding: the corpus does not need dedup work.** Of 203 (entity, source)
+pairs with ≥2 attestations, only 11 were true Phase-1/Phase-2 overlap candidates, and on inspection
+they carry *different data* from the same primary surfaced via two Eger works (P1 via Eger 2015's
+thematic lists; P2 via the Eger 2008 site gazetteer). Deep-dive classification: **0 redundant,
+~5 complementary, the rest independent.** The micro-sweep (al-Ṭabarī ×20, non-split Balādhurī groups)
+confirmed all independent/complementary — no hidden redundancy.
+
+- **Correct outcome is retain-both.** Rule-3 evidential separation captured the *right granularity*:
+  each citation was attested at the level of the individual datum, so one source carries many
+  non-overlapping attestations per entity by design — duplication was structurally prevented.
+- **~5 complementary pairs** available for OPTIONAL reciprocal cross-reference notes (not required):
+  Sumaysāṭ/Ibn Ḥawqal (ATT-0127 list / ATT-0470 description); al-Jūma/Ibn Khurradādhbih (ATT-0124
+  list / ATT-0397 location); Malaṭya/Balādhurī (ATT-0152 / ATT-0299 settlement — the only near-merge);
+  Balis canal (ATT-0243 petition / ATT-0097 construction); Zuṭṭ (ATT-0322 origin / ATT-0323 settlement).
+- **True merges: ~0–1** (only the ATT-0152/0299 pair is even a consolidation candidate). Never merge
+  across a transmission boundary — "via Eger 2008" vs "via Eger 2015" is provenance worth keeping.
+- The Session-4 (Malaṭiya) and Session-5 (Al-Maṣṣīṣa) overlap flags are formally resolved: on
+  inspection the flagged attestations carry different data (conquest vs settlement; rebuild vs
+  resettlement), so no reconciliation was needed.
+
+## Post-Phase-2 item G — rule-8 back-fill + validator addition — OPEN (surfaced by the F micro-sweep)
+
+The micro-sweep surfaced a contiguous Phase-1 block of **22 attestations, ATT-0218 – ATT-0239**, whose
+evidential claim sits in `notes` with **null `paraphrase` and null `direct_quotation`** — a rule-8
+placement violation (the claim belongs in the evidential field; `notes` is metadata). Invisible to the
+current validators because the schema leaves `paraphrase` nullable. Split: **15 `primary_paraphrase`
+/ 7 `modern_synthesis`**. Examples: ATT-0223 (Ṭabarī, Dawrīn estate), ATT-0236 (Balādhurī, ʿIyāḍ b.
+Ghanm leaving Raqqa's farmers).
+
+Two parts:
+1. **Back-fill (~1–2 h, one patch, PATCH bumps):** for each of the 22, move the asserted datum from
+   `notes` into `paraphrase` (or `direct_quotation` where a quotation), leaving genuine editorial
+   metadata in `notes`. Per-record judgment — separate the claim from any aside; content relocation,
+   not a claim change.
+2. **Validator addition:** require a non-empty `paraphrase` OR `direct_quotation` for any attestation
+   whose provenance is `primary_paraphrase`, `primary_quotation`, `primary_observation`, or
+   `modern_synthesis`. Converts the silent rule-8 convention into an enforced check so the class can't
+   recur. (Confirm the exact provenance set against the ProvenanceCategory enum before wiring.)
+
+Recommended lead: Item G before the optional F cross-refs — higher value, and the validator rule has
+lasting benefit beyond the 22 records.
+
+Meta (standing practice): the F micro-sweep found a more valuable issue (Item G) than the dedup task it
+was scoping — evidence for scoping-before-execution as a default, since a read-only sweep surfaces
+unknowns the execution plan wouldn't.
