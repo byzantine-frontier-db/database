@@ -10,13 +10,14 @@
   - OBS-0168
   provenance: primary_paraphrase
   citation: Theodota of Amida, Life, §85 (and §127), via Eger 2015 pp.208-9 (n.22)
+  paraphrase: An officer, Sargis, was sent by the qāʾid of Sumaysāṭ to collect kharāj
+    and jizya at Dayr Mār Sarjiyūs al-ʿArīḍ near Ḥiṣn Qalawdhiya; §127 records a monastery
+    exempted from jizya.
   confidence: 4
-  notes: Officer Sargis sent by the qāʾid of Sumaysāṭ to collect kharāj and jizya
-    at Dayr Mār Sarjiyūs al-ʿArīḍ near Hisn Qalawdhiya; §127 a monastery exempted
-    from jizya.
+  notes: Theodota Life §85, with §127 (monastery jizya exemption).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

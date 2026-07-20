@@ -11,14 +11,16 @@
   provenance: modern_synthesis
   citation: Eger 2015 p.211, synthesising H. Kennedy, 'Elite incomes in the Early
     Islamic state', p.143, and Kātbi, Islamic Land Tax, pp.239-40, 249
+  paraphrase: Maslama built and paid for a canal at Bālis irrigating its villages
+    from the Euphrates; the qaṭīʿa eventually passed to his son al-Maʾmūn.
   confidence: 3
-  notes: 'Maslama built/paid for a canal at Bālis irrigating its villages from the
-    Euphrates; the qaṭīʿa eventually passed to his son al-Maʾmūn. CRITICAL DISAMBIGUATION:
-    this al-Maʾmūn is a son of Maslama, NOT the caliph al-Maʾmūn (ENT-PERS-0039);
-    the two must not be conflated. The son is deferred as a person-entity this session.'
+  notes: 'Eger 2015 p.211, synthesising H. Kennedy, ''Elite incomes in the Early Islamic
+    state'', p.14. CRITICAL DISAMBIGUATION: this al-Maʾmūn is a son of Maslama, NOT
+    the caliph al-Maʾmūn (ENT-PERS-0039); the two must not be conflated. The son is
+    deferred as a person-entity this session.'
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

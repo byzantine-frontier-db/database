@@ -12,13 +12,15 @@
   provenance: modern_synthesis
   citation: Eger 2015 pp.208-9, synthesising Ur, Karsgaard & Oates, 'The Spatial Dimensions
     of Early Mesopotamian Urbanism', p.16
+  paraphrase: A qanat runs parallel to the Nahr Quwayq (Tell Hailane to Ḥalab); canals
+    and a qanat are attested at Dibsi Faraj; Tell Brak canal features are datable
+    to the 8th-10th c. via an associated fortified enclosure/way station.
   confidence: 3
-  notes: Qanat parallel to the Nahr Quwayq (Tell Hailane to Halab); canals and a qanat
-    at Dibsi Faraj; Tell Brak canal features datable 8th-10th c. via an associated
-    fortified enclosure/way station.
+  notes: Eger 2015 pp.208-9, synthesising Ur, Karsgaard & Oates, 'The Spatial Dimensions
+    of Early Mesopotamian Urbanism'.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

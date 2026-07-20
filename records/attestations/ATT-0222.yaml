@@ -10,13 +10,13 @@
   provenance: primary_paraphrase
   citation: Agapius of Manbij, Kitāb al-ʿUnwān, with the Chronicle of 1234, via Hoyland,
     Theophilus of Edessa's Chronicle, pp. 258-9
+  paraphrase: Agapius (d.941/2) and the Chronicle of 1234 mention Marwān II's destruction
+    of Hishām's Euphrates estates, indirectly attesting caliphal lands.
   confidence: 3
-  notes: Via Eger 2015 p.212 (n.37). Agapius (d.941/2) and the Chronicle of 1234 (SRC-0046)
-    mention Marwān II's destruction of Hishām's Euphrates estates, indirectly attesting
-    caliphal lands.
+  notes: Via Eger 2015 p.212 (n.37). Cf. SRC-0046 (Chronicle of 1234).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

@@ -13,12 +13,14 @@
   citation: 'Eger 2015 p.211, synthesising Toueir, ''Le Nahr el-Nil'', p.218; Heidemann;
     and Challis et al., CORONA imagery, pp.148-9 [citation needed: full Toueir & Challis
     citations]'
+  paraphrase: The Nahr al-Nīl at Raqqa is a c.12 m wide feeder canal functioning as
+    moat/khandaq, with a qanat feeding the northern palaces; traced via remote sensing.
   confidence: 3
-  notes: 'The Nahr al-Nīl at Raqqa: a c.12 m wide feeder canal functioning as moat/khandaq,
-    with a qanat feeding the northern palaces; traced via remote sensing.'
+  notes: Eger 2015 p.211, synthesising Toueir, 'Le Nahr el-Nil', p.218; Heidemann;
+    and Challis et al.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

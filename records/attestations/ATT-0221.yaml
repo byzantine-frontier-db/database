@@ -9,12 +9,13 @@
   provenance: primary_paraphrase
   citation: Chronicle of 1234 (anonymous), via Hoyland, Theophilus of Edessa's Chronicle,
     pp. 223-4
+  paraphrase: The anonymous author of the Chronicle of 1234 states that Hishām used
+    'free and forced labour' on the canals.
   confidence: 3
-  notes: 'Via Eger 2015 p.212 (n.42): the anonymous author states Hishām used ''free
-    and forced labour'' on the canals.'
+  notes: Via Eger 2015 p.212 (n.42).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-19T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
