@@ -276,6 +276,7 @@ def cli_main():
                         f"(loaded: {sorted(k for k in schemas)})")]
             else:
                 errs = v.validate(rec)
+            errs = errs + rule8_claim_present(rec)
             if errs:
                 file_errors += len(errs)
                 rec_id = rec.get("id", f"<record {i}>") if isinstance(rec, dict) else f"<record {i}>"
@@ -293,6 +294,24 @@ def cli_main():
     print(f"Files with errors: {files_with_errors} / {len(files)}")
     print(f"Total errors:      {total_errors}")
     sys.exit(0 if total_errors == 0 else 1)
+
+
+
+# --- Rule 8: the evidential claim must live in paraphrase/direct_quotation, not only in notes ---
+# Universal form: every attestation must carry a non-empty paraphrase OR direct_quotation.
+def rule8_claim_present(rec):
+    errors = []
+    if not isinstance(rec, dict) or rec.get("record_type") != "attestation":
+        return errors
+    para = (rec.get("paraphrase") or "").strip()
+    dq = (rec.get("direct_quotation") or "").strip()
+    if not para and not dq:
+        errors.append(ValidationError(
+            ["paraphrase"],
+            f"rule 8: attestation {rec.get('id', '?')} (provenance "
+            f"{rec.get('provenance')!r}) has empty 'paraphrase' and 'direct_quotation'; "
+            f"the evidential claim must not live only in 'notes'"))
+    return errors
 
 
 if __name__ == "__main__":
