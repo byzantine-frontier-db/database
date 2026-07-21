@@ -17,10 +17,13 @@
     ('Little Balis'), Qasirīn, ʿAbidīn, and Ṣiffīn.
   location_within_source: Balādhurī, Futūḥ al-buldān, p. 205
   notes: Primary content reached via Eger 2015 (secondary route); cross-links to the
-    existing source SRC-0016 (al-Balādhurī).
+    existing source SRC-0016 (al-Balādhurī). Complements ATT-0243 (al-Balādhurī on
+    the villagers' petition to Maslama to build the canal). Both share the source
+    and event; retained as distinct because this records the construction while ATT-0243
+    records the petition.
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-14T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

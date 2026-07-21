@@ -27,11 +27,13 @@
   notes: al-Balādhurī (per Eger's note) records the animals were brought to counter
     a lion menace. al-Walīd I's importation and Yazīd II's transfer not given dedicated
     EventEntities; captured here and anchored to participants/places. al-Muhallab
-    deferred.
+    deferred. Complements ATT-0322 (al-Balādhurī on the Indian/Sindī origin of the
+    Zuṭṭ, Sayābija and Andaghar). Both share the source and subject; retained as distinct
+    because this records their settlement while ATT-0322 records their origin.
   editorial_review_required: true
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-21T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

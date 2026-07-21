@@ -21,10 +21,13 @@
   confidence: 4
   notes: Reached via Eger 2015, p. 284 (fn 14). Re-attests existing event ENT-EVT-0035
     (al-Manṣūr's settlement of 4,000 soldiers at Malaṭya) and links the thughūr-division
-    divisions ENT-PLC-0018/0019.
+    divisions ENT-PLC-0018/0019. Complements ATT-0152 (al-Balādhurī's paraphrase placing
+    Malatiya among the Jaziran-settled frontier towns). Both share the source and
+    event; retained as distinct because ATT-0152 is the general paraphrase while this
+    is the specific quotation (4,000 fighters).
   metadata:
     schema_version: 1.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-06-21T00:00:00Z'
     created_by: Curtis
     workflow_state: draft

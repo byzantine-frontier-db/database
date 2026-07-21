@@ -4,18 +4,21 @@
   entities_referenced:
   - ENT-PLC-0072
   provenance: primary_paraphrase
-  citation: Ibn Khurradādhbih, Kitāb al-Masālik wa-l-Mamālik (SRC-0010); reached via Eger
-    2008, Appendix 2, s.v. Al-Jūma, p. 479 (SRC-0065).
-  paraphrase: Ibn Khurradādhbih lists al-Jūma among the ʿawāṣim, placing it on a hill overlooking
-    the Amuq to the south-east and south of Qūrus, which would set it in modern Syria; very
-    little else is known of it.
+  citation: Ibn Khurradādhbih, Kitāb al-Masālik wa-l-Mamālik (SRC-0010); reached via
+    Eger 2008, Appendix 2, s.v. Al-Jūma, p. 479 (SRC-0065).
+  paraphrase: Ibn Khurradādhbih lists al-Jūma among the ʿawāṣim, placing it on a hill
+    overlooking the Amuq to the south-east and south of Qūrus, which would set it
+    in modern Syria; very little else is known of it.
   confidence: 3
-  notes: 'Section-1/2 secondary-mediated primary attestation; the whole entry is a single
-    locational notice. Non-visited, unidentified site, no coordinate in the gazetteer — none
-    added. [citation needed: confirm the Masālik entry.]'
+  notes: 'Section-1/2 secondary-mediated primary attestation; the whole entry is a
+    single locational notice. Non-visited, unidentified site, no coordinate in the
+    gazetteer — none added. [citation needed: confirm the Masālik entry.] Complements
+    ATT-0124 (Ibn Khurradādhbih''s ʿawāṣim list naming al-Jūma among five Ḥalab-region
+    towns, via Eger 2015 p.96). Both share the source; retained as distinct because
+    ATT-0124 is list-membership while this carries the specific location.'
   metadata:
     schema_version: 2.0.0
-    record_version: 1.0.0
+    record_version: 1.0.1
     created_at: '2026-07-07T00:00:00Z'
     created_by: Curtis
     workflow_state: draft
