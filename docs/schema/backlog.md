@@ -468,7 +468,8 @@ confirmed all independent/complementary — no hidden redundancy.
 - **Correct outcome is retain-both.** Rule-3 evidential separation captured the *right granularity*:
   each citation was attested at the level of the individual datum, so one source carries many
   non-overlapping attestations per entity by design — duplication was structurally prevented.
-- **~5 complementary pairs** available for OPTIONAL reciprocal cross-reference notes (not required):
+- **~5 complementary pairs** — reciprocal cross-reference notes ADDED 2026-07-15 (patch
+  phase2post_F_crossrefs.patch, 10 records, PATCH bumps, no sv migration, validators 0/0):
   Sumaysāṭ/Ibn Ḥawqal (ATT-0127 list / ATT-0470 description); al-Jūma/Ibn Khurradādhbih (ATT-0124
   list / ATT-0397 location); Malaṭya/Balādhurī (ATT-0152 / ATT-0299 settlement — the only near-merge);
   Balis canal (ATT-0243 petition / ATT-0097 construction); Zuṭṭ (ATT-0322 origin / ATT-0323 settlement).
@@ -534,7 +535,22 @@ granularity, zero real cost). Standing effect: the universal rule-8 check now bl
 claimless attestation at validation time — a silent convention converted into an enforced invariant.
 
 **Remaining post-Phase-2 items:**
-- Optional Item F cross-reference notes on ~5 complementary pairs (low value, opportunistic).
 - Author-PersonEntity prosopography pass (authors of SRC-0016..0079 lacking PersonRecords).
 - Page-number restoration (standing); Tīzīn/Zibaṭra p.551 page-map conflation parser fix; Marʿash
   "Mar‘" header de-truncation on next normalize run.
+
+## Post-Phase-2 item F cross-references — DONE (2026-07-15)
+
+Executed the retain-both cross-reference notes for the 5 complementary pairs identified in the F
+scoping + micro-sweep (patch phase2post_F_crossrefs.patch, 10 records, validators 0/0, no records
+added/deleted/de-linked). Each attestation gained a reciprocal note naming its complement, the facet
+it carries, and why the two are distinct rather than duplicate:
+- ATT-0127 ↔ ATT-0470 (Ibn Ḥawqal, Sumaysāṭ): list-mention ↔ description
+- ATT-0124 ↔ ATT-0397 (Ibn Khurradādhbih, al-Jūma): ʿawāṣim list-membership ↔ location
+- ATT-0152 ↔ ATT-0299 (al-Balādhurī, Malaṭya settlement): paraphrase ↔ quotation (4,000 fighters)
+- ATT-0243 ↔ ATT-0097 (al-Balādhurī, Bālis canal): petition ↔ construction
+- ATT-0322 ↔ ATT-0323 (al-Balādhurī, Zuṭṭ): Indian/Sindī origin ↔ frontier settlement
+PATCH bumps on all 10 (ATT-0470 2.0.0→2.0.1; others x.y.0→x.y.1); no schema_version migration
+(cross-reference note is metadata, Policy B). Retain-both confirmed as the outcome — the F finding
+stands: rule-3 discipline captured the right granularity, and these notes make the complementarity
+explicit rather than merging it away.
