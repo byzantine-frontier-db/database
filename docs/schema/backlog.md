@@ -503,3 +503,38 @@ lasting benefit beyond the 22 records.
 Meta (standing practice): the F micro-sweep found a more valuable issue (Item G) than the dedup task it
 was scoping — evidence for scoping-before-execution as a default, since a read-only sweep surfaces
 unknowns the execution plan wouldn't.
+
+## Post-Phase-2 item G — rule-8 back-fill + validator addition — DONE (2026-07-15)
+
+Two sequential commits (G2a validator, then G2b back-fill) closing the rule-8 gap surfaced by the
+Item-F micro-sweep. Corpus 1453 → 1453 (no records added). Both validators clean including the new check.
+
+**Finding (from Item-G scoping):** a contiguous Phase-1 block of 22 attestations, ATT-0218–ATT-0239
+(15 primary_paraphrase, 7 modern_synthesis), carried the evidential claim in `notes` with null
+`paraphrase`/`direct_quotation` — a rule-8 placement violation invisible to the validators because
+`paraphrase` is schema-nullable. Scoping confirmed all 7 modern_synthesis were type-(a) movable claims
+(no claimless pointers), and a corpus-wide scan proved these 22 were the *only* empty-claim attestations.
+
+**G2a — validator addition** (phase2post_G2a_validator_rule8.patch, 1 file): added
+`rule8_claim_present()` to tools/byzfrontier_validate.py — **universal form**, every attestation must
+carry a non-empty `paraphrase` OR `direct_quotation` regardless of provenance, wired into the record
+loop alongside schema errors. On the pre-back-fill corpus it reported **exactly 22 errors on
+ATT-0218–0239** and no others (verified on a fresh clone).
+
+**G2b — back-fill** (phase2post_G2b_rule8_backfill.patch, 22 files): relocated the claim from `notes`
+into a new `paraphrase` field (inserted in schema order after `citation`), leaving route pointers and
+editorial asides in `notes`. 20 mechanical; ATT-0232 (Ibn Buṭlān) and ATT-0227 (al-Sarakhsī) per the
+scoping drafts (spot-checked in the working tree before commit). **PATCH bumps** (1.0.0 → 1.0.1) — field
+relocation of an existing claim, content unchanged — with **no schema_version migration** (Policy B).
+CI returned to 0.
+
+**Sequence discipline:** committed G2a-then-G2b so the failing-CI moment between commits is a positive
+confirmation the rule catches exactly the pre-identified 22 (historical legibility + rollback
+granularity, zero real cost). Standing effect: the universal rule-8 check now blocks any future
+claimless attestation at validation time — a silent convention converted into an enforced invariant.
+
+**Remaining post-Phase-2 items:**
+- Optional Item F cross-reference notes on ~5 complementary pairs (low value, opportunistic).
+- Author-PersonEntity prosopography pass (authors of SRC-0016..0079 lacking PersonRecords).
+- Page-number restoration (standing); Tīzīn/Zibaṭra p.551 page-map conflation parser fix; Marʿash
+  "Mar‘" header de-truncation on next normalize run.
