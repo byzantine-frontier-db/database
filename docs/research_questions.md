@@ -40,6 +40,8 @@ The database corpus and the dissertation's analytical window are deliberately di
 
 The distinction matters for the schema because temporal boundaries are properties of the analysis, not of the data model. A site occupied from the sixth century to the fourteenth has phases spanning that whole range; the database records all of them, and the dissertation attends to those falling within 750-950. The ontology must therefore model time without privileging any particular window.
 
+The same distinction holds spatially. The database is designed as a research infrastructure for the Byzantine-Islamic frontier as a whole. Individual studies, including the dissertation this specification serves, analyse particular frontier sectors within that wider corpus; sectoral boundaries are therefore analytical groupings imposed by a study, not divisions of the domain model. The database's first substantive application is the northeast Anatolian corridor, but the corpus already holds southern (Cilician and Jaziran) material that serves both as foundation and as comparative baseline, and it is not built around any single sector. Just as temporal windows are selected by the analysis rather than encoded in the data, so are spatial ones: the ontology models the frontier as a domain, and sectors, regions and study areas are researcher-defined groupings over that domain rather than fixed features of it.
+
 ---
 
 ## 3. Substantive research questions
