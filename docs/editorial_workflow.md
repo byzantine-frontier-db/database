@@ -100,12 +100,27 @@ Several rules split across classes. Where they do, the table gives the dominant 
 | 10 — Cross-reference interpretations | **(c)** with (b) fragment | fragment: no | an interpretation naming another `INT-` in prose with no corresponding Relationship | which interpretations are *related* |
 | 11 — Direct observation | **(b)** with (c) residue | no | `provenance: primary_observation` implies `observation_date` present, and conversely | whether a passage *is* the author's own direct observation |
 | 12 — Attest existing sources inline | **(c)** | — | — | whether a mention is a thin one-clause primary |
-| 13 — al-Yaʿqūbī attribution | **(c)** with (b) fragment | fragment: no | attestations against SRC-0003/SRC-0008 carry the rule-13 convention note | whether content is topographic/administrative or narrative-historical |
+| 13 — al-Yaʿqūbī attribution | **(c)** with (b) fragment | fragment: no | attestations against SRC-0003/SRC-0008 **whose own citation does not name the work** carry the rule-13 convention note (see note below) | whether content is topographic/administrative or narrative-historical |
 | 14 — Site displacement | **(c)** with (b) fragment | fragment: no | a Site recorded as an unresolved displacement carries a linked Interpretation and a review flag | the displacement judgement itself |
 | 15 — Dual aspect | **(c)** | — | — | whether the evidence distinguishes feature from installation |
 | *bare-mention (unnumbered)* | **(a)** | **yes**, via rule 8 | a contentless attestation fails the rule-8 check | — |
 
 **Rule 9 is the scheme's clearest illustration and is worth reading as such.** Its (a) half — the ATT-only constraint — is a negative constraint and is **fully compliant: zero of 174 interpretations cite non-attestation evidence**, without ever having been checked. Its (b) half — that support be non-empty — is a presence-checkable positive obligation that **was never encoded, and is breached by 57 of 174 interpretations (33%)**. The same rule, observed perfectly in what it forbids and neglected at scale in what it requires. This is the pattern Item G found for rule 8, recurring, and it is the reason class (b) is worth naming separately: an unencoded (b) rule is not a weak rule, it is an invisible one.
+
+**Note on the rule-13 predicate (amended 2026-07-23).** The clause *"whose own citation does not name the work"* is a correction to the check specification, not to rule 13. Rule 13 governs attestations whose al-Yaʿqūbī work attribution was supplied **by convention** — the case where a secondary names "al-Yaʿqūbī" without the work and the extractor routes by content type. Where an attestation's own citation names the work (e.g. `al-Yaʿqūbī, Kitāb al-Buldān (de Goeje ed., BGA VII)`), the attribution was **determined, not routed**, and no convention note is owed. The unqualified predicate produced two false positives on measurement — ATT-0003 and ATT-0051, both Phase-1 records naming their work in the citation and both correctly routed on content. Under the amended predicate the corpus returns **0 violations across 5 routed attestations**, with the 3 expected notes present (ATT-0339, ATT-0413, ATT-0427).
+
+### Checks that are currently vacuous, and their activation triggers
+
+A check that cannot presently fail is not a check that has passed. Four of the checks classified above return zero violations **because their triggering condition does not yet exist in the corpus**, and recording them as compliant would reproduce the false assurance the preamble correction addresses. Each is listed with the event that makes it exercisable. Measured 2026-07-23.
+
+| Check | Why it cannot presently fail | Activation trigger |
+|---|---|---|
+| **Rule 2** — no fabricated external identifiers | **Zero external identifiers exist in the corpus** (0 across all 1,453 records). There is nothing to resolve, correctly or otherwise. | The first Pleiades, PMBZ, VIAF, TGN, AAT or Wikidata identifier added to any record. Expected soon: both the CIDOC alignment work and the vocabulary-file external alignments require them. |
+| **Rule 5(a)** — no record `published` while `editorial_review_required: true` | **Zero records are published.** All 1,453 are `draft`, and all 1,453 carry the flag, so the conjunction has never been satisfiable. | First publication. **Implement as a release gate, not a corpus scan** — a corpus scan will report zero indefinitely and give false assurance precisely when the risk begins. |
+| **Rule 14** — site displacement | No Site records exist; the spatial-type migration has not begun, and no record carries phase-level displacement. | The spatial-type migration introduces Site records with phases. |
+| **Rule 15** — dual aspect | No LandscapeFeature/Site pairs exist as such, so no dual-aspect case can be tested. | The spatial-type migration introduces the first dual-aspect case. |
+
+All other checks classified above **are** exercisable against the present corpus and their results are real: rule 8 (477 attestations under test), rule 9(a) and 9(b) (174 interpretations), rule 10 (174 interpretations, 144 relationships), rule 11 (477 attestations), rule 3(a) (477 attestations), rule 13(b) (5 routed attestations), rule 6 (CI, every commit).
 
 ### Review cadences for class (c)
 
