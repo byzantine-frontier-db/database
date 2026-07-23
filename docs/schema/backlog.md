@@ -2,6 +2,27 @@
 
 Tracked schema follow-up items. Not part of any current commit.
 
+> ## Authority: this file records rules, it does not define them
+>
+> The canonical definitions of editorial rules 1–15 are held in
+> [`../editorial_workflow.md`](../editorial_workflow.md), which is the sole authority for their
+> wording, their scope and their enforcement classification.
+>
+> Where a rule is stated or discussed below, that text is a **dated minute** — a record of what was
+> ratified, when, and why. It is not maintained in step with the canonical definition and must not be
+> read as current.
+>
+> **Amendments to any rule are made in `editorial_workflow.md` and nowhere else.** Editing a rule's
+> wording in this file changes no rule; it corrupts the record of what was decided. Where the two
+> disagree, `editorial_workflow.md` governs and this file is wrong by construction, because it
+> describes an earlier state.
+>
+> Ratifications minuted below: **rule 8** (Item G, 2026-07-15); **rules 12 and 13** (Session 5).
+> **Rules 9 and 10** are *referenced* below — at the Bālis coordinate item and the Al-Muthaqqab
+> ceramic dossier — but were never defined here; they were recovered on 2026-07-23. **Rules 11, 14
+> and 15** were ratified on 2026-07-23. The history of all five is recorded in
+> `editorial_workflow.md`.
+
 ## D3.i — `additionalProperties: false` on RecordMetadata (OPEN)
 
 Board follow-up from the pre-Phase-2 schema batch. Setting `additionalProperties: false`
@@ -205,6 +226,9 @@ reports Early Islamic wares among the Mopsus Survey baskets. Not reconciled; the
 gazetteer autopsy. Editorial decision needed on whether to revise the summary (would be MINOR content).
 
 ## Standing rules ratified (Session 5)
+
+*Historical minute. Canonical definitions: `../editorial_workflow.md`, rules 12 and 13. Do not amend
+the rule wording here — see the authority note at the head of this file.*
 
 - **Rule 12 — attest existing sources inline.** Thin one-clause primaries citing a SourceRecord
   already in the corpus are attested at extraction time, not deferred; deferral (defer-then-batch)
@@ -506,6 +530,9 @@ was scoping — evidence for scoping-before-execution as a default, since a read
 unknowns the execution plan wouldn't.
 
 ## Post-Phase-2 item G — rule-8 back-fill + validator addition — DONE (2026-07-15)
+
+*Historical minute. Rule 8's canonical definition is `../editorial_workflow.md`, rule 8; what follows
+records how and when the check was added, not what the rule says.*
 
 Two sequential commits (G2a validator, then G2b back-fill) closing the rule-8 gap surfaced by the
 Item-F micro-sweep. Corpus 1453 → 1453 (no records added). Both validators clean including the new check.
