@@ -2,6 +2,8 @@
 
 *Design inputs for the conceptual ontology. This document defines the analytical programme the database must support. Every entity type in the eventual schema is justified against a research question stated here; any proposed type that does not enable a query or workflow named in this document does not belong.*
 
+**Status: Frozen.** Recorded 2026-07-23 under governance §5.8, at the governance freeze following completion of the Rule 14 and Rule 15 ratification and the governance audit. This document has been treated as a fixed design contract throughout the conceptual-ontology work; recording that status here is a lifecycle status transition, not a content revision. No substantive changes.
+
 ---
 
 ## 1. Introduction

@@ -5,6 +5,7 @@
 **Supersedes:** v0.1 (2026-07-23), which was a scoping pass. This document is self-contained; v0.1 need not be read alongside it.
 **Corpus state:** `origin/main`, 1,453 records, verified against a fresh clone on 2026-07-23.
 **Status of this pass:** read-only. No patches, no schema files, no record changes.
+**Status: Frozen 2026-07-23** under governance §5.8, following completion of the Rule 14 and Rule 15 ratification and the governance audit. No substantive changes from Version 0.2. *This line records a lifecycle status transition, not a content revision.*
 
 ---
 

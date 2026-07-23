@@ -158,6 +158,28 @@ The default Board procedure is:
 
 Time-sensitive decisions (vandalism response, urgent error correction) may be handled by the Editor-in-Chief unilaterally, with the decision presented for ratification at the next Board meeting.
 
+### 5.8 Amendment of Frozen Documents
+
+*Adopted 2026-07-23. This section confers frozen status; it is therefore adopted before, and as a precondition of, any document claiming that status.*
+
+Certain documents are declared **frozen**: they are stable inputs that later work is designed against, and their value depends on their not moving silently underneath that work.
+
+**Scope of the freeze.** Frozen at adoption of this section, and no others:
+
+- `docs/research_questions.md` — the design contract
+- `docs/methodology/conceptual_ontology.md` — the conceptual specification
+
+Further documents may be declared frozen by the Board. **`docs/editorial_workflow.md` and this charter are not frozen.** They are live operational documents and remain amendable under their own procedures — this charter under §11. (`editorial_workflow.md` has no stated amendment procedure; that gap is noted here, not resolved.) The commit adopting this section itself gives substantive new content to both, which is the intended distinction: the frozen documents are what the project designs *against*, the live documents are how it works.
+
+**Standing convention.** Any commit touching a frozen document declares **in its first line** which of two things it is:
+
+- **Status transition** — a change to lifecycle metadata only: a freeze, an unfreeze, a supersession notice, a pointer to a successor document. A status transition makes no change to the document's substance. *A commit declaring itself a status transition that also alters substance is malformed and is to be rejected at review.*
+- **Content amendment** — any change to the document's substance. Content amendments to frozen conceptual documents require Board approval and must identify the demonstrated defect that justifies reopening under this governance framework. A demonstrated defect that does not result in amendment is recorded as an accepted limitation, with the reasoning for accepting it. "Clarification", "tidy-up", "minor edit" and "consistency" are not defects and do not justify reopening a frozen document.
+
+**Rationale.** A frozen document edited without explanation forces every later reader to reconstruct whether the design they built on still holds; requiring the declaration up front makes that answer readable from `git log` alone, without diffing, and without depending on the memory of whoever made the change.
+
+The load-bearing gate is the **demonstrated defect**, not the approval. A unanimously approved elegant refinement is not a reason to reopen a frozen document; a demonstrated inability to express a registered query is, whatever anyone's preference. Approval without a defect is not sufficient, and a defect that the Board declines to fix does not simply lapse — it is recorded as an accepted limitation with its reasoning, on the model of the limitations already carried in the conceptual specification. The record must show what was found, not only what was changed.
+
 ---
 
 ## 6. Identifier Minting
@@ -262,6 +284,7 @@ All previous versions of the charter remain accessible. Records produced under e
 | Version | Date | Change | Approved by |
 |---|---|---|---|
 | 1.0.0 | (initial) | Charter adopted. | Founding Editorial Board |
+| 1.1.0 | 2026-07-23 | §5.8 Amendment of Frozen Documents adopted; `research_questions.md` and `methodology/conceptual_ontology.md` declared frozen. | Editorial Board |
 
 ---
 

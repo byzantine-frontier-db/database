@@ -122,6 +122,8 @@ A check that cannot presently fail is not a check that has passed. Four of the c
 
 All other checks classified above **are** exercisable against the present corpus and their results are real: rule 8 (477 attestations under test), rule 9(a) and 9(b) (174 interpretations), rule 10 (174 interpretations, 144 relationships), rule 11 (477 attestations), rule 3(a) (477 attestations), rule 13(b) (5 routed attestations), rule 6 (CI, every commit).
 
+**Sequencing: encode at the trigger, not after it.** "Becomes testable" and "should be encoded" are different moments, and the gap between them is exactly how the rule-8 and rule-9(b) breaches accumulated — a rule written but unchecked while conforming and non-conforming data piled up behind it indistinguishably. Each check above is to be encoded **at the moment its trigger fires, not after the triggering data has accumulated**: **rule 2** as part of the CIDOC alignment work, before the first external identifier is written; **rule 5(a)** as a release gate, before the first publication; **rules 14 and 15** before the spatial-type migration creates the first Site. A check encoded at its trigger never acquires a back-fill; a check encoded afterwards inherits one, and inherits with it the problem of telling compliant records from merely unexamined ones.
+
 ### Review cadences for class (c)
 
 | Rule | Cadence |
