@@ -5,7 +5,8 @@
 **Supersedes:** v0.1 (2026-07-23), which was a scoping pass. This document is self-contained; v0.1 need not be read alongside it.
 **Corpus state:** `origin/main`, 1,453 records, verified against a fresh clone on 2026-07-23.
 **Status of this pass:** read-only. No patches, no schema files, no record changes.
-**Status: Frozen 2026-07-23** under governance §5.8, following completion of the Rule 14 and Rule 15 ratification and the governance audit. No substantive changes from Version 0.2. *This line records a lifecycle status transition, not a content revision.*
+**Status: Frozen 2026-07-23** under governance §5.8, following completion of the Rule 14 and Rule 15 ratification and the governance audit.
+**Amendment 1, 2026-07-23** — content amendment under §5.8. Demonstrated defect: **query register entry QR-305**. Remedy: `interaction_mechanism` controlled-vocabulary attribute on Event (§4.8) and Assertion (§5.4), and an amendment record at §4.12. No new type; no other change. Apart from Amendment 1, no substantive changes from Version 0.2.
 
 ---
 
@@ -304,6 +305,8 @@ Track-level routes relate to their family by a `member_of_route_family` relation
 
 **Certainty dimensions.** Identification (did this happen, and is the event in this source the same one?), chronological, spatial. Functional does not apply. Note the terminological stretch: for events, identification certainty carries the load a sixth "existence" dimension would carry. No sixth dimension is proposed — the dimension does the same work in both cases, measuring how securely a record corresponds to a real historical particular.
 
+**Interaction mechanism.** *(Amendment 1, 2026-07-23.)* An Event may carry `interaction_mechanism`, a repeatable controlled-vocabulary attribute recording which of the frontier's modes of interaction the event instantiates — trade and exchange, pilgrimage, diplomacy, prisoner exchange, raiding, taxation, pastoral movement, agricultural exploitation, military logistics, communication, migration. It is **orthogonal to `event_type`**, which records the kind of happening: a prisoner exchange and a treaty are both diplomatic events and are distinguished by mechanism, not by category. Repeatable because one event commonly instantiates several — a raid is raiding and military logistics, and frequently migration. The vocabulary is closed and grows under governance §5.5; a term is added when three concrete cases exist, so the attribute is usable before the vocabulary is complete.
+
 ---
 
 ### 4.9 Polity
@@ -360,6 +363,27 @@ Recorded so the reasoning survives and a later pass need not re-litigate.
 | **Correction / Retraction** | Handled by an Interpretation plus a supersession relationship plus workflow state (§10.12). A type would add nothing. |
 | **Dossier** | A bundle of competing interpretations is better expressed as relationships between Interpretations, which makes each independently retrievable — and which rule 10 already requires (§5.5). |
 | **EvidenceClaim** | Explicitly rejected by principle 5. |
+
+---
+
+### 4.12 Amendment record
+
+Amendments to this frozen document under governance §5.8. Each names the demonstrated defect that justified reopening.
+
+#### Amendment 1 — interaction mechanism (2026-07-23)
+
+**Demonstrated defect: query register entry QR-305.** The frozen contract operationalises RQ3's fifth subordinate question by naming eleven mechanisms of interaction and stating that naming them "specifies what the database must be able to capture". Authoring QR-305 established that **no element of this ontology carried a mechanism**, and that none could be made to under the §3.3.1 burden:
+
+- `EventCategory` carries the *kind* of a happening, not the mode of interaction it instantiates. A prisoner exchange and a treaty are both `diplomatic`; widening the category to eleven terms would conflate two bases of classification, which is the `PlaceType` error §2.1 removes.
+- A `RelationshipType` does not fit: pastoral movement is a mode of activity, not a relation between two records.
+- An `Assertion` carries a proposition; the mechanism is a property of what the proposition is *about*.
+- An `AnalyticalRegion` sits in the analytical layer, which L2 forbids the domain from referencing.
+
+**The claim is incompleteness with respect to the contract, not defect in the ordinary sense.** The ontology is internally consistent and every one of its commitments holds. One analytical dimension the contract requires is not representable, and the corpus already holds the evidence for it — 8 taxation attestations, 3 prisoner-exchange, 4 migration, 4 agricultural, and more — unlabelled and therefore retrievable only by reading. That is enough to justify reopening, and it is the accurate claim.
+
+**Remedy.** A repeatable controlled-vocabulary attribute on Event and Assertion. No new type, no new relationship, and no change to any identity criterion, invariant or layer rule. It follows principle 8 exactly: difference in kind carried by an attribute over a closed vocabulary that grows under governance.
+
+**Vocabulary status.** Filed separately under §5.5, 2026-07-23. Nine of the eleven terms reach the three-case threshold; `pilgrimage` (2 cases) and `communication` (1 case) do not and are held. The attribute is adopted with an incomplete vocabulary deliberately: the terms populate it as evidence accumulates, which is the standing pattern and is preferable to stretching two terms to fit.
 
 ---
 
@@ -421,6 +445,8 @@ As Phase 3 extracts primary Arabic, Byzantine and archaeological sources directl
 **Assertion kinds.** An Assertion inherits its certainty dimension from its kind: locational → spatial; dating → chronological; functional → functional; identification → identification. This is how principle 6's "specify which dimensions apply to which types" is satisfied without forcing five dimensions onto one record. Geometry and dating assertions are the two kinds that also carry structured payloads (§5.6).
 
 **Extension: polarity.** `assertion_polarity: asserted | denied`. Eger's 2012 re-examination found *no* Early Islamic pottery; RQ2 asks about contraction, which is a question about absence. §10.14 states what this does and does not solve.
+
+**Extension: interaction mechanism.** *(Amendment 1, 2026-07-23.)* An Assertion may carry `interaction_mechanism`, the same repeatable controlled vocabulary as Event (§4.8). Mechanisms are frequently evidenced by statements about a place rather than by a datable happening — a market population, an irrigated estate, a garrison's couriers — and those statements are assertions, not events. Carrying the attribute on both is what makes mechanism a retrievable dimension across the whole corpus rather than only across its 54 events.
 
 ### 5.5 Interpretation
 
