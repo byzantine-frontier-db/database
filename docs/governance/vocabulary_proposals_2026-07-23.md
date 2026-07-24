@@ -397,3 +397,48 @@ All three are Eger's arguments at confidence 2–3, each inferring a system from
 **Board decision requested:** approve `member_of_argued_group` (Site → Interpretation) and **withdraw `member_of_defensive_system`**. This raises the filing from eleven terms to **twelve filed for immediate decision**, and closes §6 without an ontology change.
 
 **Note for the ontology, not requiring an amendment.** Ontology §4.11's rejected-types table has no row for a "defensive system" or "site group" type, because the candidate was never put to the admission test. It fails it: a group argued by a scholar has no identity criterion independent of the argument that proposes it, which is the definition of an epistemic object rather than a domain one. This can be added to §4.11 at the next revision; it changes no decision.
+
+---
+
+## Update 3 — 2026-07-23. `interaction_mechanism` vocabulary, filed under §5.5
+
+Filed in support of conceptual ontology **Amendment 1**, which adds a repeatable `interaction_mechanism` attribute to Event and Assertion on the demonstrated defect recorded at query register entry **QR-305**. The attribute is the amendment; these terms populate it.
+
+The contract names eleven mechanisms. **Nine reach the three-case threshold and are filed. Two do not and are held.** They are held rather than stretched, and what would have been required to stretch them is recorded below so the judgement is auditable.
+
+### Terms filed (9)
+
+| Term | Cases | Sample evidence |
+|---|---|---|
+| `trade_exchange` | 6+ | ATT-0135 market traders fled Hadath during a Byzantine raid, indicating a market population beyond the garrison; ATT-0496 Tarsus colonnaded street transformed toward an Islamic sūq; ATT-0429 al-Massīsa furnished with markets; ATT-0206 *funduq* rather than *ḥiṣn*, implying use by merchants; ATT-0383 Ḥiṣn Manṣūr guarding east–west and north–south trade routes |
+| `diplomacy` | 6+ | ATT-0326 treaty binding the Jarājima as spies and raiders; ATT-0296 truce and alliance in the Amuq Plain; ATT-0257 nearly all thughūr cities taken by treaty rather than force; ATT-0422 treaty conditional on the inhabitants leaving; ENT-EVT-0046 (treaty), ENT-EVT-0045 (formal correspondence) |
+| `prisoner_exchange` | **3 — at threshold** | ATT-0306 al-Ṭabarī on a prisoner exchange at Constantinople at which some chose conversion over return; ATT-0271 a wintering force holding a large band of captives drawn from several provinces; ATT-0309 tax exemption for households taking in converted captives |
+| `raiding` | 8+ | ATT-0297 Qudāma's calendar of the annual *ghazuwāt*; ATT-0312 annual raiding at harvest in the Diyār Muḍar; ATT-0326 the Jarājima retaining booty; ENT-EVT-0008, ENT-EVT-0054, ENT-EVT-0021, ENT-EVT-0041 |
+| `taxation` | 8+ | ATT-0234 an officer sent from Sumaysāṭ to collect *kharāj* and *jizya*; ATT-0243 one-third of produce as *ʿushr al-sulṭān*; ATT-0220 the Hanī canal's revenue against the empire's total; ATT-0246 duties on goods entering Anazarbus; ATT-0327 an early-Abbasid revolt against taxation |
+| `pastoral_movement` | 4+ | ATT-0297 raid seasons tracking pastoral transhumance and livestock condition; ATT-0093 the nomadic and semi-nomadic tribes of the marginal steppe; ATT-0271 wintering with mounts, pack animals and herds; ATT-0214 Christian shepherds among the ruins |
+| `agricultural_exploitation` | 8+ | ATT-0211 Libanius on hills cultivated to the summits; ATT-0164 gardens and a well irrigating the fields; ATT-0127 a Euphrates city with irrigated lands; ATT-0152 Jaziran soldiers granted lands to farm; ENT-EVT-0031, ENT-EVT-0016 (canal construction) |
+| `military_logistics` | 4+ | ATT-0134 Marj Dābiq as a winter mustering ground for Taurus expeditions; ATT-0199 Adhana as an encampment of al-Walīd II; ATT-0099 the water supply captured at Ṣiffīn; ENT-EVT-0029 Rāfiqa founded as a garrison town |
+| `migration` | 6+ | ATT-0152 al-Manṣūr settling 4,000 Jaziran fighters at Malaṭya; ATT-0417 the Ṭayyiʾ migrating to northern Syria and settling at Manbij; ATT-0399 deported Zuṭṭ received in 835; ENT-EVT-0053, ENT-EVT-0028 |
+
+### Terms held (2)
+
+| Term | Cases | Why held |
+|---|---|---|
+| `pilgrimage` | **2** | ATT-0119 (the pilgrimage centre at Dayr Simʿan fortified in the tenth century) and ATT-0206 (*funduq* implying use by pilgrims as well as merchants). ATT-0232 concerns the same entity as ATT-0119 and is not a distinct case. ATT-0489 records the Sonunucu Baba pilgrimage site, but as an Ottoman-era feature noted in survey, outside the corpus period. **To reach threshold I would have had to admit ATT-0489 or count ATT-0232 separately; neither is honest.** |
+| `communication` | **1** | ATT-0396 alone — two couriers and a trumpet-player in a fort's garrison list. The frontier's *barīd* and beacon systems are not attested in the present corpus. |
+
+Both clear when Phase 3 supplies further cases. Neither blocks Amendment 1: the attribute is adopted with an incomplete vocabulary by design, and terms populate it as evidence accumulates.
+
+### Method note — five systematic false-positive classes, caught by reading
+
+An initial keyword probe over-reported five of the eleven terms. Each hit was read rather than counted, and the following classes were removed:
+
+| Pattern | Matched | Term inflated |
+|---|---|---|
+| *fidāʾ* | **Abū al-Fidāʾ**, the fourteenth-century geographer, cited throughout the corpus | `prisoner_exchange`: 14 → **3** |
+| *tribut* | **attributed**, **attributes** | `taxation`: 28 → 8 |
+| *herd* | **sherds** — pervasive in an archaeological corpus | `pastoral_movement`: 20 → 4 |
+| *post* | **post quem**, **post-reform**, **post-7th-century** | `communication`: 4 → **1** |
+| *provision* | **provisional** — an editorial term used throughout | `military_logistics`: 28 → 4 |
+
+The *fidāʾ* and *post* classes are the consequential ones: uncorrected, `prisoner_exchange` would have been filed on a fourteenth-century historian's name and `communication` would have been filed on the Latin for "after". This is the same class as the "Lidar Höyük" false positive recorded at §2.5, recurring at larger scale, and it is the reason the three-case requirement is met by reading rather than by counting.
