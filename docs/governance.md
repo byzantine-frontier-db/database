@@ -180,6 +180,24 @@ Further documents may be declared frozen by the Board. **`docs/editorial_workflo
 
 The load-bearing gate is the **demonstrated defect**, not the approval. A unanimously approved elegant refinement is not a reason to reopen a frozen document; a demonstrated inability to express a registered query is, whatever anyone's preference. Approval without a defect is not sufficient, and a defect that the Board declines to fix does not simply lapse — it is recorded as an accepted limitation with its reasoning, on the model of the limitations already carried in the conceptual specification. The record must show what was found, not only what was changed.
 
+### 5.9 Pre-migration validation
+
+*Adopted 2026-07-23.*
+
+**A corpus migration is not executed until the logical model has been validated against the query register.** Validation is performed on a **synthetic fixture corpus**, not on the live corpus, and precedes any transformation of records.
+
+**The fixture.** The fixture instantiates the **edge-case catalogue** of the frozen conceptual specification — every catalogued case, and the limitations recorded alongside them — not merely one instance of each entity type. A fixture holding one of each type is a smoke test: it establishes that the model can store the ontology's vocabulary, which is not what is in question. What is in question is whether the model can express the cases the ontology was designed around, and only a fixture built from the catalogue tests that.
+
+**Which register entries execute.** Validation runs every register entry whose acceptance criteria concern **structural expressibility**:
+
+- **Category 1** entries execute against the live corpus as well as the fixture.
+- **Category 3 and 4** entries execute against the fixture. Their dependencies block *analysis*, not acceptance testing: a fixture supplies the instances the corpus lacks, and the question the register asks of the model is whether it can express the query, not whether the corpus can answer it.
+- **Category 2** entries execute **with provisional vocabulary**. A term filed under §5.5 and awaiting decision is admitted to the fixture as provisional, because the acceptance criterion is structural expressibility and a pending Board decision on a term's name or scope does not bear on whether the model can hold a relationship of that shape. Provisional terms are marked as such in the fixture and carry no force outside it.
+
+**Failure routes.** A failed entry routes to the **query register's §7 discrepancy procedure**, and not to §5.8. A logical-model defect is not a frozen-document event: the model is not a frozen document, and reopening the conceptual specification is warranted only where §7 classifies the failure as **(iv)**, an ontology defect. Classifications (i), (ii) and (iii) are resolved within the register and the model. Only a classification (iv) finding engages §5.8, and it does so through §5.8's own demonstrated-defect gate rather than automatically.
+
+**Completion.** Migration may proceed when every executed entry passes or is recorded as a partial attributable to a stated limitation, and every failure has been classified under §7. An unclassified failure blocks migration.
+
 ---
 
 ## 6. Identifier Minting
@@ -285,6 +303,7 @@ All previous versions of the charter remain accessible. Records produced under e
 |---|---|---|---|
 | 1.0.0 | (initial) | Charter adopted. | Founding Editorial Board |
 | 1.1.0 | 2026-07-23 | §5.8 Amendment of Frozen Documents adopted; `research_questions.md` and `methodology/conceptual_ontology.md` declared frozen. | Editorial Board |
+| 1.2.0 | 2026-07-23 | §5.9 Pre-migration validation adopted. | Editorial Board |
 
 ---
 
