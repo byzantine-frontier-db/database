@@ -188,7 +188,7 @@ The load-bearing gate is the **demonstrated defect**, not the approval. A unanim
 
 **The fixture.** The fixture instantiates the **edge-case catalogue** of the frozen conceptual specification — every catalogued case, and the limitations recorded alongside them — not merely one instance of each entity type. A fixture holding one of each type is a smoke test: it establishes that the model can store the ontology's vocabulary, which is not what is in question. What is in question is whether the model can express the cases the ontology was designed around, and only a fixture built from the catalogue tests that.
 
-**Which register entries execute.** Validation runs every register entry whose acceptance criteria concern **structural expressibility**:
+**Which register entries execute.** Validation runs **every** register entry. Acceptance criteria concern structural expressibility — which, per register §3.6, is true of every entry — so there is no exempt category:
 
 - **Category 1** entries execute against the live corpus as well as the fixture.
 - **Category 3 and 4** entries execute against the fixture. Their dependencies block *analysis*, not acceptance testing: a fixture supplies the instances the corpus lacks, and the question the register asks of the model is whether it can express the query, not whether the corpus can answer it.
@@ -304,6 +304,7 @@ All previous versions of the charter remain accessible. Records produced under e
 | 1.0.0 | (initial) | Charter adopted. | Founding Editorial Board |
 | 1.1.0 | 2026-07-23 | §5.8 Amendment of Frozen Documents adopted; `research_questions.md` and `methodology/conceptual_ontology.md` declared frozen. | Editorial Board |
 | 1.2.0 | 2026-07-23 | §5.9 Pre-migration validation adopted. | Editorial Board |
+| 1.2.1 | 2026-07-23 | §5.9 wording clarified: validation runs every register entry, removing an implied exemption category that register §3.6 rules out. No change of effect. | Editorial Board |
 
 ---
 

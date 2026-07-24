@@ -68,9 +68,21 @@ the rule-8 and rule-9 breaches recorded below to accumulate unseen.
 
     *Provenance: **RATIFIED 2026-07-23**, as worded in conceptual ontology v0.2 §15.2.*
 
+16. **Verification of automated counts.** Counts derived from automated searches, pattern matching or field scans are provisional until each candidate has been reviewed. Governance actions, vocabulary filings, compliance measurements and register findings shall report verified counts rather than scan totals. Where an action depends on a threshold rather than a total, verification extends to the candidates required to establish the threshold, and the count is reported as verified cases rather than as a scan total. A provisional count is not a sufficient basis for a governance action.
+
+    *Provenance: **RATIFIED 2026-07-23.** Justified by five instances in which an unverified scan total diverged materially from the verified count. **Three of the five would have admitted a governance term on a false basis, affecting four terms.** The remaining two are analytically distinct — one a false compliance finding, one a false set of research predictions — and the distinction is why they are listed separately rather than aggregated:*
+
+    | Instance | Scan total | Verified | Consequence had it stood |
+    |---|---|---|---|
+    | "Lidar Höyük" matched as *lidar* the technique, though it is a place name on the Euphrates | 6 | 3 | **`geophysical_survey` admitted on a place name** — pushed over threshold; `remote_sensing_survey` inflated though independently sound |
+    | ATT-0440 counted twice — a site visit that included basket examination | 3 | 2 | **`material_reexamination` admitted at threshold on a double-counted case** — the scan said three against a threshold of three |
+    | *fidāʾ* matched **Abū al-Fidāʾ**, the geographer; *post* matched **post quem** | 14 and 4 | 3 and 1 | **`prisoner_exchange` admitted on a historian's name; `communication` admitted on the Latin for "after"** |
+    | Rule-3 joint-attribution proxy | 22 candidates | 0 on reading | A reported compliance breach that did not exist |
+    | Event scan read schema field names rather than record field names | 0 events with category or date | 54 with category, 52 with a start date | Several RQ3 dependency predictions built on a false premise |
+
 ### Note on rule provenance
 
-Rules 1–7 originated with this document. Rules 8, 12 and 13 were ratified during Phase 2 and their canonical text is transcribed here from `docs/schema/backlog.md`; the backlog entries remain as the historical record of their ratification, and this document is now the canonical statement. Rules 9 and 10 were recovered on 2026-07-23. Rule 11 was ratified in general form on 2026-07-23, superseding a phase-specific predecessor. Rules 14 and 15 were ratified on 2026-07-23.
+Rules 1–7 originated with this document. Rules 8, 12 and 13 were ratified during Phase 2 and their canonical text is transcribed here from `docs/schema/backlog.md`; the backlog entries remain as the historical record of their ratification, and this document is now the canonical statement. Rules 9 and 10 were recovered on 2026-07-23. Rule 11 was ratified in general form on 2026-07-23, superseding a phase-specific predecessor. Rules 14, 15 and 16 were ratified on 2026-07-23.
 
 **Unnumbered standing rules.** The **bare-mention rule** — a source named without a datum yields a note or a downgraded provenance, never a substantive attestation — is a live standing rule with no number. It is classified below alongside the numbered rules. Assigning it a number is a small outstanding decision.
 
@@ -103,6 +115,7 @@ Several rules split across classes. Where they do, the table gives the dominant 
 | 13 — al-Yaʿqūbī attribution | **(c)** with (b) fragment | fragment: no | attestations against SRC-0003/SRC-0008 **whose own citation does not name the work** carry the rule-13 convention note (see note below) | whether content is topographic/administrative or narrative-historical |
 | 14 — Site displacement | **(c)** with (b) fragment | fragment: no | a Site recorded as an unresolved displacement carries a linked Interpretation and a review flag | the displacement judgement itself |
 | 15 — Dual aspect | **(c)** | — | — | whether the evidence distinguishes feature from installation |
+| 16 — Verification of automated counts | **(c)** | — | — | whether each candidate in a reported count has been individually reviewed |
 | *bare-mention (unnumbered)* | **(a)** | **yes**, via rule 8 | a contentless attestation fails the rule-8 check | — |
 
 **Rule 9 is the scheme's clearest illustration and is worth reading as such.** Its (a) half — the ATT-only constraint — is a negative constraint and is **fully compliant: zero of 174 interpretations cite non-attestation evidence**, without ever having been checked. Its (b) half — that support be non-empty — is a presence-checkable positive obligation that **was never encoded, and is breached by 57 of 174 interpretations (33%)**. The same rule, observed perfectly in what it forbids and neglected at scale in what it requires. This is the pattern Item G found for rule 8, recurring, and it is the reason class (b) is worth naming separately: an unencoded (b) rule is not a weak rule, it is an invisible one.
@@ -140,6 +153,7 @@ All other checks classified above **are** exercisable against the present corpus
 | **13** (topographic vs narrative routing) | Per record at extraction. **Rule 13's provisional status is resolved by a one-off action, not a cadence**: printed verification of one representative case, currently outstanding. Until then every routed attestation carries the convention note. |
 | **14** (displacement judgement) | Per record at extraction; **triggered whenever a Site gains a phase whose designated geometry differs from its predecessor's**. |
 | **15** (dual aspect) | Per record at extraction; **plus a sweep at each release** over LandscapeFeature/Site pairs sharing a standardised name or coincident geometry. |
+| **16** (verification of automated counts) | **Before each filing or finding.** The cadence is the act itself: no vocabulary filing, compliance measurement, governance action or register finding is submitted carrying a count that has not first been verified candidate by candidate. There is no periodic sweep, because a count already acted on cannot be un-acted-on by a later audit. |
 
 Two cadences are load-bearing and are called out. The **cleared-flag sample audit** (rules 1 and 5) is the only check on the one step in the workflow that has no other witness. The **per-entry rule for rule 11** is not a preference but a finding: it is the direct consequence of the §4 inventory retraction, and automated detection should not be reintroduced for it.
 
