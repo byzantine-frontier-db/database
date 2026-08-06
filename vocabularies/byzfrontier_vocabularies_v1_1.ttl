@@ -476,6 +476,11 @@ bzfdb:periodo_ref a rdf:Property ;
 :r-alternative-identification-of a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "alternative identification of"@en .
 :r-same-as a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "same as"@en ; skos:closeMatch owl:sameAs .
 :r-different-from a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "different from"@en .
+:r-controls a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "controls"@en .
+:r-overlooks a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "overlooks"@en .
+:r-member-of-argued-group a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "member of argued group"@en .
+:r-corroborates a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "corroborates"@en .
+:r-sited-at-crossing a skos:Concept ; skos:inScheme :relationship-types ; skos:prefLabel "sited at crossing"@en .
 
 
 #####################################################################
