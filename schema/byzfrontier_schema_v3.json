@@ -1,0 +1,202 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://byzantine-frontier-db.org/schema/v3",
+  "title": "Byzantine-Islamic Frontier Database Schema v3",
+  "version": "3.0.0",
+  "description": "Schema v3 realises the committed logical_model.md (Step-3a plan). It introduces the spatial supertable + spatial_type discriminator, polymorphic (type,id) references with NO distinctness constraint, a generic geometry column with a four-type CHECK, designated-pointer nullable FKs, and the phasing_scheme discriminator with I6 keyed on (subject, phasing_scheme). v3 COEXISTS with v1/v2 records until the migration passes move data; nothing here migrates a record. Where a physical realisation detail would require reopening a logical-model decision, it is FLAGGED in $comment, not decided.",
+
+  "$defs": {
+    "Identifier":   { "type": "string", "pattern": "^(ENT-PLC|ENT-CMP|ENT-EVT|ENT-POL|ENT-PERS|ASR|ATT|INT|SRC|REL|PHA|SPA|TMP|RGN)-[0-9]{4}$" },
+    "ConfidenceLevel": { "type": "integer", "minimum": 1, "maximum": 5 },
+
+    "SpatialType": {
+      "type": "string",
+      "enum": ["site", "landscape_feature", "route", "territorial_unit"],
+      "$comment": "The discriminator over the spatial supertable. MUTABLE — a re-typing is a column update, never an ID re-issue (logical_model.md §0.5). The identifier stays opaque (ENT-PLC- space)."
+    },
+
+    "GeometryType": {
+      "type": "string",
+      "enum": ["POINT", "LINESTRING", "POLYGON", "MULTIPOLYGON"],
+      "$comment": "The four-type CHECK. No GEOMETRYCOLLECTION, no curved types (logical_model.md §2.4, Step-3a plan §3.1)."
+    },
+
+    "ReferenceMode": {
+      "type": "string",
+      "enum": ["definite", "candidate", "collective"],
+      "$comment": "QualifiedSubjectLink.reference_mode (item 5). candidate does NOT enter the Assertion dedup key (§2.3a); definite/collective do."
+    },
+
+    "AssertionKind":     { "type": "string", "enum": ["general", "spatial", "temporal", "functional", "identification"] },
+    "AssertionPolarity": { "type": "string", "enum": ["asserted", "denied"], "$comment": "item 14 negative-evidence three-way distinction." },
+
+    "PolymorphicRef": {
+      "type": "object",
+      "$comment": "The polymorphic (type,id) reference used by relationship endpoints and QualifiedSubjectLink. NO distinctness constraint — same-type pairs (e.g. Component->Component succeeds, Demand-B) are admitted. The plan forbids a CHECK(source_type != target_type).",
+      "required": ["ref_type", "ref_id"],
+      "properties": {
+        "ref_type": { "type": "string" },
+        "ref_id":   { "$ref": "#/$defs/Identifier" }
+      },
+      "additionalProperties": false
+    },
+
+    "DomainRef": {
+      "allOf": [{ "$ref": "#/$defs/PolymorphicRef" }],
+      "$comment": "QualifiedSubjectLink.subject ranges over DOMAIN entities only (L-poly). No typed per-subject columns anywhere — the single polymorphic ref is the only subject reference (logical_model.md §8).",
+      "properties": {
+        "ref_type": { "type": "string", "enum": ["site", "landscape_feature", "route", "territorial_unit", "component", "event", "polity", "person", "phase"] },
+        "ref_id":   { "$ref": "#/$defs/Identifier" }
+      }
+    },
+
+    "SpatialAssertionPayload": {
+      "type": "object",
+      "required": ["geometry_type", "attaches_to", "spatial_confidence"],
+      "properties": {
+        "geometry_type":     { "$ref": "#/$defs/GeometryType" },
+        "geometry":          { "type": "string", "$comment": "WKT/GeoJSON, EPSG:4326. One generic column; the four-type CHECK is geometry_type." },
+        "coordinate_method": { "type": "string" },
+        "uncertainty_radius_m": { "type": "number" },
+        "spatial_confidence": { "$ref": "#/$defs/ConfidenceLevel" },
+        "attaches_to":       { "$ref": "#/$defs/PolymorphicRef", "$comment": "entity-level (SpatialThing) or phase-level (I10)." }
+      }
+    },
+
+    "Phase": {
+      "type": "object",
+      "required": ["subject", "phasing_scheme"],
+      "properties": {
+        "subject":        { "$ref": "#/$defs/DomainRef" },
+        "phasing_scheme": { "type": "string", "default": "default", "$comment": "item-13 discriminator. I6 non-overlap keyed (subject, phasing_scheme), NOT (subject). Defaulting to 'default' leaves today's single-phasing corpus untouched." },
+        "designated_spatial_assertion":  { "$ref": "#/$defs/Identifier" },
+        "designated_temporal_assertion": { "$ref": "#/$defs/Identifier" },
+        "function": { "type": "string" },
+        "functional_confidence": { "$ref": "#/$defs/ConfidenceLevel" },
+        "occupation_regime": { "type": "string", "enum": ["permanent", "seasonal", "intermittent", "unknown"] },
+        "rank": { "type": "string" }
+      }
+    }
+  },
+
+  "oneOf": [
+    {
+      "title": "SpatialThing (supertable + spatial_type)",
+      "type": "object",
+      "required": ["record_type", "id", "spatial_type", "standardised_name", "identification_status", "identification_confidence"],
+      "properties": {
+        "record_type":     { "const": "spatial_thing" },
+        "id":              { "$ref": "#/$defs/Identifier" },
+        "spatial_type":    { "$ref": "#/$defs/SpatialType" },
+        "standardised_name": { "type": "string" },
+        "designated_spatial_assertion": { "$ref": "#/$defs/Identifier", "$comment": "NULLABLE nullable FK (item 8: a Site may have zero geometry). Single-valued => I11 structural." },
+        "identification_status": { "type": "string" },
+        "identification_confidence": { "$ref": "#/$defs/ConfidenceLevel" },
+        "feature_type": { "type": "string", "$comment": "subtype column; present for landscape_feature." },
+        "origin": { "type": "string" },
+        "route_class": { "type": "string" },
+        "unit_type": { "type": "string" },
+        "metadata": { "type": "object" }
+      },
+      "$comment": "overall_confidence is ABSENT by design (retired M3). A stored overall_confidence is a v3 violation."
+    },
+    {
+      "title": "Component",
+      "type": "object",
+      "required": ["record_type", "id", "parent_site", "component_type"],
+      "properties": {
+        "record_type": { "const": "component" },
+        "id":          { "$ref": "#/$defs/Identifier" },
+        "parent_site": { "$ref": "#/$defs/Identifier", "$comment": "dependency; cascade delete (I13). Identity = fabric, not footprint." },
+        "component_type": { "type": "string" },
+        "designated_spatial_assertion": { "$ref": "#/$defs/Identifier" },
+        "metadata": { "type": "object" }
+      }
+    },
+    {
+      "title": "Assertion",
+      "type": "object",
+      "required": ["record_type", "id", "proposition", "assertion_kind", "assertion_polarity"],
+      "properties": {
+        "record_type": { "const": "assertion" },
+        "id":          { "$ref": "#/$defs/Identifier", "$comment": "ASR- prefix (M1 rename)." },
+        "proposition": { "type": "string" },
+        "assertion_kind":     { "$ref": "#/$defs/AssertionKind" },
+        "assertion_polarity": { "$ref": "#/$defs/AssertionPolarity" },
+        "supporting_attestations": { "type": "array", "items": { "$ref": "#/$defs/Identifier" }, "minItems": 1, "$comment": "I3/I4: >=1. The subject set is DERIVED from these (a view), never stored (§2.3a)." },
+        "spatial_payload":  { "$ref": "#/$defs/SpatialAssertionPayload" },
+        "metadata": { "type": "object" }
+      }
+    },
+    {
+      "title": "Attestation",
+      "type": "object",
+      "required": ["record_type", "id", "source", "citation", "provenance"],
+      "properties": {
+        "record_type": { "const": "attestation" },
+        "id":     { "$ref": "#/$defs/Identifier" },
+        "source": { "$ref": "#/$defs/Identifier", "$comment": "exactly one (rule 3)." },
+        "citation": { "type": "string" },
+        "paraphrase": { "type": "string" },
+        "direct_quotation": { "type": "string" },
+        "provenance": { "type": "string" },
+        "observation_date": { "type": "string", "$comment": "I5b: present iff provenance == primary_observation (rule 11)." },
+        "confidence": { "$ref": "#/$defs/ConfidenceLevel", "$comment": "evidential confidence." },
+        "metadata": { "type": "object" }
+      },
+      "$comment": "I2: paraphrase OR direct_quotation non-empty. Subject links are QualifiedSubjectLink rows (below), not a field here."
+    },
+    {
+      "title": "QualifiedSubjectLink",
+      "type": "object",
+      "required": ["record_type", "id", "attestation", "subject", "reference_mode", "identification_confidence"],
+      "properties": {
+        "record_type": { "const": "qualified_subject_link" },
+        "id":          { "$ref": "#/$defs/Identifier" },
+        "attestation": { "$ref": "#/$defs/Identifier", "$comment": "plain FK; subject links are attestation-side only (§2.3a)." },
+        "subject":     { "$ref": "#/$defs/DomainRef" },
+        "reference_mode": { "$ref": "#/$defs/ReferenceMode" },
+        "identification_confidence": { "$ref": "#/$defs/ConfidenceLevel" }
+      }
+    },
+    {
+      "title": "Interpretation",
+      "type": "object",
+      "required": ["record_type", "id", "argument", "publication_source_id", "supporting_evidence"],
+      "properties": {
+        "record_type": { "const": "interpretation" },
+        "id":       { "$ref": "#/$defs/Identifier" },
+        "argument": { "type": "string" },
+        "publication_source_id": { "$ref": "#/$defs/Identifier" },
+        "supporting_evidence": { "type": "array", "items": { "$ref": "#/$defs/Identifier" }, "minItems": 1, "$comment": "I5: non-empty, ATT- only (rule 9). This is the field the M6 rule-9 back-fill populates." },
+        "confidence": { "$ref": "#/$defs/ConfidenceLevel", "$comment": "argumentative confidence." },
+        "metadata": { "type": "object" }
+      }
+    },
+    {
+      "title": "Relationship",
+      "type": "object",
+      "required": ["record_type", "id", "rel_type", "source_entity", "target_entity", "relationship_confidence"],
+      "properties": {
+        "record_type": { "const": "relationship" },
+        "id":       { "$ref": "#/$defs/Identifier" },
+        "rel_type": { "type": "string", "$comment": "checked against the ratified vocabulary TTL by the relationship-vocabulary validator — NOT an enum here, so the schema does not duplicate the vocabulary (single source of truth = the TTL)." },
+        "source_entity": { "$ref": "#/$defs/PolymorphicRef" },
+        "target_entity": { "$ref": "#/$defs/PolymorphicRef" },
+        "temporal_scope": { "type": "array", "items": { "type": "integer" }, "minItems": 2, "maxItems": 2 },
+        "relationship_confidence": { "$ref": "#/$defs/ConfidenceLevel" },
+        "metadata": { "type": "object" }
+      },
+      "$comment": "NO distinctness constraint on (source_entity, target_entity) types — same-type pairs admitted (Demand-B)."
+    },
+    {
+      "title": "Phase (record)",
+      "allOf": [{ "$ref": "#/$defs/Phase" }],
+      "type": "object",
+      "properties": { "record_type": { "const": "phase" }, "id": { "$ref": "#/$defs/Identifier" } },
+      "required": ["record_type", "id"]
+    }
+  ],
+
+  "$comment_flags": "Realisation details that would require reopening a logical-model decision are FLAGGED, not decided: (1) relationship referential integrity over a union of tables has no single JSON-Schema/DB FK mechanism — the validator enforces it (Step-3a plan §6, flagged reading 1); this schema deliberately does NOT add a distinctness or per-type FK constraint. (2) The Assertion subject-set is a derived view, not a stored column; the schema does not add a subject column to Assertion (§2.3a, flagged reading 2). Neither is settled here."
+}
