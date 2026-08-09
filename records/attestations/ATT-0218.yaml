@@ -5,8 +5,8 @@
   - ENT-PERS-0019
   - ENT-PLC-0144
   - ENT-PLC-0044
-  observations_supported:
-  - OBS-0152
+  assertions_supported:
+  - ASR-0152
   provenance: primary_paraphrase
   citation: Jarīr, Dīwān Jarīr, vol. I, p. 291, lines 39-45 (trans. assisted by T.
     Qutbuddin)

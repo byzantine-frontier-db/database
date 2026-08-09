@@ -7,8 +7,8 @@
   - ENT-PLC-0171
   - ENT-EVT-0051
   - ENT-POL-0002
-  observations_supported:
-  - OBS-0227
+  assertions_supported:
+  - ASR-0227
   provenance: modern_synthesis
   citation: Eger 2015, p. 301 (after Wheatley, The Places Where Men Pray Together,
     p. 89).

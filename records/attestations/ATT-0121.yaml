@@ -10,8 +10,8 @@
     pottery in the earliest floors) and shows occupation continuing into the ninth-tenth
     centuries.
   confidence: 3
-  observations_supported:
-  - OBS-0065
+  assertions_supported:
+  - ASR-0065
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

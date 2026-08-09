@@ -1,0 +1,18 @@
+- record_type: assertion
+  id: ASR-0247
+  proposition: Eger's own examination of the 2004 Mopsus Survey ceramics from Mutallip Höyük
+    yielded Early Islamic wares alongside Roman, Late Roman and Middle Islamic material, and
+    he found the mound's prominent height atypical of Early Islamic frontier forts — data
+    that bear on, and partly complicate, the identification of al-Muthaqqab with this tell.
+  associated_entities:
+  - ENT-PLC-0124
+  supporting_attestations:
+  - ATT-0440
+  notes: 'DISCREPANCY FLAGGED (silent reconciliation prohibited): the current ENT-PLC-0124 analytical_summary states ''no definitive Early Islamic pieces'', whereas Eger''s 20 Jul 2005 autopsy (ATT-0440) reports Early Islamic ceramics among the eight Mopsus baskets he examined with de Giorgi. Not reconciled this session; the analytical_summary was NOT overwritten. Flagged for editorial review of ENT-PLC-0124''s ceramic characterisation. REVISION (2026-07-15): Eger later reversed this reading — his 2012 re-examination of the same Mopsus material at Bilkent University (Eger 2012, pp. 151-52; SRC-0079, ATT-0511) reported no Early Islamic pottery. This 2005 finding is position 3 of the four-position dossier INT-0174; the disagreement is preserved, not reconciled.'
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.1
+    created_at: '2026-07-12T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

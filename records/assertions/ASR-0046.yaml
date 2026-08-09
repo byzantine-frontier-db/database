@@ -1,0 +1,18 @@
+- record_type: assertion
+  id: ASR-0046
+  proposition: At the Battle of Ṣiffīn (657) Muʿāwiya's forces seized the Euphrates
+    water supply, leaving the caliph ʿAlī's men short of water and prone to desertion.
+  associated_entities:
+  - ENT-EVT-0017
+  - ENT-PERS-0024
+  - ENT-PERS-0020
+  - ENT-PLC-0038
+  supporting_attestations:
+  - ATT-0099
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

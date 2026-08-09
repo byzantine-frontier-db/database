@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0119
-  observations_supported:
-  - OBS-0236
+  assertions_supported:
+  - ASR-0236
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Adhana, pp. 437–440, "Personal Observations, 7/20/05" (SRC-0065).
   paraphrase: On a visit of 20 July 2005 Eger found the east bank of the Sayhān occupied

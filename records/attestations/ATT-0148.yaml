@@ -9,9 +9,9 @@
   - ENT-PLC-0016
   - ENT-PLC-0007
   - ENT-PLC-0044
-  observations_supported:
-  - OBS-0094
-  - OBS-0097
+  assertions_supported:
+  - ASR-0094
+  - ASR-0097
   provenance: primary_paraphrase
   citation: 'Ibn Serapion, Description of Mesopotamia and Baghdad (trans. Le Strange,
     JRAS 1895): §IV, p. 13 (Arabic) / p. 63 (Eng.) [Malatiya watercourses]; §III,

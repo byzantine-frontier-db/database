@@ -6,8 +6,8 @@
   - ENT-PERS-0018
   - ENT-PLC-0044
   - ENT-EVT-0026
-  observations_supported:
-  - OBS-0088
+  assertions_supported:
+  - ASR-0088
   provenance: primary_paraphrase
   citation: Michael the Syrian, Chronique, vol. 3 p. 10; vol. 4 p. 493 (cf. M. Morony,
     "Michael the Syrian as a Source for Economic History", Hugoye 3.2, 2000) — reached

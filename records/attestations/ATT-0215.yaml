@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0031
   - ENT-PLC-0021
-  observations_supported:
-  - OBS-0150
+  assertions_supported:
+  - ASR-0150
   provenance: numismatic_evidence
   citation: E. Carlson, 'A Constantinian Coin Deposit from the Syro-Anatolian Frontier',
     poster, ASOR Annual Meeting, Atlanta, 2010 (coins on Open Context); reported in

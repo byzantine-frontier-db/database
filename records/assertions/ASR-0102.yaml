@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0102
+  proposition: The sixth- to eighth-century Balikh valley was dominated by a major
+    straightened canal (Nahr al-Abbāra / Nahr Turkmān) running down its east side,
+    which replaced an earlier smaller Sahlān-Ḥammām canal system and along which settlement
+    was conspicuously aligned.
+  associated_entities:
+  - ENT-PLC-0097
+  - ENT-PLC-0095
+  supporting_attestations:
+  - ATT-0158
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

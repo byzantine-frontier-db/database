@@ -9,9 +9,9 @@
   - ENT-PLC-0078
   - ENT-PLC-0075
   - ENT-PERS-0033
-  observations_supported:
-  - OBS-0095
-  - OBS-0096
+  assertions_supported:
+  - ASR-0095
+  - ASR-0096
   provenance: primary_paraphrase
   citation: 'Theodota of Amida, Life, §115 (region of the fortresses; Bīlū/Pīlīn =
     Palu); cf. §§115-116 (lake "Hūrē"); epigraph [citation needed: section/folio]

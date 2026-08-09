@@ -14,8 +14,8 @@
     the early Islamic conquests by Abū ʿUbayda in the reign of ʿUmar I, and that the
     fort at Qūrus was named for one of Abū ʿUbayda's commanders.
   confidence: 3
-  observations_supported:
-  - OBS-0072
+  assertions_supported:
+  - ASR-0072
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

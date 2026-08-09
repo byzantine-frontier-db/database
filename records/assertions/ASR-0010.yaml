@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0010
+  proposition: Theophilos's 837 raid on Zibatra/Sozopetra provoked the 838 Abbasid
+    campaign.
+  associated_entities:
+  - ENT-EVT-0008
+  - ENT-EVT-0001
+  - ENT-PLC-0007
+  supporting_attestations:
+  - ATT-0040
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

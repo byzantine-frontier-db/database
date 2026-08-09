@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0007
-  observations_supported:
-  - OBS-0254
+  assertions_supported:
+  - ASR-0254
   provenance: primary_observation
   citation: 'Eger 2008, Appendix 2, s.v. Zibaṭra, p. 551, “Personal Observations, 8/19/2005” (SRC-0065).
     [citation needed: exact page span — page-map conflates Tīzīn/Zibaṭra at p. 551].'
@@ -22,7 +22,7 @@
     confidence: 5
   confidence: 4
   notes: Section-4 first-person autopsy; schema v2 (primary_observation + observation_date). Closes
-    the Eger 2008 appendix. Supports OBS-0254 and the identification argument INT-0173. editorial_review_required.
+    the Eger 2008 appendix. Supports ASR-0254 and the identification argument INT-0173. editorial_review_required.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

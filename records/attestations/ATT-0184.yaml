@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0114
   - ENT-PERS-0053
-  observations_supported:
-  - OBS-0115
+  assertions_supported:
+  - ASR-0115
   provenance: modern_synthesis
   citation: Eger 2015, pp. 152-153 (Nahr Saʿīd).
   paraphrase: Eger reports that textual evidence attributes the digging of the Nahr

@@ -13,8 +13,8 @@
   location_within_source: Muʿjam al-buldān 4.132
   confidence: 3
   notes: 'Secondary route: Eger 2015, p. 88, n. 43. Verse not reproduced (fair-use/IP).'
-  observations_supported:
-  - OBS-0054
+  assertions_supported:
+  - ASR-0054
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

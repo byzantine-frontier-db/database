@@ -5,8 +5,8 @@
   - ENT-PLC-0112
   - ENT-EVT-0029
   - ENT-PERS-0038
-  observations_supported:
-  - OBS-0113
+  assertions_supported:
+  - ASR-0113
   provenance: primary_quotation
   citation: al-Balādhurī, Futūḥ al-buldān (1987 ed.), p. 247; reached via Eger 2015,
     p. 154 n. 50.

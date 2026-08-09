@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0144
   - ENT-PERS-0019
-  observations_supported:
-  - OBS-0154
+  assertions_supported:
+  - ASR-0154
   provenance: primary_paraphrase
   citation: 'Michael the Syrian, Chronique (ed. Chabot) [citation needed: exact vol./page]'
   paraphrase: Per Michael the Syrian, the Hanī's revenue surpassed the empire's total

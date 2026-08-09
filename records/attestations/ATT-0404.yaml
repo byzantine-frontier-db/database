@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0121
-  observations_supported:
-  - OBS-0245
+  assertions_supported:
+  - ASR-0245
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Al-Kanīsa as-Sawdāʾ (Gözeneler), pp. 479–486, "Personal
     Observations, 8/2/04" (SRC-0065).
@@ -23,7 +23,7 @@
     precision: exact_day
     confidence: 5
   confidence: 4
-  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0245. schema v2 record.
+  notes: Section-4 first-person autopsy (dated site visit). Supports ASR-0245. schema v2 record.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

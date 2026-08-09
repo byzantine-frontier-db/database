@@ -9,8 +9,8 @@
   - ENT-PLC-0091
   - ENT-EVT-0033
   - ENT-POL-0005
-  observations_supported:
-  - OBS-0188
+  assertions_supported:
+  - ASR-0188
   provenance: primary_quotation
   citation: al-Balādhurī, Futūḥ al-buldān (1957-8), p. 245; trans. following P. K.
     Hitti, Origins of the Islamic State, p. 278; reached via Eger 2015, pp. 234-235,

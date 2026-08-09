@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0120
-  observations_supported:
-  - OBS-0240
+  assertions_supported:
+  - ASR-0240
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, pp. 441–449, "Personal Observations" (SRC-0065),
     reporting the first (2004) visit.
@@ -19,7 +19,7 @@
     a separate, year-precise observation distinct from the day-dated 8/3/04 block, since
     the text places the coin find on the earlier "first visit in 2004" (no day given).
     A stray surface find; a post-reform Umayyad coin is a mild tension with the mid-eighth-century
-    resettlement reading (OBS-0239) and is flagged as such.
+    resettlement reading (ASR-0239) and is flagged as such.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

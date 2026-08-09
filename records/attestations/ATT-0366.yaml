@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0068
-  observations_supported:
-  - OBS-0242
+  assertions_supported:
+  - ASR-0242
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Al-Ḥadath (al-Ḥamrāʾ), pp. 458–462, "Personal
     Observations, 9/25/04" (SRC-0065).
@@ -22,7 +22,7 @@
   confidence: 4
   notes: Section-4 first-person autopsy (dated site visit); schema v2 record (primary_observation
     + observation_date). This autopsy is the empirical core of Eger's identification
-    (INT-0165); supports OBS-0242. NB the entry dates both the Dulūk and the al-Ḥadath
+    (INT-0165); supports ASR-0242. NB the entry dates both the Dulūk and the al-Ḥadath
     personal observations to 9/25/04; taken at face value (a same-day field itinerary
     along the Narlı–Gölbaşı corridor is plausible), flagged for editorial confirmation
     against the printed appendix.

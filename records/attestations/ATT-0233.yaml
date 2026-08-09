@@ -3,8 +3,8 @@
   source: SRC-0045
   entities_referenced:
   - ENT-PLC-0056
-  observations_supported:
-  - OBS-0167
+  assertions_supported:
+  - ASR-0167
   provenance: primary_paraphrase
   citation: Life of Timothy of Khākhushtā (ed./trans. Lamoreaux & Cairala, PO 48/4,
     2000, pp.9-33)

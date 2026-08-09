@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0058
   - ENT-PLC-0056
-  observations_supported:
-  - OBS-0166
+  assertions_supported:
+  - ASR-0166
   provenance: primary_paraphrase
   citation: Ibn Buṭlān, via Yāqūt, Muʿjam al-buldān (1990), 3.283
   paraphrase: Ibn Buṭlān refers to the Monastery of Qalʿat Simʿān and a 400,000-dinar

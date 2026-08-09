@@ -3,8 +3,8 @@
   source: SRC-0007
   entities_referenced:
   - ENT-PLC-0107
-  observations_supported:
-  - OBS-0116
+  assertions_supported:
+  - ASR-0116
   provenance: modern_synthesis
   citation: Eger 2015, pp. 146-147 (Tell Brak way station).
   paraphrase: Eger describes the Early Islamic way station at Tell Brak — a fortified

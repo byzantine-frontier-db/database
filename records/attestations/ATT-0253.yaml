@@ -9,9 +9,9 @@
   - ENT-PLC-0010
   - ENT-POL-0002
   - ENT-POL-0003
-  observations_supported:
-  - OBS-0184
-  - OBS-0185
+  assertions_supported:
+  - ASR-0184
+  - ASR-0185
   provenance: modern_synthesis
   citation: 'Eger 2015, p. 230 (citing fns 91-94: Kennedy; Wheatley; Wilkinson; Squatriti/Rashev).'
   paraphrase: Eger argues the frontier settlement pattern was not a border but a military/economic

@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0138
+  proposition: al-Muthaqqab, Bayās and al-Iskandarūna formed a group of smaller coastal
+    Plain-of-Issus thughūr settlements built/fortified under the Umayyads and Hārūn
+    al-Rashīd.
+  associated_entities:
+  - ENT-PLC-0124
+  - ENT-PLC-0125
+  - ENT-PLC-0126
+  - ENT-PERS-0025
+  - ENT-PERS-0018
+  supporting_attestations:
+  - ATT-0203
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

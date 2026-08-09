@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0113
   - ENT-PERS-0019
-  observations_supported:
-  - OBS-0112
+  assertions_supported:
+  - ASR-0112
   provenance: primary_paraphrase
   citation: al-Ṭabarī, Taʾrīkh al-rusul wa-l-mulūk, II.1735 (Arabic); trans. vol.
     26, p. 778 (English); reached via Eger 2015, p. 152 n. 46.

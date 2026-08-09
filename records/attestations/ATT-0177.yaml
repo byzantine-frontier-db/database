@@ -3,8 +3,8 @@
   source: SRC-0034
   entities_referenced:
   - ENT-PLC-0095
-  observations_supported:
-  - OBS-0114
+  assertions_supported:
+  - ASR-0114
   provenance: primary_paraphrase
   citation: Ibn Serapion, Description of Mesopotamia and Baghdad, section III, p.
     12 (Arabic) / p. 55 (trans. Le Strange); reached via Eger 2015, p. 155 n. 55.

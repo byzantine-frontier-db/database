@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0133
+  proposition: ʿAyn Zarba's ceramic sequence shows a marked mid-8th-10th-century occupation,
+    partially corroborating its textual fortification by Hārūn al-Rashīd (796/804),
+    with later Byzantine reoccupation.
+  associated_entities:
+  - ENT-PLC-0120
+  - ENT-PERS-0018
+  supporting_attestations:
+  - ATT-0200
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

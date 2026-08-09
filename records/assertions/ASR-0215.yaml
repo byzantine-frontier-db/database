@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0215
+  proposition: The summit fortification at Çadır Höyük protected a storage area and
+    a livestock stable for a population on a lower terrace.
+  associated_entities:
+  - ENT-PLC-0160
+  supporting_attestations:
+  - ATT-0289
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

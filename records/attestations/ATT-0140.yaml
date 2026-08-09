@@ -10,8 +10,8 @@
     Mar Jacob in Kaysūm in the early ninth century, and that Kaysūm and Sanjah-Bahasnā,
     assumed (unverified) former Late Roman towns of Syriac communities, replaced Hadath.
   confidence: 3
-  observations_supported:
-  - OBS-0078
+  assertions_supported:
+  - ASR-0078
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

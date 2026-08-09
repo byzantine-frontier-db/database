@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0167
+  proposition: In the Life of Theodota of Amida (§85) an officer, Sargis, is sent
+    by the qāʾid of Sumaysāṭ to collect kharāj and jizya at the monastery Dayr Mār
+    Sarjiyūs al-ʿArīḍ near Hisn Qalawdhiya; (§127) a monastery becomes exempt from
+    the jizya.
+  associated_entities:
+  - ENT-PLC-0146
+  - ENT-PLC-0077
+  - ENT-PLC-0073
+  - ENT-PERS-0033
+  supporting_attestations:
+  - ATT-0233
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

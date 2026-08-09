@@ -1,0 +1,26 @@
+- record_type: assertion
+  id: ASR-0171
+  proposition: Water-lifting wheels (naʿūra, sāqiya) were used on the deeply incised
+    northern Euphrates; qadus jars at Dibsi Faraj attest such installations; villages
+    named Nāʿūra (between Halab and Bālis near Jabbūl Lake) and al-Dāliya (near al-Raḥba
+    on the Nahr Saʿīd) preserve the toponymy, and Hārūn al-Rashīd observed naʿūra
+    wheels at al-Raḥba.
+  associated_entities:
+  - ENT-PLC-0036
+  - ENT-PLC-0050
+  - ENT-PLC-0111
+  - ENT-PLC-0110
+  - ENT-PERS-0018
+  - ENT-PLC-0034
+  - ENT-PLC-0037
+  - ENT-PLC-0049
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0237
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

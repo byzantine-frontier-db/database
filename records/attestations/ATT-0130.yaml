@@ -12,8 +12,8 @@
     period.
   confidence: 3
   notes: Brother Saʿīd al-Khayr not minted as a PersonRecord.
-  observations_supported:
-  - OBS-0070
+  assertions_supported:
+  - ASR-0070
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

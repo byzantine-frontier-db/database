@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0250
+  proposition: At Sīs the precise location of the lower town (and of the classical and Early
+    Islamic settlement) is unknown and probably lies beneath modern Kozan, obscured by development;
+    the surviving castle is a precarious, strongly walled fortress rather than a town, commanding
+    the Cilician Plain, with buildings at the base of the outcrop probably belonging to the
+    Armenian castle.
+  associated_entities:
+  - ENT-PLC-0127
+  supporting_attestations:
+  - ATT-0466
+  notes: Derived from Eger's dated 2004 autopsy (Section 4). The lower-town-under-Kozan reading
+    is Eger's cautious inference; the castle description is direct observation.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

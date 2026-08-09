@@ -11,9 +11,9 @@
   - ENT-EVT-0052
   - ENT-EVT-0054
   - ENT-POL-0001
-  observations_supported:
-  - OBS-0228
-  - OBS-0231
+  assertions_supported:
+  - ASR-0228
+  - ASR-0231
   provenance: primary_paraphrase
   citation: al-Ṭabarī, Taʾrīkh, III.1,168-9 / vol. 33 p. 11; III.1,167 / vol. 33 p.
     8; III.1069 / vol. 32 p. 140; III.1,426 / vol. 34 p. 137; reached via Eger 2015,

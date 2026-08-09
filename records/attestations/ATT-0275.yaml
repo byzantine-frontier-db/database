@@ -9,8 +9,8 @@
   - ENT-PLC-0031
   - ENT-PLC-0047
   - ENT-PLC-0010
-  observations_supported:
-  - OBS-0200
+  assertions_supported:
+  - ASR-0200
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 242-243 (citing fn 134: Straughn).'
   paraphrase: Highland Muslim communities are barely evidenced - the exceptions being

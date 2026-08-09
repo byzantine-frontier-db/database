@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0241
+  proposition: Late Roman and Early Islamic pottery is scattered on and to the north
+    of the Dülük Baba mound, densest on the mound flank; the ceramics on the mound
+    itself may indicate an Early Islamic occupation continuous with the adjacent monastery,
+    rather than only the pre-Islamic sanctuary.
+  associated_entities:
+  - ENT-PLC-0062
+  supporting_attestations:
+  - ATT-0357
+  notes: Derived from Eger's dated 2004 autopsy (Section 4). A positive surface-ceramic
+    observation; the mound-occupation reading is Eger's cautious inference, not a
+    stratified result.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

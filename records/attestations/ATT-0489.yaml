@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0080
-  observations_supported:
-  - OBS-0252
+  assertions_supported:
+  - ASR-0252
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Ṭaranda, pp. 536–537, “Personal Observations, 8/19/05” (SRC-0065).
   paraphrase: 'On a visit of 19 August 2005 Eger observed Ṭaranda just west of modern Darende, in
@@ -20,7 +20,7 @@
     confidence: 5
   confidence: 4
   notes: Section-4 first-person autopsy (dated site visit); schema v2 record (primary_observation
-    + observation_date). Supports OBS-0252. editorial_review_required.
+    + observation_date). Supports ASR-0252. editorial_review_required.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

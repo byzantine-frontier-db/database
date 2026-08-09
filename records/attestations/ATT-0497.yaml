@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0004
-  observations_supported:
-  - OBS-0253
+  assertions_supported:
+  - ASR-0253
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550, “Personal Observations, 7/05” (SRC-0065).
   paraphrase: 'On a visit of July 2005 Eger examined the Ṭarsūs material at first hand: the Cumhuriyet
@@ -22,7 +22,7 @@
     confidence: 4
   confidence: 4
   notes: Section-4 first-person autopsy; schema v2 (primary_observation + observation_date, month
-    precision — the gazetteer gives ‘7/05’ without a day). Supports OBS-0253. editorial_review_required.
+    precision — the gazetteer gives ‘7/05’ without a day). Supports ASR-0253. editorial_review_required.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

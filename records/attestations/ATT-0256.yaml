@@ -3,8 +3,8 @@
   source: SRC-0051
   entities_referenced:
   - ENT-PLC-0010
-  observations_supported:
-  - OBS-0186
+  assertions_supported:
+  - ASR-0186
   provenance: primary_quotation
   citation: 'al-Muhallabī (d. 990), geographical work [citation needed: edition],
     reached via O. R. Constable, Housing the Stranger in the Mediterranean World (Cambridge,

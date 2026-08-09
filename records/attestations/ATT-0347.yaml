@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0120
-  observations_supported:
-  - OBS-0239
+  assertions_supported:
+  - ASR-0239
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. ʿAyn Zarba, pp. 441–449, "Personal Observations, 8/3/04"
     (SRC-0065).

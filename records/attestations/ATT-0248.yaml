@@ -31,5 +31,5 @@
     workflow_state: draft
     editorial_review_required: true
   editorial_review_required: true
-  observations_supported:
-  - OBS-0181
+  assertions_supported:
+  - ASR-0181

@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0009
+  proposition: Al-Muʿtaṣim's column captured Ancyra in late July 838 before the army
+    reunited for Amorium.
+  associated_entities:
+  - ENT-EVT-0004
+  - ENT-PLC-0006
+  - ENT-PERS-0001
+  supporting_attestations:
+  - ATT-0030
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

@@ -9,8 +9,8 @@
   citation: 'Mustawfī, Nuzhat al-Qulūb, trans. G. Le Strange (Leiden: Brill, 1919),
     pp. 102-6; reached via Eger 2015 p. 71 n. 5.'
   confidence: 3
-  observations_supported:
-  - OBS-0039
+  assertions_supported:
+  - ASR-0039
   paraphrase: A fourteenth-century list of towns and agricultural products of the
     region (olives, cotton, fruit and nut trees, raisins from Manbij, salt and fish
     from the Jabbūl lake, etc.).

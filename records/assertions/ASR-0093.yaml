@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0093
+  proposition: Taranda held an Islamic garrison between 702 and 719 and was regarded
+    as a Paulician fortress in 872.
+  associated_entities:
+  - ENT-PLC-0080
+  supporting_attestations:
+  - ATT-0153
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

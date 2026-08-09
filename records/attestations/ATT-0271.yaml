@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0153
   - ENT-EVT-0041
-  observations_supported:
-  - OBS-0197
+  assertions_supported:
+  - ASR-0197
   provenance: primary_paraphrase
   citation: 'Acta S. Theodori 54B, cited in F. Trombley, ''The decline of the seventh-century
     town: the exception of Euchaita'' (Malibu, CA, 1985), n. 63, p. 80; reached via

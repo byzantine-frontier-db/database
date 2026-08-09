@@ -19,8 +19,8 @@
     Khurradādhbih locating al-Jūma on a hill overlooking the Amuq, south of Qūrus).
     Both share the source; retained as distinct because this records ʿawāṣim list-membership
     while ATT-0397 carries the specific location.'
-  observations_supported:
-  - OBS-0068
+  assertions_supported:
+  - ASR-0068
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.1

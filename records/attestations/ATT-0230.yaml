@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0031
   - ENT-PLC-0021
-  observations_supported:
-  - OBS-0164
+  assertions_supported:
+  - ASR-0164
   provenance: modern_synthesis
   citation: Eger 2015 pp.202-3, synthesising surface survey and excavation at Domuztepe
     (KM 97) and J. Bradbury on tell-top burials

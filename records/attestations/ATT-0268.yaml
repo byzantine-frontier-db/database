@@ -15,10 +15,10 @@
   - ENT-POL-0002
   - ENT-EVT-0037
   - ENT-EVT-0038
-  observations_supported:
-  - OBS-0193
-  - OBS-0194
-  - OBS-0196
+  assertions_supported:
+  - ASR-0193
+  - ASR-0194
+  - ASR-0196
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 236-237 (citing fns 112, 114: Abu Ezzah; Cooperson).'
   paraphrase: al-Mahdī moved the capital from Baghdad to Ḥalab in 778; Hārūn established
@@ -27,7 +27,7 @@
     Gates and was buried at Tarsus; and al-Muʿtaṣim headquartered at Dābiq and received
     the caliphate at Tarsus.
   confidence: 4
-  notes: 'Death of al-Maʾmūn (833) captured via OBS-1213 + REL-1216 rather than a
+  notes: 'Death of al-Maʾmūn (833) captured via ASR-1213 + REL-1216 rather than a
     dedicated event: EventSubCategory has no ''death''/''burial'' value (flagged for
     Technical Lead). OCR in Eger garbles al-Maʾmūn''s reign dates (''813-17/19'');
     death year 833 follows Cooperson (fn 114).'

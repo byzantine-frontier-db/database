@@ -11,8 +11,8 @@
     the pools of the congregational mosque via a 12 km canal.
   confidence: 3
   notes: 'Secondary route: Eger 2015, p. 87, n. 39.'
-  observations_supported:
-  - OBS-0055
+  assertions_supported:
+  - ASR-0055
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

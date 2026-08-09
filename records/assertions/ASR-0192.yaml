@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0192
+  proposition: Under al-Manṣūr a programme rebuilt four towns between 756 and 760,
+    carried out by Ṣāliḥ b. ʿAlī.
+  associated_entities:
+  - ENT-PERS-0038
+  - ENT-PERS-0042
+  - ENT-PLC-0115
+  supporting_attestations:
+  - ATT-0267
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

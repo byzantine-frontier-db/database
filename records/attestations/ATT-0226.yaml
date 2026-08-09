@@ -8,8 +8,8 @@
   - ENT-PLC-0111
   - ENT-PERS-0053
   - ENT-PERS-0056
-  observations_supported:
-  - OBS-0160
+  assertions_supported:
+  - ASR-0160
   provenance: modern_synthesis
   citation: 'Eger 2015 p.211 [citation needed: primary source for the Nahr Saʿīd qaṭīʿa
     grant]'

@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0037
+  proposition: Hārūn al-Rashīd apportioned the eastern half of the central frontier
+    to a second line of winter garrisons, the ʿawāṣim, centred on the provincial capital
+    Ḥalab.
+  associated_entities:
+  - ENT-EVT-0011
+  - ENT-PLC-0009
+  - ENT-PERS-0018
+  - ENT-PLC-0034
+  supporting_attestations:
+  - ATT-0089
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -6,8 +6,8 @@
   - ENT-PLC-0170
   - ENT-PLC-0125
   - ENT-PLC-0029
-  observations_supported:
-  - OBS-0224
+  assertions_supported:
+  - ASR-0224
   provenance: primary_paraphrase
   citation: al-Balādhurī, Futūḥ al-buldān (1957-8), pp. 217-18, 221; reached via Eger
     2015, pp. 295-6.

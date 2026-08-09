@@ -11,9 +11,9 @@
   - ENT-PERS-0056
   - ENT-PERS-0044
   - ENT-PLC-0118
-  observations_supported:
-  - OBS-0229
-  - OBS-0230
+  assertions_supported:
+  - ASR-0229
+  - ASR-0230
   provenance: primary_paraphrase
   citation: al-Balādhurī, Futūḥ al-buldān (1957-8), p. 230; reached via Eger 2015,
     p. 304.

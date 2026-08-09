@@ -26,5 +26,5 @@
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
-  observations_supported:
-  - OBS-0109
+  assertions_supported:
+  - ASR-0109

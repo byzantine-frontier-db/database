@@ -11,8 +11,8 @@
   confidence: 3
   notes: 'Yāqūt mention noted by Eger at p. 93 (fn 60); exact Yāqūt volume/page not
     given here [citation needed: Yāqūt volume and page].'
-  observations_supported:
-  - OBS-0081
+  assertions_supported:
+  - ASR-0081
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

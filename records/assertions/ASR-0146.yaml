@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0146
+  proposition: In the fourth century the hills around Antioch were cultivated up to
+    their summits and were said to rival the plains below in fertility.
+  associated_entities:
+  - ENT-PLC-0022
+  supporting_attestations:
+  - ATT-0211
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

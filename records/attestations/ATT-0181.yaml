@@ -6,8 +6,8 @@
   - ENT-EVT-0030
   - ENT-PERS-0054
   - ENT-PERS-0039
-  observations_supported:
-  - OBS-0118
+  assertions_supported:
+  - ASR-0118
   provenance: modern_identification
   citation: Eger 2015, p. 153 (Raḥba = Mayādīn/Site 51).
   paraphrase: Eger identifies Raḥba (Raḥba Mālik b. Ṭawq) with the site of Mayādīn/Site

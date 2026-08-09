@@ -12,8 +12,8 @@
     "desert castle" than a thughūr town; it had been a Byzantine and Ghassanid centre
     before Hishām developed it.
   confidence: 3
-  observations_supported:
-  - OBS-0077
+  assertions_supported:
+  - ASR-0077
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

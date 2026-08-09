@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0059
+  proposition: Khusāf (Zarāʿat Banī Zufar), probably Tell Khzaf, was a canal-watered
+    settlement near the Jabbūl Lake; Yāqūt reports extensive ruins around it.
+  associated_entities:
+  - ENT-PLC-0051
+  supporting_attestations:
+  - ATT-0113
+  - ATT-0114
+  - ATT-0115
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

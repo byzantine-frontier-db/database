@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0242
+  proposition: At the Bozlar site in the Gölbaşı valley a massive limestone-ashlar
+    city wall with a rubble-and-mortar core and square buttresses survives to a length
+    of about 50 m, guarding the entrance to the Darb al-Ḥadath pass; surface pottery
+    spans Roman to Early Islamic.
+  associated_entities:
+  - ENT-PLC-0068
+  supporting_attestations:
+  - ATT-0366
+  notes: Derived from Eger's dated 2004 autopsy (Section 4). The standing wall is
+    the 'large and unmistakable city walls' whose omission from Sinclair's account
+    Eger flags; it grounds the Bozlar identification (INT-0165).
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-06T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -10,8 +10,8 @@
   citation: al-Ṭabarī, Taʾrīkh al-rusul wa-l-mulūk, III.604 (Arabic) / vol. 30, p.
     99 (Bosworth trans.); reached via Eger 2015 p. 69 n. 2.
   confidence: 4
-  observations_supported:
-  - OBS-0037
+  assertions_supported:
+  - ASR-0037
   paraphrase: Hārūn al-Rashīd apportioned the eastern half of the central frontier
     area to a second line of winter garrisons, the ʿawāṣim, around Ḥalab.
   location_within_source: Ṭabarī III.604

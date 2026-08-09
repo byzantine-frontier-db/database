@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0091
+  proposition: Qālīqalā was first conquered by ʿUbayd Allāh b. ʿAbd al-Malik under
+    ʿAbd al-Malik, retaken by Constantine V, and rebuilt by al-Manṣūr.
+  associated_entities:
+  - ENT-PLC-0079
+  - ENT-PERS-0046
+  - ENT-PERS-0045
+  - ENT-PERS-0047
+  - ENT-PERS-0038
+  supporting_attestations:
+  - ATT-0153
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

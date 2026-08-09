@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PERS-0036
   - ENT-PLC-0093
-  observations_supported:
-  - OBS-0165
+  assertions_supported:
+  - ASR-0165
   provenance: primary_paraphrase
   citation: Life of St Simeon of the Olives, via Eger 2015 p.204
   paraphrase: Simeon of the Olives travelled between Ḥarrān and the Ṭūr ʿAbdīn at

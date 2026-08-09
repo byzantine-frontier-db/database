@@ -7,8 +7,8 @@
   - ENT-PLC-0034
   - ENT-PLC-0036
   - ENT-PLC-0107
-  observations_supported:
-  - OBS-0173
+  assertions_supported:
+  - ASR-0173
   provenance: modern_synthesis
   citation: Eger 2015 pp.208-9, synthesising Ur, Karsgaard & Oates, 'The Spatial Dimensions
     of Early Mesopotamian Urbanism', p.16

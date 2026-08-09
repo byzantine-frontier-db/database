@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0122
-  observations_supported:
-  - OBS-0243
+  assertions_supported:
+  - ASR-0243
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Hārūnīyya, pp. 463–469, "Personal Observations, 7/22/05"
     (SRC-0065).
@@ -21,7 +21,7 @@
     precision: exact_day
     confidence: 5
   confidence: 4
-  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0243. schema v2 record
+  notes: Section-4 first-person autopsy (dated site visit). Supports ASR-0243. schema v2 record
     (primary_observation + observation_date).
   metadata:
     schema_version: 2.0.0

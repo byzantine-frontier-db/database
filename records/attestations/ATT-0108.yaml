@@ -8,8 +8,8 @@
   paraphrase: Eger identifies Tell Hailane (Tell Rifaʿat Survey) as most likely Yāqūt's
     Haylān; the latest survey ceramics there were fifth-century.
   confidence: 3
-  observations_supported:
-  - OBS-0055
+  assertions_supported:
+  - ASR-0055
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

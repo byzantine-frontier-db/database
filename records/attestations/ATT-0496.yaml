@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0004
-  observations_supported:
-  - OBS-0253
+  assertions_supported:
+  - ASR-0253
   provenance: archaeological_evidence
   citation: Eger 2008, Appendix 2, s.v. Ṭarsūs, pp. 538–550 (SRC-0065), reporting excavations by
     A. Özyar (Bryn Mawr, Gözlü Küle), L. Zoroğlu and Ç. Toskay-Evrin (Cumhuriyet Meydanı), the 1935
@@ -19,7 +19,7 @@
     coins, oil lamps and Sāmarrā-horizon ceramics.
   confidence: 3
   notes: Section-3 published archaeology, credited to the excavation teams; routed as archaeological_evidence
-    (not primary_observation). Supports OBS-0253. editorial_review_required.
+    (not primary_observation). Supports ASR-0253. editorial_review_required.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

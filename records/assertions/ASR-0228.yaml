@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0228
+  proposition: The Zuṭṭ revolted in the southern Iraqi marshes (813-834) and were
+    deported by al-Muʿtaṣim's commander Ujayf, who sent 27,000 of them via Khāniqīn
+    to ʿAyn Zarba on the thughūr.
+  associated_entities:
+  - ENT-PERS-0082
+  - ENT-PERS-0001
+  - ENT-PLC-0120
+  - ENT-EVT-0052
+  supporting_attestations:
+  - ATT-0324
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0110
+  proposition: Michael the Syrian first mentions cotton grown in the Jazīra in 842,
+    attesting cotton cultivation as a summer crop of the Balikh, Harran and Khabūr
+    plains exported to Syria and beyond.
+  associated_entities:
+  - ENT-PLC-0094
+  supporting_attestations:
+  - ATT-0173
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

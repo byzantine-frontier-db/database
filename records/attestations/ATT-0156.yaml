@@ -12,12 +12,12 @@
   notes: 'Transmission chain: Ibn Serapion -> Eger 2015 p. 129. Eger does not attach
     a footnote to this specific Balikh-source statement on p. 129; section/page within
     Ibn Serapion is [citation needed: section and page]. Records the source-of-the-Balikh
-    disagreement (cf. OBS-0100); the conflict is preserved, not resolved.'
+    disagreement (cf. ASR-0100); the conflict is preserved, not resolved.'
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0
     created_at: '2026-06-16T00:00:00Z'
     workflow_state: draft
     editorial_review_required: true
-  observations_supported:
-  - OBS-0100
+  assertions_supported:
+  - ASR-0100

@@ -9,8 +9,8 @@
   provenance: modern_synthesis
   citation: Eger, The Islamic-Byzantine Frontier (2015), ch. 2, pp. 69-71.
   confidence: 4
-  observations_supported:
-  - OBS-0036
+  assertions_supported:
+  - ASR-0036
   paraphrase: 'Eger sets out the environment of the central thughūr: the Syrian Jibāl/Massif
     of Belus in the west and the Gaziantep plateau and Euphrates steppe in the east,
     with rainfall falling to 200-350 mm/annum eastward, placing much of the region

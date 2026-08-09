@@ -1,0 +1,18 @@
+- record_type: assertion
+  id: ASR-0190
+  proposition: Mālik b. Ṭawq al-Taghlibī obtained lands and waterwheels at Raḥba from
+    Hārūn al-Rashīd.
+  associated_entities:
+  - ENT-PERS-0054
+  - ENT-PERS-0018
+  - ENT-PLC-0110
+  - ENT-PLC-0104
+  supporting_attestations:
+  - ATT-0264
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

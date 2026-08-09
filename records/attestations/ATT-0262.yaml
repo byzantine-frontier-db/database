@@ -10,8 +10,8 @@
   - ENT-PLC-0100
   - ENT-PLC-0152
   - ENT-POL-0003
-  observations_supported:
-  - OBS-0201
+  assertions_supported:
+  - ASR-0201
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 233-234 (citing fns 102-103: Northedge; Heidemann).'
   paraphrase: Late-eighth-century towns form a series of large square plans - Doğanşehir/Zibatra

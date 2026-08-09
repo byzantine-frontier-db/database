@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0180
+  proposition: On the artificial Amuq and Marʿash canals the terminal site is the
+    largest and carries the mills, whereas on the natural Yaghra River the sites are
+    of roughly equal size.
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0023
+  - ENT-PLC-0025
+  supporting_attestations:
+  - ATT-0247
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  editorial_review_required: true

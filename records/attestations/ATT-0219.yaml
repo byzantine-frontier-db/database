@@ -6,9 +6,9 @@
   - ENT-PERS-0019
   - ENT-PLC-0044
   - ENT-PLC-0095
-  observations_supported:
-  - OBS-0152
-  - OBS-0153
+  assertions_supported:
+  - ASR-0152
+  - ASR-0153
   provenance: primary_paraphrase
   citation: 'Pseudo-Dionysius of Tell Maḥrē, Chronicle of Zuqnīn [citation needed:
     exact page in Harrak (trans.), PIMS 1999]'

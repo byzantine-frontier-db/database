@@ -1,0 +1,23 @@
+- record_type: assertion
+  id: ASR-0243
+  proposition: The high-density Late Roman ceramic scatter, reused ashlars and columns, aqueduct
+    traces and Byzantine-style mosaic at the Hacılar/Harab quarter of Düziçi mark a substantial
+    Late Roman/Byzantine settlement (classical Irenopolis); combined with a local hoard of
+    ʿAbbāsid dirhams and an Umayyad lamp reportedly from Düziçi, the location is a strong
+    candidate for Early Islamic Hārūnīyya, though no Early Islamic sherds were recovered on
+    the surface.
+  associated_entities:
+  - ENT-PLC-0122
+  supporting_attestations:
+  - ATT-0371
+  notes: Derived from Eger's dated 2005 autopsy (Section 4). The Early Islamic attribution
+    rests on curated museum objects of reported (not excavated) provenance plus the Late Roman
+    surface assemblage, not on stratified Early Islamic finds — Eger's own inference, flagged
+    as such.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-07T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

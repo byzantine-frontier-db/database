@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0115
+  proposition: The Nahr Saʿīd canal is textually attributed to Saʿīd al-Khayr b. ʿAbd
+    al-Malik, but archaeological dating (soundings, ceramics, radiocarbon) indicates
+    a ninth-century date.
+  associated_entities:
+  - ENT-PLC-0114
+  - ENT-PERS-0053
+  supporting_attestations:
+  - ATT-0184
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

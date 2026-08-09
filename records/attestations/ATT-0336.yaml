@@ -5,8 +5,8 @@
   - ENT-PERS-0018
   - ENT-PLC-0001
   - ENT-PLC-0006
-  observations_supported:
-  - OBS-0234
+  assertions_supported:
+  - ASR-0234
   provenance: primary_paraphrase
   citation: Ibn Abī Uṣaybiʿa, ʿUyūn al-anbāʾ fī ṭabaqāt al-aṭibbāʾ, ed. A. Müller
     (Egypt, 1882), p. 246; reached via J. Tannous, 'Syria Between Byzantium and Islam',

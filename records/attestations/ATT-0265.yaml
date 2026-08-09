@@ -5,8 +5,8 @@
   - ENT-PERS-0020
   - ENT-PLC-0022
   - ENT-EVT-0034
-  observations_supported:
-  - OBS-0189
+  assertions_supported:
+  - ASR-0189
   provenance: primary_paraphrase
   citation: al-Balādhurī, Futūḥ al-buldān (1957-8), pp. 120-1; reached via Eger 2015,
     p. 235, fn 107 (cf. Abu Ezzah; Kennedy, Armies of the Caliphs).

@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0155
+  proposition: Marwān II destroyed the estates of Hishām along the Euphrates, an act
+    that indirectly attests the existence of caliphal estate-lands there.
+  associated_entities:
+  - ENT-PERS-0043
+  - ENT-PERS-0019
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0221
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

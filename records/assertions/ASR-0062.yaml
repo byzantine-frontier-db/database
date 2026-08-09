@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0062
+  proposition: The Life of Theodota of Amida attests eremitic cave-monasticism in
+    the Euphrates region in the late seventh century.
+  associated_entities:
+  - ENT-PERS-0033
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0118
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

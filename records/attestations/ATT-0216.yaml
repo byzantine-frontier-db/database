@@ -3,8 +3,8 @@
   source: SRC-0007
   entities_referenced:
   - ENT-PLC-0138
-  observations_supported:
-  - OBS-0151
+  assertions_supported:
+  - ASR-0151
   provenance: archaeological_evidence
   citation: Eger (SRC-0007), p. 189 (olive press at the fifth/sixth-century Domuztepe
     estate)

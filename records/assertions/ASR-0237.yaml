@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0237
+  proposition: The Adana museum holds a hoard of ʿAbbāsid silver dirhams whose find-provenance
+    is not recorded.
+  associated_entities:
+  - ENT-PLC-0119
+  supporting_attestations:
+  - ATT-0342
+  notes: Unprovenanced hoard; cannot be tied to a stratified context. Recorded for
+    completeness of Eger's 2005 autopsy.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

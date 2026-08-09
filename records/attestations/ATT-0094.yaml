@@ -8,8 +8,8 @@
     of the Tabqa Reservoir, Tabqa Dam, Jabbūl, Nahr Sajūr, Gaziantep, Umm el-Marra/Jabbūl,
     Jerablus Tahtani, TEARP, Tell Rifaʿat and Sweyhat surveys).
   confidence: 4
-  observations_supported:
-  - OBS-0042
+  assertions_supported:
+  - ASR-0042
   paraphrase: 'Eger''s critical review of the regional surveys: chronologies conflate
     Roman with Late Roman and fail to separate Early from Middle Islamic wares, so
     that Early Islamic settlement is repeatedly under-recorded (e.g. brittleware cooking

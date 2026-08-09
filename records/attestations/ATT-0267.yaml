@@ -15,9 +15,9 @@
   - ENT-POL-0003
   - ENT-EVT-0036
   - ENT-EVT-0039
-  observations_supported:
-  - OBS-0192
-  - OBS-0195
+  assertions_supported:
+  - ASR-0192
+  - ASR-0195
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 235-237 (citing fns 109-111: von Sivers; Kennedy; Eger
     gazetteer).'

@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0080
+  proposition: Ḥāfir, a village around a tell between Balis and Ḥalab associated with
+    the monastery Dayr Ḥāfir, was occupied in the Early Islamic period (new Jabbūl
+    Survey, Site 34).
+  associated_entities:
+  - ENT-PLC-0052
+  supporting_attestations:
+  - ATT-0143
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

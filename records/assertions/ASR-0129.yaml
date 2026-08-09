@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0129
+  proposition: A network of Amanus passes (Belen, Bahçe/Darb al-ʿAyn) and plain roads
+    linked the Cilician cities and coastal way stations to Syria and the Taurus.
+  associated_entities:
+  - ENT-PLC-0033
+  - ENT-PLC-0139
+  - ENT-PLC-0118
+  - ENT-PLC-0119
+  - ENT-PLC-0004
+  supporting_attestations:
+  - ATT-0196
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

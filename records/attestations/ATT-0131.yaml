@@ -14,8 +14,8 @@
   location_within_source: Taʾrīkh III.3261
   confidence: 4
   notes: 'Secondary route: Eger 2015, p. 98, n. 81.'
-  observations_supported:
-  - OBS-0071
+  assertions_supported:
+  - ASR-0071
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

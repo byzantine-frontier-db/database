@@ -6,8 +6,8 @@
   - ENT-PLC-0077
   - ENT-PLC-0073
   - ENT-PERS-0033
-  observations_supported:
-  - OBS-0168
+  assertions_supported:
+  - ASR-0168
   provenance: primary_paraphrase
   citation: Theodota of Amida, Life, §85 (and §127), via Eger 2015 pp.208-9 (n.22)
   paraphrase: An officer, Sargis, was sent by the qāʾid of Sumaysāṭ to collect kharāj

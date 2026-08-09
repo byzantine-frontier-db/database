@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0014
+  proposition: Ibn Ḥawqal (writing c.977, revised c.988) describes the Byzantine realm
+    as consisting mostly of mountains, castles (qilāʿ), fortresses (ḥuṣūn), cave-dwellings,
+    and villages dug out of the rock or buried under the earth, with few rich cities.
+  associated_entities:
+  - ENT-POL-0001
+  supporting_attestations:
+  - ATT-0052
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-10T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

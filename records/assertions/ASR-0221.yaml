@@ -1,0 +1,21 @@
+- record_type: assertion
+  id: ASR-0221
+  proposition: 'Movement of population and allegiance across the frontier was two-way:
+    Arab/Muslim groups defected to Byzantium and Christian and other groups entered
+    Islamic service, mediated by categories such as mawālī, mustaʿriba and al-fityān.'
+  associated_entities:
+  - ENT-POL-0001
+  - ENT-POL-0002
+  supporting_attestations:
+  - ATT-0306
+  - ATT-0307
+  - ATT-0308
+  - ATT-0311
+  - ATT-0312
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

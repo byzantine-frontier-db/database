@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0112
+  proposition: A piece of desolate land called Dawrīn, with its villages, was granted
+    to Hishām, who developed it into a revenue-producing estate.
+  associated_entities:
+  - ENT-PLC-0113
+  - ENT-PERS-0019
+  supporting_attestations:
+  - ATT-0175
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0049
+  proposition: Khirbet Dhiman (c. 9 ha) and Khirbet al-Hamra (c. 5 ha) have been estimated
+    to have held populations of c. 864-1,350 and c. 360-563 respectively.
+  associated_entities:
+  - ENT-PLC-0040
+  - ENT-PLC-0041
+  supporting_attestations:
+  - ATT-0101
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

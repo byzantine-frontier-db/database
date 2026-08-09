@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0153
+  proposition: According to Michael the Syrian, the revenue of the Hanī Canal surpassed
+    the amount collected in taxes across the entire empire.
+  associated_entities:
+  - ENT-PLC-0144
+  - ENT-PERS-0019
+  supporting_attestations:
+  - ATT-0219
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -24,6 +24,6 @@
   paraphrase: 'Description of the Cilician geography: the lowland Cilician Plain and
     coastal Plain of Issus, bounded by the Amanus, Taurus and Rough Cilicia; the three
     rivers (Baradān, Sayhān, Jayhān); the Lamis as the western Byzantine boundary.'
-  observations_supported:
-  - OBS-0127
-  - OBS-0128
+  assertions_supported:
+  - ASR-0127
+  - ASR-0128

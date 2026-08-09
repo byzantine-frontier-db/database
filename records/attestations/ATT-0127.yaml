@@ -16,8 +16,8 @@
     with irrigated lands and a fortress). Both share the source and subject; retained
     as distinct because this is a bare list-mention while ATT-0470 is a substantive
     description.'
-  observations_supported:
-  - OBS-0069
+  assertions_supported:
+  - ASR-0069
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.1

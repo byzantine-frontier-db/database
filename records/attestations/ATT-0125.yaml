@@ -15,8 +15,8 @@
     of which fall in the Ḥalab region.
   confidence: 2
   notes: 'Secondary route: Eger 2015, p. 96, n. 74. Edition not specified by Eger.'
-  observations_supported:
-  - OBS-0068
+  assertions_supported:
+  - ASR-0068
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

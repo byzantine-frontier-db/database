@@ -6,8 +6,8 @@
   - ENT-PERS-0075
   - ENT-EVT-0047
   - ENT-PLC-0032
-  observations_supported:
-  - OBS-0225
+  assertions_supported:
+  - ASR-0225
   provenance: primary_quotation
   citation: Chronicle of 1234, p. 182 (with Theophilus of Edessa, Chronicle, pp. 180-2;
     Mango & Scott, p. 506); reached via Eger 2015, pp. 296-7.

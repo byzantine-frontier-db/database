@@ -3,8 +3,8 @@
   source: SRC-0007
   entities_referenced:
   - ENT-PLC-0111
-  observations_supported:
-  - OBS-0119
+  assertions_supported:
+  - ASR-0119
   provenance: modern_identification
   citation: Eger 2015, p. 154 (Dāliya = al-Graiye/Site 44).
   paraphrase: Eger identifies Dāliya ('water-wheel') with al-Graiye/Site 44 (mid eighth

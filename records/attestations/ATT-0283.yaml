@@ -27,5 +27,5 @@
     created_by: Curtis
     workflow_state: draft
     editorial_review_required: true
-  observations_supported:
-  - OBS-0210
+  assertions_supported:
+  - ASR-0210

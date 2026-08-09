@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0002
+  proposition: Amorium fell to Abbasid forces in August 838.
+  associated_entities:
+  - ENT-EVT-0006
+  - ENT-PLC-0001
+  supporting_attestations:
+  - ATT-0001
+  - ATT-0002
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

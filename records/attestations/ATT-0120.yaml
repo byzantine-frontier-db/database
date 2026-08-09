@@ -10,8 +10,8 @@
     themselves in monastery towers (pyrgoi), a survival of the Stylite pillar.
   confidence: 2
   notes: 'Secondary route: Eger 2015, p. 94. [citation needed: edition].'
-  observations_supported:
-  - OBS-0064
+  assertions_supported:
+  - ASR-0064
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

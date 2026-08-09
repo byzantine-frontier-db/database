@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0054
   - ENT-PERS-0033
-  observations_supported:
-  - OBS-0169
+  assertions_supported:
+  - ASR-0169
   provenance: primary_paraphrase
   citation: Theodota of Amida, Life, section p.175, via Eger 2015 p.207 (n.15)
   paraphrase: Irrigation ditches fed fields of grain, fruit and produce around Qenneshre.

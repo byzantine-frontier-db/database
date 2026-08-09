@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0001
+  proposition: Al-Muʿtaṣim led a major campaign against Byzantium in 838.
+  associated_entities:
+  - ENT-EVT-0001
+  - ENT-PERS-0001
+  supporting_attestations:
+  - ATT-0001
+  - ATT-0003
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

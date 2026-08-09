@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0196
+  proposition: al-Maʾmūn died at the Cilician Gates and was buried at Tarsus.
+  associated_entities:
+  - ENT-PERS-0039
+  - ENT-PLC-0005
+  - ENT-PLC-0004
+  supporting_attestations:
+  - ATT-0268
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

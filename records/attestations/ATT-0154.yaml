@@ -11,8 +11,8 @@
   - ENT-PLC-0073
   - ENT-PLC-0044
   - ENT-PLC-0019
-  observations_supported:
-  - OBS-0095
+  assertions_supported:
+  - ASR-0095
   provenance: modern_synthesis
   citation: Eger, A. Asa, The Islamic-Byzantine Frontier (2015), ch. 3, pp. 106-122
     (survey methodology; settlement in the three basins; way stations)

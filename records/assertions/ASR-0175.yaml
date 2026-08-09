@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0175
+  proposition: Large monasteries such as Qartmīn (Mor Gabriel) on the Ṭūr ʿAbdīn could
+    own other monasteries.
+  associated_entities:
+  - ENT-PLC-0148
+  - ENT-PLC-0147
+  supporting_attestations:
+  - ATT-0241
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true
+  editorial_review_required: true

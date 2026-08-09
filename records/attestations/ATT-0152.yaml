@@ -5,8 +5,8 @@
   - ENT-PLC-0016
   - ENT-PLC-0079
   - ENT-EVT-0028
-  observations_supported:
-  - OBS-0090
+  assertions_supported:
+  - ASR-0090
   provenance: primary_paraphrase
   citation: al-Balādhurī, Futūḥ al-buldān (1987 ed.), p. 265 (Malaṭiya), p. 280 (Qālīqalā);
     cf. M. Bonner, Aristocratic Violence and Holy War, p. 143 — reached via Eger 2015

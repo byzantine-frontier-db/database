@@ -18,8 +18,8 @@
     Manbij and Marʿash — received considerable repairs and new construction, many
     of them being part of the ʿawāṣim.
   confidence: 3
-  observations_supported:
-  - OBS-0076
+  assertions_supported:
+  - ASR-0076
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

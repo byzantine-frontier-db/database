@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0134
+  proposition: Kanīsa al-Sawdāʾ (Epiphaneia) shows strong Late Roman, light 7th/8th-century,
+    and an 8th-10th-century Early Islamic phase, fortified by Hārūn al-Rashīd (799/806).
+  associated_entities:
+  - ENT-PLC-0121
+  - ENT-PERS-0018
+  supporting_attestations:
+  - ATT-0201
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

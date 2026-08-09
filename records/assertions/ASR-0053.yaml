@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0053
+  proposition: Michael the Syrian's chronicle lists bishops of Zeugma between 818
+    and 1048, implying a continued ecclesiastical presence later than the archaeological
+    occupation appears to extend.
+  associated_entities:
+  - ENT-PLC-0042
+  supporting_attestations:
+  - ATT-0104
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

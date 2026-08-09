@@ -13,8 +13,8 @@
     continuity past the seventh-century conquests — the reverse of the Amuq and Kahramanmaraş
     Surveys.
   confidence: 3
-  observations_supported:
-  - OBS-0056
+  assertions_supported:
+  - ASR-0056
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

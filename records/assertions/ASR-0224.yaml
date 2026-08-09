@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0224
+  proposition: The Jarājima (Mardaites) were an autonomous, largely Christian mountain
+    population of the Amanus, centred on the town of al-Jurjuma.
+  associated_entities:
+  - ENT-PLC-0032
+  - ENT-PLC-0170
+  supporting_attestations:
+  - ATT-0316
+  editorial_review_required: true
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-21T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

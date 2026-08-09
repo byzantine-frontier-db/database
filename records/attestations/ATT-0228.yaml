@@ -5,8 +5,8 @@
   - ENT-PLC-0093
   - ENT-PERS-0032
   - ENT-PERS-0018
-  observations_supported:
-  - OBS-0162
+  assertions_supported:
+  - ASR-0162
   provenance: primary_paraphrase
   citation: Ibn Shaddād, al-Aʿlāq al-Khaṭīra, p.14
   paraphrase: The canal al-Jullāb, feeding Ḥarrān, was built by al-Mahdī and Hārūn

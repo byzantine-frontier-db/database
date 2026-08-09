@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0162
+  proposition: At Raqqa the Nahr al-Nīl canal, attributed to Hārūn al-Rashīd and c.12
+    m wide, ran past the palaces on the western side of the city and functioned as
+    a moat (khandaq); a qanat fed the northern palaces.
+  associated_entities:
+  - ENT-PLC-0145
+  - ENT-PERS-0018
+  - ENT-PLC-0091
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0228
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

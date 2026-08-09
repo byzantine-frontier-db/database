@@ -14,8 +14,8 @@
     61 monasteries, many continuing into the ninth-tenth centuries; the pilgrimage
     centre at Dayr Simʿan was fortified in the tenth century.
   confidence: 3
-  observations_supported:
-  - OBS-0063
+  assertions_supported:
+  - ASR-0063
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

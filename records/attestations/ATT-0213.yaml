@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0056
   - ENT-PERS-0062
-  observations_supported:
-  - OBS-0148
+  assertions_supported:
+  - ASR-0148
   provenance: primary_quotation
   citation: 'Theodoret of Cyrrhus, Historia Religiosa, ed. Canivet & Leroy-Molinghen,
     Sources Chrétiennes [citation needed: SC volume number], vol. 1 (Cerf, 1977),

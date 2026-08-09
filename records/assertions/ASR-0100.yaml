@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0100
+  proposition: The Balikh River rises from subterranean springs in the Harran Plain,
+    identified as ʿAyn al-ʿArūs or, per Ibn Serapion, ʿAyn al-Dhabbāniyya / al-Dhahbāna,
+    and empties into the Euphrates at Raqqa.
+  associated_entities:
+  - ENT-PLC-0095
+  - ENT-PLC-0096
+  - ENT-PLC-0091
+  supporting_attestations:
+  - ATT-0156
+  - ATT-0157
+  notes: The two named spring-sources represent a preserved disagreement (ʿAyn al-ʿArūs
+    vs Ibn Serapion's ʿAyn al-Dhabbāniyya), not adjudicated here.
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

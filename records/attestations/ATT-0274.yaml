@@ -9,8 +9,8 @@
   - ENT-PERS-0025
   - ENT-PERS-0038
   - ENT-PLC-0010
-  observations_supported:
-  - OBS-0199
+  assertions_supported:
+  - ASR-0199
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 240-243 (citing fns 131-136: Bulliet; Humphreys; Kennedy;
     Katbi).'

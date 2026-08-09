@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0033
+  proposition: Baghras (Ḥiṣn Baghras) had a Friday mosque and a large population in
+    the tenth century, per Ibn Ḥawqal.
+  associated_entities:
+  - ENT-PLC-0027
+  supporting_attestations:
+  - ATT-0080
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

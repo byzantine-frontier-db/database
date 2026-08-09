@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0054
+  proposition: ʿAzāz was archaeologically the heaviest Early Islamic ceramic site
+    of the Tell Rifaʿat Survey yet barely noticed in pre-Crusader texts; Yāqūt records
+    it as a fine town with a monastery and preserves verse set there by Isḥāq al-Mawṣilī.
+  associated_entities:
+  - ENT-PLC-0047
+  - ENT-PERS-0029
+  supporting_attestations:
+  - ATT-0105
+  - ATT-0106
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

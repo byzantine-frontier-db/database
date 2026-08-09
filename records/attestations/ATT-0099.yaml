@@ -11,8 +11,8 @@
   citation: Theophilus of Edessa, Chronicle, p. 147; reached via Eger 2015 p. 83 n.
     30.
   confidence: 3
-  observations_supported:
-  - OBS-0046
+  assertions_supported:
+  - ASR-0046
   paraphrase: At the Battle of Ṣiffīn (657) Muʿāwiya's troops captured the water supply,
     while the caliph ʿAlī's men were reduced to thirst and were deserting.
   direct_quotation: captured the water [supply]

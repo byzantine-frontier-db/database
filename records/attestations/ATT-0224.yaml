@@ -6,8 +6,8 @@
   - ENT-PLC-0098
   - ENT-PLC-0097
   - ENT-PLC-0095
-  observations_supported:
-  - OBS-0158
+  assertions_supported:
+  - ASR-0158
   provenance: primary_paraphrase
   citation: Yāqūt, Muʿjam al-buldān (1990), 2.306; with Ibn Serapion, Description
     of Mesopotamia and Baghdad (notes by Le Strange), p. 59

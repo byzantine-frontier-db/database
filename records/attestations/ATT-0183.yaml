@@ -9,8 +9,8 @@
   - ENT-PLC-0093
   - ENT-PERS-0038
   - ENT-PERS-0018
-  observations_supported:
-  - OBS-0113
+  assertions_supported:
+  - ASR-0113
   provenance: modern_synthesis
   citation: Eger 2015, pp. 154-155 (Towns).
   paraphrase: Eger names Raqqa, Rāfiqa and Ḥarrān as the large settlements of the

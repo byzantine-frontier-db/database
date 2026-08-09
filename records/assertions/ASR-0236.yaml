@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0236
+  proposition: On the ground surface of Adhana's east bank no trace remains of the
+    ruined castle or "great mosque" recorded by nineteenth-century travellers; aside
+    from the Roman bridge, little of the city's antiquity survives above ground.
+  associated_entities:
+  - ENT-PLC-0119
+  supporting_attestations:
+  - ATT-0341
+  notes: Derived from Eger's dated 2005 autopsy (Section 4). A negative surface observation
+    on a heavily built-over modern city — absence of visible remains, not absence of
+    buried remains.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-05T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

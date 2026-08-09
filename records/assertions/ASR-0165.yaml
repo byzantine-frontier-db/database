@@ -1,0 +1,18 @@
+- record_type: assertion
+  id: ASR-0165
+  proposition: Ibn Buṭlān reported that the Monastery of Qalʿat Simʿān and its grounds
+    equalled half the city of Baghdad, with a yearly income of 400,000 dinars — by
+    Eger's assessment an evident exaggeration, but indicative of monasteries as significant
+    economic players.
+  associated_entities:
+  - ENT-PLC-0058
+  - ENT-PLC-0056
+  supporting_attestations:
+  - ATT-0231
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

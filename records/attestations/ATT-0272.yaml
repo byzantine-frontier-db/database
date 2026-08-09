@@ -14,8 +14,8 @@
   - ENT-PLC-0009
   - ENT-POL-0001
   - ENT-PLC-0010
-  observations_supported:
-  - OBS-0198
+  assertions_supported:
+  - ASR-0198
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 238-241 (citing fns 127-129: McCormick; Tannous; Straughn).'
   paraphrase: Markets and merchants are attested in at least seven frontier towns

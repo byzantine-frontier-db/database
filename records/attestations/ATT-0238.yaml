@@ -11,8 +11,8 @@
   - ENT-PLC-0037
   - ENT-PLC-0049
   - ENT-PLC-0044
-  observations_supported:
-  - OBS-0172
+  assertions_supported:
+  - ASR-0172
   provenance: modern_synthesis
   citation: Eger 2015 pp.212-13
   paraphrase: Waterwheel evidence includes qadūs jars at Dibsi Faraj, the toponyms

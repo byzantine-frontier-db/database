@@ -21,8 +21,8 @@
   notes: 'Secondary route: Eger 2015, p. 90, n. 51. Minor route-nodes (al-Iskandarūna,
     al-Atharib, Ṣiffīn, Dawsar, Baṭn Dāmān, Raqqah, Funduq al-Ḥusayn) deferred — not
     minted.'
-  observations_supported:
-  - OBS-0060
+  assertions_supported:
+  - ASR-0060
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

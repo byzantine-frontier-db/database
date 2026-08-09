@@ -10,8 +10,8 @@
     and a reused eighth-century Syriac building inscription, suggesting a possible
     Christian/monastic community before its main eleventh-twelfth-century occupation.
   confidence: 3
-  observations_supported:
-  - OBS-0082
+  assertions_supported:
+  - ASR-0082
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0073
   - ENT-PERS-0041
-  observations_supported:
-  - OBS-0098
+  assertions_supported:
+  - ASR-0098
   provenance: primary_paraphrase
   citation: Ibn Shaddād, al-Aʿlāq al-Khaṭīra, p. 2.192 — reached via Eger 2015 (SRC-0007),
     p. 122 (ch.3 fn 31)

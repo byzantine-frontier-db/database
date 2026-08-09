@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0169
+  proposition: On conquering Raqqa and its region, Iyāḍ ibn Ghanm left the majority
+    of the land with its already-established farmers (al-fallāḥīn / al-arīsīyīn).
+  associated_entities:
+  - ENT-PERS-0064
+  - ENT-PLC-0091
+  supporting_attestations:
+  - ATT-0235
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

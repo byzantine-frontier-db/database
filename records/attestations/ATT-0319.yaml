@@ -6,8 +6,8 @@
   - ENT-PERS-0056
   - ENT-PERS-0076
   - ENT-PLC-0014
-  observations_supported:
-  - OBS-0226
+  assertions_supported:
+  - ASR-0226
   provenance: primary_paraphrase
   citation: al-Ṭabarī, Taʾrīkh, II.1,185 (Arabic) / vol. 23 p. 134 (English); reached
     via Eger 2015, p. 296.

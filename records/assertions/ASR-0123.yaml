@@ -1,0 +1,18 @@
+- record_type: assertion
+  id: ASR-0123
+  proposition: Riverine silting and coastal progradation in Cilicia were recognised
+    already in antiquity (Strabo on the Pyramus; a Theodosian-Code law on clearing
+    the Orontes).
+  associated_entities:
+  - ENT-PLC-0133
+  - ENT-PLC-0022
+  supporting_attestations:
+  - ATT-0188
+  - ATT-0194
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

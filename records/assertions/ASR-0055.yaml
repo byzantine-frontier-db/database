@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0055
+  proposition: Tell Hailane is most likely Yāqūt's Haylān, a village supplying Ḥalab's
+    mosque pools via a 12 km canal.
+  associated_entities:
+  - ENT-PLC-0048
+  - ENT-PLC-0034
+  supporting_attestations:
+  - ATT-0107
+  - ATT-0108
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

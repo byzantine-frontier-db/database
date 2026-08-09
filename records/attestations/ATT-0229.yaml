@@ -7,8 +7,8 @@
   - ENT-PLC-0091
   - ENT-PLC-0044
   - ENT-PLC-0095
-  observations_supported:
-  - OBS-0163
+  assertions_supported:
+  - ASR-0163
   provenance: modern_synthesis
   citation: 'Eger 2015 p.211, synthesising Toueir, ''Le Nahr el-Nil'', p.218; Heidemann;
     and Challis et al., CORONA imagery, pp.148-9 [citation needed: full Toueir & Challis

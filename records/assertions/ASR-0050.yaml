@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0050
+  proposition: Early Islamic sites at Jerablus Tahtani and in the Birecik area reused
+    pre-existing Late Roman canal and qanat systems along the Euphrates and its tributaries.
+  associated_entities:
+  - ENT-PLC-0044
+  - ENT-PLC-0042
+  supporting_attestations:
+  - ATT-0102
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

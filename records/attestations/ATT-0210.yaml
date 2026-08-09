@@ -3,8 +3,8 @@
   source: SRC-0042
   entities_referenced:
   - ENT-POL-0001
-  observations_supported:
-  - OBS-0145
+  assertions_supported:
+  - ASR-0145
   provenance: primary_paraphrase
   citation: Ḥudūd al-ʿĀlam, trans. Minorsky 1937, pp. 156–7; reached via Eger, The
     Islamic-Byzantine Frontier (SRC-0007), p. 183 (epigraph, n. 1)

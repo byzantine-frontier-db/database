@@ -6,8 +6,8 @@
   - ENT-PLC-0073
   - ENT-PLC-0016
   - ENT-PLC-0077
-  observations_supported:
-  - OBS-0149
+  assertions_supported:
+  - ASR-0149
   provenance: primary_paraphrase
   citation: John of Ephesus, Lives of the Eastern Saints (Life of Simeon the Mountaineer),
     ed. and trans. Brooks, Patrologia Orientalis 17 (1923), pp. 233–4; reached via

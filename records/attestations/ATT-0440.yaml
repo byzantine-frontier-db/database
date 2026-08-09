@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0124
-  observations_supported:
-  - OBS-0247
+  assertions_supported:
+  - ASR-0247
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Al-Muthaqqab, pp. 510–512, "Personal Observations,
     07/20/05" (SRC-0065).
@@ -23,7 +23,7 @@
     §4-attribution question: this ''Personal Observations, 07/20/05'' section sits within
     the Al-Muthaqqab entry (before Al-Muthaqqab''s own coordinate line and before the Qūrus
     header), so the dated autopsy belongs to Al-Muthaqqab (ENT-PLC-0124), not Qūrus. Supports
-    OBS-0247. schema v2 record.'
+    ASR-0247. schema v2 record.'
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0119
-  observations_supported:
-  - OBS-0237
+  assertions_supported:
+  - ASR-0237
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Adhana, pp. 437–440, "Personal Observations, 7/20/05" (SRC-0065).
   paraphrase: On the same 2005 visit Eger recorded that the Adana museum holds a hoard

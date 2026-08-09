@@ -10,9 +10,9 @@
     the Jerablus Tahtani survey (Wilkinson et al. 2007) and the TEARP (Algaze et al.
     1994).
   confidence: 4
-  observations_supported:
-  - OBS-0050
-  - OBS-0051
+  assertions_supported:
+  - ASR-0050
+  - ASR-0051
   paraphrase: Early Islamic sites at Jerablus Tahtani and in the Birecik area reused
     pre-existing Late Roman canal and qanat systems along the Euphrates and its tributaries;
     and known Euphrates crossings, including Jisr Manbij, lie opposite tributary confluences.

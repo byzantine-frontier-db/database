@@ -6,8 +6,8 @@
   - ENT-PLC-0113
   - ENT-PLC-0104
   - ENT-PLC-0044
-  observations_supported:
-  - OBS-0157
+  assertions_supported:
+  - ASR-0157
   provenance: primary_paraphrase
   citation: 'al-Ṭabarī, Taʾrīkh [citation needed: exact vol./page]'
   paraphrase: al-Ṭabarī refers to Hishām's money-generating estate at Dawrīn (with

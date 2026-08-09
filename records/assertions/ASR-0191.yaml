@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0191
+  proposition: al-Manṣūr settled 4,000 soldiers at Malaṭya with farmland grants (iqṭāʿ).
+  associated_entities:
+  - ENT-PERS-0038
+  - ENT-PLC-0016
+  supporting_attestations:
+  - ATT-0264
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

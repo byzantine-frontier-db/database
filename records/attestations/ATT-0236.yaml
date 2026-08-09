@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PERS-0064
   - ENT-PLC-0091
-  observations_supported:
-  - OBS-0170
+  assertions_supported:
+  - ASR-0170
   provenance: primary_paraphrase
   citation: al-Balādhurī, Futūḥ al-buldān (1987), p.237, via Eger 2015 p.209 (n.23)
   paraphrase: On conquering Raqqa, ʿIyāḍ ibn Ghanm left the land with its established

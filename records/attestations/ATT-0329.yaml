@@ -10,7 +10,7 @@
   - ENT-PLC-0178
   - ENT-PLC-0034
   - ENT-PLC-0022
-  observations_supported: []
+  assertions_supported: []
   provenance: modern_synthesis
   citation: Eger 2015, p. 299 (after Cappel, 'The Byzantine Response to the Arab',
     pp. 116-17).

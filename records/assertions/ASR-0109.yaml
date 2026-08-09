@@ -1,0 +1,22 @@
+- record_type: assertion
+  id: ASR-0109
+  proposition: The Caliph Hishām was credited in early sources (Jarīr's panegyric;
+    Agapius of Manbij; the anonymous Chronicle of 819) with extensive canal-building
+    diverting Euphrates water to irrigate plantations and fields near Raqqa, providing
+    the textual basis for dating the major Balikh canal to his reign (canal built
+    724).
+  associated_entities:
+  - ENT-PERS-0019
+  - ENT-PLC-0097
+  - ENT-PLC-0091
+  - ENT-PLC-0044
+  supporting_attestations:
+  - ATT-0170
+  - ATT-0171
+  - ATT-0172
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-16T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

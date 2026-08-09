@@ -10,8 +10,8 @@
     and a well (Jarablus Tahtani Survey Site 17) as a stopping point and probable
     river-crossing c. 47 km north of Jisr Manbij.
   confidence: 3
-  observations_supported:
-  - OBS-0067
+  assertions_supported:
+  - ASR-0067
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

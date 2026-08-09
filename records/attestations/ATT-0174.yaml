@@ -5,8 +5,8 @@
   - ENT-PLC-0104
   - ENT-PLC-0106
   - ENT-PLC-0105
-  observations_supported:
-  - OBS-0111
+  assertions_supported:
+  - ASR-0111
   provenance: primary_paraphrase
   citation: Yāqūt al-Ḥamawī, Muʿjam al-buldān (1990 ed.), vol. 3, p. 15; reached via
     Eger 2015, p. 147 n. 43.

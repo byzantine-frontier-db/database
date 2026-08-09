@@ -7,8 +7,8 @@
   citation: Michael the Syrian, Chronique, vol. 3, p. 504; reached via Eger 2015 p.
     85 n. 36.
   confidence: 4
-  observations_supported:
-  - OBS-0053
+  assertions_supported:
+  - ASR-0053
   paraphrase: Michael the Syrian's chronicle provides a list of bishops of Zeugma
     between 818 and 1048.
   location_within_source: Michael the Syrian, Chronique, vol. 3, p. 504

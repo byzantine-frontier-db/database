@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0127
-  observations_supported:
-  - OBS-0250
+  assertions_supported:
+  - ASR-0250
   provenance: primary_observation
   citation: 'Eger 2008, Appendix 2, s.v. Sīs (Sīsīya), pp. 523–524, "Personal Observations:
     07/20/04" (SRC-0065).'
@@ -21,7 +21,7 @@
     confidence: 5
   confidence: 4
   notes: 'Section-4 first-person autopsy (dated site visit); schema v2 (primary_observation
-    + observation_date). Supports OBS-0250. Resolves the p.525 §4 boundary case: this Personal-Observations
+    + observation_date). Supports ASR-0250. Resolves the p.525 §4 boundary case: this Personal-Observations
     header closes the Sīs entry (its prose is explicitly about Flaviopolis/Sīs/Kozan), not Sumaysāṭ.'
   metadata:
     schema_version: 2.0.0

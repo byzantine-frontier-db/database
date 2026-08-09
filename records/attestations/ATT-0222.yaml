@@ -5,8 +5,8 @@
   - ENT-PERS-0043
   - ENT-PERS-0019
   - ENT-PLC-0044
-  observations_supported:
-  - OBS-0156
+  assertions_supported:
+  - ASR-0156
   provenance: primary_paraphrase
   citation: Agapius of Manbij, Kitāb al-ʿUnwān, with the Chronicle of 1234, via Hoyland,
     Theophilus of Edessa's Chronicle, pp. 258-9

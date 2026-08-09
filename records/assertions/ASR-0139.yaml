@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0139
+  proposition: At Hisn al-Tīnāt the term ḥiṣn denotes a fortified way station for
+    timber gathering and distribution rather than a military-strategic fort.
+  associated_entities:
+  - ENT-PLC-0123
+  supporting_attestations:
+  - ATT-0204
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-17T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

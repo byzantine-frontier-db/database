@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PERS-0019
   - ENT-PLC-0144
-  observations_supported:
-  - OBS-0155
+  assertions_supported:
+  - ASR-0155
   provenance: primary_paraphrase
   citation: Chronicle of 1234 (anonymous), via Hoyland, Theophilus of Edessa's Chronicle,
     pp. 223-4

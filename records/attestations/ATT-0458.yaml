@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0070
-  observations_supported:
-  - OBS-0249
+  assertions_supported:
+  - ASR-0249
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Sanjah/Bahasnā, pp. 519–520, "Personal Observations,
     9/26/04" (SRC-0065).
@@ -20,7 +20,7 @@
     confidence: 5
   confidence: 4
   notes: 'Section-4 first-person autopsy (dated site visit); schema v2 (primary_observation
-    + observation_date). Supports OBS-0249. NB: the front-matter inventory listed this entry
+    + observation_date). Supports ASR-0249. NB: the front-matter inventory listed this entry
     as having no §4; the entry text in fact carries a Personal Observations header — §4 verified
     per entry.'
   metadata:

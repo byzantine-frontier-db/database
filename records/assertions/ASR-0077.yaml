@@ -1,0 +1,18 @@
+- record_type: assertion
+  id: ASR-0077
+  proposition: Ruṣāfat Hishām, a former Byzantine/Ghassanid centre developed by Hishām
+    with quṣūr and canals, was (per Ibn Buṭlān) mainly a Christian community and way
+    station at a Dimashq/Ḥimṣ crossroads.
+  associated_entities:
+  - ENT-PLC-0067
+  - ENT-PERS-0019
+  - ENT-PLC-0009
+  supporting_attestations:
+  - ATT-0138
+  - ATT-0139
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

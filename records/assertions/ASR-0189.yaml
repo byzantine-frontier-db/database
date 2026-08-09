@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0189
+  proposition: Muʿāwiya transported Persians to Anṭākiya in 669/70.
+  associated_entities:
+  - ENT-PERS-0020
+  - ENT-PLC-0022
+  supporting_attestations:
+  - ATT-0265
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0074
-  observations_supported:
-  - OBS-0244
+  assertions_supported:
+  - ASR-0244
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Ḥiṣn Manṣūr, pp. 472–474, "Personal Observations,
     9/26/04" (SRC-0065).
@@ -20,7 +20,7 @@
     precision: exact_day
     confidence: 5
   confidence: 4
-  notes: Section-4 first-person autopsy (dated site visit). Supports OBS-0244. schema v2 record.
+  notes: Section-4 first-person autopsy (dated site visit). Supports ASR-0244. schema v2 record.
   metadata:
     schema_version: 2.0.0
     record_version: 1.0.0

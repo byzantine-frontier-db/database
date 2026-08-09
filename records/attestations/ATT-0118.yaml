@@ -13,8 +13,8 @@
   confidence: 2
   notes: 'Secondary route: Eger 2015, p. 92, n. 56. Edition forthcoming at time of
     Eger; [citation needed: published edition].'
-  observations_supported:
-  - OBS-0062
+  assertions_supported:
+  - ASR-0062
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

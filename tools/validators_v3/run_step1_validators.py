@@ -56,7 +56,7 @@ def load_corpus(records_dir):
         return [load(p) for p in glob.glob(os.path.join(records_dir, name, "*.yaml"))]
     return {
         "attestations":   coll("attestations"),
-        "observations":   coll("observations"),   # = assertions pre-M1-rename
+        "observations":   coll("assertions"),     # M1 rename applied: observations/ -> assertions/
         "interpretations":coll("interpretations"),
         "places":         coll("places"),
         "relationships":  coll("relationships"),

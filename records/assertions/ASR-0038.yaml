@@ -1,0 +1,20 @@
+- record_type: assertion
+  id: ASR-0038
+  proposition: Ḥalab was the southern anchor of the central thughūr, surrounded by
+    smaller ʿawāṣim towns (including Dābiq, Tīzīn, Raʿbān, Manbij, Dulūk, Kaysūm,
+    and Sanjah/Bahasnā) and connected by a network of east-west roads, indicating
+    a well-travelled, settled region rather than a no-man's-land.
+  associated_entities:
+  - ENT-PLC-0034
+  - ENT-PLC-0009
+  - ENT-PLC-0010
+  - ENT-PLC-0043
+  supporting_attestations:
+  - ATT-0090
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-14T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

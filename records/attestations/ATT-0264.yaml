@@ -14,9 +14,9 @@
   - ENT-PLC-0068
   - ENT-EVT-0035
   - ENT-EVT-0042
-  observations_supported:
-  - OBS-0190
-  - OBS-0191
+  assertions_supported:
+  - ASR-0190
+  - ASR-0191
   provenance: modern_synthesis
   citation: 'Eger 2015, pp. 234-235 (citing fns 105-106: Kennedy; Bianquis; von Sivers).'
   paraphrase: Pro-Umayyad southern-Iraqi tribes (e.g. the Kinda from Kūfa and the

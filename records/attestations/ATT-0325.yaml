@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0179
   - ENT-PLC-0156
-  observations_supported:
-  - OBS-0232
+  assertions_supported:
+  - ASR-0232
   provenance: primary_quotation
   citation: Abū al-Fidāʾ, Kitāb taqwīm al-buldān, p. 41; reached via Eger 2015, p.
     304.

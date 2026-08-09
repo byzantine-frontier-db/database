@@ -14,8 +14,8 @@
   confidence: 3
   notes: No primary source named by Eger for the 811 sacking; route is the Tannous
     dissertation. Attested against Eger (SRC-0007) as modern synthesis.
-  observations_supported:
-  - OBS-0061
+  assertions_supported:
+  - ASR-0061
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

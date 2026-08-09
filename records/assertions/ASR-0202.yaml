@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0202
+  proposition: The country between Ḥalab and Anṭākiya (the Amuq) was populous and
+    prosperous in 1051, as observed by Ibn Buṭlān.
+  associated_entities:
+  - ENT-PLC-0020
+  - ENT-PLC-0034
+  - ENT-PLC-0022
+  supporting_attestations:
+  - ATT-0277
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T16:49:50Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

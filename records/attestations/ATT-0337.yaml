@@ -4,8 +4,8 @@
   entities_referenced:
   - ENT-PLC-0068
   - ENT-PERS-0021
-  observations_supported:
-  - OBS-0235
+  assertions_supported:
+  - ASR-0235
   provenance: primary_paraphrase
   citation: 'al-Mutanabbī, Dīwān, qaṣīda on the Battle of Ḥadath; reached via Eger,
     The Islamic-Byzantine Frontier (London, 2015), n.5 (p.368). [citation needed:

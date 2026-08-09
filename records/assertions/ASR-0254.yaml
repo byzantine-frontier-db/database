@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0254
+  proposition: At Doğanşehir a largely intact circuit of unfaced city walls survives beside the river
+    — with discernible corners, gates and towers on both sides of the modern road, indicating a double
+    city wall — closely comparable to the frontier walls of Ḥadath and Malaṭiya, though the site
+    is now built over by modern houses and yielded no surface pottery on the roads walked.
+  associated_entities:
+  - ENT-PLC-0007
+  supporting_attestations:
+  - ATT-0507
+  notes: Derived from Eger's dated 2005 autopsy (Section 4). Standing-architecture observation; the
+    absence of surface pottery is qualified by Eger (only modern roads were walked). editorial_review_required.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-16T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -11,8 +11,8 @@
   confidence: 3
   notes: 'Transmission chain: al-Sarakhsī > Rosenthal 1951 > Eger 2015, p. 89, n.
     49.'
-  observations_supported:
-  - OBS-0059
+  assertions_supported:
+  - ASR-0059
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

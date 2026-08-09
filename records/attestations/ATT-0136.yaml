@@ -13,8 +13,8 @@
     under al-Mahdī in the late eighth century, with libin walls repaired after winter
     rains and a mosque built; it guarded a key Taurus pass.
   confidence: 3
-  observations_supported:
-  - OBS-0075
+  assertions_supported:
+  - ASR-0075
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

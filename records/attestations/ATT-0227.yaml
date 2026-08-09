@@ -6,8 +6,8 @@
   - ENT-PERS-0025
   - ENT-PERS-0052
   - ENT-PLC-0100
-  observations_supported:
-  - OBS-0161
+  assertions_supported:
+  - ASR-0161
   provenance: primary_paraphrase
   citation: al-Sarakhsī, via Yāqūt, Muʿjam al-buldān (1990), 3.15-16 (Rosenthal, Aḥmad
     b. al-Ṭayyib as-Saraḫsī, p.71)

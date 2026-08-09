@@ -5,8 +5,8 @@
   - ENT-PLC-0022
   - ENT-PLC-0020
   - ENT-PERS-0061
-  observations_supported:
-  - OBS-0147
+  assertions_supported:
+  - ASR-0147
   provenance: primary_quotation
   citation: Libanius, Or. 11.260–2 and Or. 11.230 (Norman trans., TTH 34, 2000); reached
     via Eger (SRC-0007), p. 194 (nn. 24–25)

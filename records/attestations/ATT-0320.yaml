@@ -5,8 +5,8 @@
   - ENT-PLC-0172
   - ENT-PLC-0181
   - ENT-PLC-0171
-  observations_supported:
-  - OBS-0227
+  assertions_supported:
+  - ASR-0227
   provenance: primary_paraphrase
   citation: al-Muqaddasī, Aḥsan al-taqāsīm, p. 119 (trans. Wheatley, The Places Where
     Men Pray Together, p. 89); reached via Eger 2015, pp. 300-1.

@@ -7,8 +7,8 @@
   - ENT-PLC-0111
   - ENT-PLC-0113
   - ENT-PLC-0114
-  observations_supported:
-  - OBS-0117
+  assertions_supported:
+  - ASR-0117
   provenance: modern_synthesis
   citation: Eger 2015, pp. 152-154 (Euphrates-Khabūr confluence; Towns).
   paraphrase: Eger identifies Qarqīsiyā (Buṣayra), Raḥba and Dāliya as the main known

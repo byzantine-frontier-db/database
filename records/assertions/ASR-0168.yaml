@@ -1,0 +1,16 @@
+- record_type: assertion
+  id: ASR-0168
+  proposition: The Life of Theodota of Amida mentions irrigation ditches feeding fields
+    of grain, fruit and produce around Qenneshre.
+  associated_entities:
+  - ENT-PLC-0054
+  - ENT-PERS-0033
+  supporting_attestations:
+  - ATT-0234
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

@@ -1,0 +1,14 @@
+- record_type: assertion
+  id: ASR-0065
+  proposition: Magness's reanalysis of the Dehes ceramics redates its houses to the
+    later sixth-seventh century, with occupation continuing into the ninth-tenth centuries.
+  associated_entities:
+  - ENT-PLC-0057
+  supporting_attestations:
+  - ATT-0121
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-15T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

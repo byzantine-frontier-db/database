@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0251
+  proposition: Sumaysāṭ (Samsat höyük) is today submerged under the Atatürk Barajı reservoir;
+    Eger could only drive near the former site by the modern village, and reports that a lakeside
+    restaurant near Adıyaman holds a private collection from the site while the Adıyaman Museum
+    holds Early Islamic ceramics (ʿAbbāsid lustrewares and moulded buffwares) from the excavations.
+  associated_entities:
+  - ENT-PLC-0073
+  supporting_attestations:
+  - ATT-0477
+  notes: Derived from Eger's dated 2005 autopsy (Section 4). The site itself is inaccessible
+    (flooded); the observation is of the drowned setting and of dispersed excavation material.
+  metadata:
+    schema_version: 2.0.0
+    record_version: 1.0.0
+    created_at: '2026-07-13T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

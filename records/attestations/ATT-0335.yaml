@@ -5,8 +5,8 @@
   - ENT-PERS-0002
   - ENT-PLC-0183
   - ENT-PLC-0167
-  observations_supported:
-  - OBS-0233
+  assertions_supported:
+  - ASR-0233
   provenance: primary_paraphrase
   citation: Theophanes Continuatus, on the building of the Bryas Palace under Theophilos;
     reached via Eger, The Islamic-Byzantine Frontier (London, 2015), n.8 (p.369),

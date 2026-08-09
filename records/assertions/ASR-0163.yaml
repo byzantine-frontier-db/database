@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0163
+  proposition: At Domuztepe (KM 97), a 16 ha tell, surface survey and excavation indicated
+    a Late Roman church and a Christian cemetery; across the region many unoccupied
+    tells were reused for burial (cairns/tumuli).
+  associated_entities:
+  - ENT-PLC-0031
+  - ENT-PLC-0021
+  supporting_attestations:
+  - ATT-0229
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

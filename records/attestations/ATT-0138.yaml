@@ -11,8 +11,8 @@
     and a way station at a crossroads of routes from Dimashq and Ḥimṣ.
   confidence: 3
   notes: 'Secondary route: Eger 2015, p. 99. Page not footnoted by Eger here.'
-  observations_supported:
-  - OBS-0077
+  assertions_supported:
+  - ASR-0077
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0

@@ -6,8 +6,8 @@
   - ENT-PLC-0037
   - ENT-PLC-0045
   - ENT-PLC-0044
-  observations_supported:
-  - OBS-0159
+  assertions_supported:
+  - ASR-0159
   provenance: modern_synthesis
   citation: Eger 2015 p.211, synthesising H. Kennedy, 'Elite incomes in the Early
     Islamic state', p.143, and Kātbi, Islamic Land Tax, pp.239-40, 249

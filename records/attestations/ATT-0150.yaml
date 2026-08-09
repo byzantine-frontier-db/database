@@ -3,8 +3,8 @@
   source: SRC-0023
   entities_referenced:
   - ENT-PLC-0016
-  observations_supported:
-  - OBS-0087
+  assertions_supported:
+  - ASR-0087
   provenance: primary_paraphrase
   citation: 'Ibn Shaddād, al-Aʿlāq al-Khaṭīra [from al-Yaʿqūbī], [citation needed:
     exact Ibn Shaddād page for the Malatiya seven-quarters notice] — reached via Eger

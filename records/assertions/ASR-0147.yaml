@@ -1,0 +1,17 @@
+- record_type: assertion
+  id: ASR-0147
+  proposition: Libanius portrays Antioch as drawing its produce from its hinterland
+    by lake and river transport, while elsewhere conceding that the hinterland had
+    little need of the town owing to exchange among its own communities.
+  associated_entities:
+  - ENT-PLC-0022
+  - ENT-PLC-0020
+  supporting_attestations:
+  - ATT-0212
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-19T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

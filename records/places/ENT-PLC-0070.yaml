@@ -31,7 +31,7 @@
   - INT-0168
   notes: 'Section-4 verified per entry: this entry DOES carry a Personal Observations
     header (9/26/04) despite the front-matter inventory marking it as §4-absent — Eger
-    visited (ATT-0458 / OBS-0249). No gazetteer coordinate given.'
+    visited (ATT-0458 / ASR-0249). No gazetteer coordinate given.'
   metadata:
     schema_version: 2.0.0
     record_version: 1.2.0

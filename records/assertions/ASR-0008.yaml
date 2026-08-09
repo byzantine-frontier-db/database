@@ -1,0 +1,15 @@
+- record_type: assertion
+  id: ASR-0008
+  proposition: An archaeological destruction horizon at Hisarköy/Amorium is consistent
+    with violent sack in the mid-ninth century.
+  associated_entities:
+  - ENT-PLC-0001
+  - ENT-EVT-0006
+  supporting_attestations:
+  - ATT-0011
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-01T00:00:00Z'
+    workflow_state: draft
+    editorial_review_required: true

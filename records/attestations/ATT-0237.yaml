@@ -7,8 +7,8 @@
   - ENT-PLC-0010
   - ENT-PLC-0094
   - ENT-PERS-0020
-  observations_supported:
-  - OBS-0171
+  assertions_supported:
+  - ASR-0171
   provenance: modern_synthesis
   citation: Eger 2015 p.210, citing Kātbi, Islamic Land Tax, p.247
   paraphrase: ʿAbd al-Malik gifted lands to frontier fighters at al-Maṣṣīṣa, the thughūr

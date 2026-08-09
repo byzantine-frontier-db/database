@@ -6,8 +6,8 @@
   - ENT-PERS-0018
   - ENT-PERS-0073
   - ENT-PLC-0091
-  observations_supported:
-  - OBS-0223
+  assertions_supported:
+  - ASR-0223
   provenance: primary_quotation
   citation: Eid (ed.), Lettre du calife Hārūn al-Rashīd à l'empereur Constantin VI,
     pp. 181-3 (Fr. trans. pp. 79-80); Eng. via el-Cheikh, Byzantium Viewed by the

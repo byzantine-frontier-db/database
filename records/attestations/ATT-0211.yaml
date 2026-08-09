@@ -3,8 +3,8 @@
   source: SRC-0043
   entities_referenced:
   - ENT-PLC-0022
-  observations_supported:
-  - OBS-0146
+  assertions_supported:
+  - ASR-0146
   provenance: primary_paraphrase
   citation: Libanius, Or. 11.22 (Norman trans., TTH 34, 2000); reached via Eger (SRC-0007),
     p. 187 (epigraph, n. 1)

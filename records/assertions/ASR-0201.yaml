@@ -1,0 +1,19 @@
+- record_type: assertion
+  id: ASR-0201
+  proposition: Large square early-Abbasid frontier towns derived morphologically from
+    Umayyad estates and resemble Umayyad ʿAnjar.
+  associated_entities:
+  - ENT-PLC-0152
+  - ENT-PLC-0098
+  - ENT-PLC-0099
+  - ENT-PLC-0151
+  - ENT-POL-0003
+  supporting_attestations:
+  - ATT-0262
+  metadata:
+    schema_version: 1.0.0
+    record_version: 1.0.0
+    created_at: '2026-06-20T00:00:00Z'
+    created_by: Curtis
+    workflow_state: draft
+    editorial_review_required: true

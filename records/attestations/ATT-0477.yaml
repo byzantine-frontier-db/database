@@ -3,8 +3,8 @@
   source: SRC-0065
   entities_referenced:
   - ENT-PLC-0073
-  observations_supported:
-  - OBS-0251
+  assertions_supported:
+  - ASR-0251
   provenance: primary_observation
   citation: Eger 2008, Appendix 2, s.v. Sumaysāṭ, pp. 525–535, "Personal Observations, 9/26/05"
     (SRC-0065).
@@ -19,7 +19,7 @@
     confidence: 5
   confidence: 4
   notes: 'Section-4 first-person autopsy (dated site visit); schema v2 (primary_observation
-    + observation_date). Supports OBS-0251. NB: the entry''s §4 header is misspelled ''Personal
+    + observation_date). Supports ASR-0251. NB: the entry''s §4 header is misspelled ''Personal
     Obvservations'' in the gazetteer, which defeats header-detection tooling and is why the
     front-matter inventory recorded this entry as lacking §4 — §4 verified per entry against
     the prose.'

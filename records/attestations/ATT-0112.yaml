@@ -13,8 +13,8 @@
   confidence: 3
   notes: 'Transmission chain: al-Sarakhsī (lost work) > fragments ed. Rosenthal 1951
     > Eger 2015, p. 89, n. 47.'
-  observations_supported:
-  - OBS-0058
+  assertions_supported:
+  - ASR-0058
   metadata:
     schema_version: 1.0.0
     record_version: 1.0.0
